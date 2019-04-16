@@ -20,12 +20,12 @@
 
    Los archivos =*.org= de este blog se encuentran en:
 
-   - http://gitlab.com/osiux/osiux-blog
+   - http://gitlab.com/osiux/osiux.gitlab.io
 
-   Los archivos =*.html= junto con las imágenes en:
-
-   - https://gitlab.com/osiux/osiris.github.com
-
+   Se puede visualizar la versión generada en =.html= desde:
+   
+   - https://osiux.gitlab.io/
+   
 ** =gpg=
 
    Mantener las conversaciones confidenciales hoy día es una tarea
