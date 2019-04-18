@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2008-11-29
+#+DATE:      2008-11-29 12:15
 
 En el trabajo los compraron para tener conectividad fuera de la
 oficina, y pase mucho tiempo sin poder usarlo en mi Linux. Antes que

@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2010-06-11
+#+DATE:      2010-06-11 16:31
 
 ** mount from script
 

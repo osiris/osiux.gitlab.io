@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2018-01-01
+#+DATE:      2018-01-01 02:06
 
 En estos últimos 2 años dejé un poco de ser developer para convertirme
 en un sysadmin y yo siempre dije *"como sysadmin soy buen developer y

@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-07-05
+#+DATE:      2012-07-05 22:19
 
 Como todo amante de =*UNIX= siempre quiero tener un
 =shell/terminal/consola/ssh= disponible y desde hace mucho que vengo

@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-05-23
+#+DATE:      2012-05-23 01:15
 
 Llevo más de seis años participando del proyecto *BuenosAiresLibre*
 también conocido como BAL [fn:BAL] y hemos realizado todo tipo de

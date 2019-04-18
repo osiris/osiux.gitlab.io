@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-10-15
+#+DATE:      2012-10-15 22:19
 
 Hoy comenzó el [[http://cisl.org.ar][CISL]] y
 voy a estar hablando sobre Redes Libres,

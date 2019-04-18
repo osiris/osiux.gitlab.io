@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-02-17
+#+DATE:      2012-02-17 22:19
 
 #+ATTR_HTML: :width "640" :height "480" :title las cooperativas construyen un mundo mejor
 [[file:img/las-cooperativas-construyen-un-mundo-mejor.jpg][file:tmb/las-cooperativas-construyen-un-mundo-mejor.jpg]]

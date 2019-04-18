@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2015-01-14
+#+DATE:      2015-01-14 14:00
 
 #+ATTR_HTML: :width 640 :height 480 :title git-repos
 [[file:img/git-repos-osiris.png][file:tmb/git-repos-osiris.png]]

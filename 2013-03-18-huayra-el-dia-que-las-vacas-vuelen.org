@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2013-03-18
+#+DATE:      2013-03-18 05:39
 
 #+ATTR_HTML: :witdh 640 :height 500 :title Huayra
 [[file:img/huayra-vaca-volando.png]]

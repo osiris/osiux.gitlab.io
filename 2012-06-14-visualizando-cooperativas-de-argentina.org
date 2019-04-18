@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-06-14
+#+DATE:      2012-06-14 22:19
 
 ** Convirtiendo un CSV en un gráfico animado
 

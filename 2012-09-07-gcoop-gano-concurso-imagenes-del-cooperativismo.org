@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-09-07
+#+DATE:      2012-09-07 22:19
 
 [[file:img/gcoop-codigos-cooperativos.jpg]]
 

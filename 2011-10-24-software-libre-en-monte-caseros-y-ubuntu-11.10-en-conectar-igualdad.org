@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2011-10-24
+#+DATE:      2011-10-24 22:19
 
 [[file:img/conectar-igualdad/2011-10-22_ubuntu-conectar-igualdad_10.jpg]]
 [[file:img/conectar-igualdad/2011-10-22_ubuntu-conectar-igualdad_14.jpg]]

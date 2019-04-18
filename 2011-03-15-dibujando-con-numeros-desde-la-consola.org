@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2011-13-15
+#+DATE:      2011-13-15 22:19
 
 Me puse a generar las potencias de 2 y logré un simpático gráfico
 usando una línea de bash:

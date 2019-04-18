@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2013-02-01
+#+DATE:      2013-02-01 18:58
 
 Actualmente me encuentro migrando el blog que estaba en frontweb a
 archivos de Org-mode convertidos en HTML estático. En gran parte se

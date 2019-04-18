@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2011-07-03
+#+DATE:      2011-07-03 02:38
 
 ** La previa
 

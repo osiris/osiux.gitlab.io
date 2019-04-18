@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2013-06-05
+#+DATE:      2013-06-05 02:38
 
 El *Equipo Huayra* tiene el agrado de invitar a la *presentación
 oficial* de [[http://huayra.conectarigualdad.gob.ar][huayra GNU/LinuX]] el *Sistema Operativo Libre* de [[http://conectarigualdad.gob.ar][Conectar Igualdad]].

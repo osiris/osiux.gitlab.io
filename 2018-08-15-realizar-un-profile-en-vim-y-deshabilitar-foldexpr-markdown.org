@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2018-08-15
+#+DATE:      2018-08-15 02:06
 
 Hace unos días que vengo notando que =vim= se cuelga o al menos tarda
 demasiado al pegar texto.

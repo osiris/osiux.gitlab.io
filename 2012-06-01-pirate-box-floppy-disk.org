@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-06-01
+#+DATE:      2012-06-01 22:19
 
 PirateBox [fn:piratebox] es un proyecto para compartir archivos usando
 un router WiFi, en mi caso estoy usando un TPLink MR3020 [fn:mr3020] y

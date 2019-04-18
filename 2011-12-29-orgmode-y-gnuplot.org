@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2011-12-29
+#+DATE:      2011-12-29 22:19
 
 Hoy me desvelé pero estoy muy contento, luego de varios días de jugar
 con gnuplot y orgmode logré realizar el gráfico que hace tiempo tenía

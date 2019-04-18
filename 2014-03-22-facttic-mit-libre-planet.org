@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2014-03-22
+#+DATE:      2014-03-22 10:06
 
 #+ATTR_HTML: :width 400 :height 265 :title FACTTIC MIT LibrePlanet
 [[file:img/facttic-mit-libre-planet.jpg]]

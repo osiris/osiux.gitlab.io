@@ -3,7 +3,7 @@
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+INCLUDE:     header.org
-#+DATE:        2011-05-23
+#+DATE:      2011-05-23 22:19
 
 Luego de varios meses pude dedicar un par de pomodoros a documentar
 los dos scripts que uso para hacer mis pomodoros. :-)

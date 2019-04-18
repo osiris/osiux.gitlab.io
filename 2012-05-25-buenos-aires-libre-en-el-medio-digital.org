@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-05-25
+#+DATE:      2012-05-25 22:19
 
 En coincidencia con la conmemoración de la revolución del 25 de Mayo,
 hoy a las 22hs por Canal Encuentro [fn:encuentro], en el ciclo *en el

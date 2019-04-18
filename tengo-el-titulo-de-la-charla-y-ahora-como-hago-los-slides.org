@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2013-01-15
+#+DATE:      2013-01-15 10:24
 
 Hace varios años que me aventuré a dar charlas del proyecto
 *BuenosAiresLibre.org* [fn:BAL], recuerdo que me preguntaron

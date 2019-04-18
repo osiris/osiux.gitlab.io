@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2011-07-03
+#+DATE:      2011-07-03 22:19
 
 Recién pude terminar un resumen de lo que fueron las JRRL3 en el
 [[http://softwarelivre.org/fisl12][FISL12]] todavía le faltan cosas,

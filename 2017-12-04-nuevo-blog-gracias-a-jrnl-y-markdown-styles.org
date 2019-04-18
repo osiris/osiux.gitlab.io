@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2017-12-04
+#+DATE:      2017-12-04 03:43
 
 Hace casi 2 años de mi último *post* [fn:post] en este blog y espero
 revertir esta situación median te la utilización de =jrnl= [fn:jrnl],

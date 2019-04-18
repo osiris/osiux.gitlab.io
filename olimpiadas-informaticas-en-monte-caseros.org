@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2011-10-24
+#+DATE:      2011-10-24 12:15
 
 ** Las olimpíadas
 

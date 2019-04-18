@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2014-04-22
+#+DATE:      2014-04-22 10:29
 
 #+ATTR_HTML: :width 640 :height 366 :title FLISoL 2014
 [[file:img/flisol-2014-banner.png]]

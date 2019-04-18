@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-09-29
+#+DATE:      2012-09-29 22:19
 
 Hoy participé del
 [[http://in.cafelug.org.ar/2012/08/2-programa-de-charlas---2012/index.html][CaFeIN]]

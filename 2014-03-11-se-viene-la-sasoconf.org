@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2013-03-11
+#+DATE:      2013-03-11 09:33
 
 #+ATTR_HTML: :width 640 :height 358 :title Se viene la SASOConf
 [[file:img/SASOConf.png][file:tmb/SASOConf.png]]

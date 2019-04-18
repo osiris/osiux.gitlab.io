@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2014-11-14
+#+DATE:      2014-11-14 03:03
 
 #+ATTR_HTML: :width 570 :height 147 :title qmhandle status bar tmux using spark
 [[file:img/qmhandle-status-bar-tmux.png][file:tmb/qmhandle-status-bar-tmux-spark.png]]

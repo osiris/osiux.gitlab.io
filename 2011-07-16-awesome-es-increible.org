@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2011-07-16
+#+DATE:      2011-07-16 22:19
 
 Usar *Awesome* como entorno gráfico es muy gratificante, no consume
 recursos, es muy ágil, evita perder tiempo ubicando ventanas, aprovecha

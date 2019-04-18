@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2014-08-12
+#+DATE:      2014-08-12 18:33
 
 #+ATTR_HTML: :width 640 :height 487 :title Clonar pendrives - routers
 [[file:img/clonar-pendrives/letras-viajeras-routers.jpg][file:tmb/clonar-pendrives/letras-viajeras-routers.jpg]]

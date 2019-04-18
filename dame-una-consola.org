@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2010/11/26
+#+DATE:        2010-11-26 02:32
 
 [[file:img/terminal.png]]
 

@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2017-07-10
+#+DATE:      2017-07-10 03:43
 
 Estoy migrando mi blog de *Org-mode* a *Markdown* y para convertir el
 archivo en *EMACS* solo basta ejecutar:

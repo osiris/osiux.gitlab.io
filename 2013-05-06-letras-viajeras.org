@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2013-05-06
+#+DATE:      2013-05-06 16:21
 
 #+ATTR_HTML: :width 640 :height 388 :title Letras Viajeras
 [[file:img/letras-viajeras.jpg]]

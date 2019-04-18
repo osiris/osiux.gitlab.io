@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-02-14 
+#+DATE:      2012-02-14 22:19 
 
 En [[http://gcoop.coop][gcoop]], solemos auto-capacitarnos al menos
 una vez por mes, algún socio que tenga ganas de explicar algo que le

@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2013-03-31
+#+DATE:      2013-03-31 20:09
 
 [[http://gcoop.coop][gcoop]] abrió la inscripción a los *Cursos de Formación Profesional en
 Software Libre*, en convenio con el /Ministerio de Trabajo de la

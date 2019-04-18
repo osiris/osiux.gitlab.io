@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-06-15
+#+DATE:      2012-06-15 22:19
 
 Ariel de [[http://gcoop.coop][gcoop]], dejó la cámara sacando **una foto
 cada 30 segundos** durante el hackaton del

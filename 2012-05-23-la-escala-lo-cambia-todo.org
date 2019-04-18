@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-05-23
+#+DATE:      2012-05-23 22:19
 
 Esta madrugada leí un interesante artículo titulado *si en tu barrio
 no hay un nodo* [fn:hollman] realizado por Hollman Enciso

@@ -3,7 +3,7 @@
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
-#+DATE:        2009-01-16
+#+DATE:      2009-01-16 13:08
 #+INCLUDE:     header.org
 
 Decidí salir de gnome y probar *fluxbox*, el resultado: no vuelvo ni

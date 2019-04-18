@@ -3,7 +3,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2008-09-11
+#+DATE:      2008-09-11 10:06
 
 ** Instalando GnuPG
 

@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-05-28
+#+DATE:      2012-05-28 22:19
 
 El jueves pasado recorrí varios lugares de microcentro y donde había
 antenas para *TDA* [fn:tda] eran muy caras y donde estaban a buen precio

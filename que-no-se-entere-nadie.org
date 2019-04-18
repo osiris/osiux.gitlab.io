@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        {{{modification-time(%Y-%m-%d %H:%M)}}}
+#+DATE:        2012-15-12 22:19
 
 ** la era de la inocencia
 

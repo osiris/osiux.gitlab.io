@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-06-26
+#+DATE:      2012-06-26 22:19
 
 ** la previa
 

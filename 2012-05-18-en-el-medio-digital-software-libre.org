@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-05-18
+#+DATE:      2012-05-18 22:19
 
 Canal Encuentro [fn:encuentro] cada día ofrece mejores programas y uno de
 ellos es el último ciclo de la serie *en el medio* que en esta

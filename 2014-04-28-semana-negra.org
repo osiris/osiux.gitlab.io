@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2014-04-25
+#+DATE:      2014-04-25 12:52
 
 #+ATTR_HTML: :width 640 :height 480 :title Semana Negra usando TMUX
 [[file:img/semana-negra/tmux.png][file:tmb/semana-negra/tmux.png]]

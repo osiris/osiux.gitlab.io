@@ -6,7 +6,7 @@
 #+BEAMER_FRAME_LEVEL: 2
 #+TITLE: de fondo negro a fondo blanco
 #+AUTHOR: OSiRiS <osiris@gcoop.coop>
-#+DATE: 2012-02-14
+#+DATE:      2012-02-14 05:38
 #+LANGUAGE: es
 #+COLUMNS: %10ID %10STATUS %10ASSIGNED(Asignado) %50ITEM
 

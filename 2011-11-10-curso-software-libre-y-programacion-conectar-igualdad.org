@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2011-11-10
+#+DATE:      2011-11-10 22:19
 
 Miércoles 9 de noviembre de 2011
 

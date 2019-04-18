@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2018-12-11
+#+DATE:      2018-12-11 05:38
 
 OpenSCAD es un CAD paramétrico con el que se puede modelar en 3d sin
 dibujar, ideal para programadores porque con simples funciones se pueden

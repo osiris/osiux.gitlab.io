@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2011-11-01
+#+DATE:      2011-11-01 11:18
 
 En la revista Information Technology Nro. 193 de Octubre 2013, en la
 sección Actualidad/TELCOS apareció la siguiente nota:

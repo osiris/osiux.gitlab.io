@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2011-09-30
+#+DATE:      2011-09-30 22:19
 
 Ayer alguien preguntó en la [[http://gcoop.coop][coop]] cómo ejecutar un
 shell como una ventana más de Vim, tras una rápida búsqueda por la web

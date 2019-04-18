@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-06-13
+#+DATE:      2012-06-13 22:19
 
 Hoy desde las 16 horas los esperamos en el Centro Cultural de la
 Cooperación (Sala Solidaridad, 2 subsuelo) para compartir experiencias e

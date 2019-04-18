@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-03-05
+#+DATE:      2012-03-05 22:19
 
 Estuve jugando un poco con varios *APs* (Access Points) y luego de un
 par de minutos de *scannear* las redes que me rodean se me ocurrió

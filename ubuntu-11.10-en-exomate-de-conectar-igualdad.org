@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2011-10-24
+#+DATE:      2011-10-24 12:15
 
 El sábado 22 en la Ciudad de Curuzú Cuatiá gracias a Liliana Arbelo,
 tuve la oportunidad de jugar un poco con varias notebooks del

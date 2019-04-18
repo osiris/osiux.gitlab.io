@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2010-11-12
+#+DATE:      2010-11-12 10:24
 
 #+BEGIN_EXAMPLE
                 _                 _              _            _

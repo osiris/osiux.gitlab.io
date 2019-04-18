@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2014-02-10
+#+DATE:      2014-02-10 11:56
 
 Es un método de gestión de las actividades y el título de un libro
 de David Allen [fn:allen], libro que en español se ha editado con

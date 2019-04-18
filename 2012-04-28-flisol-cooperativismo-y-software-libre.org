@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2012-04-28
+#+DATE:      2012-04-28 22:19
 
 Este año en el [[http://flisol.info][Festival Latinoamericano de
 Instalación de Software Libre]] de Buenos Aires, pude dar una charla de

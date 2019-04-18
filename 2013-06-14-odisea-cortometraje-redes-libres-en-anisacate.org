@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:     header.org
-#+DATE:      2013-06-14
+#+DATE:      2013-06-14 02:31
 
 Cortometraje de /Lucas Schiaroli/ y su productora /25watts/ sobre las
 *RedesLibres* [fn:redeslibres], contado desde la experiencia de

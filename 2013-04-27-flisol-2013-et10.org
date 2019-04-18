@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2013-04-27
+#+DATE:      2013-04-27 13:28
 
 El sábado 27 de Abril, junto a /Hugo Ruscitti/ [fn:hugo] de
 *gcoop* [fn:gcoop] estuvimos participando del *FLISoL* [fn:flisol] en
