@@ -2,7 +2,7 @@ image: iquiw/alpine-emacs
 
 pages:
   script:
-  - cat index.sh | /bin/bash
+  - cat index.sh | /bin/sh
   - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
   - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
   artifacts:
