@@ -2,7 +2,7 @@ image: iquiw/alpine-emacs
 
 pages:
   script:
-  - sh /builds/osiux/osiux.gitlab.io/index.sh
+  - cat index.sh | /bin/bash
   - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
   - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
   artifacts:
