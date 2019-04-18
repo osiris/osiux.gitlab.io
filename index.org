@@ -12,7 +12,7 @@
 
 ** =2018-12-11=
 
-*** =02:28= [[file:2018-12-11-org-mode-is-back.org][Org-mode is back!]]
+*** =02:06= [[file:2018-12-11-org-mode-is-back.org][Org-mode is back!]]
 
 ** =2018-08-21=
 
@@ -20,19 +20,19 @@
 
 ** =2018-08-15=
 
-*** =01:10= [[file:2018-08-15-realizar-un-profile-en-vim-y-deshabilitar-foldexpr-markdown.org][Realizar un /profile/ en =vim= y deshabilitar =Foldexpr_markdown=]]
+*** =02:06= [[file:2018-08-15-realizar-un-profile-en-vim-y-deshabilitar-foldexpr-markdown.org][Realizar un /profile/ en =vim= y deshabilitar =Foldexpr_markdown=]]
 
 ** =2018-01-01=
 
-*** =00:30= [[file:2018-01-01-reemplazando-orgmode-por-txt-bash-jrnl.org][Reemplazando *Org-mode* por =txt-bash-jrnl=]]
+*** =02:06= [[file:2018-01-01-reemplazando-orgmode-por-txt-bash-jrnl.org][Reemplazando *Org-mode* por =txt-bash-jrnl=]]
 
 ** =2017-12-04=
 
-*** =00:10= [[file:2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.org][nuevo blog gracias a =jrnl= y =markdown-styles=]]
+*** =03:43= [[file:2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.org][nuevo blog gracias a =jrnl= y =markdown-styles=]]
 
 ** =2017-07-10=
 
-*** =00:57= [[file:2017-07-10-convertir-org-mode-a-markdown-org2md.org][Convertir Org-mode a Markdown =org2md=]]
+*** =03:43= [[file:2017-07-10-convertir-org-mode-a-markdown-org2md.org][Convertir Org-mode a Markdown =org2md=]]
 
 ** =2017-07-08=
 
@@ -40,47 +40,47 @@
 
 ** =2017-07-07=
 
-*** =00:16= [[file:2017-07-07-ideas-para-utilizar-txt-bash-jrnl-como-un-sistema-de-micro-blog.org][Ideas para utilizar =txt-bash-jrnl= como un sistema de micro blog]]
+*** =03:43= [[file:2017-07-07-ideas-para-utilizar-txt-bash-jrnl-como-un-sistema-de-micro-blog.org][Ideas para utilizar =txt-bash-jrnl= como un sistema de micro blog]]
 
 ** =2017-04-30=
 
-*** =09:40= [[file:2017-04-30-percona-live-17-eze.org][Percona Live 17 =SJO -> DFW -> EZE=]]
+*** =03:43= [[file:2017-04-30-percona-live-17-eze.org][Percona Live 17 =SJO -> DFW -> EZE=]]
 
 ** =2017-04-29=
 
-*** =09:40= [[file:2017-04-29-percona-live-17-santa-clara.org][Percona Live 17 =santa clara=]]
+*** =03:43= [[file:2017-04-29-percona-live-17-santa-clara.org][Percona Live 17 =santa clara=]]
 
 ** =2017-04-28=
 
-*** =09:40= [[file:2017-04-28-percona-live-17-san-francisco.org][Percona Live 17 =san francisco=]]
+*** =03:43= [[file:2017-04-28-percona-live-17-san-francisco.org][Percona Live 17 =san francisco=]]
 
 ** =2017-04-27=
 
-*** =09:40= [[file:2017-04-27-percona-live-17-day-three.org][Percona Live 17 =day three= keynotes]]
+*** =03:43= [[file:2017-04-27-percona-live-17-day-three.org][Percona Live 17 =day three= keynotes]]
 
 ** =2017-04-26=
 
-*** =09:40= [[file:2017-04-26-percona-live-17-day-two.org][Percona Live 17 =Day Two= Too Many Talks]]
+*** =03:43= [[file:2017-04-26-percona-live-17-day-two.org][Percona Live 17 =Day Two= Too Many Talks]]
 
 ** =2017-04-25=
 
-*** =09:39= [[file:2017-04-25-percona-live-17-day-one.org][Percona Live 17 =Day One= MySQL Load Balancers]]
+*** =03:43= [[file:2017-04-25-percona-live-17-day-one.org][Percona Live 17 =Day One= MySQL Load Balancers]]
 
 ** =2017-04-24=
 
-*** =09:39= [[file:2017-04-24-percona-live-17-zero-day.org][Percona Live 17 =Zero Day= tutorials]]
+*** =19:22= [[file:2017-04-24-percona-live-17-zero-day.org][Percona Live 17 =Zero Day= tutorials]]
 
 ** =2017-04-23=
 
-*** =09:45= [[file:2017-04-23-percona-live-17-sjo.org][Percona Live 17 =EZE -> DFW -> SJO=]]
+*** =03:43= [[file:2017-04-23-percona-live-17-sjo.org][Percona Live 17 =EZE -> DFW -> SJO=]]
 
-*** =18:24= [[file:2017-04-23-percona-live-17-osdc.org][Percona Live 17 Open Source Databases Conference]]
+*** =03:43= [[file:2017-04-23-percona-live-17-osdc.org][Percona Live 17 Open Source Databases Conference]]
 
-** =2019-04-09=
+** =2019-04-18=
 
-*** =18:22= [[file:2017-04-23-percona-live-17-header.org][2017 04 23 percona live 17 header]]
+*** =00:13= [[file:2017-04-23-percona-live-17-header.org][2017 04 23 percona live 17 header]]
 
 ** =2014-11-14=
 
-*** =00:37= [[file:2016-02-03-monitoreo-en-status-bar-de-tmux.org][monitoreo en status bar de =tmux=]]
+*** =03:03= [[file:2016-02-03-monitoreo-en-status-bar-de-tmux.org][monitoreo en status bar de =tmux=]]
 
