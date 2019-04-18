@@ -3,7 +3,7 @@
 #+EMAIL:     jose@dotlinux.com.ar
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
-#+INCLUDE: "header.org"
+#+INCLUDE:     header.org
 #+DATE:      2008-11-29
 
 En el trabajo los compraron para tener conectividad fuera de la

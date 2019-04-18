@@ -3,7 +3,7 @@
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
-#+INCLUDE: "header.org"
+#+INCLUDE:     header.org
 #+DATE:        2013-04-27
 
 El sábado 27 de Abril, junto a /Hugo Ruscitti/ [fn:hugo] de

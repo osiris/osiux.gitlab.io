@@ -3,7 +3,7 @@
 #+EMAIL:     osiux@osiux.com
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
-#+INCLUDE: "header.org"
+#+INCLUDE:     header.org
 #+DATE:      2014-03-12
 
 #+ATTR_HTML: :width 640 :height 346 :title Hardware Freedom Day 2014

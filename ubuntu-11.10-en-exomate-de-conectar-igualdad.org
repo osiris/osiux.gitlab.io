@@ -3,7 +3,7 @@
 #+EMAIL:     osiux@osiux.com
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
-#+INCLUDE: "header.org"
+#+INCLUDE:     header.org
 #+DATE:      2011-10-24
 
 El sábado 22 en la Ciudad de Curuzú Cuatiá gracias a Liliana Arbelo,

@@ -3,7 +3,7 @@
 #+EMAIL:     ledesma punto ar en gmail punto com
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
-#+INCLUDE: "header.org"
+#+INCLUDE:     header.org
 #+DATE:      2011-11-01
 
 En la revista Information Technology Nro. 193 de Octubre 2013, en la

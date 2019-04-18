@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+DATE:        2009-01-16
-#+INCLUDE: "header.org"
+#+INCLUDE:     header.org
 
 Decidí salir de gnome y probar *fluxbox*, el resultado: no vuelvo ni
 por Beryl (aunque lo extraño!). Realmente es muy facil personalizarlo

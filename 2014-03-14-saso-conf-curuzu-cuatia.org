@@ -3,7 +3,7 @@
 #+EMAIL:     osiux@osiux.com
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
-#+INCLUDE: "header.org"
+#+INCLUDE:     header.org
 #+DATE:      2014-03-20
 
 El 14 y 15 de Marzo de 2014 se realizó en /Curuzú Cuatiá/ la primera

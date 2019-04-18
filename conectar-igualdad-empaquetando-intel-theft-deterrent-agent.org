@@ -3,7 +3,7 @@
 #+EMAIL:     nicoechaniz@altermundi.net
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
-#+INCLUDE: "header.org"
+#+INCLUDE:     header.org
 #+DATE:      2011-09-30
 
 Uno de los principales problemas que nos encontramos al experimentar
