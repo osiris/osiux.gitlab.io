@@ -37,7 +37,7 @@
 
    El contenido del script =qmhandle=:
 
-   #+BEGIN_SRC sh :session :results output :export code
+   #+BEGIN_SRC sh :session :results none :export code
       #!/bin/sh
       export http_proxy=""
       log=/tmp/qmhandle.log
@@ -55,20 +55,14 @@
 
    Si ejecutamos =qmhandle= vemos:
 
-   #+BEGIN_SRC sh :session :results output :exports results
-     qmhandle
-   #+END_SRC
-
-    #+RESULTS:
-    : 531 █▄▄▁▂ 524
+   : 531 █▄▄▁▂ 524
 
    Para entender qué estamos visualizando, miremos el log:
 
-   #+BEGIN_SRC sh :session :results output :exports both
+   #+BEGIN_SRC sh :session :results none :exports code
      tail /tmp/qmhandle.log
    #+END_SRC
 
-    #+RESULTS:
     #+begin_example
     2016-02-03 15:10 527 1 526 1 0
     2016-02-03 15:11 524 0 524 1 0
@@ -91,9 +85,9 @@
     máximo, esta información se actualiza en la barra de tmux cada 1
     minuto, agregando al =~/.tmux.conf= el comando qmhandle:
 
-    #+BEGIN_SRC sh :session :results output :exports code
+    #+BEGIN_EXAMPLE
       set -g status-right '#[fg=red,bg=default]#(qmhandle) #[fg=colour231,bg=colour232] #(bateria) #[fg=colour11,bg=colour232] %d/%m %H:%M'
-    #+END_SRC
+    #+END_EXAMPLE
 
     Básico pero efectivo! *:)*
 

@@ -33,10 +33,73 @@ resumen y un historial cronológico de todas ellas.
      egrep "^\*\*\* " ~/blog/charlas.org  | cut -d, -f2 | sort | uniq -c | sort -nr | barra
    #+END_SRC
 
+   #+RESULTS:
+   #+begin_example
+
+   ,** charlas por tag
+
+    30.77 %  30.77 %         12 ███████              redes 
+    53.85 %  23.08 %          9 █████                coop 
+    66.67 %  12.82 %          5 ███                  sysadmin 
+    76.92 %  10.26 %          4 ██                   privacidad 
+    87.18 %  10.26 %          4 ██                   graphviz 
+    94.87 %   7.69 %          3 ██                   orgmode 
+    97.44 %   2.56 %          1 ▌                    openvz 
+   100.00 %   2.56 %          1 ▌                    gnu 
+			     39
+   ,** charlas por año
+
+    21.43 %  21.43 %          6 █████                2011 
+    39.29 %  17.86 %          5 ████                 2012 
+    50.00 %  10.71 %          3 ██                   2018 
+    60.71 %  10.71 %          3 ██                   2014 
+    71.43 %  10.71 %          3 ██                   2013 
+    78.57 %   7.14 %          2 █                    2015 
+    85.71 %   7.14 %          2 █                    2008 
+    92.86 %   7.14 %          2 █                    2007 
+    96.43 %   3.57 %          1 █                    2016 
+   100.00 %   3.57 %          1 █                    2010 
+			     28
+
+   ,** meses más frecuentes
+
+    36.00 %  36.00 %          9 █████████            04 
+    56.00 %  20.00 %          5 █████                11 
+    68.00 %  12.00 %          3 ███                  10 
+    76.00 %   8.00 %          2 ██                   09 
+    84.00 %   8.00 %          2 ██                   07 
+    92.00 %   8.00 %          2 ██                   05 
+   100.00 %   8.00 %          2 ██                   03 
+			     25
+
+   ,** eventos más frecuentes
+
+    75.00 %  75.00 %         12 ██████████████████   FLISoL  
+    87.50 %  12.50 %          2 ███                  SASOConf  
+   100.00 %  12.50 %          2 ███                  CISL  
+			     16
+
+   ,** ciudades más frecuentes
+
+    41.67 %  41.67 %         15 ██████████           CABA 
+    52.78 %  11.11 %          4 ██                   Curuzú Cuatiá 
+    61.11 %   8.33 %          3 ██                   Río Gallegos 
+    69.44 %   8.33 %          3 ██                   Argentina 
+    75.00 %   5.56 %          2 █                    Monte Caseros 
+    80.56 %   5.56 %          2 █                    Bogotá 
+    83.33 %   2.78 %          1 ▌                    Villa Madero 
+    86.11 %   2.78 %          1 ▌                    Porto Alegre 
+    88.89 %   2.78 %          1 ▌                    La Plata 
+    91.67 %   2.78 %          1 ▌                    Lanús 
+    94.44 %   2.78 %          1 ▌                    José C. Paz 
+    97.22 %   2.78 %          1 ▌                    Berazategui 
+   100.00 %   2.78 %          1 ▌                    Avellaneda 
+			     36
+   #+end_example
+
 ** 11/2018
 *** Universidad Nacional de José C. Paz, José C. Paz, Buenos Aires, Argentina
 **** I Jornadas "Universidad y desarrollo local"
-
 ***** Cooperativismo y Software Libre                                  :coop:
 
       #+ATTR_HTML: :width 640 :height 453 :title Cooperativismo y Software Libre
@@ -47,20 +110,6 @@ resumen y un historial cronológico de todas ellas.
 ** 04/2018
 *** Complejo Cultural Santa Cruz, Río Gallegos, Santa Cruz, Argentina
 **** Desarrollo local y nuevas tecnologías
-=======
-#+end_example
-
-** 04/2018
-*** Universidad Nacional de la Patagonia Austral, Río Gallegos, Argentina
-**** FLISoL - Festival Latinoamericano de Instalación de Software Libre
->>>>>>> Stashed changes
-***** Cooperativismo y Software Libre                                  :coop:
-
-      #+ATTR_HTML: :width 640 :height 453 :title Cooperativismo y Software Libre
-      [[http://gcoop.coop/COOPySL.pdf][file:COOPySL.png]]
-
-<<<<<<< Updated upstream
-      - Slides: http://gcoop.coop/COOPySL.pdf
 
 *** Universidad Nacional de la Patagonia Austral UARG, Río Gallegos, Santa Cruz, Argentina
 **** FLISoL - Festival Latinoamericano de Instalación de Software Libre
@@ -79,18 +128,11 @@ resumen y un historial cronológico de todas ellas.
       [[https://pub.osiux.com/privacidad-y-anonimato-con-software-libre-flisol-caba-ccgsm.pdf][file:img/privacidad-y-anonimato-con-software-libre-flisol-caba-ccgsm.png]]
 
       - Slides: [[https://pub.osiux.com/privacidad-y-anonimato-con-software-libre-flisol-caba-ccgsm.pdf]]
-=======
-      - Slides: https://www.gcoop.coop/COOPySL.pdf
-
-*** Centro Cultural General San Martín, CABA, Argentina
-**** FLISoL - Festival Latinoamericano de Instalación de Software Libre
-***** Privacidad y Anonimato con Software Libre                 :privacidad:
 
 ** 04/2016
 *** Centro Cultural General San Martín, CABA, Argentina
 **** FLISoL - Festival Latinoamericano de Instalación de Software Libre
 ***** Sólo confío en localhost                                     :sysadmin:
->>>>>>> Stashed changes
 
 ** 04/2015
 *** Escuela Secundaria Técnica Nro. 4 de Berazategui, Berazategui, Argentina
@@ -180,7 +222,7 @@ resumen y un historial cronológico de todas ellas.
 *** Escuela Técnica Nro 10, Villa Madero, La Matanza
 **** FLISoL - Festival Latinoamericano de Instalación de Software Libre
 ***** Cooperativismo y Software Libre                                  :coop:
-
+      
       #+ATTR_HTML: :width 640 :height 453 :title Cooperativismo y Software Libre
       [[http://gcoop.coop/COOPySL.pdf][file:COOPySL.png]]
 
@@ -332,7 +374,7 @@ resumen y un historial cronológico de todas ellas.
 **** FLISoL - Festival Latinoamericano de Instalación de Software Libre
 ***** Dame una consola                                             :sysadmin:
 
-      - http://osiux.com/dame-una-consola.txt
+      - http://osiux.com/dame-una-consola.html
 
 ** 11/2008
 *** FM LaTribu, CABA, Argentina
