@@ -1,8 +1,8 @@
-#+TITLE:     404 NOT FOUND
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       404 NOT FOUND
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 
 * lo siento, la página que buscás no está!
