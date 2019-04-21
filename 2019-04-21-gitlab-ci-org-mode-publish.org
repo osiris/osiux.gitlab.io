@@ -46,7 +46,7 @@ pages:
 
 ** =publish.el=
 
-#+BEGIN_SRC: emacs-lisp :exports code
+#+BEGIN_SRC emacs-lisp :exports code
 ;; publish.el --- Publish org-mode project on Gitlab Pages
 ;; Author: Rasmus
 
