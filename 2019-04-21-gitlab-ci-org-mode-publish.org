@@ -6,7 +6,7 @@
 #+INCLUDE:     header.org
 #+DATE:        2019-04-21 00:45
 
-Buscando automatizar la publicación de mi blog, descubrí la opción de utilizar *gitlab pages* junto con *gitlab CI*, posibilitando un rápido y des-atendido deploy.
+Buscando automatizar la publicación de mi blog [fn:osiux], descubrí la opción de utilizar *gitlab pages* [fn:gitlab-pages] junto con *gitlab CI* [fn:gitlab-ci], posibilitando un rápido y des-atendido deploy.
 
 La secuencia es la siguiente:
 
@@ -153,3 +153,7 @@ pages:
 ;;; publish.el ends here
 #+END_SRC
 
+[fn:osiux]        https://osiux.gitlab.io/
+[fn:gitlab-pages] https://docs.gitlab.com/ee/user/project/pages/
+[fn:gitlab-ci]    https://docs.gitlab.com/ee/ci/
+[fn:org-mode]     https://orgmode.org/
