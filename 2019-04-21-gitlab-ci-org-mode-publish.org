@@ -14,7 +14,7 @@ La secuencia es la siguiente:
 2. git commit
 3. git push
 4. se dispara el pipeline en base al =.gitlab-ci.yml=
-5, se inicia un job
+5. se inicia un job
 6. se levanta una instancia de docker desde la imagen =alpine-emacs=
 7. se clona el repo https://gitlab.com/osiux.gitlab.io/
 8. se ejecuta el script =index.sh= que genera index.org
