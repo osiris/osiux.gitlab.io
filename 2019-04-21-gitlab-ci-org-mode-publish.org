@@ -17,15 +17,15 @@ La secuencia es la siguiente:
 5. se inicia un job
 6. se levanta una instancia de docker desde la imagen =alpine-emacs=
 7. se clona el repo https://gitlab.com/osiux.gitlab.io/
-8. se ejecuta el script =index.sh= que genera index.org
-9. se inicia emacs e instala orgmode
-10. se inicia emacs y en base a publish.el exporta a .html en el directorio public
+8. se ejecuta el script =index.sh= que genera =index.org=
+9. se inicia =emacs= e instala =orgmode=
+10. se inicia =emacs= y en base a =publish.el= exporta a =.html= en el directorio public
 
-Si todo salió bien, eb menos de 3min el sitio quedó actualizado en https://osiux.gitlab.io/
+Si todo salió bien, en menos de 3min el sitio quedó actualizado en https://osiux.gitlab.io/
 
-Si algo salió mal, recibo un email con la notificación del error, pudiendo ver el log completo para corregir el error y repetir el preceso hasta que sea exitoso.
+Si algo salió mal, recibo un email con la notificación del error, pudiendo ver el log completo para corregir el error y repetir el proceso hasta que sea exitoso.
 
-Lo interesante es que de esta manera, puedo editar un post usando ViM desde una consola, commitear, pushear y todo resuelto, aunque también esta la alternativa de usar el editor web de gitlab desde un Firefox o cualquier otro tipo de editor que jo sea Emacs, siempre que respete el formato de org-mode.
+Lo interesante es que de esta manera, puedo editar un post usando =vim= desde una consola, commitear, pushear y todo resuelto, aunque también esta la alternativa de usar el editor web de gitlab desde un Firefox o cualquier otro tipo de editor que no sea Emacs, siempre que respete el formato de org-mode.
 
 **  =.gitlab-ci.yml=
 
