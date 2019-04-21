@@ -1,10 +1,10 @@
-
 #+TITLE:       gitlab-ci org-mode publish
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+DATE:        2019-04-21 00:45
 
 Buscando automatizar la publicación de mi blog, descubrí la opción de utilizar *gitlab pages* junto con *gitlab CI*, posibilitando un rápido y des-atendido deploy.
 
@@ -46,7 +46,7 @@ pages:
 
 ** =publish.el=
 
-#+BEGIN_SRC: emacs-lisp :results ouput :exports code
+#+BEGIN_SRC: emacs-lisp :results output :exports code
 ;; publish.el --- Publish org-mode project on Gitlab Pages
 ;; Author: Rasmus
 
