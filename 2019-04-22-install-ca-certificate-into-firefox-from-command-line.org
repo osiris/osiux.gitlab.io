@@ -1,0 +1,42 @@
+#+TITLE:       Instalar una *CA* (*Autoridad Certificante*) en un perfil de *Firefox* desde la consola
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2019-04-22 18:36
+
+
+Para instalar una *CA* en *Firefox* desde la línea de comandos, es
+necesario utilizar el comando =certutil= [fn:certutil]
+
+** Instalar =certutil=
+
+   El comando =certutil= en *Debian* esta en el paquete =libnss3-tools=
+
+   #+BEGIN_SRC sh :results none :exports code
+     apt-install libnss3-tools
+   #+END_SRC
+
+** =cert8.db= vs =cert9.db=
+
+   De acuerdo a la versión de *Firefox*, la base de datos [fn:nss-db]
+   donde se almacenan las *CAs*, cambia de nombre y de sintaxis!
+
+   En la instalación es necesario definir el directorio del *profile*
+   del usuario:
+
+*** =cert8.db=
+
+    #+BEGIN_SRC sh :results none :exports code
+      certutil -A -n ca -t "TCu,Cuw,Tuw" -i ca.crt -d "$HOME/.mozilla/firefox/random12.test-ca"
+    #+END_SRC
+
+*** =cert9.db=
+
+    #+BEGIN_SRC sh :results none :exports code
+      certutil -A -n ca -t "TCu,Cuw,Tuw" -i ca.crt -d "sql:$HOME/.mozilla/firefox/random12.test-ca"
+    #+END_SRC
+
+[fn:certutil] https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/tools/NSS_Tools_certutil
+[fn:nss-db]   https://wiki.mozilla.org/NSS_Shared_DB
