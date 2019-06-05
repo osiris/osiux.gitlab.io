@@ -80,12 +80,17 @@
 *** =2019-04-04= https://www.bbc.com/news/technology-47810367
 ** =+ffmpeg=
 *** =2019-05-29= https://m.facebook.com/permalink.php?story_fbid=2413101932257643&id=100006735798590
+** =+firefox=
+*** =2019-04-16= https://www.zdnet.com/article/former-mozilla-exec-google-has-sabotaged-firefox-for-years/
+*** =2019-05-09= https://hacks.mozilla.org/2019/05/technical-details-on-the-recent-firefox-add-on-outage/
 ** =+firmware=
 *** =2019-05-09= https://blog.jessfraz.com/post/why-open-source-firmware-is-important-for-security/
 ** =+font=
 *** =2019-03-30= https://www.masswerk.at/nowgobang/2019/dec-crt-typography
 *** =2019-04-08= https://public-sans.digital.gov/
 ** =+game=
+*** =2019-06-01= https://blog.hackster.io/the-adafruit-pygamer-is-a-brand-new-maker-friendly-handheld-console-c40d5d31f4ba?gi=984bd9283be7
+*** =2019-06-01= https://github.com/thomasahle/sunfish
 *** =2019-06-03= https://alexnisnevich.github.io/untrusted/
 *** =2019-04-09= http://www.vintage-basic.net/games.html
 ** =+games=
@@ -97,7 +102,6 @@
 *** =2019-05-14= https://ohshitgit.com/
 *** =2019-05-24= https://drewdevault.com/2019/05/24/What-is-a-fork.html
 *** =2019-05-24= https://increment.com/open-source/more-productive-git/
-*** =2019-06-03= https://fossbytes.com/git-stats-git-visualization/
 *** =2019-04-05= https://gitlab.com/pages/emacs-reveal
 *** =2019-04-05= https://gitlab.com/pages/org-mode
 *** =2019-04-05= https://gitlab.com/pages/sphinx
@@ -112,6 +116,8 @@
 *** =2019-03-29= https://github.com/csdvrx/sixel-gnuplot/blob/master/README.md
 ** =+http=
 *** =2019-05-14= https://blog.cloudflare.com/better-http-2-prioritization-for-a-faster-web/
+** =+iascode=
+*** =2019-05-31= https://www.frba.utn.edu.ar/audiovisual/infrastructure-as-code/
 ** =+ietf=
 *** =2019-05-06= https://www.ietf.org/blog/jmap/
 *** =2019-05-16= https://tools.ietf.org/html/rfc8594
@@ -141,8 +147,6 @@
 ** =+minimalist=
 *** =2019-04-18= https://www.becomingminimalist.com/new-minimalist-blogs/
 *** =2019-04-29= https://1mb.site/
-** =+mozilla=
-*** =2019-05-09= https://hacks.mozilla.org/2019/05/technical-details-on-the-recent-firefox-add-on-outage/
 ** =+mp3=
 *** =2019-04-04= https://archive.org/details/myspace_dragon_hoard_2010
 ** =+nerd=
@@ -152,6 +156,9 @@
 *** =2019-05-20= https://ibms360.co.uk/?page_id=22
 *** =2019-05-30= https://solar.lowtechmagazine.com/power.html
 *** =2019-05-31= https://courses.csail.mit.edu/6.851/fall17/
+** =+nfs=
+*** =2019-06-03= http://dag.wiee.rs/blog/tunneling-nfs4-over-ssh
+*** =2019-06-03= https://blog.delouw.ch/2015/03/14/using-ipa-to-provide-automount-maps-for-nfsv4-home-directories/
 ** =+offline=
 *** =2019-04-16= https://www.estebanmagnani.com.ar/2019/03/27/salir-de-la-red/
 ** =+opencv=
@@ -194,6 +201,7 @@
 *** =2019-04-12= https://matrix.org/blog/index
 *** =2019-04-14= https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.1-Overview
 *** =2019-04-15= https://arstechnica.com/gadgets/2019/04/hackers-could-read-non-corporate-outlook-comhotmail-for-six-months/
+*** =2019-04-19= https://github.com/ghacksuserjs/ghacks-user.js/wiki/1.1-Overview
 *** =2019-04-21= https://larrysanger.org/2019/04/vendors-must-start-adding-physical-on-off-switches-to-devices-that-can-spy-on-us/
 *** =2019-04-21= https://wybiral.github.io/code-art/projects/tiny-mirror/
 *** =2019-04-27= https://github.com/deltachat/deltachat-android/blob/master/standards.md#standards-used-in-delta-chat
@@ -209,10 +217,27 @@
 *** =2019-04-21= https://github.com/pichi-router/pichi/blob/master/README.md
 ** =+python=
 *** =2019-03-30= https://morioh.com/p/f3bdfe6286ee/python-tutorial-python-gui-programming-python-gui-examples
+** =+r=
+*** =2019-06-01= https://github.com/noamross/gams-in-r-course
+*** =2019-04-04= https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it/
+*** =2019-04-13= https://www.brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/
+*** =2019-06-01= https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/
+*** =2019-05-26= https://github.com/kmkzt/react-hooks-svgdrawing/blob/master/README.md
+*** =2019-05-28= https://react-simple-animate.now.sh/
+*** =2019-04-04= https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb?gi=cee71ee9c231
+*** =2019-04-04= https://fs.blog/2016/04/second-order-thinking/
+*** =2019-05-29= https://bradleytaunt.com/2019/05/29/news-websites-are-dumpster-fires/
+*** =2019-06-01= http://xyproblem.info/
+*** =2019-05-09= https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image
+*** =2019-04-05= http://www.trevormarshall.com/byte_articles/byte19.htm
+*** =2019-05-26= https://www.telnetbbsguide.com/
+*** =2019-04-29= https://michaelcullen.name/2019/04/custard-antenna/
+*** =2019-05-09= https://www.rtl-sdr.com/
 ** =+ram=
 *** =2019-04-04= https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it/
 ** =+raspi=
 *** =2019-04-13= https://www.brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/
+*** =2019-06-01= https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/
 ** =+react=
 *** =2019-05-26= https://github.com/kmkzt/react-hooks-svgdrawing/blob/master/README.md
 *** =2019-05-28= https://react-simple-animate.now.sh/
@@ -220,6 +245,7 @@
 *** =2019-04-04= https://blog.bradfieldcs.com/you-are-not-google-84912cf44afb?gi=cee71ee9c231
 *** =2019-04-04= https://fs.blog/2016/04/second-order-thinking/
 *** =2019-05-29= https://bradleytaunt.com/2019/05/29/news-websites-are-dumpster-fires/
+*** =2019-06-01= http://xyproblem.info/
 ** =+redhat=
 *** =2019-05-09= https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image
 ** =+retro=
@@ -248,6 +274,8 @@
 *** =2019-05-16= https://www.circleid.com/posts/20190514_735k_fraudulently_obtained_ip_addresses_have_been_revoked/
 *** =2019-05-28= http://http.jameshfisher.com/2019/05/26/i-can-see-your-local-web-servers/
 *** =2019-05-30= https://code.fb.com/security/service-encryption/
+*** =2019-06-01= https://blog.segu-info.com.ar/2019/05/aplicaciones-para-osint.html?m=1
+*** =2019-06-03= https://techcrunch.com/2019/06/02/password-expiration-is-dead-long-live-your-passwords/
 ** =+slides=
 *** =2019-05-09= https://github.com/hiroppy/fusuma/blob/master/README.md
 ** =+social=
@@ -261,6 +289,8 @@
 ** =+ssh=
 *** =2019-04-03= https://www.undeadly.org/cgi?action=article;sid=20190302235509
 *** =2019-04-21= https://gist.github.com/lizthegrey/9c21673f33186a9cc775464afbdce820
+** =+static=
+*** =2019-06-01= https://tkainrad.dev/posts/using-hugo-gitlab-pages-and-cloudflare-to-create-and-run-this-website/
 ** =+sysadmin=
 *** =2019-04-01= https://blog.cloudflare.com/1111-warp-better-vpn/
 *** =2019-04-11= https://www.caretech.io/2018/06/08/how-to-update-proxmox-without-buying-a-subscription/
@@ -277,6 +307,7 @@
 *** =2019-05-25= https://github.com/chris104957/maildown/blob/master/README.md
 *** =2019-05-28= https://marmelab.com/blog/2019/05/28/releasing-comfygure-1-0.html
 *** =2019-05-29= https://endoflife.date/
+*** =2019-05-31= https://testssl.sh/
 ** =+testing=
 *** =2019-04-12= https://microservices-on-my-mind.blogspot.com/2019/04/break-functional-and-orchestration.html?m=1
 ** =+tools=
@@ -288,12 +319,14 @@
 *** =2019-04-16= https://jott.live/markdown/telnet_writeup
 *** =2019-04-16= https://lists.gnu.org/archive/html/info-gnu/2019-04/msg00002.html
 *** =2019-05-20= https://github.com/Peltoche/lsd/blob/master/README.md
+*** =2019-06-03= https://github.com/michael-lazar/rtv
 ** =+unix=
 *** =2019-03-31= https://gordonbell.azurewebsites.net/digital/timeline/pdp-1story.htm
 *** =2019-04-01= https://github.com/awesomekling/serenity/blob/master/ReadMe.md
 *** =2019-04-04= http://www.larryluckham.com/1969%20&%2070%20-%20Bell%20Labs/album/index.html
 *** =2019-04-25= https://github.com/cloudkj/layer
 *** =2019-04-27= https://www.linuxjournal.com/content/back-day-unix-minix-and-linux
+*** =2019-06-03= https://www.devever.net/~hl/objectworld
 ** =+unknown=
 *** =2019-04-01= https://github.com/andrewbihl/bsed/blob/master/README.md
 *** =2019-04-05= http://reportmill.com/snaptea/RM15/
@@ -313,7 +346,6 @@
 *** =2019-04-13= https://www.zdnet.com/article/report-deems-russia-a-pioneer-in-gps-spoofing-attacks/
 *** =2019-04-14= https://thorstenball.com/blog/2019/04/09/learn-more-programming-languages/
 *** =2019-04-15= https://github.com/BurntSushi/ripgrep/blob/master/README.md
-*** =2019-04-16= https://www.zdnet.com/article/former-mozilla-exec-google-has-sabotaged-firefox-for-years/
 *** =2019-04-22= https://news.ycombinator.com/item?id=19716401
 *** =2019-04-27= https://www.tablix.org/~avian/blog/archives/2019/04/google_is_eating_our_mail/
 *** =2019-04-29= https://github.com/mist64/c64rom
@@ -322,7 +354,7 @@
 *** =2019-05-17= https://www.derrickreimer.com/essays/2019/05/17/im-walking-away-from-the-product-i-spent-a-year-building.html
 ** =+ux=
 *** =2019-04-16= https://digital.nhs.uk/blog/transformation-blog/2019/icons-avoid-temptation-and-start-with-user-needs
-*** =2019-05-05= https://uxdesign.cc/a-comprehensive-and-honest-list-of-ux-clich%C3%A9s-96e2a08fb2e9
+*** =2019-05-05= https://uxdesign.cc/a-comprehensive-and-honest-list-of-ux-clich%C3%A9s-96e2a08fb2e9?source=collection_home---4------2---------------------&gi=f01f925d32ec
 *** =2019-05-26= https://medium.com/@GreatUX/buttons-placement-and-order-bb1c4abadfcb
 *** =2019-05-30= https://gramener.com/comicgen/
 ** =+vim=
@@ -357,6 +389,7 @@
 ** =+wifi=
 *** =2019-04-14= https://blog.segu-info.com.ar/2019/04/dragonblood-multiples-vulnerabilidades.html
 *** =2019-05-14= https://badpackets.net/over-25000-linksys-smart-wi-fi-routers-vulnerable-to-sensitive-information-disclosure-flaw/
+*** =2019-06-03= https://www.incibe.es/protege-tu-empresa/guias/seguridad-redes-wifi-guia-aproximacion-el-empresario
 ** =+wikileaks=
 *** =2019-04-11= https://harpers.org/archive/2019/04/more-than-a-data-dump-julian-assange/
 ** =+win=
