@@ -51,4 +51,4 @@
 
 *** =public key=
 
-    [[http://pub.osiux.com/gpg/9237D36C.asc]]
+    [[https://pub.osiux.com/gpg/9237D36C.asc]]
