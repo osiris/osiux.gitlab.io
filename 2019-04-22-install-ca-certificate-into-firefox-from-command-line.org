@@ -15,7 +15,7 @@ necesario utilizar el comando =certutil= [fn:certutil]
    El comando =certutil= en *Debian* esta en el paquete =libnss3-tools=
 
    #+BEGIN_SRC sh :results none :exports code
-     apt-install libnss3-tools
+     apt-get install libnss3-tools
    #+END_SRC
 
 ** =cert8.db= vs =cert9.db=
