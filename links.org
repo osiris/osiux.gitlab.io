@@ -8,6 +8,24 @@
 
 
 ** Recents links
+ - =2019-09-03= http://www.helenanderson.co.nz/sql-query-tweaks/ [[file:links.org::#+sql][=+sql=]]
+ - =2019-09-03= https://sctyner.github.io/OpenForSciR/ [[file:links.org::#+r][=+r=]]
+ - =2019-09-03= https://leandromoreira.com.br/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/ [[file:links.org::#+dev][=+dev=]]
+ - =2019-09-03= https://en.m.wikipedia.org/wiki/Everything_is_a_file [[file:links.org::#+linux][=+linux=]]
+ - =2019-09-03= https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html [[file:links.org::#+ssh][=+ssh=]]
+ - =2019-09-03= https://catonmat.net/cookbooks/curl [[file:links.org::#+curl][=+curl=]]
+ - =2019-09-03= https://backgroundchecks.org/justdeleteme/ [[file:links.org::#+privacy][=+privacy=]]
+ - =2019-09-01= https://www.joyent.com/blog/tcp-puzzlers [[file:links.org::#+sysadmin][=+sysadmin=]]
+ - =2019-09-01= https://unixism.net/2019/08/a-managers-guide-to-kubernetes-adoption/ [[file:links.org::#+docker][=+docker=]]
+ - =2019-09-01= https://poolp.org/posts/2019-08-30/you-should-not-run-your-mail-server-because-mail-is-hard/ [[file:links.org::#+sysadmin][=+sysadmin=]]
+ - =2019-09-01= https://github.com/timberio/vector [[file:links.org::#+log][=+log=]]
+ - =2019-09-01= https://github.com/eBay/tsv-utils [[file:links.org::#+tty][=+tty=]]
+ - =2019-09-01= https://dqlite.io/ [[file:links.org::#+sql][=+sql=]]
+ - =2019-08-29= https://github.com/weaveworks/footloose [[file:links.org::#+docker][=+docker=]]
+ - =2019-08-29= https://blog.xkcd.com/2019/08/26/how-to-send-a-file/ [[file:links.org::#+xkcd][=+xkcd=]]
+ - =2019-08-28= https://news.ycombinator.com/item?id=20818106 [[file:links.org::#+log][=+log=]]
+ - =2019-08-28= https://github.com/sharkdp/pastel/blob/master/doc/pastel.gif [[file:links.org::#+tty][=+tty=]]
+ - =2019-08-27= https://unix.stackexchange.com/questions/103252/how-do-i-get-a-websites-title-using-command-line [[file:links.org::#+scrap][=+scrap=]]
  - =2019-08-20= https://www.norwegiancreations.com/2015/08/how-to-trace-bitmaps-in-inkscape/ [[file:links.org::#+design][=+design=]]
  - =2019-08-19= https://www.csc.gov.sg/articles/how-to-build-good-software [[file:links.org::#+dev][=+dev=]]
  - =2019-08-19= https://guzey.com/productivity/ [[file:links.org::#+org][=+org=]]
@@ -15,29 +33,11 @@
  - =2019-08-19= https://developers.google.com/web/updates/2019/02/rendering-on-the-web [[file:links.org::#+perf][=+perf=]]
  - =2019-08-19= https://color.clss.hk/ [[file:links.org::#+css][=+css=]]
  - =2019-08-19= https://carvesystems.com/news/abusing-webviews-to-steal-files-via-email/ [[file:links.org::#+security][=+security=]]
- - =2019-08-18= http://www.codingwithricky.com/2019/08/18/easy-python-cli-with-click/ [[file:links.org::#+python][=+python=]]
- - =2019-08-18= http://www.aosabook.org/en/index.html [[file:links.org::#+book][=+book=]]
  - =2019-08-18= https://www.sqlite.org/fasterthanfs.html [[file:links.org::#+sql][=+sql=]]
  - =2019-08-18= https://www.searchenginejournal.com/google-analytics-is-blocked-by-firefox-mozilla-explains-why/311471/ [[file:links.org::#+privacy][=+privacy=]]
  - =2019-08-18= https://www.makeuseof.com/tag/5-mistakes-avoid-buying-next-microsd-card/ [[file:links.org::#+sd][=+sd=]]
  - =2019-08-18= https://startyourownisp.com/ [[file:links.org::#+isp][=+isp=]]
  - =2019-08-18= https://github.com/prprprus/softest/blob/master/README.md [[file:links.org::#+test][=+test=]]
- - =2019-08-18= https://arp242.net/yaml-config.html [[file:links.org::#+yaml][=+yaml=]]
- - =2019-08-16= https://www.blender.org/user-stories/japanese-anime-studio-khara-moving-to-blender/ [[file:links.org::#+blender][=+blender=]]
- - =2019-08-16= https://medium.com/@arunvenkats/automating-the-capture-of-airplane-pictures-with-raspberry-pis-ads-b-and-iot-software-39e25ddcf3ea [[file:links.org::#+pi][=+pi=]]
- - =2019-08-16= https://inconsolation.wordpress.com/ [[file:links.org::#+tty][=+tty=]]
- - =2019-08-16= https://github.com/wyounas/homer [[file:links.org::#+python][=+python=]]
- - =2019-08-16= https://cyber.dabamos.de/unix/x11/ [[file:links.org::#+x11][=+x11=]]
- - =2019-08-16= https://4232.cf/ [[file:links.org::#+design][=+design=]]
- - =2019-08-15= https://stackoverflow.com/questions/14326365/git-clone-ignoring-a-directory#41162452 [[file:links.org::#+git][=+git=]]
- - =2019-08-15= https://cutiepi.io/index.html [[file:links.org::#+pi][=+pi=]]
- - =2019-08-15= https://csswizardry.com/2019/08/making-cloud-typography-faster/ [[file:links.org::#+css][=+css=]]
- - =2019-08-14= https://www.tjansson.dk/2008/01/autofs-and-sshfs-the-perfect-couple/ [[file:links.org::#+autofs][=+autofs=]]
- - =2019-08-14= https://news.ycombinator.com/item?id=20699923 [[file:links.org::#+crm][=+crm=]]
- - =2019-08-14= https://medium.com/dunia-media/the-nightmare-of-valves-self-organizing-utopia-6d32d329ecdb [[file:links.org::#+org][=+org=]]
- - =2019-08-14= https://liberatuarte.blogspot.com/ [[file:links.org::#+design][=+design=]]
- - =2019-08-14= https://github.com/foss-project/green-recorder/ [[file:links.org::#+python][=+python=]]
- - =2019-08-14= http://potrace.sourceforge.net/mkbitmap.html [[file:links.org::#+design][=+design=]]
 
 ** =+3d=
   :PROPERTIES:
@@ -164,6 +164,11 @@
 *** =2019-08-11= https://purecss.io/
 *** =2019-08-15= https://csswizardry.com/2019/08/making-cloud-typography-faster/
 *** =2019-08-19= https://color.clss.hk/
+** =+curl=
+  :PROPERTIES:
+  :CUSTOM_ID: +curl
+  :END:
+*** =2019-09-03= https://catonmat.net/cookbooks/curl
 ** =+CVE=
   :PROPERTIES:
   :CUSTOM_ID: +CVE
@@ -234,6 +239,7 @@
 *** =2019-08-12= https://pagedout.institute/
 *** =2019-08-13= https://medium.com/@kitze/github-stars-wont-pay-your-rent-8b348e12baed
 *** =2019-08-19= https://www.csc.gov.sg/articles/how-to-build-good-software
+*** =2019-09-03= https://leandromoreira.com.br/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/
 ** =+distro=
   :PROPERTIES:
   :CUSTOM_ID: +distro
@@ -256,6 +262,8 @@
 *** =2019-07-08= https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/
 *** =2019-07-27= https://zwischenzugs.com/2019/07/27/goodbye-docker-purging-is-such-sweet-sorrow/
 *** =2019-08-03= http://sven.stormbind.net/blog/posts/docker_from_30_to_230/
+*** =2019-08-29= https://github.com/weaveworks/footloose
+*** =2019-09-01= https://unixism.net/2019/08/a-managers-guide-to-kubernetes-adoption/
 ** =+drm=
   :PROPERTIES:
   :CUSTOM_ID: +drm
@@ -421,6 +429,17 @@
   :CUSTOM_ID: +ldap
   :END:
 *** =2019-08-08= https://support.citrix.com/article/CTX200252
+** =+linux=
+  :PROPERTIES:
+  :CUSTOM_ID: +linux
+  :END:
+*** =2019-09-03= https://en.m.wikipedia.org/wiki/Everything_is_a_file
+** =+log=
+  :PROPERTIES:
+  :CUSTOM_ID: +log
+  :END:
+*** =2019-08-28= https://news.ycombinator.com/item?id=20818106
+*** =2019-09-01= https://github.com/timberio/vector
 ** =+make=
   :PROPERTIES:
   :CUSTOM_ID: +make
@@ -605,6 +624,7 @@
 *** =2019-07-29= https://www.privacycompany.eu/en/new-dpia-on-microsoft-office-and-windows-software-still-privacy-risks-remaining-short-blog/
 *** =2019-08-07= https://txt.black/~jack/cloud.txt
 *** =2019-08-18= https://www.searchenginejournal.com/google-analytics-is-blocked-by-firefox-mozilla-explains-why/311471/
+*** =2019-09-03= https://backgroundchecks.org/justdeleteme/
 ** =+proxy=
   :PROPERTIES:
   :CUSTOM_ID: +proxy
@@ -629,6 +649,7 @@
   :CUSTOM_ID: +r
   :END:
 *** =2019-06-01= https://github.com/noamross/gams-in-r-course
+*** =2019-09-03= https://sctyner.github.io/OpenForSciR/
 *** =2019-04-04= https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it/
 *** =2019-04-13= https://www.brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/
 *** =2019-06-01= https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/
@@ -697,6 +718,11 @@
   :END:
 *** =2019-04-29= https://michaelcullen.name/2019/04/custard-antenna/
 *** =2019-05-09= https://www.rtl-sdr.com/
+** =+scrap=
+  :PROPERTIES:
+  :CUSTOM_ID: +scrap
+  :END:
+*** =2019-08-27= https://unix.stackexchange.com/questions/103252/how-do-i-get-a-websites-title-using-command-line
 ** =+sd=
   :PROPERTIES:
   :CUSTOM_ID: +sd
@@ -756,6 +782,8 @@
 *** =2019-07-10= https://hakibenita.com/fast-load-data-python-postgresql
 *** =2019-07-23= https://github.com/shzlw/poli/blob/master/README.md
 *** =2019-08-18= https://www.sqlite.org/fasterthanfs.html
+*** =2019-09-01= https://dqlite.io/
+*** =2019-09-03= http://www.helenanderson.co.nz/sql-query-tweaks/
 ** =+ssh=
   :PROPERTIES:
   :CUSTOM_ID: +ssh
@@ -763,6 +791,7 @@
 *** =2019-04-21= https://gist.github.com/lizthegrey/9c21673f33186a9cc775464afbdce820
 *** =2019-06-06= https://github.com/Crystalnix/termius-cli/blob/master/README.md
 *** =2019-07-18= https://daniel-lange.com/archives/152-hello-buster.html
+*** =2019-09-03= https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html
 ** =+static=
   :PROPERTIES:
   :CUSTOM_ID: +static
@@ -801,6 +830,8 @@
 *** =2019-07-18= https://www.hpe.com/us/en/insights/articles/the-first-5-things-to-do-when-your-linux-server-keels-over-1705.html
 *** =2019-07-23= https://blog.danslimmon.com/2019/07/15/do-nothing-scripting-the-key-to-gradual-automation/
 *** =2019-08-05= https://devconnected.com/syslog-the-complete-system-administrator-guide/
+*** =2019-09-01= https://poolp.org/posts/2019-08-30/you-should-not-run-your-mail-server-because-mail-is-hard/
+*** =2019-09-01= https://www.joyent.com/blog/tcp-puzzlers
 ** =+test=
   :PROPERTIES:
   :CUSTOM_ID: +test
@@ -828,6 +859,8 @@
 *** =2019-07-05= https://medium.com/@sidneyliebrand/how-fzf-and-ripgrep-improved-my-workflow-61c7ca212861
 *** =2019-07-23= https://daniel.haxx.se/blog/2019/07/22/curl-goez-parallel/
 *** =2019-08-16= https://inconsolation.wordpress.com/
+*** =2019-08-28= https://github.com/sharkdp/pastel/blob/master/doc/pastel.gif
+*** =2019-09-01= https://github.com/eBay/tsv-utils
 ** =+unix=
   :PROPERTIES:
   :CUSTOM_ID: +unix
@@ -869,6 +902,7 @@
 *** =2019-07-18= https://stackoverflow.com/questions/23888287/split-image-into-parts
 *** =2019-07-18= https://stackoverflow.com/questions/50803478/how-to-split-an-image-with-a-grid-and-preserve-transparency-bounding-box
 *** =2019-08-05= https://pwnies.com/nominations-2019/
+*** =2019-08-12= https://news.ycombinator.com/item?id=20670235
 ** =+usb=
   :PROPERTIES:
   :CUSTOM_ID: +usb
@@ -980,6 +1014,7 @@
 *** =2019-06-24= https://xkcd.com/2143/
 *** =2019-06-24= https://xkcd.com/2166/
 *** =2019-08-19= https://github.com/timqian/chart.xkcd
+*** =2019-08-29= https://blog.xkcd.com/2019/08/26/how-to-send-a-file/
 ** =+yaml=
   :PROPERTIES:
   :CUSTOM_ID: +yaml
