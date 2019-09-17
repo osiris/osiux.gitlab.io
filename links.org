@@ -8,44 +8,44 @@
 
 
 ** Recents links
- - =2019-09-16= https://www.zdnet.com/article/database-leaks-data-on-most-of-ecuadors-citizens-including-6-7-million-children/ [[file:links.org::#+leak +][=+leak +=]]
- - =2019-09-16= https://robertheaton.com/2019/09/15/hp-printers-send-data-on-what-you-print-back-to-hp/ [[file:links.org::#+privacy][=+privacy=]]
- - =2019-09-16= https://robertheaton.com/2017/11/24/identity-graphs-how-online-trackers-follow-you-across-devices/ [[file:links.org::#+privacy][=+privacy=]]
- - =2019-09-16= https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/ [[file:links.org::#+isp][=+isp=]]
- - =2019-09-16= https://news.ycombinator.com/item?id=20980552 [[file:links.org::#+privacy][=+privacy=]]
- - =2019-09-14= https://blog.apnic.net/2018/10/12/doh-dns-over-https-explained/ [[file:links.org::#+dns +][=+dns +=]]
- - =2019-09-13= http://svgpocketguide.com/book/ [[file:links.org::#+svg +][=+svg +=]]
- - =2019-09-13= http://blog.altermundi.net/article/librerouter-ya-esta-homologado-en-argentina/ [[file:links.org::#+librerouter +][=+librerouter +=]]
- - =2019-09-12= https://css-tricks.com/guide-svg-animations-smil/ [[file:links.org::#+svg +][=+svg +=]]
- - =2019-09-12= http://tutorials.jenkov.com/svg/index.html [[file:links.org::#+svg +][=+svg +=]]
- - =2019-09-11= https://www.technologyreview.com/s/613446/the-ambitious-plan-to-make-the-internets-phone-book-more-trustworthy/ [[file:links.org::#+dns +][=+dns +=]]
- - =2019-09-11= https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/ [[file:links.org::#+firefox][=+firefox=]]
- - =2019-09-11= https://birdeatsbug.com/5-bugs-that-became-features [[file:links.org::#+dev][=+dev=]]
- - =2019-09-11= http://augmented-ui.com/ [[file:links.org::#+css][=+css=]]
- - =2019-09-09= https://techworker.coop/sites/default/files/TechCoopHOWTO.pdf [[file:links.org::#+coop +][=+coop +=]]
- - =2019-09-09= https://github.com/nuno-faria/tiler [[file:links.org::#+viz][=+viz=]]
- - =2019-09-09= https://christine.website/blog/the-cult-of-kubernetes-2019-09-07 [[file:links.org::#+docker][=+docker=]]
- - =2019-09-07= https://github.com/ozkl/soso [[file:links.org::#+unix][=+unix=]]
- - =2019-09-06= https://regexcrossword.com/ [[file:links.org::#+regex][=+regex=]]
- - =2019-09-06= https://github.com/jagregory/abrash-black-book/ [[file:links.org::#+viz][=+viz=]]
- - =2019-09-06= https://github.com/greymd/tmux-xpanes/ [[file:links.org::#+tty][=+tty=]]
- - =2019-09-05= https://tecnologias.libres.cc/ [[file:links.org::#+openhard][=+openhard=]]
- - =2019-09-05= https://github.com/dumb-password-rules/dumb-password-rules/ [[file:links.org::#+security][=+security=]]
- - =2019-09-05= http://openhardware.science/gosh-manifesto/spanish/ [[file:links.org::#+openhard][=+openhard=]]
- - =2019-09-04= https://github.com/alphapapa/org-ql/ [[file:links.org::#+org][=+org=]]
- - =2019-09-03= https://sctyner.github.io/OpenForSciR/ [[file:links.org::#+r][=+r=]]
- - =2019-09-03= https://leandromoreira.com.br/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/ [[file:links.org::#+dev][=+dev=]]
- - =2019-09-03= https://en.m.wikipedia.org/wiki/Everything_is_a_file [[file:links.org::#+linux][=+linux=]]
- - =2019-09-03= https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html [[file:links.org::#+ssh][=+ssh=]]
- - =201y-09-03= https://backgroundchecks.org/justdeleteme/ [[file:links.org::#+privacy][=+privacy=]]
+*** =2019-09-16= https://www.zdnet.com/article/database-leaks-data-on-most-of-ecuadors-citizens-including-6-7-million-children/ [[file:links.org::#+leak][=+leak=]]
+*** =2019-09-16= https://robertheaton.com/2019/09/15/hp-printers-send-data-on-what-you-print-back-to-hp/ [[file:links.org::#+privacy][=+privacy=]]
+*** =2019-09-16= https://robertheaton.com/2017/11/24/identity-graphs-how-online-trackers-follow-you-across-devices/ [[file:links.org::#+privacy][=+privacy=]]
+*** =2019-09-16= https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/ [[file:links.org::#+isp][=+isp=]]
+*** =2019-09-16= https://news.ycombinator.com/item?id=20980552 [[file:links.org::#+privacy][=+privacy=]]
+*** =2019-09-16= https://github.com/swechhachoudhary/Handwriting-synthesis/ [[file:links.org::#+font][=+font=]]
+*** =2019-09-16= https://enigma.lh.mk/ [[file:links.org::#+crypto][=+crypto=]]
+*** =2019-09-14= https://blog.apnic.net/2018/10/12/doh-dns-over-https-explained/ [[file:links.org::#+dns][=+dns=]]
+*** =2019-09-13= http://svgpocketguide.com/book/ [[file:links.org::#+svg][=+svg=]]
+*** =2019-09-13= http://blog.altermundi.net/article/librerouter-ya-esta-homologado-en-argentina/ [[file:links.org::#+librerouter][=+librerouter=]]
+*** =2019-09-12= https://css-tricks.com/guide-svg-animations-smil/ [[file:links.org::#+svg][=+svg=]]
+*** =2019-09-12= http://tutorials.jenkov.com/svg/index.html [[file:links.org::#+svg][=+svg=]]
+*** =2019-09-11= https://www.technologyreview.com/s/613446/the-ambitious-plan-to-make-the-internets-phone-book-more-trustworthy/ [[file:links.org::#+dns][=+dns=]]
+*** =2019-09-11= https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/ [[file:links.org::#+firefox][=+firefox=]]
+*** =2019-09-11= https://birdeatsbug.com/5-bugs-that-became-features [[file:links.org::#+dev][=+dev=]]
+*** =2019-09-11= http://augmented-ui.com/ [[file:links.org::#+css][=+css=]]
+*** =2019-09-09= https://techworker.coop/sites/default/files/TechCoopHOWTO.pdf [[file:links.org::#+coop][=+coop=]]
+*** =2019-09-09= https://github.com/nuno-faria/tiler [[file:links.org::#+viz][=+viz=]]
+*** =2019-09-09= https://christine.website/blog/the-cult-of-kubernetes-2019-09-07 [[file:links.org::#+docker][=+docker=]]
+*** =2019-09-07= https://github.com/ozkl/soso [[file:links.org::#+unix][=+unix=]]
+*** =2019-09-06= https://regexcrossword.com/ [[file:links.org::#+regex][=+regex=]]
+*** =2019-09-06= https://github.com/jagregory/abrash-black-book/ [[file:links.org::#+viz][=+viz=]]
+*** =2019-09-06= https://github.com/greymd/tmux-xpanes/ [[file:links.org::#+tty][=+tty=]]
+*** =2019-09-05= https://tecnologias.libres.cc/ [[file:links.org::#+openhard][=+openhard=]]
+*** =2019-09-05= https://github.com/dumb-password-rules/dumb-password-rules/ [[file:links.org::#+security][=+security=]]
+*** =2019-09-05= http://openhardware.science/gosh-manifesto/spanish/ [[file:links.org::#+openhard][=+openhard=]]
+*** =2019-09-04= https://github.com/alphapapa/org-ql/ [[file:links.org::#+org][=+org=]]
+*** =2019-09-03= https://sctyner.github.io/OpenForSciR/ [[file:links.org::#+r][=+r=]]
+*** =2019-09-03= https://leandromoreira.com.br/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/ [[file:links.org::#+dev][=+dev=]]
+*** =201y-09-03= https://backgroundchecks.org/justdeleteme/ [[file:links.org::#+privacy][=+privacy=]]
 
 ** =+3d=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +3d
   :END:
 *** =2019-04-05= http://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html
 ** =+CVE=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +CVE
   :END:
 *** =2019-04-11= https://github.com/cfreal/exploits/tree/master/CVE-2019-0211-apache
@@ -53,7 +53,7 @@
 *** =2019-05-14= https://nvd.nist.gov/vuln/detail/CVE-2019-1804
 *** =2019-06-16= https://github.com/numirias/security/blob/master/doc/2019-06-04_ace-vim-neovim.md
 ** =+android=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +android
   :END:
 *** =2019-04-06= https://tuxphones.com/smart-feature-phones-revolution-kai-os/
@@ -61,7 +61,7 @@
 *** =2019-07-18= https://android.stackexchange.com/questions/47819/how-can-phone-companies-detect-tethering-incl-wifi-hotspot
 *** =2019-08-03= https://www.vice.com/en_us/article/d3naek/how-to-make-a-phone-farm
 ** =+archive=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +archive
   :END:
 *** =2019-04-29= https://www.linuxjournal.com/content/open-source-eternal
@@ -72,33 +72,33 @@
 *** =2019-07-23= https://medium.com/message/never-trust-a-corporation-to-do-a-librarys-job-f58db4673351
 *** =2019-07-29= https://reading.supply/post/432f6903-c7cd-4cb0-a894-c09155a8ca8b
 ** =+asciiart=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +asciiart
   :END:
 *** =2019-05-30= https://github.com/mlang/diagrams-braille/blob/master/README.md
 ** =+audio=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +audio
   :END:
 *** =2019-05-31= https://gavv.github.io/articles/roc-0.1/
 ** =+autofs=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +autofs
   :END:
 *** =2019-08-14= https://www.tjansson.dk/2008/01/autofs-and-sshfs-the-perfect-couple/
 ** =+awx=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +awx
   :END:
 *** =2019-04-16= https://developers.redhat.com/blog/2017/12/20/understanding-ansible-tower-isolated-nodes/
 *** =2019-04-16= https://www.ansible.com/blog/ansible-tower-feature-spotlight-instance-groups-and-isolated-nodes
 ** =+backup=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +backup
   :END:
 *** =2019-06-10= https://github.com/restic/builder/blob/master/README.md
 ** =+bash=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +bash
   :END:
 *** =2019-04-13= https://github.com/nerdgeneration/www.sh
@@ -108,38 +108,38 @@
 *** =2019-06-15= http://redsymbol.net/articles/bash-exit-traps/
 *** =2019-08-01= https://iridakos.com/tutorials/2018/03/01/bash-programmable-completion-tutorial.html
 ** =+bgp=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +bgp
   :END:
 *** =2019-05-05= https://blog.thousandeyes.com/what-is-768k-day/
 *** =2019-05-31= https://blog.apnic.net/2019/05/30/public-dns-in-taiwan-the-latest-victim-of-bgp-hijack/
 ** =+blender=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +blender
   :END:
 *** =2019-08-16= https://www.blender.org/user-stories/japanese-anime-studio-khara-moving-to-blender/
 ** =+block=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +block
   :END:
 *** =2019-08-03= https://digiday.com/media/just-four-dudes-inside-easylist-community-run-adblocking-list-disrupting-internet/
 ** =+book=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +book
   :END:
 *** =2019-08-18= http://www.aosabook.org/en/index.html
 ** =+community=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +community
   :END:
 *** =2019-05-22= https://utcc.utoronto.ca/~cks/space/blog/programming/GoIsGooglesLanguage
 ** =+coop=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +coop
   :END:
 *** =2019-09-09= https://techworker.coop/sites/default/files/TechCoopHOWTO.pdf
 ** =+copyleft=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +copyleft
   :END:
 *** =2019-04-02= https://words.steveklabnik.com/what-comes-after-open-source
@@ -148,13 +148,13 @@
 *** =2019-07-23= https://github.com/edent/SuperTinyIcons/issues/214
 *** =2019-07-25= https://home.cern/news/announcement/computing/new-blog-get-updates-your-computing-environment
 ** =+crm=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +crm
   :END:
 *** =2019-06-25= https://tryretool.com/blog/salesforce-for-engineers/
 *** =2019-08-14= https://news.ycombinator.com/item?id=20699923
 ** =+crypto=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +crypto
   :END:
 *** =2019-04-11= https://keybase.io/docs/proof_integration_guide
@@ -164,8 +164,9 @@
 *** =2019-07-14= https://nullprogram.com/blog/2019/07/10/
 *** =2019-07-15= http://cryptocouple.com/
 *** =2019-08-08= https://blog.trailofbits.com/2019/08/06/better-encrypted-group-chat/
+*** =2019-09-16= https://enigma.lh.mk/
 ** =+css=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +css
   :END:
 *** =2019-04-08= https://jrl.ninja/etc/1/
@@ -179,24 +180,24 @@
 *** =2019-08-19= https://color.clss.hk/
 *** =2019-09-11= http://augmented-ui.com/
 ** =+curl=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +curl
   :END:
 *** =2019-09-03= https://catonmat.net/cookbooks/curl
 ** =+cyberwar=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +cyberwar
   :END:
 *** =2019-04-15= https://www.schneier.com/blog/archives/2019/04/china_spying_on.html
 *** =2019-04-16= https://m.dw.com/en/russias-parliament-votes-to-unplug-internet-from-world/a-48334411
 *** =2019-05-30= https://a16z.com/2019/05/29/field-notes-highlights-from-huawei/
 ** =+deploy=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +deploy
   :END:
 *** =2019-07-11= https://medium.com/darklang/how-dark-deploys-code-in-50ms-771c6dd60671
 ** =+design=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +design
   :END:
 *** =2019-04-08= https://www.gimp.org/news/2019/04/07/gimp-2-10-10-released/
@@ -210,7 +211,7 @@
 *** =2019-08-16= https://4232.cf/
 *** =2019-08-20= https://www.norwegiancreations.com/2015/08/how-to-trace-bitmaps-in-inkscape/
 ** =+dev=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +dev
   :END:
 *** =2019-04-05= https://computinged.wordpress.com/2019/02/04/inverse-live-coding-a-practice-for-teaching-web-development/
@@ -248,12 +249,12 @@
 *** =2019-09-03= https://leandromoreira.com.br/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/
 *** =2019-09-11= https://birdeatsbug.com/5-bugs-that-became-features
 ** =+distro=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +distro
   :END:
 *** =2019-05-20= https://ungleich.ch/en-us/cms/blog/2019/05/20/linux-distros-without-systemd/
 ** =+dns=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +dns
   :END:
 *** =2019-03-28= https://blog.stackpath.com/serverless-dns-over-https-at-the-edge-doh?
@@ -261,7 +262,7 @@
 *** =2019-09-11= https://www.technologyreview.com/s/613446/the-ambitious-plan-to-make-the-internets-phone-book-more-trustworthy/
 *** =2019-09-14= https://blog.apnic.net/2018/10/12/doh-dns-over-https-explained/
 ** =+docker=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +docker
   :END:
 *** =2019-04-03= https://blog.heroku.com/docker-images-with-buildpacks
@@ -275,22 +276,22 @@
 *** =2019-09-01= https://unixism.net/2019/08/a-managers-guide-to-kubernetes-adoption/
 *** =2019-09-09= https://christine.website/blog/the-cult-of-kubernetes-2019-09-07
 ** =+drm=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +drm
   :END:
 *** =2019-04-04= https://www.bbc.com/news/technology-47810367
 ** =+emacs=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +emacs
   :END:
 *** =2019-06-10= https://two-wrongs.com/why-you-should-buy-into-the-emacs-platform
 ** =+epub=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +epub
   :END:
 *** =2019-08-03= https://standardebooks.org/
 ** =+exploit=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +exploit
   :END:
 *** =2019-06-06= https://blog.segu-info.com.ar/2019/06/rdpstrip-atacar-remote-desktop-protocol.html
@@ -298,7 +299,7 @@
 *** =2019-08-08= https://gtfobins.github.io/
 *** =2019-08-09= https://blog.coinbase.com/responding-to-firefox-0-days-in-the-wild-d9c85a57f15b
 ** =+firefox=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +firefox
   :END:
 *** =2019-04-16= https://www.zdnet.com/article/former-mozilla-exec-google-has-sabotaged-firefox-for-years/
@@ -309,20 +310,21 @@
 *** =2019-07-18= https://www.bleepingcomputer.com/news/software/firefox-to-warn-when-saved-logins-are-found-in-data-breaches/
 *** =2019-09-11= https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/
 ** =+firmware=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +firmware
   :END:
 *** =2019-05-09= https://blog.jessfraz.com/post/why-open-source-firmware-is-important-for-security/
 ** =+font=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +font
   :END:
 *** =2019-03-30= https://www.masswerk.at/nowgobang/2019/dec-crt-typography
 *** =2019-04-08= https://public-sans.digital.gov/
 *** =2019-07-18= https://pixelambacht.nl/2017/github-font-piracy/
 *** =2019-08-08= https://www.figma.com/blog/the-birth-of-inter/
+*** =2019-09-16= https://github.com/swechhachoudhary/Handwriting-synthesis/
 ** =+game=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +game
   :END:
 *** =2019-04-09= http://www.vintage-basic.net/games.html
@@ -331,7 +333,7 @@
 *** =2019-06-06= https://osgameclones.com/
 *** =2019-06-25= https://www.gamasutra.com/view/news/344672/How_id_built_Wolfenstein_3D_using_Commander_Keen_tech.php
 ** =+git=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +git
   :END:
 *** =2019-04-05= https://git-send-email.io/
@@ -346,58 +348,58 @@
 *** =2019-04-05= https://gitlab.com/pages/org-mode
 *** =2019-04-05= https://gitlab.com/pages/sphinx
 ** =+gitlab=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +gitlab
   :END:
 *** =2019-04-05= https://gitlab.com/pages/emacs-reveal
 *** =2019-04-05= https://gitlab.com/pages/org-mode
 *** =2019-04-05= https://gitlab.com/pages/sphinx
 ** =+gnu=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +gnu
   :END:
 *** =2019-04-08= https://www.linuxjournal.com/content/open-source-winning-and-now-its-time-people-win-too
 *** =2019-03-29= https://github.com/csdvrx/sixel-gnuplot/blob/master/README.md
 ** =+gnuplot=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +gnuplot
   :END:
 *** =2019-03-29= https://github.com/csdvrx/sixel-gnuplot/blob/master/README.md
 ** =+graphviz=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +graphviz
   :END:
 *** =2019-06-12= http://www.redmine.org/issues/2448
 ** =+html=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +html
   :END:
 *** =2019-06-09= https://bradleytaunt.com/2019/06/08/html-like-1999/
 *** =2019-06-13= https://shkspr.mobi/blog/2019/06/introducing-the-new-html-element-welcome/
 ** =+http=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +http
   :END:
 *** =2019-05-14= https://blog.cloudflare.com/better-http-2-prioritization-for-a-faster-web/
 ** =+i18n=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +i18n
   :END:
 *** =2019-06-19= https://weblate.org/es/
 ** =+iascode=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +iascode
   :END:
 *** =2019-05-31= https://www.frba.utn.edu.ar/audiovisual/infrastructure-as-code/
 ** =+ietf=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +ietf
   :END:
 *** =2019-05-06= https://www.ietf.org/blog/jmap/
 *** =2019-05-16= https://tools.ietf.org/html/rfc8594
 *** =2019-06-11= https://doist.com/blog/decision-making-flat-organization/
 ** =+isp=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +isp
   :END:
 *** =2019-04-10= https://security.googleblog.com/2019/04/gmail-making-email-more-secure-with-mta.html
@@ -410,7 +412,7 @@
 *** =2019-05-21= https://www.mail-tester.com/spf/ispconfig3
 *** =2019-05-28= https://ma.juii.net/blog/fix-ispconfig-job-queue
 ** =+ispconfig=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +ispconfig
   :END:
 *** =2019-05-21= https://git.ispconfig.org/ispconfig/ispconfig3/issues/3405
@@ -420,7 +422,7 @@
 *** =2019-05-21= https://www.mail-tester.com/spf/ispconfig3
 *** =2019-05-28= https://ma.juii.net/blog/fix-ispconfig-job-queue
 ** =+js=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +js
   :END:
 *** =2019-04-03= https://ourcodeworld.com/articles/read/257/how-to-get-the-client-ip-address-with-javascript-only
@@ -431,77 +433,77 @@
 *** =2019-06-24= https://github.com/soheilpro/catj/blob/master/README.md
 *** =2019-08-08= https://json.pizza/
 ** =+json=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +json
   :END:
 *** =2019-06-24= https://github.com/soheilpro/catj/blob/master/README.md
 *** =2019-08-08= https://json.pizza/
 ** =+ldap=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +ldap
   :END:
 *** =2019-08-08= https://support.citrix.com/article/CTX200252
 ** =+leak=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +leak
   :END:
 *** =2019-09-16= https://www.zdnet.com/article/database-leaks-data-on-most-of-ecuadors-citizens-including-6-7-million-children/
 ** =+librerouter=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +librerouter
   :END:
 *** =2019-09-13= http://blog.altermundi.net/article/librerouter-ya-esta-homologado-en-argentina/
 ** =+linux=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +linux
   :END:
 *** =2019-09-03= https://en.m.wikipedia.org/wiki/Everything_is_a_file
 ** =+log=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +log
   :END:
 *** =2019-08-28= https://news.ycombinator.com/item?id=20818106
 *** =2019-09-01= https://github.com/timberio/vector
 ** =+make=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +make
   :END:
 *** =2019-04-05= http://lednique.com/tag/5-x-7-matrix/
 ** =+md=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +md
   :END:
 *** =2019-06-24= https://dave.autonoma.ca/blog/2019/06/23/typesetting-markdown-part-4/
 ** =+minify=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +minify
   :END:
 *** =2019-08-13= https://victorzhou.com/blog/minify-svgs/
 ** =+minimalist=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +minimalist
   :END:
 *** =2019-04-18= https://www.becomingminimalist.com/new-minimalist-blogs/
 *** =2019-04-29= https://1mb.site/
 *** =2019-06-27= https://freshchalk.com/blog/150k-small-business-website-teardown-2019
 ** =+monitor=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +monitor
   :END:
 *** =2019-06-06= https://www.librenms.org/
 *** =2019-07-18= https://www.brotandgames.com/ciao/
 ** =+mp3=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +mp3
   :END:
 *** =2019-04-04= https://archive.org/details/myspace_dragon_hoard_2010
 ** =+mutt=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +mutt
   :END:
 *** =2019-08-01= https://unix.stackexchange.com/questions/293456/setting-editor-in-mutt-vim-with-parameters
 ** =+nerd=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +nerd
   :END:
 *** =2019-04-04= http://colinm.org/sigbovik/
@@ -511,34 +513,34 @@
 *** =2019-05-31= https://courses.csail.mit.edu/6.851/fall17/
 *** =2019-07-14= http://www.andrewdegraff.com/moviemaps/#/star-trek/
 ** =+nfs=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +nfs
   :END:
 *** =2019-06-03= http://dag.wiee.rs/blog/tunneling-nfs4-over-ssh
 *** =2019-06-03= https://blog.delouw.ch/2015/03/14/using-ipa-to-provide-automount-maps-for-nfsv4-home-directories/
 ** =+nsa=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +nsa
   :END:
 *** =2019-06-22= https://www.tomshardware.com/news/nsa-contributes-low-level-stm-coreboot,39704.html
 ** =+ntp=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +ntp
   :END:
 *** =2019-08-07= https://blog.segu-info.com.ar/2019/08/argentina-establece-la-regulacion-de-la.html
 ** =+offline=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +offline
   :END:
 *** =2019-04-16= https://www.estebanmagnani.com.ar/2019/03/27/salir-de-la-red/
 ** =+openhard=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +openhard
   :END:
 *** =2019-09-05= http://openhardware.science/gosh-manifesto/spanish/
 *** =2019-09-05= https://tecnologias.libres.cc/
 ** =+org=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +org
   :END:
 *** =2019-04-05= https://diego.codes/post/blogging-with-org/
@@ -556,22 +558,22 @@
 *** =2019-08-19= https://guzey.com/productivity/
 *** =2019-09-04= https://github.com/alphapapa/org-ql/
 ** =+os=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +os
   :END:
 *** =2019-08-01= https://github.com/nanochess/bootOS
 ** =+papers=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +papers
   :END:
 *** =2019-04-10= https://www.hackernewspapers.com/
 ** =+pcb=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +pcb
   :END:
 *** =2019-07-18= https://www.littlebird.com.au/blogs/news/colourful-printed-circuit-boards
 ** =+perf=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +perf
   :END:
 *** =2019-03-31= https://alexandrnikitin.github.io/blog/transparent-hugepages-measuring-the-performance-impact/
@@ -581,13 +583,13 @@
 *** =2019-08-05= https://marketingexamples.com/content/drive-traffic-from-hacker-news
 *** =2019-08-19= https://developers.google.com/web/updates/2019/02/rendering-on-the-web
 ** =+phishing=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +phishing
   :END:
 *** =2019-04-27= https://jameshfisher.com/2019/04/27/the-inception-bar-a-new-phishing-method/
 *** =2019-08-05= https://github.com/jenyraval/Phishing-Simulation
 ** =+photos=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +photos
   :END:
 *** =2019-04-29= https://github.com/jonathankoren/photo-autorganize
@@ -600,7 +602,7 @@
 *** =2019-04-30= https://gitlab.com/opennota/findimagedupes
 *** =2019-04-30= https://thumbsup.github.io/
 ** =+pi=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +pi
   :END:
 *** =2019-05-14= https://github.com/revalo/pishot/blob/master/README.md
@@ -613,17 +615,17 @@
 *** =2019-08-15= https://cutiepi.io/index.html
 *** =2019-08-16= https://medium.com/@arunvenkats/automating-the-capture-of-airplane-pictures-with-raspberry-pis-ads-b-and-iot-software-39e25ddcf3ea
 ** =+postfix=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +postfix
   :END:
 *** =2019-07-29= https://www.jitbit.com/news/email-architecture/
 ** =+print=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +print
   :END:
 *** =2019-05-31= https://github.com/WebPraktikos/universal-resume/blob/master/README.md
 ** =+privacy=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +privacy
   :END:
 *** =2019-04-08= https://boingboing.net/2019/04/08/no-opt-out.html
@@ -657,12 +659,12 @@
 *** =2019-09-16= https://robertheaton.com/2017/11/24/identity-graphs-how-online-trackers-follow-you-across-devices/
 *** =2019-09-16= https://robertheaton.com/2019/09/15/hp-printers-send-data-on-what-you-print-back-to-hp/
 ** =+proxy=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +proxy
   :END:
 *** =2019-04-21= https://github.com/pichi-router/pichi/blob/master/README.md
 ** =+python=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +python
   :END:
 *** =2019-03-30= https://morioh.com/p/f3bdfe6286ee/python-tutorial-python-gui-programming-python-gui-examples
@@ -676,7 +678,7 @@
 *** =2019-08-16= https://github.com/wyounas/homer
 *** =2019-08-18= http://www.codingwithricky.com/2019/08/18/easy-python-cli-with-click/
 ** =+r=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +r
   :END:
 *** =2019-06-01= https://github.com/noamross/gams-in-r-course
@@ -701,24 +703,24 @@
 *** =2019-04-29= https://michaelcullen.name/2019/04/custard-antenna/
 *** =2019-05-09= https://www.rtl-sdr.com/
 ** =+ram=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +ram
   :END:
 *** =2019-04-04= https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it/
 ** =+raspi=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +raspi
   :END:
 *** =2019-04-13= https://www.brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/
 *** =2019-06-01= https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/
 ** =+react=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +react
   :END:
 *** =2019-05-26= https://github.com/kmkzt/react-hooks-svgdrawing/blob/master/README.md
 *** =2019-05-28= https://react-simple-animate.now.sh/
 ** =+readme=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +readme
   :END:
 *** =2019-04-04= https://fs.blog/2016/04/second-order-thinking/
@@ -728,45 +730,45 @@
 *** =2019-07-29= https://logicmag.io/failure/engineers-dont-solve-problems/
 *** =2019-08-01= https://tinlizzie.org/tinkertoy/
 ** =+redhat=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +redhat
   :END:
 *** =2019-05-09= https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image
 ** =+regex=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +regex
   :END:
 *** =2019-09-06= https://regexcrossword.com/
 ** =+retro=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +retro
   :END:
 *** =2019-04-05= http://www.trevormarshall.com/byte_articles/byte19.htm
 *** =2019-05-26= https://www.telnetbbsguide.com/
 *** =2019-06-17= https://susam.in/blog/good-quality-dosbox-video-capture/
 ** =+review=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +review
   :END:
 *** =2019-07-08= https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/
 ** =+rf=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +rf
   :END:
 *** =2019-04-29= https://michaelcullen.name/2019/04/custard-antenna/
 *** =2019-05-09= https://www.rtl-sdr.com/
 ** =+scrap=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +scrap
   :END:
 *** =2019-08-27= https://unix.stackexchange.com/questions/103252/how-do-i-get-a-websites-title-using-command-line
 ** =+sd=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +sd
   :END:
 *** =2019-08-18= https://www.makeuseof.com/tag/5-mistakes-avoid-buying-next-microsd-card/
 ** =+security=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +security
   :END:
 *** =2019-03-28= https://github.com/manoelt/50M_CTF_Writeup
@@ -796,17 +798,17 @@
 *** =2019-08-19= https://carvesystems.com/news/abusing-webviews-to-steal-files-via-email/
 *** =2019-09-05= https://github.com/dumb-password-rules/dumb-password-rules/
 ** =+slides=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +slides
   :END:
 *** =2019-05-09= https://github.com/hiroppy/fusuma/blob/master/README.md
 ** =+social=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +social
   :END:
 *** =2019-04-08= https://futurism.com/the-byte/linux-facebook-instagram-twitter-disease
 ** =+sql=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +sql
   :END:
 *** =2019-04-05= https://cstack.github.io/db_tutorial/
@@ -823,7 +825,7 @@
 *** =2019-09-01= https://dqlite.io/
 *** =2019-09-03= http://www.helenanderson.co.nz/sql-query-tweaks/
 ** =+ssh=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +ssh
   :END:
 *** =2019-04-21= https://gist.github.com/lizthegrey/9c21673f33186a9cc775464afbdce820
@@ -831,13 +833,13 @@
 *** =2019-07-18= https://daniel-lange.com/archives/152-hello-buster.html
 *** =2019-09-03= https://drewdevault.com/2019/09/02/Interactive-SSH-programs.html
 ** =+static=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +static
   :END:
 *** =2019-06-01= https://tkainrad.dev/posts/using-hugo-gitlab-pages-and-cloudflare-to-create-and-run-this-website/
 *** =2019-07-10= https://grh.am/2018/deploying-a-hugo-static-site-using-gitlab-ci-cd-and-ssh/
 ** =+svg=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +svg
   :END:
 *** =2019-07-18= https://superuser.com/questions/174522/command-line-svg-and-image-file-viewer-in-linux
@@ -845,7 +847,7 @@
 *** =2019-09-12= https://css-tricks.com/guide-svg-animations-smil/
 *** =2019-09-13= http://svgpocketguide.com/book/
 ** =+sysadmin=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +sysadmin
   :END:
 *** =2019-04-01= https://blog.cloudflare.com/1111-warp-better-vpn/
@@ -874,18 +876,18 @@
 *** =2019-09-01= https://poolp.org/posts/2019-08-30/you-should-not-run-your-mail-server-because-mail-is-hard/
 *** =2019-09-01= https://www.joyent.com/blog/tcp-puzzlers
 ** =+test=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +test
   :END:
 *** =2019-07-15= https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/
 *** =2019-08-18= https://github.com/prprprus/softest/blob/master/README.md
 ** =+tools=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +tools
   :END:
 *** =2019-07-18= https://syncthing.net/
 ** =+tty=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +tty
   :END:
 *** =2019-03-30= https://lists.freebsd.org/pipermail/freebsd-current/2010-August/019310.html
@@ -904,7 +906,7 @@
 *** =2019-09-01= https://github.com/eBay/tsv-utils
 *** =2019-09-06= https://github.com/greymd/tmux-xpanes/
 ** =+unix=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +unix
   :END:
 *** =2019-03-31= https://gordonbell.azurewebsites.net/digital/timeline/pdp-1story.htm
@@ -916,7 +918,7 @@
 *** =2019-07-08= http://pdp2011.sytse.net/wordpress/pdp-11/
 *** =2019-09-07= https://github.com/ozkl/soso
 ** =+unknown=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +unknown
   :END:
 *** =2019-04-01= https://github.com/andrewbihl/bsed/blob/master/README.md
@@ -947,32 +949,32 @@
 *** =2019-08-05= https://pwnies.com/nominations-2019/
 *** =2019-08-12= https://news.ycombinator.com/item?id=20670235
 ** =+usb=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +usb
   :END:
 *** =2019-07-15= https://people.kernel.org/bleung/how-many-kinds-of-usb-c-to-usb-c-cables-are-there
 *** =2019-07-25= https://github.com/snovvcrash/usbrip/blob/master/README.md
 ** =+ux=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +ux
   :END:
 *** =2019-04-16= https://digital.nhs.uk/blog/transformation-blog/2019/icons-avoid-temptation-and-start-with-user-needs
 *** =2019-05-26= https://medium.com/@GreatUX/buttons-placement-and-order-bb1c4abadfcb
 *** =2019-05-30= https://gramener.com/comicgen/
 ** =+vim=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +vim
   :END:
 *** =2019-04-08= https://spacevim.org/SpaceVim-release-v1.1.0/
 *** =2019-05-31= https://github.com/alok/notational-fzf-vim/blob/master/README.md
 *** =2019-08-01= https://github.com/bpstahlman/txtfmt/blob/master/README.md
 ** =+virtual=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +virtual
   :END:
 *** =2019-04-10= http://katacontainers.io
 ** =+viz=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +viz
   :END:
 *** =2019-04-08= https://github.com/ericdrowell/ElGrapho/blob/master/README.md
@@ -988,13 +990,13 @@
 *** =2019-09-06= https://github.com/jagregory/abrash-black-book/
 *** =2019-09-09= https://github.com/nuno-faria/tiler
 ** =+vpn=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +vpn
   :END:
 *** =2019-04-21= https://github.com/subspacecloud/subspace/blob/master/README.md
 *** =2019-05-29= https://github.com/pirate/wireguard-docs
 ** =+web=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +web
   :END:
 *** =2019-03-30= https://www.latimes.com/opinion/op-ed/la-oe-kosseff-section-230-internet-20190329-story.html
@@ -1011,7 +1013,7 @@
 *** =2019-08-03= https://www.theatlantic.com/technology/archive/2019/08/how-dark-patterns-online-manipulate-shoppers/595360/
 *** =2019-08-10= https://justinjackson.ca/words.html
 ** =+wifi=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +wifi
   :END:
 *** =2019-04-14= https://blog.segu-info.com.ar/2019/04/dragonblood-multiples-vulnerabilidades.html
@@ -1020,24 +1022,24 @@
 *** =2019-06-17= https://hackaday.com/2017/03/02/great-hacks-of-history-the-marconi-radio-hack-1903/
 *** =2019-08-08= https://krebsonsecurity.com/2019/08/who-owns-your-wireless-service-crooks-do/
 ** =+win=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +win
   :END:
 *** =2019-04-06= https://www.nirsoft.net/
 *** =2019-04-10= https://metis.fi/en/2017/10/txpower/
 *** =2019-08-07= https://reddragdiva.dreamwidth.org/607714.html
 ** =+wine=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +wine
   :END:
 *** =2019-08-07= https://reddragdiva.dreamwidth.org/607714.html
 ** =+wordpress=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +wordpress
   :END:
 *** =2019-04-29= https://philderksen.com/why-i-merged/
 ** =+workstation=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +workstation
   :END:
 *** =2019-05-24= https://workstation.is/
@@ -1048,12 +1050,12 @@
 *** =2019-08-12= https://pknopf.com/post/2018-11-09-give-ubuntu-darch-a-quick-ride-in-a-virtual-machine/
 *** =2019-08-12= https://www.stavros.io/posts/provisioning-your-computer-one-command-awesome/
 ** =+x11=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +x11
   :END:
 *** =2019-08-16= https://cyber.dabamos.de/unix/x11/
 ** =+xkcd=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +xkcd
   :END:
 *** =2019-06-24= https://xkcd.com/2143/
@@ -1061,7 +1063,7 @@
 *** =2019-08-19= https://github.com/timqian/chart.xkcd
 *** =2019-08-29= https://blog.xkcd.com/2019/08/26/how-to-send-a-file/
 ** =+yaml=
-  :PROPERTIES:
+     :PROPERTIES:
   :CUSTOM_ID: +yaml
   :END:
 *** =2019-08-18= https://arp242.net/yaml-config.html
