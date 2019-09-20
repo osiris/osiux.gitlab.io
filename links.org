@@ -8,9 +8,10 @@
 
 
 ** Recents links
-*** =2019-09-20= http://diego-pacheco.blogspot.com/2019/09/linux-terminal-goods.html?m=1 [[file:links.org::#+tty +][=+tty +=]]
+*** =2019-09-20= https://github.com/dylanaraps/pxltrm/ [[file:links.org::#+tty][=+tty=]]
+*** =2019-09-20= http://diego-pacheco.blogspot.com/2019/09/linux-terminal-goods.html?m=1 [[file:links.org::#+tty][=+tty=]]
 *** =2019-09-19= https://rogerdudler.github.io/git-guide/ [[file:links.org::#+git][=+git=]]
-*** =2019-09-19= https://medium.com/young-coder/the-pain-points-of-web-development-with-wordpress-9bbaf5393202 [[file:links.org::#+web +][=+web +=]]
+*** =2019-09-19= https://medium.com/young-coder/the-pain-points-of-web-development-with-wordpress-9bbaf5393202 [[file:links.org::#+web][=+web=]]
 *** =2019-09-19= https://github.com/eon01/kubernetes-workshop [[file:links.org::#+docker][=+docker=]]
 *** =2019-09-19= https://github.com/dylanaraps/pure-bash-bible/ [[file:links.org::#+bash][=+bash=]]
 *** =2019-09-19= https://getkiss.org/ [[file:links.org::#+distro][=+distro=]]
@@ -36,7 +37,6 @@
 *** =2019-09-11= https://www.technologyreview.com/s/613446/the-ambitious-plan-to-make-the-internets-phone-book-more-trustworthy/ [[file:links.org::#+dns][=+dns=]]
 *** =2019-09-11= https://ungleich.ch/en-us/cms/blog/2019/09/11/turn-off-doh-firefox/ [[file:links.org::#+firefox][=+firefox=]]
 *** =2019-09-11= https://birdeatsbug.com/5-bugs-that-became-features [[file:links.org::#+dev][=+dev=]]
-*** =2019-09-11= http://augmented-ui.com/ [[file:links.org::#+css][=+css=]]
 *** =201y-09-03= https://backgroundchecks.org/justdeleteme/ [[file:links.org::#+privacy][=+privacy=]]
 
 ** =+3d=
@@ -917,6 +917,7 @@
 *** =2019-09-01= https://github.com/eBay/tsv-utils
 *** =2019-09-06= https://github.com/greymd/tmux-xpanes/
 *** =2019-09-20= http://diego-pacheco.blogspot.com/2019/09/linux-terminal-goods.html?m=1
+*** =2019-09-20= https://github.com/dylanaraps/pxltrm/
 ** =+unix=
      :PROPERTIES:
   :CUSTOM_ID: +unix
