@@ -8,6 +8,10 @@
 
 
 ** Recents links
+*** =2019-09-24= [[https://pi-hole.net][Pi-hole®: A black hole for Internet advertisements - A black hole for Internet advertisements ]] [[file:links.org::#+pi][=+pi=]]
+*** =2019-09-24= [[https://leimao.github.io/blog/Tmux-Tutorial/][Lei Mao's Log Book - Tmux Tutorial ]] [[file:links.org::#+tty][=+tty=]]
+*** =2019-09-24= [[https://github.com/adblockradio/adblockradio][An adblocker for live radio streams and podcasts. Machine learning meets Shazam. ]] [[file:links.org::#+radio][=+radio=]]
+*** =2019-09-24= [[https://dohproxy.com/][DoHProxy.com | DoH Proxy & Anonymizer ]] [[file:links.org::#+dns][=+dns=]]
 *** =2019-09-23= [[https://www.colorbox.io/][ColorBox by Lyft Design]] [[file:links.org::#+css][=+css=]]
 *** =2019-09-23= [[https://webtest.app/][Webtest.app - Testing websites with and without adblocker]] [[file:links.org::#+perf][=+perf=]]
 *** =2019-09-23= [[https://longreads.com/2019/09/05/how-google-discovered-the-value-of-surveillance/][How Google Discovered the Value of Surveillance]] [[file:links.org::#+privacy][=+privacy=]]
@@ -34,10 +38,6 @@
 *** =2019-09-17= [[https://samy.pl/pwnat/][Samy Kamkar - pwnat: NAT to NAT client-server communication]] [[file:links.org::#+security][=+security=]]
 *** =2019-09-17= [[https://github.com/arzzen/git-quick-stats/][▁▅▆▃▅ Git quick statistics is a simple and efficient way to access various statistics in git repository.]] [[file:links.org::#+git][=+git=]]
 *** =2019-09-17= [[https://blog.segu-info.com.ar/2019/09/nueva-lista-de-vulnerabilidad-comunes.html][Nueva lista de vulnerabilidad comunes (MITRE CWE Top 25) ~ Segu-Info]] [[file:links.org::#+CVE][=+CVE=]]
-*** =2019-09-16= [[https://www.zdnet.com/article/database-leaks-data-on-most-of-ecuadors-citizens-including-6-7-million-children/][Database leaks data on most of Ecuador's citizens, including 6.7 million children | ZDNet]] [[file:links.org::#+leak][=+leak=]]
-*** =2019-09-16= [[https://robertheaton.com/2019/09/15/hp-printers-send-data-on-what-you-print-back-to-hp/][HP printers try to send data back to HP about your devices and what you print | Robert Heaton]] [[file:links.org::#+privacy][=+privacy=]]
-*** =2019-09-16= [[https://robertheaton.com/2017/11/24/identity-graphs-how-online-trackers-follow-you-across-devices/][Identity Graphs: how online trackers follow you across devices | Robert Heaton]] [[file:links.org::#+privacy][=+privacy=]]
-*** =2019-09-16= [[https://poolp.org/posts/2019-09-14/setting-up-a-mail-server-with-opensmtpd-dovecot-and-rspamd/][Setting up a mail server with OpenSMTPD, Dovecot and Rspamd - poolp.org]] [[file:links.org::#+isp][=+isp=]]
 
 ** =+3d=
    :PROPERTIES:
@@ -275,6 +275,7 @@
 *** =2019-04-13= [[https://rjzaworski.com/2019/04/the-web-developers-guide-to-dns][The Web Developer's Guide to DNS | RJ Zaworski]]
 *** =2019-09-11= [[https://www.technologyreview.com/s/613446/the-ambitious-plan-to-make-the-internets-phone-book-more-trustworthy/][The ambitious plan to reinvent how websites get their names - MIT Technology Review]]
 *** =2019-09-14= [[https://blog.apnic.net/2018/10/12/doh-dns-over-https-explained/][DOH! DNS over HTTPS explained | APNIC Blog]]
+*** =2019-09-24= [[https://dohproxy.com/][DoHProxy.com | DoH Proxy & Anonymizer ]]
 ** =+docker=
    :PROPERTIES:
    :CUSTOM_ID: +docker
@@ -639,6 +640,7 @@
 *** =2019-08-01= [[https://www.balena.io/blog/build-a-raspberry-pi-powered-train-station-oled-sign-for-your-desk/][Build a Raspberry Pi powered live train station sign for your desk]]
 *** =2019-08-15= [[https://cutiepi.io/index.html][CutiePi tablet - Your Raspberry Pi Projects, Untethered]]
 *** =2019-08-16= [[https://medium.com/@arunvenkats/automating-the-capture-of-airplane-pictures-with-raspberry-pis-ads-b-and-iot-software-39e25ddcf3ea][Automating the capture of airplane pictures with Raspberry Pis, ADS-B and IoT software.]]
+*** =2019-09-24= [[https://pi-hole.net][Pi-hole®: A black hole for Internet advertisements - A black hole for Internet advertisements ]]
 ** =+postfix=
    :PROPERTIES:
    :CUSTOM_ID: +postfix
@@ -711,6 +713,7 @@
    :END:
 *** =2019-06-01= [[https://github.com/noamross/gams-in-r-course][A Free Interactive Course]]
 *** =2019-09-03= [[https://sctyner.github.io/OpenForSciR/][Open Forensic Science in R]]
+*** =2019-09-24= [[https://github.com/adblockradio/adblockradio][An adblocker for live radio streams and podcasts. Machine learning meets Shazam. ]]
 *** =2019-04-04= [[https://www.downtowndougbrown.com/2019/04/adventures-of-putting-16-gb-of-ram-in-a-motherboard-that-doesnt-support-it/][Downtown Doug Brown &raquo; Adventures of putting 16 GB of RAM in a motherboard that doesn&#8217;t support it]]
 *** =2019-04-13= [[https://www.brianchristner.io/how-a-single-raspberry-pi-made-my-home-network-faster/][How a Single Raspberry PI made my Home Network Faster]]
 *** =2019-06-01= [[https://blog.alexellis.io/test-drive-k3s-on-raspberry-pi/][Will it cluster? k3s on your Raspberry Pi]]
@@ -731,6 +734,11 @@
 *** =2019-07-08= [[https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/][10 tips for reviewing code you don't like - Red Hat Developer]]
 *** =2019-04-29= [[https://michaelcullen.name/2019/04/custard-antenna/][Custard Antenna | michaelcullen.name]]
 *** =2019-05-09= https://www.rtl-sdr.com/
+** =+radio=
+   :PROPERTIES:
+   :CUSTOM_ID: +radio
+   :END:
+*** =2019-09-24= [[https://github.com/adblockradio/adblockradio][An adblocker for live radio streams and podcasts. Machine learning meets Shazam. ]]
 ** =+ram=
    :PROPERTIES:
    :CUSTOM_ID: +ram
@@ -940,6 +948,7 @@
 *** =2019-09-06= [[https://github.com/greymd/tmux-xpanes/][Awesome tmux-based terminal divider]]
 *** =2019-09-20= [[http://diego-pacheco.blogspot.com/2019/09/linux-terminal-goods.html?m=1][Linux Terminal Goods]]
 *** =2019-09-20= [[https://github.com/dylanaraps/pxltrm/][🖌️ pxltrm - WIP A pixel art editor inside the terminal]]
+*** =2019-09-24= [[https://leimao.github.io/blog/Tmux-Tutorial/][Lei Mao's Log Book - Tmux Tutorial ]]
 ** =+unix=
    :PROPERTIES:
    :CUSTOM_ID: +unix
