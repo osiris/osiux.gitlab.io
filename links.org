@@ -9,6 +9,7 @@
 
 ** Recents links
 *** =2019-09-25= [[https://www.linuxuprising.com/2019/09/fast-linux-application-launcher.html][Fast Linux Application Launcher Ulauncher 5.3.0 Stable Released - Linux Uprising Blog ]] [[file:links.org::#+python][=+python=]]
+*** =2019-09-25= [[https://github.com/httptoolkit/mockttp][Powerful friendly HTTP mock server &amp; proxy ]] [[file:links.org::#+dev][=+dev=]]
 *** =2019-09-25= [[https://github.com/Y2Z/monolith][CLI tool for saving web pages as a single file ]] [[file:links.org::#+tty][=+tty=]]
 *** =2019-09-24= [[https://pi-hole.net][Pi-hole®: A black hole for Internet advertisements - A black hole for Internet advertisements ]] [[file:links.org::#+pi][=+pi=]]
 *** =2019-09-24= [[https://leimao.github.io/blog/Tmux-Tutorial/][Lei Mao's Log Book - Tmux Tutorial ]] [[file:links.org::#+tty][=+tty=]]
@@ -37,7 +38,6 @@
 *** =2019-09-18= [[https://www.vanschneider.com/a-love-letter-to-personal-websites][A love letter to my website - DESK Magazine]] [[file:links.org::#+web][=+web=]]
 *** =2019-09-18= [[https://github.com/vasanthv/jsonbox][A Free HTTP based JSON storage.]] [[file:links.org::#+json][=+json=]]
 *** =2019-09-18= [[http://asciicker.com/x13/][ASCIICKER - let's kick some ASCII]] [[file:links.org::#+asciiart][=+asciiart=]]
-*** =2019-09-17= [[https://samy.pl/pwnat/][Samy Kamkar - pwnat: NAT to NAT client-server communication]] [[file:links.org::#+security][=+security=]]
 
 ** =+3d=
    :PROPERTIES:
@@ -261,6 +261,7 @@
 *** =2019-08-19= [[https://www.csc.gov.sg/articles/how-to-build-good-software][How to Build Good Software]]
 *** =2019-09-03= [[https://leandromoreira.com.br/2019/08/02/linux-ffmpeg-source-internals-a-good-software-design/][Good Code Design From Linux/Kernel | Leandro Moreira]]
 *** =2019-09-11= [[https://birdeatsbug.com/5-bugs-that-became-features][5 bugs turned into features]]
+*** =2019-09-25= [[https://github.com/httptoolkit/mockttp][Powerful friendly HTTP mock server &amp; proxy ]]
 ** =+distro=
    :PROPERTIES:
    :CUSTOM_ID: +distro
