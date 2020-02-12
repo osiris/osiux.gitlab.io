@@ -148,6 +148,11 @@ resumen y un historial cronológico de todas ellas.
 **** FLISoL - Festival Latinoamericano de Instalación de Software Libre
 ***** Sólo confío en localhost                                     :sysadmin:
 
+      #+ATTR_HTML: :width 640 :height 453 :title Solo confío en localhost
+      [[https://pub.osiux.com/solo-confio-en-localhost.pdf][file:img/solo-confio-en-localhost.png]]
+
+      - Slides: [[https://pub.osiux.com/charlas/solo-confio-en-localhost.pdf]]
+
 ** 04/2015
 *** Escuela Secundaria Técnica Nro. 4 de Berazategui, Berazategui, Argentina
 **** FLISoL - Festival Latinoamericano de Instalación de Software Libre
