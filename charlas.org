@@ -38,64 +38,78 @@ resumen y un historial cronológico de todas ellas.
 
    ,** charlas por tag
 
-    30.77 %  30.77 %         12 ███████              redes 
-    53.85 %  23.08 %          9 █████                coop 
-    66.67 %  12.82 %          5 ███                  sysadmin 
-    76.92 %  10.26 %          4 ██                   privacidad 
-    87.18 %  10.26 %          4 ██                   graphviz 
-    94.87 %   7.69 %          3 ██                   orgmode 
-    97.44 %   2.56 %          1 ▌                    openvz 
-   100.00 %   2.56 %          1 ▌                    gnu 
-			     39
+    31.58 %  31.58 %         12 ████████             redes 
+    52.63 %  21.05 %          8 █████                coop 
+    65.79 %  13.16 %          5 ███                  sysadmin 
+    76.32 %  10.53 %          4 ██                   graphviz 
+    84.21 %   7.89 %          3 ██                   privacidad 
+    92.11 %   7.89 %          3 ██                   orgmode 
+    94.74 %   2.63 %          1 ▌                    openvz 
+    97.37 %   2.63 %          1 ▌                    gnu 
+   100.00 %   2.63 %          1 ▌                    ansible 
+			     38
    ,** charlas por año
 
     21.43 %  21.43 %          6 █████                2011 
     39.29 %  17.86 %          5 ████                 2012 
-    50.00 %  10.71 %          3 ██                   2018 
-    60.71 %  10.71 %          3 ██                   2014 
-    71.43 %  10.71 %          3 ██                   2013 
-    78.57 %   7.14 %          2 █                    2015 
-    85.71 %   7.14 %          2 █                    2008 
-    92.86 %   7.14 %          2 █                    2007 
+    50.00 %  10.71 %          3 ██                   2014 
+    60.71 %  10.71 %          3 ██                   2013 
+    67.86 %   7.14 %          2 █                    2018 
+    75.00 %   7.14 %          2 █                    2015 
+    82.14 %   7.14 %          2 █                    2008 
+    89.29 %   7.14 %          2 █                    2007 
+    92.86 %   3.57 %          1 █                    2019 
     96.43 %   3.57 %          1 █                    2016 
    100.00 %   3.57 %          1 █                    2010 
 			     28
 
    ,** meses más frecuentes
 
-    36.00 %  36.00 %          9 █████████            04 
-    56.00 %  20.00 %          5 █████                11 
-    68.00 %  12.00 %          3 ███                  10 
-    76.00 %   8.00 %          2 ██                   09 
-    84.00 %   8.00 %          2 ██                   07 
-    92.00 %   8.00 %          2 ██                   05 
-   100.00 %   8.00 %          2 ██                   03 
-			     25
+    30.77 %  30.77 %          8 ███████              04 
+    50.00 %  19.23 %          5 ████                 11 
+    61.54 %  11.54 %          3 ███                  10 
+    69.23 %   7.69 %          2 ██                   12 
+    76.92 %   7.69 %          2 ██                   09 
+    84.62 %   7.69 %          2 ██                   07 
+    92.31 %   7.69 %          2 ██                   05 
+   100.00 %   7.69 %          2 ██                   03 
+			     26
 
    ,** eventos más frecuentes
 
-    75.00 %  75.00 %         12 ██████████████████   FLISoL  
-    87.50 %  12.50 %          2 ███                  SASOConf  
-   100.00 %  12.50 %          2 ███                  CISL  
-			     16
+    71.43 %  71.43 %         10 █████████████████    FLISoL  
+    85.71 %  14.29 %          2 ███                  SASOConf  
+   100.00 %  14.29 %          2 ███                  CISL  
+			     14
 
    ,** ciudades más frecuentes
 
-    41.67 %  41.67 %         15 ██████████           CABA 
-    52.78 %  11.11 %          4 ██                   Curuzú Cuatiá 
-    61.11 %   8.33 %          3 ██                   Río Gallegos 
-    69.44 %   8.33 %          3 ██                   Argentina 
-    75.00 %   5.56 %          2 █                    Monte Caseros 
-    80.56 %   5.56 %          2 █                    Bogotá 
-    83.33 %   2.78 %          1 ▌                    Villa Madero 
-    86.11 %   2.78 %          1 ▌                    Porto Alegre 
-    88.89 %   2.78 %          1 ▌                    La Plata 
-    91.67 %   2.78 %          1 ▌                    Lanús 
-    94.44 %   2.78 %          1 ▌                    José C. Paz 
-    97.22 %   2.78 %          1 ▌                    Berazategui 
-   100.00 %   2.78 %          1 ▌                    Avellaneda 
-			     36
+    42.86 %  42.86 %         15 ██████████           CABA 
+    54.29 %  11.43 %          4 ██                   Curuzú Cuatiá 
+    62.86 %   8.57 %          3 ██                   Argentina 
+    68.57 %   5.71 %          2 █                    Río Gallegos 
+    74.29 %   5.71 %          2 █                    Monte Caseros 
+    80.00 %   5.71 %          2 █                    Bogotá 
+    82.86 %   2.86 %          1 ▌                    Villa Madero 
+    85.71 %   2.86 %          1 ▌                    Porto Alegre 
+    88.57 %   2.86 %          1 ▌                    Lanús 
+    91.43 %   2.86 %          1 ▌                    La Plata 
+    94.29 %   2.86 %          1 ▌                    José C. Paz 
+    97.14 %   2.86 %          1 ▌                    Berazategui 
+   100.00 %   2.86 %          1 ▌                    Avellaneda 
+			     35
    #+end_example
+
+** 12/2019
+*** Centro Cultural General San Martin, CABA, Argentina
+**** PyConAR - Python Conference Argentina
+***** no podemos innovar si seguimos realizando tareas manuales :ansible:
+
+      #+ATTR_HTML: :width 640 :height 453 :title Privacidad y anonimato con Software Libre
+      [[https://www.youtube.com/watch?v=f93KQ0cAbxI][file:img/no-podemos-innovar-si-seguimos-realizando-tareas-manuales-pyconcar-caba-ccgsm.png]]
+
+      - Slides: [[https://pub.osiux.com/charlas/no-podemos-innovar-si-seguimos-realizando-tareas-manuales-pyconcar-caba-ccgsm.pdf]]
+      - Video: [[https://www.youtube.com/watch?v=f93KQ0cAbxI]]
 
 ** 11/2018
 *** Universidad Nacional de José C. Paz, José C. Paz, Buenos Aires, Argentina
@@ -150,9 +164,9 @@ resumen y un historial cronológico de todas ellas.
 ***** fast OpenVZ backups                                            :openvz:
 
       #+ATTR_HTML: :width 640 :height 452 :title fast OpenVz backups
-      [[http://pub.osiux.com/plan-b-sasoconf.pdf][file:img/plan-b-sasoconf.png]]
+      [[https://pub.osiux.com/plan-b-sasoconf.pdf][file:img/plan-b-sasoconf.png]]
 
-      - Slides: [[http://pub.osiux.com/plan-b-sasoconf.pdf]]
+      - Slides: [[https://pub.osiux.com/plan-b-sasoconf.pdf]]
       - Source: https://github.com/gcoop-libre/plan-b
 
 ** 11/2014
@@ -207,9 +221,9 @@ resumen y un historial cronológico de todas ellas.
 ***** Redes para todos                                                :redes:
 
       #+ATTR_HTML: :width 640 :height 452 :title Redes para todos
-      [[http://pub.osiux.com/redes-para-todos.pdf][file:redes-para-todos.png]]
+      [[https://pub.osiux.com/redes-para-todos.pdf][file:redes-para-todos.png]]
 
-      - Slides: http://pub.osiux.com/redes-para-todos.pdf
+      - Slides: https://pub.osiux.com/redes-para-todos.pdf
 
 ** 06/2013
 *** La Matanza, Argentina
@@ -231,9 +245,9 @@ resumen y un historial cronológico de todas ellas.
 ***** Altermesh, libera tu red                                        :redes:
 
       #+ATTR_HTML: :width 640 :height 453 :title Cooperativismo y Software Libre
-      [[http://pub.osiux.com/altermundi.pdf][file:altermundi.png]]
+      [[https://pub.osiux.com/altermundi.pdf][file:altermundi.png]]
 
-      - Slides: http://pub.osiux.com/altermundi.pdf
+      - Slides: https://pub.osiux.com/altermundi.pdf
       - [[http://osiux.com/2013-04-02-altermesh-buenos-aires-libre-compartir-es-bueno.html]]
 
 *** CFP, CABA, Argentina
@@ -252,7 +266,7 @@ resumen y un historial cronológico de todas ellas.
       #+ATTR_HTML: :width 640 :height 453 :title Privacidad y Anonimato en la red
       [[http://youtu.be/xjxzCDmkNyQ][file:img/priv-y-anon.pdf]]
 
-      - Slides: http://pub.osiux.com/priv-y-anon.pdf
+      - Slides: https://pub.osiux.com/priv-y-anon.pdf
       - http://osiux.com/privacidad-y-anonimato-en-la-red.html
 
 ***** Entendiendo la red                                              :redes:
@@ -265,9 +279,9 @@ resumen y un historial cronológico de todas ellas.
 ***** Redes para todos                                                :redes:
 
       #+ATTR_HTML: :width 640 :height 452 :title Redes para todos
-      [[http://pub.osiux.com/redes-para-todos.pdf][file:redes-para-todos.png]]
+      [[https://pub.osiux.com/redes-para-todos.pdf][file:redes-para-todos.png]]
 
-      - Slides: http://pub.osiux.com/redes-para-todos.pdf
+      - Slides: https://pub.osiux.com/redes-para-todos.pdf
 
 ** 09/2012
 *** Facultad de Informática - Universidad Nacional de La Plata, La Plata, Argentina
@@ -283,16 +297,16 @@ resumen y un historial cronológico de todas ellas.
 **** Charlas Técnicas CaFe.IN
 ***** qué hice ayer, qué tengo que hacer hoy?                       :orgmode:
 
-      - http://pub.osiux.com/charlas/CaFeIN-que-hice-ayer-que-tengo-que-hacer-hoy.ogv
+      - https://pub.osiux.com/charlas/CaFeIN-que-hice-ayer-que-tengo-que-hacer-hoy.ogv
 
 *** Vía Libre, CABA, Argentina
 **** Taller de Comunicaciones Seguras y Software Libre
 ***** Privacidad y Anonimato en la red                          :privacidad:
 
       #+ATTR_HTML: :width 640 :height 453 :title Taller Comunicaciones Seguras para Activistas y Periodistas
-      [[http://pub.osiux.com/priv-y-anon.pdf][file:img/taller-comunicaciones-seguras.png]]
+      [[https://pub.osiux.com/priv-y-anon.pdf][file:img/taller-comunicaciones-seguras.png]]
 
-      - Slides: http://pub.osiux.com/priv-y-anon.pdf
+      - Slides: https://pub.osiux.com/priv-y-anon.pdf
       - http://www.vialibre.org.ar/2012/08/25/15-de-septiembre-taller-de-seguridad-en-comunicaciones/
 
 ** 07/2012
@@ -301,9 +315,9 @@ resumen y un historial cronológico de todas ellas.
 ***** no seas un terminal de internet, creá una red libre             :redes:
 
       #+ATTR_HTML: :width 640 :height 453 :title CPCO5 Campus Party Colombia No seas un terminal de internet
-      [[http://pub.osiux.com/cpco5-redlibre.pdf][file:img/cpco5-redlibre.png]]
+      [[https://pub.osiux.com/cpco5-redlibre.pdf][file:img/cpco5-redlibre.png]]
 
-      - Slides: http://pub.osiux.com/cpco5-redlibre.pdf
+      - Slides: https://pub.osiux.com/cpco5-redlibre.pdf
       - Video:  http://youtu.be/IKO17A5Imbc
 
 ** 05/2012
@@ -311,7 +325,7 @@ resumen y un historial cronológico de todas ellas.
 **** FLISoL - Festival Latinoamericano de Instalación de Software Libre
 ***** Proyectos de Accesibilidad Digital y Reducción de Brecha Tecnológica :redes:
 
-      - http://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf
+      - https://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf
 
 ** 04/2012
 *** Facultad de Ciencias Económicas - Universidad de Buenos Aires, CABA, Argentina
@@ -325,14 +339,14 @@ resumen y un historial cronológico de todas ellas.
 **** SysAdmin Experts
 ***** Dame una consola                                             :sysadmin:
 
-     - http://pub.osiux.com/charlas/dame-una-consola-slides.pdf
+     - https://pub.osiux.com/charlas/dame-una-consola-slides.pdf
 
 ** 10/2011
 *** Escuela Técnica Pedro Ferré, Monte Caseros, Argentina
 **** Primera Olimpíada Interescolar Informática de Nivel Secundario
 ***** Introducción a las redes                                        :redes:
 
-      - http://pub.osiux.com/charlas/introduccion-a-las-redes
+      - https://pub.osiux.com/charlas/introduccion-a-las-redes
 
 ** 07/2011
 *** Foro Internacional de Software Libre, Porto Alegre, Brasil.
@@ -340,9 +354,9 @@ resumen y un historial cronológico de todas ellas.
 ***** 10 años armando una red libre en Buenos Aires                   :redes:
 
       #+ATTR_HTML: :width 630 :height 472 :title 10 años armando una red libre en Buenos Aires
-      [[http://pub.osiux.com/charlas/bal-jrrl3.pdf][file:img/bal-jrrl3.png]]
+      [[https://pub.osiux.com/charlas/bal-jrrl3.pdf][file:img/bal-jrrl3.png]]
 
-      - Slides: http://pub.osiux.com/charlas/bal-jrrl3.pdf
+      - Slides: https://pub.osiux.com/charlas/bal-jrrl3.pdf
 
 ** 05/2011
 *** Escuela Mundo Nuevo, CABA, Argentina
@@ -364,10 +378,10 @@ resumen y un historial cronológico de todas ellas.
 ***** TODO TXT | rst+org-mode                                       :orgmode:
 
       #+ATTR_HTML: :width 640 :height 480 :title TODO TXT | rst+org-mode
-      [[http://pub.osiux.com/charlas/todo-txt-rst+org-mode-slides.pdf][file:img/todo-txt-rst-org-mode.png]]
+      [[https://pub.osiux.com/charlas/todo-txt-rst+org-mode-slides.pdf][file:img/todo-txt-rst-org-mode.png]]
 
       - Source: http://osiux.com/todo-txt-rst+org-mode.org
-      - Slides: http://pub.osiux.com/charlas/todo-txt-rst+org-mode-slides.pdf
+      - Slides: https://pub.osiux.com/charlas/todo-txt-rst+org-mode-slides.pdf
 
 ** 04/2010
 *** Instituto Superior de Curuzú Cuatiá, Argentina
@@ -394,7 +408,7 @@ resumen y un historial cronológico de todas ellas.
 **** Octavas Jornadas Regionales de Software Libre
 ***** Graphviz: grafos y diagramas mediante código                 :graphviz:
 
-      - http://pub.osiux.com/graphviz-jrsl08/graphviz-jrsl08.pdf
+      - https://pub.osiux.com/graphviz-jrsl08/graphviz-jrsl08.pdf
 
 ** 12/2007
 *** Instituto Tecnológico Buenos Aires, Argentina
@@ -402,9 +416,9 @@ resumen y un historial cronológico de todas ellas.
 ***** Una red wireless comunitaria. montada sobre FLOSS               :redes:
 
       #+ATTR_HTML: :width 504 :height 378 :title Una red wireless comunitaria. montada sobre FLOSS
-      [[http://pub.osiux.com/charlas/WhyFLOSS-2007-BuenosAiresLibre.pdf][file:img/presentacion-bal.png]]
+      [[https://pub.osiux.com/charlas/WhyFLOSS-2007-BuenosAiresLibre.pdf][file:img/presentacion-bal.png]]
 
-      - http://pub.osiux.com/charlas/WhyFLOSS-2007-BuenosAiresLibre.pdf
+      - https://pub.osiux.com/charlas/WhyFLOSS-2007-BuenosAiresLibre.pdf
 
 ** 09/2007
 *** Facultad de Ingeniería Universidad de Buenos Aires, CABA, Argentina
@@ -412,9 +426,9 @@ resumen y un historial cronológico de todas ellas.
 ***** Buenos Aires Libre: una. red wireless comunitaria               :redes:
 
       #+ATTR_HTML: :width 504 :height 378 :title Buenos Aires Libre: una. red wireless comunitaria
-      [[http://pub.osiux.com/charlas/lugfi-jornadas-2007/presentacion-bal.pdf][file:img/WhyFLOSS-2007-BuenosAiresLibre.png]]
+      [[https://pub.osiux.com/charlas/lugfi-jornadas-2007/presentacion-bal.pdf][file:img/WhyFLOSS-2007-BuenosAiresLibre.png]]
 
-      - Slides: http://pub.osiux.com/charlas/lugfi-jornadas-2007/presentacion-bal.pdf
+      - Slides: https://pub.osiux.com/charlas/lugfi-jornadas-2007/presentacion-bal.pdf
 
 [fn:Altermundi] http://altermundi.net
 [fn:BAL] http://buenosaireslibre.org
