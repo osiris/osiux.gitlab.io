@@ -33,7 +33,7 @@ get_title()
 
 get_image()
 {
-  grep -Eo 'file:(tmb|img)/.*\.(png|jpg|gif)' "$FILE" \
+  grep -Eo 'file:tmb/.*\.(png|jpg|gif)' "$FILE" \
     | head -1 2>/dev/null
 }
 
@@ -76,7 +76,7 @@ do
 
   while read -r FILE
   do
-    DATE="$(echo "$FILE" | cut -c -11)"
+    DATE="$(echo "$FILE" | cut -c -10)"
     TITLE="$(get_title "$FILE")"
 
     printf "*** [[file:%s][=%s= %s]]\\n" "$FILE" "$DATE" "$TITLE">>"$ORG"
