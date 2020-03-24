@@ -35,7 +35,7 @@ find . -type f -name '*.html' \
   | sort \
   | while read -r i
 do
-  E=$(stat --format "%Z" "$i")
+  E=$(stat -c "%Y" "$i")
   D=$(date --date @$E "+%FT%T%:z")
   F=$(echo "$i" | cut -c 3- | sed 's/index.html//g')
 
