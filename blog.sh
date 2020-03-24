@@ -24,7 +24,7 @@ ORG='blog.org'
 
 get_title()
 {
-  grep -P '+TITLE:' "$1" \
+  grep -E 'TITLE:' "$1"  \
     | head -1            \
     | cut -d: -f2-       \
     | sed 's/^ \+//g'    \
