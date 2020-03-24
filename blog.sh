@@ -33,7 +33,8 @@ get_title()
 
 get_image()
 {
-  grep -Eo 'file:img/.*\.(png|jpg|gif)' "$FILE" \
+  grep -Eo 'file:(tmb|img)/.*\.(png|jpg|gif)' "$FILE" \
+    | sed 's/\]\[/\n/g' \
     | head -1 2>/dev/null
 }
 
