@@ -8,36 +8,36 @@
 
 
 ** Recents links
-*** =2020-11-23= [[https://www.stephendiehl.com/posts/exotic03.html][Exotic Programming Ideas: Part 3 (Effect Systems)]] [[file:links.org::#+dev][=+dev=]]
-*** =2020-11-23= [[https://www.clockworkpi.com/][Home | ClockworkPi]] [[file:links.org::#+tty][=+tty=]]
-*** =2020-11-23= [[https://snayss.medium.com/local-network-chat-with-openwrt-736dfb48a400][Captive Portal Chat with OpenWrt. Heya! So, lately I’ve been thinking… | by Sneha Belkhale | Nov, 2020 | Medium]] [[file:links.org::#+wifi][=+wifi=]]
-*** =2020-11-23= [[https://scotthelme.co.uk/introducing-another-free-ca-as-an-alternative-to-lets-encrypt/][Introducing another free CA as an alternative to Let's Encrypt]] [[file:links.org::#+ssl][=+ssl=]]
-*** =2020-11-23= [[https://lwn.net/SubscriberLink/837053/1a4a7fb108cfb870/][Changed-block tracking and differential backups in QEMU LWN.net]] [[file:links.org::#+backup][=+backup=]]
-*** =2020-11-23= [[https://github.com/balenalabs/balena-sound][Build a single or multi-room streamer for an existing audio device using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect]] [[file:links.org::#+pi][=+pi=]]
-*** =2020-11-23= [[https://corecursive.com/058-brian-kernighan-unix-bell-labs/][The Birth of UNIX with Brian Kernighan - CoRecursive Podcast]] [[file:links.org::#+unix][=+unix=]]
-*** =2020-11-20= [[https://www.servethehome.com/an-introduction-to-zfs-a-place-to-start/][An Introduction to ZFS A Place to Start | ServeTheHome]] [[file:links.org::#+sysadmin][=+sysadmin=]]
-*** =2020-11-20= [[https://swift.org/blog/swiftnio-ssh/][Swift.org - Introducing SwiftNIO SSH]] [[file:links.org::#+ssh][=+ssh=]]
-*** =2020-11-20= [[https://github.com/ch11ng/exwm/wiki/Screenshots][Screenshots · ch11ng/exwm Wiki · GitHub]] [[file:links.org::#+emacs][=+emacs=]]
-*** =2020-11-20= [[https://devfonts.gafi.dev/][Dev Fonts]] [[file:links.org::#+font][=+font=]]
-*** =2020-11-20= [[https://blog.archive.org/2020/11/19/flash-animations-live-forever-at-the-internet-archive/][Flash Animations Live Forever at the Internet Archive - Internet Archive Blogs]] [[file:links.org::#+archive][=+archive=]]
-*** =2020-11-20= [[https://1mb.club/][1MB Club]] [[file:links.org::#+minimalist][=+minimalist=]]
-*** =2020-11-16= [[https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/][Standing up for developers: youtube-dl is back - The GitHub Blog]] [[file:links.org::#+copyleft][=+copyleft=]]
-*** =2020-11-15= [[https://ostechnix.com/how-to-edit-a-file-without-changing-its-timestamps-in-linux/][How To Edit A File Without Changing Its Timestamps In Linux - OSTechNix]] [[file:links.org::#+background][=+background=]]
-*** =2020-11-14= [[https://whatsthatformula.com/][WTF: What's That Formula?]] [[file:links.org::#+nerd][=+nerd=]]
-*** =2020-11-14= [[https://tilderadio.org/][tilderadio]] [[file:links.org::#+radio][=+radio=]]
-*** =2020-11-14= [[https://sfconservancy.org/blog/2020/nov/13/widevine-dmca-takedown/][A Modest Proposal In The New Age of DMCA Takedown Aggression - Conservancy Blog - Software Freedom Conservancy]] [[file:links.org::#+copyleft][=+copyleft=]]
-*** =2020-11-14= [[https://securitylab.github.com/research/Ubuntu-gdm3-accountsservice-LPE][How to get root on Ubuntu 20.04 by pretending nobody’s /home - GitHub Security Lab]] [[file:links.org::#+CVE][=+CVE=]]
-*** =2020-11-14= [[https://meta.m.wikimedia.org/wiki/So_you%27ve_made_a_mistake_and_it%27s_public...][So you've made a mistake and it's public... - Meta]] [[file:links.org::#+readme][=+readme=]]
-*** =2020-11-14= [[https://jordan-wright.com/blog/post/2020-11-12-hunting-for-malicious-packages-on-pypi/][Hunting for Malicious Packages on PyPI]] [[file:links.org::#+python][=+python=]]
-*** =2020-11-14= [[https://holisticsecurity.io/assets/pages/2020-02-10-security-along-the-container-based-sdlc-oss-tool-list-ro][Security along the Container-based SDLC - OSS Tool List | Holistic Security]] [[file:links.org::#+docker][=+docker=]]
-*** =2020-11-14= [[http://shape-of-code.coding-guidelines.com/2020/11/08/evidence-based-software-engineering-book-released/][The Shape of Code &raquo; Evidence-based software engineering: book released]] [[file:links.org::#+dev][=+dev=]]
-*** =2020-11-14= [[https://github.com/stephank/lazyssh][A jump-host SSH server that starts machines on-demand]] [[file:links.org::#+ssh][=+ssh=]]
-*** =2020-11-14= [[https://github.com/solemnwarning/rehex][Reverse Engineers' Hex Editor]] [[file:links.org::#+hack][=+hack=]]
-*** =2020-11-14= [[https://github.com/orf/gping][Ping, but with a graph]] [[file:links.org::#+tty][=+tty=]]
-*** =2020-11-14= [[https://github.com/nneonneo/universal-doom][A single .exe binary which runs DOOM on DOS 6, Windows 95 and Windows 10 (and probably everything in between).]] [[file:links.org::#+game][=+game=]]
-*** =2020-11-14= [[https://github.com/NationalSecurityAgency/ghidra][Ghidra is a software reverse engineering (SRE) framework]] [[file:links.org::#+hack][=+hack=]]
-*** =2020-11-14= [[https://github.com/github/dmca/blob/master/2020/11/2020-11-09-Google.md][dmca/2020-11-09-Google.md at master · github/dmca · GitHub]] [[file:links.org::#+copyleft][=+copyleft=]]
-*** =2020-11-14= [[https://github.com/dekuNukem/pimp_my_microwave/#][Installing a RGB mechanical keypad on my microwave.]] [[file:links.org::#+openhard][=+openhard=]]
+*** =2020-12-03= https://slack.engineering/taking-php-seriously/ [[file:links.org::#+php][=+php=]]
+*** =2020-12-03= [[https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/][rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc. - phiresky's blog]] [[file:links.org::#+regex][=+regex=]]
+*** =2020-12-03= https://archive.org/details/winampskins [[file:links.org::#+archive][=+archive=]]
+*** =2020-12-02= https://www.clockworkpi.com/devterm [[file:links.org::#+openhard][=+openhard=]]
+*** =2020-12-01= https://www.servethehome.com/falling-from-the-sky-2020-self-hosting-still-pays/ [[file:links.org::#+sysadmin][=+sysadmin=]]
+*** =2020-12-01= https://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html [[file:links.org::#+3d][=+3d=]]
+*** =2020-11-29= https://github.com/pallada-92/dna-3d-engine [[file:links.org::#+3d][=+3d=]]
+*** =2020-11-29= https://github.com/mikf/gallery-dl [[file:links.org::#+tty][=+tty=]]
+*** =2020-11-29= https://github.com/mhx/dwarfs [[file:links.org::#+filesystem][=+filesystem=]]
+*** =2020-11-29= https://docs.google.com/document/d/1hKdqwFOfqPDgon-USFzZYsKWMgbHpAyJiFnjYQ7gVdA/mobilebasic [[file:links.org::#+dev][=+dev=]]
+*** =2020-11-28= https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/ [[file:links.org::#+linux][=+linux=]]
+*** =2020-11-28= https://tug.org/tug2020/preprints/MacFarlane-Keynote-slides.pdf [[file:links.org::#+tools][=+tools=]]
+*** =2020-11-28= https://simonwillison.net/2020/Nov/28/datasette-ripgrep/ [[file:links.org::#+regex][=+regex=]]
+*** =2020-11-28= https://pestilenz.org/~ckeen/blog/posts/ciy-manifesto.html [[file:links.org::#+dev][=+dev=]]
+*** =2020-11-28= https://lock.cmpxchg8b.com/spreadsheet.html [[file:links.org::#+tty][=+tty=]]
+*** =2020-11-28= https://kylebenzle.medium.com/no-nonsense-list-of-google-alternatives-for-linux-users-8323f6813c3f [[file:links.org::#+linux][=+linux=]]
+*** =2020-11-28= https://guix.gnu.org/en/blog/2020/music-production-on-guix-system/ [[file:links.org::#+audio][=+audio=]]
+*** =2020-11-28= https://github.com/mozilla/web-ext [[file:links.org::#+firefox][=+firefox=]]
+*** =2020-11-28= https://github.com/loadimpact/k6 [[file:links.org::#+test][=+test=]]
+*** =2020-11-28= https://github.com/josephernest/nfreezer [[file:links.org::#+backup][=+backup=]]
+*** =2020-11-28= https://dgl.cx/2020/06/sqlite-json-support [[file:links.org::#+sql][=+sql=]]
+*** =2020-11-28= https://bombadillo.colorfield.space/ [[file:links.org::#+tty][=+tty=]]
+*** =2020-11-28= https://blog.powerdns.com/2020/11/27/goodbye-dns-goodbye-powerdns/ [[file:links.org::#+dns][=+dns=]]
+*** =2020-11-28= https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/ [[file:links.org::#+dev][=+dev=]]
+*** =2020-11-28= http://paulgraham.com/think.html [[file:links.org::#+org][=+org=]]
+*** =2020-11-28= http://fileformats.archiveteam.org/wiki/Category:File_formats_by_extension [[file:links.org::#+filesystem][=+filesystem=]]
+*** =2020-11-27= https://www.technicallywizardry.com/diy-smart-doorbell-raspberry-pi/ [[file:links.org::#+pi][=+pi=]]
+*** =2020-11-25= https://www.nordier.com/ [[file:links.org::#+unix][=+unix=]]
+*** =2020-11-25= https://www.gov.uk/guidance/protect-domains-that-dont-send-email [[file:links.org::#+isp][=+isp=]]
+*** =2020-11-25= https://www.fsf.org/blogs/sysadmin/moving-into-the-future-with-the-fsf-tech-team [[file:links.org::#+copyleft][=+copyleft=]]
 
 ** =+3d=
    :PROPERTIES:
@@ -58,6 +58,8 @@
 *** =2020-09-18= [[http://www.openscad.org/][OpenSCAD - The Programmers Solid 3D CAD Modeller]]
 *** =2020-10-31= [[https://spectrum.ieee.org/tech-talk/consumer-electronics/gadgets/programmable-filament-gives-even-simple-3d-printers-multimaterial-capabilities][Full Page Reload]]
 *** =2020-10-31= [[https://yorik.uncreated.net/blog/2020-011-freecad-september][FreeCAD BIM development news - July/August/September 2020 | Yorik's blog]]
+*** =2020-11-29= https://github.com/pallada-92/dna-3d-engine
+*** =2020-12-01= https://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html
 ** =+accesibility=
    :PROPERTIES:
    :CUSTOM_ID: +accesibility
@@ -137,6 +139,7 @@
 *** =2020-10-04= [[https://news.ycombinator.com/item?id=24670746][Ask HN: How did you get started in tech and&#x2F;or Linux? | Hacker News]]
 *** =2020-10-09= [[https://www.welcometothejungle.com/en/articles/btc-url-internet][How The URL Was Built]]
 *** =2020-11-20= [[https://blog.archive.org/2020/11/19/flash-animations-live-forever-at-the-internet-archive/][Flash Animations Live Forever at the Internet Archive - Internet Archive Blogs]]
+*** =2020-12-03= https://archive.org/details/winampskins
 ** =+asciiart=
    :PROPERTIES:
    :CUSTOM_ID: +asciiart
@@ -162,6 +165,7 @@
 *** =2020-10-13= [[https://kn100.me/improving-bluetooth-audio-linux/][Improving Bluetooth Audio Quality on Ubuntu Linux]]
 *** =2020-10-14= [[https://source-separation.github.io/tutorial/landing.html][Open Source Tools &amp; Data for Music Source Separation - Open-Source Tools &amp; Data for Music Source Separation]]
 *** =2020-11-01= [[https://zserge.com/posts/etude-in-c/][Étude in C minor]]
+*** =2020-11-28= https://guix.gnu.org/en/blog/2020/music-production-on-guix-system/
 ** =+autofs=
    :PROPERTIES:
    :CUSTOM_ID: +autofs
@@ -203,6 +207,7 @@
 *** =2020-10-04= [[https://github.com/alisinabh/paperify][Minimal PaperBackup for large files using qrcodes.]]
 *** =2020-10-18= [[https://github.com/negati-ve/docker-rclone-google-drive-cron-backup][Rclone based solution to backup mysql database and minio storage to google drive for free every 30 mins.]]
 *** =2020-11-23= [[https://lwn.net/SubscriberLink/837053/1a4a7fb108cfb870/][Changed-block tracking and differential backups in QEMU LWN.net]]
+*** =2020-11-28= https://github.com/josephernest/nfreezer
 ** =+bash=
    :PROPERTIES:
    :CUSTOM_ID: +bash
@@ -308,6 +313,7 @@
 *** =2020-11-14= [[https://github.com/github/dmca/blob/master/2020/11/2020-11-09-Google.md][dmca/2020-11-09-Google.md at master · github/dmca · GitHub]]
 *** =2020-11-14= [[https://sfconservancy.org/blog/2020/nov/13/widevine-dmca-takedown/][A Modest Proposal In The New Age of DMCA Takedown Aggression - Conservancy Blog - Software Freedom Conservancy]]
 *** =2020-11-16= [[https://github.blog/2020-11-16-standing-up-for-developers-youtube-dl-is-back/][Standing up for developers: youtube-dl is back - The GitHub Blog]]
+*** =2020-11-25= https://www.fsf.org/blogs/sysadmin/moving-into-the-future-with-the-fsf-tech-team
 ** =+covid19=
    :PROPERTIES:
    :CUSTOM_ID: +covid19
@@ -385,6 +391,7 @@
 *** =2020-07-18= [[https://cssfordesigners.com/articles/things-i-wish-id-known-about-css][Things I Wish I’d Known About CSS | CSS For Designers]]
 *** =2020-07-24= [[https://github.com/chowderman/Hacker95][Style Hacker News like its Windows 95]]
 *** =2020-08-16= [[https://www.gradientmagic.com/][Gradient Magic - Fantastic and Unique CSS Gradients]]
+*** =2020-11-25= https://github.com/joe-bell/plaiceholder
 ** =+csv=
    :PROPERTIES:
    :CUSTOM_ID: +csv
@@ -474,6 +481,8 @@
 *** =2020-04-13= [[https://colornames.org/][Name all the colors @ colornames.org]]
 *** =2020-08-02= [[https://github.com/synfig/synfig][This is the Official source code repository of the Synfig project]]
 *** =2020-08-03= [[https://www.designedbycave.co.uk/2020/LEGO-Interface-UX/][The UX of LEGO Interface Panels – George Cave]]
+*** =2020-11-25= https://github.com/varkor/quiver
+*** =2020-11-25= https://opensourcedesign.net/
 ** =+dev=
    :PROPERTIES:
    :CUSTOM_ID: +dev
@@ -583,6 +592,9 @@
 *** =2020-10-26= [[http://misc-stuff.terraaeon.com/articles/locked-down-computers.html][I am Seriously Considering Going Back to Desktop Computers]]
 *** =2020-11-14= [[http://shape-of-code.coding-guidelines.com/2020/11/08/evidence-based-software-engineering-book-released/][The Shape of Code &raquo; Evidence-based software engineering: book released]]
 *** =2020-11-23= [[https://www.stephendiehl.com/posts/exotic03.html][Exotic Programming Ideas: Part 3 (Effect Systems)]]
+*** =2020-11-28= https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools/
+*** =2020-11-28= https://pestilenz.org/~ckeen/blog/posts/ciy-manifesto.html
+*** =2020-11-29= https://docs.google.com/document/d/1hKdqwFOfqPDgon-USFzZYsKWMgbHpAyJiFnjYQ7gVdA/mobilebasic
 *** =2020-05-01= [[https://github.com/openshift/odo][odo - Developer-focused CLI for OpenShift and Kubernetes]]
 *** =2020-07-13= [[https://devopsnewsletters.com/][DevOps Newsletters]]
 *** =2020-07-20= [[https://medium.com/@copyconstruct/post-commit-reviews-b4cc2163ac7a][Post-Commit Reviews. I recently read an excellent article in… | by Cindy Sridharan | Jul, 2020 | Medium]]
@@ -624,6 +636,7 @@
 *** =2020-09-11= http://data.iana.org/TLD/tlds-alpha-by-domain.txt
 *** =2020-09-11= [[https://blog.apnic.net/2020/09/11/dns-query-privacy-revisited/][DNS Query Privacy revisited | APNIC Blog]]
 *** =2020-10-26= [[https://which.nameserve.rs/][Which DNS]]
+*** =2020-11-28= https://blog.powerdns.com/2020/11/27/goodbye-dns-goodbye-powerdns/
 ** =+docker=
    :PROPERTIES:
    :CUSTOM_ID: +docker
@@ -733,6 +746,8 @@
    :CUSTOM_ID: +filesystem
    :END:
 *** =2020-01-16= [[https://github.com/NieDzejkob/cursedfs/][Make a disk image formatted with both ext2 and FAT at once]]
+*** =2020-11-28= http://fileformats.archiveteam.org/wiki/Category:File_formats_by_extension
+*** =2020-11-29= https://github.com/mhx/dwarfs
 ** =+firefox=
    :PROPERTIES:
    :CUSTOM_ID: +firefox
@@ -754,6 +769,7 @@
 *** =2020-08-14= [[https://www.theregister.com/2020/08/14/mozilla_google_search/][Mozilla signs fresh Google search deal worth mega-millions as 25% staff cut hits Servo, MDN, security teams • The Register]]
 *** =2020-10-21= [[https://www.localcdn.org/][LocalCDN]]
 *** =2020-11-10= [[https://chefkochblog.wordpress.com/2018/01/08/disable-all-telemetry-and-data-collection-in-mozilla-firefox-quantum/][Disable all Telemetry and Data Collection in Mozilla Firefox Quantum - CK’s Technology News]]
+*** =2020-11-28= https://github.com/mozilla/web-ext
 ** =+firejail=
    :PROPERTIES:
    :CUSTOM_ID: +firejail
@@ -805,6 +821,7 @@
 *** =2020-09-27= [[https://shaunlebron.github.io/pacman-mazegen/][Pac-Man Maze Generation]]
 *** =2020-09-30= [[https://docs.google.com/document/d/1PpZqHWXPLjOsXf_T7uyH4rWuxUMxzBlxvv5gm19P_Z8/mobilebasic#][Pack.png seed reversal methodology]]
 *** =2020-11-14= [[https://github.com/nneonneo/universal-doom][A single .exe binary which runs DOOM on DOS 6, Windows 95 and Windows 10 (and probably everything in between).]]
+*** =2020-11-25= https://github.com/itsFrank/MinecraftHDL
 ** =+git=
    :PROPERTIES:
    :CUSTOM_ID: +git
@@ -977,6 +994,7 @@
 *** =2020-06-09= [[https://github.com/technomada/cloud-from-scratch/][Build yourself a private self-hosted full-stack personal cloud system.]]
 *** =2020-07-20= [[https://www.garron.blog/posts/host-your-email-server.html][How to self host your email server]]
 *** =2020-10-05= [[https://github.com/fmdlc/ISP-Checker][Compose files to run ISP checks. 🦄]]
+*** =2020-11-25= https://www.gov.uk/guidance/protect-domains-that-dont-send-email
 *** =2019-05-21= [[https://git.ispconfig.org/ispconfig/ispconfig3/issues/3405][DMARC Support (#3405) · Issues · ISPConfig / ISPConfig 3 · GitLab]]
 *** =2019-05-21= [[https://support.smtp2go.com/hc/en-gb/articles/115003520908-SPF-and-DKIM-Setup-for-ISPConfig-3-][SMTP2GO Support]]
 *** =2019-05-21= [[https://www.howtoforge.com/community/threads/ispconfig-3-1p1-spf-records.74711/][ISpconfig 3.1p1 + SPF records. | Howtoforge - Linux Howtos and Tutorials]]
@@ -1075,6 +1093,8 @@
 *** =2020-02-16= [[https://www.fosslinux.com/29117/south-korea-switching-their-3-3-million-pcs-to-linux.htm][South Korea switching their 3.3 million PCs to Linux | FOSS Linux]]
 *** =2020-06-09= [[https://makelinux.github.io/kernel/map/][Interactive map of Linux kernel]]
 *** =2020-10-12= [[https://www.evanjones.ca/durability-filesystem.html][Durability: Linux File APIs (evanjones.ca)]]
+*** =2020-11-28= https://kylebenzle.medium.com/no-nonsense-list-of-google-alternatives-for-linux-users-8323f6813c3f
+*** =2020-11-28= https://www.scylladb.com/2020/05/05/how-io_uring-and-ebpf-will-revolutionize-programming-in-linux/
 ** =+localhost=
    :PROPERTIES:
    :CUSTOM_ID: +localhost
@@ -1218,6 +1238,7 @@
 *** =2020-08-08= [[https://blog.popcorncomputer.com/2020/08/05/pocket-p-c-open-sourced/][Pocket P.C. Open Sourced! - Popcorn Computer]]
 *** =2020-08-30= [[https://github.com/iam4722202468/ThinkpadBattery][Open source Thinkpad T420 battery design]]
 *** =2020-11-14= [[https://github.com/dekuNukem/pimp_my_microwave/#][Installing a RGB mechanical keypad on my microwave.]]
+*** =2020-12-02= https://www.clockworkpi.com/devterm
 ** =+org=
    :PROPERTIES:
    :CUSTOM_ID: +org
@@ -1273,6 +1294,7 @@
 *** =2020-11-01= [[https://qz.com/1046131/writing-a-user-manual-at-work-makes-teams-less-anxious-and-more-productive/][Writing a user manual at work makes teams less anxious and more productive — Quartz]]
 *** =2020-11-05= [[https://maximevaillancourt.com/blog/turning-my-smartphone-into-a-boring-tool][Turning my smartphone into a boring tool - Maxime Vaillancourt]]
 *** =2020-11-08= [[https://blog.plover.com/talk/slide-download-2.html][The Universe of Discourse : A better way to do remote presentations]]
+*** =2020-11-28= http://paulgraham.com/think.html
 ** =+os=
    :PROPERTIES:
    :CUSTOM_ID: +os
@@ -1344,6 +1366,7 @@
 *** =2019-10-02= [[https://github.com/bhaktaraz/php-rss-generator/][RSS generator library for PHP]]
 *** =2019-10-02= [[https://github.com/RSS-Bridge/rss-bridge/][The RSS feed for websites missing it]]
 *** =2020-05-05= [[https://lwn.net/SubscriberLink/818973/507f4b5e09ab9870/][PHP showing its maturity in release 7.4 LWN.net]]
+*** =2020-12-03= https://slack.engineering/taking-php-seriously/
 ** =+pi=
    :PROPERTIES:
    :CUSTOM_ID: +pi
@@ -1379,6 +1402,7 @@
 *** =2020-10-26= [[https://gist.github.com/nileshtrivedi/4c615e8d3c1bf053b0d31176b9e69e42][Home Server setup: Raspberry PI on Internet via reverse SSH tunnel · GitHub]]
 *** =2020-11-01= [[https://github.com/sepfy/piipcam][Raspberry Pi IP Camera]]
 *** =2020-11-23= [[https://github.com/balenalabs/balena-sound][Build a single or multi-room streamer for an existing audio device using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect]]
+*** =2020-11-27= https://www.technicallywizardry.com/diy-smart-doorbell-raspberry-pi/
 ** =+postfix=
    :PROPERTIES:
    :CUSTOM_ID: +postfix
@@ -1563,6 +1587,8 @@
 *** =2020-06-23= [[https://regexone.com/][RegexOne - Learn Regular Expressions - Lesson 1: An Introduction, and the ABCs]]
 *** =2020-06-30= [[https://levelup.gitconnected.com/the-regular-expression-denial-of-service-redos-cheat-sheet-a78d0ed7d865?gi=8e889d0820d2][302 Found]]
 *** =2020-11-01= [[https://learnbyexample.github.io/sed-lookarounds/][learnbyexample - Emulating regexp lookarounds in GNU sed]]
+*** =2020-11-28= https://simonwillison.net/2020/Nov/28/datasette-ripgrep/
+*** =2020-12-03= [[https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/][rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc. - phiresky's blog]]
 *** =2019-12-04= [[https://randsinrepose.com/archives/a-distributed-meeting-primer/][A Distributed Meeting Primer - Rands in Repose]]
 *** =2020-03-26= [[https://puri.sm/posts/our-essential-list-of-free-software-for-remote-work/][Free software for remote working - Purism]]
 *** =2020-05-04= [[http://www.timcasasola.com/blog/writing][Why does writing matter in remote work? - Tim Casasola]]
@@ -1662,6 +1688,8 @@
 *** =2020-06-23= [[https://regexone.com/][RegexOne - Learn Regular Expressions - Lesson 1: An Introduction, and the ABCs]]
 *** =2020-06-30= [[https://levelup.gitconnected.com/the-regular-expression-denial-of-service-redos-cheat-sheet-a78d0ed7d865?gi=8e889d0820d2][302 Found]]
 *** =2020-11-01= [[https://learnbyexample.github.io/sed-lookarounds/][learnbyexample - Emulating regexp lookarounds in GNU sed]]
+*** =2020-11-28= https://simonwillison.net/2020/Nov/28/datasette-ripgrep/
+*** =2020-12-03= [[https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/][rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc. - phiresky's blog]]
 ** =+remote=
    :PROPERTIES:
    :CUSTOM_ID: +remote
@@ -1862,6 +1890,7 @@
 *** =2020-10-06= [[https://harelba.github.io/q/][q - Text as Data]]
 *** =2020-10-10= [[https://www.holistics.io/blog/quel-vs-sql/][A Short Story About SQL’s Biggest Rival]]
 *** =2020-11-08= [[https://postgresqlco.nf/en/doc/param/][PostgresqlCO.NF: PostgreSQL configuration for humans]]
+*** =2020-11-28= https://dgl.cx/2020/06/sqlite-json-support
 ** =+ssh=
    :PROPERTIES:
    :CUSTOM_ID: +ssh
@@ -2012,6 +2041,7 @@
 *** =2020-11-11= [[https://cilium.io/blog/2020/11/10/ebpf-future-of-networking/][eBPF - The Future of Networking &amp; Security — Cilium]]
 *** =2020-11-14= [[https://danluu.com/deconstruct-files/][Files are fraught with peril]]
 *** =2020-11-20= [[https://www.servethehome.com/an-introduction-to-zfs-a-place-to-start/][An Introduction to ZFS A Place to Start | ServeTheHome]]
+*** =2020-12-01= https://www.servethehome.com/falling-from-the-sky-2020-self-hosting-still-pays/
 ** =+terraform=
    :PROPERTIES:
    :CUSTOM_ID: +terraform
@@ -2025,6 +2055,7 @@
 *** =2019-08-18= [[https://github.com/prprprus/softest/][Recording Browser Interactions And Generating Test Scripts.]]
 *** =2019-10-18= [[https://medium.com/@kentbeck_7670/test-desiderata-94150638a4b3][Test Desiderata - Kent Beck - Medium]]
 *** =2020-08-06= [[https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/][The Joel Test: 12 Steps to Better Code - Joel on Software]]
+*** =2020-11-28= https://github.com/loadimpact/k6
 ** =+tmux=
    :PROPERTIES:
    :CUSTOM_ID: +tmux
@@ -2042,6 +2073,7 @@
 *** =2020-02-29= [[https://edtr.io/][The Open Source Web Editor You Will Love | Edtr.io]]
 *** =2020-04-03= [[https://itnext.io/puppeteer-or-how-i-learned-to-stop-worrying-and-love-the-automation-92e96f4901e7?gi=79f385ccb10e][302 Found]]
 *** =2020-11-11= [[https://tools.suckless.org/farbfeld/][tools | suckless.org software that sucks less]]
+*** =2020-11-28= https://tug.org/tug2020/preprints/MacFarlane-Keynote-slides.pdf
 ** =+tor=
    :PROPERTIES:
    :CUSTOM_ID: +tor
@@ -2139,6 +2171,9 @@
 *** =2020-11-10= [[https://github.com/juicedata/juicesync][A tool to move your data between any clouds or regions.]]
 *** =2020-11-14= [[https://github.com/orf/gping][Ping, but with a graph]]
 *** =2020-11-23= [[https://www.clockworkpi.com/][Home | ClockworkPi]]
+*** =2020-11-28= https://bombadillo.colorfield.space/
+*** =2020-11-28= https://lock.cmpxchg8b.com/spreadsheet.html
+*** =2020-11-29= https://github.com/mikf/gallery-dl
 ** =+unix=
    :PROPERTIES:
    :CUSTOM_ID: +unix
@@ -2170,6 +2205,7 @@
 *** =2020-10-16= [[https://chsasank.github.io/classic_papers/unix-time-sharing-system.html][The UNIX Time-Sharing System - Sasank's Blog]]
 *** =2020-11-10= [[https://qmacro.org/2020/11/08/the-meaning-of-pwd-in-unix-systems/][The myriad meanings of pwd in Unix systems]]
 *** =2020-11-23= [[https://corecursive.com/058-brian-kernighan-unix-bell-labs/][The Birth of UNIX with Brian Kernighan - CoRecursive Podcast]]
+*** =2020-11-25= https://www.nordier.com/
 ** =+unknown=
    :PROPERTIES:
    :CUSTOM_ID: +unknown
