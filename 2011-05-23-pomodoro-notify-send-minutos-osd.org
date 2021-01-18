@@ -14,7 +14,7 @@ Hay dos opciones, usando OSD (On Screen Display) y el comando
 =notify-send=, ambos scripts están realizados en =bash=.
 
 - [[file:pomodoro-minutos-osd.org][pomodoro minutos osd]]
-- [[file:pomodoro-minytos-osd.org][pomodoro notify send]]
+- [[file:pomodoro-notify-send.org][pomodoro notify send]]
 
 Para entender un poco más sobre los pomodoros leer [[file:la-tecnica-pomodoro.txt][la técnica pomodoro]]
 
