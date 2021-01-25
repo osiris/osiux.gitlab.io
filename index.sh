@@ -71,3 +71,15 @@ do
 
   PREVIOUS_DATE="$DATE"
 done
+
+ARCHIVE=$(cat << EOF
+
+** [[file:archive.org][=ARCHIVE=]]
+
+#+INCLUDE: "years.org"
+
+EOF
+)
+
+echo "$ARCHIVE" >> "$IDX"
+
