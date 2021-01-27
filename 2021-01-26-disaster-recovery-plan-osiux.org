@@ -9,22 +9,22 @@
 
 ** Si algo malo puede pasar, pasará!
 
-Ayer fue mi primer deía de laburo del 2021 y arranqué mal, o mejor dicho
-*cachaza* arrancó mal, en realidad, arrancar, arrancaba, solo que se
-apagaba todo el tiempo, incluso escribí [[file:
-2021-01-25-ansible-luks-format-external-usb-disk.org][mi primer post del
-año al respecto comentando como rápidamente utilizando un rol de ansible
+Ayer fue mi primer deía de laburo del 2021 y arranqué mal, o mejor
+dicho *cachaza* arrancó mal, en realidad, arrancar, arrancaba, solo
+que se apagaba todo el tiempo, incluso escribí [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][mi primer post del año]]
+al respecto comentando como rápidamente utilizando un rol de ansible
 pude cifrar el nuevo disco externo para hacer backup.
 
 ** Noche de apagones
 
 Estuve toda la noche (gran parte en realidad) reintentando una y otra
-vez hacer un backup de todos los datos, pero como la notebook se seguía
-apagando, la copia se interrumpía una y otra vez :( Al menos sirvió para
-verificar que utilizar =cp -vr= usa menos CPU que usar =rsync -avP=, eso
-me permitió avanzar, pero luego claro, tuve que caer en =rsync= porque
-obviamente es la mejor manera de continuar una copia parcial, la mejora
-ahi fue utilizar `nice -n 19 rsync -avP` e irse a dormir.
+vez hacer un backup de todos los datos, pero como la notebook se
+seguía apagando, la copia se interrumpía una y otra vez :( Al menos
+sirvió para verificar que utilizar =cp -vr= usa menos CPU que usar
+=rsync -avP=, eso me permitió avanzar, pero luego claro, tuve que caer
+en =rsync= porque obviamente es la mejor manera de continuar una copia
+parcial, la mejora ahi fue utilizar `nice -n 19 rsync -avP` e irse a
+dormir.
 
 ** Mañana de mantenimiento
 
@@ -41,10 +41,11 @@ procesos que podrían consumir mucha CPU y me puse a trabajar.
 Lo peor, sucedió! Se apagó una vez más, pero esta vez, no volvió a
 encender ni un led, ni en el teclado, ni el botón de power :~(
 
-Probé varios cargadores, probé esperar y cruzar los dedos, pero tampoco
-funcionó y mas allá del cariño que le tengo a una extensión de mis dedos
-y pensamientos, mucho más que una herramienta de trabajo y diversión, lo
-importante son esos datos que no llegué a terminar de copiar...
+Probé varios cargadores, probé esperar y cruzar los dedos, pero
+tampoco funcionó y mas allá del cariño que le tengo a una extensión de
+mis dedos y pensamientos, mucho más que una herramienta de trabajo y
+diversión, lo importante son esos datos que no llegué a terminar de
+copiar...
 
 ** y ahora, de qué nos disfrazamos?
 
@@ -56,29 +57,34 @@ Luego de un minuto de silencio y reflexión, definí los pasos a seguir:
 
 ** Hay Backup?
 
-Bueno, disco externo nuevo de 4TB ya tenía disponible, solo faltaba remover el M2, ponerlo en un adaptador USB, conectarlo a otro equipo y ponerse a copiar.
-Gracias nuevamente a compañerxs de gcoop, en un par de horas ya contaba con el adaptador M2 y pude verificar que al menos las particiones se listaban correctamente.
+Bueno, disco externo nuevo de 4TB ya tenía disponible, solo faltaba
+remover el M2, ponerlo en un adaptador USB, conectarlo a otro equipo y
+ponerse a copiar.
+
+Gracias nuevamente a compañerxs de gcoop, en un par de horas ya
+contaba con el adaptador M2 y pude verificar que al menos las
+particiones se listaban correctamente.
 
 ** (des)cifrado recursivo
 
 Teniendo conectado la unidad M2 origen y el disco externo en una nueva
-notebook, solo restaba montar las particiones y ponerse a copiar, fácil
-si nunca cifrás las particiones :P
+notebook, solo restaba montar las particiones y ponerse a copiar,
+fácil si nunca cifrás las particiones :P
 
 Resulta que el nuevo disco externo, lo cifré el día anterior usando
 luks, pero no tenía la menor idea de la passphrase, por suerte el cron
-que se ocupa de sincronizar mis repositorios importates cada 5min logró
-funcionar y bastaba instalar =pass= en /caipiroska/ para recuperarla,
-pero para montar la partición de root además necesitaba la gpg y el
-password-store de root que estaban dentro del disco externo, que estaba
-cifrado XD
+que se ocupa de sincronizar mis repositorios importates cada 5min
+logró funcionar y bastaba instalar =pass= en /caipiroska/ para
+recuperarla, pero para montar la partición de root además necesitaba
+la gpg y el password-store de root que estaban dentro del disco
+externo, que estaba cifrado XD
 
 ** [[https://gitlab.com/osiux/direplos][DIREPLOS]]
 
 Hace años, de alguna manera automaticé rústicamente todos los paquetes
 que considero vitales para mi entorno, si bien quedó desactualizado el
-script `deb.sh` y a medio refactorizar y sin publicar la versión
-ansible, con mínimos cambios pude ejecutar `deb.sh -ut` y contar con
+script =deb.sh= y a medio refactorizar y sin publicar la versión
+ansible, con mínimos cambios pude ejecutar =deb.sh -ut= y contar con
 todos los comandos necesarios para trabajar (o casi).
 
 Algo no resuelto del todo es que, además de diferentes programas y
@@ -88,3 +94,6 @@ cuestión pasa por encontrar la secuencia correcta de deploy.
 
 ... continuará ...
 
+** ChangeLog
+
+   - [2021-01-26 mar] Correcciones menores de formato y link roto
