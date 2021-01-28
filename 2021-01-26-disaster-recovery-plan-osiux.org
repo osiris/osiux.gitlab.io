@@ -81,19 +81,48 @@ externo, que estaba cifrado XD
 
 ** [[https://gitlab.com/osiux/direplos][DIREPLOS]]
 
+Cualquier equipo en cualquier momento puede morir repentinamente o si es movil lo podes perder (yo me olvide ni notebook en un colectivo y tuve la suerte de recuperarla) o con mala suerte lo pueden robar o consumirse en un incendio, entonces la clave esta en poder recuperase rapidamente y para ello es necesario un **plan de recuperacion de desastres** y lo basico es contar con las herramientas (sistema operativo, aplicaciones y utilitarios), la configuracion especifica y lo irremplazable, los datos.
+
 Hace años, de alguna manera automaticé rústicamente todos los paquetes
-que considero vitales para mi entorno, si bien quedó desactualizado el
+que considero vitales para mi entorno en el repositorio
+ [[https://gitlab.com/osiux/direplos][direplos]], si bien quedó desactualizado el
 script =deb.sh= y a medio refactorizar y sin publicar la versión
-ansible, con mínimos cambios pude ejecutar =deb.sh -ut= y contar con
-todos los comandos necesarios para trabajar (o casi).
+ansible, pero con mínimos cambios pude ejecutar la instalacion con el comando:
+
+#+BEGIN_SRC src :exports code
+
+deb.sh -ut
+
+#+END_SRC
+
+De esta manera, pude contar con todos los comandos necesarios para trabajar, o casi :P
 
 Algo no resuelto del todo es que, además de diferentes programas y
 utilitarios, necesito muchos archivos de configuración, gran parte de
 ellos estan versionados y disponibles en un servidor remoto, pero la
 cuestión pasa por encontrar la secuencia correcta de deploy.
 
+** =git-repos= al rescate!
+
+Por ser previsor, gran parte de lo que necesito, esta (o deberia estar) en un repositorio git, ahora bien, como buen ñoño, tengo muchos repositorios propios y uso a diario muchos otros, de proyectos en los que trabajo o trabajé en algun momento, como asi tambien todo lo que me resulta interesante de la comunidad del software libre y con el paso del tiempo la lista creció exponencialmente, entonces, era necesario administrarlos se alguns manera.
+
+De cabezadura se me ocurrió solucionarlo con un desarrollo propio que simplifica la tarea de clonar y mantener sincronizados todos los repos, solo basta ejecutar:
+
+#+BEGIN_SRC src :exports code
+
+git clone https://gitlab.com/osiux/git-bash-utils
+git-repos -c
+
+#+END_SRC
+
+... continuará ...
+
+** sin mi entorno, no soy eficiente
+
 ... continuará ...
 
 ** ChangeLog
 
    - [2021-01-26 mar] Correcciones menores de formato y link roto
+   - [2021-01-27 mie] Agrego explicación sobre direplos y haga intro a git-repos
+
