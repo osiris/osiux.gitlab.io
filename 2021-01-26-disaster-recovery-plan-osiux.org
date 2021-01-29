@@ -81,7 +81,13 @@ externo, que estaba cifrado XD
 
 ** [[https://gitlab.com/osiux/direplos][DIREPLOS]]
 
-Cualquier equipo en cualquier momento puede morir repentinamente o si es movil lo podes perder (yo me olvide ni notebook en un colectivo y tuve la suerte de recuperarla) o con mala suerte lo pueden robar o consumirse en un incendio, entonces la clave esta en poder recuperase rapidamente y para ello es necesario un **plan de recuperacion de desastres** y lo basico es contar con las herramientas (sistema operativo, aplicaciones y utilitarios), la configuracion especifica y lo irremplazable, los datos.
+Cualquier equipo en cualquier momento puede morir repentinamente o si es
+movil lo podes perder (yo me olvide ni notebook en un colectivo y tuve
+la suerte de recuperarla) o con mala suerte lo pueden robar o consumirse
+en un incendio, entonces la clave esta en poder recuperase rapidamente y
+para ello es necesario un **plan de recuperacion de desastres** y lo
+basico es contar con las herramientas (sistema operativo, aplicaciones y
+utilitarios), la configuracion especifica y lo irremplazable, los datos.
 
 Hace años, de alguna manera automaticé rústicamente todos los paquetes
 que considero vitales para mi entorno en el repositorio
@@ -95,7 +101,8 @@ deb.sh -ut
 
 #+END_SRC
 
-De esta manera, pude contar con todos los comandos necesarios para trabajar, o casi :P
+De esta manera, pude contar con todos los comandos necesarios para
+trabajar, o casi :P
 
 Algo no resuelto del todo es que, además de diferentes programas y
 utilitarios, necesito muchos archivos de configuración, gran parte de
@@ -104,25 +111,58 @@ cuestión pasa por encontrar la secuencia correcta de deploy.
 
 ** =git-repos= al rescate!
 
-Por ser previsor, gran parte de lo que necesito, esta (o deberia estar) en un repositorio git, ahora bien, como buen ñoño, tengo muchos repositorios propios y uso a diario muchos otros, de proyectos en los que trabajo o trabajé en algun momento, como asi tambien todo lo que me resulta interesante de la comunidad del software libre y con el paso del tiempo la lista creció exponencialmente, entonces, era necesario administrarlos se alguns manera.
+Por ser previsor, gran parte de lo que necesito, esta (o deberia estar)
+en un repositorio git, ahora bien, como buen ñoño, tengo muchos
+repositorios propios y uso a diario muchos otros, de proyectos en los
+que trabajo o trabajé en algun momento, como asi tambien todo lo que me
+resulta interesante de la comunidad del software libre y con el paso del
+tiempo la lista creció exponencialmente, entonces, era necesario
+administrarlos se alguns manera.
 
-De cabezadura se me ocurrió solucionarlo con un desarrollo propio que simplifica la tarea de clonar y mantener sincronizados todos los repos, solo basta ejecutar:
+De cabezadura se me ocurrió solucionarlo con un desarrollo propio que
+simplifica la tarea de clonar y mantener sincronizados todos los repos,
+solo basta ejecutar:
 
 #+BEGIN_SRC src :exports code
 
 git clone https://gitlab.com/osiux/git-bash-utils
+cd git-bash-utils
 git-repos -c
 
 #+END_SRC
 
-... continuará ...
+Esto lee el archivo =.git-repos= de mi =home= y se ocupa de clonar todos
+los repositorios. Me doy cuenta de una gran mejora es contar con mas e
+un archivo =.git-repos= en varios directorios.
 
 ** sin mi entorno, no soy eficiente
 
-... continuará ...
+Lo bueno de personalizar tu entorno al maximo es que sos extremadamente
+agil en cada tarea, por mas simple que sea y yo tengo muchisimo tiempo
+invertido en optimizar mi entorno porque basicamente practicamente todo
+lo hago dentro de una terminal.
 
+Lo malo es que si no tenes tu entorno disponible, te volves muy torpe y
+lento, por este motivo es vital contar con un procedimiento que permita
+levantar tu entorno rapidamente en cualquier equipo y con un minimo
+esfuerzo, y con este incidente pude confirmar que mi entorno es
+reproducible y es muy poco lo que me olvide de commitear, pero lo
+dificil y costoso fue no tener segmentado y priorizado, es decir, tener
+que esperar a que el 100% de tu entorno se despliegue por completo, es
+demasiado tiempo, asi que estoy aprovechando la oportunidad en definir
+el minimo entorno necesario y en dejar un test que a diario regenere mi
+entorno a los efectos de encontrar el equilibrio entre un deploy rapido
+y un entorno minimo que permita estar operativo ante un desastre o un
+simple cambio de equipo en un par de minutos en lugar de un par de horas.
+
+** Tal vez te interese...
+
+   - [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][ansible luks format external usb disk]]
+   - [[file:2015-01-14-sincronizar-repositorios-git-repos.org][sincronizar repositorios git]
+ 
 ** ChangeLog
 
    - [2021-01-26 mar] Correcciones menores de formato y link roto
    - [2021-01-27 mie] Agrego explicación sobre direplos y haga intro a git-repos
+   - [2021-01-28 jue] Completo seccion sobre entorno/eficiencia y corrijo formato
 
