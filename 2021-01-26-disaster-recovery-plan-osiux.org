@@ -9,28 +9,28 @@
 
 ** Si algo malo puede pasar, pasará!
 
-Ayer fue mi primer deía de laburo del 2021 y arranqué mal, o mejor
+Ayer fue mi primer día de laburo del 2021 y arranqué mal, o mejor
 dicho *cachaza* arrancó mal, en realidad, arrancar, arrancaba, solo
 que se apagaba todo el tiempo, incluso escribí [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][mi primer post del año]]
-al respecto comentando como rápidamente utilizando un rol de ansible
-pude cifrar el nuevo disco externo para hacer backup.
+al respecto comentando como rápidamente utilizando un rol de /ansible/
+pude cifrar el nuevo disco externo para hacer /backup/.
 
 ** Noche de apagones
 
 Estuve toda la noche (gran parte en realidad) reintentando una y otra
-vez hacer un backup de todos los datos, pero como la notebook se
+vez hacer un /backup/ de todos los datos, pero como la /notebook/ se
 seguía apagando, la copia se interrumpía una y otra vez :( Al menos
 sirvió para verificar que utilizar =cp -vr= usa menos CPU que usar
 =rsync -avP=, eso me permitió avanzar, pero luego claro, tuve que caer
 en =rsync= porque obviamente es la mejor manera de continuar una copia
-parcial, la mejora ahi fue utilizar `nice -n 19 rsync -avP` e irse a
+parcial, la mejora ahí fue utilizar =nice -n 19 rsync -avP= e irse a
 dormir.
 
 ** Mañana de mantenimiento
 
 Era de esperar, desperté, verifiqué el estado del equipo y estaba
 apagado, asi que procedí a desarmarla y hacer una limpieza, quitando 4
-años de polvo, pensando que iba a ayudar, al menos el cooler y las
+años de polvo, pensando que iba a ayudar, al menos el /cooler/ y las
 ventilaciones quedaron en mejores condiciones.
 
 Arrancó bien, configuré =cpu gobernor= en =powersave= y maté todos los
@@ -39,7 +39,7 @@ procesos que podrían consumir mucha CPU y me puse a trabajar.
 ** Mediodía partido al medio
 
 Lo peor, sucedió! Se apagó una vez más, pero esta vez, no volvió a
-encender ni un led, ni en el teclado, ni el botón de power :~(
+encender ni un /led/, ni en el teclado, ni el botón de /power/ :~(
 
 Probé varios cargadores, probé esperar y cruzar los dedos, pero
 tampoco funcionó y mas allá del cariño que le tengo a una extensión de
@@ -51,49 +51,51 @@ copiar...
 
 Luego de un minuto de silencio y reflexión, definí los pasos a seguir:
 
-1. terminar la copia de datos, extrayendo la unidad M2
-2. armar un entorno de trabajo en otra notebook
-3. elegir un nuevo modelo de notebook a comprar
+1. terminar la copia de datos, extrayendo la unidad /M2/
+2. armar un entorno de trabajo en otra /notebook/
+3. elegir un nuevo modelo de /notebook/ a comprar
 
-** Hay Backup?
+** Hay /Backup/?
 
 Bueno, disco externo nuevo de 4TB ya tenía disponible, solo faltaba
-remover el M2, ponerlo en un adaptador USB, conectarlo a otro equipo y
-ponerse a copiar.
+remover el /M2/, ponerlo en un adaptador /USB/, conectarlo a otro equipo
+y ponerse a copiar.
 
-Gracias nuevamente a compañerxs de gcoop, en un par de horas ya
-contaba con el adaptador M2 y pude verificar que al menos las
-particiones se listaban correctamente.
+Gracias nuevamente a compañerxs de [[https://www.gcoop.coop/][gcoop]],
+en un par de horas ya contaba con el adaptador M2 y pude verificar que
+al menos las particiones se listaban correctamente.
 
 ** (des)cifrado recursivo
 
-Teniendo conectado la unidad M2 origen y el disco externo en una nueva
-notebook, solo restaba montar las particiones y ponerse a copiar,
+Teniendo conectado la unidad /M2/ origen y el disco externo en una nueva
+/notebook/, solo restaba montar las particiones y ponerse a copiar,
 fácil si nunca cifrás las particiones :P
 
 Resulta que el nuevo disco externo, lo cifré el día anterior usando
-luks, pero no tenía la menor idea de la passphrase, por suerte el cron
-que se ocupa de sincronizar mis repositorios importates cada 5min
+/luks/, pero no tenía la menor idea de la /passphrase/, por suerte el
+=cron= que se ocupa de sincronizar mis repositorios importares cada 5min
 logró funcionar y bastaba instalar =pass= en /caipiroska/ para
-recuperarla, pero para montar la partición de root además necesitaba
-la gpg y el password-store de root que estaban dentro del disco
-externo, que estaba cifrado XD
+recuperarla, pero para montar la partición de /root/ además necesitaba
+la /gpg/ y el /password-store/ de /root/ que estaban dentro del disco
+externo, que estaba cifrado! XD
 
 ** [[https://gitlab.com/osiux/direplos][DIREPLOS]]
 
 Cualquier equipo en cualquier momento puede morir repentinamente o si es
-movil lo podes perder (yo me olvide ni notebook en un colectivo y tuve
+móvil lo podes perder (yo me olvide ni /notebook/ en un colectivo y tuve
 la suerte de recuperarla) o con mala suerte lo pueden robar o consumirse
-en un incendio, entonces la clave esta en poder recuperase rapidamente y
-para ello es necesario un **plan de recuperacion de desastres** y lo
-basico es contar con las herramientas (sistema operativo, aplicaciones y
-utilitarios), la configuracion especifica y lo irremplazable, los datos.
+en un incendio, entonces la clave esta en poder recuperase rápidamente y
+para ello es necesario un **plan de recuperación de desastres** y lo
+básico es contar con las herramientas (sistema operativo, aplicaciones y
+utilitarios), la configuración especifica y lo irreemplazable, los
+datos.
 
 Hace años, de alguna manera automaticé rústicamente todos los paquetes
 que considero vitales para mi entorno en el repositorio
- [[https://gitlab.com/osiux/direplos][direplos]], si bien quedó desactualizado el
-script =deb.sh= y a medio refactorizar y sin publicar la versión
-ansible, pero con mínimos cambios pude ejecutar la instalacion con el comando:
+[[https://gitlab.com/osiux/direplos][direplos]], si bien quedó
+desactualizado el /script/ =deb.sh= y a medio "refactorizar" y sin
+publicar la versión /ansible/, pero con mínimos cambios pude ejecutar la
+instalación con el comando:
 
 #+BEGIN_SRC src :exports code
 
@@ -106,18 +108,18 @@ trabajar, o casi :P
 
 Algo no resuelto del todo es que, además de diferentes programas y
 utilitarios, necesito muchos archivos de configuración, gran parte de
-ellos estan versionados y disponibles en un servidor remoto, pero la
-cuestión pasa por encontrar la secuencia correcta de deploy.
+ellos están versionados y disponibles en un servidor remoto, pero la
+cuestión pasa por encontrar la secuencia correcta de /deploy/.
 
 ** =git-repos= al rescate!
 
-Por ser previsor, gran parte de lo que necesito, esta (o deberia estar)
-en un repositorio git, ahora bien, como buen ñoño, tengo muchos
+Por ser previsor, gran parte de lo que necesito, esta (o debería estar)
+en un repositorio /git/, ahora bien, como buen ñoño, tengo muchos
 repositorios propios y uso a diario muchos otros, de proyectos en los
-que trabajo o trabajé en algun momento, como asi tambien todo lo que me
+que trabajo o trabajé en algún momento, como así también todo lo que me
 resulta interesante de la comunidad del software libre y con el paso del
 tiempo la lista creció exponencialmente, entonces, era necesario
-administrarlos se alguns manera.
+administrarlos se alguna manera.
 
 De cabezadura se me ocurrió solucionarlo con un desarrollo propio que
 simplifica la tarea de clonar y mantener sincronizados todos los repos,
@@ -137,23 +139,24 @@ un archivo =.git-repos= en varios directorios.
 
 ** sin mi entorno, no soy eficiente
 
-Lo bueno de personalizar tu entorno al maximo es que sos extremadamente
-agil en cada tarea, por mas simple que sea y yo tengo muchisimo tiempo
-invertido en optimizar mi entorno porque basicamente practicamente todo
+Lo bueno de personalizar tu entorno al máximo es que sos extremadamente
+ágil en cada tarea, por mas simple que sea y yo tengo muchísimo tiempo
+invertido en optimizar mi entorno porque básicamente prácticamente todo
 lo hago dentro de una terminal.
 
-Lo malo es que si no tenes tu entorno disponible, te volves muy torpe y
+Lo malo es que si no tenes tu entorno disponible, te volvés muy torpe y
 lento, por este motivo es vital contar con un procedimiento que permita
-levantar tu entorno rapidamente en cualquier equipo y con un minimo
+levantar tu entorno rápidamente en cualquier equipo y con un mínimo
 esfuerzo, y con este incidente pude confirmar que mi entorno es
-reproducible y es muy poco lo que me olvide de commitear, pero lo
-dificil y costoso fue no tener segmentado y priorizado, es decir, tener
+reproducible y es muy poco lo que me olvide de "commitear", pero lo
+difícil y costoso fue no tener segmentado y priorizado, es decir, tener
 que esperar a que el 100% de tu entorno se despliegue por completo, es
 demasiado tiempo, asi que estoy aprovechando la oportunidad en definir
-el minimo entorno necesario y en dejar un test que a diario regenere mi
-entorno a los efectos de encontrar el equilibrio entre un deploy rapido
-y un entorno minimo que permita estar operativo ante un desastre o un
-simple cambio de equipo en un par de minutos en lugar de un par de horas.
+el mínimo entorno necesario y en dejar un test que a diario regenere mi
+entorno a los efectos de encontrar el equilibrio entre un /deploy/
+rápido y un entorno mínimo que permita estar operativo ante un desastre
+o un simple cambio de equipo en un par de minutos en lugar de un par de
+horas.
 
 ** Tal vez te interese...
 
@@ -162,7 +165,7 @@ simple cambio de equipo en un par de minutos en lugar de un par de horas.
  
 ** ChangeLog
 
-   - [2021-01-26 mar] Correcciones menores de formato y link roto
-   - [2021-01-27 mie] Agrego explicación sobre direplos y haga intro a git-repos
-   - [2021-01-28 jue] Completo seccion sobre entorno/eficiencia y corrijo formato
+   - [2021-01-26 mar] Correcciones menores de formato y /link/ roto
+   - [2021-01-27 mie] Agrego explicación sobre /direplos/ y hago intro a =git-repos=
+   - [2021-01-28 jue] Completo sección sobre entorno/eficiencia y corrijo formato
 
