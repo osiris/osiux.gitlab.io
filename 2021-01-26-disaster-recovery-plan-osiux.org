@@ -161,11 +161,4 @@ horas.
 ** Tal vez te interese...
 
    - [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][ansible luks format external usb disk]]
-   - [[file:2015-01-14-sincronizar-repositorios-git-repos.org][sincronizar repositorios git]
- 
-** ChangeLog
-
-   - [2021-01-26 mar] Correcciones menores de formato y /link/ roto
-   - [2021-01-27 mie] Agrego explicación sobre /direplos/ y hago intro a =git-repos=
-   - [2021-01-28 jue] Completo sección sobre entorno/eficiencia y corrijo formato
-
+   - [[file:2015-01-14-sincronizar-repositorios-git-repos.org][sincronizar repositorios git]]
