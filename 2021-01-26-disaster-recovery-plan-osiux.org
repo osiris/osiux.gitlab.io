@@ -163,7 +163,8 @@ horas.
    - [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][ansible luks format external usb disk]]
    - [[file:2015-01-14-sincronizar-repositorios-git-repos.org][sincronizar repositorios git]]
 
-** Changelog
+
+** ChangeLog
 
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/219b9627815113f004c200c1554b70318998e9e7][=2021-01-31 04:18=]] corrijo link y elimino changelog manual
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0310b27516cc6f8280a1d561f3f6969f13aaad5c][=2021-01-31 04:49=]] corrección ortográfica y de sintaxis
