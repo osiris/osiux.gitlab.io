@@ -55,3 +55,7 @@ De momento el script
 esta a prueba, viendo que casos de usos se presentan para mejoararlo,
 pero muy posiblemente lo voy a invocar desde del /hook/ =post-commit=
 para automatizar por completo su generación totalmente desatendida.
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f99f1b8e4f3c561aad89598d5773b095cd342835][=2021-02-01 19:33=]] agrego generar /ChangeLog/ en =org-mode= usando =git log=
