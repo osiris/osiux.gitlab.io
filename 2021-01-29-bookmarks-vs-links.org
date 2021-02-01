@@ -4,7 +4,7 @@
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
-#+DATE:      2021-01-26 20:10
+#+DATE:      2021-01-29 20:10
 
 
 ** los /bookmarks/ no son mis favoritos
