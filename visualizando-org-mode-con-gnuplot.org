@@ -545,11 +545,6 @@ Ejecutando unas pocas líneas se puede ver, cuanto tardé:
   :     CLOCK: [2011-12-29 jue 02:55]--[2011-12-29 jue 05:47] =>  2:52
 #+END_EXAMPLE
 
-** ChangeLog
-
-- [2013-02-28 jue] Cambio formato rst por org.
-- [2013-03-15 vie] Agrego width a imágenes.
-
 [fn:orgmode] http://orgmode.org
 [fn:emacs] https://www.gnu.org/software/emacs/
 [fn:gnuplot] http://www.gnuplot.info/
