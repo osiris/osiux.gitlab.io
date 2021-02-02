@@ -102,3 +102,9 @@ solución no escala porque registro muchos links, asi que ya estoy
 probando diferentes herramientas para generar mi propio /archive/ y
 mantener un /mirror/ de cada /link/, y "en breve" voy a escribir al
 respecto.
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1b40b6045d031a7e1f19675f330db6b39f8ba4b4][=2021-02-02 18:07=]] agregar URLs de referencia a aplicaciones mencionadas
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/59d53d185d5b919e6797fbede574372b7edb278b][=2021-02-01 18:00=]] corrijo fecha de bookmarks vs links
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/33298ea5035d39209862c9d38a5dd609cb69a1ca][=2021-01-31 04:49=]] agrego bookmarks vs links
