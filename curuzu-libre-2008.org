@@ -631,11 +631,6 @@ file:img/olsr.png
    - El resto del documento está bajo Licencia Creative Commons by-sa
      Argentina 2.5 [fn:CCBYSA].
 
-** Changelog
-
-   [2013-03-16 sáb] migro formato de rST a org
-
-
 [fn:RMS] http://es.wikipedia.org/wiki/Stallman
 [fn:GNU] http://es.wikipedia.org/wiki/Gnu
 [fn:FSF] http://es.wikipedia.org/wiki/FSF
