@@ -82,7 +82,7 @@ sensato directamente compartir mi =links.txt= con el mundo! Solo
 necesitaba convertirlos a /HTML/ asi que escribí otro /script bash/ para
 pasarlo a [[file:links.org][=links.org=]], en formato =org-mode= y asi
 =emacs= mediante
-[[file:file:2019-04-21-gitlab-ci-org-mode-publish.org][se ocupa de exportarlo]]
+[[file:2019-04-21-gitlab-ci-org-mode-publish.org][se ocupa de exportarlo]]
 correctamente, solo que las /URLs/ no siempre son muy bonitas e
 interesantes y terminé obteniendo el titulo de cada /link/ (lo cual no
 es tan simple) mejorando la presentación, ordenando las categorías,
