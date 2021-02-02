@@ -1,0 +1,14 @@
+#+TITLE:     OSiUX links
+#+AUTHOR:    Osiris Alejandro Gómez
+#+EMAIL:     osiux@osiux.com
+#+LANGUAGE:  es
+#+LINK_HOME: index.html
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+
+
+Este es un listado de /URLs/ de sitios que me interesa compartir.
+Las categorías o /tags/ pueden cambiar sin previo aviso.
+Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]].
+
+
