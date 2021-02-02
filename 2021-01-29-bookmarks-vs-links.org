@@ -48,11 +48,13 @@ Como resultado de leer el libro
 (gracias a [[https://examplelab.com.ar][Hugo Ruscitti]])
 termine implementando un montón de utilidades para básicamente
 organizarme mediante listas de tareas y lo mas simple desde una consola
-es utilizar =todo.txt=, un simple archivo de texto plano con una linea
-por tarea, que puede opcionalmente tener una fecha y uno o mas /tags/.
+es utilizar [[http://todotxt.org/][=todo.txt=]], un simple archivo de
+texto plano con una línea por tarea, que puede opcionalmente tener una
+fecha y uno o mas /tags/.
 
 Y que tienen que ver las tareas con las /URLs/? Simple, hay una
-excelente aplicación para editar =todo.txt= en /f-droid/ y es
+excelente aplicación para editar =todo.txt= en 
+[[https://f-droid.org/en/packages/nl.mpcjanssen.simpletask/][/f-droid/]] y es
 [[https://github.com/mpcjanssen/simpletask-android][simpletask]]
 
 Ya la estaba utilizando y su formato contaba con todo lo que necesitaba,
@@ -67,26 +69,30 @@ Había varias maneras de hacerlo y adivinen que? Opté por utilizar un
 repositorio /git/ para almacenar =links.txt= y mantenerlo sincronizado
 con la compu, y esto fue muy simple utilizando
 [[https://github.com/termux/termux-app][=termux=]] 
-(también disponible en /f-droid/), porque no solo me permite utilizando
-comandos =git=, es una terminal completa y podes hacer lo que necesites,
-en este momento estoy editando este articulo desde =vim=, dentro de un
-=tmux= en un servidor remoto, pero desde mi celular usando un teclado
-/bluetooth/.
+(también disponible en [[https://f-droid.org/en/packages/com.termux/][/f-droid/]])
+, porque no solo me permite utilizando comandos =git=, es una terminal
+completa y podes hacer lo que necesites, en este momento estoy editando
+este articulo desde =vim=, dentro de un =tmux= en un servidor remoto,
+pero desde mi celular usando un teclado /bluetooth/.
 
 ** mis favoritos, son tus favoritos?
 
 Cada tanto tengo ganas de compartir algún link y me pareció lo mas
 sensato directamente compartir mi =links.txt= con el mundo! Solo
 necesitaba convertirlos a /HTML/ asi que escribí otro /script bash/ para
-pasarlo a formato =org-mode= y asi =emacs= se ocupa de exportarlo
+pasarlo a [[file:links.org][=links.org=]], en formato =org-mode= y asi
+=emacs= mediante
+[[file:file:2019-04-21-gitlab-ci-org-mode-publish.org][se ocupa de exportarlo]]
 correctamente, solo que las /URLs/ no siempre son muy bonitas e
-interesantes y termine obteniendo el titulo de cada /link/ (lo cual no
+interesantes y terminé obteniendo el titulo de cada /link/ (lo cual no
 es tan simple) mejorando la presentación, ordenando las categorías,
 eliminando duplicados, lidiando con /UTF-8/, emojis, etc
 
 Todo esto esta disponible y libre! en el repositorio
 [[https://gitlab.com/osiux/links-bash-utils][links-bash-utils]]
-por si a alguien le interesa utilizar =url2title= o =links2org=.
+por si a alguien le interesa utilizar
+[[https://gitlab.com/osiux/links-bash-utils/-/raw/master/url2title][=url2title=]] o 
+[[https://gitlab.com/osiux/links-bash-utils/-/raw/master/links2org][=links2org=]].
 
 ** y que pasa cuando los /links/ den =404= ?
 
