@@ -294,3 +294,16 @@ puede obtener una copia del archivo que está en =/etc/xdg/awesome/rc.lua=.
 [fn:kde] http://es.wikipedia.org/wiki/KDE
 [fn:fluxbox] http://es.wikipedia.org/wiki/Fluxbox
 [fn:awesome] http://es.wikipedia.org/wiki/Awesome
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b][=2019-04-18 00:01=]] Corregir identación header #+INCLUDE:
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/d786b1d07ab48fbf066a455e47dbe6f506736b90][=2015-07-18 14:47=]] @ 00:25 hs - This document was successfully checked as XHTML 1.0 Strict!
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bbc3bbc728f2a3eeb4fe2e0a012ee5d8d613e3ef][=2015-07-03 04:31=]] @ 00:05 hs - elimino #+OPTIONS: de todos los archivos excepto header.org
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a2abb3b333c91e0d3c15ea9e93a21589bd4d86f7][=2015-07-03 03:59=]] @ 01:00 hs - reemplazo :alt por :title y cambios menores
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/74165280ffad770d1f8b8acbfa7f22b95459b52a][=2014-04-22 11:35=]] @ 00:34 hs - Agrego timestamp:nil
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/cfd0eadabe370dc0df4729fd3de6b3637a022338][=2013-05-06 10:14=]] @ 00:10 hs - varias correcciones menores
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/220d44ef3c85d22a9cafa14193ab65aad69177bb][=2013-04-25 07:33=]] @ 00:15 hs - agrego preview imágenes awesome es increíble
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ad3755a3df07cdfbdc75d56cae06db2fee4b5f2][=2013-04-24 08:04=]] @ 01:50 hs - migro a org 8.0
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/35d76b3b92fe809e01f82016bdb725aeed6ac536][=2013-03-15 11:48=]] @ 02:15 hs - Agrego artículos y optimizaciones varias
