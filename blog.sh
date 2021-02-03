@@ -62,7 +62,7 @@ footer()
 header '' >"$ORG"
 
 R='.*/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-.*\.org$'
-find . -type f -regextype sed -regex "$R" | cut -c 3- | sort -nr >"$TMP0"
+find . -type f -regex "$R" | cut -c 3- | sort -nr >"$TMP0"
 
 cut -c -4 "$TMP0" | sort -unr >"$TMP1"
 
