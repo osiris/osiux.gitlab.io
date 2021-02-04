@@ -17,6 +17,45 @@ una /expresión regular/ se genera el mensaje del /commit/ y se realiza
 el mismo, de esta manera, podría dejar de hacerlo manualmente para cada
 /post/.
 
+** y la recursividad?
+
+Típico de /developer/, minimizar la tarea y pensar que es una giladita,
+obvio que el primero commit para estrenar el /hook/ entró en el
+problemita de la recursividad! y generó casi 100 /commits/ de
+/ChangeLog/ sobre el /commit/ del /ChangeLog/.
+
+La solución fue, agregar una validación inicial donde se verifica que si
+se esta por realizar un /commit/ de /ChangeLog/ y el último /commit/
+tiene como /subject/ =ChangeLog: YYYY-MM-DD-filename.org= entonces el
+=post-commit= no hace nada y termina la ejecución.
+
+** otra giladita mas!
+
+Solucionada la recursividad, me encontré que el /post/ se eliminaba y
+quedaba únicamente el /ChangeLog/, y esto se solucionó corrigiendo la
+expresión regular que detecta si un /post/ ya tiene una sección
+=** ChangeLog=.
+
+** la solución final
+
+Luego de reescribir el historial de =git= para corregir todos los
+errores, documento la solución:
+
+1. descargar los /scripts/
+   [[https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-files][git-log-files]]
+   y
+   [[https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-org-changelog][git-log-org-changelog]]
+   y dejarlos accesibles para su ejecución (en mi caso, directamente
+   todo el repositorio
+   [[https://gitlab.com/osiux/git-bash-utils/][=git-bash-utils=]])
+
+2. descargar el /hoook/
+   [[https://gitlab.com/osiux/git-bash-utils/-/raw/master/post-commit-org-changelog][post-commit-org-changelog]]
+   y guardarlo en =.git/hooks/post-commit= y darle permiso de ejecución.
+
+Ahora luego de cada /commit/ se genera un /commit/ de /ChangeLog/
+automáticamente :)
+
 ** ChangeLog
 
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/254bee311a2d8068d612bbcfeaaf524194ed5c6b][=2021-02-04 11:07=]] agrego git =post-commit= /ChangeLog/
