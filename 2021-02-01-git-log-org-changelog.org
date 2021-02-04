@@ -51,7 +51,7 @@ filename.org=
 ** automatizando el /ChangeLog/
 
 De momento el script
-[[file:https://gitlab.com/osiux/git-bash-utils/-/raw/b1a4429deba43cd387408db9c11b3bb48796848b/git-log-org-changelog][=git-log-org-changelog=]]
+[[https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-org-changelog][=git-log-org-changelog=]]
 esta a prueba, viendo que casos de usos se presentan para mejoararlo,
 pero muy posiblemente lo voy a invocar desde del /hook/ =post-commit=
 para automatizar por completo su generación totalmente desatendida.
