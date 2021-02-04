@@ -16,3 +16,7 @@ del último /commit/ y luego de verificar si se trata de un /post/ usando
 una /expresión regular/ se genera el mensaje del /commit/ y se realiza
 el mismo, de esta manera, podría dejar de hacerlo manualmente para cada
 /post/.
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/254bee311a2d8068d612bbcfeaaf524194ed5c6b][=2021-02-04 11:07=]] agrego git =post-commit= /ChangeLog/
