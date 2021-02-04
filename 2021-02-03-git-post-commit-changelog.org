@@ -1,0 +1,18 @@
+#+TITLE:       git =post-commit= /ChangeLog/
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-02-03 23:50
+
+** automatizando el /ChangeLog/ en =post-commit=
+
+Hace unos días implementé
+[[file:2021-02-01-git-log-org-changelog.org][=git-log-org-changelog=]]
+para automatizar la generación del /ChangeLog/ de cada /post/ y hoy
+comencé a usar /hook/ =post-commit= para obtener los nombres de archivos
+del último /commit/ y luego de verificar si se trata de un /post/ usando
+una /expresión regular/ se genera el mensaje del /commit/ y se realiza
+el mismo, de esta manera, podría dejar de hacerlo manualmente para cada
+/post/.
