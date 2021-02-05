@@ -96,3 +96,7 @@ todos los /scripts/ y con algunos ejemplos de uso.
 
 ...continuará...
 
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0d91f02c093c831708f06fe91c44e46dd49d9e9f][=2021-02-05 20:21=]] agrego Ansible/AWX tools
