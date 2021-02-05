@@ -1,0 +1,19 @@
+#+TITLE:     OSiUX git repositories
+#+AUTHOR:    Osiris Alejandro Gómez
+#+EMAIL:     osiux@osiux.com
+#+LANGUAGE:  es
+#+LINK_HOME: index.html
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+
+
+** =git-repos2org=
+
+En base a un archivo =.git-repos= se genera esta página con un listado
+de todos los repositorios de proyectos que mas activamente participo.
+
+El /script/ es
+[[https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org][=git-repos2org=]]
+y es parte de mis utilidades =git= del repositorio
+[[https://gitlab.com/osiux/git-bash-utils/][=git-bash-utils=]]
+
