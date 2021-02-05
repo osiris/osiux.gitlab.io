@@ -52,3 +52,7 @@ visualizar el problema gracias a consolidar el listado!
 - [[file:2021-01-26-disaster-recovery-plan-osiux.org][disaster recovery plan OSiUX]]
 - [[file:2015-01-14-sincronizar-repositorios-git-repos.org][sincronizar repositorios git]]
 - [[file:2012-02-17-las-cooperativas-construyen-un-mundo-mejor.org][las cooperativas construyen un mundo mejor]]
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/59d3cad9c12311a578328423d99f83f68b7aad51][=2021-02-05 02:55=]] agrego generar sección =git= mediante =git-repos2org=
