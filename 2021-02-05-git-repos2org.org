@@ -1,0 +1,54 @@
+#+TITLE:       generar sección =git= mediante =git-repos2org=
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-02-05 01:59
+
+
+** Compartir es Bueno!
+
+Así como [[file:2021-01-29-bookmarks-vs-links.org][comparto mis favoritos]]
+en [[file:links.org][=links=]], hace tiempo que tenía ganas de compartir
+un listado consolidado de mis repositorios =git=.
+
+Inicialmente cuento con un extenso listado de todos los /repos/ =git=
+que en algún momento me resultaron interesantes, pero creo que es tan
+extenso y desordenado que de momento me voy a ocupar únicamente de
+aquellos proyectos donde metí varios /commits/, muchos /repos/ son de
+mis proyectos personales y otros tantos de los proyectos que desarrollé
+mayormente en [[https://www.gcoop.coop/][gcoop Cooperativa de Software Libre]]
+(donde trabajo desde el 2007).
+
+** =git-repos=
+
+Llevo un par de años almacenando el listado de repositorios =git= en un
+archivo =.git-repos=, originalmente contaba con uno solo en mi =home=
+pero hace un par de semanas decidí adaptar el /script/
+[[https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos][=git-repos=]]
+con el que administro el uso de todos los repositorios ya que de esta
+manera me brinda mayor flexibilidad, sobre todo para segmentar y
+priorizar los repositorios mas importantes a la hora de 
+[[file:2021-01-26-disaster-recovery-plan-osiux.org][recuperarme de un desastre]].
+
+** =git-repos2org=
+
+Generar una [[file:git.org][página =git=]] fué muy fácil, usando el
+/script/ [[https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org][=git-repos2org=]]
+y me compré varias tareas para hacer en cada /repo/:
+
+- [ ] agregar un archivo =description=
+- [ ] implementar =git-flow= y generar al menos un /release/
+- [ ] publicar repositorios que solo existen en mi =localhost= 
+- [ ] verificar que existan /mirrors/ en /gitlab/ y en /github/
+- [ ] asegurar que existe un =README= básico
+
+Obviamente me va a llevar un tiempo, pero al menos ahora puedo
+visualizar el problema gracias a consolidar el listado!
+
+** tal vez te interese leer
+
+- [[file:2021-01-26-disaster-recovery-plan-osiux.org][disaster recovery plan OSiUX]]
+- [[file:2015-01-14-sincronizar-repositorios-git-repos.org][sincronizar repositorios git]]
+- [[file:2012-02-17-las-cooperativas-construyen-un-mundo-mejor.org][las cooperativas construyen un mundo mejor]]
