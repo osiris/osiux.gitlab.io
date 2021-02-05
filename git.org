@@ -305,3 +305,9 @@ in a plain text file, developed in *bash* and inspired in *jrnl.sh*
 https://jrnl.sh/
 
    - remotes: [[https://github.com/osiris/txt-bash-jrnl][github]] [[https://gitlab.com/osiux/txt-bash-jrnl][gitlab]]
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/8b0a49f2e96339b46b1ce1ccdfbd4f46350fc44b][=2021-02-05 02:47=]] elimino encabezado columna =remote= y quito formato código
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/725ee3cfec18ba5233beb81381d7eb1705bd949b][=2021-02-05 01:28=]] muevo =remotes= y agrego contenido de archivo =description=
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/897028477ba87f9020e55b9c5a13b50567c3360c][=2021-02-04 21:08=]] agrego git.org y git-head.org
