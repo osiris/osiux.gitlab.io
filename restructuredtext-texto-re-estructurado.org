@@ -176,3 +176,7 @@ eligiendo diferentes templates, esto evita tener instalado /reST/.
 - http://api.rst2a.com/1.0/rst2/html?uri=http://pub.osiux.com/restructuredtext/reStructuredText.txt
 
 [fn:rst] http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ef3937d50250e25eaf8f969529876f44bd2d4fb][=2021-02-06 19:07=]] agrego /reStructuredText/ texto re-estructurado
