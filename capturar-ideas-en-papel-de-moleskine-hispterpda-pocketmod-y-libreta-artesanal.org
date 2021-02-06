@@ -3,16 +3,17 @@
 #+EMAIL:     osiux@osiux.com
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
-#+INCLUDE:     header.org
+#+INCLUDE:   header.org
 #+DATE:      2011-10-06 13:18
 
 ** Capturando Ideas
 
-Muchas metodologías de gestión del tiempo coinciden en un paso escencial,
-capturas ideas lo antes posible y uno de los medios más efectivos, flexibles y
-más disponibles es el papel, por esto conviene siempre tener alguna especie de
-libreta a mano. Si bien hace tiempo es posible utilizar algún dispositivo
-electrónico, ninguno es tan versatil y maleable como el papel.
+Muchas metodologías de gestión del tiempo coinciden en un paso
+escencial, capturas ideas lo antes posible y uno de los medios más
+efectivos, flexibles y más disponibles es el papel, por esto conviene
+siempre tener alguna especie de libreta a mano. Si bien hace tiempo es
+posible utilizar algún dispositivo electrónico, ninguno es tan versatil
+y maleable como el papel.
 
 #+ATTR_HTML: :width 640 :height 480 :title Libreta Artesanal
 [[file:img/libreta_artesanal/libreta_artesanal_11.jpg][file:tmb/libreta_artesanal/libreta_artesanal_11.jpg]]
@@ -26,27 +27,28 @@ electrónico, ninguno es tan versatil y maleable como el papel.
 #+ATTR_HTML: :width 640 :height 480 :title Libreta Artesanal
 [[file:img/libreta_artesanal/libreta_artesanal_14.jpg][file:tmb/libreta_artesanal/libreta_artesanal_14.jpg]]
 
-Inicialmente cuando leía acerca del método GTD [fn:GTD], pase un buen rato
-eligiendo la mejor libreta para recopilar y en esa carrera terminé comprando
-una *moleskine* [fn:moleskine], y antes de completarla ya había comprado otra
-libreta de similares características pero menor calidad y precio, luego tuve la
-suerte de perderlas para provisoriamente usar una muy barata libreta que en
-poco tiempo terminó por desarmarse (realmente era de mala calidad).
+Inicialmente cuando leía acerca del método GTD [fn:GTD], pase un buen
+rato eligiendo la mejor libreta para recopilar y en esa carrera terminé
+comprando una *moleskine* [fn:moleskine], y antes de completarla ya
+había comprado otra libreta de similares características pero menor
+calidad y precio, luego tuve la suerte de perderlas para provisoriamente
+usar una muy barata libreta que en poco tiempo terminó por desarmarse
+(realmente era de mala calidad).
 
 ** Alternativas a moleskine
 
-En la búsqueda de algo económico y práctico a la vez descubrí
-la *hispterPDA* [fn:hispterpda], que consta de varias hojas sostenidas
-por un clip, broche o incluso una banda elástica, tiene la ventaja de
-poder separar las hojas para tener una visión global, reorganizar e
-incluso archivar de maneras muy distintas. No encontré un clip que no
-lo perdiera y por lo que suelo registrar se escapaba a mis
-necesidades.
+En la búsqueda de algo económico y práctico a la vez descubrí la
+*hispterPDA* [fn:hispterpda], que consta de varias hojas sostenidas por
+un clip, broche o incluso una banda elástica, tiene la ventaja de poder
+separar las hojas para tener una visión global, reorganizar e incluso
+archivar de maneras muy distintas. No encontré un clip que no lo
+perdiera y por lo que suelo registrar se escapaba a mis necesidades.
 
-Entonces dí con la *pocketmod* [fn:pocketmod] una idea fabulosa por su simplesa,
-tomar una hoja y dividirla en 8 partes y haciendo sólo dos cortes ya obtenés
-una mini-libreta lista para usar. Con esto jugué bastante, primero con los
-generadores web que incluyen calendarios, listas de tareas y varios templates.
+Entonces dí con la *pocketmod* [fn:pocketmod] una idea fabulosa por su
+simplesa, tomar una hoja y dividirla en 8 partes y haciendo sólo dos
+cortes ya obtenés una mini-libreta lista para usar. Con esto jugué
+bastante, primero con los generadores web que incluyen calendarios,
+listas de tareas y varios templates.
 
 #+ATTR_HTML: :width 640 :height 480 :title Libreta Pocketmod
 [[file:img/libreta_artesanal/libreta_pocketmod_01.jpg][file:tmb/libreta_artesanal/libreta_pocketmod_01.jpg]]
@@ -61,22 +63,22 @@ generadores web que incluyen calendarios, listas de tareas y varios templates.
 [[file:img/libreta_artesanal/libreta_pocketmod_04.jpg][file:tmb/libreta_artesanal/libreta_pocketmod_04.jpg]]
 
 Como uso *Org-mode* [fn:org-mode] decidí integrarlo a la *pocketmod*,
-intenté adaptar un script para *hispterpda* que extraía citas
-de *Org-mode* generando un PDF en formato *pocketmod* pero no me dió
+intenté adaptar un script para *hispterpda* que extraía citas de
+*Org-mode* generando un PDF en formato *pocketmod* pero no me dió
 resultado, aunque de esa experiencia obtuve la experiencia de
-interactuar con el utilitario =pdfjam= [fn:pdfjam] que facilita la
-unión de distintos archivos pdf en uno solo.
+interactuar con el utilitario =pdfjam= [fn:pdfjam] que facilita la unión
+de distintos archivos pdf en uno solo.
 
-Decidido a obtener mi propio template de *pocketmod*, obté por hacer un par de
-archivos en ascii-art, incluyendo la salida del programa =cal= de consola,
-esto está disponible en un repositorio =git= [fn:rst2pocketmod] y no son más que
-unos archivos en formato *reStructuredText* [fn:rst].
+Decidido a obtener mi propio template de *pocketmod*, obté por hacer un
+par de archivos en ascii-art, incluyendo la salida del programa =cal= de
+consola, esto está disponible en un repositorio =git= [fn:libretA7] y no
+son más que unos archivos en formato *reStructuredText* [fn:rst].
 
-Cuando finalmente quedé conforme con el template y lo imprimí y empecé a usarlo
-vi rápidamente que estaba desaprovechando papel, la hoja A4 estaba siendo usada
-de una sola cara. Fui a una papelería y adquirí unas hojas de 120 gramos
-pensando en imprimir en doble faz, luego de hacerlo y plegarla vi que no
-resultaba cómoda y le di vueltas al asunto.
+Cuando finalmente quedé conforme con el template y lo imprimí y empecé a
+usarlo vi rápidamente que estaba desaprovechando papel, la hoja A4
+estaba siendo usada de una sola cara. Fui a una papelería y adquirí unas
+hojas de 120 gramos pensando en imprimir en doble faz, luego de hacerlo
+y plegarla vi que no resultaba cómoda y le di vueltas al asunto.
 
 Buscando maneras de encuadernar sin usar adhesivos vi varios ejemplos de
 plegado y observando una foto de un sitio web que no recuerdo obtuve una
@@ -174,8 +176,8 @@ Luego los mismos 3 segmentos hacia el otro lado
     +----------------------------------+
 #+END_EXAMPLE
 
-Finalmente apilar todas las hojas e introducir una varilla de madera
-de 2mm de diámetro.
+Finalmente apilar todas las hojas e introducir una varilla de madera de
+2mm de diámetro.
 
 ** Fotos Paso a Paso
 
@@ -197,11 +199,16 @@ de 2mm de diámetro.
 #+ATTR_HTML: :width 640 :height 480 :title Libreta Artesanal
 [[file:img/libreta_artesanal/libreta_artesanal_06.jpg][file:tmb/libreta_artesanal/libreta_artesanal_06.jpg]]
 
+** También te puede interesar leer
+
+- [[file:gtd-gething-this-done.org][/GTD Gething this Done/]]
+- [[file:todo-txt-rst+org-mode.org][=todo.txt= =rst+org-mode=]]
+
 [fn:GTD] https://es.wikipedia.org/wiki/GTD
 [fn:moleskine] https://es.wikipedia.org/wiki/Moleskine
 [fn:hispterpda] https://secure.wikimedia.org/wikipedia/en/wiki/Hipster_PDA
 [fn:pocketmod] http://www.pocketmod.com/
 [fn:org-mode] https://es.wikipedia.org/wiki/Org-mode
 [fn:pdfjam] http://freshmeat.net/projects/pdfjam/
-[fn:rst2pocketmod] http://git.osiux.com.ar/?p=rst2pocketmod.git
+[fn:libretA7] https://gitlab.com/osiux/libretA7
 [fn:rst] http://osiux.com/restructuredtext-texto-re-estructurado.txt
