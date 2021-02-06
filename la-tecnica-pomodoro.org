@@ -198,3 +198,7 @@ visitéis la estupenda página de Francesco Cirillo [fn:1].
 
 [fn:1] http://www.pomodorotechnique.com/
 [fn:2] http://es.wikipedia.org/wiki/Getting_Things_Done
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/62978ce1c9ec6ff19a217b57dd0e100764fea0c6][=2021-02-06 19:54=]] agrego "la técnica pomodoro"
