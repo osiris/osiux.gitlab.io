@@ -212,3 +212,16 @@ Finalmente apilar todas las hojas e introducir una varilla de madera de
 [fn:pdfjam] http://freshmeat.net/projects/pdfjam/
 [fn:libretA7] https://gitlab.com/osiux/libretA7
 [fn:rst] http://osiux.com/restructuredtext-texto-re-estructurado.txt
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/399518e629348943bc32b98848a67e93d3d9f3ad][=2021-02-06 19:16=]] corrijo /links/ y sintaxis, agrego /posts/ relacionados
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b][=2019-04-18 00:01=]] Corregir identación header #+INCLUDE:
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bbc3bbc728f2a3eeb4fe2e0a012ee5d8d613e3ef][=2015-07-03 04:31=]] @ 00:05 hs - elimino #+OPTIONS: de todos los archivos excepto header.org
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a2abb3b333c91e0d3c15ea9e93a21589bd4d86f7][=2015-07-03 03:59=]] @ 01:00 hs - reemplazo :alt por :title y cambios menores
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c4f35213a5ce601aacae9636dd28aa99c2925943][=2015-06-30 05:58=]] @ 01:00 hs - corrijo header.org para exportar individualmente y agrego posts a medio terminar
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/74165280ffad770d1f8b8acbfa7f22b95459b52a][=2014-04-22 11:35=]] @ 00:34 hs - Agrego timestamp:nil
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/71d89f5723e08d91fff52405fec01a9d00acbce5][=2013-06-21 02:36=]] @ 00:40 hs - agrego imágenes libreta artesanal
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ad3755a3df07cdfbdc75d56cae06db2fee4b5f2][=2013-04-24 08:04=]] @ 01:50 hs - migro a org 8.0
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/69b41173759cd575222017d21c4ffc77554dc55a][=2013-03-14 13:40=]] @ 01:34 hs - Correcciones y nuevo texto migrado de rst a org
