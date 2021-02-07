@@ -59,7 +59,7 @@ dió mas errores y luego ejecuté los /scripts/ para re-republicar los
 [[https://pub.osiux.com/libretA7/vim-A7.pdf][=vim-A7.pdf=]]
 
 Uno de los /links/ rotos era sobre
-[[restructuredtext-texto-re-estructurado.org][/reStructuredText/]],
+[[file:restructuredtext-texto-re-estructurado.org][/reStructuredText/]],
 archivo que ni siquiera tenía versionado, recurrí a
 [[https://web.archive.org/][WayBackMachine]] y encontré un
 [[https://web.archive.org/web/20130108065309/https://osiux.com/restructuredtext-texto-re-estructurado.txt][/snapshot/]]
