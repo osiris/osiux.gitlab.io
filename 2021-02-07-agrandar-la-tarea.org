@@ -177,6 +177,8 @@ todo y hacerlo en "código bonito"
 Sin dudas, es un ejercicio y de cada experiencia de la vida diaria se
 puede aprender y mejorar.
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/832eb5876bf111ffe19ed892cb6ecff42891841c][=2021-02-07 20:14=]] corrijo /link/ a /reStructuredText/ texto re-estructurado
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5e2aad019ffd746b9ae82ac23ce66b43ff8c6674][=2021-02-07 19:23=]] agrego /agrandar la tarea/
