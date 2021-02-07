@@ -1,0 +1,178 @@
+#+TITLE:       agrandar la tarea
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-02-07 11:12
+
+** problema(s) a resolver
+
+A diario me encuentro con un problema a resolver que me lleva a meterme
+en mas problemas a resolver y no es fácil ni claro decidir cuándo
+detenerse, porque resolver problemas es divertido.
+
+** perdiendo el foco
+
+Intentando organizar el año, fui al /living/ de casa a sentarme a escribir en
+papel un calendario del mes, esto lo hacemos siempre porque visualmente ayuda
+muchísimo tenerlo ahí a la vista de todos y todas, así en familia podemos
+coordinar o sincronizar los eventos e incluso hasta mi hijo mas pequeño pide
+tachar el día cuando este termina, y resulta que antes de sentarme a escribir
+algo, vimos el /living/ desordenando y nos pusimos a ordenar, en ese orden
+llevé unos vasos a la cocina y como vi que había cosas por lavar, me puse a
+lavarlas, al volver encontré una bolsa con varios papeles y bueno ya que estaba
+me puse a verlos, terminé sacando fotos a lo que de alguna manera quería
+conservar y tirando el 98% del resto.
+
+** agrandando la tarea
+
+En el medio de todo esto venía pensando en retomar el uso de
+[[https://bulletjournal.com/][/bullet journal/]], asi que una manera de
+registrar el calendario era comenzar a utilizar una libreta negra a estrenar y
+recordaba que una libreta roja de años anteriores ya tenía dibujado mi /bullet
+journal/ abandonado, me puse a buscar la libreta roja y al mismo tiempo
+buscando /templates/ por la web para tener de modelo por si no encontraba la
+libreta roja, en esta búsqueda mi mujer (que es la que encuentra todo en casa)
+dió con unas bonitas hojas de colores recortadas, que eran de mi proyecto de
+[[https://gitlab.com/osiux/libretA7/][/libretA7/]], asi que dije, buenísimo,
+voy por esto, y terminé viendo un video tutorial (porque no encontré un /PDF/)
+de como hacer tu propia /bullet journal/ y en el medio de hacerla recordé
+porqué había abandonado su uso y es que lo que me gusta de anotar en papel es
+tener libertad total y no estructurarme dónde y cómo registrar, y por otro
+lado, la vista de calendario mensual es la que mas me resulta para organizarme,
+asi que pensé en armar una nueva /libretA7/ pero anexando en calendario al
+final.
+
+** resolver extras innecesarios
+
+Me puse a ver mi propio tutorial
+[[file:capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.org][Capturar ideas en papel de Molesikne/HispterPDA/PockedMod y libreta artesanal]] y
+al verlo, descubrí algunos /links/ rotos, errores de
+[[https://es.wikipedia.org/wiki/Indentación][/indentación/]] y sintaxis
+y bue, ya que estaba corregí el /post/ y como apuntaba a un repositorio
+=git= inexistente, verifiqué el correcto, cambié la /URL/ y me puse a
+revisar mis /scripts/ de generación de /libretA7/, terminé adaptándolos
+hasta que [[https://github.com/koalaman/shellcheck][=shellcheck=]] no
+dió mas errores y luego ejecuté los /scripts/ para re-republicar los
+/PDFs/ de ejemplos como este de 
+[[https://pub.osiux.com/libretA7/vim-A7.pdf][=vim-A7.pdf=]]
+
+Uno de los /links/ rotos era sobre
+[[restructuredtext-texto-re-estructurado.org][/reStructuredText/]],
+archivo que ni siquiera tenía versionado, recurrí a
+[[https://web.archive.org/][WayBackMachine]] y encontré un
+[[https://web.archive.org/web/20130108065309/https://osiux.com/restructuredtext-texto-re-estructurado.txt][/snapshot/]]
+del 2013, luego de un /copy+paste/ lo convertí a =org-mode= y una de las
+referencias decía "estará siempre disponible en
+http://pub.osiux.com/restructuredtext/reStructuredText.txt" y como no
+estaba, convertí de =.org= a =.rst= y re-publiqué para cumplir con lo de
+/"estará siempre disponible"/ :P
+
+** al final cuál era la tarea original?
+
+Era tan simple como registrar eventos en un calendario de papel que
+finalmente no me llevó mas de 1
+[[https://web.archive.org/web/20121106231605/http://www.osiux.com/la-tecnica-pomodoro.txt][/pomodoro/]]
+(confieso que el /post/ sobre /pomodoro/ también estaba perdido y tuve
+que recuperarlo).
+
+Esta claro que *me disperso fácilmente*, pero también tenía muchos
+pendientes por resolver, algunos de ellos era consciente y sabía que los
+tenía que hacer, pero por otro lado pude re-encontrarme con algunas
+metodologías oxidadas, ver en libretas de hace 10 años que algunos
+pendientes ya los resolví y si bien otros siguen sin cambiar de estado
+(porque no son realmente críticos) veo un notable progreso y muchas
+buenas ideas que podría retomar en cualquier momento porque tengo un
+registro de ellas y una frase que descubrí anotada es...
+
+/*el éxito es la suma de pequeños esfuerzos repetidos día tras día*/
+
+...no recuerdo en que momento la anote, pero me gusto mucho volver a
+leerla, refuerza el concepto de seguir en la misma dirección,
+registrando, avanzando y reflexionando al respecto.
+
+** sirvió para algo perder el tiempo?
+
+La sensación mas común que tenemos siempre es la de perder el tiempo,
+que al final una pavada lleva un montón de tiempo y que hasta la tarea
+mas simple se complica!
+
+Sin una metodología o una pausa para re-pensar un poco todo, es fácil
+enredarse y perderse, pero es simple revertir esta conducta con lápiz y
+papel si estás a solas o hablando con alguien sobre lo que estás por
+hacer, es importante estimar cada tarea, al menos catalogarlas en fácil,
+complicada, rápida, lenta, etc, lo más importante es poder priorizarlas,
+realmente es necesario resolverlas todas hoy? en paralelo? hay alguna
+otra alternativa? la puedo delegar? o posponer? en eso
+[[file:gtd-gething-this-done.org][/GTD/]] ayuda muchísimo y en el caso
+de haberlas realizado y sufrido en el camino, aprovechar el momento para
+una retrospectiva, sacarle provecho a lo aprendido.
+
+** anotar y tachar dá un alivio enorme!
+
+A continuación un listado de todas las tareas con las que me topé:
+
+- [X] *libreta de papel A7* [100%]
+  - [X] crear calendario mensual
+  - [X] armar una nueva /libretA7/
+  - [X] probar /bullet journal/
+- [X] orden y limpieza [100%]
+  - [X] ordenar papeles
+  - [X] fotografiar papeles importantes
+  - [X] tirar papeles innecesarios
+  - [X] ordenar living
+  - [X] limpiar cocina
+- [-] [[https://gitlab.com/osiux/libretA7][repositorio libretA7]] [42%]
+  - [X] adaptar sintaxis de /scripts/ usando =shellcheck=
+  - [X] re-publicar /PDFs/ de ejemplos
+  - [X] agregar =.description=
+  - [ ] corregir /PDFs/ de ejemplos
+  - [ ] implementar =git-flow=
+  - [ ] generar /tag/ =v0.1.0=
+  - [ ] generar template =ascii-art= de /bullet journal/
+- [-] actualizar blog [75%]
+  - [X] /post/ [[file:capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.html][capturar ideas en papel de moleskine hispterpda pocketmod y libreta artesanal]] [100%]
+    - [X] corregir /links/ rotos
+    - [X] corregir sintaxis
+  - [X] /post/ [[file:restructuredtext-texto-re-estructurado.org][/reStructuredText/ texto re-estructurado]] [100%]
+    - [X] recuperar /post/
+    - [X] convertir a =org-mode=
+    - [X] convertir a =rst=
+    - [X] publicar =rst=
+  - [X] /post/ [[file:la-tecnica-pomodoro.org][la técnica pomodoro]] [100%]
+    - [X] recuperar /post/
+    - [X] convertir a org-mode
+    - [X] corregir sintaxis
+  - [-] /post/ [[file:2021-02-07-agrandar-la-tarea.org][agrandar la tarea]] [50%]
+    - [X] escribir /post/
+    - [ ] agregar fotos ilustrativas
+
+Como se puede apreciar, no fué una pérdida de tiempo o al menos fue
+bastante productiva, claro esta que esto sucedió durante 2 días de un
+fin de semana e hice todo al revés, la "lista de tareas", la escribí
+luego de realizarlas, pero si hubiese dedicado al menos 1 /pomodoro/ a
+pensar y analizar antes de hacer, seguramente luego de los 25min
+hubiese tenido mucho tiempo disponible y muchas tareas en estado
+=TODO= o =NEXT= que algún otro día podría resolverlas, lo importante
+pasa por registrar las tareas y discriminarlas y/o detallarlas lo más
+posible para cuando tengas tiempo disponible.
+
+** y que tiene que ver con el desarrollo de /software/?
+
+Muchísimo! Como todo buen /developer/ en mis inicios, saltaba al
+teclado como un /ninja de la consola/ y es extradamente fácil
+enredarse con dependencias, liberías, /bugs/ de entorno,
+"refactorizar" código "viejo" sólo porque "te duelen los ojos verlo" o
+simplemente ponerse a codear algo porque te resulta mas entrenido o a
+resolver una función super genérica en lugar de resolver el problema
+puntual que tenés enfrente o ponerse a hacer un nuevo /kernel/.
+
+La gestión de un proyecto de /software/ requiere de registrar tareas y
+dialogar con el equipo de trabajo y decidir en qué momento conviene
+hacerlas, cuál es prioritaria? qué puede esperar, qué se podría
+delegar, qué se puede resolver "quick & dirty" o qué requiere parar
+todo y hacerlo en "código bonito"
+
+Sin dudas, es un ejercicio y de cada experiencia de la vida diaria se
+puede aprender y mejorar.
