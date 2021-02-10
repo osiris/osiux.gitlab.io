@@ -110,3 +110,7 @@ ahorrarle un poco de tiempo a quienes quieran instalar /Debian Buster/ en una
 
 - [[file:2021-01-26-disaster-recovery-plan-osiux.org][DIsaster REcovery PLan OSiux]]
 - [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][ansible luks format external usb disk]]
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/3abe6e9636187cd30633cd02d834b5fefb7a0c17][=2021-02-09 23:21=]] agrego Instalar /Debian Buster/ en una /ThinkPad T14 Gen 1/
