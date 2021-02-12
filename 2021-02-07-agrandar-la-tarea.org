@@ -187,7 +187,9 @@ puede aprender y mejorar.
 [fn:pomodoro]         https://web.archive.org/web/20121106231605/http://www.osiux.com/la-tecnica-pomodoro.txt
 [fn:GTD]              https://osiux.com/gtd-gething-this-done.html
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/17800e9823ab71fa0ca6599360ef5f5bdbe02006][=2021-02-11 22:16=]] reemplazo /links/ por /footnotes/ y resalto palabras referenciadas
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/832eb5876bf111ffe19ed892cb6ecff42891841c][=2021-02-07 20:14=]] corrijo /link/ a /reStructuredText/ texto re-estructurado
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5e2aad019ffd746b9ae82ac23ce66b43ff8c6674][=2021-02-07 19:23=]] agrego /agrandar la tarea/
