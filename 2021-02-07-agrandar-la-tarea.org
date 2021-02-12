@@ -50,20 +50,21 @@ final.
 
 Me puse a ver mi propio tutorial /=Capturar ideas en papel de
 Moleskine|HispterPDA|PockedMod y libreta artesanal=/ [fn:capturasideas]
-y al verlo, descubrí algunos /links/ rotos, errores de /indentación/
-[fn:indentacion] y sintaxis y bue, ya que estaba corregí el /post/ y
-como apuntaba a un repositorio =git= inexistente, verifiqué el correcto,
-cambié la /URL/ y me puse a revisar mis /scripts/ de generación de
-/libretA7/, terminé adaptándolos hasta que =shellcheck= [fn:shellcheck]
-no dió mas errores y luego ejecuté los /scripts/ para re-republicar los
-/PDFs/ de ejemplos como este de =vim-A7.pdf= [fn:vimA7].
+y al verlo, descubrí algunos /links/ rotos, errores de
+/indentación/ [fn:indentacion] y sintaxis y bue, ya que estaba corregí
+el /post/ y como apuntaba a un repositorio =git= inexistente, verifiqué
+el correcto, cambié la /URL/ y me puse a revisar mis /scripts/ de
+generación de /libretA7/, terminé adaptándolos hasta que
+=shellcheck= [fn:shellcheck] no dió mas errores y luego ejecuté los
+/scripts/ para re-republicar los /PDFs/ de ejemplos como este de
+=vim-A7.pdf= [fn:vimA7].
 
-Uno de los /links/ rotos era sobre /=reStructuredText=/
-[fn:restructuredtext] , archivo que ni siquiera tenía versionado,
-recurrí a /=WayBackMachine=/ [fn:WayBackMachine] y encontré un
-/=snapshot=/ [fn:snapshot] del 2013, luego de un /copy+paste/ lo
-convertí a =org-mode= y una de las referencias decía "estará siempre
-disponible en
+Uno de los /links/ rotos era sobre
+/=reStructuredText=/ [fn:restructuredtext], archivo que ni siquiera
+tenía versionado, recurrí a /=WayBackMachine=/ [fn:WayBackMachine] y
+encontré un /=snapshot=/ [fn:snapshot] del 2013, luego de un
+/copy+paste/ lo convertí a =org-mode= y una de las referencias decía
+"estará siempre disponible en
 http://pub.osiux.com/restructuredtext/reStructuredText.txt" y como no
 estaba, convertí de =.org= a =.rst= y re-publiqué para cumplir con lo de
 /"estará siempre disponible"/ :P
