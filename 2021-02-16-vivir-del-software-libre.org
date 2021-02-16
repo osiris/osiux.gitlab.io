@@ -212,3 +212,7 @@ puedo /*vivir del software libre*/, siendo parte de /gcoop/.
 [fn:cadesol]    https://cadesol.org.ar/
 [fn:facttic]    https://facttic.org/
 [fn:coopysl]    https://www.gcoop.coop/COOPySL.pdf
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/653e0db952bf717edddb76ce1c82da40496f05d3][=2021-02-16 15:33=]] agregar /Vivir del Software Libre/
