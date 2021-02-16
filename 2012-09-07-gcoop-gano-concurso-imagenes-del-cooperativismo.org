@@ -4,32 +4,38 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-09-07 22:19
+#+DATE:        2012-09-07 22:19
 
 [[file:img/gcoop-codigos-cooperativos.jpg]]
 
-En el marco del Concurso de Vídeos del
-[[http://www.cac2012.coop][Congreso Argentino de las Cooperativas (CAC)]
-realizamos el vídeo
-[[http://www.gcoop.coop/codigos-cooperativos][Códigos Cooperativos]]
-junto con la *Cooperativa La Olla*.
+En el marco del /Concurso de Videos/ del
+/=Congreso Argentino de las Cooperativas (CAC)=/ [fn:cac2012] realizamos
+el video /=Códigos Cooperativos=/ [fn:corto] junto con la **Cooperativa
+La Olla**.
 
 En el cierre del Congreso se realizó la entrega de Premios y fuimos
-premiados con el **Primer Premio de la Categoría Prefesional**.
+premiados con el **Primer Premio de la Categoría Profesional**.
 
-Agradecemos a la [[http://www.cooperar.coop][Confederación Argentina de
-Cooperativas (COOPERAR)]], a la [[http://www.fecootra.org.ar][Federación
-Argentina de Cooperativas de Trabajo (FECOOTRA)] por invitarnos a
-participar del Congreso y muy especialmente: A *Daniel Henriquez* y la
-*Cooperativa La Olla*, a [[https://twitter.com/malefico3d][malefico]]
-por los dibujos libres, a [[http://www.camanchaca.com.ar/][Camanchaca]]
-por la música original libre.
+Agradecemos a /=COOPERAR=/ [fn:cooperar]
+/=Confederación Argentina de Cooperativas=/ a /=FECOOTRA=/ [fn:fecootra]
+/=Federación Argentina de Cooperativas de Trabajo, por invitarnos a
+participar del Congreso y muy especialmente: A /*Daniel Henriquez*/ y la
+/*Cooperativa La Olla*/, a /*malefico*/ [fn:malefico] por los dibujos
+libres, a /*Camanchaca*/ [fn:camanchaca] por la música original libre.
 
-*Miralo, Bajalo, Disfrutalo*
+** /Miralo, Bajalo, Disfrutalo/
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT html
+
   <video controls="controls" width="640" height="360" src="http://archive.org/download/codigos-cooperativos-gcoop/gcoop-codigos-cooperativos-1280x720.ogv"></video>
-#+END_HTML
+
+#+END_EXPORT
 
 - [[http://archive.org/details/codigos-cooperativos-gcoop][Descargar Video]]
 
+[fn:cac2012]    http://www.cac2012.coop
+[fn:corto]      http://www.gcoop.coop/codigos-cooperativos
+[fn:cooperar]   http://www.cooperar.coop
+[fn:fecootra]   http://www.fecootra.org.ar
+[fn:malefico]   https://twitter.com/malefico3d
+[fn:camanchaca] http://www.camanchaca.com.ar
