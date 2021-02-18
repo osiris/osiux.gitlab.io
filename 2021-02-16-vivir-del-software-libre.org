@@ -46,17 +46,18 @@ Sin dudas, desde el comienzo nos especializamos en /CRM/ y al día de hoy
 contamos con "la implementación mas grande de /=SuiteCRM=/ [fn:suitecrm]
 en Latinoamérica" y fue todo un desafío desarrollar al principio con
 /=SugarCRM=/ para luego migrar a /=SuiteCRM=/ y esa historia esta muy
-bien resumida en el hilo de /twitter/ de /=José Massón=/ [fn:migragca].
+bien resumida en el hilo de /twitter/ de /=Jose Massón=/ [fn:migragca].
 
 ** gcoop crece y se muda...
 
-Luego de la primer sede en /Almagro/, nos mudamos al barrio de /Villa
-Crespo/ y empezamos a crecer, primero en la calle /Drago/, luego en
-/Julián Alvarez/ para luego ir a /La Pampa/ en /Villa Urquiza/, dicho de
-otra manera, pasamos de un monoambiente, a un dos ambientes, luego a un
-tres ambientes con terraza, después a una casona de 4 ambientes, mas dos
-ambientes extra, donde uno se convirtió en datacenter y otro en hacklab,
-para finalmente mudarnos a una oficina gigante de 2 pisos!
+Luego de la primera sede en /Almagro/ por la /Av. Corrientes/, nos
+mudamos al barrio de /Villa Crespo/ y empezamos a crecer, primero en la
+calle /Luis María Drago/, luego en /Juan Ramirez De Velasco/ y mas tarde
+en /Julián Alvarez/ para luego ir a /La Pampa/ en /Villa Urquiza/, dicho
+de otra manera, pasamos de un monoambiente, a un tres ambientes, luego a
+un tres ambientes con terraza, después a una casona de 4 ambientes, mas
+dos ambientes extra, donde uno se convirtió en datacenter y otro en
+hacklab, para finalmente mudarnos a una oficina gigante de 2 pisos!
 
 ** gestión para cooperativas
 
@@ -210,7 +211,7 @@ puedo /*vivir del software libre*/, siendo parte de /gcoop/.
 [fn:nube]       https://www.nube.coop/
 [fn:ess]        https://es.wikipedia.org/wiki/Economía_social_y_solidaria
 [fn:cadesol]    https://cadesol.org.ar/
-[fn:facttic]    https://facttic.org/
+[fn:facttic]    https://facttic.org.ar/
 [fn:coopysl]    https://www.gcoop.coop/COOPySL.pdf
 
 ** ChangeLog
