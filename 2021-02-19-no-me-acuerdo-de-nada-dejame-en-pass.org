@@ -230,3 +230,7 @@ Y luego editar el =crontab= para que se ejecute =git.sh= cad 5 minutos!
 [fn:gpg]            https://es.wikipedia.org/wiki/GNU_Privacy_Guard
 [fn:passphrase]     https://es.wikipedia.org/wiki/Frase_de_contraseña
 [fn:gen-passphrase] https://gitlab.com/osiux/pass-utils/-/raw/master/gen-passphrase
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/24e4c6d4094bf6d9ec5aee36728d5a62582667b0][=2021-02-19 05:14=]] agregar /no me acuerdo de nada... dejame en =pass=!/
