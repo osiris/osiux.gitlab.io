@@ -1,3 +1,13 @@
-[[file:index.org][index]] | [[file:osiux.org][OSiUX]] | [[file:blog.org][blog]] | [[file:docs.org][docs]] | [[file:charlas.org][charlas]] | [[file:links.org][links]]
+[[file:index.org][index]] |
+[[file:osiux.org][OSiUX]] |
+[[file:archive.org][archive]] |
+[[file:charlas.org][charlas]] |
+[[file:docs.org][=docs=]] |
+[[file:dot.org][=dot=]] |
+[[file:git.org][=git=]] |
+[[file:links.org][links]] |
+[[file:plt.org][=plt=]] |
+[[file:tty.org][=tty=]] |
+[[file:uml.org][=uml=]]
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="osiux.css" />
 #+OPTIONS: ::t *:t f:t num:nil |:t -:t H:3 toc:nil timestamp:nil tags:nil html-scripts:nil html-style:nil author:t creator:t email:nil emphasize:t

@@ -1,0 +1,74 @@
+#+TITLE:     OSiUX gnuplot
+#+AUTHOR:    Osiris Alejandro Gómez
+#+EMAIL:     osiux@osiux.com
+#+LANGUAGE:  es
+#+LINK_HOME: index.html
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+
+
+** lo bueno y lo malo de =gnuplot=
+
+La buena es que =gnuplot= [fn:gnuplot] es super rápido para generar todo
+tipo de gráficos de funciones, en 2d y 3d, desde la línea de comandos,
+la mala es que *NO tiene nada que ver con el* /=proyecto GNU=/ [fn:gnu]
+y *su licencia no es* /=GPL=/ [fn:gpl] =:(=
+
+La licencia es =gnuplot= license y permite redistribuir libremente sin
+modificaciones! =:|=
+
+** =gnuplot= /oneliners/
+
+En muchas oportunidades, necesito ver un gráfico de algo que esta
+sucediendo en tiempo real, para esto suelo recurrir a procesar algun log
+de sistema o de aplicación y mediante comandos de =gnuplot= en línea, es
+decir, sin generar un archivo =.plt=, rápidamente visualizar el =.png=.
+
+*** =plot12i=
+
+Supongamos que quisiera saber, qué días y cuántas veces utilicé el
+comando =ssh= en el 2019 ? Yo guardo un en un log diario de todos los
+comandos que uso, entonces solo tendría que buscar por =ssh=, quedarme
+con la fecha, ordenar el listado, obtener la cantidad de comandos por
+día y finalmente enviarle todos estos datos a mi alias =plot12i=, que se
+ocupará de graficar la 2da columna con =impulsos=
+
+#+BEGIN_SRC sh :exports code
+
+grep -hw ssh 2019*.log | awk '{print $1}' | sort | uniq -c  | awk '{print $2,$1}' | plot12i
+
+#+END_SRC
+
+[[file:img/plot12i-ssh-2019.png][file:tmb/plot12i-ssh-2019.png]]
+
+#+BEGIN_SRC sh :eports code
+
+alias plot12i="gnuplot -p -e \"load '~/bin/osiux.plt';set xdata time;set timefmt '%Y-%m-%d';set format x '%Y/%m';plot '-' u 1:2 w i ls 1 \" > /tmp/plt.png && pqiv -i /tmp/plt.png"
+
+#+END_SRC
+
+** galería de archivos =.plt=
+
+Desde mis comienzos en el mundo =GNU/Linux= adopté =gnuplot= porque me
+permite automatizar fácilmente la generación de gráficos, solo es
+necesario crear un archivo =.plt= con las definiciones y éste se ocupará
+de leer y procesar los datos de uno o mas archivos de datos =.dat= para
+obtener un bonito =.png=
+
+*** [[file:visualizando-org-mode-con-gnuplot.org][visualizando =org-mode= con =gnuplot=]]
+
+Si bien, hoy día ya no uso =org-mode= [fn:org-mode] para cronometrar
+tareas, y en su lugar utilizo =jrnl= [fn:jrnl], la generación del
+gráfico fue todo un desafío y es reutilizable, asi que tengo pendiente
+adaptarlo, mientras se puede aprender a realizar este tipo de gráficos.
+
+#+ATTR_HTML: width="640" height="480" alt="Tareas por día Año 2011"     
+[[file:visualizando-org-mode-con-gnuplot.org][file:tmb/org-task-by-day-2011.png]]
+
+... continuará ...
+
+[fn:gnuplot]  http://gnuplot.info/
+[fn:gnu]      https://es.wikipedia.org/wiki/Proyecto_GNU
+[fn:gpl]      https://es.wikipedia.org/wiki/Licencia_Pública_General_de_GNU
+[fn:jrnl]     https://2018-01-01-reemplazando-orgmode-por-txt-bash-jrnl.html
+[fn:org-mode] https://orgmode.org/

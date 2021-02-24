@@ -9,11 +9,13 @@
 
 ** =git-repos2org=
 
-En base a un archivo =.git-repos= se genera esta página con un listado
-de todos los repositorios de proyectos que mas activamente participo.
+En base a un archivo =.git-repos= se /=genera dinámicamente=/ [fn:git]
+*esta página* con un listado de todos los repositorios de proyectos que
+mas activamente participo.
 
-El /script/ es
-[[https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org][=git-repos2org=]]
-y es parte de mis utilidades =git= del repositorio
-[[https://gitlab.com/osiux/git-bash-utils/][=git-bash-utils=]]
+El /script/ es =git-repos2org= [fn:git-repos2org] y es parte de mis
+utilidades =git= del repositorio =git-bash-utils= [fn:git-bash-utils]
 
+[fn:git]            https://osiux.com/2021-02-05-git-repos2org.html
+[fn:git-repos2org]  https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org
+[fn:git-bash-utils] https://gitlab.com/osiux/git-bash-utils/

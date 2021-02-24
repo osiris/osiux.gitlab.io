@@ -5,6 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+DATE:        2014-03-14 08:41
 
 ** Introducción
 
@@ -44,7 +45,7 @@
 
 *** =dot= Gráficos direccionales
 
-    #+BEGIN_SRC dot :file graphviz-dot.png :cmdline -Kdot -Tpng :exports boths
+    #+BEGIN_SRC dot :exports code
       digraph dot
       {
         nodo1 -> nodo2;
@@ -57,13 +58,12 @@
       }
     #+END_SRC
 
-    #+RESULTS:
-    [[file:graphviz-dot.png]]
-
+    #+ATTR_HTML: :width 429 :height 251 :title gráficos direccionales
+    [[file:img/graphviz-dot.png]]
 
 *** =neato= Gráficos no-direccionales
 
-    #+BEGIN_SRC dot :file graphviz-neato.png :cmdline -Kneato -Tpng :exports boths
+    #+BEGIN_SRC dot :exports code
       graph neato
       {
         nodo1 -- nodo2;
@@ -76,12 +76,12 @@
       }
     #+END_SRC
 
-    #+RESULTS:
-    [[file:graphviz-neato.png]]
+    #+ATTR_HTML: :width 482 :height 308 :title gráficos no direccionales
+    [[file:img/graphviz-neato.png]]
 
 *** =twopi= Gráficos radiales
 
-    #+BEGIN_SRC dot :file graphviz-twopi.png :cmdline -Ktwopi -Tpng :exports boths
+    #+BEGIN_SRC dot :exports code
       graph twopi
       {
         nodo1 -- nodo2;
@@ -94,12 +94,12 @@
       }
     #+END_SRC
 
-    #+RESULTS:
-    [[file:graphviz-twopi.png]]
+    #+ATTR_HTML: :width 419 :height 423 :title gráficos radiales
+    [[file:img/graphviz-twopi.png]]
 
 *** =fdp= Gráficos no-direccionales
 
-    #+BEGIN_SRC dot :file graphviz-fdp.png :cmdline -Kfdp -Tpng :exports boths
+    #+BEGIN_SRC dot :exports code
       graph fdp
       {
         nodo1 -- nodo2;
@@ -112,12 +112,12 @@
       }
     #+END_SRC
 
-    #+RESULTS:
-    [[file:graphviz-fdp.png]]
+    #+ATTR_HTML: :width 429 :height 251 :title gráficos no direccionales
+    [[file:img/graphviz-fdp.png]]
 
 *** =circo= Gráficos circulares
 
-    #+BEGIN_SRC dot :file graphviz-circo.png :cmdline -Kcirco -Tpng :exports boths
+    #+BEGIN_SRC dot :exports code
       graph circo
       {
         nodo1 -- nodo2;
@@ -130,6 +130,5 @@
       }
     #+END_SRC
 
-    #+RESULTS:
-    [[file:graphviz-circo.png]]
-
+    #+ATTR_HTML: :width 858 :height 778 :title gráficos circulares
+    [[file:img/graphviz-circo.png]]

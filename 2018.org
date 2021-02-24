@@ -1,0 +1,17 @@
+#+TITLE:     ABSOLUTELLY NO WARRANTY 2018
+#+AUTHOR:    Osiris Alejandro Gómez
+#+EMAIL:     osiux@osiux.com
+#+LANGUAGE:  es
+#+LINK_HOME: index.html
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+
+
+**** [[file:2018-12-11-org-mode-is-back.org][=2018-12-11= Org-mode is back!]]
+**** [[file:2018-08-21-ejecutar-un-binarioexe-de-32bits-en-un-gnulinux-de-64bits-y-resolver-sus-dependencias.org][=2018-08-21= Ejecutar un =Binario.exe= de 32bits en un /GNU/Linux/ de 64bits y resolver sus dependencias]]
+**** [[file:2018-08-15-realizar-un-profile-en-vim-y-deshabilitar-foldexpr-markdown.org][=2018-08-15= Realizar un /profile/ en =vim= y deshabilitar =Foldexpr_markdown=]]
+**** [[file:2018-01-01-reemplazando-orgmode-por-txt-bash-jrnl.org][=2018-01-01= Reemplazando *Org-mode* por =txt-bash-jrnl=]]
+
+** [[file:archive.org][=ARCHIVE=]]
+
+#+INCLUDE: years.org

@@ -1,0 +1,31 @@
+#+TITLE:     OSiUX =graphviz=
+#+AUTHOR:    Osiris Alejandro Gómez
+#+EMAIL:     osiux@osiux.com
+#+LANGUAGE:  es
+#+LINK_HOME: index.html
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+
+
+** graficando grafos
+
+A =graphviz= [fn:graphviz] lo descubrí en el 2007 y se volvió
+indispensable, me la paso generando archivos =.dot=
+
+El lenguaje =dot= es muy, pero muy simple, hay varios motores =dot=,
+=neato=, =twopi=, =fdp= y =circo= que permiten generar grafos muy
+diferentes, algunos ejemplos básicos encontralos en
+/=visualizando grafos usando graphviz=/ [fn:grafos]
+
+** galería de archivos =.dot=
+
+... continuará ...
+
+** te puede gustar...
+
+   - [[file:imagenes-magicas-imagemagick.org][Imágenes Mágicas usando =imagemagick=]]
+   - [[file:visualizando-grafos-graphviz.org][Visualizando grafos mediante =graphviz=]]
+   - [[file:graficar-desde-consola.org][Graficar desde consola]]
+
+[fn:graphviz]  https://graphviz.org/
+[fn:grafos]    https://osiux.com/visualizando-grafos-graphviz.html

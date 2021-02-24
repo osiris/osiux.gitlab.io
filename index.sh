@@ -30,22 +30,22 @@ BLOG_HEAD=$(cat << EOF
 EOF
 )
 
-printf "%s\n\n" "$BLOG_HEAD" > "$IDX"
+printf "%s\\n\\n" "$BLOG_HEAD" > "$IDX"
 
 PREVIOUS_DATE='1970-01-01'
 
 EXCLUDE="$DIR/.exclude"
 
-find -type f -name '*.org' \
-  | cut -c 3-              \
-  | egrep -v -f "$EXCLUDE" \
-  | sort -nr               \
-  | head -20               \
+find . -type f -name '*.org' \
+  | cut -c 3-                \
+  | grep -Evf "$EXCLUDE"     \
+  | sort -nr                 \
+  | head -30                 \
   | while read -r ORG
 do
   HEAD=$(head -9 "$ORG")
-  DATE=$(echo "$HEAD" | grep DATE: | egrep -o "[0-9]{4}\-[0-9]{2}\-[0-9]{2}")
-  TIME=$(echo "$HEAD" | grep DATE: | egrep -o "[0-9]{2}:[0-9]{2}")
+  DATE=$(echo "$HEAD" | grep DATE: | grep -Eo "[0-9]{4}\\-[0-9]{2}\\-[0-9]{2}")
+  TIME=$(echo "$HEAD" | grep DATE: | grep -Eo "[0-9]{2}:[0-9]{2}")
   TITLE=$(echo "$HEAD" | grep TITLE: | head -1 | cut -d: -f2- | sed 's/^\ \+//g')
 
   if [[ -z "$TITLE" ]]
@@ -62,24 +62,33 @@ do
 
   [[ -z "$DATE" ]] && continue
 
-  if [[ "$PREVIOUS_DATE" != "$DATE" ]]
+  if [[ "$GROUP_BY_DATE" -eq 1 ]]
   then
-    printf "** =%s=\n\n" "$DATE" >> "$IDX"
+    if [[ "$PREVIOUS_DATE" != "$DATE" ]]
+    then
+      printf "** =%s=\\n\\n" "$DATE" >> "$IDX"
+    fi
   fi
 
-  printf "*** =%s= [[file:%s][%s]]\n\n" "$TIME" "$ORG" "$TITLE" >> "$IDX"
+  if [[ "$SHOW_TIMESTAMP" ]]
+  then
+    printf "*** =%s= [[file:%s][%s]]\\n\\n" \
+           "$TIME" "$ORG" "$TITLE"        >> "$IDX"
+  else
+    printf "*** [[file:%s][%s]]\\n\\n" "$ORG" "$TITLE" >> "$IDX"
+  fi
 
   PREVIOUS_DATE="$DATE"
 done
 
-ARCHIVE=$(cat << EOF
+BLOG=$(cat << EOF
 
-** [[file:archive.org][=ARCHIVE=]]
+** [[file:blog.org][=blog=]]
 
 #+INCLUDE: "years.org"
 
 EOF
 )
 
-echo "$ARCHIVE" >> "$IDX"
+echo "$BLOG" >> "$IDX"
 

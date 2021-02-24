@@ -57,4 +57,4 @@
 ** =var=
    - [[file:olimpiadas-informaticas-en-monte-caseros.org][Olimpíadas Informáticas en Monte Caseros]]
 
-** [[file:index.org][<- index]] | [[file:blog.org][blog ->]]
+** [[file:index.org][<- index]]

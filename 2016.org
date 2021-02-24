@@ -1,0 +1,17 @@
+#+TITLE:     ABSOLUTELLY NO WARRANTY 2016
+#+AUTHOR:    Osiris Alejandro Gómez
+#+EMAIL:     osiux@osiux.com
+#+LANGUAGE:  es
+#+LINK_HOME: index.html
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+
+
+**** [[file:2016-02-03-monitoreo-en-status-bar-de-tmux.org][=2016-02-03= monitoreo en status bar de =tmux=]]
+
+   [[file:2016-02-03-monitoreo-en-status-bar-de-tmux.org][file:tmb/qmhandle-status-bar-tmux.png]]
+
+
+** [[file:archive.org][=ARCHIVE=]]
+
+#+INCLUDE: years.org

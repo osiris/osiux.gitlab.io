@@ -34,7 +34,8 @@ get_title()
 get_image()
 {
   grep -Eo 'file:(tmb|img)/.*\.(png|jpg|gif)' "$FILE" \
-    | sed 's/\]\[/\n/g' \
+    | sed 's/\]\[/\n/g'     \
+    | sed 's/img\//tmb\//g' \
     | head -1 2>/dev/null
 }
 
@@ -59,12 +60,18 @@ footer()
   printf "\\n#+INCLUDE: years.org\\n" >> "$1"
 }
 
-header '' >"$ORG"
+header 'blog' >"$ORG"
 
-R='.*/[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}-.*\.org$'
-find . -type f -regex "$R" | cut -c 3- | sort -nr >"$TMP0"
+printf "\\n#+INCLUDE: stats-posts.org\\n" >> "$ORG"
 
-cut -c -4 "$TMP0" | sort -unr >"$TMP1"
+REGEX='^[0-9]{4}-[0-9]{2}-[0-9]{2}.*\.org$'
+
+find . -type f -iname '2*.org' \
+  | cut -d/ -f2                \
+  | grep -E "$REGEX"           \
+  | sort -nr                   > "$TMP0"
+
+cut -c -4 "$TMP0" | sort -unr  > "$TMP1"
 
 while read -r Y
 do
@@ -72,22 +79,23 @@ do
   grep "^$Y" "$TMP0" >"$TMP2"
 
   YEAR="${Y}.org"
-  printf "** [[file:%s][%s]]\\n" "$YEAR" "$Y" >> "$ORG"
   header "$Y" > "$YEAR"
 
   while read -r FILE
   do
+
     DATE="$(echo "$FILE" | cut -c -10)"
     TITLE="$(get_title "$FILE")"
 
-    printf "*** [[file:%s][=%s= %s]]\\n" "$FILE" "$DATE" "$TITLE">>"$ORG"
-    printf "** [[file:%s][=%s= %s]]\\n" "$FILE" "$DATE" "$TITLE">>"$YEAR"
+    printf "**** [[file:%s][=%s= %s]]\\n" \
+           "$FILE" "$DATE" "$TITLE"       >> "$YEAR"
 
     IMAGE="$(get_image "$FILE")"
     if [[ ! -z "$IMAGE" ]]
     then
       printf "\\n   [[file:%s][%s]]\\n\\n" "$FILE" "$IMAGE" >> "$YEAR"
     fi
+
   done < "$TMP2"
 
   footer "$YEAR"

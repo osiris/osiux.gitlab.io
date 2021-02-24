@@ -1,38 +1,54 @@
-#+TITLE:     ABSOLUTELLY NO WARRANTY blog 2014
+#+TITLE:     ABSOLUTELLY NO WARRANTY 2014
 #+AUTHOR:    Osiris Alejandro Gómez
 #+EMAIL:     osiux@osiux.com
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
-#+INCLUDE:     header.org
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
 
 
+**** [[file:2014-11-14-un-tupper-para-almacenar-backups.org][=2014-11-14= Un tupper para almacenar backups]]
+**** [[file:2014-10-08-tension-en-la-red.org][=2014-10-08= Tensión en la red - Libertad y control en la era digital]]
 
-** =2014=
-*** =08/OCT=
-**** [[file:2014-10-08-tension-en-la-red.org][Tensión en la red]]
-*** =12/AGO=
-**** [[file:2014-08-12-clonar-pendrives.org][Clonar 24 pendrives al mismo tiempo!]]
-*** =28/ABR=
-**** [[file:2014-04-28-semana-negra.org][Semana Negra - Sobrevivir en la shell]]
-*** =26/ABR=
-**** [[file:2014-04-26-flisol-avellaneda-undav.org][FLISoL Avellaneda en la UNDAv]]
-*** =25/ABR=
-**** [[file:2014-04-25-huayra-2.0.org][Salió Huayra 2.0]]
-*** =23/ABR=
-**** [[file:multiboot-grub2-isoboot.org][Muchas Distros en un pendrive = Multiboot Grub2 ISOBoot]]
-*** =22/ABR=
-**** [[file:2014-04-22-flisol-2014.org][Se viene el FLISoL 2014]]
-*** =22/MAR=
-**** [[file:2014-03-22-facttic-mit-libre-planet.org][FACTTIC cuenta su experiencia en el MIT]]
-*** =20/MAR=
-**** [[file:2014-03-14-saso-conf-curuzu-cuatia.org][SASOConf en Curuzú Cuatiá]]
-*** =12/MAR=
-**** [[file:2014-03-12-hardware-freedom-day-2014.org][Hardware Freedom Day 2014]]
-*** =11/MAR=
-**** [[file:2014-03-11-se-viene-la-sasoconf.org][Se viene a la SASOConf]]
-*** =15/ENE=
-**** [[file:todo-txt-rst+org-mode.org][TODO TXT rst + org-mode]]
-**** [[file:tengo-el-titulo-de-la-charla-y-ahora-como-hago-los-slides.org][tengo el título de la charla y ahora cómo hago los slides?]]
+   [[file:2014-10-08-tension-en-la-red.org][file:tmb/tension-en-la-red.jpg]]
+
+**** [[file:2014-08-12-clonar-pendrives.org][=2014-08-12= Clonar 24 pendrives al mismo tiempo]]
+
+   [[file:2014-08-12-clonar-pendrives.org][file:tmb/clonar-pendrives/letras-viajeras-routers.jpg]]
+
+**** [[file:2014-04-28-semana-negra.org][=2014-04-28= Semana Negra - Sobrevivir en la shell]]
+
+   [[file:2014-04-28-semana-negra.org][file:tmb/semana-negra/tmux.png]]
+
+**** [[file:2014-04-26-flisol-avellaneda-undav.org][=2014-04-26= FLISoL Avellaneda en la Universidad Nacional de Avellaneda]]
+
+   [[file:2014-04-26-flisol-avellaneda-undav.org][file:tmb/flisol-2014-undav/2014-04-26-1411-e167fe.jpg]]
+
+**** [[file:2014-04-25-huayra-2.0.org][=2014-04-25= Disponible Huayra 2.0]]
+
+   [[file:2014-04-25-huayra-2.0.org][file:tmb/huayra-2.0.png]]
+
+**** [[file:2014-04-22-flisol-2014.org][=2014-04-22= Festival Latinoamericano de Instalación de Software Libre]]
+
+   [[file:2014-04-22-flisol-2014.org][file:tmb/flisol-2014-banner.png]]
+
+**** [[file:2014-03-22-facttic-mit-libre-planet.org][=2014-03-22= Las Cooperativas de tecnología argentinas contaron su experiencia de trabajo en el MIT]]
+
+   [[file:2014-03-22-facttic-mit-libre-planet.org][file:tmb/facttic-mit-libre-planet.jpg]]
+
+**** [[file:2014-03-14-saso-conf-curuzu-cuatia.org][=2014-03-14= SASOConf en Curuzú Cuatiá]]
+
+   [[file:2014-03-14-saso-conf-curuzu-cuatia.org][file:tmb/sasoconf/SASOConf-2014-03-14-1143-d2c88a.jpg]]
+
+**** [[file:2014-03-12-hardware-freedom-day-2014.org][=2014-03-12= Hardware Freedom Day 2014]]
+
+   [[file:2014-03-12-hardware-freedom-day-2014.org][file:tmb/Hardware-Freedom-Day-2014.png]]
+
+**** [[file:2014-03-11-se-viene-la-sasoconf.org][=2014-03-11= Se viene la SASOConf]]
+
+   [[file:2014-03-11-se-viene-la-sasoconf.org][file:tmb/SASOConf.png]]
+
+
 ** [[file:archive.org][=ARCHIVE=]]
 
-   #+INCLUDE: "years.org"
+#+INCLUDE: years.org

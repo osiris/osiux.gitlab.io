@@ -9,46 +9,51 @@
 
 ** =git-repos2org=
 
-En base a un archivo =.git-repos= se genera esta página con un listado
-de todos los repositorios de proyectos que mas activamente participo.
+En base a un archivo =.git-repos= se /=genera dinámicamente=/ [fn:git]
+*esta página* con un listado de todos los repositorios de proyectos que
+mas activamente participo.
 
-El /script/ es
-[[https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org][=git-repos2org=]]
-y es parte de mis utilidades =git= del repositorio
-[[https://gitlab.com/osiux/git-bash-utils/][=git-bash-utils=]]
+El /script/ es =git-repos2org= [fn:git-repos2org] y es parte de mis
+utilidades =git= del repositorio =git-bash-utils= [fn:git-bash-utils]
 
+[fn:git]            http://localhost/2021-02-05-git-repos2org.html
+[fn:git-repos2org]  https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org
+[fn:git-bash-utils] https://gitlab.com/osiux/git-bash-utils/
 ** git repositories
 
 | repo                                                                          |        tag | activity                                 |
 |-------------------------------------------------------------------------------|------------|------------------------------------------|
-| [[#ansible_role_apt_pin][=ansible_role_apt_pin=]]                             |     v0.1.1 | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#ansible-role-ispconfig-base][=ansible-role-ispconfig-base=]]               |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#ansible-role-ispconfig-mail][=ansible-role-ispconfig-mail=]]               |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#ansible-role-ispconfig-multiserver][=ansible-role-ispconfig-multiserver=]] |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#ansible-role-ispconfig-web][=ansible-role-ispconfig-web=]]                 |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#aps2dot][=aps2dot=]]                                                       |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#backup-profile][=backup-profile=]]                                         |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#charlas][=charlas=]]                                                       |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#direplos][=direplos=]]                                                     |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#git-bash-utils][=git-bash-utils=]]                                         |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ ▣□□▣□= |
-| [[#libretA7][=libretA7=]]                                                     |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#links-bash-utils][=links-bash-utils=]]                                     |     v0.1.1 | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#log-bash-utils][=log-bash-utils=]]                                         |     v0.1.0 | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#mails2dot][=mails2dot=]]                                                   |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#media-bash-utils][=media-bash-utils=]]                                     |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#minimal-bash-prompt][=minimal-bash-prompt=]]                               |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#multiboot][=multiboot=]]                                                   |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#mysqldump][=mysqldump=]]                                                   |       v0.7 | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#org-bash-utils][=org-bash-utils=]]                                         |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#org-mode-doc-es][=org-mode-doc-es=]]                                       |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#osiux.gitlab.io][=osiux.gitlab.io=]]                                       |            | =□□ □□ □□□□□ □□ ▣□□□□ □□ ▣▣□▣□ ▣▣ ▣▣▣▣□= |
-| [[#pass-utils][=pass-utils=]]                                                 |     v0.0.5 | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#pcap2dot][=pcap2dot=]]                                                     |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#pcap2uml][=pcap2uml=]]                                                     |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#plan-b][=plan-b=]]                                                         |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#sugar-graphviz][=sugar-graphviz=]]                                         |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#traducciones][=traducciones=]]                                             |            | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
-| [[#txt-bash-jrnl][=txt-bash-jrnl=]]                                           |     v0.1.0 | =□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□= |
+| [[file:git.org::#ansible_role_apt_pin][=ansible_role_apt_pin=]]               |     v0.1.1 | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#ansible-role-backup-profile][=ansible-role-backup-profile=]] |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#ansible-role-ispconfig-base][=ansible-role-ispconfig-base=]] |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#ansible-role-ispconfig-mail][=ansible-role-ispconfig-mail=]] |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#ansible-role-ispconfig-multiserver][=ansible-role-ispconfig-multiserver=]] |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#ansible-role-ispconfig-web][=ansible-role-ispconfig-web=]]   |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#ansible-role-mysqldump][=ansible-role-mysqldump=]]           |       v0.7 | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#aps2dot][=aps2dot=]]                                         |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#charlas][=charlas=]]                                         |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#direplos][=direplos=]]                                       |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#git-bash-utils][=git-bash-utils=]]                           |            | =□□ □□□□□ □□ ▣□□▣□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#isp-utils][=isp-utils=]]                                     |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#libretA7][=libretA7=]]                                       |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#links-bash-utils][=links-bash-utils=]]                       |     v0.1.1 | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#log-bash-utils][=log-bash-utils=]]                           |     v0.1.0 | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#mails2dot][=mails2dot=]]                                     |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#media-bash-utils][=media-bash-utils=]]                       |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#minimal-bash-prompt][=minimal-bash-prompt=]]                 |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#multiboot][=multiboot=]]                                     |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#multi-ssh-config][=multi-ssh-config=]]                       |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#org-bash-utils][=org-bash-utils=]]                           |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#org-mode-doc-es][=org-mode-doc-es=]]                         |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#osiux.gitlab.io][=osiux.gitlab.io=]]                         |            | =□□ ▣▣□▣□ ▣▣ ▣▣▣▣▣ ▣▣ □▣□▣□ □▣ □▣□▣▣ □□= |
+| [[file:git.org::#pass-utils][=pass-utils=]]                                   |     v0.0.5 | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#pcap2dot][=pcap2dot=]]                                       |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#pcap2uml][=pcap2uml=]]                                       |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#plan-b][=plan-b=]]                                           |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#redmine-bash-utils][=redmine-bash-utils=]]                   |     v0.1.0 | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#sugar-graphviz][=sugar-graphviz=]]                           |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#traducciones][=traducciones=]]                               |            | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
+| [[file:git.org::#txt-bash-jrnl][=txt-bash-jrnl=]]                             |     v0.1.0 | =□□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□= |
 
 
 
@@ -57,257 +62,270 @@ y es parte de mis utilidades =git= del repositorio
    :CUSTOM_ID: ansible_role_apt_pin
    :END:
 
-Ansible role to pinning apt packages.
+   /Ansible/ role to pinning =apt= packages.
 
-   - remotes: [[https://gitlab.com/osiux/ansible_role_apt_pin][gitlab]]
+   - [[https://gitlab.com/gcoop-libre/ansible_role_apt_pin][gitlab]]
+
+** =ansible-role-backup-profile=
+   :PROPERTIES:
+   :CUSTOM_ID: ansible-role-backup-profile
+   :END:
+
+   ansible role to SQL Backup using stous.backup
+
+   - [[https://github.com/gcoop-libre/ansible-role-backup-profile][github]]
 
 ** =ansible-role-ispconfig-base=
    :PROPERTIES:
    :CUSTOM_ID: ansible-role-ispconfig-base
    :END:
 
-Ansible base role to install and configure a ISPConfig Multiserver
+   
 
-   - remotes: [[https://github.com/gcoop-libre/ansible-role-ispconfig-base][github]]
+   - [[https://github.com/gcoop-libre/ansible-role-ispconfig-base.git][github]]
 
 ** =ansible-role-ispconfig-mail=
    :PROPERTIES:
    :CUSTOM_ID: ansible-role-ispconfig-mail
    :END:
 
-Ansible mail role to install and configure a ISPConfig Multiserver
+   /Ansible/ mail role to install and configure a /ISPConfig Multiserver/.
 
-   - remotes: [[https://github.com/gcoop-libre/ansible-role-ispconfig-mail][github]]
+   - [[https://github.com/gcoop-libre/ansible-role-ispconfig-mail][github]]
 
 ** =ansible-role-ispconfig-multiserver=
    :PROPERTIES:
    :CUSTOM_ID: ansible-role-ispconfig-multiserver
    :END:
 
+   /Ansible/ role to install and configure a /ISPConfig Multiserver/.
 
-
-   - remotes: [[https://github.com/gcoop-libre/ansible-role-ispconfig-multiserver][github]]
+   - [[https://github.com/gcoop-libre/ansible-role-ispconfig-multiserver][github]]
 
 ** =ansible-role-ispconfig-web=
    :PROPERTIES:
    :CUSTOM_ID: ansible-role-ispconfig-web
    :END:
 
+   /Ansible/ web role to install and configure a /ISPConfig Multiserver/
 
+   - [[https://github.com/gcoop-libre/ansible-role-ispconfig-web][github]]
 
-   - remotes: [[https://github.com/gcoop-libre/ansible-role-ispconfig-web][github]]
+** =ansible-role-mysqldump=
+   :PROPERTIES:
+   :CUSTOM_ID: ansible-role-mysqldump
+   :END:
+
+   This role, configure access to /MySQL, MariaDB, Percona/ in /localhost/ and /cronfile/ for backup using =mysqldump= command.
+
+   - [[https://github.com/gcoop-libre/ansible-role-mysqldump][github]]
 
 ** =aps2dot=
    :PROPERTIES:
    :CUSTOM_ID: aps2dot
    :END:
 
-Draw access points graph according signal level and encription type.
+   
 
-   - remotes: [[https://gitlab.com/osiux/aps2dot][gitlab]]
-
-** =backup-profile=
-   :PROPERTIES:
-   :CUSTOM_ID: backup-profile
-   :END:
-
-
-
-   - remotes: [[https://github.com/gcoop-libre/ansible-role-backup-profile][github]]
+   - [[https://gitlab.com/osiux/aps2dot][gitlab]]
 
 ** =charlas=
    :PROPERTIES:
    :CUSTOM_ID: charlas
    :END:
 
+   
 
-
-   - remotes: [[https://gitlab.com/osiux/charlas][gitlab]]
+   - [[https://gitlab.com/osiux/charlas][gitlab]]
 
 ** =direplos=
    :PROPERTIES:
    :CUSTOM_ID: direplos
    :END:
 
-DIsaster REcovery PLan OSiUX
+   
 
-   - remotes: [[https://gitlab.com/osiux/direplos][gitlab]]
+   - [[https://gitlab.com/osiux/direplos][gitlab]]
 
 ** =git-bash-utils=
    :PROPERTIES:
    :CUSTOM_ID: git-bash-utils
    :END:
 
+   Useful bash scripts for various git utils.
 
-
-   - remotes: [[https://gitlab.com/osiux/git-bash-utils][gitlab]]
+   - [[https://gitlab.com/osiux/git-bash-utils][gitlab]]
 
 ** =libretA7=
    :PROPERTIES:
    :CUSTOM_ID: libretA7
    :END:
 
+   /Bash scripts/ to create a /Booklet/, /PocketMod/, /HipsterPDA/ in paper size /ISO A7/ using =rst2pdf= and other tools like =pdfjam=
 
-
-   - remotes: [[https://gitlab.com/osiux/libretA7][gitlab]]
+   - [[https://gitlab.com/osiux/libretA7][gitlab]]
 
 ** =links-bash-utils=
    :PROPERTIES:
    :CUSTOM_ID: links-bash-utils
    :END:
 
-A simple command line scripts to mantain bookmarks in plain text.
+   
 
-   - remotes: [[https://gitlab.com/osiux/links-bash-utils][gitlab]]
+   - [[https://gitlab.com/osiux/links-bash-utils.git][gitlab]]
 
 ** =log-bash-utils=
    :PROPERTIES:
    :CUSTOM_ID: log-bash-utils
    :END:
 
-A collection of useful scripts to view common logs files.
+   
 
-   - remotes: [[https://gitlab.com/osiux/log-bash-utils][gitlab]]
+   - [[https://github.com/osiris/log-bash-utils.git][github]]
+- [[https://gitlab.com/osiux/log-bash-utils.git][gitlab]]
 
 ** =mails2dot=
    :PROPERTIES:
    :CUSTOM_ID: mails2dot
    :END:
 
+   
 
-
-   - remotes: [[https://gitlab.com/osiux/mails2dot][gitlab]]
+   - [[https://gitlab.com/osiux/mails2dot][gitlab]]
 
 ** =media-bash-utils=
    :PROPERTIES:
    :CUSTOM_ID: media-bash-utils
    :END:
 
+   
 
-
-   - remotes: [[https://gitlab.com/osiux/media-bash-utils][gitlab]]
+   - [[https://gitlab.com/osiux/media-bash-utils][gitlab]]
 
 ** =minimal-bash-prompt=
    :PROPERTIES:
    :CUSTOM_ID: minimal-bash-prompt
    :END:
 
+   
 
-
-   - remotes: [[https://gitlab.com/osiux/minimal-bash-prompt][gitlab]]
+   - [[https://gitlab.com/osiux/minimal-bash-prompt][gitlab]]
 
 ** =multiboot=
    :PROPERTIES:
    :CUSTOM_ID: multiboot
    :END:
 
+   
 
+   - [[https://gitlab.com/osiux/multiboot][gitlab]]
 
-   - remotes: [[https://gitlab.com/osiux/multiboot][gitlab]]
-
-** =mysqldump=
+** =multi-ssh-config=
    :PROPERTIES:
-   :CUSTOM_ID: mysqldump
+   :CUSTOM_ID: multi-ssh-config
    :END:
 
+   
 
-
-   - remotes: [[https://github.com/gcoop-libre/ansible-role-mysqldump][github]]
+   - [[https://gitlab.com/osiux/multi-ssh-config][gitlab]]
 
 ** =org-bash-utils=
    :PROPERTIES:
    :CUSTOM_ID: org-bash-utils
    :END:
 
+   
 
-
-   - remotes: [[https://gitlab.com/osiux/org-bash-utils][gitlab]]
+   - [[https://gitlab.com/osiux/org-bash-utils][gitlab]]
 
 ** =org-mode-doc-es=
    :PROPERTIES:
    :CUSTOM_ID: org-mode-doc-es
    :END:
 
+   
 
-
-   - remotes: [[https://gitlab.com/osiux/org-mode-doc-es][gitlab]]
+   - [[https://gitlab.com/osiux/org-mode-doc-es][gitlab]]
 
 ** =osiux.gitlab.io=
    :PROPERTIES:
    :CUSTOM_ID: osiux.gitlab.io
    :END:
 
+   ABSOLUTELLY NO WARRANTY static blog site org2html
 
-
-   - remotes: [[https://gitlab.com/osiux/osiux.gitlab.io][gitlab]]
+   - [[https://gitlab.com/osiux/osiux.gitlab.io][gitlab]]
 
 ** =pass-utils=
    :PROPERTIES:
    :CUSTOM_ID: pass-utils
    :END:
 
+   
 
-
-   - remotes: [[https://gitlab.com/osiux/pass-utils][gitlab]]
+   - [[https://github.com/gcoop-libre/pass-utils][github]]
+- [[https://gitlab.com/osiux/pass-utils][gitlab]]
 
 ** =pcap2dot=
    :PROPERTIES:
    :CUSTOM_ID: pcap2dot
    :END:
 
-Read a .pcap file and generate a .dot file with tcp traffic.
+   
 
-   - remotes: [[https://gitlab.com/osiux/pcap2dot][gitlab]]
+   - [[https://gitlab.com/osiux/pcap2dot][gitlab]]
 
 ** =pcap2uml=
    :PROPERTIES:
    :CUSTOM_ID: pcap2uml
    :END:
 
+   
 
-
-   - remotes: [[https://gitlab.com/osiux/pcap2uml][gitlab]]
+   - [[https://github.com/osiris/pcap2uml.git][github]]
+- [[https://gitlab.com/osiux/pcap2uml.git][gitlab]]
 
 ** =plan-b=
    :PROPERTIES:
    :CUSTOM_ID: plan-b
    :END:
 
+   
 
+   - [[https://github.com/gcoop-libre/plan-b][github]]
 
-   - remotes: [[https://github.com/gcoop-libre/plan-b][github]]
+** =redmine-bash-utils=
+   :PROPERTIES:
+   :CUSTOM_ID: redmine-bash-utils
+   :END:
+
+   /Bash scripts/ to using /Redmine/ from =tty=.
+
+   - [[https://gitlab.com/osiux/redmine-bash-utils][gitlab]]
 
 ** =sugar-graphviz=
    :PROPERTIES:
    :CUSTOM_ID: sugar-graphviz
    :END:
 
+   Draw entity diagram relationships of SugarCRM/SuiteCRM modules including custom tables.
 
-
-   - remotes: [[https://gitlab.com/osiux/sugar-graphviz][gitlab]]
+   - [[https://gitlab.com/osiux/sugar-graphviz][gitlab]]
 
 ** =traducciones=
    :PROPERTIES:
    :CUSTOM_ID: traducciones
    :END:
 
+   
 
-
-   - remotes: [[https://gitlab.com/osiux/traducciones][gitlab]]
+   - [[https://gitlab.com/osiux/traducciones][gitlab]]
 
 ** =txt-bash-jrnl=
    :PROPERTIES:
    :CUSTOM_ID: txt-bash-jrnl
    :END:
 
-A simple command line journal application that stores your journal
-in a plain text file, developed in *bash* and inspired in *jrnl.sh*
-https://jrnl.sh/
+   A simple command line journal application that stores your journal in a plain texts files, developed in /Bash/ and inspired in =jrnl.sh= https://jrnl.sh/
 
-   - remotes: [[https://github.com/osiris/txt-bash-jrnl][github]] [[https://gitlab.com/osiux/txt-bash-jrnl][gitlab]]
-
-** ChangeLog
-
-  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/8b0a49f2e96339b46b1ce1ccdfbd4f46350fc44b][=2021-02-05 02:47=]] elimino encabezado columna =remote= y quito formato código
-  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/725ee3cfec18ba5233beb81381d7eb1705bd949b][=2021-02-05 01:28=]] muevo =remotes= y agrego contenido de archivo =description=
-  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/897028477ba87f9020e55b9c5a13b50567c3360c][=2021-02-04 21:08=]] agrego git.org y git-head.org
+   - [[https://gitlab.com/osiux/txt-bash-jrnl][gitlab]]

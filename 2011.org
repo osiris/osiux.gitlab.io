@@ -1,47 +1,33 @@
-#+TITLE:     ABSOLUTELLY NO WARRANTY blog 2011
+#+TITLE:     ABSOLUTELLY NO WARRANTY 2011
 #+AUTHOR:    Osiris Alejandro Gómez
 #+EMAIL:     osiux@osiux.com
 #+LANGUAGE:  es
 #+LINK_HOME: index.html
-#+INCLUDE:     header.org
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
 
 
+**** [[file:2011-12-29-orgmode-y-gnuplot.org][=2011-12-29= orgmode y gnuplot una buena combinación]]
 
-** =2011=
-*** =29/DIC=
-**** [[file:2011-12-29-orgmode-y-gnuplot.org][org-mode y gnuplot]]
+   [[file:2011-12-29-orgmode-y-gnuplot.org][file:tmb/org-task-by-day-2011-12.png]]
 
-     [[file:2011-12-29-orgmode-y-gnuplot.org][file:img/org-task-by-day-2011-12.png]]
+**** [[file:2011-11-25-fabrica-de-fallas-4to-festival-cultura-libre-copyleft.org][=2011-11-25= Fábrica de Fallas. 4to Festival de Cultura libre y Copyleft]]
+**** [[file:2011-11-10-curso-software-libre-y-programacion-conectar-igualdad.org][=2011-11-10= Curso básico para alumnos sobre software libre y programación]]
+**** [[file:2011-11-05_bsdday-argentina-2011.org][=2011-11-05= BSDday Argentina 2011]]
+**** [[file:2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.org][=2011-10-24= Software Libre y Conectar Igualdad]]
 
-*** =25/NOV=
-   - [[file:2011-11-25-fabrica-de-fallas-4to-festival-cultura-libre-copyleft.org][fábrica de fallas 4to festival cultura libre y copyleft]]
-*** =10/NOV=
-   - [[file:2011-11-10-curso-software-libre-y-programacion-conectar-igualdad.org][curso software libre y programación Conectar Igualdad]]
-*** =05/NOV=
-   - [[file:2011-11-05_bsdday-argentina-2011.org][11/05 BSDday Argentina 2011]]
-*** =24/OCT=
-   - [[file:2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.org][software libre en monte caseros y ubuntu 11.10 en conectar igualdad]]
-*** =30/AGO=
-   - [[file:2011-09-30-ejecutar-shell-dentro-de-vim.org][Ejecutar shell dentro de Vim]]
-*** =16/JUL=
-**** [[file:2011-07-16-awesome-es-increible.org][Awesome es increíble]]
+   [[file:2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.org][file:tmb/conectar-igualdad/2011-10-22_ubuntu-conectar-igualdad_10.jpg]]
 
-     [[file:2011-07-16-awesome-es-increible.org][file:img/awesome/awesome-flotante.png]]
+**** [[file:2011-09-30-ejecutar-shell-dentro-de-vim.org][=2011-09-30= Ejecutar un Shell dentro de Vim]]
+**** [[file:2011-07-16-awesome-es-increible.org][=2011-07-16= redactando Awesome es Increíble]]
+**** [[file:2011-07-03-jrrl3-fisl12.org][=2011-07-03= Resumen de JRRL3 en FISL12]]
+**** [[file:2011-05-23-pomodoro-notify-send-minutos-osd.org][=2011-05-23= Pomodoro notify-send y Minutos OSD]]
 
-*** =03/JUL=
-**** [[file:2011-07-03-jrrl3-fisl12.org][JRRL3 en FISL12]]
+   [[file:2011-05-23-pomodoro-notify-send-minutos-osd.org][file:tmb/pomodoro/pomodoro-notify-send-5.png]]
 
-     [[file:2011-07-03-jrrl3-fisl12.org][file:img/fisl12/jrrl3-apertura.jpg]]
+**** [[file:2011-03-15-dibujando-con-numeros-desde-la-consola.org][=2011-03-15= Dibujando con números desde la consola]]
+**** [[file:2011-02-03.org][=2011-02-03= Blog de prueba]]
 
-*** =23/MAY=
-**** [[file:2011-05-23-pomodoro-notify-send-minutos-osd.org][pomodoro notify send minutos osd]]
-
-     [[file:2011-05-23-pomodoro-notify-send-minutos-osd.org][file:img/pomodoro/pomodoro-notify-send-5.png]]
-
-*** =15/MAR=
-   - [[file:2011-03-15-dibujando-con-numeros-desde-la-consola.org][dibujando con números desde la consola]]
-*** =03/FEB=
-   - [[file:2011-02-03.org][Blog de prueba]]
 ** [[file:archive.org][=ARCHIVE=]]
 
-   #+INCLUDE: "years.org"
+#+INCLUDE: years.org
