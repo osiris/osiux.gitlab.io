@@ -56,3 +56,7 @@ Ahora estoy motivado! Es el mejor desafío!
 [fn:md2html]       https://osiux.com/2017-07-08-instalar-markdown-styles-para-convertir-un-md-en-un-html.html
 [fn:org2md]        https://osiux.com/2017-07-10-convertir-org-mode-a-markdown-org2md.html
 [fn:jrnlmd]        https://osiux.com/2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.html
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bfb3c71b27c05d2649243b0d12634b291a2ae348][=2021-02-26 09:55=]] agregar /30 días de posts por la birra/
