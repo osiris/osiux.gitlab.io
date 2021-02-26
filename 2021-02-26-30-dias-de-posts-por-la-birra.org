@@ -1,0 +1,58 @@
+#+TITLE:     🍺🍺🍺 30 días de /posts/ por la birra!
+#+AUTHOR:    Osiris Alejandro Gómez
+#+EMAIL:     osiux@osiux.com
+#+LANGUAGE:  es
+#+LINK_HOME: index.html
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+
+
+[[file:img/rakhim-blogging.jpg][file:tmb/rakhim-blogging.jpg]]
+
+** NEXT procastinando por años =¯\_(ツ)_/¯=
+
+Hace mas de 10 años que intercambio /links/ con /=Hugo Ruscitti=/
+Juntos desarrollamos /=frontweb=/ [fn:frontweb] y lo dejamos morir!
+Pero siempre seguimos intercambiando /links/ de /posts/ interesantes,
+mayormente por /email/ y justo antes de la /pandemia/ empezamos a vernos
+mas seguido con el pretexto de crear /podcasts/ para /=trifulca=/
+
+Por uno u otro motivo siempre colgamos un poco con nuestros blogs...
+
+** NEXT /howto custom blog post/ vs /post everyday/
+
+El =2021-01-20= leí /=Prove you can write regularly before you think
+about the tools=/ [fn:you-can-write] y primero me morí de la risa porque
+yo entraría en 2 categorías de las estadísticas:
+
+- /=org mode fan=/
+
+  - =org-mode= is back! [fn:org-mode-back]
+  - migrando de /frontweb/ a =org-mode= [fn:frontweb2org]
+
+- /=authors of custom static site generators=/
+
+  - instalar =markdown-styles= para convertir un =md= en un =html= [fn:md2html]
+  - convertir =org-mode= a markdown =org2md= [fn:org2md]
+  - nuevo blog gracias a =jrnl= y =markdown-styles= [fn:jrnlmd]
+
+** NEXT si el desafío es por la /birra/, yo me prendo!
+
+Ahora estoy motivado! Es el mejor desafío!
+
+  /**si gano, comparto birras con un amigo**/
+  /**si pierdo, comparto birras con un amigo**/
+
+...quién paga las birras, es lo que menos importa =;)=
+
+** TODO /la experiencia es un peine que te dan cuando estas pelado.../
+
+** TODO conclusión
+
+[fn:frontweb]      https://web.archive.org/web/20130107013308/http://www.frontweb.com.ar/about.rst
+[fn:you-can-write] https://critter.blog/2021/01/14/prove-you-can-write-regularly-before-you-think-about-the-tools/
+[fn:org-mode-back] https://osiux.com/2018-12-11-org-mode-is-back.html
+[fn:frontweb2org]  https://osiux.com/2013-02-01-migrando-de-frontweb-a-org-mode.html
+[fn:md2html]       https://osiux.com/2017-07-08-instalar-markdown-styles-para-convertir-un-md-en-un-html.html
+[fn:org2md]        https://osiux.com/2017-07-10-convertir-org-mode-a-markdown-org2md.html
+[fn:jrnlmd]        https://osiux.com/2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.html
