@@ -1,0 +1,183 @@
+#+TITLE:     ABSOLUTELLY NO WARRANTY /posts/ 2021-01-25 - 2021-02-25
+#+AUTHOR:    Osiris Alejandro Gómez
+#+EMAIL:     osiux@osiux.com
+#+LANGUAGE:  es
+#+LINK_HOME: index.html
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+
+
+** Actividad por día
+
+
+#+BEGIN_EXAMPLE
+
+▣□ ▣▣ ▣▣▣▣▣ ▣▣ □▣□▣□ □▣ □▣□▣▣ □□ □□▣□▣
+
+#+END_EXAMPLE
+
+
+** Resumen
+
+| item                    | value                |
+|-------------------------|----------------------|
+| =LAST_HASH=             | [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/048decd][=048decd=]]            |
+| =FIRST_HASH=            | [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/9cbd3c2][=9cbd3c2=]]           |
+| =TOTAL_TIME=            | =34:37 hs=     |
+| =TOTAL_COMMITS=         | =50=     |
+| =TOTAL_BLOG_POSTS=      | =49=  |
+
+
+** Total de commits por día
+
+
+#+BEGIN_EXAMPLE
+
+  6.00 %   6.00 %          3 █                    2021-01-25 
+ 14.00 %   8.00 %          4 ██                   2021-01-26 
+ 22.00 %   8.00 %          4 ██                   2021-01-28 
+ 26.00 %   4.00 %          2 █                    2021-01-30 
+ 32.00 %   6.00 %          3 █                    2021-01-31 
+ 36.00 %   4.00 %          2 █                    2021-02-01 
+ 52.00 %  16.00 %          8 ████                 2021-02-02 
+ 54.00 %   2.00 %          1 ▌                    2021-02-03 
+ 60.00 %   6.00 %          3 █                    2021-02-04 
+ 68.00 %   8.00 %          4 ██                   2021-02-05 
+ 74.00 %   6.00 %          3 █                    2021-02-06 
+ 80.00 %   6.00 %          3 █                    2021-02-07 
+ 82.00 %   2.00 %          1 ▌                    2021-02-09 
+ 86.00 %   4.00 %          2 █                    2021-02-11 
+ 90.00 %   4.00 %          2 █                    2021-02-14 
+ 94.00 %   4.00 %          2 █                    2021-02-16 
+ 96.00 %   2.00 %          1 ▌                    2021-02-18 
+ 98.00 %   2.00 %          1 ▌                    2021-02-19 
+100.00 %   2.00 %          1 ▌                    2021-02-24 
+                          50
+#+END_EXAMPLE
+
+
+
+** Total de commits por hora
+
+
+#+BEGIN_EXAMPLE
+
+  4.00 %   4.00 %          2 █                    00 
+ 12.00 %   8.00 %          4 ██                   01 
+ 16.00 %   4.00 %          2 █                    02 
+ 22.00 %   6.00 %          3 █                    04 
+ 24.00 %   2.00 %          1 ▌                    05 
+ 26.00 %   2.00 %          1 ▌                    11 
+ 30.00 %   4.00 %          2 █                    12 
+ 34.00 %   4.00 %          2 █                    15 
+ 38.00 %   4.00 %          2 █                    17 
+ 48.00 %  10.00 %          5 ██                   18 
+ 72.00 %  24.00 %         12 ██████               19 
+ 80.00 %   8.00 %          4 ██                   20 
+ 84.00 %   4.00 %          2 █                    21 
+ 92.00 %   8.00 %          4 ██                   22 
+100.00 %   8.00 %          4 ██                   23 
+                          50
+#+END_EXAMPLE
+
+
+** Detalle de /posts/ nuevos, modificados y autogenerados
+
+*** [[file:years.org][years]]
+
+*** [[file:visualizando-org-mode-con-gnuplot.org][visualizando dos años de orgmode con gnuplot - viewing two years of orgmode with gnuplot]]
+
+*** [[file:visualizando-grafos-graphviz.org][Visualizando Grafos usando Graphviz]]
+
+*** [[file:uml.org][OSiUX =plantuml=]]
+
+*** [[file:tty.org][OSiUX =tty=, terminal, consola, ncurses, shell, línea de comandos]]
+
+*** [[file:tmux-terminator-awesome.org][tmux + terminator + awesome]]
+
+*** [[file:stats-posts.org][stats-posts]]
+
+*** [[file:restructuredtext-texto-re-estructurado.org][/reStructuredText/ texto re-estrucuturado]]
+
+*** [[file:plt.org][OSiUX gnuplot]]
+
+*** [[file:links.org][OSiUX links]]
+
+*** [[file:la-tecnica-pomodoro.org][La Técnica Pomodoro]]
+
+*** [[file:index.org][ABSOLUTELLY NO WARRANTY]]
+
+*** [[file:header.org][header]]
+
+*** [[file:header-links.org][OSiUX links]]
+
+*** [[file:git.org][OSiUX git repositories]]
+
+*** [[file:git-head.org][OSiUX git repositories]]
+
+*** [[file:dot.org][OSiUX =graphviz=]]
+
+*** [[file:docs.org][ABSOLUTELLY NO WARRANTY Docs]]
+
+*** [[file:dame-una-consola.org][dame una consola]]
+
+*** [[file:curuzu-libre-2008.org][Primeras Charlas Software Libre Curuzú Cuatiá 6 y 7 Nov 2008]]
+
+*** [[file:charlas.org][Conferencias y Capacitaciones]]
+
+*** [[file:capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.org][Capturar ideas en papel: de moleskine, hispterpda, pocketmod y libreta artesanal]]
+
+*** [[file:blog.org][ABSOLUTELLY NO WARRANTY blog]]
+
+*** [[file:awesome-es-increible.org][Awesome es Increíble]]
+
+*** [[file:archive.org][ABSOLUTELLY NO WARRANTY ARCHIVE]]
+
+*** [[file:2021.org][ABSOLUTELLY NO WARRANTY 2021]]
+
+*** [[file:2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.org][/no me acuerdo de nada... dejame en =pass=!/]]
+
+*** [[file:2021-02-16-vivir-del-software-libre.org][/Vivir del Software Libre/]]
+
+*** [[file:2021-02-14-tty-music-on-console.org][=tty= /Music On Console/]]
+
+*** [[file:2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.org][Install Debian Buster on ThinkPad T14 Gen 1]]
+
+*** [[file:2021-02-07-agrandar-la-tarea.org][agrandar la tarea]]
+
+*** [[file:2021-02-05-git-repos2org.org][generar sección =git= mediante =git-repos2org=]]
+
+*** [[file:2021-02-05-ansible-awx-tools.org][Ansible/AWX tools]]
+
+*** [[file:2021-02-03-git-post-commit-changelog.org][git =post-commit= /ChangeLog/]]
+
+*** [[file:2021-02-01-git-log-org-changelog.org][generar /ChangeLog/ en =org-mode= usando =git log=]]
+
+*** [[file:2021-01-29-bookmarks-vs-links.org][bookmarks vs links.txt]]
+
+*** [[file:2021-01-26-disaster-recovery-plan-osiux.org][DIsaster REcovery PLan OSiux]]
+
+*** [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][ansible luks format external usb disk]]
+
+*** [[file:2019.org][ABSOLUTELLY NO WARRANTY 2019]]
+
+*** [[file:2019-04-22-install-ca-certificate-into-firefox-from-command-line.org][Instalar una *CA* (*Autoridad Certificante*) en un perfil de *Firefox* desde la consola]]
+
+*** [[file:2018.org][ABSOLUTELLY NO WARRANTY 2018]]
+
+*** [[file:2017.org][ABSOLUTELLY NO WARRANTY 2017]]
+
+*** [[file:2016.org][ABSOLUTELLY NO WARRANTY 2016]]
+
+*** [[file:2015.org][ABSOLUTELLY NO WARRANTY 2015]]
+
+*** [[file:2014.org][ABSOLUTELLY NO WARRANTY 2014]]
+
+*** [[file:2013.org][ABSOLUTELLY NO WARRANTY 2013]]
+
+*** [[file:2012.org][ABSOLUTELLY NO WARRANTY 2012]]
+
+*** [[file:2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.org][Ganamos el Concurso de Videos del Congreso Argentino de Cooperativas]]
+
+*** [[file:2011.org][ABSOLUTELLY NO WARRANTY 2011]]
+
