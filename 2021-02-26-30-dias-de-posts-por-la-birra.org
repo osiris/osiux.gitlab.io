@@ -9,17 +9,24 @@
 
 [[file:img/rakhim-blogging.jpg][file:tmb/rakhim-blogging.jpg]]
 
-** NEXT procastinando por años =¯\_(ツ)_/¯=
+** procastinando por años =¯\_(ツ)_/¯=
 
-Hace mas de 10 años que intercambio /links/ con /=Hugo Ruscitti=/
+Hace mas de 10 años que intercambio /links/ "interesantes" con /=Hugo
+Ruscitti=/ [fn:hugoruscitti]
+
 Juntos desarrollamos /=frontweb=/ [fn:frontweb] y lo dejamos morir!
+
 Pero siempre seguimos intercambiando /links/ de /posts/ interesantes,
-mayormente por /email/ y justo antes de la /pandemia/ empezamos a vernos
-mas seguido con el pretexto de crear /podcasts/ para /=trifulca=/
+mayormente por /email/ y justo antes de la /pandemia/, junto a otros
+programadores empezamos a vernos mas seguido con el pretexto de crear
+/podcasts/ para /=trifulca=/ [fn:trifulca]
 
-Por uno u otro motivo siempre colgamos un poco con nuestros blogs...
+Y siempre mantuvimos charlas recursivas sobre cómo mejorar nuestros
+/blogs/ o sobre la importancia de traducir algunos /posts/ de otros,
+pero por uno u otro motivo siempre colgamos un poco con nuestros
+/blogs/...
 
-** NEXT /howto custom blog post/ vs /post everyday/
+** /howto custom blog post/ vs /post everyday/
 
 El =2021-01-20= leí /=Prove you can write regularly before you think
 about the tools=/ [fn:you-can-write] y primero me morí de la risa porque
@@ -36,26 +43,105 @@ yo entraría en 2 categorías de las estadísticas:
   - convertir =org-mode= a markdown =org2md= [fn:org2md]
   - nuevo blog gracias a =jrnl= y =markdown-styles= [fn:jrnlmd]
 
-** NEXT si el desafío es por la /birra/, yo me prendo!
+El artículo es muy claro, /proba que podés escribir regularmente antes
+de pensar en las herramientas/, el gráfico es super descriptivo, hay
+mayor probabilidad de que alguien con un viejo /Wordpress/ tenga más
+/posts/ que algún fanático de =org-mode= (como yo) y junto a los
+desarrolladores de generadores de sitios estáticos es mas probable que
+tengamos mas /posts/ sobre cómo configurar nuestra herramienta para
+hacer /posts/ que los /posts/ que tenía ganas de escribir.
+
+Esta claro que /la herramienta no tiene la culpa/, se trata de tener la
+auto disciplina o el hábito de sentarse a escribir regularmente.
+
+** si el desafío es por la /birra/, yo me prendo!
+
+Intercambiamos correos con /Hugo/ y decidimos realizar un desafío, los
+dos nos comprometimos a escribir 30 días seguidos a partir del
+=2021-01-25= y todos los días compartir los /links/ de los /posts/ para
+tener una revisión asegurada.
+
+Algo que decidimos es que publicaríamos a medio terminar o empezar,
+dejando un =...continuará...= o un =TODO= en cada /post/, porque de esa
+manera podemos ver un progreso y de todas maneras no somos
+/influencers/, nuestros /blogs/ no tienen muchas visitas =:P=
+
+Y para ponerle un poco de picante, el que tenga menos /posts/ paga las
+cervezas cuando nos volvamos a ver.
 
 Ahora estoy motivado! Es el mejor desafío!
 
   /**si gano, comparto birras con un amigo**/
+
   /**si pierdo, comparto birras con un amigo**/
 
 ...quién paga las birras, es lo que menos importa =;)=
 
-** TODO /la experiencia es un peine que te dan cuando estas pelado.../
+** /la experiencia es un peine que te dan cuando estas pelado.../
 
-** TODO conclusión
+Claramente lo mejor de esta experiencia, fue realizar el desafío juntos,
+porque todos los días tuvimos un par de correos con una mini /review/,
+una corrección sobre algún /=typo=/ [fn:typo], una mirada de alguien en
+quien confiamos y que estamos seguros que la crítica es constructiva y
+de /yapa/ teníamos algo interesante para leer.
 
-[fn:frontweb]      https://web.archive.org/web/20130107013308/http://www.frontweb.com.ar/about.rst
-[fn:you-can-write] https://critter.blog/2021/01/14/prove-you-can-write-regularly-before-you-think-about-the-tools/
-[fn:org-mode-back] https://osiux.com/2018-12-11-org-mode-is-back.html
-[fn:frontweb2org]  https://osiux.com/2013-02-01-migrando-de-frontweb-a-org-mode.html
-[fn:md2html]       https://osiux.com/2017-07-08-instalar-markdown-styles-para-convertir-un-md-en-un-html.html
-[fn:org2md]        https://osiux.com/2017-07-10-convertir-org-mode-a-markdown-org2md.html
-[fn:jrnlmd]        https://osiux.com/2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.html
+** /retroceder nunca, rendirse jamás/
+
+Lo más difícil para mí, fue encontrar un horario para dedicarle tiempo
+al /blog/, pero teniendo en mente el desafío, pensé en que no iba a
+retroceder.
+
+El primer día, /=cachaza=/ (mi /notebook/) empezó a
+funcionar mal, pero en lugar de abandonar, lo convertí en un primer
+/post/ sobre como cifrar un disco externo usando /luks/ [fn:ansibleluks]
+
+Al segundo día, /=cachaza=/ murió y con ese sabor amargo continué
+redactando desde mi /teléfono espía/ usando un teclado /bluetooth/ y
+aproveché a publicar sobre /=DiRePlOs=/ [fn:direplos] /mi plan de
+recuperación de desastres/.
+
+Al tercer día, me tuve que aislar por síntomas de /coronavirus/, pero
+seguí mejorando mi /post/ sobre /DiRePlOs/.
+
+Al quinto día, me hisoparon y al sexto día tuve mi resultado /COVID
+POSITIVO/ y si bien me fue extremadamente difícil concentrarme, /no me
+rendí/.
+
+Seguí mejorando de a poco el /blog/ corrigiendo errores menores de
+sintaxis y creando /scripts/ para generar la sección =links= [fn:links]
+y también para la sección =git= [fn:git] o sobre como automatizar el
+/=ChangeLog=/ [fn:changelog] de cada /post/.
+
+Al pasar los diez días de aislamiento ya estaba un poco mejor y volví a
+escribir /posts/ un poco mas extensos sobre el problema recurrente de
+/=agrendar la tarea=/ [fn:agrandartarea] cada vez que comienzo algo.
+
+A los 15 días, recibí a =tequila=, mi nueva /notebook/ y documenté cómo
+/=instalar debian Buster en Thinkpad T14=/ [fn:deb10thinkpad].
+
+
+[fn:hugoruscitti]   https://www.examplelab.com.ar/
+[fn:frontweb]       https://web.archive.org/web/20130107013308/http://www.frontweb.com.ar/about.rst
+[fn:trifulca]       https://github.com/trifulca
+[fn:you-can-write]  https://critter.blog/2021/01/14/prove-you-can-write-regularly-before-you-think-about-the-tools/
+[fn:org-mode-back]  https://osiux.com/2018-12-11-org-mode-is-back.html
+[fn:frontweb2org]   https://osiux.com/2013-02-01-migrando-de-frontweb-a-org-mode.html
+[fn:md2html]        https://osiux.com/2017-07-08-instalar-markdown-styles-para-convertir-un-md-en-un-html.html
+[fn:org2md]         https://osiux.com/2017-07-10-convertir-org-mode-a-markdown-org2md.html
+[fn:jrnlmd]         https://osiux.com/2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.html
+[fn:typo]           https://en.wikipedia.org/wiki/Typographical_error
+[fn:ansibleluks]    https://osiux.com/2021-01-25-ansible-luks-format-external-usb-disk.html
+[fn:direplos]       https://osiux.com/2021-01-26-disaster-recovery-plan-osiux.html
+[fn:links]          https://osiux.com/2021-01-29-bookmarks-vs-links.html
+[fn:changelog]      https://osiux.com/2021-02-03-git-post-commit-changelog.html
+[fn:git]            https://osiux.com/2021-02-05-git-repos2org.html
+[fn:agrandartarea]  https://osiux.com/2021-02-07-agrandar-la-tarea.html
+[fn:deb10thinkpad]  https://osiux.com/2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.html
+[fn:ansibletools]   https://osiux.com/2021-02-05-ansible-awx-tools.html
+[fn:ttymusic]       https://osiux.com/2021-02-14-tty-music-on-console.html
+[fn:vivirsoftlibre] https://osiux.com/2021-02-16-vivir-del-software-libre.html
+[fn:pass]           https://osiux.com/2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.html
+[fn:stats20210225]  https://osiux.com/2021-01-25-2021-02-25-posts.html
 
 ** ChangeLog
 
