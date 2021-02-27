@@ -275,7 +275,9 @@ y son =30 días de posts por la picada=.
 [fn:statsblog]       https://osiux.com/blog.html
 [fn:30diashugo]      https://www.examplelab.com.ar/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2067337568415129e0a9b42264b1dfb3af25c015][=2021-02-27 20:33=]] agregar detalles cronológicos, explicación de estadísticas y conclusión
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a93639ebe0fb33aeed1b04a22900dd3923b6f791][=2021-02-27 10:12=]] actualizar 30 días de /posts/ por la birra
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bfb3c71b27c05d2649243b0d12634b291a2ae348][=2021-02-26 09:55=]] agregar /30 días de posts por la birra/
