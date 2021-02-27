@@ -143,6 +143,8 @@ A los 15 días, recibí a =tequila=, mi nueva /notebook/ y documenté cómo
 [fn:pass]           https://osiux.com/2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.html
 [fn:stats20210225]  https://osiux.com/2021-01-25-2021-02-25-posts.html
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a93639ebe0fb33aeed1b04a22900dd3923b6f791][=2021-02-27 10:12=]] actualizar 30 días de /posts/ por la birra
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bfb3c71b27c05d2649243b0d12634b291a2ae348][=2021-02-26 09:55=]] agregar /30 días de posts por la birra/
