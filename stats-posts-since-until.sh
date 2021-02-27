@@ -104,7 +104,7 @@ LAST_URL="$(printf  "[[%s/%s][=%s=]]" "$GIT_URL" "$LAST_HASH" "$LAST_HASH")"
 
 git diff --name-only "$FIRST_HASH..$LAST_HASH" > "$TMP1"
 grep -E '.*.org' "$TMP1" > "$TMP2"
-
+#FIXME timesum by filename
 TOTAL_TIME="$(timesum "$(awk '{print $4}' "$TMP0")")"
 TOTAL_COMMITS="$(cat    "$TMP0" | wc -l)"
 TOTAL_BLOG_POSTS="$(cat "$TMP2" | wc -l)"
@@ -133,15 +133,21 @@ end
 title2 "Resumen"
 echo "$TABLE"
 echo
-title2 "Total de commits por día"
+title2 "Total de /commits/ por día"
 begin
 awk '{print $2}' "$TMP0" | sort | uniq -c | ./barra
 end
 echo
-title2 "Total de commits por hora"
+title2 "Total de /commits/ por hora"
 begin
 awk '{print $3}' "$TMP0" | cut -d: -f1 | sort | uniq -c | ./barra
 end
+echo
+title2 "Total de /commits/ por tiempo"
+begin
+awk '{print $4}' "$TMP0" | sort | uniq -c | ./barra
+end
+
 title2 "Detalle de /posts/ nuevos, modificados y autogenerados"
 sort -r "$TMP2" | while read -r FILE
 do
