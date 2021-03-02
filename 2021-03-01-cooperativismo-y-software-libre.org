@@ -65,3 +65,7 @@ mundo alternativo.
 [fn:pekka]       http://eprints.rclis.org/12851/1/pekka.pdf
 [fn:pintores]    http://www.paulgraham.es/ensayos/hackers-y-pintores.html
 [fn:saberes]     http://empresasrecuperadas.org/Saberes-Recuperados-Completo.pdf
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/57fe05fcbe5132001bd3c590ebade2f05b8b4eee][=2021-03-01 23:01=]] agregar /Cooperativismo y Software Libre/
