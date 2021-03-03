@@ -1,0 +1,48 @@
+#+TITLE:       email desde consola
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-03-02 23:39
+
+
+#+ATTR_HTML: :width 640 :height 42 :title imapfilter imap offlineimap maildir mutt smtp
+[[file:img/imapfilter-imap-offlineimap-maildir-mutt-smtp.png][file:tmb/imapfilter-imap-offlineimap-maildir-mutt-smtp.png]]
+
+Enviar y recibir correos desde la consola, se puede realizar de manera
+simple utilizando únicamente =mutt=, pero hay diferentes alternativas y
+con el tiempo fui armando un ecosistema de aplicaciones que ha resistido
+varias migraciones de servidores de correos, además de permitir trabajar
+con múltiples cuentas, cifrando correos, usarlo detrás de un tunel =SSH=
+y pudiendo realizar búsquedas extremadamente rápidas y resistiendo malas
+conexiones al punto de contar con todos tus correos sin conexión alguna
+estando totalmente /offline/.
+
+A lo largo de varios /posts/ que seguramente me llevarán varios días,
+iré documentando cada componente de mi entorno de correos desde consola.
+
+** TODO vamos a filtrar los mails...
+
+=imapfilter=
+
+** TODO no necesito estar online
+
+=offlineimap=
+
+** TODO directorios y archivos
+
+=maildir=
+
+** TODO en que correo estaba eso...?
+
+=notmuch=
+
+** TODO el mejor de los /MUA/
+
+=mutt=
+
+** TODO recibo mas de lo que envío
+
+=smtp=
+
