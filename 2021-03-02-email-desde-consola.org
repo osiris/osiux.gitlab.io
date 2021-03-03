@@ -46,3 +46,7 @@ iré documentando cada componente de mi entorno de correos desde consola.
 
 =smtp=
 
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/aac1e02095fa924540e0378f3935d1c9cbf453e3][=2021-03-02 23:49=]] agregar /email desde consola/
