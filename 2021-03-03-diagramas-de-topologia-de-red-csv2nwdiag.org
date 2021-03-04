@@ -24,3 +24,7 @@ Voy a documentar diferentes ejemplos y liberar =csv2nwdiag=...
 
 ...continuará...
 
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/8b2b415357bedcd20c7a7e45b5c4343f7c2487f5][=2021-03-03 23:27=]] agregar /Diagramas de Topología de Red/ =csv2nwdiag=
