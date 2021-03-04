@@ -1,0 +1,26 @@
+#+TITLE:       Diagramas de Topología de Red =csv2nwdiag=
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-03-03 23:53
+
+
+[[file:img/csv2nwdiag-vms-prd-vms-stg.png][file:tmb/csv2nwdiag-vms-prd-vms-stg.png]]
+
+** dibujar una red desde un =csv=
+
+Cuando tenés varios =hosts= y necesitás aislarlos en varias =subnets=,
+se vuelve necesario graficarlos, cuando más =hosts=, mas =subnets= y por
+lo general **mas lío** y ni hablar si contás con varias =WANs= y otras
+redes de administración, monitoreo, backup, etc...
+
+Gracias a =nwdiag= esto es tarea fácil y hace un par de años hice un
+/script/ que convierte un =.csv= a un archivo =.diag= para luego generar
+un =.png= de manera automatizada.
+
+Voy a documentar diferentes ejemplos y liberar =csv2nwdiag=...
+
+...continuará...
+
