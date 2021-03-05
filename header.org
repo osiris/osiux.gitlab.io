@@ -2,10 +2,11 @@
 [[file:osiux.org][OSiUX]] |
 [[file:archive.org][archive]] |
 [[file:charlas.org][charlas]] |
-[[file:docs.org][=docs=]] |
+[[file:docs.org][docs]] |
+[[file:links.org][links]]
+
 [[file:dot.org][=dot=]] |
 [[file:git.org][=git=]] |
-[[file:links.org][links]] |
 [[file:plt.org][=plt=]] |
 [[file:tty.org][=tty=]] |
 [[file:uml.org][=uml=]]
