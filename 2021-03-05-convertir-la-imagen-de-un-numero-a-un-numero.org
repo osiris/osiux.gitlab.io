@@ -91,3 +91,7 @@ El parámetro =C 0-9= indica que solo espero reconocer números, esto es
 vital para que el =1= no lo tome como una =l= o un =8= como una =B=,
 todo depende mucho de la calidad de la imagen y la tipografía utilizada.
 
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/40ddb751721f2dfd6687fc99a86b59a9c3af73fe][=2021-03-05 23:33=]] agregar /convertir la imagen de un número a un número/
