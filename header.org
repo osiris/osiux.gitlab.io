@@ -7,6 +7,7 @@
 
 [[file:dot.org][=dot=]] |
 [[file:git.org][=git=]] |
+[[file:img.org][=img=]] |
 [[file:plt.org][=plt=]] |
 [[file:tty.org][=tty=]] |
 [[file:uml.org][=uml=]]
