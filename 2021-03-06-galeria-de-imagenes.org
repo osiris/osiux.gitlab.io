@@ -28,6 +28,8 @@ grafo, de una captura de pantalla o de una foto (que a mi me trae
 recuerdos) que llama un poco más la atención para despertar la
 curiosidad de la historia detrás de esa imagen.
 
+[fn:img] https://osiux.com/img.html
+
 ** ChangeLog
 
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0305b3d6ab14cadbf036f63508f5f48d93c0c702][=2021-03-06 23:11=]] agregar /generar Galería de Imágenes/
