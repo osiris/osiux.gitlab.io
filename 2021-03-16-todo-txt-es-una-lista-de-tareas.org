@@ -1,0 +1,67 @@
+#+TITLE:       =todo.txt= es una lista de tareas
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-03-16 23:20
+
+
+** la lista
+
+Cuando tenemos pendientes por realizar o algo que no queremos olvidar,
+la primer solución que surge casi naturalmente es tomar un papel y hacer
+una lista, algo muy común para las compras del supermercado y a medida
+que vas completando items de la lista vas tachando, es un método simple
+y efectivo.
+
+** la lista en un =.txt=
+
+En /=GTD=/ [fn:GTD] como en otras metodologías, es muy común manejarse
+con listas de tareas o /checklists/ y si bien /=org-mode=/ [fn:org-mode]
+cuenta con un soporte muy amplio para listas de tareas a diario utilizo
+/=todo.txt=/ [fn:todotxt], que no es mas que un simple archivo de texto
+plano con un formato muy flexible, en principio solo es requerido un
+texto y todo lo demás es opcional, es decir una fecha o un tag.
+
+** la lista desde la consola
+
+Como era de esperarse, prefiero manipular un archivo =todo.txt= usando
+el /=cli=/ [fn:todotxt-cli] y para ello opté por definir en la
+configuración =todo.cfg= que el directorio de trabajo sea el directorio
+actual, de esta forma en cada directorio puedo tener un =todo.txt=
+diferente, normalmente uno por proyecto.
+
+#+BEGIN_SRC sh :exports code
+
+export TODO_DIR="$PWD"
+
+#+END_SRC
+
+** la lista de alias
+
+Tres alias, simplifican la tarea de listar (=tol=), agregar un nuevo
+item (=toa=) y completar la tarea (=tod=):
+
+#+BEGIN_SRC sh :exports code
+
+  alias toa='todo.sh add'
+  alias tod='todo.sh do'
+  alias tol='todo.sh ls'
+
+#+END_SRC
+
+** la lista desde el celu
+
+/=SimpleTask=/ [fn:simpletask] es una /app/ para /android/ que mejora al
+máximo la experiencia de uso de un =todo.txt= en un /smartphone/ o
+/tablet/ y como permite administrar varios archivos, además de tener los
+pendientes a mano, le encontré un uso muy diferente, manteniendo la
+lista de links [fn:links] de sitios que me interesa compartir.
+
+[fn:GTD]         https://osiux.com/gtd-gething-this-done.html
+[fn:org-mode]    https://orgmode.org/
+[fn:todotxt]     http://todotxt.org/
+[fn:todotxt-cli] https://github.com/todotxt/todo.txt-cli
+[fn:simpletask]  https://github.com/mpcjanssen/simpletask-android
+[fn:links]       https://osiux.com/2021-01-29-bookmarks-vs-links.html
