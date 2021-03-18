@@ -144,3 +144,7 @@ sort -u "$BAK" > "$TMP" && mv -f "$TMP" "$BAK"
 
 [fn:better-history] https://sanctum.geek.nz/arabesque/better-bash-history/
 [fn:history-usage]  https://linuxhint.com/bash_command_history_usage/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e2f1451e1f4ffebf5078d1fd44634047e035b144][=2021-03-17 23:54=]] agregar /historial infinito en =bash=/
