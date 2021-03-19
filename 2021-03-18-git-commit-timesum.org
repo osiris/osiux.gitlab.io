@@ -1,0 +1,87 @@
+#+TITLE:       git commit timesum
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-03-18 22:48
+
+
+** registras cuánto tardás?
+
+Creo que fue en el 2008 cuando en /=gcoop=/ [fn:gcoop] decidimos
+registrar cuánto tiempo tardábamos en hacer cada /commit/ e inicialmente
+la idea era simple, solo bastaba comenzar el /subject/ del /commit/ con
+el prefijo =@ HH:MM hs -=, fácil de implementar y permitía luego obtener
+un total del tiempo utilizado en un proyecto.
+
+** =git-log-time=
+
+Obtener el listado de tiempo de cada /commit/ es simple de obtener, para
+esto basta con ejecutar =git-log-time= [fn:git-log-time]
+
+#+BEGIN_SRC sh :exports code
+
+git-log-time
+
+	00:01
+	00:05
+	00:02
+	00:01
+	00:25
+	00:25
+	00:11
+	00:30
+	00:02
+	00:02
+	00:05
+	00:02
+	06:17
+	01:57
+	02:21
+	00:32
+	00:01
+	00:25
+	00:25
+	00:05
+	00:06
+	00:37
+	01:24
+	00:12
+	00:27
+	00:50
+	00:34
+
+#+END_SRC
+
+** =git-log-timesum=
+
+Si lo único que queremos es obtener el total de tiempo de un proyecto
+basta con ejecutar =git-log-timesum= [fn:git-log-timesum]
+
+#+BEGIN_SRC sh :exports code
+
+git-log-timesum
+
+	18:04
+
+#+END_SRC
+
+** =git-repos2org=
+
+Hoy se me ocurrió agregar este total de tiempo al listado de
+repositorios =git= [fn:git] de este blog, el cual genero usando
+=git-repos2org= [fn:git-repos2org] y me sorprendió ver que el proyecto
+=txt-bash-jrnl= [fn:txt-bash-jrnl] solo me llevó =18:04 hs=
+
+** =git-log-time-stats=
+
+En algún momento voy a consolidar todas las posibles estadísticas que se
+podrían obtener con los tiempos registrados en los /commits/ de un repo
+=git=
+
+[fn:git-log-time]      https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-time
+[fn:git-log-timesum]   https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-timesum
+[fn:git]               https://osiux.com/git.html
+[fn:git-log-repos2org] https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org
+[fn:txt-bash-jrnl]     https://gitlab.com/osiux/txt-bash-jrnl/
