@@ -80,10 +80,11 @@ En algún momento voy a consolidar todas las posibles estadísticas que se
 podrían obtener con los tiempos registrados en los /commits/ de un repo
 =git=
 
+[fn:gcoop]             https://www.gcoop.coop/
 [fn:git-log-time]      https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-time
 [fn:git-log-timesum]   https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-timesum
 [fn:git]               https://osiux.com/git.html
-[fn:git-log-repos2org] https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org
+[fn:git-repos2org]     https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org
 [fn:txt-bash-jrnl]     https://gitlab.com/osiux/txt-bash-jrnl/
 
 ** ChangeLog
