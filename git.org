@@ -21,39 +21,39 @@ utilidades =git= del repositorio =git-bash-utils= [fn:git-bash-utils]
 [fn:git-bash-utils] https://gitlab.com/osiux/git-bash-utils/
 ** git repositories
 
-| repo                                                                          |        tag | activity                                 |
-|-------------------------------------------------------------------------------|------------|------------------------------------------|
-| [[file:git.org::#ansible_role_apt_pin][=ansible_role_apt_pin=]]               |     v0.1.1 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#ansible-role-backup-profile][=ansible-role-backup-profile=]] |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#ansible-role-ispconfig-base][=ansible-role-ispconfig-base=]] |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#ansible-role-ispconfig-mail][=ansible-role-ispconfig-mail=]] |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#ansible-role-ispconfig-multiserver][=ansible-role-ispconfig-multiserver=]] |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#ansible-role-ispconfig-web][=ansible-role-ispconfig-web=]]   |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#ansible-role-mysqldump][=ansible-role-mysqldump=]]           |       v0.7 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#aps2dot][=aps2dot=]]                                         |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#charlas][=charlas=]]                                         |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#direplos][=direplos=]]                                       |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#git-bash-utils][=git-bash-utils=]]                           |            | =□□□ □□ ▣□□▣□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#isp-utils][=isp-utils=]]                                     |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#libretA7][=libretA7=]]                                       |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#links-bash-utils][=links-bash-utils=]]                       |     v0.1.1 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#log-bash-utils][=log-bash-utils=]]                           |     v0.1.0 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#mails2dot][=mails2dot=]]                                     |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#media-bash-utils][=media-bash-utils=]]                       |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#minimal-bash-prompt][=minimal-bash-prompt=]]                 |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#multiboot][=multiboot=]]                                     |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#multi-ssh-config][=multi-ssh-config=]]                       |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#org-bash-utils][=org-bash-utils=]]                           |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#org-mode-doc-es][=org-mode-doc-es=]]                         |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#osiux.gitlab.io][=osiux.gitlab.io=]]                         |            | =□▣□ ▣▣ ▣▣▣▣▣ ▣▣ □▣□▣□ □▣ □▣□▣▣ □□ □□▣□= |
-| [[file:git.org::#pass-utils][=pass-utils=]]                                   |     v0.0.5 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#pcap2dot][=pcap2dot=]]                                       |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#pcap2uml][=pcap2uml=]]                                       |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#plan-b][=plan-b=]]                                           |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#redmine-bash-utils][=redmine-bash-utils=]]                   |     v0.1.0 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#sugar-graphviz][=sugar-graphviz=]]                           |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#traducciones][=traducciones=]]                               |            | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
-| [[file:git.org::#txt-bash-jrnl][=txt-bash-jrnl=]]                             |     v0.1.0 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| repo                                                                          |        tag |   time | activity                                 |
+|-------------------------------------------------------------------------------|------------|--------|------------------------------------------|
+| [[file:git.org::#ansible_role_apt_pin][=ansible_role_apt_pin=]]               |     v0.1.1 |  03:05 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#ansible-role-backup-profile][=ansible-role-backup-profile=]] |            |  00:00 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#ansible-role-ispconfig-base][=ansible-role-ispconfig-base=]] |            |  00:10 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#ansible-role-ispconfig-mail][=ansible-role-ispconfig-mail=]] |            |  00:10 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#ansible-role-ispconfig-multiserver][=ansible-role-ispconfig-multiserver=]] |            |  00:25 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#ansible-role-ispconfig-web][=ansible-role-ispconfig-web=]]   |            |  00:10 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#ansible-role-mysqldump][=ansible-role-mysqldump=]]           |       v0.7 |  09:47 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#aps2dot][=aps2dot=]]                                         |            |  02:04 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#charlas][=charlas=]]                                         |            |  04:02 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#direplos][=direplos=]]                                       |            |  12:33 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#git-bash-utils][=git-bash-utils=]]                           |            |  26:40 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#isp-utils][=isp-utils=]]                                     |            |  59:14 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#libretA7][=libretA7=]]                                       |            |  03:00 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#links-bash-utils][=links-bash-utils=]]                       |     v0.1.1 |  01:05 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#log-bash-utils][=log-bash-utils=]]                           |     v0.1.0 |  03:00 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#mails2dot][=mails2dot=]]                                     |            |  04:56 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#media-bash-utils][=media-bash-utils=]]                       |            |  05:51 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#minimal-bash-prompt][=minimal-bash-prompt=]]                 |            |  00:40 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#multiboot][=multiboot=]]                                     |            |  01:00 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#multi-ssh-config][=multi-ssh-config=]]                       |            |  05:34 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#org-bash-utils][=org-bash-utils=]]                           |            |  13:18 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#org-mode-doc-es][=org-mode-doc-es=]]                         |            |  01:04 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#osiux.gitlab.io][=osiux.gitlab.io=]]                         |            | 147:46 | =□▣▣ □□ □□▣□▣ ▣□ ▣▣▣▣▣ ▣▣ ▣▣□□□ □□ □▣▣▣= |
+| [[file:git.org::#pass-utils][=pass-utils=]]                                   |     v0.0.5 |  02:29 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#pcap2dot][=pcap2dot=]]                                       |            |  22:26 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#pcap2uml][=pcap2uml=]]                                       |            |  00:55 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#plan-b][=plan-b=]]                                           |            |  08:22 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#redmine-bash-utils][=redmine-bash-utils=]]                   |     v0.1.0 |  14:12 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#sugar-graphviz][=sugar-graphviz=]]                           |            |  05:33 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#traducciones][=traducciones=]]                               |            |  00:21 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
+| [[file:git.org::#txt-bash-jrnl][=txt-bash-jrnl=]]                             |     v0.1.0 |  18:04 | =□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□= |
 
 
 
