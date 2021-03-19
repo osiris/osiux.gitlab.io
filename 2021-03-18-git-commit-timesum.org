@@ -85,3 +85,7 @@ podrían obtener con los tiempos registrados en los /commits/ de un repo
 [fn:git]               https://osiux.com/git.html
 [fn:git-log-repos2org] https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org
 [fn:txt-bash-jrnl]     https://gitlab.com/osiux/txt-bash-jrnl/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4d52b7d119c3495ed0fc171ffe620c36a3339992][=2021-03-18 23:03=]] agregar /=git commit timesum=/
