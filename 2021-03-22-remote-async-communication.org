@@ -1,0 +1,286 @@
+#+TITLE:       La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto
+#+AUTHOR:      Snir David
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-03-22 23:37
+
+
+En la búsqueda sobre mejores maneras de trabajar remotamente me encontré
+con un excelente /post/ sobre las bondades de la /**Comunicación
+Asincrónica Escrita**/, nada que no supiéramos, pero el análisis, la
+comparativa con la comunicación sincrónica y las conclusiones son casi
+irrefutables!
+
+Hice una burda traducción del artículo original, si no se toman 5
+minutos en leerlo, el resumen es: menos =mattermost= [fn:mattermost] y
+=jitsi= [fn:jitsi] y mas =redmine= [fn:redmine] =:P=
+
+Obviamente, no es un desafío individual, sino una una puesta en común en
+cada equipo.
+
+** La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto
+
+Fuente: https://snir.dev/blog/remote-async-communication/
+
+Actualización: una discusión interesante sobre esto comenzó en
+/=hackernews=/ [fn:hackernews]
+
+El entorno de trabajo remoto es diferente al de la oficina. Diferentes
+entornos requieren diferentes sistemas de comunicación. Un sistema de
+comunicación que se adapte a la realidad del trabajo remoto puede
+obtener beneficios sorprendentes: (incluso) una mejor productividad, una
+ventaja competitiva a largo plazo y un mejor equilibrio entre la vida
+laboral y personal.
+
+La comunicación escrita asincrónica es la herramienta más adecuada para
+el trabajo remoto. Estamos tan acostumbrados a hablar entre nosotros en
+la oficina, esperando respuestas inmediatas en el chat de trabajo y
+teniendo reuniones todo el día, que tratamos de replicar eso en casa con
+zoom y slack.
+
+Escribir el uno al otro en slack mientras esperan respuestas inmediatas,
+o configurar múltiples reuniones de zoom todos los días fallará con el
+trabajo remoto a largo plazo.
+
+** Los chats y las videollamadas son problemáticos.
+
+El uso de chats sincrónicos como /Slack/ o /Teams/ de /Microsoft/ no es
+como hablar con un compañero de equipo que se sienta a tu lado:
+
+- Es más difícil de iniciar. Cuando es un compañero de equipo a tu lado,
+  solo hablar es mucho más fácil que escribir una pregunta. Esto lleva a
+  que se arrastre algo rápido y fácil más de lo necesario porque el
+  compañero de equipo primero intentará resolverlo por sí mismo.
+
+- Es muy fácil de iniciar. Cuando se trata de alguien de un departamento
+  diferente, en la oficina, generalmente, primero consultará con sus
+  propios compañeros de equipo. Pero ahora, es tan fácil ir directamente
+  a la fuente. Entonces recibirás /spam/.
+
+- Todos esperan una respuesta inmediata. Es un chat. Está diseñado para
+  darnos la sensación de urgencia. Incluso cuando no es realmente
+  urgente.
+
+- Perderás tu historia. Incluso si inviertes tiempo en explicar un
+  concepto de la compañía a alguien en el chat, no se guarda en ningún
+  lugar de manera organizada o reconocible. Se perderá en los registros
+  de chat. Muy pronto, te encontrarás explicando las mismas cosas
+  nuevamente.
+
+- Promueve el secreto. Las personas son naturalmente tímidas y prefieren
+  no mostrar "debilidad" a otros compañeros de equipo. Por lo tanto,
+  mantendrán sus preguntas y actualizaciones principalmente en chats
+  privados o salas privadas.
+
+** Las videoconferencias también son problemáticas:
+
+- Solo una persona puede hablar a la vez. En realidad, más de uno puede
+  hablar y aún todos podrán entender. Esta es una limitación de
+  software.
+
+- No hay conversaciones paralelas. En realidad, en grandes reuniones,
+  puede susurrar algo a un subgrupo de personas de la reunión. No puedes
+  hacer esto en videoconferencias.
+
+- Todo esto lleva a reuniones de video que se sienten más como una
+  conferencia. Una discusión verdadera es más difícil de facilitar
+  (aunque no imposible).
+
+- Las videollamadas son cansadoras. La cámara está enfocada en tu cara y
+  todos te ven todo el tiempo. No puedes perder el enfoque o alejarte
+  para descansar un poco.
+
+** La comunicación sincrónica es problemática.
+
+Incluso si descartamos las herramientas específicas de los chats y las
+videollamadas, todavía tenemos los problemas subyacentes de la
+comunicación sincrónica. Es decir, comunicación que espera que los otros
+participantes respondan dentro de un período de tiempo muy limitado.
+
+Tener esa expectativa promueve la mala cultura laboral y limita su
+flexibilidad.
+
+Cuando se espera que todos estén disponibles en cualquier momento, el
+costo de interrumpir a alguien y obtener una respuesta inmediata es
+menor que buscar una respuesta usted mismo. Ya sea en la documentación
+de terceros o en la documentación interna de la empresa.
+
+Es decir, si existe documentación interna. Cuando todos esperan que se
+les pregunte sobre las cosas de todos modos, ¿por qué hacer el esfuerzo
+de documentar algo adecuadamente?
+
+La planificación es otro culpable. La mayoría de las personas no pasarán
+por una planificación exhaustiva adecuada de sus tareas antes de tiempo.
+Preferirán definir el objetivo final y descubrir problemas y detalles a
+medida que avanzan. Saben que nunca se estancarán, las personas
+responderán sus preguntas a tiempo.
+
+Esto crea una cultura de interrupciones en la organización. Se alimenta
+tan profundamente que la organización realmente no puede funcionar sin
+interrupción. Dado que la organización en su conjunto depende de eso, se
+convierte en parte de la cultura. Una vez que tenga una cultura de
+interrupciones, incluso el mejor comunicador del mundo no podrá
+cambiarla.
+
+La flexibilidad del tiempo de trabajo también se romperá. Dado que todos
+dependen de que todos estén disponibles para las interrupciones dentro
+del día laboral, usted tiene un día laboral.
+
+Debe estar sincronizado acerca de sus horarios de trabajo con todos los
+demás. Por lo tanto, renuncia a la capacidad de flexibilidad de tiempo
+de trabajo real.
+
+¿Trabajando desde casa y soñando con recoger a sus hijos al mediodía,
+pasar el rato con ellos y volver a trabajar más tarde en la noche?
+Olvídalo. Te quedarás atrapado en algo muy rápido y nadie estará allí
+para ti. Sin mencionar que atrapará a sus colegas ya que no responderá
+sus preguntas por la tarde.
+
+El control remoto real también está fuera de discusión. Realmente no
+puede tener miembros del equipo de EE.UU., Europa e India juntos cuando
+necesita que todos estén disponibles al mismo tiempo.
+
+** La escritura asincrónica puede resolver esto
+
+Escribir intencionalmente para la comunicación asincrónica puede
+resolver todos los problemas mencionados anteriormente.
+
+La escritura asincrónica es diferente de los mensajes de chat. Vive más
+tiempo, se dirige a un público más potencial y es fácil de descubrir.
+
+Para vivir más tiempo, el texto debe ser consciente de un contexto de
+grupo de lectores más amplio. Cuando los chats a menudo consideran solo
+uno o dos lectores que tienen el contexto para entender de qué hablas,
+el texto de larga vida debe considerar a todo el grupo de lectores
+potenciales. Ahora y en algún momento en el futuro.
+
+Para que el texto viva más tiempo y se dirija a un público más amplio,
+debe asumir un contexto de lector menos existente. Los mensajes de chat
+se dirigen a uno / dos lectores, en un momento específico. Por lo tanto,
+suponen que esos lectores tienen el contexto actual que les será claro
+específicamente.
+
+La escritura asincrónica no asume un contexto de persona específico ni
+asume conocimiento de eventos "actuales". Sorprendentemente, eso no
+necesariamente hace que el texto sea más largo o más difícil de
+escribir.
+
+Como ejemplo, consideramos un escenario en el que tenemos un problema de
+/DB/ en nuestro equipo en el que la instancia de /MySQL/ falla
+ocasionalmente debido a errores de falta de memoria. Escribiendo solo
+para su equipo, ellos saben cuál es el problema ahora y qué /DB/ es.
+
+Otros, pueden no saber qué /DB/ tiene el problema (digamos que también
+usa /mongodb/ en alguna parte), no saben cuál es el problema.
+
+Un mensaje suficiente para el contexto del chat que no durará mucho
+tiempo podría ser: "Arreglaré la base de datos hoy". El texto asíncrono
+equivalente será registrar el problema en un sistema, márquelo como
+"trabajando en ello" por hoy con el texto "Problema de falta de memoria
+de /MySQL/".
+
+El texto no es más largo, sin embargo, tiene todo el contexto que
+cualquier persona ajena podría necesitar para comprender lo que está
+sucediendo sin la necesidad de contactar a nadie para preguntar "¿En qué
+/DB/ tenemos un problema?" "¿Cual es el problema?" "¿Desde cuándo lo
+sabemos?" "¿Quién está en eso?" etcétera etcétera'.
+
+#+CAPTION: Ejemplo Chat vs Comunicación Asincrónica
+[[file:img/async_chat_example.png]]
+
+La capacidad de descubrimiento es la siguiente parte esencial de este
+sistema de comunicación. Necesita que sus escritos sean fácilmente
+reconocibles para todos los que puedan necesitarlos en el futuro.
+
+Confiar en la búsqueda de texto completo generalmente no es una buena
+idea. Necesita un sistema de organización en su lugar. ¿A dónde va la
+descripción de tareas? ¿Dónde van los documentos de diseño del sistema?
+¿Todos viven en un lugar o por proyecto? ¿O tal vez por departamento en
+grandes organizaciones?
+
+Cada empresa tiene algún tipo de sistema, generalmente guiado por su
+intercambio de conocimientos también. Ya sea /Jira/, /Basecamp/,
+/Monday/ o cualquier otra cosa. Solo tiene que asegurarse de que el
+sistema sea consistente y lo suficientemente ajustado como para que las
+personas nuevas en un proyecto puedan descubrir todo lo que necesitan.
+
+Tomando el ejemplo del problema de /MySQL/ aquí también, digamos que un
+nuevo miembro del equipo obtiene la tarea. La tarea está marcada con las
+etiquetas "base de datos", "infraestructura". Puede seguir la etiqueta
+de "base de datos" para encontrar tareas pasadas recientes realizadas,
+para ver si hay sospechosos obvios.
+
+No encuentra ninguno, por lo que decide verificar si algún analista de
+datos hizo algo espeluznante. Él va a la lista de tareas de los equipos
+de analistas de datos, encuentra la etiqueta "nuevo tablero". Parecen
+una gran ventaja, encuentra que una nueva tarea en el tablero se realizó
+el día que comenzó el problema.
+
+Ahora necesita revisar este tablero, pero usa un sistema de
+visualización con el que no está familiarizado. Se dirige a la wiki del
+equipo de datos, donde encuentra un documento sobre "cómo usamos nuestro
+sistema de visualización". Establece sus credenciales y entra a explorar
+las consultas.
+
+Ya ves a dónde voy con eso. Cuando todo es fácilmente accesible y obvio,
+puede concentrarse en la tarea misma sin interrumpir el flujo. Imagine
+un escenario en el que en cada paso tendría que detenerse y preguntarle
+a alguien:
+
+- Josh de mi equipo: "Oye, ¿alguien le hizo algo al /DB/ recientemente?"
+
+- Dani del equipo de datos: "Oye, ¿lanzaste o cambiaste alguna consulta
+  pesada recientemente?"
+
+- Ramón de la infraestructura de datos: "Oye, ¿cómo usamos nuestra
+  herramienta de visualización para editar un tablero?"
+
+En este caso, depende de que otros estén disponibles y recuerden todas
+las respuestas. Su flujo se interrumpe constantemente sin ninguna forma
+de progresar antes de obtener respuestas. No puede concentrarse en un
+horario de trabajo flexible, porque debe tener todos los miembros del
+equipo constantemente disponibles.
+
+** Conclusión
+
+En este ensayo describí por qué, en mi opinión, la comunicación
+sincrónica, como solíamos hacer desde la oficina, no es óptima para el
+control remoto. Luego demostré cómo la comunicación asincrónica a través
+de la escritura puede solucionar la mayoría de los culpables de la
+comunicación sincrónica.
+
+- La comunicación sincrónica mientras que la remota depende de chats y
+  videollamadas, ambas son herramientas de comunicación inferiores que
+  intentan imitar las conversaciones de la oficina. Pero no lo son.
+
+- La comunicación sincrónica es agotadora, repetitiva y elimina la
+  mayoría de los beneficios del trabajo remoto (como horarios flexibles,
+  contratación de todo el mundo, etc.)
+
+- La comunicación asincrónica permite el autodescubrimiento sin
+  interrupciones:
+
+  - Puede seguir fluyendo sin esperar que alguien le brinde detalles
+
+  - Puede entrar en una sesión de "enfoque profundo" sin cambiar de
+    contexto, lo que permite una mejor productividad
+
+  - Puedes trabajar siempre que no dependas de nadie inmediatamente
+
+La comunicación asíncrona preserva mejor el conocimiento de la empresa:
+
+- Has escrito registros de todo
+
+- Los tutoriales y guías se perfeccionan constantemente, por lo que las
+  personas no perderán el tiempo en lo mismo dos veces
+
+- Tiene un lugar para el conocimiento a través de la escritura, en lugar
+  del conocimiento privado en llamadas privadas o sala de chat que se
+  pierde poco después
+
+[fn:mattermost] https://mattermost.com/
+[fn:jitsi]      https://jitsi.org/
+[fn:redmine]    https://www.redmine.org/
+[fn:hackernews] https://news.ycombinator.com/item?id=23577228
