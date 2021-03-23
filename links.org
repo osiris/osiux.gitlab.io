@@ -46,6 +46,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 [[file:links.org::#+crypto][=+crypto=]] 
 [[file:links.org::#+css][=+css=]] 
 [[file:links.org::#+csv][=+csv=]] 
+[[file:links.org::#+cups][=+cups=]] 
 [[file:links.org::#+curl][=+curl=]] 
 [[file:links.org::#+CVE][=+CVE=]] 
 [[file:links.org::#+cyberpunk][=+cyberpunk=]] 
@@ -93,6 +94,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 [[file:links.org::#+jitsi][=+jitsi=]] 
 [[file:links.org::#+js][=+js=]] 
 [[file:links.org::#+json][=+json=]] 
+[[file:links.org::#+k8s][=+k8s=]] 
 [[file:links.org::#+kernel][=+kernel=]] 
 [[file:links.org::#+ldap][=+ldap=]] 
 [[file:links.org::#+leak][=+leak=]] 
@@ -117,6 +119,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 [[file:links.org::#+org][=+org=]] 
 [[file:links.org::#+os][=+os=]] 
 [[file:links.org::#+outage][=+outage=]] 
+[[file:links.org::#+p2p][=+p2p=]] 
 [[file:links.org::#+packages][=+packages=]] 
 [[file:links.org::#+papers][=+papers=]] 
 [[file:links.org::#+pcb][=+pcb=]] 
@@ -146,6 +149,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 [[file:links.org::#+review][=+review=]] 
 [[file:links.org::#+rf][=+rf=]] 
 [[file:links.org::#+rss][=+rss=]] 
+[[file:links.org::#+rsync][=+rsync=]] 
 [[file:links.org::#+rules][=+rules=]] 
 [[file:links.org::#+rust][=+rust=]] 
 [[file:links.org::#+sat][=+sat=]] 
@@ -183,6 +187,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 [[file:links.org::#+voip][=+voip=]] 
 [[file:links.org::#+vote][=+vote=]] 
 [[file:links.org::#+vpn][=+vpn=]] 
+[[file:links.org::#+wayland][=+wayland=]] 
 [[file:links.org::#+web][=+web=]] 
 [[file:links.org::#+wifi][=+wifi=]] 
 [[file:links.org::#+win][=+win=]] 
@@ -194,36 +199,36 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 [[file:links.org::#+yaml][=+yaml=]] 
 
 ** Recents links
-*** =2021-02-25= [[https://writepermission.com/org-blogging-unfurling-links.html][Org mode blogging: Unfurling links]] [[file:links.org::#+org][=+org=]]
-*** =2021-02-25= [[https://blainsmith.com/articles/reverting-back-to-a-simpler-time/][Reverting Back to a Simpler Time]] [[file:links.org::#+org][=+org=]]
-*** =2021-02-25= [[https://blainsmith.com/articles/plain-text-protocols/][Plain Text Protocols]] [[file:links.org::#+txt][=+txt=]]
-*** =2021-02-24= [[https://wereturtle.github.io/ghostwriter/][ghostwriter]] [[file:links.org::#+md][=+md=]]
-*** =2021-02-23= [[http://www.righto.com/2021/02/an-ibm-1401-mainframe-computer-at.html?m=1][Booting the IBM 1401: How a 1959 punch-card computer loads a program]] [[file:links.org::#+retro][=+retro=]]
-*** =2021-02-23= [[https://www.nongnu.org/autocutsel/][autocutsel]] [[file:links.org::#+x11][=+x11=]]
-*** =2021-02-23= [[https://nigeltao.github.io/blog/2021/json-with-commas-comments.html][JSON With Commas and Comments | nigeltao.github.io]] [[file:links.org::#+json][=+json=]]
-*** =2021-02-23= [[https://mikkel.ca/blog/git-is-my-buddy-effective-solo-developer/][Mikkel Paulson]] [[file:links.org::#+git][=+git=]]
-*** =2021-02-23= [[https://github.com/liamg/traitor][Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins]] [[file:links.org::#+exploit][=+exploit=]]
-*** =2021-02-23= [[https://free-for.dev/#/][Free for developers]] [[file:links.org::#+dev][=+dev=]]
-*** =2021-02-23= [[https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/][Firefox 86 Introduces Total Cookie Protection - Mozilla Security Blog]] [[file:links.org::#+firefox][=+firefox=]]
-*** =2021-02-21= [[https://www.redahmeid.com/blog/just-say-no-to-versioning][Just say no - to versioning APIs - Reda]] [[file:links.org::#+dev][=+dev=]]
-*** =2021-02-21= [[https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/][◉ Things You Should Do Now]] [[file:links.org::#+dev][=+dev=]]
-*** =2021-02-21= [[https://microship.com/consoles/][The Consoles of my Life - Nomadic Research Labs]] [[file:links.org::#+archive][=+archive=]]
-*** =2021-02-21= [[https://lkml.org/lkml/1996/5/12/136][LKML: Linus Torvalds: Re: Linux Logo]] [[file:links.org::#+linux][=+linux=]]
-*** =2021-02-21= [[https://blogs.gentoo.org/mgorny/2021/02/19/the-modern-packagers-security-nightmare/][The modern packager&#8217;s security nightmare - Michał Górny]] [[file:links.org::#+security][=+security=]]
-*** =2021-02-21= ftp://rock.pungas.space/BBS-DEMOSCENE.ARGENTINA/ATDT/ATDT0x01.zip [[file:links.org::#+ezine][=+ezine=]]
-*** =2021-02-18= [[https://texto-plano.xyz/historia-tilde.html][Historia de los servidores tilde y los servidores UNIX de acceso público]] [[file:links.org::#+unix][=+unix=]]
-*** =2021-02-17= [[https://graydon2.dreamwidth.org/193447.html][graydon2 | always bet on text]] [[file:links.org::#+readme][=+readme=]]
-*** =2021-02-17= [[https://alpercinar.com/open-cell-id/][Cell Tower Distribution]] [[file:links.org::#+viz][=+viz=]]
-*** =2021-02-17= http://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/ [[file:links.org::#+sql][=+sql=]]
-*** =2021-02-15= [[https://tanelpoder.com/posts/reasons-why-select-star-is-bad-for-sql-performance/][Reasons why SELECT * is bad for SQL performance | Tanel Poder Consulting]] [[file:links.org::#+sql][=+sql=]]
-*** =2021-02-15= [[https://sudolabs.io/blog/automated-release-process-for-lerna-monorepo][Automated release process for (Lerna) monorepo]] [[file:links.org::#+git][=+git=]]
-*** =2021-02-15= [[https://ruffle.rs/][Ruffle | Flash Player emulator written in the Rust programming language]] [[file:links.org::#+retro][=+retro=]]
-*** =2021-02-15= [[https://mrkaran.dev/posts/home-server-nomad/][Karan Sharma | Running Nomad for home server]] [[file:links.org::#+docker][=+docker=]]
-*** =2021-02-15= [[https://github.com/rahulunair/repo-peek][open a remote repo locally quickly]] [[file:links.org::#+git][=+git=]]
-*** =2021-02-15= [[https://github.com/dkaslovsky/textnote][Simple tool for creating and organizing daily notes on the command line]] [[file:links.org::#+tty][=+tty=]]
-*** =2021-02-13= [[https://www.svgrepo.com/][SVG Repo - Free SVG Vectors and Icons]] [[file:links.org::#+svg][=+svg=]]
-*** =2021-02-13= [[https://wiki.404.city/en/XMPP_client_encryption#Comparison_OMEMO_vs_PGP_vs_OTR][XMPP client encryption - WIKI]] [[file:links.org::#+crypto][=+crypto=]]
-*** =2021-02-13= https://landley.net/writing/memory-faq.txt [[file:links.org::#+linux][=+linux=]]
+*** =2021-03-22= [[https://www.reddit.com/r/sysadmin/comments/ma4mwl/the_absolute_worst_case_scenario_happened_what][The absolute worst case scenario happened, what should we do now? : sysadmin]] [[file:links.org::#+sysadmin][=+sysadmin=]]
+*** =2021-03-22= [[https://wiki.archlinux.org/index.php/CUPS/Troubleshooting][CUPS/Troubleshooting - ArchWiki]] [[file:links.org::#+cups][=+cups=]]
+*** =2021-03-22= [[https://github.com/pemistahl/grex][A command-line tool and library for generating regular expressions from user-provided test cases]] [[file:links.org::#+regex][=+regex=]]
+*** =2021-03-22= [[https://fedoraproject.org/wiki/How_to_debug_printing_problems][How to debug printing problems - Fedora Project Wiki]] [[file:links.org::#+cups][=+cups=]]
+*** =2021-03-22= [[https://blog.mozilla.org/security/2021/03/22/firefox-87-trims-http-referrers-by-default-to-protect-user-privacy/][Firefox 87 trims HTTP Referrers by default to protect user privacy - Mozilla Security Blog]] [[file:links.org::#+firefox][=+firefox=]]
+*** =2021-03-21= [[https://training.kalzumeus.com/newsletters/archive/do-not-end-the-week-with-nothing][Don't End The Week With Nothing]] [[file:links.org::#+org][=+org=]]
+*** =2021-03-21= [[https://ottverse.com/eme-cenc-cdm-aes-keys-drm-digital-rights-management/][EME, CDM, AES, CENC, and Keys - The Essential Building Blocks of DRM - OTTVerse]] [[file:links.org::#+drm][=+drm=]]
+*** =2021-03-21= [[https://matteoguadrini.github.io/posts/a-switch-story/][A Switch Story - Matteo Guadrini's blog]] [[file:links.org::#+python][=+python=]]
+*** =2021-03-21= [[https://github.com/gaogaotiantian/viztracer][VizTracer is a low-overhead logging/debugging/profiling tool that can trace and visualize your python code execution.]] [[file:links.org::#+python][=+python=]]
+*** =2021-03-21= [[https://files.awknode.com/zines/][awknode - Files]] [[file:links.org::#+ezine][=+ezine=]]
+*** =2021-03-21= [[https://bofh.org.uk/2019/02/25/baking-with-emacs/][Running a bakery on Emacs and PostgreSQL // Just a Summary]] [[file:links.org::#+emacs][=+emacs=]]
+*** =2021-03-20= [[https://github.com/python-cmd2/cmd2][cmd2 - quickly build feature-rich and user-friendly interactive command line applications in Python]] [[file:links.org::#+python][=+python=]]
+*** =2021-03-18= [[https://mbuffett.com/posts/kubernetes-setup/][Unironically Using Kubernetes for my Personal Blog :: A blog — Just a blog]] [[file:links.org::#+k8s][=+k8s=]]
+*** =2021-03-18= [[https://github.com/Overv/outrun][Execute a local command using the processing power of another Linux machine.]] [[file:links.org::#+ssh][=+ssh=]]
+*** =2021-03-18= [[https://enes.in/sorted-colors/][Sorted CSS Colors]] [[file:links.org::#+css][=+css=]]
+*** =2021-03-18= [[https://console.dev/qa/rsync-john-kozubik/][Q&amp;A with John Kozubik, rsync.net - Console]] [[file:links.org::#+rsync][=+rsync=]]
+*** =2021-03-17= [[https://about.gitlab.com/blog/2021/02/18/improve-your-gitlab-productivity-with-these-10-tips/][10 tips to make you a productive GitLab user | GitLab]] [[file:links.org::#+gitlab][=+gitlab=]]
+*** =2021-03-14= [[https://queue.acm.org/detail.cfm?id=3454124][The SPACE of Developer Productivity - ACM Queue]] [[file:links.org::#+dev][=+dev=]]
+*** =2021-03-14= [[https://github.com/Hacking-the-Cloud/hackingthe.cloud][Content for hackingthe.cloud]] [[file:links.org::#+hack][=+hack=]]
+*** =2021-03-14= [[https://github.com/GorvGoyl/Clone-Wars][100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.]] [[file:links.org::#+tools][=+tools=]]
+*** =2021-03-12= [[https://www.backblaze.com/blog/easy-storage-easy-provisioning-backblaze-is-now-a-terraform-provider/][Easy Storage + Easy Provisioning: Backblaze Is Now a Terraform Provider]] [[file:links.org::#+terraform][=+terraform=]]
+*** =2021-03-12= [[https://github.com/alevchuk/vim-clutch][A hardware pedal for improved text editing in Vim]] [[file:links.org::#+vim][=+vim=]]
+*** =2021-03-11= [[https://tinyprojects.dev/projects/mailoji][Mailoji: I bought 300 emoji domain names from Kazakhstan and built an email service | Tiny Projects]] [[file:links.org::#+isp][=+isp=]]
+*** =2021-03-11= [[https://blog.aaronbieber.com/2015/05/24/from-vim-to-emacs-in-fourteen-days.html][From Vim to Emacs in Fourteen Days - The Chronicle]] [[file:links.org::#+emacs][=+emacs=]]
+*** =2021-03-11= [[https://asahilinux.org/2021/03/progress-report-january-february-2021/][Progress Report: January / February 2021 - Asahi Linux]] [[file:links.org::#+linux][=+linux=]]
+*** =2021-03-11= [[http://paulgraham.com/simply.html][Write Simply]] [[file:links.org::#+org][=+org=]]
+*** =2021-03-10= [[https://www.worldofbs.com/why-documentation-sucks/][Why Your Company's Documentation Sucks | World of BS]] [[file:links.org::#+org][=+org=]]
+*** =2021-03-10= [[https://www.openwall.com/lists/oss-security/2021/03/09/3][oss-security - git: malicious repositories can execute remote code while cloning]] [[file:links.org::#+CVE][=+CVE=]]
+*** =2021-03-10= [[https://www.fosskers.ca/en/blog/wayland][Colin Woodbury]] [[file:links.org::#+wayland][=+wayland=]]
+*** =2021-03-10= [[https://ungleich.ch/u/blog/ungleich-tech-talk-3-nat64-introduction/][An Introduction to NAT64 | ungleich.ch]] [[file:links.org::#+sysadmin][=+sysadmin=]]
 
 ** =+3d=
    :PROPERTIES:
@@ -248,6 +253,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-12-01= [[https://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html][Introduction - Computer Graphics from scratch - Gabriel Gambetta]]
 *** =2021-01-19= [[https://mattferraro.dev/posts/cnc-router][Anatomy of a CNC Router]]
 *** =2021-01-21= [[https://github.com/zalo/CascadeStudio][A Full Live-Scripted CAD Kernel in the Browser]]
+*** =2021-03-10= [[https://octoprint.org/][OctoPrint.org]]
 ** =+accesibility=
    :PROPERTIES:
    :CUSTOM_ID: +accesibility
@@ -335,6 +341,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-20= [[https://nixintel.info/osint-tools/make-your-own-internet-archive-with-archive-box/][Make Your Own Internet Archive With ArchiveBox - NixIntel]]
 *** =2021-02-13= [[https://anders.unix.se/2015/12/10/screenshots-from-developers--2002-vs.-2015/][Screenshots from developers: 2002 vs. 2015]]
 *** =2021-02-21= [[https://microship.com/consoles/][The Consoles of my Life - Nomadic Research Labs]]
+*** =2021-03-02= [[https://archive.org/details/jonah-edwards-presentation][Jonah Edwards - Internet Archive Infrastructure : Free Download, Borrow, and Streaming : Internet Archive]]
 ** =+asciiart=
    :PROPERTIES:
    :CUSTOM_ID: +asciiart
@@ -366,6 +373,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-12-20= [[https://github.com/keredson/chimes/blob/main/README.md][chimes/README.md at main Â· keredson/chimes Â· GitHub]]
 *** =2020-12-25= [[https://pomax.github.io/arduino-midi-recorder/][Creating a MIDI pass-through recorder | arduino-midi-recorder]]
 *** =2021-02-07= [[https://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/Developer/AccessControl/][AccessControl]]
+*** =2021-03-03= [[https://lwn.net/SubscriberLink/847412/d7826b1353e33734/][PipeWire: The Linux audio/video bus LWN.net]]
 ** =+autofs=
    :PROPERTIES:
    :CUSTOM_ID: +autofs
@@ -446,6 +454,8 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-08= [[https://eklitzke.org/using-local-optind-with-bash-getopts][Using Local OPTIND With Bash getopts]]
 *** =2021-01-28= [[https://www.thanassis.space/bashheimer.html][What am I running inside my bash?]]
 *** =2021-02-06= [[http://jesrui.sdf-eu.org/remember-all-your-bash-history-forever.html][Remember all your bash history forever]]
+*** =2021-02-27= [[https://github.com/lmorg/murex][Bash-like $SHELL designed for greater commandline productivity and safer shell scripts]]
+*** =2021-03-02= [[https://github.com/pgrange/bash_unit][bash unit testing enterprise edition framework for professionals]]
 ** =+bgp=
    :PROPERTIES:
    :CUSTOM_ID: +bgp
@@ -592,6 +602,9 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-21= [[http://0pointer.net/blog/unlocking-luks2-volumes-with-tpm2-fido2-pkcs11-security-hardware-on-systemd-248.html][Unlocking LUKS2 volumes with TPM2, FIDO2, PKCS#11 Security Hardware on systemd 248]]
 *** =2021-01-28= [[https://syscall.eu/blog/2018/03/12/aigo_part1/][Aigo Chinese encrypted HDD − Part 1: taking it apart . Bof. Another blog.]]
 *** =2021-02-13= [[https://wiki.404.city/en/XMPP_client_encryption#Comparison_OMEMO_vs_PGP_vs_OTR][XMPP client encryption - WIKI]]
+*** =2021-03-04= [[https://blog.gtank.cc/modern-alternatives-to-pgp/][Modern Alternatives to PGP]]
+*** =2021-03-04= [[https://sweis.medium.com/did-schnorr-destroy-rsa-show-me-the-factors-dcb1bb980ab0][Did Schnorr destroy RSA? Show me the factors. | by Steve Weis | Mar, 2021 | Medium]]
+*** =2021-03-09= [[https://www.schneier.com/blog/archives/2021/03/no-rsa-is-not-broken.html][No, RSA Is Not Broken - Schneier on Security]]
 ** =+css=
    :PROPERTIES:
    :CUSTOM_ID: +css
@@ -620,12 +633,20 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-07-24= [[https://github.com/chowderman/Hacker95][Style Hacker News like its Windows 95]]
 *** =2020-08-16= [[https://www.gradientmagic.com/][Gradient Magic - Fantastic and Unique CSS Gradients]]
 *** =2020-11-25= [[https://github.com/joe-bell/plaiceholder][Beautiful image placeholders, without the hassle ð¼]]
+*** =2021-03-18= [[https://enes.in/sorted-colors/][Sorted CSS Colors]]
 ** =+csv=
    :PROPERTIES:
    :CUSTOM_ID: +csv
    :END:
 *** =2020-01-01= [[https://www.johndcook.com/blog/2019/12/31/sql-join-csv-files/][Doing a SQL join with CSV files with xsv]]
 *** =2020-05-16= [[http://thomasburette.com/blog/2014/05/25/so-you-want-to-write-your-own-CSV-code/][So You Want To Write Your Own CSV code? . Thomas Burette]]
+** =+cups=
+   :PROPERTIES:
+   :CUSTOM_ID: +cups
+   :END:
+*** =2020-10-25= [[https://github.com/OpenPrinting/cups][OpenPrinting CUPS Sources (Apple CUPS + common patches)]]
+*** =2021-03-22= [[https://fedoraproject.org/wiki/How_to_debug_printing_problems][How to debug printing problems - Fedora Project Wiki]]
+*** =2021-03-22= [[https://wiki.archlinux.org/index.php/CUPS/Troubleshooting][CUPS/Troubleshooting - ArchWiki]]
 ** =+curl=
    :PROPERTIES:
    :CUSTOM_ID: +curl
@@ -633,6 +654,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2019-09-03= [[https://catonmat.net/cookbooks/curl][Curl Cookbook]]
 *** =2019-11-10= [[https://arp242.net/curl-to-sh.html][Curl to shell isn’t so bad]]
 *** =2020-12-10= [[https://www.idontplaydarts.com/2016/04/detecting-curl-pipe-bash-server-side/][Detecting the use of "curl | bash" server side | Application Security]]
+*** =2021-03-09= [[https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html#][Why software projects take longer than you think: a statistical model . Erik Bernhardsson]]
 ** =+CVE=
    :PROPERTIES:
    :CUSTOM_ID: +CVE
@@ -656,6 +678,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-20= [[https://github.com/linuxmint/cinnamon-screensaver/issues/354][Screensaver lock by-pass via the virtual keyboard · Issue #354 · linuxmint/cinnamon-screensaver · GitHub]]
 *** =2021-01-28= [[https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3156][CVE - CVE-2021-3156]]
 *** =2021-02-06= [[https://github.com/opencve/opencve][CVE Alerting Platform]]
+*** =2021-03-10= [[https://www.openwall.com/lists/oss-security/2021/03/09/3][oss-security - git: malicious repositories can execute remote code while cloning]]
 ** =+cyberpunk=
    :PROPERTIES:
    :CUSTOM_ID: +cyberpunk
@@ -726,7 +749,8 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2019-04-05= [[http://reportmill.com/snaptea/RM15/][RMStudio Online - page layout and report design]]
 *** =2019-04-05= [[https://computinged.wordpress.com/2019/02/04/inverse-live-coding-a-practice-for-teaching-web-development/][Inverse Live Coding: A practice for learning web development | Computing Education Research Blog]]
 *** =2019-04-13= [[https://thorstenball.com/blog/2019/04/09/learn-more-programming-languages/][Learn more programming languages, even if you won't use them - Thorsten Ball]]
-*** =2019-04-16= [[https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html][Why software projects take longer than you think: a statistical model . Erik Bernhardsson]]
+*** =2019-04-16= [[https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html][Why software projects take longer than you think: a statistical model . Erik Bernhardsson
+Why software projects take longer than you think: a statistical model . Erik Bernhardsson]]
 *** =2019-04-29= [[https://github.com/area9innovation/flow9/][Platform for safe, easy and productive programming of complex, multi-platform apps with a modern user interface]]
 *** =2019-05-06= [[http://acypher.com/wwid/WWIDToC.html][Watch What I Do: Table of Contents]]
 *** =2019-05-08= [[https://www.twilio.com/blog/a-http-headers-for-the-responsible-developer][HTTP headers for the responsible developer - Twilio]]
@@ -851,6 +875,8 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-02-21= [[https://secure.phabricator.com/book/phabflavor/article/things_you_should_do_now/][◉ Things You Should Do Now]]
 *** =2021-02-21= [[https://www.redahmeid.com/blog/just-say-no-to-versioning][Just say no - to versioning APIs - Reda]]
 *** =2021-02-23= [[https://free-for.dev/#/][Free for developers]]
+*** =2021-03-09= [[https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html#][Why software projects take longer than you think: a statistical model . Erik Bernhardsson]]
+*** =2021-03-14= [[https://queue.acm.org/detail.cfm?id=3454124][The SPACE of Developer Productivity - ACM Queue]]
 *** =2020-05-01= [[https://github.com/openshift/odo][odo - Developer-focused CLI for OpenShift and Kubernetes]]
 *** =2020-07-13= [[https://devopsnewsletters.com/][DevOps Newsletters]]
 *** =2020-07-20= [[https://medium.com/@copyconstruct/post-commit-reviews-b4cc2163ac7a][Post-Commit Reviews. I recently read an excellent article inâ¦ | by Cindy Sridharan | Jul, 2020 | Medium]]
@@ -970,6 +996,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
    :CUSTOM_ID: +drm
    :END:
 *** =2019-04-04= [[https://www.bbc.com/news/technology-47810367][Microsoft's eBook store: When this closes, your books disappear too - BBC News]]
+*** =2021-03-21= [[https://ottverse.com/eme-cenc-cdm-aes-keys-drm-digital-rights-management/][EME, CDM, AES, CENC, and Keys - The Essential Building Blocks of DRM - OTTVerse]]
 ** =+drupal=
    :PROPERTIES:
    :CUSTOM_ID: +drupal
@@ -994,6 +1021,9 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-12-08= [[https://emacsconf.org/2020/talks/][EmacsConf - 2020 - Talks]]
 *** =2020-12-16= [[https://github.com/nobiot/Zero-to-Emacs-and-Org-roam][Step by step guide from zero to installing and setting up Emacs and Org-roam on Windows 10]]
 *** =2021-01-19= [[https://github.com/Boruch-Baum/emacs-crossword][Play/Download crossword puzzles in Emacs]]
+*** =2021-03-10= [[http://ehneilsen.net/notebook/orgExamples/org-examples.html][Emacs org-mode examples and cookbook]]
+*** =2021-03-11= [[https://blog.aaronbieber.com/2015/05/24/from-vim-to-emacs-in-fourteen-days.html][From Vim to Emacs in Fourteen Days - The Chronicle]]
+*** =2021-03-21= [[https://bofh.org.uk/2019/02/25/baking-with-emacs/][Running a bakery on Emacs and PostgreSQL // Just a Summary]]
 ** =+env=
    :PROPERTIES:
    :CUSTOM_ID: +env
@@ -1021,6 +1051,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
    :CUSTOM_ID: +ezine
    :END:
 *** =2021-02-21= ftp://rock.pungas.space/BBS-DEMOSCENE.ARGENTINA/ATDT/ATDT0x01.zip
+*** =2021-03-21= [[https://files.awknode.com/zines/][awknode - Files]]
 ** =+filesystem=
    :PROPERTIES:
    :CUSTOM_ID: +filesystem
@@ -1053,6 +1084,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-12-16= [[https://www.ianbicking.org/blog/2020/11/firefox-was-always-enough.html][Firefox Was AlwaysÂ Enough]]
 *** =2021-01-01= [[https://omar.website/tabfs/][TabFS]]
 *** =2021-02-23= [[https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/][Firefox 86 Introduces Total Cookie Protection - Mozilla Security Blog]]
+*** =2021-03-22= [[https://blog.mozilla.org/security/2021/03/22/firefox-87-trims-http-referrers-by-default-to-protect-user-privacy/][Firefox 87 trims HTTP Referrers by default to protect user privacy - Mozilla Security Blog]]
 ** =+firejail=
    :PROPERTIES:
    :CUSTOM_ID: +firejail
@@ -1177,6 +1209,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-08-06= [[https://github.com/profclems/glab][A custom Gitlab Cli tool written in Go (golang)]]
 *** =2020-08-10= [[https://about.gitlab.com/blog/2016/07/29/the-basics-of-gitlab-ci/][GitLab CI: Run jobs sequentially, in parallel or build a custom pipeline | GitLab]]
 *** =2020-08-10= [[https://docs.gitlab.com/ee/administration/integration/plantuml.html][PlantUML & GitLab | GitLab]]
+*** =2021-03-17= [[https://about.gitlab.com/blog/2021/02/18/improve-your-gitlab-productivity-with-these-10-tips/][10 tips to make you a productive GitLab user | GitLab]]
 ** =+gitlab=
    :PROPERTIES:
    :CUSTOM_ID: +gitlab
@@ -1189,6 +1222,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-08-06= [[https://github.com/profclems/glab][A custom Gitlab Cli tool written in Go (golang)]]
 *** =2020-08-10= [[https://about.gitlab.com/blog/2016/07/29/the-basics-of-gitlab-ci/][GitLab CI: Run jobs sequentially, in parallel or build a custom pipeline | GitLab]]
 *** =2020-08-10= [[https://docs.gitlab.com/ee/administration/integration/plantuml.html][PlantUML & GitLab | GitLab]]
+*** =2021-03-17= [[https://about.gitlab.com/blog/2021/02/18/improve-your-gitlab-productivity-with-these-10-tips/][10 tips to make you a productive GitLab user | GitLab]]
 ** =+gnu=
    :PROPERTIES:
    :CUSTOM_ID: +gnu
@@ -1229,6 +1263,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-11-14= [[https://github.com/NationalSecurityAgency/ghidra][Ghidra is a software reverse engineering (SRE) framework]]
 *** =2020-11-14= [[https://github.com/solemnwarning/rehex][Reverse Engineers' Hex Editor]]
 *** =2020-12-05= [[https://hackerpublicradio.org/][Hacker Public Radio ~ The Technology Community Podcast]]
+*** =2021-03-14= [[https://github.com/Hacking-the-Cloud/hackingthe.cloud][Content for hackingthe.cloud]]
 ** =+html=
    :PROPERTIES:
    :CUSTOM_ID: +html
@@ -1266,6 +1301,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-05= [[https://medium.com/wasmer/wasmer-1-0-3f86ca18c043][Wasmer 1.0. By leveraging Wasm for softwareâ¦ | by Syrus Akbary | Wasmer | Jan, 2021 | Medium]]
 *** =2021-01-06= [[https://github.com/matomo-org/matomo][Liberating Web Analytics. Star us on Github? +1. Matomo is the leading open alternative to Google Analytics that gives you full control over your data. Matomo lets you easily collect data from websites, apps &amp; the IoT and visualise this data and extract insights. Privacy is built-in. We love Pull Requests!]]
 *** =2021-01-06= [[https://hurl.dev/][Hurl - Run and Test HTTP Requests]]
+*** =2021-02-27= [[https://justine.lol/redbean/index.html][redbean]]
 ** =+i18n=
    :PROPERTIES:
    :CUSTOM_ID: +i18n
@@ -1303,6 +1339,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-07-20= [[https://www.garron.blog/posts/host-your-email-server.html][How to self host your email server]]
 *** =2020-10-05= [[https://github.com/fmdlc/ISP-Checker][Compose files to run ISP checks. ð¦]]
 *** =2020-11-25= [[https://www.gov.uk/guidance/protect-domains-that-dont-send-email][Protect domains that donât send email - GOV.UK]]
+*** =2021-03-11= [[https://tinyprojects.dev/projects/mailoji][Mailoji: I bought 300 emoji domain names from Kazakhstan and built an email service | Tiny Projects]]
 *** =2019-05-21= [[https://git.ispconfig.org/ispconfig/ispconfig3/issues/3405][DMARC Support (#3405) Â· Issues Â· ISPConfig / ISPConfig 3 Â· GitLab]]
 *** =2019-05-21= [[https://support.smtp2go.com/hc/en-gb/articles/115003520908-SPF-and-DKIM-Setup-for-ISPConfig-3-][SMTP2GO Support]]
 *** =2019-05-21= [[https://www.howtoforge.com/community/threads/ispconfig-3-1p1-spf-records.74711/][ISpconfig 3.1p1 + SPF records. | Howtoforge - Linux Howtos and Tutorials]]
@@ -1361,6 +1398,11 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-07-04= [[https://github.com/Devs-Garden/jsonbase][A database software completely built as JSON files in backend. A powerful, portable and simple database works on top of JSON files. It is like a database software, currently having basic CRUD operation features. You can use this as a backend for your ReST APIs as well. The software is completely free and opensource. We are coming up with new features and providing more updates. The another beautiful advantage with JSON-base is since it is a NPM module, this fits well in your nodeJs applications eco system. if you want to develop quick prototypes/poc or need of a database with minimal requirements then, JSONBASe is an must option that you can consider. However there is a limitation if you go beyond a million records per table.]]
 *** =2020-08-06= [[https://github.com/simdjson/simdjson][Parsing gigabytes of JSON per second]]
 *** =2021-02-23= [[https://nigeltao.github.io/blog/2021/json-with-commas-comments.html][JSON With Commas and Comments | nigeltao.github.io]]
+** =+k8s=
+   :PROPERTIES:
+   :CUSTOM_ID: +k8s
+   :END:
+*** =2021-03-18= [[https://mbuffett.com/posts/kubernetes-setup/][Unironically Using Kubernetes for my Personal Blog :: A blog — Just a blog]]
 ** =+kernel=
    :PROPERTIES:
    :CUSTOM_ID: +kernel
@@ -1410,6 +1452,8 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-10= https://mobile.twitter.com/DanRose999/status/1347677579029876736
 *** =2021-02-13= https://landley.net/writing/memory-faq.txt
 *** =2021-02-21= [[https://lkml.org/lkml/1996/5/12/136][LKML: Linus Torvalds: Re: Linux Logo]]
+*** =2021-02-27= [[https://mjg59.dreamwidth.org/55845.html][mjg59 | Making hibernation work under Linux Lockdown]]
+*** =2021-03-11= [[https://asahilinux.org/2021/03/progress-report-january-february-2021/][Progress Report: January / February 2021 - Asahi Linux]]
 ** =+localhost=
    :PROPERTIES:
    :CUSTOM_ID: +localhost
@@ -1636,6 +1680,9 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-02-09= [[https://github.com/xiaoxiae/Florodoro][A pomodoro timer that grows procedurally generated trees and flowers while you're studying.]]
 *** =2021-02-25= [[https://blainsmith.com/articles/reverting-back-to-a-simpler-time/][Reverting Back to a Simpler Time]]
 *** =2021-02-25= [[https://writepermission.com/org-blogging-unfurling-links.html][Org mode blogging: Unfurling links]]
+*** =2021-03-10= [[https://www.worldofbs.com/why-documentation-sucks/][Why Your Company's Documentation Sucks | World of BS]]
+*** =2021-03-11= [[http://paulgraham.com/simply.html][Write Simply]]
+*** =2021-03-21= [[https://training.kalzumeus.com/newsletters/archive/do-not-end-the-week-with-nothing][Don't End The Week With Nothing]]
 ** =+os=
    :PROPERTIES:
    :CUSTOM_ID: +os
@@ -1646,6 +1693,11 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
    :CUSTOM_ID: +outage
    :END:
 *** =2020-08-30= [[https://blog.cloudflare.com/analysis-of-todays-centurylink-level-3-outage/][August 30th 2020: Analysis of CenturyLink/Level(3) Outage]]
+** =+p2p=
+   :PROPERTIES:
+   :CUSTOM_ID: +p2p
+   :END:
+*** =2021-03-02= [[https://github.com/orbitdb/orbit-db][Peer-to-Peer Databases for the Decentralized Web]]
 ** =+packages=
    :PROPERTIES:
    :CUSTOM_ID: +packages
@@ -1775,12 +1827,12 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-03-03= [[https://github.com/dalibo/pev2][Postgres Explain Visualizer 2]]
 *** =2020-03-18= [[https://www.yogeshchauhan.com/164/postgres/explanation-of-postgresql-pgadmin-interface][Explanation of PostgreSQL PgAdmin interface - Blog by Yogesh Chauhan]]
 *** =2020-03-26= [[https://github.com/ankane/pgsync][Sync data from one Postgres database to another]]
+*** =2021-03-10= [[https://github.com/gajus/slonik][A PostgreSQL client with strict types, detailed logging and assertions.]]
 ** =+print=
    :PROPERTIES:
    :CUSTOM_ID: +print
    :END:
 *** =2019-05-31= [[https://github.com/WebPraktikos/universal-resume/][Minimal and formal rÃ©sumÃ© (CV) website template for print, mobile, and desktop. https://bit.ly/2kEzgt8]]
-*** =2020-10-25= [[https://github.com/OpenPrinting/cups][OpenPrinting CUPS Sources (Apple CUPS + common patches)]]
 ** =+privacy=
    :PROPERTIES:
    :CUSTOM_ID: +privacy
@@ -1859,6 +1911,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-23= [[https://github.com/gorhill/uMatrix/][Point and click matrix to filter net requests according to source, destination and type]]
 *** =2021-01-28= [[https://github.com/berty/berty][Berty is a secure peer-to-peer messaging app that works with or without internet access, cellular data or trust in the network]]
 *** =2021-02-01= [[https://solidproject.org/][Home · Solid]]
+*** =2021-03-09= [[http://misc-stuff.terraaeon.com/articles/computer-i-own.html][I want a Computer that I Own]]
 ** =+proxy=
    :PROPERTIES:
    :CUSTOM_ID: +proxy
@@ -1914,6 +1967,9 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-13= [[https://github.com/almarklein/timetagger][Tag your time, get the insight]]
 *** =2021-01-28= [[https://github.com/adafruit/circuitpython][CircuitPython - a Python implementation for teaching coding with microcontrollers]]
 *** =2021-01-28= [[https://leontrolski.github.io/mostly-pointless.html][leontrolski - OO in Python is mostly pointless]]
+*** =2021-03-20= [[https://github.com/python-cmd2/cmd2][cmd2 - quickly build feature-rich and user-friendly interactive command line applications in Python]]
+*** =2021-03-21= [[https://github.com/gaogaotiantian/viztracer][VizTracer is a low-overhead logging/debugging/profiling tool that can trace and visualize your python code execution.]]
+*** =2021-03-21= [[https://matteoguadrini.github.io/posts/a-switch-story/][A Switch Story - Matteo Guadrini's blog]]
 ** =+qr=
    :PROPERTIES:
    :CUSTOM_ID: +qr
@@ -1963,6 +2019,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-11-01= [[https://learnbyexample.github.io/sed-lookarounds/][learnbyexample - Emulating regexp lookarounds in GNU sed]]
 *** =2020-11-28= [[https://simonwillison.net/2020/Nov/28/datasette-ripgrep/][datasette-ripgrep: deploy a regular expression search engine for your source code]]
 *** =2020-12-03= [[https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/][rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc. - phiresky's blog]]
+*** =2021-03-22= [[https://github.com/pemistahl/grex][A command-line tool and library for generating regular expressions from user-provided test cases]]
 *** =2019-12-04= [[https://randsinrepose.com/archives/a-distributed-meeting-primer/][A Distributed Meeting Primer - Rands in Repose]]
 *** =2020-03-26= [[https://puri.sm/posts/our-essential-list-of-free-software-for-remote-work/][Free software for remote working - Purism]]
 *** =2020-05-04= [[http://www.timcasasola.com/blog/writing][Why does writing matter in remote work? - Tim Casasola]]
@@ -2002,6 +2059,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-07= [[https://bert.org/2021/01/04/t2-pin-cracking/][Simulating the PIN cracking scene in Terminator 2 | bertrand fan]]
 *** =2021-02-15= [[https://ruffle.rs/][Ruffle | Flash Player emulator written in the Rust programming language]]
 *** =2021-02-23= [[http://www.righto.com/2021/02/an-ibm-1401-mainframe-computer-at.html?m=1][Booting the IBM 1401: How a 1959 punch-card computer loads a program]]
+*** =2021-03-03= [[https://gopher.tildeverse.org/texto-plano.xyz/0/~crazyjane/blog/la-idea-de-comunidad.txt][0/~crazyjane/blog/la-idea-de-comunidad.txt]]
 *** =2019-07-08= [[https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/][10 tips for reviewing code you don't like - Red Hat Developer]]
 *** =2019-04-29= [[https://michaelcullen.name/2019/04/custard-antenna/][Custard Antenna | michaelcullen.name]]
 *** =2019-05-09= https://www.rtl-sdr.com/
@@ -2009,9 +2067,11 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-03-12= [[https://fraidyc.at/][Fraidycat]]
 *** =2020-05-18= [[https://danielmiessler.com/blog/its-time-to-get-back-into-rss/][It's Time to Get Back Into RSS | Daniel Miessler]]
 *** =2021-02-03= [[https://atthis.link/blog/2021/rss.html][Why I Still Use RSS | atthislink]]
+*** =2021-03-18= [[https://console.dev/qa/rsync-john-kozubik/][Q&amp;A with John Kozubik, rsync.net - Console]]
 *** =2020-03-18= [[https://en.m.wikipedia.org/wiki/1%25_rule_(Internet_culture)][1% rule (Internet culture) - Wikipedia]]
 *** =2020-08-24= [[https://github.com/rust-shell-script/rust_cmd_lib][Common rust command-line macros and utilities, to write shell-script like tasks in a clean, natural and rusty way]]
 *** =2020-09-11= [[https://www.redox-os.org/][Redox - Your Next(Gen) OS - Redox - Your Next(Gen) OS]]
+*** =2021-03-09= [[https://sylvestre.ledru.info/blog/2021/03/09/debian-running-on-rust-coreutils][Debian running on Rust coreutils]]
 ** =+radio=
    :PROPERTIES:
    :CUSTOM_ID: +radio
@@ -2072,6 +2132,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-11-01= [[https://learnbyexample.github.io/sed-lookarounds/][learnbyexample - Emulating regexp lookarounds in GNU sed]]
 *** =2020-11-28= [[https://simonwillison.net/2020/Nov/28/datasette-ripgrep/][datasette-ripgrep: deploy a regular expression search engine for your source code]]
 *** =2020-12-03= [[https://phiresky.github.io/blog/2019/rga--ripgrep-for-zip-targz-docx-odt-epub-jpg/][rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc. - phiresky's blog]]
+*** =2021-03-22= [[https://github.com/pemistahl/grex][A command-line tool and library for generating regular expressions from user-provided test cases]]
 ** =+remote=
    :PROPERTIES:
    :CUSTOM_ID: +remote
@@ -2119,6 +2180,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-07= [[https://bert.org/2021/01/04/t2-pin-cracking/][Simulating the PIN cracking scene in Terminator 2 | bertrand fan]]
 *** =2021-02-15= [[https://ruffle.rs/][Ruffle | Flash Player emulator written in the Rust programming language]]
 *** =2021-02-23= [[http://www.righto.com/2021/02/an-ibm-1401-mainframe-computer-at.html?m=1][Booting the IBM 1401: How a 1959 punch-card computer loads a program]]
+*** =2021-03-03= [[https://gopher.tildeverse.org/texto-plano.xyz/0/~crazyjane/blog/la-idea-de-comunidad.txt][0/~crazyjane/blog/la-idea-de-comunidad.txt]]
 ** =+review=
    :PROPERTIES:
    :CUSTOM_ID: +review
@@ -2138,6 +2200,11 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-03-12= [[https://fraidyc.at/][Fraidycat]]
 *** =2020-05-18= [[https://danielmiessler.com/blog/its-time-to-get-back-into-rss/][It's Time to Get Back Into RSS | Daniel Miessler]]
 *** =2021-02-03= [[https://atthis.link/blog/2021/rss.html][Why I Still Use RSS | atthislink]]
+** =+rsync=
+   :PROPERTIES:
+   :CUSTOM_ID: +rsync
+   :END:
+*** =2021-03-18= [[https://console.dev/qa/rsync-john-kozubik/][Q&amp;A with John Kozubik, rsync.net - Console]]
 ** =+rules=
    :PROPERTIES:
    :CUSTOM_ID: +rules
@@ -2149,6 +2216,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
    :END:
 *** =2020-08-24= [[https://github.com/rust-shell-script/rust_cmd_lib][Common rust command-line macros and utilities, to write shell-script like tasks in a clean, natural and rusty way]]
 *** =2020-09-11= [[https://www.redox-os.org/][Redox - Your Next(Gen) OS - Redox - Your Next(Gen) OS]]
+*** =2021-03-09= [[https://sylvestre.ledru.info/blog/2021/03/09/debian-running-on-rust-coreutils][Debian running on Rust coreutils]]
 ** =+sat=
    :PROPERTIES:
    :CUSTOM_ID: +sat
@@ -2231,6 +2299,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-14= [[https://bugs.xdavidhu.me/][bugs.xdavidhu.me - xdavidhu's bug bounty writeups.]]
 *** =2021-01-16= [[https://grimminck.medium.com/running-a-fake-power-plant-on-the-internet-for-a-month-4a624f685aaa][Running a fake power plant on the internet for a month | by Stefan Grimminck | Jan, 2021 | Medium]]
 *** =2021-02-21= [[https://blogs.gentoo.org/mgorny/2021/02/19/the-modern-packagers-security-nightmare/][The modern packager&#8217;s security nightmare - Michał Górny]]
+*** =2021-03-10= [[https://github.com/authelia/authelia][The Single Sign-On Multi-Factor portal for web apps]]
 ** =+seo=
    :PROPERTIES:
    :CUSTOM_ID: +seo
@@ -2345,6 +2414,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-11-14= [[https://github.com/stephank/lazyssh][A jump-host SSH server that starts machines on-demand]]
 *** =2020-11-20= [[https://swift.org/blog/swiftnio-ssh/][Swift.org - Introducing SwiftNIO SSH]]
 *** =2021-01-12= [[https://anderstrier.dk/2021/01/11/my-isp-is-killing-my-idle-ssh-sessions-yours-might-be-too/][My ISP Is Killing My Idle SSH Sessions. Yours Might Be Too. - Title]]
+*** =2021-03-18= [[https://github.com/Overv/outrun][Execute a local command using the processing power of another Linux machine.]]
 ** =+ssl=
    :PROPERTIES:
    :CUSTOM_ID: +ssl
@@ -2469,11 +2539,14 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-01-17= [[https://mnmnotmail.org/][mnm | an open source project to replace email &amp; SMTP]]
 *** =2021-02-07= [[https://pages.cs.wisc.edu/~remzi/OSTEP/][Operating Systems: Three Easy Pieces]]
 *** =2021-02-13= [[https://book.systemsapproach.org/][Computer Networks: A Systems Approach - Computer Networks: A Systems Approach Version 6.2-dev documentation]]
+*** =2021-03-10= [[https://ungleich.ch/u/blog/ungleich-tech-talk-3-nat64-introduction/][An Introduction to NAT64 | ungleich.ch]]
+*** =2021-03-22= [[https://www.reddit.com/r/sysadmin/comments/ma4mwl/the_absolute_worst_case_scenario_happened_what][The absolute worst case scenario happened, what should we do now? : sysadmin]]
 ** =+terraform=
    :PROPERTIES:
    :CUSTOM_ID: +terraform
    :END:
 *** =2020-04-09= [[https://github.com/41north/jitsi-do/][Deploy Jitsi Meet to DigitalOcean with Terraform]]
+*** =2021-03-12= [[https://www.backblaze.com/blog/easy-storage-easy-provisioning-backblaze-is-now-a-terraform-provider/][Easy Storage + Easy Provisioning: Backblaze Is Now a Terraform Provider]]
 ** =+test=
    :PROPERTIES:
    :CUSTOM_ID: +test
@@ -2501,6 +2574,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-04-03= [[https://itnext.io/puppeteer-or-how-i-learned-to-stop-worrying-and-love-the-automation-92e96f4901e7?gi=79f385ccb10e][302 Found]]
 *** =2020-11-11= [[https://tools.suckless.org/farbfeld/][tools | suckless.org software that sucks less]]
 *** =2020-11-28= https://tug.org/tug2020/preprints/MacFarlane-Keynote-slides.pdf
+*** =2021-03-14= [[https://github.com/GorvGoyl/Clone-Wars][100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.]]
 ** =+tor=
    :PROPERTIES:
    :CUSTOM_ID: +tor
@@ -2614,6 +2688,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-02-02= [[https://github.com/jotaen/klog][A plain-text file format and command line tool for time tracking]]
 *** =2021-02-03= [[https://carltheperson.com/posts/10-things-linux][carltheperson]]
 *** =2021-02-15= [[https://github.com/dkaslovsky/textnote][Simple tool for creating and organizing daily notes on the command line]]
+*** =2021-03-10= [[https://github.com/artperrin/image2csv][Convert tables stored as images to an usable .csv file]]
 ** =+txt=
    :PROPERTIES:
    :CUSTOM_ID: +txt
@@ -2732,6 +2807,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-04-19= [[https://datagubbe.se/decusab/][The Decline of Usability | datagubbe.se]]
 *** =2020-05-02= [[https://herebeseaswines.net/essays/2020-05-02-when-bad-ux-is-good][Here be seaswines]]
 *** =2020-05-30= [[https://news.ycombinator.com/item?id=23362795][Ask HN: Can't focus when writing code in dark mode | Hacker News]]
+*** =2021-03-09= [[https://blog.plover.com/tech/ui.html][The Universe of Discourse : Fuckin' user interface design, I swear]]
 ** =+video=
    :PROPERTIES:
    :CUSTOM_ID: +video
@@ -2774,6 +2850,9 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-11-10= [[https://stackoverflow.blog/2020/11/09/modern-ide-vs-vim-emacs/][Modern IDEs are magic. Why are so many coders still using Vim and Emacs? - Stack Overflow Blog]]
 *** =2020-12-13= [[https://swordandsignals.com/2020/12/13/5-lines-in-vimrc.html][5 lines I put in a blank .vimrc | Sword and Signals]]
 *** =2021-01-20= [[https://www.vim.so/][vim.so - Learn and Master Vim faster with interactive exercises]]
+*** =2021-02-27= [[https://thevaluable.dev/vim-advanced/][A Vim Guide for Advanced Users]]
+*** =2021-03-02= [[https://c9x.me/edit/][Edit - Home Brewed Text Editor]]
+*** =2021-03-12= [[https://github.com/alevchuk/vim-clutch][A hardware pedal for improved text editing in Vim]]
 ** =+virtual=
    :PROPERTIES:
    :CUSTOM_ID: +virtual
@@ -2840,6 +2919,11 @@ Don't use VPN services. Â· GitHub]]
 *** =2020-05-20= [[https://github.com/subspacecommunity/subspace][A fork of the simple WireGuard VPN server GUI community maintained]]
 *** =2020-10-18= [[https://github.com/burghardt/easy-wg-quick][Creates Wireguard configuration for hub and peers with ease]]
 *** =2020-10-24= [[https://gist.github.com/joepie91/5a9909939e6ce7d09e29/][Don't use VPN services. Â· GitHub]]
+** =+wayland=
+   :PROPERTIES:
+   :CUSTOM_ID: +wayland
+   :END:
+*** =2021-03-10= [[https://www.fosskers.ca/en/blog/wayland][Colin Woodbury]]
 ** =+web=
    :PROPERTIES:
    :CUSTOM_ID: +web
