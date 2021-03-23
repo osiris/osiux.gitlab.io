@@ -284,3 +284,7 @@ La comunicación asíncrona preserva mejor el conocimiento de la empresa:
 [fn:jitsi]      https://jitsi.org/
 [fn:redmine]    https://www.redmine.org/
 [fn:hackernews] https://news.ycombinator.com/item?id=23577228
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1aa907827c8ad09ff818c4b4a5df73d94f2e79ab][=2021-03-22 23:03=]] agregar traducción /Written communication is remote work super power/
