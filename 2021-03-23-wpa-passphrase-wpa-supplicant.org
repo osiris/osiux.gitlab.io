@@ -76,3 +76,7 @@ dhclient wlan0
 [fn:wicd]       https://launchpad.net/wicd
 [fn:bug1801751] https://bugs.launchpad.net/wicd/+bug/1801751
 [fn:wifi64aps]  https://osiux.com/2021-03-08-quien-necesita-mas-de-64-redes-cerca.html
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/32ebe13f0d2e16de686b22336627d3d44324e0de][=2021-03-23 23:58=]] agregar /conectar la =wifi= desde la consola/
