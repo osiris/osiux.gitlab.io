@@ -255,3 +255,7 @@ De todos modos, tengo que ir a darme una ducha. 🚿
 [fn:digsigepoch]      https://github.com/nsrr/edfize/blob/93566cdc82b160ef319c51908c1c4a19666e2625/lib/edfize/edf.rb#L243
 [fn:postgresql]       https://www.postgresql.org/docs/current/index.html
 [fn:redis]            https://redis.io/documentation
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a533fb86ad5ebda931a19ec321bba90dad633b3b][=2021-03-24 23:19=]] agregar traducción de /talking - typing - thinking/
