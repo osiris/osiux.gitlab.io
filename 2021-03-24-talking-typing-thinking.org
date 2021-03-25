@@ -142,7 +142,7 @@ más allá del depósito de código.
 
 Recientemente comencé un proyecto que involucraba un campo completamente
 desconocido de la tecnología médica
-(ps, =/todavía eres mi paciente favorito=/ [fn:stillfavourite]
+(ps, /=todavía eres mi paciente favorito=/ [fn:stillfavourite]
 01-004 📊❤️). La actividad más valiosa que encuentro en esta
 etapa de un proyecto es leer.
 
