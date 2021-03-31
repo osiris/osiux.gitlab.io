@@ -24,6 +24,10 @@ Voy a documentar diferentes ejemplos y liberar =csv2nwdiag=...
 
 ...continuará...
 
+Se puede usar =nwdiag= desde un /=sitio web=/ [fn:nwdiagweb] de manera
+interactiva sin necesidad de instalarlo.
+
+[fn:nwdiagweb] http://interactive.blockdiag.com/nwdiag/
 
 ** ChangeLog
 
