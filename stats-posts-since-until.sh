@@ -120,7 +120,7 @@ TABLE=$(cat << EOF
 | =TOTAL_BLOG_POSTS=      | =$TOTAL_BLOG_POSTS=  |
 EOF
 )
-
+#FIXME restrict git-streak between 2 dates
 STREAK="$(git-streak | sed 's/ $//g')"
 
 post_header "/posts/ $SINCE_ISO - $UNTIL_ISO"
