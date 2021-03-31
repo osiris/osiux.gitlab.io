@@ -29,6 +29,8 @@ interactiva sin necesidad de instalarlo.
 
 [fn:nwdiagweb] http://interactive.blockdiag.com/nwdiag/
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4678ba05e3917b84be661aab288f66b89cbb7f12][=2021-03-31 12:56=]] agregar /link/ a sitio web interactivo de =nwdiag=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/8b2b415357bedcd20c7a7e45b5c4343f7c2487f5][=2021-03-03 23:27=]] agregar /Diagramas de Topología de Red/ =csv2nwdiag=
