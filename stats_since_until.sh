@@ -17,11 +17,12 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 DATES=$(cat << EOF
-2021-01-25 2021-02-25
+#2021-01-25 2021-02-25
+2021-03-01 2021-03-31
 EOF
 )
 
-echo "$DATES" | while read -r SINCE UNTIL
+echo "$DATES" | grep -v '\#' | while read -r SINCE UNTIL
 do
   ORG="$SINCE-$UNTIL-posts.org"
   ./stats-posts-since-until.sh "$SINCE" "$UNTIL" > "$ORG"
