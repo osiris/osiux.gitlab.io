@@ -1,35 +1,44 @@
-#+TITLE:       gcoop tiene Códigos Cooperativos
-#+AUTHOR:      Osiris Alejandro Gomez
-#+EMAIL:       osiux@osiux.com
-#+LANGUAGE:    es
-#+LINK_HOME:   index.html
-#+INCLUDE:     header.org
-#+DATE:      2012-08-30 22:19
+#+TITLE:      gcoop tiene Códigos Cooperativos
+#+AUTHOR:     Osiris Alejandro Gomez
+#+EMAIL:      osiux@osiux.com
+#+LANGUAGE:   es
+#+LINK_HOME:  index.html
+#+INCLUDE:    header.org
+#+DATE:       2012-08-30 22:19
 
 Ya no solo desarrollamos Software Libre, en este caso presentamos un Corto
 Documental que produjimos en el que buscamos contar de manera amena lo que
 hacemos y las implicancias sociales del cooperativismo y el Software Libre.
 
 La idea de hacer un Corto surgió a partir de la Convocatoria de la
-*Confederación Cooperativa de la Argentina*
-([[http://cooperar.coop/][COOPERAR]]) que invitó a presentar proyectos
-de video que cuenten diversas experiencias cooperativas para el
-[[http://www.cac2012.coop][Congreso Argentino de las Cooperativas]]
+**Confederación Cooperativa de la Argentina** /=COOPERAR=/ [fn:cooperar]
+que invitó a presentar proyectos de video que cuenten diversas
+experiencias cooperativas para el
+**Congreso Argentino de las Cooperativas** [fn:cac2012]
 
-En este marco convocamos al Director *Daniel Henriquez* y su
-*Cooperativa La olla* para trabajar el proyecto (dirección, guión,
-filmación, edición) como asi también a
-[[http://www.licuadorastudio.com/][Licuadora Studio]] para las
-animaciones gráficas (con software libre). La música original la realizó
-especialmente para el corto (y la liberó) el grupo amigo
-[[http://www.camanchaca.com.ar/][Camanchaca]]
+En este marco convocamos al Director /Daniel Henriquez/ y su
+**Cooperativa La olla** para trabajar el proyecto (dirección, guión,
+filmación, edición) como asi también a /Licuadora Studio/ [fn:licuadora]
+para las animaciones gráficas (con software libre). La música original
+la realizó especialmente para el corto (y la liberó) el grupo amigo
+/Camanchaca/ [fn:camanchaca]
 
 Este sábado a las 15.30 horas los invitamos al
-[[http://www.pueblo.coop/][Pueblo Cooperativo]] que se encuentra en
-[[http://tecnopolis.ar/][Tecnopolis]] para disfrutar entre amigos de una
-**avant - premier** de "Códigos Cooperativos". Acorde a nuestra
-filosofía el corto tiene licencia Creative Commons por lo que pronto lo
-pondremos a circular por el mundo. Los esperamos.
+/Pueblo Cooperativo/ [fn:pueblocoop] que se encuentra en
+/=Tecnopolis=/ [fn:tecnopolis] para disfrutar entre amigos de una
+**avant - premier** de /="Códigos Cooperativos"=/ [fn:codigoscoop].
 
-[[http://www.youtube.com/watch?v%3DsMI1HA9mOmc&feature%3Dyoutu.be][file:img/codigos-cooperativos.jpg]]
+Acorde a nuestra filosofía el corto tiene licencia
+/=Creative Commons=/ [fn:ccbysa] por lo que pronto lo pondremos a
+circular por el mundo. Los esperamos.
 
+[[http://www.youtube.com/watch?v%3DsMI1HA9mOmc&feature%3Dyoutu.be][file:tmb/codigos-cooperativos.jpg]]
+
+[fn:cooperar]     https://www.cooperar.coop/
+[fn:cac2012]      https://web.archive.org/web/20121122071829/http://www.cac2012.coop/
+[fn:licuadora]    https://web.archive.org/web/20111029090746/http://licuadorastudio.com/
+[fn:camanchaca]   https://web.archive.org/web/20120830231234/http://www.camanchaca.com.ar/index2.html
+[fn:pueblocoop]   https://web.archive.org/web/20150324201537/http://pueblo.coop/
+[fn:tecnopolis]   https://tecnopolis.gob.ar/
+[fn:codigoscoop]  https://www.gcoop.coop/codigos-cooperativos
+[fn:ccbysa]       https://creativecommons.org/licenses/by-sa/4.0/deed.es
