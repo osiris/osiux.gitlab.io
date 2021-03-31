@@ -135,3 +135,7 @@ interactué con la /API/ de /Redmine/ sobre un issue en particular.
 [fn:txt-bash-jrnl]       https://gitlab.com/osiux/txt-bash-jrnl
 [fn:redmine-history]     https://gitlab.com/osiux/git-bash-utils/-/raw/master/redmine-history
 [fn:redmine-timediff]    https://gitlab.com/osiux/git-bash-utils/-/raw/master/redmine-timediff-last-comment
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/6568082e45b5c05089ebb033efdd033ea5d0c7fa][=2021-03-31 14:58=]] agregar /tarea en progreso/
