@@ -1,4 +1,4 @@
-all: years stats_posts stats_since_until blog index htaccess publish
+all: years stats_posts stats_since_until blog image index htaccess publish
 
 years:
 	./years.sh > years.org
@@ -20,6 +20,11 @@ blog:
 
 index:
 	./index.sh
+
+image:
+	./tmb.sh
+	./icn.sh
+	./img.sh > img.org
 
 htaccess:
 	./htaccess.sh > .htaccess
