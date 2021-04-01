@@ -1,0 +1,132 @@
+#+TITLE:     ABSOLUTELLY NO WARRANTY /posts/ 2021-03-01 - 2021-03-31
+#+AUTHOR:    Osiris Alejandro Gómez
+#+EMAIL:     osiux@osiux.com
+#+LANGUAGE:  es
+#+LINK_HOME: index.html
+#+INCLUDE:   header.org
+#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+
+
+** Actividad por día
+
+
+#+BEGIN_EXAMPLE
+
+▣▣▣ ▣▣ ▣▣□□□ □□ □▣▣▣▣ □□ ▣▣▣□□ □□ □□▣□
+
+#+END_EXAMPLE
+
+
+** Resumen
+
+| item                    | value                |
+|-------------------------|----------------------|
+| =LAST_HASH=             | [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/49b23dc][=49b23dc=]]            |
+| =FIRST_HASH=            | [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/57fe05f][=57fe05f=]]           |
+| =TOTAL_TIME=            | =09:07 hs=     |
+| =TOTAL_COMMITS=         | =28=     |
+| =TOTAL_BLOG_POSTS=      | =19=  |
+
+
+** Total de /commits/ por día
+
+
+#+BEGIN_EXAMPLE
+
+  3.57 %   3.57 %          1 █                    2021-03-01 
+ 10.71 %   7.14 %          2 █                    2021-03-02 
+ 14.29 %   3.57 %          1 █                    2021-03-03 
+ 25.00 %  10.71 %          3 ██                   2021-03-04 
+ 28.57 %   3.57 %          1 █                    2021-03-05 
+ 42.86 %  14.29 %          4 ███                  2021-03-06 
+ 50.00 %   7.14 %          2 █                    2021-03-07 
+ 53.57 %   3.57 %          1 █                    2021-03-08 
+ 57.14 %   3.57 %          1 █                    2021-03-09 
+ 60.71 %   3.57 %          1 █                    2021-03-16 
+ 64.29 %   3.57 %          1 █                    2021-03-17 
+ 75.00 %  10.71 %          3 ██                   2021-03-18 
+ 78.57 %   3.57 %          1 █                    2021-03-19 
+ 85.71 %   7.14 %          2 █                    2021-03-22 
+ 89.29 %   3.57 %          1 █                    2021-03-23 
+100.00 %  10.71 %          3 ██                   2021-03-24 
+                          28
+#+END_EXAMPLE
+
+
+
+** Total de /commits/ por hora
+
+
+#+BEGIN_EXAMPLE
+
+ 10.71 %  10.71 %          3 ██                   00 
+ 17.86 %   7.14 %          2 █                    07 
+ 21.43 %   3.57 %          1 █                    08 
+ 25.00 %   3.57 %          1 █                    10 
+100.00 %  75.00 %         21 ██████████████████   23 
+                          28
+#+END_EXAMPLE
+
+
+
+** Total de /commits/ por tiempo
+
+
+#+BEGIN_EXAMPLE
+
+ 14.29 %  14.29 %          4 ███                  00:01 
+ 32.14 %  17.86 %          5 ████                 00:05 
+ 42.86 %  10.71 %          3 ██                   00:10 
+ 53.57 %  10.71 %          3 ██                   00:15 
+ 57.14 %   3.57 %          1 █                    00:20 
+ 60.71 %   3.57 %          1 █                    00:23 
+ 64.29 %   3.57 %          1 █                    00:27 
+ 67.86 %   3.57 %          1 █                    00:29 
+ 82.14 %  14.29 %          4 ███                  00:30 
+ 85.71 %   3.57 %          1 █                    00:40 
+ 96.43 %  10.71 %          3 ██                   00:45 
+100.00 %   3.57 %          1 █                    00:49 
+                          28
+#+END_EXAMPLE
+
+
+** Detalle de /posts/ nuevos, modificados y autogenerados
+
+*** [[file:links.org][OSiUX links]]
+
+*** [[file:img.org][Galería de Imágenes]]
+
+*** [[file:header.org][header]]
+
+*** [[file:git.org][OSiUX git repositories]]
+
+*** [[file:2021-03-24-talking-typing-thinking.org][/Hablar, escribir, pensar: el software no es un trabajo de escritorio/]]
+
+*** [[file:2021-03-23-wpa-passphrase-wpa-supplicant.org][conectar la wifi desde la consola]]
+
+*** [[file:2021-03-22-remote-async-communication.org][La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto]]
+
+*** [[file:2021-03-18-git-commit-timesum.org][git commit timesum]]
+
+*** [[file:2021-03-17-historial-infinito-en-bash.org][historial infinito en =bash=]]
+
+*** [[file:2021-03-16-todo-txt-es-una-lista-de-tareas.org][=todo.txt= es una lista de tareas]]
+
+*** [[file:2021-03-09-git-commiter-date.org][cambiar la fecha de un /commit/ usando =GIT_COMMITER_DATE=]]
+
+*** [[file:2021-03-08-quien-necesita-mas-de-64-redes-cerca.org][quién necesita mas de 64 redes WiFi cerca?]]
+
+*** [[file:2021-03-07-xscreensaver-watch-pomodoro.org][=xscreensaver-watch= pomodoro]]
+
+*** [[file:2021-03-06-galeria-de-imagenes.org][generar Galería de Imágenes]]
+
+*** [[file:2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.org][convertir la imagen de un número a un número usando gocr]]
+
+*** [[file:2021-03-04-diagrama-de-secuencia-trafico-de-red.org][Diagrama de secuencia de Tráfico de Red]]
+
+*** [[file:2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.org][Diagramas de Topología de Red =csv2nwdiag=]]
+
+*** [[file:2021-03-02-email-desde-consola.org][email desde consola]]
+
+*** [[file:2021-03-01-cooperativismo-y-software-libre.org][Cooperativismo y Software Libre]]
+
