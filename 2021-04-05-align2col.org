@@ -164,3 +164,7 @@ Seguro hay mil maneras de hacer esto, pero es muy gratificante poder
 idear y resolver un problema con tus propias líneas de código!
 
 [fn:par] https://osiux.com/2011-03-15-dibujando-con-numeros-desde-la-consola.html
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1b4792fa18d5e254b83578f1df850b39d2efdbe6][=2021-04-05 23:13=]] agregar /alinear textos en columnas/
