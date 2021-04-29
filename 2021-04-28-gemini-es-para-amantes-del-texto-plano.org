@@ -1,0 +1,91 @@
+#+TITLE:       =gemini://= es para amantes del texto plano
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-04-28 23:30
+
+
+** solo quiero texto plano
+
+Hace un par de días que estoy leyendo todo sobre =gemini= [fn:gemini],
+un protocolo que nos retrotrae a los comienzos de la web por su simpleza
+y pureza de permitir única y exclusivamente una web en texto plano con
+pocos /tags/ y evitando distraernos con imágenes, animaciones, css y
+/javascript/ :P
+
+** /server/
+
+Hay en diversos lenguajes, yo opté por =agate= [fn:agate] y es muy
+simple de iniciarlo:
+
+#+BEGIN_SRC bash :exports code
+
+./agate --content ~/gemini/ --hostname gmi.osiux.com --lang es-AR
+
+#+END_SRC
+
+Por defecto el puerto es 1965, por esto sería posible /hostear/ =http= y
+=gemini= en un mismo /server/ aunque de momento lo estoy probando en el
+subdominio =gemini://gmi.osiux.com= en mi /raspberry-pi/.
+
+** /client/
+
+Hay muchísimos de clientes, obviamente siempre voy a preferir desde
+consola usar =amfora= [fn:amfora] y si preferís =lagrange= [fn:lagrange]
+es muy /monono/ paradel /desktop/ pero también esta =ariane= [fn:ariane]
+y =deedum= [fn:deedum] para /Android/.
+
+Encontré a =bollux= [fn:bollux] que es un cliente escrito en /BASH/ y
+viendo el código aprendí que es muy simple ver una /url/ en un
+/oneliner/ de =openssl=:
+
+#+BEGIN_SRC bash :exports code
+
+openssl s_client -crlf -quiet -connect gmi.osiux.com:1965 \
+  --servername gmi.osiux.com -no_ssl3 -no_tls1 -no_tls1_1 \
+<<< gemini://gmi.osiux.com/gemini-es-para-amantes-del-texto-plano.gmi
+
+#+END_SRC
+
+[[file:img/gemini-amfora-vs-lagrange.png][file:tmb/gemini-amfora-vs-lagrange.png]]
+
+** =org2gmi=
+
+Esta claro que lo primero que se me ocurrió fue convertir mi /blog/ en
+un formato para amantes del texto plano <3, aunque a decir verdad ya
+esta bastante cerca, pero siempre se puede simplificar aún mas!
+
+Inicialmente busqué y encontré a =ox-gemini= [fn:ox-gemini] un /plugin/
+para =org-mode= que permite exportar de a =.gmi=, pero no logré que
+funcione :(
+
+Luego di con =md2gemini= [fn:md2gemini] que convierte un /markdown/ a
+=.gmi= asi que con esa base, escribí un /script/ que lee un =.org=, lo
+masajea un poco y con =pandoc= [fn:pandoc] genera un =.md= y finalmente
+el =.gmi= :)
+
+Todavía falta pulirlo bastante a =org2gmi= [fn:org2gmi] porque hay mucho
+que no es necesario en /gemini/ en cuanto a formato y además la
+navegación cambia porque se simplifica.
+
+** /links/ =gmi=
+
+Estoy comenzando a recopilar /links/ de sitios =gemini=, mayormente se
+trata de /blogs/ que dan mucho placer leerlos, tienen mucho para
+compartir de esa grata experiencia de leer únicamente texto plano y
+pronto compartiré mi selección...
+
+[fn:gemini]      https://gemini.circumlunar.space/
+[fn:agate]       https://github.com/mbrubeck/agate
+[fn:amfora]      https://github.com/makeworld-the-better-one/amfora
+[fn:lagrange]    https://github.com/skyjake/lagrange
+[fn:ariane]      https://codeberg.org/oppenlab/Ariane
+[fn:deedum]      https://github.com/snoe/deedum
+[fn:bollux]      https://tildegit.org/acdw/bollux
+[fn:ox-gemini]   https://github.com/emacsmirror/ox-gemini
+[fn:orgmode]     https://orgmode.org/
+[fn:pandoc]      https://pandoc.org/
+[fn:md2gemini]   https://github.com/makeworld-the-better-one/md2gemini
+[fn:org2gmi]     https://gitlab.com/osiux/org-bash-utils/-/blob/e1311a395fc41cbcfc16798a6ee083bbee4f0734/org2gmi
