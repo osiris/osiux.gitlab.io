@@ -89,3 +89,7 @@ pronto compartiré mi selección...
 [fn:pandoc]      https://pandoc.org/
 [fn:md2gemini]   https://github.com/makeworld-the-better-one/md2gemini
 [fn:org2gmi]     https://gitlab.com/osiux/org-bash-utils/-/blob/e1311a395fc41cbcfc16798a6ee083bbee4f0734/org2gmi
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/de270d9c871a98da8a43ed00cc73c786d19da57e][=2021-04-29 01:05=]] agregar =gemini://= es para amantes del texto plano
