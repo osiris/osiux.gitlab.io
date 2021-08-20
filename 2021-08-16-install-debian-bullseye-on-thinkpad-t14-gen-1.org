@@ -1,4 +1,4 @@
-#+TITLE:       Install Debian Bullseye on ThinkPad T14 Gen 1
+#+TITLE:       /Install Debian Bullseye on ThinkPad T14 Gen 1/
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
@@ -9,9 +9,9 @@
 
 ** Lunes de gloria
 
-Hace exactamente 188 días atrás (2021-02-09) instalé /Debian Buster/
-por primera vez en mi nueva /notebook ThinkPad T14 Gen 1/ y hoy estrené
-/Debian Bullseye/ :)
+Hace exactamente 188 días atrás (2021-02-09) instalé /Debian Buster/ por
+primera vez en mi nueva /notebook ThinkPad T14 Gen 1/ [fn:deb10ont14] y
+hoy estrené /Debian Bullseye/ :)
 
 ** ...antes de empezar, hay backup?
 
@@ -43,7 +43,7 @@ Number  Start   End     Size    File system  Name          Flags
 
 #+END_EXAMPLE
 
-** todos los paquetes en un solo _script_
+** todos los paquetes en un solo /script/
 
 Durante la instalación en /Selección de Programas/, selecciono
 únicamente =SSH server= y =Utilidades estándar del Sistema=, asi al
@@ -82,7 +82,7 @@ a la /**Old School Way**/ [fn:wpapass] y recientemente liberé el
 /script/ =iwpass= [fn:iwpass] que "automatiza" la conexión a una red
 /wifi/ usando =pass= [fn:pass].
 
-** mejoras de _firmware_
+** mejoras de /firmware/
 
 La /WiFi/ anda mucho mejor y el sonido tiene mejor soporte.
 El /Kernel/ que venía usando era un /Backport/ y con el nuevo funciona
@@ -97,7 +97,9 @@ todo muy bien.
 ** Tal vez te interese leer...
 
 - [[file:2021-01-26-disaster-recovery-plan-osiux.org][DIsaster REcovery PLan OSiux]]
+- [[file:2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.org][Install Debian Buster on ThinkPad T14 Gen 1]]
 
+[fn:deb10ont14]  file:2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.org
 [fn:netinstall]  https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.0.0-amd64-netinst.iso
 [fn:debsh]       https://gitlab.com/osiux/direplos/-/raw/master/deb.sh
 [fn:direplos]    file:2021-01-26-disaster-recovery-plan-osiux.org
