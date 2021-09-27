@@ -4,7 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        2021-09-27 12:55
+#+DATE:        2021-09-27 13:00
 
 El módulo del /Kernel/ =r8169= para las placas de red /Realtek
 RTL8111/8168/8411/ tienen soporte para /ASPM/ (/Active State Power
@@ -332,3 +332,7 @@ En caso de estar deshabilitado se muestra =ASPM Disabled=:
   lspci -vv -s 02:00.0 | grep 'LnkCtl: ASPM'
                               LnkCtl: ASPM Disabled; RCB 64 bytes Disabled- CommClk+
 #+END_SRC
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0a4a503f3dfebce5254f6405a902449d75f549f0][=2021-10-14 05:54=]] agregar Deshabilitar /ASPM/ en /BIOS/ /ProDesk 400 G5 Desktop Mini/ desde /GNU/Linux/ utilizando =hp-repsetup=
