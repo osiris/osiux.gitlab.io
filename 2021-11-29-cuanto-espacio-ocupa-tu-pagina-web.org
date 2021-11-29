@@ -49,3 +49,7 @@ extremo! Recomiendo visitar estos sitios para sorprenderte gratamente.
 [fn:512kb]     https://512kb.club/
 [fn:org-mode]  https://orgmode.org/
 [fn:rst]       file:restructuredtext-texto-re-estructurado.org
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a774aeb120c160a11c22b3abcf807bc4cbf45a4b][=2021-11-29 18:10=]] agregar /Cuánto espacio ocupa tu página web?/
