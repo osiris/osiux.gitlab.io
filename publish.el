@@ -10,6 +10,12 @@
 (require 'org)
 (require 'ox-publish)
 
+(require 'package)
+(package-initialize)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+(package-refresh-contents)
+(package-install 'htmlize)
+
 ;; setting to nil, avoids "Author: x" at the bottom
 (setq user-full-name nil)
 
