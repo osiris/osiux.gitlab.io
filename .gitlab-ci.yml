@@ -5,7 +5,6 @@ pages:
   - cat index.sh | /bin/sh
   - cat blog.sh  | /bin/sh
   - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
-  - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'htmlize))"
   - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
   - cat sitemap.sh | /bin/sh
   - cd public && tar czf ../osiux.tar.gz . && mv ../osiux.tar.gz . && md5sum osiux.tar.gz | tee osiux.tar.gz.md5
