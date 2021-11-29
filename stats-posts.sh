@@ -17,6 +17,21 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 ORG='stats-posts.org'
+YEAR="$(date +%Y)"
+
+printf "\\n** Posts último Año\\n\\n"
+
+printf "#+BEGIN_EXAMPLE\\n\\n"
+
+ls $YEAR*.org                     \
+  | grep -Eo '^[0-9]{4}-[0-9]{2}' \
+  | cut -c 6-                     \
+  | sort                          \
+  | uniq -c                       \
+  | sort -rk2                     \
+  | ./barra
+
+printf "\\n#+END_EXAMPLE\\n"
 
 printf "\\n** Posts por Año\\n\\n"
 
