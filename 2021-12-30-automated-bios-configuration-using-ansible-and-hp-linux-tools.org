@@ -42,3 +42,7 @@ la /BIOS/ de miles de equipos de manera automatizada**.
 [fn:ansible]       https://www.ansible.com/
 [fn:ansible_hplt]  https://gitlab.com/gcoop-libre/ansible_role_hp_linux_tools
 [fn:hplt]          https://ftp.hp.com/pub/softpaq/sp111001-111500/sp111455.tgz
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/648dffc88481ec23ef0208ce14613859428f8b86][=2021-12-30 10:07=]] agregar Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/
