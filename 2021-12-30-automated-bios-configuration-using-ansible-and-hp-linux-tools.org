@@ -1,0 +1,44 @@
+#+TITLE:       Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-12-30 09:55
+
+** el famoso que raro...
+
+Este año en /gcoop/ [fn:gcoop] nos topamos con un error extraño en
+equipos /HP ProDesk 400 G5 Desktop Mini/, básicamente el módulo del
+/Kernel/ =r8169= para las placas de red /Realtek RTL8111/8168/8411/
+tienen soporte para /ASPM/ (/Active State Power Management/), pero el
+mismo presenta inconvenientes que terminan por congelar e incluso hasta
+reiniciar el equipo, por ello es necesario deshabilitar desde la /BIOS/
+la /*Administración de energía de estado activo*/.
+
+** /Automate All The Things/
+
+Obviamente, como casi todo, la mejor solución al problema luego de
+investigar un poco, fue automatizar la configuración de opciones de la
+/BIOS/ utilizando =ansible= [fn:ansible].
+
+El rol =gcoop-libre.hp_linux_tools= [fn:ansible_hplt] se ocupa de
+descargar las /HP Linux Tools/ [fn:hplt] y lo necesario para compilar
+el módulo de /Kernel/ =hpuefi-mod=, instalarlo, crear el dispositivo
+=/dev/hpuefi=, obtener la configuración de la /BIOS/ desde un archivo
+remoto o desde el mismo equipo, mostrar la config, establecer los
+nuevos valores, reiniciar el equipo y verificar el cambio aplicado, en
+este caso =ASPM Disabled= en los atributos de la placa de red.
+
+Seguramente en un par de meses sumaremos mas funcionalidad, pero sin
+dudas **este rol es la manera de escalar y cambiar la configuración de
+la /BIOS/ de miles de equipos de manera automatizada**.
+
+** Recomiendo leer
+
+- [[file:2021-09-27-hp-prodesk-400-g5-desktop-mini-bios-disable-aspm-from-linux-command-line.org][Deshabilitar /ASPM/ en /BIOS/ /ProDesk 400 G5 Desktop Mini/ desde /GNU/Linux/ utilizando =hp-repsetup=]]
+
+[fn:gcoop]         https://www.gcoop.coop/
+[fn:ansible]       https://www.ansible.com/
+[fn:ansible_hplt]  https://gitlab.com/gcoop-libre/ansible_role_hp_linux_tools
+[fn:hplt]          https://ftp.hp.com/pub/softpaq/sp111001-111500/sp111455.tgz
