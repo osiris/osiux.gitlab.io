@@ -4,6 +4,7 @@ pages:
   script:
   - cat index.sh | /bin/sh
   - cat blog.sh  | /bin/sh
+  - cat stats-posts.sh | /bin/sh
   - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
   - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
   - cat sitemap.sh | /bin/sh
