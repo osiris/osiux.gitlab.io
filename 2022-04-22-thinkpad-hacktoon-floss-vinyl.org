@@ -110,7 +110,7 @@ gracias y =libero mi adaptación= [fn:githacktoon] bajo licencia
 [fn:githacktoonv01]  https://gitlab.com/osiux/hacktoon-floss-vinyl/-/blob/master/thinkpad-hacktoon-floss-vinyl-v01.svg
 [fn:flisol]          https://eventol.flisol.org.ar/events/flisol-caba-22/activity/324/
 [fn:githacktoonv02]  https://gitlab.com/osiux/hacktoon-floss-vinyl/-/blob/master/thinkpad-hacktoon-floss-vinyl-v02.svg
-[fn:webliria]        http://web.archive.org/web/20150126192316/http://www.liria.com.br/wordpress/wp-content/uploads/generic/bem-vindo/sl.jpg
+[fn:webliria]        http://web.archive.org/web/20150126192316/http://www.liria.com.br/
 [fn:webhacktoon]     http://hacktoon.com/
 [fn:githacktoon]     https://gitlab.com/osiux/hacktoon-floss-vinyl/
 [fn:ccbysa]          https://creativecommons.org/licenses/by-sa/4.0/deed.es
