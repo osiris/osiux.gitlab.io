@@ -1,0 +1,116 @@
+#+TITLE:       Thinkpad HackToon FLOSS Vinyl by OSiUX
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2022-04-22 09:55
+
+[[file:img/thinkpad-hacktoon-floss-vinyl-t14.jpg][file:tmb/thinkpad-hacktoon-floss-vinyl-t14.jpg]]
+
+** /thinkpad diferent/
+
+Hace tiempo que compré mi primera /Thinkpad/ y a diferencia de todas las
+/notebooks/ anteriores (=cachaza=, =caipiroska= y =branca=) a =tequila=
+no me ocupe de pegarle ni un solo sticker en la tapa porque tenía en
+mente hacer algo diferente...
+
+** /HackToon/
+
+En 2011 asistí al =FISL11= [fn:fisl11] (/Foro Internacional de Software
+Libre/) en /Porto Alegre, Brasil/, y además de quedar sorprendido con la
+cantidad de charlas de =SL= (/Software Libre/), más de 100 por día, en
+un evento de 4 días, quede maravillado con un diseño que reunía a casi
+todas las mascotas del movimiento del =SL= en un hermoso diseño y estaba
+en el /footer/ del cronograma de charlas.
+
+[[file:img/original-hacktoon-floss.jpg][file:tmb/original-hacktoon-floss.jpg]]
+
+** remera, pared o notebook?
+
+Tuve la idea de usarlo varias veces, tal vez en una remera, en otras
+oportunidades propuse pintarlo en una pared de =gcoop= [fn:gcoop] (pero
+no picó la idea) y finalmente en algún momento me dije
+
+/"lo voy a convertir en vinilo para mi próxima notebook"/
+
+** Yendo del /bitmap/ al vector
+
+Hace un par de meses, vectorice el dibujo y le agregué algunos logos
+extra (=Ansible=, =Bash=, =Git=, =Glider=, =GPLv3=) tratando de seguir
+una línea similar evitando usar textos excepto el lema de mi /blog/
+=ABSOLUTELLY NO WARRANTY= (advertencia de la Licencia =GPL= [fn:gpl])
+
+** =v01=
+
+[[file:img/thinkpad-hacktoon-floss-vinyl-v01.png][file:tmb/thinkpad-hacktoon-floss-vinyl-v01.png]]
+
+Hice una =primer versión= [fn:githacktoonv01] que me gustaba aunque
+había que probarla, dormí en plotearla por diferentes motivos (trabajo,
+vacaciones, etc) pero finalmente con la excusa de tener a =tequila=
+presentable para mi charla del próximo =FLISoL= [fn:flisol], y hace un
+par de días fui a /plotearla/ y me dijeron /"asi como esta, esto no se
+puede cortar, es demasiado detallado"/ =:(=
+
+** =v02=
+
+[[file:img/thinkpad-hacktoon-floss-vinyl-v02.png][file:tmb/thinkpad-hacktoon-floss-vinyl-v02.png]]
+
+/OK/, vamos por el /refactor/ de =segunda versión= [fn:githacktoonv02] y
+medio a las apuradas rompí el diseño original en 3 partes, agrandando lo
+mas que se pudo a las mascotas y achicando el resto, moviendo todo de
+lugar y lo mas complejo, lograr que ningún filete tenga menos de 1mm de
+espesor! =:S=
+
+** /just cut/
+
+Como se trataba de una prueba, para abaratar el costo, pedí solo el
+corte del vinilo y retome una vieja y paciente tarea, ocuparme de pelar
+el vinilo, algo que parece simple y resulta bastante complejo al mismo
+tiempo.
+
+** negativo vs positivo
+
+Al realizar el diseño en negativo, el color se lo dá la =thinkpad= ya
+que estoy cortando una única pieza en blanco, que mirándola en detalle
+es un archipiélago de pequeñas y diminutas partes que cuidadosamente
+deben ser ,separadas evitando descartar lo negativo y quitando lo
+positivo (suena lógico).
+
+** joven manos de tijera
+
+Como era de esperarse luego de tantos años de abandonar el rubro de la
+gráfica por el de desarrollo de /software/ no estuve tan chanchero, el
+abuso del teclado por sobre la motricidad fina hizo que algunos OjOs se
+perdieron por el camino y algunos parches fueron aplicados a fuerza de
+/cutter/ de artesano, pero el resultado para estar primer prueba de
+impresión fue mas que satisfactoria.
+
+[[file:img/thinkpad-hacktoon-floss-vinyl-wip.jpg][file:tmb/thinkpad-hacktoon-floss-vinyl-wip.jpg]]
+
+No solo por sacarme esa loca idea de la cabeza y llevarla adelante, sino
+mas que nada por poder materializar la idea, es un tangible, después de
+tanto desarrollo de intangibles, es gratificante palpar la textura,
+verla monona a =tequila=, única y por sobre todo haberla realizado
+usando herramientas libres como =inkscape= para diseñar un imagen sobre
+herramientas, lenguajes y utilitarios libres.
+
+** =CompartirEsBueno!=
+
+La web donde obtuve la imagen "original" lamentablemente ya no está
+disponible, aunque hay una copia en =web.archive.org= [fn:webliria], lo
+que encontré en la web es =HackToon= [fn:webhacktoon], le doy las
+gracias y =libero mi adaptación= [fn:githacktoon] bajo licencia
+=CC-BY-SA= [fn:ccbysa] para quien quiera =usarla=, =copiarla=,
+=distribuirla= y =mejorarla=!
+
+[fn:fisl11]          https://osiux.com/jrrl3-terceras-jornadas-regionales-de-redes-libres-en-fisl12.html
+[fn:gcoop]           https://www.gcoop.coop/
+[fn:gpl]             https://es.wikipedia.org/wiki/Licencia_Pública_General_de_GNU
+[fn:githacktoonv01]  https://gitlab.com/osiux/hacktoon-floss-vinyl/-/blob/master/thinkpad-hacktoon-floss-vinyl-v01.svg
+[fn:flisol]          https://eventol.flisol.org.ar/events/flisol-caba-22/activity/324/
+[fn:githacktoonv02]  https://gitlab.com/osiux/hacktoon-floss-vinyl/-/blob/master/thinkpad-hacktoon-floss-vinyl-v02.svg
+[fn:webliria]        http://web.archive.org/web/20150126192316/http://www.liria.com.br/wordpress/wp-content/uploads/generic/bem-vindo/sl.jpg
+[fn:webhacktoon]     http://hacktoon.com/
+[fn:githacktoon]     https://gitlab.com/osiux/hacktoon-floss-vinyl/
+[fn:ccbysa]          https://creativecommons.org/licenses/by-sa/4.0/deed.es
