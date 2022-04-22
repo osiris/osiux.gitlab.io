@@ -114,3 +114,7 @@ gracias y =libero mi adaptación= [fn:githacktoon] bajo licencia
 [fn:webhacktoon]     http://hacktoon.com/
 [fn:githacktoon]     https://gitlab.com/osiux/hacktoon-floss-vinyl/
 [fn:ccbysa]          https://creativecommons.org/licenses/by-sa/4.0/deed.es
+
+** ChangeLog
+
+  - [[https://bakberry/bare/blog/-/commit/4070ee35ef992cde639cd658b18ef1312623ab74][=2022-04-22 10:18=]] agregar /Thinkpad HackToon FLOSS Vinyl by OSiUX/
