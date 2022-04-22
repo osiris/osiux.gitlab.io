@@ -7,6 +7,26 @@
 #+DATE:        {{{modification-time(%Y-%m-%d %H:%M)}}}
 
 
+** [[file:2022-04-22-thinkpad-hacktoon-floss-vinyl.org][Thinkpad HackToon FLOSS Vinyl by OSiUX]]
+
+[[file:img/thinkpad-hacktoon-floss-vinyl-t14.jpg][file:icn/thinkpad-hacktoon-floss-vinyl-t14.jpg]]
+
+[[file:img/original-hacktoon-floss.jpg][file:icn/original-hacktoon-floss.jpg]]
+
+[[file:img/thinkpad-hacktoon-floss-vinyl-v01.png][file:icn/thinkpad-hacktoon-floss-vinyl-v01.png]]
+
+[[file:img/thinkpad-hacktoon-floss-vinyl-v02.png][file:icn/thinkpad-hacktoon-floss-vinyl-v02.png]]
+
+[[file:img/thinkpad-hacktoon-floss-vinyl-wip.jpg][file:icn/thinkpad-hacktoon-floss-vinyl-wip.jpg]]
+
+** [[file:2021-04-28-gemini-es-para-amantes-del-texto-plano.org][=gemini://= es para amantes del texto plano]]
+
+[[file:img/gemini-amfora-vs-lagrange.png][file:icn/gemini-amfora-vs-lagrange.png]]
+
+** [[file:2021-03-28-tarea-en-progreso.org][tarea en progreso]]
+
+[[file:img/tarea-en-progreso-tmux-redmine-timediff-last-comment.png][file:icn/tarea-en-progreso-tmux-redmine-timediff-last-comment.png]]
+
 ** [[file:2021-03-22-remote-async-communication.org][La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto]]
 
 [[file:img/async_chat_example.png]]
