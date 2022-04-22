@@ -114,7 +114,9 @@ gracias y =libero mi adaptación= [fn:githacktoon] bajo licencia
 [fn:ccbysa]          https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
 
+
 ** ChangeLog
 
+  - [[https://https///gitlab.com/osiux/osiux.gitlab.io/-/commit/31074d35578fdb56c880762a1902b0a2922e2b60][=2022-04-22 10:16=]] corregir link a SVGs de gitlab no dé error en /footnotes/
   - [[https://https///gitlab.com/osiux/osiux.gitlab.io/-/commit/f8cecb49372196d6814ff009048740ac61fa5520][=2022-04-22 10:48=]] corregir link a web liria para que no muestre imagen en /footnotes/
   - [[https://https///gitlab.com/osiux/osiux.gitlab.io/-/commit/4070ee35ef992cde639cd658b18ef1312623ab74][=2022-04-22 10:18=]] agregar /Thinkpad HackToon FLOSS Vinyl by OSiUX/
