@@ -43,24 +43,24 @@ una línea similar evitando usar textos excepto el lema de mi /blog/
 
 ** =v01=
 
-[[file:img/thinkpad-hacktoon-floss-vinyl-v01.png][file:tmb/thinkpad-hacktoon-floss-vinyl-v01.png]]
+[[https://gitlab.com/osiux/hacktoon-floss-vinyl/-/blob/master/thinkpad-hacktoon-floss-vinyl-v01.svg][file:tmb/thinkpad-hacktoon-floss-vinyl-v01.png]]
 
-Hice una =primer versión= [fn:githacktoonv01] que me gustaba aunque
-había que probarla, dormí en plotearla por diferentes motivos (trabajo,
-vacaciones, etc) pero finalmente con la excusa de tener a =tequila=
-presentable para mi charla del próximo =FLISoL= [fn:flisol], y hace un
-par de días fui a /plotearla/ y me dijeron /"asi como esta, esto no se
-puede cortar, es demasiado detallado"/ =:(=
+Hice una =primer versión= que me gustaba aunque había que probarla,
+dormí en plotearla por diferentes motivos (trabajo, vacaciones, etc)
+pero finalmente con la excusa de tener a =tequila= presentable para mi
+charla del próximo =FLISoL= [fn:flisol], y hace un par de días fui a
+/plotearla/ y me dijeron /"asi como esta, esto no se puede cortar, es
+demasiado detallado"/ =:(=
 
 ** =v02=
 
-[[file:img/thinkpad-hacktoon-floss-vinyl-v02.png][file:tmb/thinkpad-hacktoon-floss-vinyl-v02.png]]
+[[https://gitlab.com/osiux/hacktoon-floss-vinyl/-/blob/master/thinkpad-hacktoon-floss-vinyl-v02.svg][file:tmb/thinkpad-hacktoon-floss-vinyl-v02.png]]
 
-/OK/, vamos por el /refactor/ de =segunda versión= [fn:githacktoonv02] y
-medio a las apuradas rompí el diseño original en 3 partes, agrandando lo
-mas que se pudo a las mascotas y achicando el resto, moviendo todo de
-lugar y lo mas complejo, lograr que ningún filete tenga menos de 1mm de
-espesor! =:S=
+/OK/, vamos por el /refactor/ de =segunda versión= y medio a las
+apuradas rompí el diseño original en 3 partes, agrandando lo mas que se
+pudo a las mascotas y achicando el resto, moviendo todo de lugar y lo
+mas complejo, lograr que ningún filete tenga menos de 1mm de espesor!
+=:S=
 
 ** /just cut/
 
@@ -107,9 +107,7 @@ gracias y =libero mi adaptación= [fn:githacktoon] bajo licencia
 [fn:fisl11]          https://osiux.com/jrrl3-terceras-jornadas-regionales-de-redes-libres-en-fisl12.html
 [fn:gcoop]           https://www.gcoop.coop/
 [fn:gpl]             https://es.wikipedia.org/wiki/Licencia_Pública_General_de_GNU
-[fn:githacktoonv01]  https://gitlab.com/osiux/hacktoon-floss-vinyl/-/blob/master/thinkpad-hacktoon-floss-vinyl-v01.svg
 [fn:flisol]          https://eventol.flisol.org.ar/events/flisol-caba-22/activity/324/
-[fn:githacktoonv02]  https://gitlab.com/osiux/hacktoon-floss-vinyl/-/blob/master/thinkpad-hacktoon-floss-vinyl-v02.svg
 [fn:webliria]        http://web.archive.org/web/20150126192316/http://www.liria.com.br/
 [fn:webhacktoon]     http://hacktoon.com/
 [fn:githacktoon]     https://gitlab.com/osiux/hacktoon-floss-vinyl/
