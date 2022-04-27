@@ -84,3 +84,7 @@ De momento comparto los /slides/ de la charla...
 [fn:ansible]              https://www.ansible.com/
 [fn:awx]                  https://github.com/ansible/awx/
 
+
+** ChangeLog
+
+  - [[https://bakberry/bare/blog/-/commit/4fcf668b76d12c948822eb03311c9683ffecbc1b][=2022-04-27 01:32=]] agregar =Filiales GNU/Linux= en /FLISoL CABA/
