@@ -1,0 +1,86 @@
+#+TITLE:       =Filiales GNU/Linux= FLISoL CABA
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2022-04-26 23:28
+
+[[file:img/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg][file:tmb/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg]]
+
+Desde el 2010 que el último Sábado de Abril doy alguna charla en el
+=FLISoL= [fn:flisol] (/Festival Latinoamericano de Instalación de
+Software Libre/) y este año fue especial, por varios motivos:
+
+- primer =FLISoL= que vuelve a ser presencial post cuarentena/pandemia
+
+- mis pequeños /forks/ colaboraron en mi charla, entregando presentes y
+  además, el mayor de ellos, se ocupó de generar una animación usando
+  =Blender= [fn:blender]
+
+- mostré en público parte del proyecto en el que trabajo hace 4 años!
+
+Obviamente como todos los años el /FLISoL/ contó con muchas otras
+charlas y un aula dedicada a la instalación de diferentes distros y en
+esta oportunidad en /CABA/ el lugar fue el =INSPT= [fn:inspt]
+(/Instituto Nacional Superior del Profesorado Técnico/) de la =UTN=
+(/Universidad Tecnológica Nacional/) [fn:utn].
+
+[[file:img/2022-04-23-flisol-caba-sala-10.jpg][file:img/2022-04-23-flisol-caba-sala-10.jpg]]
+
+Para darle un poco mas de /punch/ el título de la charla fue =Migrar
+6300 GNU/linux usando código= [fn:flisol-6300gnulinux] y la idea fue
+contar un poco sobre el desarrollo y despliegue centralizado y
+automatizado de generación de mas de 300 servidores =Debian=
+[fn:debian], la instalación y configuración del hipervisor =Proxmox=
+[fn:proxmox], la creación de mas de 3000 virtuales, instalando y
+configurando los servicios necesarios para que sean utilizados desde mas
+de 3000 puestos de trabajo =Ubuntu= [fn:ubuntu] distribuidos en mas de
+300 /Filiales/ de =BCCL= (/Banco Credicoop Cooperativo Ltdo.) [fn:bccl].
+
+/...Sin dudas la migración mas grande en la que he participado.../
+
+Proyectos como el de =Filiales GNU/Linux= es uno de los motivos por los
+cuales se fundó =gcoop= [fn:gcoop], es decir poder reemplazar /Software
+Privativo/ mediante el diseño, desarrollo e implementación de =Software
+Libre= [fn:softlibre] de calidad y a gran escala mediante un despliegue
+totalmente automatizado y usando el modelo de /Infraestructura como
+Código/ [fn:iac] que aporta trazabilidad y reproducibilidad a la gestión
+del mantenimiento de toda la infraestructura, en este caso, en todas las
+/Filiales/ del /BCCL/.
+
+[[file:img/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg][file:tmb/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg]]
+
+No solo se trata de migrar una /notebook/ de uso personal un Sábado de
+Abril, /gcoop/ demostró cómo es posible que grandes empresas aprovechen
+todas las ventajas del uso de /Software Libre/ y del conocimiento de
+toda la solución realizada por una cooperativa que trabaja y desarrolla
+en pos de la soberanía tecnológica [fn:soberaniatec].
+
+Si bien la charla fue muy introductoria sobre las tecnologías
+utilizadas, mayormente =Ansible= [fn:ansible] y =AWX= [fn:awx], fue el
+comienzo de una futura serie de /posts/ en los que iré detallando y
+divulgando el caso de éxito de una liberación masiva!
+
+De momento comparto los /slides/ de la charla...
+
+[[https://eventol.flisol.org.ar/media/talks/ansible-awx-bccl_KBu4UfA.pdf][file:img/2022-04-23-flisol-caba-filiales-gnu-linux-slides.jpg]]
+
+...y prometo =MAS DATOS= ...
+
+[fn:flisol]               https://flisol.info/
+[fn:blender]              https://www.blender.org
+[fn:inspt]                http://inspt.utn.edu.ar/
+[fn:utn]                  https://utn.edu.ar/
+[fn:flisol-6300gnulinux]  https://eventol.flisol.org.ar/events/flisol-caba-22/activity/324/
+[fn:debian]               https://debian.org/
+[fn:proxmox]              https://proxmox.com/
+[fn:ubuntu]               https://ubuntu.com/
+[fn:bccl]                 https://www.bancocredicoop.coop/
+[fn:gcoop]                https://www.gcoop.coop/
+[fn:softlibre]            https://es.wikipedia.org/wiki/Software_libre
+[fn:iac]                  https://es.wikipedia.org/wiki/Infraestructura_como_c%C3%B3digo
+[fn:soberaniatec]         https://es.wikipedia.org/wiki/Soberan%C3%ADa_tecnol%C3%B3gica
+[fn:ansible]              https://www.ansible.com/
+[fn:awx]                  https://github.com/ansible/awx/
+
