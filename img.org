@@ -7,6 +7,16 @@
 #+DATE:        {{{modification-time(%Y-%m-%d %H:%M)}}}
 
 
+** [[file:2022-04-23-filiales-gnu-linux-flisol-caba.org][=Filiales GNU/Linux= FLISoL CABA]]
+
+[[file:img/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg][file:icn/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg]]
+
+[[file:img/2022-04-23-flisol-caba-sala-10.jpg][file:img/2022-04-23-flisol-caba-sala-10.jpg]]
+
+[[file:img/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg][file:icn/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg]]
+
+[[https://eventol.flisol.org.ar/media/talks/ansible-awx-bccl_KBu4UfA.pdf][file:img/2022-04-23-flisol-caba-filiales-gnu-linux-slides.jpg]]
+
 ** [[file:2022-04-22-thinkpad-hacktoon-floss-vinyl.org][Thinkpad HackToon FLOSS Vinyl by OSiUX]]
 
 [[file:img/thinkpad-hacktoon-floss-vinyl-t14.jpg][file:icn/thinkpad-hacktoon-floss-vinyl-t14.jpg]]
