@@ -26,7 +26,7 @@ esta oportunidad en /CABA/ el lugar fue el =INSPT= [fn:inspt]
 (/Instituto Nacional Superior del Profesorado Técnico/) de la =UTN=
 (/Universidad Tecnológica Nacional/) [fn:utn].
 
-[[file:img/2022-04-23-flisol-caba-sala-10.jpg][file:img/2022-04-23-flisol-caba-sala-10.jpg]]
+[[file:img/2022-04-23-flisol-caba-sala-10.jpg][file:tmb/2022-04-23-flisol-caba-sala-10.jpg]]
 
 Para darle un poco mas de /punch/ el título de la charla fue =Migrar
 6300 GNU/linux usando código= [fn:flisol-6300gnulinux] y la idea fue
@@ -65,7 +65,7 @@ divulgando el caso de éxito de una liberación masiva!
 
 De momento comparto los /slides/ de la charla...
 
-[[https://eventol.flisol.org.ar/media/talks/ansible-awx-bccl_KBu4UfA.pdf][file:img/2022-04-23-flisol-caba-filiales-gnu-linux-slides.jpg]]
+[[https://eventol.flisol.org.ar/media/talks/ansible-awx-bccl_KBu4UfA.pdf][file:tmb/2022-04-23-flisol-caba-filiales-gnu-linux-slides.jpg]]
 
 ...y prometo =MAS DATOS= ...
 
