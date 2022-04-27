@@ -31,23 +31,24 @@ esta oportunidad en /CABA/ el lugar fue el =INSPT= [fn:inspt]
 Para darle un poco mas de /punch/ el título de la charla fue =Migrar
 6300 GNU/linux usando código= [fn:flisol-6300gnulinux] y la idea fue
 contar un poco sobre el desarrollo y despliegue centralizado y
-automatizado de generación de mas de 300 servidores =Debian=
-[fn:debian], la instalación y configuración del hipervisor =Proxmox=
-[fn:proxmox], la creación de mas de 3000 virtuales, instalando y
-configurando los servicios necesarios para que sean utilizados desde mas
-de 3000 puestos de trabajo =Ubuntu= [fn:ubuntu] distribuidos en mas de
-300 /Filiales/ de =BCCL= (/Banco Credicoop Cooperativo Ltdo.) [fn:bccl].
+automatizado de generación de mas de 300 servidores
+=Debian= [fn:debian], la instalación y configuración del hipervisor
+=Proxmox= [fn:proxmox], la creación de mas de 3000 virtuales, instalando
+y configurando los servicios necesarios para que sean utilizados desde
+mas de 3000 puestos de trabajo =Ubuntu= [fn:ubuntu] distribuidos en mas
+de 300 /Filiales/ de =BCCL= [fn:bccl]
+(/Banco Credicoop Cooperativo Ltdo.)
 
 /...Sin dudas la migración mas grande en la que he participado.../
 
 Proyectos como el de =Filiales GNU/Linux= es uno de los motivos por los
 cuales se fundó =gcoop= [fn:gcoop], es decir poder reemplazar /Software
-Privativo/ mediante el diseño, desarrollo e implementación de =Software
-Libre= [fn:softlibre] de calidad y a gran escala mediante un despliegue
-totalmente automatizado y usando el modelo de /Infraestructura como
-Código/ [fn:iac] que aporta trazabilidad y reproducibilidad a la gestión
-del mantenimiento de toda la infraestructura, en este caso, en todas las
-/Filiales/ del /BCCL/.
+Privativo/ mediante el diseño, desarrollo e implementación de
+=Software Libre= [fn:softlibre] de calidad y a gran escala mediante un
+despliegue totalmente automatizado y usando el modelo de
+/Infraestructura como Código/ [fn:iac] que aporta trazabilidad y
+reproducibilidad a la gestión del mantenimiento de toda la
+infraestructura, en este caso, en todas las /Filiales/ del /BCCL/.
 
 [[file:img/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg][file:tmb/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg]]
 
