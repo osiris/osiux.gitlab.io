@@ -87,7 +87,9 @@ De momento comparto los /slides/ de la charla...
 
 
 
+
 ** ChangeLog
 
+  - [[https://bakberry/bare/blog/-/commit/11eb4c4b2a1ab5236a3e62d9dc643398cd2cc601][=2022-04-27 01:49=]] corregir /preview/ de imágenes en =Filiales GNU/Linux= en /FLISoL CABA/
   - [[https://bakberry/bare/blog/-/commit/db96a61541dc8bc584b0d8c5aec792e9a0eeb55e][=2022-04-27 01:36=]] corregir /footnotes/ para evitar que no se rompa el /HTML/ en =Filiales GNU/Linux= en /FLISoL CABA/
   - [[https://bakberry/bare/blog/-/commit/4fcf668b76d12c948822eb03311c9683ffecbc1b][=2022-04-27 01:32=]] agregar =Filiales GNU/Linux= en /FLISoL CABA/
