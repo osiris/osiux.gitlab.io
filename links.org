@@ -93,6 +93,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 [[file:links.org::#+gnu][=+gnu=]] 
 [[file:links.org::#+gnuplot][=+gnuplot=]] 
 [[file:links.org::#+gpg][=+gpg=]] 
+[[file:links.org::#+gpl][=+gpl=]] 
 [[file:links.org::#+graphviz][=+graphviz=]] 
 [[file:links.org::#+hack][=+hack=]] 
 [[file:links.org::#+html][=+html=]] 
@@ -198,6 +199,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 [[file:links.org::#+tty][=+tty=]] 
 [[file:links.org::#+txt][=+txt=]] 
 [[file:links.org::#+ubuntu][=+ubuntu=]] 
+[[file:links.org::#+uefi][=+uefi=]] 
 [[file:links.org::#+unix][=+unix=]] 
 [[file:links.org::#+unknown][=+unknown=]] 
 [[file:links.org::#+upnp][=+upnp=]] 
@@ -229,36 +231,36 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 [[file:links.org::#+zip][=+zip=]] 
 
 ** Recents links
-*** =2022-02-26= [[https://github.com/pre-commit/pre-commit-hooks][Some out-of-the-box hooks for pre-commit]] [[file:links.org::#+git][=+git=]]
-*** =2022-02-25= [[https://www.guckes.net/vim/setup.html][VIM - Minimal Setup Explained]] [[file:links.org::#+vim][=+vim=]]
-*** =2022-02-25= [[https://jless.io/][jless - A Command-Line JSON Viewer]] [[file:links.org::#+tty][=+tty=]]
-*** =2022-02-25= [[https://group.miletic.net/en/blog/2022-02-24-dont-use-rar/][Don't use RAR - GASERI – Group for apps and services on exascale research infrastructure]] [[file:links.org::#+zip][=+zip=]]
-*** =2022-02-25= [[https://github.com/yashsinghcodes/fetch][wik is use to get information about anything on the shell using Wikipedia.]] [[file:links.org::#+tty][=+tty=]]
-*** =2022-02-25= [[https://gist.github.com/jcoleman/1e6ad1bf8de454c166da94b67537758b][blog.md · GitHub]] [[file:links.org::#+postgresql][=+postgresql=]]
-*** =2022-02-25= [[https://forum.effectivealtruism.org/posts/pyvybGkGYaFAeNtGi/writing-about-my-job-software-engineer-at-wave][Writing about my job: Software Engineer at Wave - EA Forum]] [[file:links.org::#+dev][=+dev=]]
-*** =2022-02-25= [[https://blog.zazu.berlin/software/a-almost-perfect-rsync-over-ssh-backup-script.html][A almost perfect rsync over ssh backup script - zazu.berlin– die Schwarzwald Werbeagentur in Berlin sagt &#8230;]] [[file:links.org::#+backup][=+backup=]]
-*** =2022-02-25= [[https://blog.benjojo.co.uk/post/multipath-without-mptcp][Going multipath without Multipath TCP]] [[file:links.org::#+sysadmin][=+sysadmin=]]
-*** =2022-02-23= [[https://everything.curl.dev/usingcurl/timeouts][Timeouts - Everything curl]] [[file:links.org::#+curl][=+curl=]]
-*** =2022-02-22= [[https://www.adithyabalaji.com/productivity/2022/02/01/Sleep.html][Get Better Sleep—Anecdata and Sleep Tech | Adithya Balaji]] [[file:links.org::#+org][=+org=]]
-*** =2022-02-22= [[https://ashutosh.blog/noice/][Noice for Android]] [[file:links.org::#+apk][=+apk=]]
-*** =2022-02-20= [[https://kg.dev/thoughts/be-anonymous][Be anonymous]] [[file:links.org::#+privacy][=+privacy=]]
-*** =2022-02-19= [[https://www.devever.net/~hl/linuxgpl][Linux's GPLv2 licence is routinely violated]] [[file:links.org::#+copyleft][=+copyleft=]]
-*** =2022-02-19= [[https://revelry.co/insights/development/nix-time/][Nix: An Idea Whose Time Has Come]] [[file:links.org::#+nix][=+nix=]]
-*** =2022-02-19= [[https://news.ycombinator.com/item?id=30401241][Tell HN: YouTube and how my wife lost 7 years of work | Hacker News]] [[file:links.org::#+video][=+video=]]
-*** =2022-02-19= [[https://medium.com/@JasonWyatt/squeezing-performance-from-sqlite-explaining-the-virtual-machine-2550ef6c5db][Squeezing Performance from SQLite: EXPLAINing the Virtual Machine | by Jason Feinstein | Medium]] [[file:links.org::#+sql][=+sql=]]
-*** =2022-02-19= [[https://github.com/martinvonz/jj][A Git-compatible DVCS that is both simple and powerful]] [[file:links.org::#+git][=+git=]]
-*** =2022-02-19= [[https://github.com/larrykollar/Unix-Text-Processing][Recreated sources for the book "UNIX Text Processing," published in 1987.]] [[file:links.org::#+unix][=+unix=]]
-*** =2022-02-19= [[https://github.com/gristlabs/grist-core][Grist is the evolution of spreadsheets.]] [[file:links.org::#+agile][=+agile=]]
-*** =2022-02-19= [[https://github.com/garage44/pyrite/][Pyrite is a web(RTC) client for the Galène videoconference server.]] [[file:links.org::#+video][=+video=]]
-*** =2022-02-19= [[https://earthly.dev/blog/lxc-vs-docker/][LXC vs Docker: Which Container Platform Is Right for You? - Earthly Blog]] [[file:links.org::#+docker][=+docker=]]
-*** =2022-02-19= [[https://briandfoy.github.io/ide-driven-development/][What do you really get from IDE-driven development? – brian d foy – Random Adventures]] [[file:links.org::#+tag][=+tag=]]
-*** =2022-02-19= [[https://blog.brixit.nl/going-ipv6-only/][Going IPv6 only]] [[file:links.org::#+inet][=+inet=]]
-*** =2022-02-18= [[http://www.fmwconcepts.com/imagemagick/index.php][Fred's ImageMagick Scripts]] [[file:links.org::#+design][=+design=]]
-*** =2022-02-18= [[https://www.raptitude.com/2022/02/what-i-learned-during-my-three-days-offline/][What I Learned During My Three Days Offline]] [[file:links.org::#+org][=+org=]]
-*** =2022-02-18= [[https://matt-rickard.com/against-pair-programming/][Pair Programming Doesn't Scale]] [[file:links.org::#+org][=+org=]]
-*** =2022-02-13= [[https://www.abuseipdb.com/fail2ban.html][Integrating AbuseIPDB with Fail2Ban]] [[file:links.org::#+ssh][=+ssh=]]
-*** =2022-02-13= [[https://randsinrepose.com/archives/what-we-lost/][What We Lost - Rands in Repose]] [[file:links.org::#+remote][=+remote=]]
-*** =2022-02-13= [[https://portswigger.net/daily-swig/http-3-everything-you-need-to-know-about-the-next-generation-web-protocol][HTTP/3: Everything you need to know about the next-generation web protocol | The Daily Swig]] [[file:links.org::#+http][=+http=]]
+*** =2022-05-22= https://shinobi.website/index.txt [[file:links.org::#+rss][=+rss=]]
+*** =2022-05-22= [[https://consulting.drmaciver.com/code-review-quick-fixes/][Quick fixes to your code review workflow - Consulting with David R. MacIver]] [[file:links.org::#+org][=+org=]]
+*** =2022-05-22= [[https://alexanderell.is/posts/wikipedia-over-whatsapp/][Wikipedia Over WhatsApp . Caffeinspiration]] [[file:links.org::#+wifi][=+wifi=]]
+*** =2022-05-22= [[http://rachelbythebay.com/w/2022/05/19/priority/][Tasks, lists, and promises]] [[file:links.org::#+org][=+org=]]
+*** =2022-05-21= [[https://www.homebrew8088.com/home/raspberry-pi-second-project][www.homebrew8088.com - Raspberry PI Second Project]] [[file:links.org::#+pi][=+pi=]]
+*** =2022-05-21= [[https://tsk.bearblog.dev/the-tools-i-use-to-write-blogs/][The tools I use to write blogs | ╹﹏╹ tsuki]] [[file:links.org::#+tty][=+tty=]]
+*** =2022-05-21= [[https://nvlabs.github.io/nvdiffrec/][Extracting Triangular 3D Models, Materials, and Lighting From Images]] [[file:links.org::#+3d][=+3d=]]
+*** =2022-05-21= [[https://nbailey.ca/post/radiation-monitor/][Monitor radiation with a Raspberry Pi]] [[file:links.org::#+pi][=+pi=]]
+*** =2022-05-21= [[https://lock.cmpxchg8b.com/linux123.html][Lotus 1-2-3 For Linux]] [[file:links.org::#+retro][=+retro=]]
+*** =2022-05-21= [[https://github.com/sharkdp/fd][A simple, fast and user-friendly alternative to 'find']] [[file:links.org::#+tty][=+tty=]]
+*** =2022-05-21= [[https://github.com/SecureAuthCorp/impacket][Impacket is a collection of Python classes for working with network protocols.]] [[file:links.org::#+python][=+python=]]
+*** =2022-05-21= [[https://github.com/sealerio/sealer][A tool to seal application's all dependencies and Kubernetes into CloudImage, distribute this application anywhere via CloudImage, and run it within any cluster in one command.]] [[file:links.org::#+k8s][=+k8s=]]
+*** =2022-05-21= [[https://antonz.org/python-stdlib-changes/][Python Standard Library changes in recent years]] [[file:links.org::#+python][=+python=]]
+*** =2022-05-19= [[https://www.helloinbox.email/][Email Deliverability Checklist & Toolkit for Marketers | HelloInbox]] [[file:links.org::#+email][=+email=]]
+*** =2022-05-19= [[https://utcc.utoronto.ca/~cks/space/blog/web/TLSIntermediateCertHell][Chris's Wiki :: blog/web/TLSIntermediateCertHell]] [[file:links.org::#+ssl][=+ssl=]]
+*** =2022-05-19= [[https://tinyprojects.dev/posts/i_spent_two_years_launching_tiny_projects][I Spent 2 years Launching Tiny Projects | Tiny Projects]] [[file:links.org::#+dev][=+dev=]]
+*** =2022-05-19= [[https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/][Thorsten Ball - Professional Programming: The First 10 Years]] [[file:links.org::#+dev][=+dev=]]
+*** =2022-05-19= [[https://news.ycombinator.com/item?id=31432936][Poll: Self Hosting Git Repositories | Hacker News]] [[file:links.org::#+git][=+git=]]
+*** =2022-05-19= [[https://http.cat/][HTTP Cats]] [[file:links.org::#+http][=+http=]]
+*** =2022-05-19= [[https://github.com/pikasTech/pikascript][An ultra-lightweight Python engine that can run with 4KB of RAM and 32KB of Flash (such as STM32G030C8 and STM32F103C8), and is very easy to deploy and expand.]] [[file:links.org::#+python][=+python=]]
+*** =2022-05-18= [[https://www.getlago.com/blog/why-billing-systems-are-a-nightmare-for-engineers][😵‍💫 Why billing systems are a nightmare for engineers]] [[file:links.org::#+dev][=+dev=]]
+*** =2022-05-16= [[https://www.timescale.com/blog/observability-powered-by-sql-understand-your-systems-like-never-before-with-opentelemetry-traces-and-postgresql/][Observability Powered by SQL: Understand Your Systems Like Never Before With OpenTelemetry Traces and PostgreSQL]] [[file:links.org::#+sql][=+sql=]]
+*** =2022-05-16= [[https://sfconservancy.org/news/2022/may/16/vizio-remand-win/][Software Freedom Conservancy right-to-repair lawsuit against California TV manufacturer Vizio, Inc. remanded to California State Court - Software Freedom Conservancy]] [[file:links.org::#+copyleft][=+copyleft=]]
+*** =2022-05-16= [[https://leebriggs.co.uk/blog/2022/05/09/learning-to-love-yaml][How I learned to stop worrying and love the YAML | lbr.]] [[file:links.org::#+yaml][=+yaml=]]
+*** =2022-05-16= [[https://leaddev.com/reporting-metrics/flawed-five-engineering-productivity-metrics][The ‘flawed five’ engineering productivity metrics | LeadDev]] [[file:links.org::#+org][=+org=]]
+*** =2022-05-16= [[https://github.com/stokry/wp-sqlite][WordPress running on an SQLite database]] [[file:links.org::#+sql][=+sql=]]
+*** =2022-05-16= [[https://github.com/curusarn/resh][Rich Enhanced Shell History - Contextual shell history for zsh and bash]] [[file:links.org::#+tty][=+tty=]]
+*** =2022-05-16= [[https://github.com/curlconverter/curlconverter-vscode][VS Code extension that adds a "Paste cURL as code" option to the right-click menu]] [[file:links.org::#+curl][=+curl=]]
+*** =2022-05-16= [[https://cyounkins.medium.com/correct-backups-require-filesystem-snapshots-23062e2e7a15][Correct Backups Require Filesystem Snapshots | by Craig Younkins | May, 2022 | Medium]] [[file:links.org::#+backup][=+backup=]]
+*** =2022-05-16= [[https://antonz.org/json-virtual-columns/][JSON and virtual columns in SQLite]] [[file:links.org::#+sql][=+sql=]]
 
 ** =+3d=
    :PROPERTIES:
@@ -294,6 +296,11 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-11-07= [[https://jmtd.net/log/3d_print_list/][jmtd &rarr; log &rarr; 25 things I would like to 3D print]]
 *** =2021-11-13= [[https://github.com/bencbartlett/3D-printed-mirror-array][3D-printable hexagonal mirror array capable of reflecting sunlight into arbitrary patterns]]
 *** =2021-11-22= [[https://blog.prusaprinters.org/3mf-file-format-and-why-its-great_30986/][3MF file format and why it’s great]]
+*** =2022-03-01= [[https://github.com/openscad/openscad/tree/master/color-schemes/editor][openscad/color-schemes/editor at master · openscad/openscad · GitHub]]
+*** =2022-03-13= [[https://github.com/minorua/Qgis2threejs][A QGIS plugin to export 3D maps to Web]]
+*** =2022-04-06= [[https://jany.st/post/2022-04-04-ghostscad-marrying-openscad-and-golang.html][GhostSCAD: Marrying OpenSCAD and Golang - Lukasz Janyst's web site]]
+*** =2022-04-26= [[https://phys.org/news/2022-04-3d.html][Making 3D printing truly 3D]]
+*** =2022-05-21= [[https://nvlabs.github.io/nvdiffrec/][Extracting Triangular 3D Models, Materials, and Lighting From Images]]
 ** =+accesibility=
    :PROPERTIES:
    :CUSTOM_ID: +accesibility
@@ -361,6 +368,8 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
    :CUSTOM_ID: +apk
    :END:
 *** =2022-02-22= [[https://ashutosh.blog/noice/][Noice for Android]]
+*** =2022-04-21= [[https://k9mail.app/2022/04/18/K-9-Mail-6.000.html][K-9 Mail 6.000]]
+*** =2022-04-30= [[https://secuso.aifb.kit.edu/english/105.php][KIT - Secuso Research - Results - Privacy Friendly Apps]]
 ** =+apt=
    :PROPERTIES:
    :CUSTOM_ID: +apt
@@ -386,6 +395,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-03-05= [[https://blog.cloudflare.com/the-history-of-the-url/][The History of the URL]]
 *** =2020-03-12= http://www.analogmuseum.org/english/
 *** =2020-08-06= [[https://schmud.de/posts/2020-08-04-mother-of-mothers.html][Beyond the Frame | The Mothers of the Mother of All Demos]]
+*** =2020-08-20= [[https://github.com/archivy/archivy][Archivy is a self-hostable knowledge repository that allows you to learn and retain information in your own personal and extensible wiki.]]
 *** =2020-08-20= [[https://github.com/Uzay-G/archivy][Archivy is a self-hosted knowledge repository that allows you to safely preserve useful content that contributes to your knowledge bank.]]
 *** =2020-09-08= [[https://hawaiigentech.com/post/commentary/why-i-link-to-waybackmachine-instead/][Why I Link to WayBackMachine Instead of Original Site - Big Island Hawaii Simple Website Services]]
 *** =2020-09-08= [[https://www.gwern.net/Archiving-URLs][Archiving URLs Â· Gwern.net]]
@@ -478,6 +488,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-10-19= [[https://github.com/DusteDdk/dstream][bespoke music player for web]]
 *** =2021-10-19= [[https://github.com/ironsmile/euterpe][Self-hosted music streaming server 🎶 with RESTful API and Web interface. Think of it as your very own Spotify!]]
 *** =2021-12-09= [[https://soundshader.github.io/cats.html][Cat meow sounds visualized as ACF images | GLSL &amp; Sound]]
+*** =2022-04-09= [[https://www.ctrl.blog/entry/apple-music-nullbytes.html][The 0,5 MB of nothing in all Apple Music files]]
 ** =+autofs=
    :PROPERTIES:
    :CUSTOM_ID: +autofs
@@ -526,6 +537,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2022-01-27= [[https://blog.benjojo.co.uk/post/lto-tape-backups-for-linux-nerds][LTO Tape data storage for Linux nerds]]
 *** =2022-01-28= [[https://www.franzoni.eu/ransomware-resistant-backups/][Ransomware-resistant backups with duplicity and AWS S3]]
 *** =2022-02-25= [[https://blog.zazu.berlin/software/a-almost-perfect-rsync-over-ssh-backup-script.html][A almost perfect rsync over ssh backup script - zazu.berlin– die Schwarzwald Werbeagentur in Berlin sagt &#8230;]]
+*** =2022-05-16= [[https://cyounkins.medium.com/correct-backups-require-filesystem-snapshots-23062e2e7a15][Correct Backups Require Filesystem Snapshots | by Craig Younkins | May, 2022 | Medium]]
 ** =+bash=
    :PROPERTIES:
    :CUSTOM_ID: +bash
@@ -572,6 +584,9 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-10-31= [[https://cuddly-octo-palm-tree.com/posts/2021-10-31-better-bash-functions/][Cuddly, Octo-Palm Tree: Bash functions are better than I thought]]
 *** =2021-11-01= https://linuxconfig.org/multi-threaded-bash-scripting-process-management-at-the-command-line
 *** =2022-01-08= [[https://github.com/Bushmills/Bashforth][A Forth interpreter, entirely written as bash script. But by now is yoda (https://github.com/Bushmills/yoda) the better bashforth.]]
+*** =2022-04-15= [[https://arslan.io/2019/07/03/how-to-write-idempotent-bash-scripts/][How to write idempotent Bash scripts . Fatih Arslan]]
+*** =2022-05-03= [[https://github.com/onceupon/Bash-Oneliner][A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.]]
+*** =2022-05-09= [[https://www.tyil.nl/post/2022/05/07/configuring-my-machines-with-bashtard/][Configuring my Machines with Bashtard - Tyil]]
 ** =+bbs=
    :PROPERTIES:
    :CUSTOM_ID: +bbs
@@ -697,6 +712,8 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2022-01-13= https://news.i-n24.com/lifestyle/news/253970.html
 *** =2022-01-13= [[https://writing.kemitchell.com/2021/06/15/Big-Time-1.0.0.html][Big Time Public License 1.0.0 - /dev/lawyer]]
 *** =2022-02-19= [[https://www.devever.net/~hl/linuxgpl][Linux's GPLv2 licence is routinely violated]]
+*** =2022-04-26= [[https://datagubbe.se/futurefoss/][The Future of Open Source | datagubbe.se]]
+*** =2022-05-16= [[https://sfconservancy.org/news/2022/may/16/vizio-remand-win/][Software Freedom Conservancy right-to-repair lawsuit against California TV manufacturer Vizio, Inc. remanded to California State Court - Software Freedom Conservancy]]
 ** =+covid19=
    :PROPERTIES:
    :CUSTOM_ID: +covid19
@@ -811,6 +828,8 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2022-01-12= [[https://parceljs.org/blog/parcel-css/][Announcing Parcel CSS: A new CSS parser, compiler, and minifier written in Rust!]]
 *** =2022-01-15= [[https://simplecss.org/][Simple.css]]
 *** =2022-02-03= [[https://www.leemeichin.com/posts/yes-i-can-connect-to-a-db-in-css.html][Yes, I can connect to a DB in CSS]]
+*** =2022-03-01= [[https://lexoral.com/blog/you-dont-need-js/][5 things you don't need Javascript for]]
+*** =2022-04-14= [[https://voussoir.net/writing/browser_in_the_dark][Browser in the Dark: flashlights with CSS and canvas]]
 ** =+csv=
    :PROPERTIES:
    :CUSTOM_ID: +csv
@@ -818,6 +837,7 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2020-01-01= [[https://www.johndcook.com/blog/2019/12/31/sql-join-csv-files/][Doing a SQL join with CSV files with xsv]]
 *** =2020-05-16= [[http://thomasburette.com/blog/2014/05/25/so-you-want-to-write-your-own-CSV-code/][So You Want To Write Your Own CSV code? . Thomas Burette]]
 *** =2021-10-21= https://towardsdatascience.com/analyze-csvs-with-sql-in-command-line-233202dc1241?gi=693be080072e
+*** =2022-02-26= [[https://tabula.technology/][Tabula: Extract Tables from PDFs]]
 ** =+cups=
    :PROPERTIES:
    :CUSTOM_ID: +cups
@@ -836,6 +856,8 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-10-24= [[https://reqbin.com/curl][Run Curl Commands Online]]
 *** =2021-10-31= [[https://susam.in/maze/timing-with-curl.html][Timing With Curl - Susam's Maze]]
 *** =2022-02-23= [[https://everything.curl.dev/usingcurl/timeouts][Timeouts - Everything curl]]
+*** =2022-05-14= [[https://curl.se/mail/lib-2022-05/0017.html][Curl: Funds, server hosting and more]]
+*** =2022-05-16= [[https://github.com/curlconverter/curlconverter-vscode][VS Code extension that adds a "Paste cURL as code" option to the right-click menu]]
 ** =+CVE=
    :PROPERTIES:
    :CUSTOM_ID: +CVE
@@ -868,6 +890,8 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2022-01-27= [[https://seclists.org/oss-sec/2022/q1/34][oss-sec: CVE-2021-4122: cryptsetup 2.x: decryption through LUKS2 reencryption crash recovery]]
 *** =2022-01-28= [[https://hackaday.com/tag/pkexec/][Pkexec | Hackaday]]
 *** =2022-01-28= [[https://thehackernews.com/2022/01/hackers-planted-secret-backdoor-in.html][Hackers Planted Secret Backdoor in Dozens of WordPress Plugins and Themes]]
+*** =2022-02-26= [[https://github.com/github/advisory-database][Security vulnerability database inclusive of CVEs and GitHub originated security advisories from the world of open source software.]]
+*** =2022-03-08= [[https://dirtypipe.cm4all.com/][The Dirty Pipe Vulnerability - The Dirty Pipe Vulnerability documentation]]
 ** =+cyberpunk=
    :PROPERTIES:
    :CUSTOM_ID: +cyberpunk
@@ -942,6 +966,10 @@ Esta página se [[file:2021-01-29-bookmarks-vs-links.org][genera dinámicamente]
 *** =2021-11-25= [[https://blog.benjojo.co.uk/post/not-all-jpegs-are-the-same][One of these JPEGs is not like the other]]
 *** =2022-01-13= [[https://animatize.com/][Animatize - animations the easy way]]
 *** =2022-02-18= [[http://www.fmwconcepts.com/imagemagick/index.php][Fred's ImageMagick Scripts]]
+*** =2022-03-13= [[https://johnysswlab.com/vectorization-dependencies-and-outer-loop-vectorization-if-you-cant-beat-them-join-them/][Vectorization, dependencies and outer loop vectorization: if you can't beat them, join them - Johny's Software Lab]]
+*** =2022-04-21= [[https://webcolorisstillbroken.com/][Web color is still broken]]
+*** =2022-04-21= [[https://www.mjt.me.uk/posts/smallest-png/][The smallest 256x256 single-color PNG file, and where you've seen it]]
+*** =2022-04-30= [[https://justinmeiners.github.io/why-train-when-you-can-optimize/][Why Train When You Can Optimize?]]
 ** =+dev=
    :PROPERTIES:
    :CUSTOM_ID: +dev
@@ -1134,6 +1162,22 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-02-04= [[https://cerbos.dev/blog/keeping-documentation-in-sync-with-source-code][Keeping documentation in sync with source code]]
 *** =2022-02-13= [[https://feaneron.com/2019/03/28/on-being-a-free-software-maintainer/][On Being a Free Software Maintainer - Georges Stavracas]]
 *** =2022-02-25= [[https://forum.effectivealtruism.org/posts/pyvybGkGYaFAeNtGi/writing-about-my-job-software-engineer-at-wave][Writing about my job: Software Engineer at Wave - EA Forum]]
+*** =2022-02-26= https://www.joshbochu.com/posts/confusion
+*** =2022-03-05= [[http://journal.stuffwithstuff.com/2015/09/08/the-hardest-program-ive-ever-written/][The Hardest Program I&rsquo;ve Ever Written - journal.stuffwithstuff.com]]
+*** =2022-03-22= [[https://alexewerlof.medium.com/my-guiding-principles-after-20-years-of-programming-a087dc55596c][My guiding principles after 20 years of programming | by Alex Ewerlöf | Medium]]
+*** =2022-04-06= [[https://danluu.com/simple-architectures/][In defense of simple architectures]]
+*** =2022-04-06= [[https://www.media.mit.edu/projects/2d-an-exploration-of-drawing-as-programming-language-featuring-ideas-from-lambda-calculus/overview/][Overview &lsaquo; λ-2D: An Exploration of Drawing as Programming Language, Featuring Ideas from Lambda Calculus - MIT Media Lab]]
+*** =2022-04-15= [[https://buttondown.email/krcah/archive/more-control-with-idempotency/][More control with idempotency • Buttondown]]
+*** =2022-04-21= [[https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/][Things You Should Never Do, Part I - Joel on Software]]
+*** =2022-04-26= [[https://thesoloadmin.com/the-solo-developer/][The Solo Developer]]
+*** =2022-04-27= [[https://catonmat.net/single-file-applications][Single File Applications]]
+*** =2022-05-06= [[https://cheapskatesguide.org/articles/joys-and-sorrows.html][The Joys and Sorrows of Maintaining a Personal Website]]
+*** =2022-05-09= [[https://dropbear.sh/blog/elf-patching.html][Adding code to an existing ELF file - dropbear's blog]]
+*** =2022-05-09= [[https://github.com/frankdilu/CheLang][CheLang es un lenguaje de programación esotérico argento. Ni más, ni menos. Es la que va.]]
+*** =2022-05-09= [[https://haydenjames.io/the-two-generals-problem/][The Two Generals Problem]]
+*** =2022-05-18= [[https://www.getlago.com/blog/why-billing-systems-are-a-nightmare-for-engineers][😵‍💫 Why billing systems are a nightmare for engineers]]
+*** =2022-05-19= [[https://thorstenball.com/blog/2022/05/17/professional-programming-the-first-10-years/][Thorsten Ball - Professional Programming: The First 10 Years]]
+*** =2022-05-19= [[https://tinyprojects.dev/posts/i_spent_two_years_launching_tiny_projects][I Spent 2 years Launching Tiny Projects | Tiny Projects]]
 *** =2020-05-01= [[https://github.com/openshift/odo][odo - Developer-focused CLI for OpenShift and Kubernetes]]
 *** =2020-07-13= [[https://devopsnewsletters.com/][DevOps Newsletters]]
 *** =2020-07-20= [[https://medium.com/@copyconstruct/post-commit-reviews-b4cc2163ac7a][Post-Commit Reviews. I recently read an excellent article inâ¦ | by Cindy Sridharan | Jul, 2020 | Medium]]
@@ -1144,6 +1188,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-08-31= [[https://tylercipriani.com/blog/2021/08/31/the-deployment-fidelity-problem/][The Deployment Fidelity Problem - Tyler Cipriani]]
 *** =2021-10-30= [[https://cgamesplay.com/post/2021/10/27/creating-my-personal-cloud-with-hashicorp/][Creating my personal cloud with HashiCorp | Ryan Patterson]]
 *** =2021-12-19= [[https://wolfoliver.medium.com/the-big-devops-misunderstanding-8435a910a5fd][The Big DevOps Misunderstanding. When the term DevOps came up it was all… | by Oliver Wolf | Medium]]
+*** =2022-04-26= [[https://nts.strzibny.name/one-year-of-sales/][One year of sales]]
 ** =+devops=
    :PROPERTIES:
    :CUSTOM_ID: +devops
@@ -1158,6 +1203,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-08-31= [[https://tylercipriani.com/blog/2021/08/31/the-deployment-fidelity-problem/][The Deployment Fidelity Problem - Tyler Cipriani]]
 *** =2021-10-30= [[https://cgamesplay.com/post/2021/10/27/creating-my-personal-cloud-with-hashicorp/][Creating my personal cloud with HashiCorp | Ryan Patterson]]
 *** =2021-12-19= [[https://wolfoliver.medium.com/the-big-devops-misunderstanding-8435a910a5fd][The Big DevOps Misunderstanding. When the term DevOps came up it was all… | by Oliver Wolf | Medium]]
+*** =2022-04-26= [[https://nts.strzibny.name/one-year-of-sales/][One year of sales]]
 ** =+dhcp=
    :PROPERTIES:
    :CUSTOM_ID: +dhcp
@@ -1181,6 +1227,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-11-20= [[https://boilingsteam.com/i-love-arch-but-gnu-guix-is-my-new-distro/][I Love Arch, But GNU Guix Is My New Distro - Boiling Steam]]
 *** =2021-11-25= [[https://boilingsteam.com/i-love-arch-but-gnu-guix-is-my-new-distro/][I Love Arch, But GNU Guix Is My New Distro - Boiling Steam]]
 *** =2021-12-09= [[https://bkhome.org/news/202112/why-iso-was-retired.html][Why ISO was retired]]
+*** =2022-04-21= [[https://jasoneckert.github.io/myblog/asahi-linux/][Welcome to My Site!]]
+*** =2022-04-21= [[https://www.uyuni-project.org/][Uyuni]]
 ** =+dns=
    :PROPERTIES:
    :CUSTOM_ID: +dns
@@ -1283,6 +1331,10 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-01-08= [[https://bellmar.medium.com/dockerizing-a-programming-language-b39bf7574d19][Dockerizing a Programming Language | by Marianne Bellotti | Jan, 2022 | Medium]]
 *** =2022-02-01= [[https://ramansharma.substack.com/p/containers-are-not-just-for-kubernetes-fa330653cbbd][Containers are not just for Kubernetes - by Raman Sharma]]
 *** =2022-02-19= [[https://earthly.dev/blog/lxc-vs-docker/][LXC vs Docker: Which Container Platform Is Right for You? - Earthly Blog]]
+*** =2022-04-12= [[https://lipanski.com/posts/smallest-docker-image-static-website][The smallest Docker image to serve static websites | Florin Lipan]]
+*** =2022-04-17= [[https://iongion.github.io/podman-desktop-companion/][Podman Desktop Companion]]
+*** =2022-05-09= [[https://www.tyil.nl/post/2021/06/04/managing-docker-compose-with-openrc/][Managing Docker Compose with OpenRC - Tyil]]
+*** =2022-05-14= [[https://github.com/dokku/dokku/][A docker-powered PaaS that helps you build and manage the lifecycle of applications]]
 ** =+dotfiles=
    :PROPERTIES:
    :CUSTOM_ID: +dotfiles
@@ -1335,6 +1387,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-11-25= [[https://karthinks.com/software/batteries-included-with-emacs/][Batteries included with Emacs | Karthinks]]
 *** =2021-12-21= [[https://protesilaos.com/codelog/2021-04-16-emacs-moral-lessons/][Moral lessons from free software and GNU Emacs | Protesilaos Stavrou]]
 *** =2022-01-19= [[https://github.com/zevlg/telega.el][GNU Emacs telegram client (unofficial)]]
+*** =2022-04-06= [[https://www.masteringemacs.org/article/whats-new-in-emacs-28-1][What's New in Emacs 28.1? - Mastering Emacs]]
+*** =2022-05-03= [[http://tilde.town/~ramin_hal9001/emacs-for-professionals/index.html][Ramin Honary: Emacs for Professionals]]
 ** =+email=
    :PROPERTIES:
    :CUSTOM_ID: +email
@@ -1343,6 +1397,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-10-13= [[https://simianlogic.com/blog/2021/how-not-to-migrate-an-email-domain.html][How NOT to Migrate an Email Domain - @SimianLogic makes things on the internet]]
 *** =2021-11-17= [[https://iranzo.io/blog/2015/08/28/filtering-email-with-imapfilter/][Filtering email with imapfilter · Pablo Iranzo Gómez's blog]]
 *** =2021-12-25= [[https://utcc.utoronto.ca/~cks/space/blog/sysadmin/EmailServersNoLongerPractical][Chris's Wiki :: blog/sysadmin/EmailServersNoLongerPractical]]
+*** =2022-05-19= [[https://www.helloinbox.email/][Email Deliverability Checklist & Toolkit for Marketers | HelloInbox]]
 ** =+env=
    :PROPERTIES:
    :CUSTOM_ID: +env
@@ -1378,6 +1433,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
    :END:
 *** =2021-10-11= [[https://crlf.link/log/entries/211008-1/][Harden &amp; secure browsers in containers, with GUI - Cr;Lf;]]
 *** =2021-12-18= [[https://ffprofile.com/][Firefox Profilemaker]]
+*** =2022-03-13= [[https://rubenerd.com/my-essential-firefox-fixes-in-2022/][Rubenerd: My essential Firefox fixes (and add-ons) in 2022]]
 ** =+filesystem=
    :PROPERTIES:
    :CUSTOM_ID: +filesystem
@@ -1388,6 +1444,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-07-18= [[https://lintut.com/recover-deleted-files-and-folder-using-scalpel-on-linux/][Recover deleted files and folders using scalpel (A Filesystem Recovery Tool) on linux | LinTut]]
 *** =2021-09-29= [[https://github.com/philipl/pifs][πfs - the data-free filesystem!]]
 *** =2021-11-19= [[https://klarasystems.com/articles/demystifying-openzfs-2-0/][Demystifying OpenZFS 2.0 | Klara Inc.]]
+*** =2022-04-06= [[https://rachelbythebay.com/w/2022/04/06/text/][You can do a lot with an empty file]]
+*** =2022-04-26= [[https://github.com/spacedriveapp][Spacedrive · GitHub]]
 ** =+firefox=
    :PROPERTIES:
    :CUSTOM_ID: +firefox
@@ -1486,6 +1544,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-11-23= [[https://github.com/NagyD/SDLPoP][An open-source port of Prince of Persia, based on the disassembly of the DOS version.]]
 *** =2022-01-02= [[https://blog.jhm.dev/posts/papers-please/][Fixing stutters in Papers Please on Linux - Blog]]
 *** =2022-01-16= [[https://cp4space.hatsya.com/2022/01/14/conway-conjecture-settled/][29-year-old Conway conjecture settled | Complex Projective 4-Space]]
+*** =2022-04-09= [[https://github.com/iznaut/a-little-game-called-mario][open source collective hell game]]
 ** =+git=
    :PROPERTIES:
    :CUSTOM_ID: +git
@@ -1576,6 +1635,11 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-02-08= [[https://git.deuxfleurs.fr/Deuxfleurs/garage][Deuxfleurs/garage: S3-compatible object store for small self-hosted geo-distributed deployments - garage - Gitea: git with a cup of coffee]]
 *** =2022-02-19= [[https://github.com/martinvonz/jj][A Git-compatible DVCS that is both simple and powerful]]
 *** =2022-02-26= [[https://github.com/pre-commit/pre-commit-hooks][Some out-of-the-box hooks for pre-commit]]
+*** =2022-02-28= [[https://repography.com/blog/how-to-take-credit-for-someone-elses-work-on-github][How to take credit for someone else's work on GitHub]]
+*** =2022-04-26= [[https://cbea.ms/git-commit/][How to Write a Git Commit Message]]
+*** =2022-05-03= [[https://github.com/suin/git-remind][Never forget to git commit and push]]
+*** =2022-05-14= [[https://gist.github.com/evantoli/f8c23a37eb3558ab8765][Configure Git to use a proxy · GitHub]]
+*** =2022-05-19= [[https://news.ycombinator.com/item?id=31432936][Poll: Self Hosting Git Repositories | Hacker News]]
 *** =2019-04-05= [[https://gitlab.com/pages/emacs-reveal][GitLab Pages examples / emacs-reveal Â· GitLab]]
 *** =2019-04-05= [[https://gitlab.com/pages/org-mode][GitLab Pages examples / org-mode Â· GitLab]]
 *** =2019-04-05= [[https://gitlab.com/pages/sphinx][GitLab Pages examples / sphinx Â· GitLab]]
@@ -1646,6 +1710,13 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-06-09= [[https://www.vanimpe.eu/2014/05/07/automatic-check-expiration-date-gpg-keys/][Automatic Check of Expiration Date of GPG keys]]
 *** =2021-08-26= [[https://security.ias.edu/how-revoke-gnupgpgp-signature-key][How to revoke a GnuPG/PGP signature on a key. | IAS Security]]
 *** =2021-09-06= [[https://gist.github.com/chrisroos/1205934][Instructions for exporting/importing (backup/restore) GPG keys · GitHub]]
+*** =2022-03-01= [[https://notes.nicfab.it/en/posts/privacycom/][Privacy in email communication: we should use encryption by default | NicFab Notes]]
+*** =2022-05-09= [[https://www.tyil.nl/post/2020/05/30/setting-up-a-pgp-webkey-directory/][Setting Up a PGP Webkey Directory - Tyil]]
+** =+gpl=
+   :PROPERTIES:
+   :CUSTOM_ID: +gpl
+   :END:
+*** =2022-04-14= [[https://github.com/justinfrankel/ninjam][NINJAM server, clients, autosong, etc]]
 ** =+graphviz=
    :PROPERTIES:
    :CUSTOM_ID: +graphviz
@@ -1680,6 +1751,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-10-13= [[https://marcusedmondson.com/2021/07/15/to-catch-a-hacker-in-my-home-lab/][To Catch a Hacker in My Home Lab - Marcus Edmondson | Threat Hunting | Information Security]]
 *** =2021-11-25= [[https://allthatsinteresting.com/max-headroom-hack][The Creepy And Still Unsolved Story Of The Max Headroom Incident]]
 *** =2021-12-06= [[https://www.vice.com/en/article/qjbb9d/hackers-are-spamming-businesses-receipt-printers-with-antiwork-manifestos][Hackers Are Spamming Businesses’ Receipt Printers With ‘Antiwork’ Manifestos]]
+*** =2022-03-07= [[https://www.wired.com/story/hacking-traffic-lights-netherlands/][Dutch Hackers Found a Simple Way to Mess With Traffic Lights | WIRED]]
+*** =2022-05-03= [[https://ontology2.com/essays/ClassifyingHackerNewsArticles/][Classifying Hacker News Titles]]
 ** =+html=
    :PROPERTIES:
    :CUSTOM_ID: +html
@@ -1693,6 +1766,10 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-05-05= [[https://markodenic.com/html-tips/][HTML Tips - Marko Denic - Web Developer]]
 *** =2021-07-14= [[https://github.com/eeeps/exif-intrinsic-sizing-explainer][An explainer for allowing images on the web to declare their own density and dimensions using EXIF metadata]]
 *** =2021-09-07= [[https://github.com/mgdm/htmlq][Like jq, but for HTML.]]
+*** =2022-03-04= [[https://github.com/gildas-lormeau/SingleFile][📷 Web Extension for Firefox/Chrome/MS Edge and CLI tool to save a faithful copy of an entire web page in a single HTML file]]
+*** =2022-04-04= [[https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use/][Those HTML Attributes You Never Use — Smashing Magazine]]
+*** =2022-04-06= [[https://tilepieces.net/][Tilepieces]]
+*** =2022-05-09= [[https://rogovoy.me/blog/writing-html-sucks][Writing HTML sucks and No-code doesn't help — Kirill Rogovoy]]
 ** =+http=
    :PROPERTIES:
    :CUSTOM_ID: +http
@@ -1736,6 +1813,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-01-19= [[https://www.nginx.com/blog/do-svidaniya-igor-thank-you-for-nginx/][Do Svidaniya, Igor, and Thank You for NGINX - NGINX]]
 *** =2022-02-01= [[https://evertpot.com/get-request-bodies/][Request bodies in GET requests]]
 *** =2022-02-13= [[https://portswigger.net/daily-swig/http-3-everything-you-need-to-know-about-the-next-generation-web-protocol][HTTP/3: Everything you need to know about the next-generation web protocol | The Daily Swig]]
+*** =2022-04-04= [[https://www.http-feeds.org/][HTTP Feeds | Asynchronous event streaming and data replication with plain HTTP APIs.]]
+*** =2022-05-19= [[https://http.cat/][HTTP Cats]]
 ** =+i18n=
    :PROPERTIES:
    :CUSTOM_ID: +i18n
@@ -1775,6 +1854,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-01-29= [[https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/][Reasons for servers to support IPv6]]
 *** =2022-02-01= [[https://github.com/yggdrasil-network/yggdrasil-go][An experiment in scalable routing as an encrypted IPv6 overlay network]]
 *** =2022-02-19= [[https://blog.brixit.nl/going-ipv6-only/][Going IPv6 only]]
+*** =2022-04-18= [[https://rebeccastrong.substack.com/p/big-media-big-conflicts-of-interest?s=r][Big Media, Big Conflicts of Interest, Part 1: The Consolidation Craze &amp; Illusion of Choice]]
 ** =+iot=
    :PROPERTIES:
    :CUSTOM_ID: +iot
@@ -1805,6 +1885,11 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-10-14= [[https://theselfhostingblog.com/][The Self-Hosting Blog - Self-hosting and data ownership]]
 *** =2021-10-24= [[https://si3t.ch/evils/][Ip nuisibles à blacklister — rendez-vous sur ArraKISS]]
 *** =2021-12-31= [[https://cprimozic.net/blog/my-selfhosted-websites-architecture/][My Setup for Self-Hosting Dozens of Web Applications + Services on a Single Server - Casey Primozic's Homepage]]
+*** =2022-03-05= [[https://www.enricozini.org/blog/2022/debian/migrating-from-procmail-to-sieve/][Migrating from procmail to sieve]]
+*** =2022-03-13= https://blog.mediocregopher.com/2022/03/13/the-case-for-open-infrastructure.html
+*** =2022-03-23= [[https://github.com/awesome-selfhosted/awesome-selfhosted/][A list of Free Software network services and web applications which can be hosted on your own servers]]
+*** =2022-03-23= [[https://rohanrd.xyz/posts/why-you-should-start-self-hosting/][Why You Should Start Self Hosting | Rohan Deshmukh]]
+*** =2022-04-12= [[https://www.gov.uk/guidance/protect-domains-that-dont-send-email][Protect domains that donât send email - GOV.UK]]
 *** =2019-05-21= [[https://git.ispconfig.org/ispconfig/ispconfig3/issues/3405][DMARC Support (#3405) Â· Issues Â· ISPConfig / ISPConfig 3 Â· GitLab]]
 *** =2019-05-21= [[https://support.smtp2go.com/hc/en-gb/articles/115003520908-SPF-and-DKIM-Setup-for-ISPConfig-3-][SMTP2GO Support]]
 *** =2019-05-21= [[https://www.howtoforge.com/community/threads/ispconfig-3-1p1-spf-records.74711/][ISpconfig 3.1p1 + SPF records. | Howtoforge - Linux Howtos and Tutorials]]
@@ -1858,6 +1943,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-11-25= [[https://github.com/bytedance/sonic][A blazingly fast JSON serializing &amp; deserializing library]]
 *** =2022-01-21= [[https://github.com/curl/curl/wiki/JSON][JSON · curl/curl Wiki · GitHub]]
 *** =2022-02-13= [[https://github.com/DaveGamble/cJSON][Ultralightweight JSON parser in ANSI C]]
+*** =2022-04-09= [[https://jsonresume.org/][JSON Resume]]
+*** =2022-04-26= [[https://www.brimdata.io/blog/introducing-zq/][Introducing zq: an Easier (and Faster) Alternative to jq | Brim Data]]
 ** =+json=
    :PROPERTIES:
    :CUSTOM_ID: +json
@@ -1877,6 +1964,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-11-25= [[https://github.com/bytedance/sonic][A blazingly fast JSON serializing &amp; deserializing library]]
 *** =2022-01-21= [[https://github.com/curl/curl/wiki/JSON][JSON · curl/curl Wiki · GitHub]]
 *** =2022-02-13= [[https://github.com/DaveGamble/cJSON][Ultralightweight JSON parser in ANSI C]]
+*** =2022-04-09= [[https://jsonresume.org/][JSON Resume]]
+*** =2022-04-26= [[https://www.brimdata.io/blog/introducing-zq/][Introducing zq: an Easier (and Faster) Alternative to jq | Brim Data]]
 ** =+k8s=
    :PROPERTIES:
    :CUSTOM_ID: +k8s
@@ -1889,6 +1978,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-01-06= [[https://github.com/erjadi/kubecraftadmin][GitHub - erjadi/kubecraftadmin]]
 *** =2022-01-21= [[https://wingolog.org/archives/2021/12/13/webassembly-the-new-kubernetes][webassembly: the new kubernetes? -- wingolog]]
 *** =2022-01-22= [[https://next.redhat.com/2022/01/19/introducing-microshift/][Introducing MicroShift - Red Hat Emerging Technologies]]
+*** =2022-05-06= [[https://leebriggs.co.uk/blog/2022/05/04/deploying-kubernetes-clusters-in-absurd-languages][Deploying Kubernetes clusters in increasingly absurd languages | lbr.]]
+*** =2022-05-21= [[https://github.com/sealerio/sealer][A tool to seal application's all dependencies and Kubernetes into CloudImage, distribute this application anywhere via CloudImage, and run it within any cluster in one command.]]
 ** =+kernel=
    :PROPERTIES:
    :CUSTOM_ID: +kernel
@@ -1912,6 +2003,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-11-20= https://blog.cloudflare.com/the-tale-of-a-single-register-value/?a
 *** =2021-11-25= [[https://www.haiku-os.org/legacy-docs/bebook/TheKernelKit_SystemInfo.html#is_computer_on][The Be Book - Classes And Methods - The Kernel Kit]]
 *** =2022-01-28= [[https://www.collabora.com/news-and-blog/blog/2022/01/27/writing-an-open-source-gpu-driver-without-the-hardware/][Writing an open source GPU driver – without the hardware]]
+*** =2022-05-11= [[https://www.phoronix.com/scan.php?page=article&item=nvidia-open-kernel&num=1][NVIDIA Transitioning To Official, Open-Source Linux GPU Kernel Driver - Phoronix]]
 ** =+ldap=
    :PROPERTIES:
    :CUSTOM_ID: +ldap
@@ -1959,6 +2051,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-06-21= [[https://www.youtube.com/watch?v=WtJ9T_IJOPE][Linux Sucks 2021 - YouTube]]
 *** =2021-10-11= [[https://philsyme.github.io/lfs-tw/][LFS-TW - Phil's Blog]]
 *** =2022-01-22= [[https://ocawesome101.github.io/486-linux.html][486-linux]]
+*** =2022-04-27= [[https://www.ctrl.blog/entry/selinux-unmanageable.html][SELinux is unmanageable; just turn it off if it gets in your way]]
 ** =+localhost=
    :PROPERTIES:
    :CUSTOM_ID: +localhost
@@ -1980,6 +2073,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-09-28= [[https://blog.sinkingpoint.com/posts/elasticsearch-logging/][I Don't Think ElasticSearch Is A Good Logging System | Sinkingpoint]]
 *** =2021-10-07= [[https://tuhrig.de/my-logging-best-practices/][My Logging Best Practices - Thomas Uhrig]]
 *** =2022-01-05= [[https://sobolevn.me/2020/03/do-not-log][Do not log]]
+*** =2022-03-13= [[https://convey.earth/conversation?id=51&ref=hn][Convey]]
 ** =+make=
    :PROPERTIES:
    :CUSTOM_ID: +make
@@ -2037,6 +2131,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-09-29= [[https://endtimes.dev/why-you-should-dither-images/][Why Your Website Should Use Dithered Images | endtimes.dev]]
 *** =2021-11-01= [[https://applied-langua.ge/posts/terminal-boredom.html][Terminal boredom, or how to go on with life when less is indeed less]]
 *** =2022-01-08= [[https://bestmotherfucking.website/][Best Motherfucking Website]]
+*** =2022-04-27= [[https://lists.sh/][lists.sh -- a microblog for lists]]
 ** =+monitor=
    :PROPERTIES:
    :CUSTOM_ID: +monitor
@@ -2112,6 +2207,10 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-11-13= [[https://decoded.legal/blog/2021/11/running-a-law-firm-on-linux][Running a law firm on Linux - decoded.legal: Internet, telecoms and tech law decoded.]]
 *** =2021-11-25= [[https://gist.github.com/motorailgun/cc2c573f253d0893f429a165b5f851ee][Installing Windows and Linux into the same partition · GitHub]]
 *** =2022-02-07= [[https://127001.me/post/ten-years-of-thinkpadding/][Ten years of ThinkPadding | 127.0.0.1]]
+*** =2022-03-03= [[https://www.csun.io/2022/03/03/how-i-see-numbers.html][How I See Numbers | Cameron Sun]]
+*** =2022-03-13= [[https://fideo.info/wiki.lua/blog/sed-circuit-simulator][Mi página web.]]
+*** =2022-05-14= [[https://sliderland.blinry.org/][Sliderland]]
+*** =2022-05-14= [[https://www.servethehome.com/zfs-without-a-server-using-the-nvidia-bluefield-2-dpu-nvme-arm-aic-iscsi/][ZFS without a Server Using the NVIDIA BlueField-2 DPU]]
 ** =+nfs=
    :PROPERTIES:
    :CUSTOM_ID: +nfs
@@ -2172,6 +2271,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-11-10= [[https://blog.robertelder.org/how-to-make-a-cpu/][How To Make A CPU - A Simple Picture Based Explanation]]
 *** =2021-11-19= [[https://plasticscanner.com/][Plastic Scanner. | Plastic Scanner]]
 *** =2021-11-29= [[https://github.com/TUDSSL/BFree][Enabling Battery-free Sensor Prototyping with Python]]
+*** =2022-04-24= [[https://github.com/aolofsson/awesome-hardware-tools][List of awesome open source hardware tools]]
 ** =+org=
    :PROPERTIES:
    :CUSTOM_ID: +org
@@ -2297,6 +2397,21 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-02-18= [[https://matt-rickard.com/against-pair-programming/][Pair Programming Doesn't Scale]]
 *** =2022-02-18= [[https://www.raptitude.com/2022/02/what-i-learned-during-my-three-days-offline/][What I Learned During My Three Days Offline]]
 *** =2022-02-22= [[https://www.adithyabalaji.com/productivity/2022/02/01/Sleep.html][Get Better Sleep—Anecdata and Sleep Tech | Adithya Balaji]]
+*** =2022-03-03= [[https://gist.github.com/shawwn/3110ab62fa027c7811578f167fa5a3a0]["What happened after 2010?" · GitHub]]
+*** =2022-03-03= [[http://www.paulgraham.com/todo.html][The Top of My Todo List]]
+*** =2022-03-13= [[https://alexturek.com/2022-03-07-How-to-do-less/][How To Do Less]]
+*** =2022-03-13= [[https://tylercipriani.com/blog/2022/03/12/code-review-procrastination-and-clarity/][Code Review Decision Fatigue - Tyler Cipriani]]
+*** =2022-03-24= [[https://www.orgroam.com/manual.html][Org-roam User Manual]]
+*** =2022-03-28= [[https://www.johnwhiles.com/posts/work.html][Maybe you should do less 'work' - John's internet house]]
+*** =2022-04-03= [[https://squeaky.ai/blog/development/why-we-dont-use-a-staging-environment][The Squeaky Blog | Why we don’t use a staging environment]]
+*** =2022-04-09= [[https://news.ycombinator.com/item?id=30961400][Ask HN: Is there a way to get Agile right? | Hacker News]]
+*** =2022-05-06= [[https://fs.blog/slack/][Efficiency is the Enemy - Farnam Street]]
+*** =2022-05-06= [[https://zan.bearblog.dev/why-i-waste-time/][why do you waste so much time on the internet. | zanlog]]
+*** =2022-05-09= [[https://logicmag.io/clouds/agile-and-the-long-crisis-of-software/][Agile and the Long Crisis of Software]]
+*** =2022-05-09= [[https://www.tyil.nl/post/2019/10/07/getting-things-done-with-appgtd/][Getting Things Done with App::GTD - Tyil]]
+*** =2022-05-16= [[https://leaddev.com/reporting-metrics/flawed-five-engineering-productivity-metrics][The ‘flawed five’ engineering productivity metrics | LeadDev]]
+*** =2022-05-22= [[http://rachelbythebay.com/w/2022/05/19/priority/][Tasks, lists, and promises]]
+*** =2022-05-22= [[https://consulting.drmaciver.com/code-review-quick-fixes/][Quick fixes to your code review workflow - Consulting with David R. MacIver]]
 ** =+os=
    :PROPERTIES:
    :CUSTOM_ID: +os
@@ -2313,6 +2428,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-10-05= [[https://www.infoworld.com/article/3632987/maintenance-windows-are-a-mistake.html][Maintenance windows are a mistake | InfoWorld]]
 *** =2021-10-11= [[https://www.tbray.org/ongoing/When/202x/2021/10/08/The-WOrst-Case][ongoing by Tim Bray &#xb7; Worst Case]]
 *** =2022-01-21= [[https://blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/][Roblox Return to Service 10/28-10/31 2021 - Roblox Blog]]
+*** =2022-04-13= [[https://newsletter.pragmaticengineer.com/p/scoop-atlassian?s=r][The Scoop: Inside the Longest Atlassian Outage of All Time]]
 ** =+p2p=
    :PROPERTIES:
    :CUSTOM_ID: +p2p
@@ -2478,6 +2594,10 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-12-21= [[https://www.jeffgeerling.com/blog/2021/check-your-driver-faster-linux-25g-networking-realtek-rtl8125b][Check your driver! Faster Linux 2.5G Networking with Realtek RTL8125B | Jeff Geerling]]
 *** =2021-12-26= [[https://github.com/Mylab6/PiTheremin][GitHub - Mylab6/PiTheremin]]
 *** =2022-02-01= [[https://www.jeffgeerling.com/blog/2022/its-dire-raspberry-pi-availability-tracker-launched][It's dire: Raspberry Pi availability tracker is launched | Jeff Geerling]]
+*** =2022-03-23= [[https://blog.alexellis.io/your-pocket-sized-cloud/][Your pocket-sized cloud with a Raspberry Pi]]
+*** =2022-04-09= http://deepaqua.me/2022/04/07/the-pi-user-is-dead-long-life-the-pi-user/
+*** =2022-05-21= [[https://nbailey.ca/post/radiation-monitor/][Monitor radiation with a Raspberry Pi]]
+*** =2022-05-21= [[https://www.homebrew8088.com/home/raspberry-pi-second-project][www.homebrew8088.com - Raspberry PI Second Project]]
 ** =+postfix=
    :PROPERTIES:
    :CUSTOM_ID: +postfix
@@ -2501,6 +2621,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-06-21= [[https://github.com/vramework/schemats][A postgres -> typescript interface generator]]
 *** =2022-02-09= [[https://github.com/levkk/pgcat][Meow. PgBouncer rewritten in Rust, with sharding, load balancing and failover support.]]
 *** =2022-02-25= [[https://gist.github.com/jcoleman/1e6ad1bf8de454c166da94b67537758b][blog.md · GitHub]]
+*** =2022-04-21= [[https://pganalyze.com/blog/how-postgres-chooses-index][How Postgres Chooses Which Index To Use For A Query]]
 ** =+print=
    :PROPERTIES:
    :CUSTOM_ID: +print
@@ -2603,6 +2724,9 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-01-12= [[https://analyst1.com/blog/dark-web-justice-league][Dark Web - Justice League - Analyst1]]
 *** =2022-02-01= [[http://www.zephoria.org/thoughts/archives/2022/01/31/crisis-text-line-from-my-perspective.html][Crisis Text Line, from my perspective￼ | danah boyd | apophenia]]
 *** =2022-02-20= [[https://kg.dev/thoughts/be-anonymous][Be anonymous]]
+*** =2022-02-26= [[https://www.theadamthomas.com/effective-teams-dont-keep-secrets/][Effective Teams Don’t Keep Secrets - Adam Thomas]]
+*** =2022-03-03= [[https://ravidwivedi.in/signal/][Problems with Signal messenger app]]
+*** =2022-04-17= [[https://mjg59.dreamwidth.org/59479.html][mjg59 | The Freedom Phone is not great at privacy]]
 ** =+proxy=
    :PROPERTIES:
    :CUSTOM_ID: +proxy
@@ -2702,6 +2826,16 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-01-21= [[https://hackaday.com/2022/01/19/make-your-python-cli-tools-pop-with-rich/][Make Your Python CLI Tools Pop With Rich | Hackaday]]
 *** =2022-01-22= [[https://github.com/samuelcolvin/pydantic][Data parsing and validation using Python type hints]]
 *** =2022-02-01= [[https://github.com/Bycelium/PyFlow][An open-source tool for visual and modular block programming in python]]
+*** =2022-03-13= [[https://python-patterns.guide/][Python Design Patterns]]
+*** =2022-04-21= [[https://github.com/bloomberg/memray][Memray is a memory profiler for Python]]
+*** =2022-04-21= [[https://www.uninformativ.de/blog/postings/2022-04-21/0/POSTING-en.html][Python’s "Type Hints" are a bit of a disappointment to me]]
+*** =2022-04-26= [[https://github.com/reloadware/reloadium][Advanced hot reloading &amp; profiling for Python]]
+*** =2022-05-03= [[https://github.com/pyscript/pyscript][https://pyscript.net/examples]]
+*** =2022-05-09= [[https://blog.yossarian.net/2022/05/09/A-most-vexing-parse-but-for-Python-packaging][A most vexing parse, but for Python packaging]]
+*** =2022-05-09= [[https://pythondocs.xyz/][Python documentation search]]
+*** =2022-05-19= [[https://github.com/pikasTech/pikascript][An ultra-lightweight Python engine that can run with 4KB of RAM and 32KB of Flash (such as STM32G030C8 and STM32F103C8), and is very easy to deploy and expand.]]
+*** =2022-05-21= [[https://antonz.org/python-stdlib-changes/][Python Standard Library changes in recent years]]
+*** =2022-05-21= [[https://github.com/SecureAuthCorp/impacket][Impacket is a collection of Python classes for working with network protocols.]]
 ** =+qr=
    :PROPERTIES:
    :CUSTOM_ID: +qr
@@ -2722,6 +2856,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2019-06-01= [[https://github.com/noamross/gams-in-r-course][A Free Interactive Course]]
 *** =2019-09-03= [[https://sctyner.github.io/OpenForSciR/][Open Forensic Science in R]]
 *** =2021-06-05= [[https://gexijin.github.io/learnR/index.html][Learn R through examples]]
+*** =2022-03-22= [[https://github.com/ReeceGoding/Frustration-One-Year-With-R][An extremely long review of R.]]
 *** =2019-09-24= [[https://github.com/adblockradio/adblockradio][An adblocker for live radio streams and podcasts. Machine learning meets Shazam.]]
 *** =2019-12-22= [[https://luaradio.io/new-to-sdr.html][LuaRadio - New to SDR?]]
 *** =2020-11-08= [[https://github.com/sq5bpf/etherify][Etherify - bringing the ether back to ethernet]]
@@ -2833,10 +2968,17 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-01-29= [[https://www.cloudsavvyit.com/12250/how-freedos-grew-up-and-became-a-modern-dos/][How FreeDOS Grew Up and Became a Modern DOS - CloudSavvy IT]]
 *** =2022-02-03= [[https://github.com/jeffpar/basicdos][A new 8086-based reimagining of PC DOS and BASIC]]
 *** =2022-02-09= [[https://cloudpilot-emu.github.io/][About | CloudpilotEmu]]
+*** =2022-03-05= [[https://pickledlight.blogspot.com/p/commodore-64-guides.html?m=1][Pickled Light: Commodore 64 Guides]]
+*** =2022-03-24= [[https://hellricer.github.io/2020/11/01/opensource-msdos-games.html][Open source games for MS-DOS | ~hellricer/]]
+*** =2022-04-14= [[https://vhsoverdrive.neocities.org/essays/oldweb.html][VHS Overdrive]]
+*** =2022-04-17= http://serentty.com/
+*** =2022-05-14= [[https://letterboxd.com/journal/cracking-the-code-sneakers/][&lrm;Cracking the Code: Sneakers at 30 • Journal • A Letterboxd Magazine &bull; Letterboxd]]
+*** =2022-05-21= [[https://lock.cmpxchg8b.com/linux123.html][Lotus 1-2-3 For Linux]]
 *** =2019-07-08= [[https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/][10 tips for reviewing code you don't like - Red Hat Developer]]
 *** =2019-04-29= [[https://michaelcullen.name/2019/04/custard-antenna/][Custard Antenna | michaelcullen.name]]
 *** =2019-05-09= https://www.rtl-sdr.com/
 *** =2021-12-31= [[https://datatracker.ietf.org/doc/html/rfc1087][rfc1087]]
+*** =2022-04-29= [[https://datatracker.ietf.org/doc/html/rfc9116][RFC 9116 - A File Format to Aid in Security Vulnerability Disclosure]]
 *** =2020-03-06= [[https://github.com/newman8r/us-newspapers-opml][An OPML file with 22 of the top 25 US newspapers RSS feeds]]
 *** =2020-03-12= [[https://fraidyc.at/][Fraidycat]]
 *** =2020-05-18= [[https://danielmiessler.com/blog/its-time-to-get-back-into-rss/][It's Time to Get Back Into RSS | Daniel Miessler]]
@@ -2844,6 +2986,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-07-03= [[https://ncase.me/rss/][Back to the Future with RSS]]
 *** =2021-07-29= [[https://github.com/miniflux/v2][Minimalist and opinionated feed reader]]
 *** =2021-11-29= [[https://github.com/damoeb/rss-proxy][RSS-proxy allows you to do create an RSS or ATOM feed of almost any website, just by analyzing just the static HTML structure.]]
+*** =2022-04-29= [[https://tomcritchlow.com/2022/04/21/new-rss/][Increasing the surface area of blogging]]
+*** =2022-05-22= https://shinobi.website/index.txt
 *** =2021-03-18= [[https://console.dev/qa/rsync-john-kozubik/][Q&amp;A with John Kozubik, rsync.net - Console]]
 *** =2020-03-18= [[https://en.m.wikipedia.org/wiki/1%25_rule_(Internet_culture)][1% rule (Internet culture) - Wikipedia]]
 *** =2020-08-24= [[https://github.com/rust-shell-script/rust_cmd_lib][Common rust command-line macros and utilities, to write shell-script like tasks in a clean, natural and rusty way]]
@@ -2997,6 +3141,12 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-01-29= [[https://www.cloudsavvyit.com/12250/how-freedos-grew-up-and-became-a-modern-dos/][How FreeDOS Grew Up and Became a Modern DOS - CloudSavvy IT]]
 *** =2022-02-03= [[https://github.com/jeffpar/basicdos][A new 8086-based reimagining of PC DOS and BASIC]]
 *** =2022-02-09= [[https://cloudpilot-emu.github.io/][About | CloudpilotEmu]]
+*** =2022-03-05= [[https://pickledlight.blogspot.com/p/commodore-64-guides.html?m=1][Pickled Light: Commodore 64 Guides]]
+*** =2022-03-24= [[https://hellricer.github.io/2020/11/01/opensource-msdos-games.html][Open source games for MS-DOS | ~hellricer/]]
+*** =2022-04-14= [[https://vhsoverdrive.neocities.org/essays/oldweb.html][VHS Overdrive]]
+*** =2022-04-17= http://serentty.com/
+*** =2022-05-14= [[https://letterboxd.com/journal/cracking-the-code-sneakers/][&lrm;Cracking the Code: Sneakers at 30 • Journal • A Letterboxd Magazine &bull; Letterboxd]]
+*** =2022-05-21= [[https://lock.cmpxchg8b.com/linux123.html][Lotus 1-2-3 For Linux]]
 ** =+review=
    :PROPERTIES:
    :CUSTOM_ID: +review
@@ -3009,11 +3159,13 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2019-04-29= [[https://michaelcullen.name/2019/04/custard-antenna/][Custard Antenna | michaelcullen.name]]
 *** =2019-05-09= https://www.rtl-sdr.com/
 *** =2021-12-31= [[https://datatracker.ietf.org/doc/html/rfc1087][rfc1087]]
+*** =2022-04-29= [[https://datatracker.ietf.org/doc/html/rfc9116][RFC 9116 - A File Format to Aid in Security Vulnerability Disclosure]]
 ** =+rfc=
    :PROPERTIES:
    :CUSTOM_ID: +rfc
    :END:
 *** =2021-12-31= [[https://datatracker.ietf.org/doc/html/rfc1087][rfc1087]]
+*** =2022-04-29= [[https://datatracker.ietf.org/doc/html/rfc9116][RFC 9116 - A File Format to Aid in Security Vulnerability Disclosure]]
 ** =+rss=
    :PROPERTIES:
    :CUSTOM_ID: +rss
@@ -3025,6 +3177,8 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-07-03= [[https://ncase.me/rss/][Back to the Future with RSS]]
 *** =2021-07-29= [[https://github.com/miniflux/v2][Minimalist and opinionated feed reader]]
 *** =2021-11-29= [[https://github.com/damoeb/rss-proxy][RSS-proxy allows you to do create an RSS or ATOM feed of almost any website, just by analyzing just the static HTML structure.]]
+*** =2022-04-29= [[https://tomcritchlow.com/2022/04/21/new-rss/][Increasing the surface area of blogging]]
+*** =2022-05-22= https://shinobi.website/index.txt
 ** =+rsync=
    :PROPERTIES:
    :CUSTOM_ID: +rsync
@@ -3155,6 +3309,9 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-11-27= [[https://imp0rtp3.wordpress.com/2021/11/25/sowat/][A Deep Dive Into SoWaT: APT31&#8217;s Multifunctional Router Implant - imp0rtp3]]
 *** =2022-01-08= [[https://bishopfox.com/blog/xmpp-underappreciated-attack-surface][XMPP service is an underappreciated attack surface for… | Bishop Fox]]
 *** =2022-02-11= [[https://portswigger.net/research/top-10-web-hacking-techniques-of-2021][Top 10 web hacking techniques of 2021 | PortSwigger Research]]
+*** =2022-04-06= [[https://github.com/trufflesecurity/trufflehog][Find credentials all over the place]]
+*** =2022-04-12= [[https://github.com/Lissy93/personal-security-checklist/][🔒 A curated checklist of 300+ tips for protecting digital security and privacy in 2022]]
+*** =2022-05-03= [[https://github.com/future-architect/vuls][Agent-less vulnerability scanner for Linux, FreeBSD, Container, WordPress, Programming language libraries, Network devices]]
 ** =+seo=
    :PROPERTIES:
    :CUSTOM_ID: +seo
@@ -3258,7 +3415,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-09-16= [[https://www.iasql.com/][Infrastructure as SQL]]
 *** =2021-10-07= [[https://github.com/sqlfluff/sqlfluff][A SQL linter and auto-formatter for Humans]]
 *** =2021-10-07= [[https://rxdb.info/why-nosql.html][Why NoSQL · RxDB - Documentation]]
-*** =2021-10-16= https://blog.battlefy.com/how-not-to-blow-up-the-production-database-424c162dccc6?gi=790a7045fb6
+*** =2021-10-16= [[https://blog.battlefy.com/how-not-to-blow-up-the-production-database-424c162dccc6?gi=790a7045fb6][Battlefy Blog]]
 *** =2021-11-25= [[https://github.com/agroal/pgagroal][High-performance connection pool for PostgreSQL]]
 *** =2021-11-25= [[https://maheshba.bitbucket.io/blog/2021/10/19/42Things.html][42 things I learned from building a production database | mahesh’s blog]]
 *** =2021-11-25= [[https://queue.acm.org/detail.cfm?id=3501713][A Conversation with Margo Seltzer and Mike Olson - ACM Queue]]
@@ -3269,6 +3426,15 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-02-12= [[https://shopify.engineering/upgrading-mysql-shopify][Upgrading MySQL at Shopify — Infrastructure (2022)]]
 *** =2022-02-13= [[https://github.com/chrisdavies/dbench][An unscientific benchmark of SQLite vs the file system (btrfs)]]
 *** =2022-02-19= [[https://medium.com/@JasonWyatt/squeezing-performance-from-sqlite-explaining-the-virtual-machine-2550ef6c5db][Squeezing Performance from SQLite: EXPLAINing the Virtual Machine | by Jason Feinstein | Medium]]
+*** =2022-03-05= [[https://maxwelldulin.com/BlogPost?post=9185867776][Maxwell Dulin - Security Engineer (Hacker)]]
+*** =2022-04-04= [[https://sqlite.org/wal.html][Write-Ahead Logging]]
+*** =2022-04-21= [[https://tokern.io/blog/open-source-sql-parsers/][Open Source SQL Parsers]]
+*** =2022-04-30= [[https://sqlite.org/howtocorrupt.html][How To Corrupt An SQLite Database File]]
+*** =2022-05-03= [[https://david.rothlis.net/declarative-schema-migration-for-sqlite/][Simple declarative schema migration for SQLite]]
+*** =2022-05-06= [[https://www.crunchydata.com/blog/demystifying-database-performance-for-developers][Demystifying Database Performance for Developers]]
+*** =2022-05-16= [[https://antonz.org/json-virtual-columns/][JSON and virtual columns in SQLite]]
+*** =2022-05-16= [[https://github.com/stokry/wp-sqlite][WordPress running on an SQLite database]]
+*** =2022-05-16= [[https://www.timescale.com/blog/observability-powered-by-sql-understand-your-systems-like-never-before-with-opentelemetry-traces-and-postgresql/][Observability Powered by SQL: Understand Your Systems Like Never Before With OpenTelemetry Traces and PostgreSQL]]
 ** =+ssh=
    :PROPERTIES:
    :CUSTOM_ID: +ssh
@@ -3319,12 +3485,14 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-01-13= [[https://github.com/hackclub/jobs][$ ssh jobs.hackclub.com]]
 *** =2022-01-13= [[https://goteleport.com/blog/security-hardening-ssh-bastion-best-practices/][SSH Bastion host best practices: How to Build and Deploy a Security-Hardened SSH Bastion Host | Teleport]]
 *** =2022-02-13= [[https://www.abuseipdb.com/fail2ban.html][Integrating AbuseIPDB with Fail2Ban]]
+*** =2022-03-01= https://xy2.dev/posts/ssh-productive/
 ** =+ssl=
    :PROPERTIES:
    :CUSTOM_ID: +ssl
    :END:
 *** =2020-11-23= [[https://scotthelme.co.uk/introducing-another-free-ca-as-an-alternative-to-lets-encrypt/][Introducing another free CA as an alternative to Let's Encrypt]]
 *** =2021-11-25= [[https://gitlab.alpinelinux.org/alpine/tsc/-/issues/28][consider LibreSSL as default OpenSSL provider again (#28) · Issues · alpine / TSC · GitLab]]
+*** =2022-05-19= [[https://utcc.utoronto.ca/~cks/space/blog/web/TLSIntermediateCertHell][Chris's Wiki :: blog/web/TLSIntermediateCertHell]]
 ** =+static=
    :PROPERTIES:
    :CUSTOM_ID: +static
@@ -3476,6 +3644,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-02-04= [[https://storytime.ivysaur.me/posts/why-not-zfs/][Why not ZFS]]
 *** =2022-02-04= [[https://www.brendangregg.com/blog/2016-11-30/linux-bcc-tcplife.html][Linux bcc/BPF tcplife: TCP Lifespans]]
 *** =2022-02-25= [[https://blog.benjojo.co.uk/post/multipath-without-mptcp][Going multipath without Multipath TCP]]
+*** =2022-04-26= [[https://flak.tedunangst.com/post/probing-my-ssds-latency][probing my ssd's latency]]
 ** =+tag=
    :PROPERTIES:
    :CUSTOM_ID: +tag
@@ -3701,6 +3870,22 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2022-02-13= [[https://github.com/CZ-NIC/pz][Easily handle day to day CLI operation via Python instead of regular Bash programs.]]
 *** =2022-02-25= [[https://github.com/yashsinghcodes/fetch][wik is use to get information about anything on the shell using Wikipedia.]]
 *** =2022-02-25= [[https://jless.io/][jless - A Command-Line JSON Viewer]]
+*** =2022-03-03= [[https://news.ycombinator.com/item?id=30539620][Show HN: DontBeEvil.rip: Search, for developers (API, expressions, CLI) | Hacker News]]
+*** =2022-03-08= [[https://adamdrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html][Command-line Tools can be 235x Faster than your Hadoop Cluster - Adam Drake]]
+*** =2022-03-08= [[https://github.com/dewberryants/asciiMol][Curses based ASCII molecule viewer for linux terminals.]]
+*** =2022-03-08= [[https://github.com/TomWright/dasel][Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single tool. Supports conversion between formats and can be used as a Go package.]]
+*** =2022-03-24= https://satsumasbloggen.com/software/fri/
+*** =2022-04-07= [[https://github.com/zellij-org/zellij/releases][Releases · zellij-org/zellij · GitHub]]
+*** =2022-04-09= [[https://github.com/termstandard/colors][Color standards for terminal emulators]]
+*** =2022-04-11= [[https://blog.craftyguy.net/cmdline-help/][-h --help -help help --? -? ???? | craftyguy's blog]]
+*** =2022-04-14= [[https://github.com/racket/zuo][A tiny Racket for scripting]]
+*** =2022-04-15= [[https://arslan.io/2021/02/15/automatic-dark-mode-for-terminal-applications/][Automatic dark mode for terminal applications . Fatih Arslan]]
+*** =2022-04-21= [[https://jdebp.uk/Softwares/djbwares/bernstein-ptyget.html][Daniel J. Bernstein's ptyget toolset]]
+*** =2022-04-26= [[https://github.com/hush-shell/hush][Hush is a unix shell based on the Lua programming language]]
+*** =2022-05-03= [[https://jpmens.net/2022/05/03/one-gotty-per-user/][Jan-Piet Mens :: One gotty(1) Web terminal per user]]
+*** =2022-05-16= [[https://github.com/curusarn/resh][Rich Enhanced Shell History - Contextual shell history for zsh and bash]]
+*** =2022-05-21= [[https://github.com/sharkdp/fd][A simple, fast and user-friendly alternative to 'find']]
+*** =2022-05-21= [[https://tsk.bearblog.dev/the-tools-i-use-to-write-blogs/][The tools I use to write blogs | ╹﹏╹ tsuki]]
 ** =+txt=
    :PROPERTIES:
    :CUSTOM_ID: +txt
@@ -3713,6 +3898,11 @@ Why software projects take longer than you think: a statistical model . Erik Ber
    :CUSTOM_ID: +ubuntu
    :END:
 *** =2021-04-13= [[https://ubuntu.com/blog/private-home-directories-for-ubuntu-21-04][Private home directories for Ubuntu 21.04 | Ubuntu]]
+** =+uefi=
+   :PROPERTIES:
+   :CUSTOM_ID: +uefi
+   :END:
+*** =2022-04-04= [[http://misc-stuff.terraaeon.com/articles/locked-down-computers.html][I am Seriously Considering Going Back to Desktop Computers]]
 ** =+unix=
    :PROPERTIES:
    :CUSTOM_ID: +unix
@@ -3801,6 +3991,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-06-13= [[https://alex.flounder.online/gemlog/2021-01-08-useless.gmi][Gemini is Useless]]
 *** =2021-06-28= [[https://jez.io/pandoc-markdown-css-theme/][Pandoc Markdown CSS Theme]]
 *** =2021-10-11= [[https://sadh.life/post/builtins/][Understanding all of Python, through its builtins]]
+*** =2022-03-03= [[https://colin-scott.github.io/personal_website/research/interactive_latency.html][Numbers Every Programmer Should Know By Year]]
 ** =+upnp=
    :PROPERTIES:
    :CUSTOM_ID: +upnp
@@ -3828,6 +4019,7 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-01-10= [[https://usbq.org/][| USBQ Toolkit]]
 *** =2021-01-11= [[https://fabiensanglard.net/nousb/index.html][The confusing world of USB]]
 *** =2022-01-21= [[https://web.dev/porting-libusb-to-webusb/][Porting USB applications to the web. Part 1: libusb]]
+*** =2022-04-04= [[https://majenko.co.uk/blog/our-blog-1/usb-3-0-blues-56][USB 3.0 Blues? | Majenko Technologies]]
 ** =+utf8=
    :PROPERTIES:
    :CUSTOM_ID: +utf8
@@ -3897,6 +4089,9 @@ Why software projects take longer than you think: a statistical model . Erik Ber
 *** =2021-10-21= [[https://github.com/dsaltares/glapse][Take desktop screenshots and glue them to make a time lapse video in GNU/Linux]]
 *** =2022-02-19= [[https://github.com/garage44/pyrite/][Pyrite is a web(RTC) client for the Galène videoconference server.]]
 *** =2022-02-19= [[https://news.ycombinator.com/item?id=30401241][Tell HN: YouTube and how my wife lost 7 years of work | Hacker News]]
+*** =2022-03-04= [[https://news.ycombinator.com/item?id=30545652][Ask HN: Self-hosted open source IP security cameras? | Hacker News]]
+*** =2022-04-06= [[https://github.com/Dusk-Labs/dim][Dim, a media manager fueled by dark forces.]]
+*** =2022-05-03= [[https://pitivi.org/][Pitivi, a free and open source video editor for Linux]]
 ** =+vim=
    :PROPERTIES:
    :CUSTOM_ID: +vim
@@ -4020,6 +4215,8 @@ Don't use VPN services. Â· GitHub]]
 *** =2021-08-19= [[https://stosb.com/blog/explaining-my-configs-openvpn/][Explaining My Configs: OpenVPN &#x20;.&#x20; stosb]]
 *** =2021-09-29= [[https://github.com/firezone/firezone][WireGuard-based VPN server and firewall]]
 *** =2022-01-13= [[https://github.com/amritb/poor-mans-vpn][An ansible playbook to set up wireguard server.]]
+*** =2022-03-13= [[https://github.com/TalalMash/SmoothWAN][Internet bonding router with seamless failover using Speedify]]
+*** =2022-04-09= [[https://kiwiziti.com/~matt/wireguard/][kiwiziti.com | matt's ramblings - wireguard]]
 ** =+w3c=
    :PROPERTIES:
    :CUSTOM_ID: +w3c
@@ -4066,6 +4263,7 @@ I Miss the Old Internet]]
 *** =2021-11-25= [[https://github.com/losfair/blueboat][Blueboat is an open-source alternative to Cloudflare Workers. The monolithic engine for serverless web apps.]]
 *** =2021-12-02= https://blog.abbix.me/posts/good-web-design-practices.html
 *** =2022-02-01= [[https://ramansharma.substack.com/p/containers-are-not-just-for-kubernetes-fa330653cbbd][Containers are not just for Kubernetes - by Raman Sharma]]
+*** =2022-05-14= [[https://macwright.com/2020/08/22/clean-starts-for-the-web.html][A clean start for the web - macwright.com]]
 ** =+wifi=
    :PROPERTIES:
    :CUSTOM_ID: +wifi
@@ -4102,6 +4300,8 @@ I Miss the Old Internet]]
 *** =2021-10-11= [[https://github.com/kootenpv/whereami][Uses WiFi signals and machine learning to predict where you are]]
 *** =2021-10-11= [[https://wireless.wiki.kernel.org/en/users/documentation/iw][en:users:documentation:iw Linux Wireless]]
 *** =2021-12-21= [[https://jahed.dev/2021/12/19/hidden-networks-in-tp-link-routers/][Hidden Networks in TP-Link Routers]]
+*** =2022-03-03= [[https://www.qsl.net/9a4qv/WiFi_Ri.htm][43]]
+*** =2022-05-22= [[https://alexanderell.is/posts/wikipedia-over-whatsapp/][Wikipedia Over WhatsApp . Caffeinspiration]]
 ** =+win=
    :PROPERTIES:
    :CUSTOM_ID: +win
@@ -4174,6 +4374,7 @@ I Miss the Old Internet]]
    :CUSTOM_ID: +yaml
    :END:
 *** =2019-08-18= [[https://arp242.net/yaml-config.html][YAML: probably not so great after all]]
+*** =2022-05-16= [[https://leebriggs.co.uk/blog/2022/05/09/learning-to-love-yaml][How I learned to stop worrying and love the YAML | lbr.]]
 ** =+zip=
    :PROPERTIES:
    :CUSTOM_ID: +zip
