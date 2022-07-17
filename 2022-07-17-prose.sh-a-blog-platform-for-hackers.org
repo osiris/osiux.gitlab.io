@@ -139,3 +139,7 @@ compartiendo mis /scripts/!
 [fn:org-mode]     http://orgmode.org/
 [fn:osiux.prose]  https://osiux.prose.sh/
 [fn:osiux-rss]    https://osiux.prose.sh/rss
+
+** ChangeLog
+
+  - [[https://gitlab.com//osiux/osiux.gitlab.io/-/commit/246ea0cb8a8a1f85e44d6f911523935bd6e7c82d][=2022-07-17 20:10=]] agregar prose.sh a blog platform for hackers
