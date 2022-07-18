@@ -1,5 +1,5 @@
 ---
-title: AWX Ansible =tower_cli.exceptions.TowerCLIError: failed to parse some of the extra variables=
+title: AWX Ansible =tower_cli.exceptions.TowerCLIError failed to parse some of the extra variables=
 date: 2019-04-10
 author: Osiris Alejandro Gómez osiux@osiux.com
 ---

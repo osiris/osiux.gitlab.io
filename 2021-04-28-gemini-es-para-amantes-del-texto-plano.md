@@ -1,5 +1,5 @@
 ---
-title: =gemini://= es para amantes del texto plano
+title: =gemini//= es para amantes del texto plano
 date: 2021-04-28
 author: Osiris Alejandro Gomez osiux@osiux.com
 ---

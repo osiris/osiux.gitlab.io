@@ -1,5 +1,5 @@
 ---
-title: Capturar ideas en papel: de moleskine, hispterpda, pocketmod y libreta artesanal
+title: Capturar ideas en papel de moleskine, hispterpda, pocketmod y libreta artesanal
 date: 2011-10-06
 author: Osiris Alejandro Gomez osiux@osiux.com
 ---

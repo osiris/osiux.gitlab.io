@@ -1,5 +1,5 @@
 ---
-title: /Hablar, escribir, pensar: el software no es un trabajo de escritorio/
+title: /Hablar, escribir, pensar el software no es un trabajo de escritorio/
 date: 2021-03-24
 author: Daniel Fone osiux@osiux.com
 ---
