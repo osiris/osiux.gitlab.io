@@ -30,13 +30,17 @@ prose:
 	for i in *.org;do org2prose.sh "$$i";done
 
 noprose:
+	rm 20*-*-*-20*-*-*-posts*.md
+	rm 20??.md
+	rm 404.md
 	rm git-head.md
 	rm header-links.md
 	rm header.md
 	rm img-header.md
 	rm index.md
-	rm 20??.md
-	rm 404.md
+
+prose.sh: prose noprose
+  scp *.md prose.sh:
 
 htaccess:
 	./htaccess.sh > .htaccess
