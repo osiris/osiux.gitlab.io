@@ -26,6 +26,18 @@ image:
 	./icn.sh
 	./img.sh > img.org
 
+prose:
+	for i in *.org;do org2prose.sh "$$i";done
+
+noprose:
+	rm git-head.md
+	rm header-links.md
+	rm header.md
+	rm img-header.md
+	rm index.md
+	rm 20??.md
+	rm 404.md
+
 htaccess:
 	./htaccess.sh > .htaccess
 
