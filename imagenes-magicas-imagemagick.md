@@ -1,0 +1,118 @@
+---
+title: imágenes mágicas | imagemagick
+date: 2010-05-10
+author: Osiris Alejandro Gomez osiux@osiux.com
+---
+
+[`.org`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/imagenes-magicas-imagemagick.org) |
+[`.md`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/imagenes-magicas-imagemagick.md) |
+[`.gmi`](gemini://gmi.osiux.com/imagenes-magicas-imagemagick.gmi) |
+[`.html`](https://osiux.gitlab.io/imagenes-magicas-imagemagick.html)
+
+## Descripción breve
+
+Resolución a problemas comunes en la manipulación de imágenes mediante
+la generación de scripts usando **ImageMagick** y otras utilidades.
+Creación y edición de imágenes sin usar un editor gráfico, directamente
+desde una consola. Generar un video a partir de fotografías.
+
+## Crear Imagen
+
+``` {.bash org-language="sh" session="yes" results="none" exports="both"}
+convert -size 640x480 xc:green img/green.png
+```
+
+![](green.png)
+
+## identify
+
+``` {.bash org-language="sh" session="yes" results="output" exports="both"}
+identify img/green.png
+```
+
+``` {.example}
+img/green.png PNG 640x480 640x480+0+0 8-bit PseudoClass 1c 252B 0.000u 0:00.000
+```
+
+## Creative Commons
+
+``` {.bash org-language="sh" session="yes" results="none" exports="code"}
+cd img
+convert green.png -fill white \
+-font ~/bin/cc-icons.ttf \
+-pointsize 32 -gravity SouthEast \
+-annotate 0 'cb' \
+green-cc-by.jpg
+```
+
+![](img/green-cc-by.jpg)
+
+## dark
+
+``` {.bash org-language="sh" session="yes" results="none" exports="code"}
+composite -compose colorburn gradient.png \
+green-cc-by.jpg dark-green.jpg
+```
+
+## font
+
+``` {.bash org-language="sh" session="yes" results="none" exports="both"}
+convert dark-green.jpg -fill white \
+-font /usr/share/fonts/truetype/ttf-lucida/LucidaSansRegular.ttf \
+-pointsize 32 -gravity NorthWest \
+-annotate 0 'SASOConf 2014' \
+green-font.jpg
+```
+
+![](green-font.jpg)
+
+## gray
+
+``` {.example}
+convert osiux-color.jpg +dither -colors 2 -colorspace gray -contrast-stretch 0 osiux-2-grises.jpg
+convert osiux-color.jpg +dither -colors 4 -colorspace gray -contrast-stretch 0 osiux-4-grises.jpg
+convert osiux-color.jpg +dither -colors 8 -colorspace gray -contrast-stretch 0 osiux-8-grises.jpg
+convert +append osiux-color.jpg osiux-2-grises.jpg osiux-4-grises.jpg osiux-8-grises.jpg
+```
+
+## edge
+
+``` {.bash org-language="sh" session="yes" results="none" exports="code"}
+cd img
+convert no-soy-un-pirata-compartir-es-bueno.jpg -colorspace Gray -edge 1 gris-edge.jpg
+```
+
+![](img/gris-edge.jpg)
+
+## edge + Negate
+
+``` {.bash org-language="sh" session="yes" results="none" exports="code"}
+cd img
+convert no-soy-un-pirata-compartir-es-bueno.jpg -colorspace Gray -edge 1 -negate gris-edge-negate.jpg
+```
+
+![](img/gris-edge-negate.jpg)
+
+## edge + negate + blur
+
+``` {.example}
+for i in {1..4};do convert osiux-edge-$i-negate.jpg -blur 0x1 osiux-edge-$i-negate-blur.jpg;done
+convert +append osiux-edge-1-negate-blur.jpg osiux-edge-2-negate-blur.jpg osiux-edge-3-negate-blur.jpg osiux-edge-4-negate-blur.jpg osiux-edge-negate-blur.jpg
+```
+
+## charcoal (edge + negate + blur)
+
+``` {.example}
+for i in {1..4};do convert osiux-color.jpg -charcoal $i osiux-charcoal-$i.jpg;done
+convert +append osiux-charcoal-1.jpg osiux-charcoal-2.jpg osiux-charcoal-3.jpg osiux-charcoal-4.jpg osiux-charcoal.jpg
+```
+
+## append
+
+``` {.bash org-language="sh" session="yes" results="none" exports="code"}
+cd img
+convert -append no-soy-un-pirata-compartir-es-bueno.jpg gris-edge.jpg gris-edge-negate.jpg append.jpg
+convert +append append.jpg append.jpg 3x3.jpg
+```
+
+![](img/3x3.jpg)

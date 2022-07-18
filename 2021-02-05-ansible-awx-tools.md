@@ -1,0 +1,102 @@
+---
+title: Ansible/AWX tools
+date: 2021-02-05
+author: Osiris Alejandro Gómez osiux@osiux.com
+---
+
+[`.org`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-02-05-ansible-awx-tools.org) |
+[`.md`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-02-05-ansible-awx-tools.md) |
+[`.gmi`](gemini://gmi.osiux.com/2021-02-05-ansible-awx-tools.gmi) |
+[`.html`](https://osiux.gitlab.io/2021-02-05-ansible-awx-tools.html)
+
+## las migraciones generan utilidades
+
+En 2015, producto de una migración de servidores descubrí *Ansible* como
+herramienta de automatización de la configuración e instalación de
+servicios, en esa instancia el proyecto era migrar los servicios de un
+*ISP* a una nueva infraestructura [nube.coop](https://www.nube.coop/).
+
+Y como no podía ser de otra manera, fui construyendo una serie de
+*scripts* para automatizar tareas rutinarias, de ese proyecto entre
+otras tantas utilidades varios grupos de *scripts* y roles de *Ansible*,
+en otro momento voy a escribir sobre `ispconfig-utils`, pero ahora
+quiero hacerlo sobre `ansible_tools` que tomaron fuerza en los últimos
+dos años inmerso en otro proyecto de migración, esta vez liberando
+servidores físicos y virtuales, ademas de puestos de trabajo del lado
+oscuro de la fuerza hacia `GNU/Linux` :)
+
+## mirá mamá! *AWX* sin hacer clics!
+
+Luego de varias pruebas de concepto, muchos roles y *playbooks*
+desarrollados (unos 120 repositorios `git` al día de hoy), la
+herramienta de *deploy* naturalmente es *AWX* que da mucho de que hablar
+de ella, pero ahora quiero concentrarme en las utilidades que fui
+construyendo para dialogar con *AWX* desde a consola y evitar clics.
+
+*AWX* posee una *API* muy completa y una *cli* super útil, pero en todo
+momento uno tiende a automatizar y/o simplificar un poquito mas todo el
+entorno y así fue como surgieron un puñado de *scripts* para ir
+creciendo en cantidad y calidad, a continuación totalizo por categoría
+de *script*:
+
+``` {.example}
+# ls -1 awx-* | grep -v .md | cut -d- -f2 | uniq -c | sort -nr
+
+22 json
+22 adhoc
+13 inventory
+13 host
+6 version
+6 project
+6 job
+5 workflow
+5 grant
+3 setting
+2 group
+1 user
+1 team
+1 shell
+1 pass
+1 organization
+1 help
+1 config
+1 common
+
+```
+
+## RTFM
+
+Todavía me falta pulir un poco el \"manual\" para que sea usable por
+terceros, pero algo que me ayudó fue definir una función `usage` en cada
+*script* de la siguiente manera:
+
+``` {.bash org-language="sh" exports="code"}
+function usage()
+{
+cat << EOF
+Usage:
+$BIN
+
+Description
+
+EOF
+exit 0
+}
+
+[[ "$1" =~ ^[-]+(h|help) ]] && usage
+
+```
+
+Entonces al ejecutar el *script* con `-h` o `--help`, se muestra la
+ayuda de ese comando y para generar un \"manual\" de todos los comandos
+simplemente los invoco y capturo la salida a un único archivo.
+
+Ni bien este mas o menos completo estaré publicando el repositorio con
+todos los *scripts* y con algunos ejemplos de uso.
+
+...continuará...
+
+## ChangeLog
+
+-   [`2021-02-05 20:21`](https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0d91f02c093c831708f06fe91c44e46dd49d9e9f)
+agrego Ansible/AWX tools

@@ -1,0 +1,236 @@
+---
+title: /no me acuerdo de nada... dejame en =pass=!/
+date: 2021-02-19
+author: Osiris Alejandro Gomez osiux@osiux.com
+---
+
+[`.org`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.org) |
+[`.md`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.md) |
+[`.gmi`](gemini://gmi.osiux.com/2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.gmi) |
+[`.html`](https://osiux.gitlab.io/2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.html)
+
+## *...no me acuerdo, me lo olvido, me lo olvido, me olvidé!*
+
+Desde el 2014 que **NO recuerdo la mayoría de mis *passwords*** y es
+más, **ni siquiera sé cuáles son!** y **en cada servicio uso una
+*password* diferente y bastante compleja**. No tengo tan buena memoria,
+simplemente uso `pass` [^1].
+
+## dónde esta la magia?
+
+`pass` es un *script* de *bash* a la *\"unix way\"* [^2] que se que se
+ocupa de interactuar con otros comandos del sistema, como `gpg`, `tree`
+y `git`, resolviendo de una manera simple, un gran problema, me permite
+gestionar todas mis contraseñas e incluso varias *passphrases*.
+
+## generar una contraseña
+
+Para generar de manera aleatoria una contraseña alfanumérica de 64
+caracteres para el usuario `admin` del sitio `example.com` es tan simple
+como tipear esto:
+
+``` {.bash org-language="sh" exports="code"}
+pass generate admin/example.com -n 64
+
+```
+
+De esta manera se generará el archivo `admin/example.com.gpg` en el
+directorio `~/.password-store` y este archivo estará cifrado mediante
+`GPG` [^3] *`GNU Privacy Guard`* utilizando la llave definida en el
+archivo `.gpg-id` dentro del directorio `~/.password-store`.
+
+## descifrando la magia...
+
+Para descifrar una *password* es necesario contar con 2 cosas:
+
+-   **`algo que yo tengo`**, es decir los archivos de una llave *GPG*
+-   **`algo que yo sé`**, la *`passphrase`* [^4] o
+*`frase de contraseña`*
+
+Quiere decir que `pass` solo me pregunta un nombre de archivo, genera la
+contraseña y le dice a `gpg` que la cifre y la guarde.
+
+## recuperar una contraseña
+
+Esencialmente hay dos maneras, la primera es pedirle a `pass` que me
+muestre la contraseña guardada, de esta manera:
+
+``` {.bash org-language="sh" exports="code"}
+pass admin/example.com
+
+```
+
+Una mucho mejor es que en lugar de mostrarnos la contraseña,
+directamente se la copie al *clipboard* o *portapapeles* y de estar
+manera podría ingresar al sitio `example.com` como el usuario `admin`
+sin siquiera saber cuál es la contraseña!
+
+``` {.bash org-language="sh" exports="code"}
+pass -c admin/example.com
+
+```
+
+## *mmm... que tan seguro es todo esto?*
+
+Es posible que, en un descuido los archivos de mi *GPG*, alguien mas
+logre copiarlos de alguna manera, o tal vez si perdí la *notebook* donde
+estaban (nunca me pasó, ni me volverá a pasar), pero de suceder eso,
+quien posea estos archivos va a necesitar la *passphrase* de la *GPG* y
+en este punto radica la (in)seguridad, si utilizo una *frase de
+contraseña* extremadamente corta o super adivinable o la tengo anotada
+en un archivo de texto sin cifrar, vamos a estar comprometiendo todas
+las contraseñas generadas con `pass`
+
+## `pass <3 git`
+
+Cada vez que regeneramos una contraseña o creamos una nueva, `pass`
+puede invocar a `git` y guardar ese cambio en un repositorio,
+inicialmente en el directorio `~/.password-store/.git` y llevar un log!
+
+``` {.example}
+commit 252572a362264d91853d8ba5218380740c99c7db (HEAD -> master)
+Author: osiris <osiux@osiux.com>
+Date:   Fri Feb 19 02:04:41 2021 -0300
+
+Add generated password for admin/example.com.
+
+```
+
+Esto permite, poder volver a una versión anterior de una *password*.
+
+## secretos compartidos
+
+Si se define un repositorio `git` remoto para `pass`, podés asegurarte
+de tener todas tus contraseñas disponibles en otro lugar por si perdés
+tu compu y no solo sirve de *backup*, además te permite compartir todas
+tus contraseñas entre varios dispositivos, compu, *notebook*, celu, etc.
+
+Solo hay que recordar sincronizar el repositorio `git` de esta manera:
+
+``` {.bash org-language="sh" exports="code"}
+pass git pull
+pass git push
+
+```
+
+## guardar una contraseña existente
+
+En lugar de autogenerar la password con `pass`, también es posible
+insertar una contraseña, lo mas simple es tipearla luego de este
+comando:
+
+``` {.bash org-language="sh" exports="code"}
+pass insert example.com/admin
+
+```
+
+## y si en lugar de *passwords* usamos *passphrases* autogeneradas?
+
+`pass` permite que la contraseña sea un texto que provenga de otro
+comando y para generar *passphrases* nada mejor que usar
+`gen-passphrase` [^5], por ejemplo para generar 4 palabras que comiencen
+con las letras `p`, `a`, `s` y otra `s`, y que tengan entre 4 y 8
+caracteres, el comando sería asi:
+
+``` {.bash org-language="sh" exports="code"}
+gen-passphrase pass 4 8 | pass insert -m admin/example.com
+
+```
+
+Una posible *frase de contraseña* auto-generada sería la siguiente:
+
+``` {.example}
+panol algar sulfito socavar
+
+```
+
+## automatizar los *commits* de `git`
+
+Una manera de evitar tener que acordar de ejecutar `pass git push` cada
+tanto es utilizar un *script* que lo haga por vos
+
+``` {.bash org-language="sh" exports="code"}
+#!/bin/sh
+
+# This script comes with ABSOLUTELY NO WARRANTY, use at own risk
+# Copyright (C) 2014 Osiris Alejandro Gomez <osiux@osiux.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+cd ~/.password-store
+git ls-files --deleted -z | xargs -0 git rm >/dev/null 2>&1
+git status --porcelain | awk '{print $2}' | while read i
+do
+git add "$i"
+done
+git commit -m "@ 00:00 hs  - Autocommit"
+git push origin master
+
+```
+
+Y luego editar el `crontab` para que se ejecute `git.sh` cad 5 minutos!
+
+``` {.example}
+*/5 * * * * $HOME/.password-store/git.sh
+
+```
+
+## [TODO]{.todo .TODO} `passmenu` {#passmenu}
+
+...
+
+## [TODO]{.todo .TODO} `metadata` {#metadata}
+
+...
+
+## [TODO]{.todo .TODO} `pass` en sus múltiples formas {#pass-en-sus-múltiples-formas}
+
+...
+
+## [TODO]{.todo .TODO} múltiples GPGs y/o múltiples `pass` {#múltiples-gpgs-yo-múltiples-pass}
+
+...
+
+## [TODO]{.todo .TODO} `pass patch` {#pass-patch}
+
+...
+
+## [TODO]{.todo .TODO} `ansible <3 pass` {#ansible-3-pass}
+
+...
+
+## [TODO]{.todo .TODO} `pass <3 luks` {#pass-3-luks}
+
+...
+
+## te recomiendo leer
+
+-   [ansible luksFormat external usb
+disk](2021-01-25-ansible-luks-format-external-usb-disk)
+-   [HowTo `gpg`](howto-gpg-gnu-pgp)
+
+## ChangeLog
+
+-   [`2021-02-19 05:14`](https://gitlab.com/osiux/osiux.gitlab.io/-/commit/24e4c6d4094bf6d9ec5aee36728d5a62582667b0)
+agregar *no me acuerdo de nada... dejame en `pass`!*
+
+[^1]: <https://www.passwordstore.org/>
+
+[^2]: [https://es.wikipedia.org/wiki/Filosofía\_de\_Unix](https://es.wikipedia.org/wiki/Filosofía_de_Unix)
+
+[^3]: <https://es.wikipedia.org/wiki/GNU_Privacy_Guard>
+
+[^4]: [https://es.wikipedia.org/wiki/Frase\_de\_contraseña](https://es.wikipedia.org/wiki/Frase_de_contraseña)
+
+[^5]: <https://gitlab.com/osiux/pass-utils/-/raw/master/gen-passphrase>

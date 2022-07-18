@@ -1,0 +1,320 @@
+---
+title: 🍺🍺🍺 30 días de /posts/ por la birra!
+date: 2021-02-26
+author: Osiris Alejandro Gómez osiux@osiux.com
+---
+
+[`.org`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-02-26-30-dias-de-posts-por-la-birra.org) |
+[`.md`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-02-26-30-dias-de-posts-por-la-birra.md) |
+[`.gmi`](gemini://gmi.osiux.com/2021-02-26-30-dias-de-posts-por-la-birra.gmi) |
+[`.html`](https://osiux.gitlab.io/2021-02-26-30-dias-de-posts-por-la-birra.html)
+
+[![](https://osiux.com/tmb/rakhim-blogging.jpg)](https://osiux.com/img/rakhim-blogging.jpg)
+
+## procastinando por años `¯\_(ツ)_/¯`
+
+Hace mas de 10 años que intercambio *links* \"interesantes\" con *`Hugo
+Ruscitti`* [^1]
+
+Juntos desarrollamos *`frontweb`* [^2] y lo dejamos morir!
+
+Pero siempre seguimos intercambiando *links* de *posts* interesantes,
+mayormente por *email* y justo antes de la *pandemia*, junto a otros
+programadores empezamos a vernos mas seguido con el pretexto de crear
+*podcasts* para *`trifulca`* [^3]
+
+Y siempre mantuvimos charlas recursivas sobre cómo mejorar nuestros
+*blogs* o sobre la importancia de traducir algunos *posts* de otros,
+pero por uno u otro motivo siempre colgamos un poco con nuestros
+*blogs*...
+
+## *howto custom blog post* vs *post everyday*
+
+El `2021-01-20` leí *`Prove you can write regularly before you think
+about the tools`* [^4] y primero me morí de la risa porque yo entraría
+en 2 categorías de las estadísticas:
+
+-   *`org mode fan`*
+
+-   `org-mode` is back! [^5]
+-   migrando de *frontweb* a `org-mode` [^6]
+
+-   *`authors of custom static site generators`*
+
+-   instalar `markdown-styles` para convertir un `md` en un `html`
+[^7]
+-   convertir `org-mode` a markdown `org2md` [^8]
+-   nuevo blog gracias a `jrnl` y `markdown-styles` [^9]
+
+El artículo es muy claro, *proba que podés escribir regularmente antes
+de pensar en las herramientas*, el gráfico es super descriptivo, hay
+mayor probabilidad de que alguien con un viejo *Wordpress* tenga más
+*posts* que algún fanático de `org-mode` (como yo) y junto a los
+desarrolladores de generadores de sitios estáticos es mas probable que
+tengamos mas *posts* sobre cómo configurar nuestra herramienta para
+hacer *posts* que los *posts* que tenía ganas de escribir.
+
+Esta claro que *la herramienta no tiene la culpa*, se trata de tener la
+auto disciplina o el hábito de sentarse a escribir regularmente.
+
+## si el desafío es por la *birra*, yo me prendo!
+
+Intercambiamos correos con *Hugo* y decidimos realizar un desafío, los
+dos nos comprometimos a escribir 30 días seguidos a partir del
+`2021-01-25` y todos los días compartir los *links* de los *posts* para
+tener una revisión asegurada.
+
+Algo que decidimos es que publicaríamos a medio terminar o empezar,
+dejando un `...continuará...` o un `TODO` en cada *post*, porque de esa
+manera podemos ver un progreso y de todas maneras no somos
+*influencers*, nuestros *blogs* no tienen muchas visitas `:P`
+
+Y para ponerle un poco de picante, el que tenga menos *posts* paga las
+cervezas cuando nos volvamos a ver.
+
+Ahora estoy motivado! Es el mejor desafío!
+
+*****si gano, comparto birras con un amigo*****
+
+*****si pierdo, comparto birras con un amigo*****
+
+...quién paga las birras, es lo que menos importa `;)`
+
+## *retroceder nunca, rendirse jamás*
+
+Lo más difícil para mí, fue encontrar un horario para dedicarle tiempo
+al *blog*, pero teniendo en mente el desafío, pensé en que no iba a
+retroceder.
+
+El primer día, fue mi primer día de trabajo luego de unas merecidas
+vacaciones, pero *`cachaza`* (mi *notebook*) empezó a funcionar mal,
+pero en lugar de abandonar, lo convertí en un primer *post* sobre como
+cifrar un disco externo usando *luks* [^10]
+
+Al segundo día, *`cachaza`* murió y con ese sabor amargo continué
+redactando desde mi *teléfono espía* usando un teclado *bluetooth* y
+aproveché a publicar sobre *`DiRePlOs`* [^11] *mi plan de recuperación
+de desastres*.
+
+Al tercer día, me tuve que aislar por síntomas de *coronavirus*, pero
+seguí mejorando mi *post* sobre *DiRePlOs*.
+
+Al cuarto día, me hisoparon y al quinto día tuve mi resultado de *COVID
+POSITIVO* `:(`
+
+Si bien me fue extremadamente difícil concentrarme, y la pasé mal
+(aunque leve dentro de todo y no se lo deseo a nadie), *`no me rendí`*!
+
+Seguí mejorando de a poco el *blog* corrigiendo errores menores de
+sintaxis y creando *scripts* para generar la sección `links` [^12] y
+también para la sección `git` [^13] o sobre como automatizar el
+*`ChangeLog`* [^14] de cada *post*.
+
+Al pasar los diez días de aislamiento ya estaba un poco mejor y volví a
+escribir *posts* un poco mas extensos sobre el problema recurrente de
+*`agrendar la tarea`* [^15] cada vez que comienzo algo y también comencé
+a escribir sobre *`ansible tools`* [^16] que es un repositorio de
+utilidads para `ansible` y *AWX* que estoy desarrollando hace mas de 1
+año.
+
+A los 14 días, estaba mejor y volví a trabajar en *`gcoop`* [^17].
+
+A los 15 días, recibí a `tequila`, mi nueva *notebook* y documenté cómo
+*`instalar debian Buster en Thinkpad T14`* [^18].
+
+A los 20 días, escribí sobre cómo combiné 3 aplicaciones dentro de
+`tmux` y como juego a ser *`DJ desde la tty`* [^19].
+
+A los 22 días, se cumplieron 14 años de *gcoop* y escribí mi mejor
+*post* resumiendo como *`vivir del Software Libre`* [^20].
+
+A los 25 días, comencé a escribir como no necesito recordar ninguna
+contraseña gracias al comando *`pass`* [^21].
+
+Y asi la noche en que se cumplían los 30 días, intenté hacer un resumen
+del mes, y terminé construyendo un *script BASH* para que realice
+algunas estadísticas y poder obtener *mas datos* y sacar algunas
+conclusiones, pero la noche se hizo larga y técnicamente terminé un día
+después del desafío.
+
+## y quién ganó?
+
+Depende como lo midamos... `;)`
+
+Si es por cantidad de *posts*, le debo unas *birras* a *HugoRuscitti*,
+quien escribió ****18 artículos**** y lo cuenta en
+*`Escribiendo en el blog
+todos los días durante un mes`* [^22]
+
+Yo considero que escribí solo ****13**** *posts*, porque los diferencio
+de las ****5**** *secciones* que agregué y de las ****2**** que rehice,
+pero también, automaticé la generación de `links` y `git`, mejoré la
+generación de `index` y también del archivo por año, lo que antes era la
+sección `blog`.
+
+## y las estadísticas?
+
+Al final, con una desvelada noche, generalicé el *script*
+`stats-posts-since-until.sh` [^23], que indicando 2 fechas (sin ingresar
+nada asume los últimos 30 días) realiza varias
+*`estadísticas entre 2020-01-25 y 2020-02-25`* [^24] que a continuación
+las explico.
+
+### Actividad por día
+
+Muestra unos casilleros donde estan tildados los días que hubo al menos
+1 *commit* y están separando de modo de diferenciar la semana laboral.
+
+### Resumen
+
+Muestra una tabla con *links* al primer y último *commit* entre las 2
+fechas, incluye el total de horas acumuladas que me llevo realizar todos
+los *commits*, además incluye el total de *commits* y el total de
+*posts* y este último dato dice que creé y/o modifiqué un total de
+****49**** *posts*, pero como decía antes, esto incluye *posts*
+anteriores al desafío que fueron modificados porque tenían errores o
+porque aproveché a mejorarlos porque fueron referencia de los nuevos y
+además hay varios *posts* autogenerados.
+
+### Total de *commits* por día
+
+A excepción del `2021-02-02` que hay ****8**** *commits* por
+correcciones varias, en general hay promedio de ****2**** *commits*
+diarios.
+
+### Total de *commits* por hora
+
+Esto me sorprendió, hubiera jurado que la mayoría eran por la madrugada
+y la cuenta dá que el ****62%**** de los *commits* se hicieron entre las
+18 y las 23hs.
+
+### Total de *commits* por tiempo
+
+Interesante, tardé entre ****1**** y ****25**** minutos en el
+****63%**** de los *commits*, es decir que ****1**** *`pomodoro`* [^25]
+alcanza para hacer algo productivo y encontrapartida tardé entre
+****1**** y ****5**** horas en el ****14%**** de los *commits* y el peor
+de los casos, tardé ****8**** hs para un único *commit*, que obviamente
+fue un *`blog refactor`*
+
+[^26]
+
+### Detalle de *posts* nuevos, modificados y autogenerados
+
+Un simple listado con *links* a todos los archivos trabajados durante el
+período.
+
+## Conclusiones
+
+*...la experiencia es un peine que te dan cuando estas pelado...*
+
+Claramente lo mejor de esta experiencia, fue realizar el desafío juntos,
+porque todos los días tuvimos un par de correos con una mini *review*,
+una corrección sobre algún *`typo`* [^27], una mirada de alguien en
+quien confiamos y que estamos seguros que la crítica es constructiva y
+de *yapa* teníamos algo interesante para leer, asi que podemos decir que
+el *`async pair blogging`* funciona muy bien y confieso que mas de un
+día cuando estaba medio *fiaca* y recibía el correo de *Hugo* diciendo
+*nuevo post* pensaba... *uh, me ganó de mano*, tengo que *postear*. `:P`
+
+Algo a mejorar es poder acotar un poco más la escritura, intentar
+reducir el *post* en partes para ir desarrollando de a poco y sin dudas
+*commitear* todos los días sería muchísimo mejor que juntar varios
+archivos y hacer un gran *commit* días después.
+
+Hablando con *Hugo* descubrimos que antes de este desafío, dábamos
+vueltas para publicar algo, porque considerábamos que estaba incompleto
+o que debía estar terminado antes de publicar y pensando que ambos *no
+tenemos sistemas de comentarios* en nuestros *blogs*, esta claro que,
+escribimos para nosotros mismos, porque nos gusta escribir, mas allá de
+que pueda serle útil a alguien más.
+
+Aprendí que algunos *`posts`* van a ser un eterno borrador y con el
+tiempo irán mejorando.
+
+Esta probado, no puedo escribir un `post` por día, el promedio dice que
+como mucho cada 2 días, pero como creo que muchos *posts* están
+incompletos, apuntar a 1 o 2 *posts* por semana estaría bien, con la
+diferencia de que ahora en más le voy a dedicar 25min por día, todos los
+días que pueda `:P`
+
+También fue un ejercicio de coordinación asincrónica de un proyecto
+únicamente por correo electrónico, sin *chats*, ni *calls*, ni
+videoconferencias hasta que finalizó `:)`
+
+Mirando los *`años anteriores`* [^28], en solo 1 mes, escribí tanto como
+lo hacía del `2011` al `2014`, dicho de otro modo, en 1 mes hice tantos
+artículos como en todo el `2017` por ejemplo y teniendo en cuenta que
+*`en el 2020 no escribí ni un solo post`*, considero que
+*`este desafío fue exitosi!`*
+
+## la revancha!
+
+Ya esta decidido, el próximo desafío con *Hugo* comienza el `2021-03-01`
+y son `30 días de posts por la picada`.
+
+## ChangeLog
+
+-   [`2021-02-27 20:33`](https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2067337568415129e0a9b42264b1dfb3af25c015)
+agregar detalles cronológicos, explicación de estadísticas y
+conclusión
+-   [`2021-02-27 10:12`](https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a93639ebe0fb33aeed1b04a22900dd3923b6f791)
+actualizar 30 días de *posts* por la birra
+-   [`2021-02-26 09:55`](https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bfb3c71b27c05d2649243b0d12634b291a2ae348)
+agregar *30 días de posts por la birra*
+
+[^1]: <https://www.examplelab.com.ar/>
+
+[^2]: <https://web.archive.org/web/20130107013308/http://www.frontweb.com.ar/about.rst>
+
+[^3]: <https://github.com/trifulca>
+
+[^4]: <https://critter.blog/2021/01/14/prove-you-can-write-regularly-before-you-think-about-the-tools/>
+
+[^5]: <https://osiux.com/2018-12-11-org-mode-is-back.html>
+
+[^6]: <https://osiux.com/2013-02-01-migrando-de-frontweb-a-org-mode.html>
+
+[^7]: <https://osiux.com/2017-07-08-instalar-markdown-styles-para-convertir-un-md-en-un-html.html>
+
+[^8]: <https://osiux.com/2017-07-10-convertir-org-mode-a-markdown-org2md.html>
+
+[^9]: <https://osiux.com/2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.html>
+
+[^10]: <https://osiux.com/2021-01-25-ansible-luks-format-external-usb-disk.html>
+
+[^11]: <https://osiux.com/2021-01-26-disaster-recovery-plan-osiux.html>
+
+[^12]: <https://osiux.com/2021-01-29-bookmarks-vs-links.html>
+
+[^13]: <https://osiux.com/2021-02-05-git-repos2org.html>
+
+[^14]: <https://osiux.com/2021-02-03-git-post-commit-changelog.html>
+
+[^15]: <https://osiux.com/2021-02-07-agrandar-la-tarea.html>
+
+[^16]: <https://osiux.com/2021-02-05-ansible-awx-tools.html>
+
+[^17]: <https://www.gcoop.coop/>
+
+[^18]: <https://osiux.com/2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.html>
+
+[^19]: <https://osiux.com/2021-02-14-tty-music-on-console.html>
+
+[^20]: <https://osiux.com/2021-02-16-vivir-del-software-libre.html>
+
+[^21]: <https://osiux.com/2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.html>
+
+[^22]: <https://www.examplelab.com.ar/posts/2021-02-26-un-mes-escribiendo-todos-los-dias/>
+
+[^23]: <https://gitlab.com/osiux.gitlab.io/-/raw/master/stats-posts-since-until.sh>
+
+[^24]: <https://osiux.com/2021-01-25-2021-02-25-posts.html>
+
+[^25]: <https://osiux.com/la-tecnica-pomodoro.html>
+
+[^26]: <https://gitlab.com/osiux.gitlab.io/-/commit/048decdcbec9157164e53bfaeef67395c0f9b1ab>
+
+[^27]: <https://en.wikipedia.org/wiki/Typographical_error>
+
+[^28]: <https://osiux.com/blog.html>

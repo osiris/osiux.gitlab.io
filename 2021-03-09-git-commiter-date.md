@@ -1,0 +1,77 @@
+---
+title: cambiar la fecha de un /commit/ usando =GIT_COMMITER_DATE=
+date: 2021-03-09
+author: Osiris Alejandro Gomez osiux@osiux.com
+---
+
+[`.org`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-03-09-git-commiter-date.org) |
+[`.md`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-03-09-git-commiter-date.md) |
+[`.gmi`](gemini://gmi.osiux.com/2021-03-09-git-commiter-date.gmi) |
+[`.html`](https://osiux.gitlab.io/2021-03-09-git-commiter-date.html)
+
+## la hora del *commit*
+
+Muchas veces, estoy enajenado y/o enrroscado y considero que no estoy
+para realizar el *commit* porque le falta algo más y suele pasar que o
+bien agrando la tarea o si de casualidad ya estaba listo para
+*commitear* y surgió algo por lo que tuve que alejar del teclado y se
+pasó la hora, o el día del *commit* y no esta bueno que la fecha de un
+*commit* no refleje la fecha y hora de cuando realmente se realizó (o
+cuando se debería haber realizado).
+
+## `commit` en pausa
+
+Una estrategia que aprendí hace un par de años es la antes que termine
+el día iniciar el *commit* utilizando `git commit` pero dejándolo en
+pausa, y a la mañana siguiente, café de por medio, un poco mas
+tranquilo, redactar bien el comentario, con la ventaja de que al
+terminar, la hora y fecha del *commit* es el día anterior, que refleja
+el esfuerzo tal y como fue.
+
+## `GIT_COMMITER_DATE`
+
+Se puede redefinir la fecha y hora de un *commit* antes de realizar
+utilizando la variable `GIT_COMMITER_DATE`, por ejemplo si quisiera
+registrar que un *commit* se hizo ayer `2021-03-09` a la misma hora de
+hoy `2021-03-10 23:52` se puede basta ejecutar de la siguiente manera:
+
+``` {.bash org-language="sh" exports="code"}
+GIT_COMMITER_DATE="$(date -d 'now -1 days')" git commit --amend --date "$(date -d 'now -1 days')"
+
+```
+
+## la máquina del tiempo
+
+Para generalizar, creé una función `gct` *git commit time* y simplemente
+especificando `25m`, `2h`, `1d`:
+
+``` {.bash org-language="sh" exports="code"}
+function gct()
+{
+
+local D
+local N
+local T
+
+N="$(echo "$1" | grep -Eo "[0-9]+")"
+T="$(echo "$1" | grep -Eo "[a-z]+")"
+
+[[  -z   "$1" ]] && exit 1
+[[  -z   "$N" ]] && exit 1
+
+[[  -z   "$T" ]] && T='minutes'
+[[ "$T" = 'm' ]] && T='minutes'
+[[ "$T" = 'h' ]] && T='hours'
+[[ "$T" = 'd' ]] && T='days'
+
+D="$(date -d "now -$N $T")"
+GIT_COMMITTER_DATE="$D" git commit --date "$D"
+
+}
+
+```
+
+## ChangeLog
+
+-   [`2021-03-09 23:54`](https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4d045bc4abecda5b8316a0e3b92faa315ad92206)
+agregar cambiar la fecha de un *commit* usando `GIT_COMMITER_DATE`

@@ -1,0 +1,77 @@
+---
+title: =todo.txt= es una lista de tareas
+date: 2021-03-16
+author: Osiris Alejandro Gomez osiux@osiux.com
+---
+
+[`.org`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-03-16-todo-txt-es-una-lista-de-tareas.org) |
+[`.md`](https://gitlab.com/osiux/osiux.gitlab.io/-/raw/master/2021-03-16-todo-txt-es-una-lista-de-tareas.md) |
+[`.gmi`](gemini://gmi.osiux.com/2021-03-16-todo-txt-es-una-lista-de-tareas.gmi) |
+[`.html`](https://osiux.gitlab.io/2021-03-16-todo-txt-es-una-lista-de-tareas.html)
+
+## la lista
+
+Cuando tenemos pendientes por realizar o algo que no queremos olvidar,
+la primer solución que surge casi naturalmente es tomar un papel y hacer
+una lista, algo muy común para las compras del supermercado y a medida
+que vas completando items de la lista vas tachando, es un método simple
+y efectivo.
+
+## la lista en un `.txt`
+
+En *`GTD`* [^1] como en otras metodologías, es muy común manejarse con
+listas de tareas o *checklists* y si bien *`org-mode`* [^2] cuenta con
+un soporte muy amplio para listas de tareas a diario utilizo
+*`todo.txt`* [^3], que no es mas que un simple archivo de texto plano
+con un formato muy flexible, en principio solo es requerido un texto y
+todo lo demás es opcional, es decir una fecha o un tag.
+
+## la lista desde la consola
+
+Como era de esperarse, prefiero manipular un archivo `todo.txt` usando
+el *`cli`* [^4] y para ello opté por definir en la configuración
+`todo.cfg` que el directorio de trabajo sea el directorio actual, de
+esta forma en cada directorio puedo tener un `todo.txt` diferente,
+normalmente uno por proyecto.
+
+``` {.bash org-language="sh" exports="code"}
+export TODO_DIR="$PWD"
+
+```
+
+## la lista de alias
+
+Tres alias, simplifican la tarea de listar (`tol`), agregar un nuevo
+item (`toa`) y completar la tarea (`tod`):
+
+``` {.bash org-language="sh" exports="code"}
+alias toa='todo.sh add'
+alias tod='todo.sh do'
+alias tol='todo.sh ls'
+
+```
+
+## la lista desde el celu
+
+*`SimpleTask`* [^5] es una *app* para *android* que mejora al máximo la
+experiencia de uso de un `todo.txt` en un *smartphone* o *tablet* y como
+permite administrar varios archivos, además de tener los pendientes a
+mano, le encontré un uso muy diferente, manteniendo la lista de links
+[^6] de sitios que me interesa compartir.
+
+## ChangeLog
+
+-   [`2021-03-16 23:28`](https://gitlab.com/osiux/osiux.gitlab.io/-/commit/6cf68bed15fe9afc139a6cb4f21d59ff28cab468)
+agregar `todo.txt` es una lista de tareas
+
+[^1]: <https://osiux.com/gtd-gething-this-done.html>
+
+[^2]: <https://orgmode.org/>
+
+[^3]: <http://todotxt.org/>
+
+[^4]: <https://github.com/todotxt/todo.txt-cli>
+
+[^5]: <https://github.com/mpcjanssen/simpletask-android>
+
+[^6]: <https://osiux.com/2021-01-29-bookmarks-vs-links.html>
