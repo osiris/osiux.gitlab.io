@@ -39,6 +39,7 @@ noprose:
 	rm header.md
 	rm img-header.md
 	rm index.md
+	rm years.md
 
 prose.sh: prose noprose
   scp *.md prose.sh:
