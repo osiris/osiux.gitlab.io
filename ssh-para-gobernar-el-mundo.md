@@ -1,6 +1,6 @@
 ---
 title: SSH para gobernar el mundo!
-date: -12-31
+date: 2022-07-18
 author: Osiris Alejandro Gomez osiux@osiux.com
 ---
 

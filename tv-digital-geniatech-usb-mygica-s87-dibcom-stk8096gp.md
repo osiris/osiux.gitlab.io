@@ -1,6 +1,6 @@
 ---
 title: TV Digital Geniatech USB MyGica S87 dibcom STK8096GP Debian Sidux
-date: 8096-12-31
+date: 8096
 author: Osiris Alejandro Gomez osiux@osiux.com
 ---
 

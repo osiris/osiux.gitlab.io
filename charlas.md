@@ -1,6 +1,6 @@
 ---
 title: Conferencias y Capacitaciones
-date: -12-31
+date: 2022-07-18
 author: Osiris Alejandro Gómez osiux@osiux.com
 ---
 

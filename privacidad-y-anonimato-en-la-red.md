@@ -1,6 +1,6 @@
 ---
 title: privacidad y anominato en la red
-date: -12-31
+date: 2022-07-18
 author: Osiris Alejandro Gomez <osiux@riseup.net>
 ---
 
