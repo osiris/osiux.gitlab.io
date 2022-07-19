@@ -33,6 +33,7 @@ noprose:
 	rm 20*-*-*-20*-*-*-posts*.md
 	rm 20??.md
 	rm 404.md
+	rm blog.md
 	rm git-head.md
 	rm header-links.md
 	rm header.md
