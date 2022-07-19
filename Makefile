@@ -34,6 +34,8 @@ noprose:
 	rm 20??.md
 	rm 404.md
 	rm blog.md
+	rm charlas.md
+	rm stats-posts.md
 	rm git-head.md
 	rm header-links.md
 	rm header.md
