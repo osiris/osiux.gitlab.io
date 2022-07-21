@@ -5,6 +5,7 @@
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
 #+DATE:      2006-11-06
+#+OPTIONS:   broken-links:mark
 
 ** =whoami=
 
