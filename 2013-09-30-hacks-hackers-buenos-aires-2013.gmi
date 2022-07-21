@@ -1,0 +1,46 @@
+# Hacks/Hackers Buenos Aires 2013
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+* DATE: 2013-08-30 10:46
+
+## MediaParty
+
+Del 29 al 31 de Agosto de 2013, en el KONEX se realizó la edición 2013 del **HHBA** ^1[1] junto a periodistas, programadores, diseñadores, nerds y geeks :-P
+
+## Taller de Antenas
+
+**BuenosAiresLibres** ^2[2] dió un taller de armado de antenas, del cuál participé mostrando cómo armar una Omni de 4 elementos.
+
+=> tmb/hhba-2013/hhba-2013-09-30-11.jpg [IMG]
+[3]
+
+=> tmb/hhba-2013/hhba-2013-09-30-27.jpg [IMG]
+[4]
+
+=> tmb/hhba-2013/hhba-2013-09-30-38.jpg [IMG]
+[5]
+
+=> tmb/hhba-2013/hhba-2013-09-30-44.jpg [IMG]
+[6]
+
+=> tmb/hhba-2013/hhba-2013-09-30-52.jpg [IMG]
+[7]
+
+=> tmb/hhba-2013/hhba-2013-09-30-54.jpg [IMG]
+[8]
+
+## HowTo Antena OmniDireccional
+
+=> img/antena-omni-bal.png [IMG]
+[9]
+
+=> http://www.mediaparty.info/ 1: http://www.mediaparty.info/
+=> http://wiki.buenosaireslibre.gmi 2: http://wiki.buenosaireslibre.gmi
+=> file:img/hhba-2013/hhba-2013-09-30-11.jpg 3: file:img/hhba-2013/hhba-2013-09-30-11.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-27.jpg 4: file:img/hhba-2013/hhba-2013-09-30-27.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-38.jpg 5: file:img/hhba-2013/hhba-2013-09-30-38.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-44.jpg 6: file:img/hhba-2013/hhba-2013-09-30-44.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-52.jpg 7: file:img/hhba-2013/hhba-2013-09-30-52.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-54.jpg 8: file:img/hhba-2013/hhba-2013-09-30-54.jpg
+=> file:img/antena-omni-bal.png 9: file:img/antena-omni-bal.png

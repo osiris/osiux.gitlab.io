@@ -1,0 +1,59 @@
+# Reescribir URLs con mod~rewrite~ en Apache
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+* DATE: 2010-05-12 17:46
+
+## Migrando URLs
+
+Tuve que migrar de servidor y además cambié la url de http://blog.osiux.com[1] a http://osiux.com[2]. Así que para no perder los enlaces de otros sitios y buscadores a http://blog.osiux.com[3] los tuve que redireccionar manteniendo las urls anteriores hacia el nuevo sitio. Para hacer esto basta con crear un archivo `.htaccess` con las reglas que definen la reescritura de la url.
+
+## `mod-rewrite`
+
+Es necesario habilitar el módulo de apache:
+
+``` {.bash org-language="sh" exports="code"}
+a2enmod rewrite
+```
+
+En el `.htaccess` de http://blog.osiux.com[4] definí lo siguiente:
+
+``` {.example}
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^/$  http://osiux.com/
+RewriteRule ^(tutorial/)$  http://osiux.com/find/$1
+#RewriteRule ^\=(.+)$  http://osiux.com/find/$1
+
+RewriteCond %{QUERY_STRING} s=(.*)
+RewriteRule ^(.*)$  http://osiux.com/find/%1
+
+RewriteRule ^(buenos-aires-libre)/$  http://osiux.com/find/$1
+RewriteRule ^200./(.+)/$  http://osiux.com/find/$1.txt
+RewriteRule ^category/(.+)/$  http://osiux.com/find/$1
+RewriteRule ^(tag)/(.+)/$  http://osiux.com/find/$2
+RewriteRule ^(.+)\.txt$  http://osiux.com/$1.txt
+```
+
+## Referencias
+
+# http://www.askapache.com/htaccess/mod_rewrite-tips-and-tricks.html#default-mod-rewrite-hint[5]
+
+# http://www.sinctrl.com/2008/04/14/%C2%BFque-son-las-rewrite-rules/[6]
+
+# http://www.askapache.com/htaccess/ultimate-htaccess-file-sample.html[7]
+
+# http://briancray.com/2010/03/18/htaccess-hack-remove-url-query-strings/[8]
+
+# http://corz.gmi/serv/tricks/htaccess2.php[9]
+
+=> http://blog.osiux.com 1: http://blog.osiux.com
+=> http://osiux.com 2: http://osiux.com
+=> http://blog.osiux.com 3: http://blog.osiux.com
+=> http://blog.osiux.com 4: http://blog.osiux.com
+=> http://www.askapache.com/htaccess/mod_rewrite-tips-and-tricks.html#default-mod-rewrite-hint 5: http://www.askapache.com/htaccess/mod_rewrite-tips-and-tricks.html#default-mod-rewrite-hint
+=> http://www.sinctrl.com/2008/04/14/%C2%BFque-son-las-rewrite-rules/ 6: http://www.sinctrl.com/2008/04/14/%C2%BFque-son-las-rewrite-rules/
+=> http://www.askapache.com/htaccess/ultimate-htaccess-file-sample.html 7: http://www.askapache.com/htaccess/ultimate-htaccess-file-sample.html
+=> http://briancray.com/2010/03/18/htaccess-hack-remove-url-query-strings/ 8: http://briancray.com/2010/03/18/htaccess-hack-remove-url-query-strings/
+=> http://corz.gmi/serv/tricks/htaccess2.php 9: http://corz.gmi/serv/tricks/htaccess2.php

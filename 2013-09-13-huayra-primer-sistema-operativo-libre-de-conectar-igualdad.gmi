@@ -1,0 +1,49 @@
+# Huayra Primer Sistema Operativo Libre de Conectar Igualdad
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+* DATE: 2013-09-13 11:18
+
+## Presentación Oficial
+
+=> tmb/huayra-oficial/2013-09-13-1115-8988a5.jpg [IMG]
+[1]
+
+Hoy se realizó la presentación en el Salón Blanco del Palacio Pizzurno y contó con la participación de la directora ejecutiva de Conectar Igualdad *Silvina Gvirtz*, el director ejecutivo de la ANSES *Diego Bossio*, el ministro de Educación *Alberto Sileoni* y del jefe de Gabinete de Ministros de la Nación *Juan Manuel Abal Medina*.
+
+```{=html}
+<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/3w_Qnfhl778?rel=0" frameborder="0" allowfullscreen></iframe>
+```
+
+=> tmb/huayra-oficial/2013-09-13-1124-ea0852.jpg [IMG]
+[2]
+
+=> tmb/huayra-oficial/2013-09-13-1127-32843f.jpg [IMG]
+[3]
+
+=> tmb/huayra-oficial/2013-09-13-1131-35fefc.jpg [IMG]
+[4]
+
+=> tmb/huayra-oficial/2013-09-13-1141-fc2efc.jpg [IMG]
+[5]
+
+## Hay Equipo!
+
+Felicitaciones a todo el equipo, y a seguir construyendo!
+
+```{=html}
+<iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/92Hu2EpdhkE?rel=0" frameborder="0" allowfullscreen></iframe>
+```
+
+## Descargá Huayra
+
+* http://huayra.educ.gov.ar/huayra-live-install-1.1.iso[6]
+* https://archive.gmi/download/DocumentacionHuayra/documentacion-huayra.pdf[7]
+
+=> file:img/huayra-oficial/2013-09-13-1115-8988a5.jpg 1: file:img/huayra-oficial/2013-09-13-1115-8988a5.jpg
+=> file:img/huayra-oficial/2013-09-13-1124-ea0852.jpg 2: file:img/huayra-oficial/2013-09-13-1124-ea0852.jpg
+=> file:img/huayra-oficial/2013-09-13-1127-32843f.jpg 3: file:img/huayra-oficial/2013-09-13-1127-32843f.jpg
+=> file:img/huayra-oficial/2013-09-13-1131-35fefc.jpg 4: file:img/huayra-oficial/2013-09-13-1131-35fefc.jpg
+=> file:img/huayra-oficial/2013-09-13-1141-fc2efc.jpg 5: file:img/huayra-oficial/2013-09-13-1141-fc2efc.jpg
+=> http://huayra.educ.gov.ar/huayra-live-install-1.1.iso 6: http://huayra.educ.gov.ar/huayra-live-install-1.1.iso
+=> https://archive.gmi/download/DocumentacionHuayra/documentacion-huayra.pdf 7: https://archive.gmi/download/DocumentacionHuayra/documentacion-huayra.pdf

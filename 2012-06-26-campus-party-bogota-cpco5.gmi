@@ -1,0 +1,81 @@
+# CampusParty Bogotá CPCO5
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2012-06-26 22:19
+
+## la previa
+
+El viaje comenzó bien, logré capturar el booteo del sistema de entretenimiento del avión, el cual usa Linux. Al llegar a Corferias, había una cola enorme intentando registrarse y no quedaban dudas de que el evento era muy grande!
+
+=> img/cpco5/cpco5-600-01.jpg [IMG]
+[1]
+
+El datacenter llamado **cerebro** estaba en medio de la **arena**.
+
+=> img/cpco5/cpco5-600-02.jpg [IMG]
+[2]
+
+Hice el reconocimiento del lugar.
+
+=> img/cpco5/cpco5-600-03.jpg [IMG]
+[3]
+
+Encontré un canal de televisión que transmite desde el evento y unos auditorios abiertos muy cómodos.
+
+=> img/cpco5/cpco5-600-04.jpg [IMG]
+[4]
+
+Ni bien ubiqué un lugar para conectarme y dar aviso que de estaba todo bien, recorrí el camping y pude ver que el tráfico de red comenzaba a aumentar y esto era la previa.
+
+=> img/cpco5/cpco5-600-05.jpg [IMG]
+[5]
+
+## el primer día de charlas
+
+El público aumentó considerablemente y había un clima de juegos.
+
+=> img/cpco5/cpco5-600-06.jpg [IMG]
+[6]
+
+Aparecieron las clásicas promotoras y los stands dentro y fuera de la **arena**.
+
+=> img/cpco5/cpco5-600-07.jpg [IMG]
+[7]
+
+Encontré robots y amigos.
+
+=> img/cpco5/cpco5-600-08.jpg [IMG]
+[8]
+
+## no seas un terminal de internet, creá una red libre
+
+A las 16hs di una conferencia donde comenté las ventajas de las redes libres y la interconexión con internet ante un público que se animó a preguntar bastante!
+
+=> img/cpco5/cpco5-600-09.jpg [IMG]
+[9]
+
+### video
+
+=> img/cpco5/cpco5-redlibre.jpg [IMG]
+[10]
+
+### slides
+
+* http://pub.osiux.com/cpco5-redlibre.pdf[11]
+
+## continuará...
+
+Mañana sigue la movida e intentaré descubir la noche del CampusParty ya que es un evento 24hs
+
+=> file:img/cpco5/cpco5-1920-01.jpg 1: file:img/cpco5/cpco5-1920-01.jpg
+=> file:img/cpco5/cpco5-1920-02.jpg 2: file:img/cpco5/cpco5-1920-02.jpg
+=> file:img/cpco5/cpco5-1920-03.jpg 3: file:img/cpco5/cpco5-1920-03.jpg
+=> file:img/cpco5/cpco5-1920-04.jpg 4: file:img/cpco5/cpco5-1920-04.jpg
+=> file:img/cpco5/cpco5-1920-05.jpg 5: file:img/cpco5/cpco5-1920-05.jpg
+=> file:img/cpco5/cpco5-1920-06.jpg 6: file:img/cpco5/cpco5-1920-06.jpg
+=> file:img/cpco5/cpco5-1920-07.jpg 7: file:img/cpco5/cpco5-1920-07.jpg
+=> file:img/cpco5/cpco5-1920-08.jpg 8: file:img/cpco5/cpco5-1920-08.jpg
+=> file:img/cpco5/cpco5-1920-09.jpg 9: file:img/cpco5/cpco5-1920-09.jpg
+=> http://youtu.be/IKO17A5Imbc 10: http://youtu.be/IKO17A5Imbc
+=> http://pub.osiux.com/cpco5-redlibre.pdf 11: http://pub.osiux.com/cpco5-redlibre.pdf

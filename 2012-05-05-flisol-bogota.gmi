@@ -1,0 +1,27 @@
+# Redes Libres en FLISOL Bogotá
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2012-05-04 22:19
+
+=> img/flisol-bogota.jpg [IMG]
+
+Me invitaron a dar una **conferencia magistral** en el FLISOL de Bogotá[1], asi que pude participar de varias actividades, entre ellas:
+
+* entrevista a radio city sobre redes/software/cultura/libre.
+* conferencia sobre redes libres en Argentina.
+* debate con invitados internacionales y consejal de alcaldía sobre políticas de software libre y obviamente hablé de redes libres.
+* foro sobre redes libres con integrantes de redes libres de Colombia.
+* levantar un nuevo nodo de BogotáMesh[2].
+* conocer la muy activa y comprometida comunidad local.
+* intercambiar experiencias sobre redes en charlas informales.
+* disfrutar de un asadito a la colombiana.
+* conocer un poco la movida nocturna. ;-)
+* ascender al Monte Monserrate.
+* dar una charla sobre anonimato y privacidad en la red.
+
+Intentaré hacer un resumen detallado[3] y espero no olvidar nada!
+
+=> http://flisolbogota.info 1: http://flisolbogota.info
+=> http://bogota-mesh.gmi 2: http://bogota-mesh.gmi
+=> flisol-bogota-2012.gmi 3: flisol-bogota-2012.gmi

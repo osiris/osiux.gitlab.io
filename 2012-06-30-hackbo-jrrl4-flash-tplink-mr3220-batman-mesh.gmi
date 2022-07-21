@@ -1,0 +1,43 @@
+# Flasheando un TPLink MR3220 con BATMAN Mesh en HackBo durante las Cuartas Jornadas Regionales Redes Libres
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2012-06-30 22:19
+
+El 30 de Junio estuve en el HackBo[1] dando una charla/taller sobre como flashear un AccessPoint TPLink MR3320 usando un firmware OpenWRT con soporte B.A.T.M.A.N. para armar una red mesh usando el modelo QmP[2] en base a las modificaciones realizadas en las redes DeltaLibre y QuintanaLibre del programa ArraigoDigital[3]
+
+## video charla
+
+```{=html}
+<video controls="controls" src="http://archive.gmi/download/jrrl4-hackbo-batmesh/jrrl4-hackbo-flash-tplink-mr3220-batman-mesh.ogv"></video>
+```
+
+* Descargar Video Charla[4]
+
+## video pantalla
+
+```{=html}
+<video controls="controls" src="http://pub.osiux.com/charlas/jrrl4-hackbo-flash-tplink-mr3220-batman-mesh-screen.ogv"></video>
+```
+
+* Descargar Video Pantalla[5]
+
+## imagenes OpenWRT release 31316 batmesh
+
+**IMPORTANTE**: es recomendale usar nuevas versiones desde: http://chef.mesh.altermundi.net[6]
+
+* 918a3018a93e06624e2c09a43cac57a4 mr3020-factory[7]
+* dfe5c0b962e2d50df168082df1f496af mr3020-sysupgrade[8]
+* bef9c2524e8b8ed30b4a50ef96ec14e5 mr3220-factory[9]
+* 482be329482cb7764dfda632cf167e7f mr3220-sysupgrade[10]
+
+=> http://hackbo.co/ 1: http://hackbo.co/
+=> http://qmp.cat/ 2: http://qmp.cat/
+=> http://wiki.arraigodigital.gmi.ar/RedLibre/BatMesh?action=show&amp;redirect=RedLibre/qMp-adv/Roadmap 3: http://wiki.arraigodigital.gmi.ar/RedLibre/BatMesh?action=show&amp;redirect=RedLibre/qMp-adv/Roadmap
+=> http://archive.gmi/download/jrrl4-hackbo-batmesh/jrrl4-hackbo-flash-tplink-mr3220-batman-mesh.ogv 4: http://archive.gmi/download/jrrl4-hackbo-batmesh/jrrl4-hackbo-flash-tplink-mr3220-batman-mesh.ogv
+=> http://pub.osiux.com/charlas/jrrl4-hackbo-flash-tplink-mr3220-batman-mesh-screen.ogv 5: http://pub.osiux.com/charlas/jrrl4-hackbo-flash-tplink-mr3220-batman-mesh-screen.ogv
+=> http://chef.mesh.altermundi.net 6: http://chef.mesh.altermundi.net
+=> http://pub.osiux.com/batmesh/r31316/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin%3E 7: http://pub.osiux.com/batmesh/r31316/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin%3E
+=> http://pub.osiux.com/batmesh/r31316/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-sysupgrade.bin 8: http://pub.osiux.com/batmesh/r31316/openwrt-ar71xx-generic-tl-mr3020-v1-squashfs-sysupgrade.bin
+=> http://pub.osiux.com/batmesh/r31316/openwrt-ar71xx-generic-tl-mr3220-v1-squashfs-factory.bin 9: http://pub.osiux.com/batmesh/r31316/openwrt-ar71xx-generic-tl-mr3220-v1-squashfs-factory.bin
+=> http://pub.osiux.com/batmesh/r31316/openwrt-ar71xx-generic-tl-mr3220-v1-squashfs-sysupgrade.bin 10: http://pub.osiux.com/batmesh/r31316/openwrt-ar71xx-generic-tl-mr3220-v1-squashfs-sysupgrade.bin

@@ -1,0 +1,17 @@
+# Software Libre y Conectar Igualdad
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2011-10-24 22:19
+
+=> img/conectar-igualdad/2011-10-22_ubuntu-conectar-igualdad_10.jpg [IMG]
+
+=> img/conectar-igualdad/2011-10-22_ubuntu-conectar-igualdad_14.jpg [IMG]
+
+El viernes estuve en Monte Caseros y el sábado en Curuzú Cuatiá, el viaje tuvo buenos resultados, en primer lugar dí un par de charlas sobre Software Libre, Cooperativismo, Redes Libres y en segundo lugar instalé un Ubuntu 11.10 en las notebooks de Conectar Igualdad, comparto dos notas sobre cada día y espero que le sea útil a más de uno.
+
+* Software Libre en las Olimpíadas Informáticas de Monte Caseros[1]
+* Instalando Ubuntu 11.10 en Exomate de Conectar Igualdad[2]
+
+=> olimpiadas-informaticas-en-monte-caseros.gmi 1: olimpiadas-informaticas-en-monte-caseros.gmi
+=> ubuntu-11.10-en-exomate-de-conectar-igualdad.gmi 2: ubuntu-11.10-en-exomate-de-conectar-igualdad.gmi

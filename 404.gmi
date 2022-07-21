@@ -1,0 +1,10 @@
+# 404 NOT FOUND
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+# lo siento, la página que buscás no está!
+
+...en breve soluciono el error, mientras podés ver otra página[1]
+
+=> ../index.gmi 1: ../index.gmi

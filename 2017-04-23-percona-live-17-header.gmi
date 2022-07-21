@@ -1,0 +1,20 @@
+# Percona Live 17 - Open Source Databases Conference[1]
+
+* EZE -> DFW -> SJO[2]
+* Zero Day[3]
+* Day One[4]
+* Day Two[5]
+* Day Three[6]
+* San Francisco[7]
+* Santa Clara[8]
+* SJO -> DFW -> EZE[9]
+
+=> 2017-04-23-percona-live-17-osdc.gmi 1: 2017-04-23-percona-live-17-osdc.gmi
+=> 2017-04-23-percona-live-17-sjo.gmi 2: 2017-04-23-percona-live-17-sjo.gmi
+=> 2017-04-24-percona-live-17-zero-day.gmi 3: 2017-04-24-percona-live-17-zero-day.gmi
+=> 2017-04-25-percona-live-17-day-one.gmi 4: 2017-04-25-percona-live-17-day-one.gmi
+=> 2017-04-26-percona-live-17-day-two.gmi 5: 2017-04-26-percona-live-17-day-two.gmi
+=> 2017-04-27-percona-live-17-day-three.gmi 6: 2017-04-27-percona-live-17-day-three.gmi
+=> 2017-04-28-percona-live-17-san-francisco.gmi 7: 2017-04-28-percona-live-17-san-francisco.gmi
+=> 2017-04-29-percona-live-17-santa-clara.gmi 8: 2017-04-29-percona-live-17-santa-clara.gmi
+=> 2017-04-30-percona-live-17-eze.gmi 9: 2017-04-30-percona-live-17-eze.gmi

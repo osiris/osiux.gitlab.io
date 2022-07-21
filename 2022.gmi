@@ -1,0 +1,25 @@
+# ABSOLUTELLY NO WARRANTY 2022
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+`2022-04-23` `Filiales GNU/Linux` FLISoL CABA[1]
+
+=> tmb/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg [IMG]
+[2]
+
+`2022-04-22` Thinkpad HackToon FLOSS Vinyl by OSiUX[3]
+
+=> tmb/thinkpad-hacktoon-floss-vinyl-t14.jpg [IMG]
+[4]
+
+`2022-01-17` Bienvenido de vuelta *Conectar Igualdad* - Microsoft y Estado, Asunto Separado[5]
+
+## `ARCHIVE`[6]
+
+=> 2022-04-23-filiales-gnu-linux-flisol-caba.gmi 1: 2022-04-23-filiales-gnu-linux-flisol-caba.gmi
+=> file:2022-04-23-filiales-gnu-linux-flisol-caba.gmi 2: file:2022-04-23-filiales-gnu-linux-flisol-caba.gmi
+=> 2022-04-22-thinkpad-hacktoon-floss-vinyl.gmi 3: 2022-04-22-thinkpad-hacktoon-floss-vinyl.gmi
+=> file:2022-04-22-thinkpad-hacktoon-floss-vinyl.gmi 4: file:2022-04-22-thinkpad-hacktoon-floss-vinyl.gmi
+=> 2022-01-17-conectar-igualdad-microsoft-y-estado-asunto-separado.gmi 5: 2022-01-17-conectar-igualdad-microsoft-y-estado-asunto-separado.gmi
+=> archive.gmi 6: archive.gmi

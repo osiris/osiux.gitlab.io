@@ -1,0 +1,53 @@
+# ABSOLUTELLY NO WARRANTY 2011
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+`2011-12-29` orgmode y gnuplot una buena combinación[1]
+
+=> tmb/org-task-by-day-2011-12.png [IMG]
+[2]
+
+`2011-11-25` Fábrica de Fallas. 4to Festival de Cultura libre y Copyleft[3]
+
+`2011-11-10` Curso básico para alumnos sobre software libre y programación[4]
+
+`2011-11-05` BSDday Argentina 2011[5]
+
+`2011-10-24` Software Libre y Conectar Igualdad[6]
+
+=> tmb/conectar-igualdad/2011-10-22_ubuntu-conectar-igualdad_10.jpg [IMG]
+[7]
+
+`2011-09-30` Ejecutar un Shell dentro de Vim[8]
+
+`2011-07-16` redactando Awesome es Increíble[9]
+
+`2011-07-03` Resumen de JRRL3 en FISL12[10]
+
+`2011-05-23` Pomodoro notify-send y Minutos OSD[11]
+
+=> tmb/pomodoro/pomodoro-notify-send-5.png [IMG]
+[12]
+
+`2011-03-15` Dibujando con números desde la consola[13]
+
+`2011-02-03` Blog de prueba[14]
+
+## `ARCHIVE`[15]
+
+=> 2011-12-29-orgmode-y-gnuplot.gmi 1: 2011-12-29-orgmode-y-gnuplot.gmi
+=> file:2011-12-29-orgmode-y-gnuplot.gmi 2: file:2011-12-29-orgmode-y-gnuplot.gmi
+=> 2011-11-25-fabrica-de-fallas-4to-festival-cultura-libre-copyleft.gmi 3: 2011-11-25-fabrica-de-fallas-4to-festival-cultura-libre-copyleft.gmi
+=> 2011-11-10-curso-software-libre-y-programacion-conectar-igualdad.gmi 4: 2011-11-10-curso-software-libre-y-programacion-conectar-igualdad.gmi
+=> 2011-11-05_bsdday-argentina-2011.gmi 5: 2011-11-05_bsdday-argentina-2011.gmi
+=> 2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.gmi 6: 2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.gmi
+=> file:2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.gmi 7: file:2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.gmi
+=> 2011-09-30-ejecutar-shell-dentro-de-vim.gmi 8: 2011-09-30-ejecutar-shell-dentro-de-vim.gmi
+=> 2011-07-16-awesome-es-increible.gmi 9: 2011-07-16-awesome-es-increible.gmi
+=> 2011-07-03-jrrl3-fisl12.gmi 10: 2011-07-03-jrrl3-fisl12.gmi
+=> 2011-05-23-pomodoro-notify-send-minutos-osd.gmi 11: 2011-05-23-pomodoro-notify-send-minutos-osd.gmi
+=> file:2011-05-23-pomodoro-notify-send-minutos-osd.gmi 12: file:2011-05-23-pomodoro-notify-send-minutos-osd.gmi
+=> 2011-03-15-dibujando-con-numeros-desde-la-consola.gmi 13: 2011-03-15-dibujando-con-numeros-desde-la-consola.gmi
+=> 2011-02-03.gmi 14: 2011-02-03.gmi
+=> archive.gmi 15: archive.gmi

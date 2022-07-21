@@ -1,0 +1,26 @@
+# OSiUX `graphviz`
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+## graficando grafos
+
+A `graphviz` ^1[1] lo descubrí en el 2007 y se volvió indispensable, me la paso generando archivos `.dot`
+
+El lenguaje `dot` es muy, pero muy simple, hay varios motores `dot`, `neato`, `twopi`, `fdp` y `circo` que permiten generar grafos muy diferentes, algunos ejemplos básicos encontralos en *`visualizando grafos usando graphviz`* ^2[2]
+
+## galería de archivos `.dot`
+
+... continuará ...
+
+## te puede gustar...
+
+* Imágenes Mágicas usando `imagemagick`[3]
+* Visualizando grafos mediante `graphviz`[4]
+* Graficar desde consola[5]
+
+=> https://graphviz.gmi/ 1: https://graphviz.gmi/
+=> https://osiux.com/visualizando-grafos-graphviz.html 2: https://osiux.com/visualizando-grafos-graphviz.html
+=> imagenes-magicas-imagemagick.gmi 3: imagenes-magicas-imagemagick.gmi
+=> visualizando-grafos-graphviz.gmi 4: visualizando-grafos-graphviz.gmi
+=> graficar-desde-consola.gmi 5: graficar-desde-consola.gmi

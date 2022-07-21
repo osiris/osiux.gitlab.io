@@ -1,0 +1,12 @@
+``` {.example}
+┏━┓┏━┓╻╻ ╻╻ ╻
+┃ ┃┗━┓┃┃ ┃┏╋┛
+┗━┛┗━┛╹┗━┛╹ ╹
+```
+
+index[1] osiux[2] links[3] tty[4]
+
+=> index.gmi 1: index.gmi
+=> osiux.gmi 2: osiux.gmi
+=> links.gmi 3: links.gmi
+=> tty.gmi 4: tty.gmi

@@ -1,0 +1,112 @@
+# FLISoL 2013 Escuela Ténica 10 Villa Madero, La Matanza
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2013-04-27 13:28
+
+El sábado 27 de Abril, junto a *Hugo Ruscitti* ^1[1] de **gcoop** ^2[2] estuvimos participando del **FLISoL** ^3[3] en la **Escuela Técnica Número 10 Villa Madero, La Matanza** ^4[4]
+
+## Las charlas de la tía MEC
+
+Como es costumbre en varios eventos, la charla de **salita de 4** la dió *María Elena Casañas* ^5[5] y como siempre sirvió mucho para reforzar conocimientos y sobro todo tener en claro cómo migrar al Software Libre.
+
+=> tmb/flisol-2013-et10/2013-04-27-1042-3fecd5.jpg [IMG]
+[6] 
+=> tmb/flisol-2013-et10/2013-04-27-1043-5c496d.jpg [IMG]
+[7] 
+=> tmb/flisol-2013-et10/2013-04-27-1310-5262b9.jpg [IMG]
+[8]
+
+## Irenka en 2D y 3D
+
+*Irene Coremberg* ^6[9] hizo todo un despliegue artístico de imágenes generadas en Blender ^7[10] y retocadas en Gimp ^8[11], también mostró varios plugins y utilizarios que permiten lidiar con el problema del formato DWG.
+
+=> tmb/flisol-2013-et10/2013-04-27-1311-8b4cbe.jpg [IMG]
+[12] 
+=> tmb/flisol-2013-et10/2013-04-27-1455-16532e.jpg [IMG]
+[13] 
+=> tmb/flisol-2013-et10/2013-04-27-1455-268126.jpg [IMG]
+[14]
+
+## Cooperativismo y Software Libre
+
+Me tocó contar un poco sobre cómo formar una cooperativa y la similitud que existe entre el movimiento del Software Libre y del cooperativismo. No tengo fotos (porque esaba dando la charla) pero comparto la presentación y el video **Códigos Cooperativos**:
+
+* http://gcoop.coop/COOPySL.pdf[15]
+* http://gcoop.coop/codigos-cooperativos[16]
+
+## La escuela
+
+En los pasillos de la escuela, hubo stands de Cultura Libre, BuenosAiresLibre ^9[17], además de la instalación de Software Libre, se dieron talleres prácticos de Inkscape y Blender.
+
+=> tmb/flisol-2013-et10/2013-04-27-1455-677a7c.jpg [IMG]
+[18] 
+=> tmb/flisol-2013-et10/2013-04-27-1455-deb420.jpg [IMG]
+[19] 
+=> tmb/flisol-2013-et10/2013-04-27-1502-b96832.jpg [IMG]
+[20]
+
+## Pilas
+
+Una de las mejores charlas fue la de *Hugo Ruscitti* mostrando **Pilas Engine** ^10[21] que es un framework para el desarrollo de juegos enfocado en aprender a programar.
+
+=> tmb/flisol-2013-et10/2013-04-27-1607-5cef9f.jpg [IMG]
+[22] 
+=> tmb/flisol-2013-et10/2013-04-27-1610-d28f99.jpg [IMG]
+[23] 
+=> tmb/flisol-2013-et10/2013-04-27-1612-7cec2f.jpg [IMG]
+[24]
+
+## Redes Libres con Altermesh
+
+Por la tarde mostré un poco las diferentes Redes Libres ^11[25] que existen y puntualmente hablé sobre Altermesh ^12[26], el firmware de AlterMundi ^13[27].
+
+## Huayra
+
+La última charla a cargo de Malefico mostrando el arte aplicado en Huayra ^14[28] y como era posible editar usando Blender a la vaca de Huayra.
+
+=> tmb/flisol-2013-et10/2013-04-27-1747-a4cb7a.jpg [IMG]
+[29] 
+=> tmb/flisol-2013-et10/2013-04-27-1754-4f4c90.jpg [IMG]
+[30] 
+=> tmb/flisol-2013-et10/2013-04-27-1755-620d74.jpg [IMG]
+[31] 
+=> tmb/flisol-2013-et10/2013-04-27-1756-8093d2.jpg [IMG]
+[32]
+
+## Conclusión
+
+Una vez más el FLISoL es un lugar de encuentro, no sólo para resolver inquietudes técnicas, también un lugar para hacer nuevas amistades y compartir experiencias con excelentes personas como *Eduardo Sandulli* quien estuvo a cargo de la coordinación del evento.
+
+=> http://hugoruscitti.github.io 1: http://hugoruscitti.github.io
+=> http://gcoop.coop 2: http://gcoop.coop
+=> http://flisol.info/FLISOL2013/Argentina/Villa_Madero 3: http://flisol.info/FLISOL2013/Argentina/Villa_Madero
+=> http://edudelsur.dyndns.info/tecnica10/Flisol2013.html 4: http://edudelsur.dyndns.info/tecnica10/Flisol2013.html
+=> http://casanas.com.ar 5: http://casanas.com.ar
+=> file:img/flisol-2013-et10/2013-04-27-1042-3fecd5.jpg 6: file:img/flisol-2013-et10/2013-04-27-1042-3fecd5.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1043-5c496d.jpg 7: file:img/flisol-2013-et10/2013-04-27-1043-5c496d.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1310-5262b9.jpg 8: file:img/flisol-2013-et10/2013-04-27-1310-5262b9.jpg
+=> http://www.3dfenix.com 9: http://www.3dfenix.com
+=> http://www.blender.gmi 10: http://www.blender.gmi
+=> http://www.gimp.gmi 11: http://www.gimp.gmi
+=> file:img/flisol-2013-et10/2013-04-27-1311-8b4cbe.jpg 12: file:img/flisol-2013-et10/2013-04-27-1311-8b4cbe.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1455-16532e.jpg 13: file:img/flisol-2013-et10/2013-04-27-1455-16532e.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1455-268126.jpg 14: file:img/flisol-2013-et10/2013-04-27-1455-268126.jpg
+=> http://gcoop.coop/COOPySL.pdf 15: http://gcoop.coop/COOPySL.pdf
+=> http://gcoop.coop/codigos-cooperativos 16: http://gcoop.coop/codigos-cooperativos
+=> http://buenosaireslibre.gmi 17: http://buenosaireslibre.gmi
+=> file:img/flisol-2013-et10/2013-04-27-1455-677a7c.jpg 18: file:img/flisol-2013-et10/2013-04-27-1455-677a7c.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1455-deb420.jpg 19: file:img/flisol-2013-et10/2013-04-27-1455-deb420.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1502-b96832.jpg 20: file:img/flisol-2013-et10/2013-04-27-1502-b96832.jpg
+=> http://pilas-engine.com.ar 21: http://pilas-engine.com.ar
+=> file:img/flisol-2013-et10/2013-04-27-1607-5cef9f.jpg 22: file:img/flisol-2013-et10/2013-04-27-1607-5cef9f.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1610-d28f99.jpg 23: file:img/flisol-2013-et10/2013-04-27-1610-d28f99.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1612-7cec2f.jpg 24: file:img/flisol-2013-et10/2013-04-27-1612-7cec2f.jpg
+=> http://redeslibres.gmi 25: http://redeslibres.gmi
+=> http://chef.mesh.altermundi.net 26: http://chef.mesh.altermundi.net
+=> http://altermundi.net 27: http://altermundi.net
+=> http://huayra.conectarigualdad.gob.ar 28: http://huayra.conectarigualdad.gob.ar
+=> file:img/flisol-2013-et10/2013-04-27-1747-a4cb7a.jpg 29: file:img/flisol-2013-et10/2013-04-27-1747-a4cb7a.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1754-4f4c90.jpg 30: file:img/flisol-2013-et10/2013-04-27-1754-4f4c90.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1755-620d74.jpg 31: file:img/flisol-2013-et10/2013-04-27-1755-620d74.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1756-8093d2.jpg 32: file:img/flisol-2013-et10/2013-04-27-1756-8093d2.jpg

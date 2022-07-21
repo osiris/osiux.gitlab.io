@@ -1,0 +1,15 @@
+# Percona Live 17 Open Source Databases Conference
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiris@gcoop.coop
+* DATE: 2017-04-23 03:43
+
+## gcoop presente en Percona Live 17
+
+Hace rato que en **gcoop** ^1[1] decidimos que en lugar de sponsorear un evento, era mucho mejor participar de un evento, ya sea como disertante o asistente ya que de esta manera nos capacitamos o capacitamos y contribuimos con la comunidad del **Software Libre** en primera persona.
+
+A fin de 2016 vimos que se venía el **Percona Live 17**, del cual nunca habíamos participado y como cada día que pasa necesitamos exprimir mas nuestros motores de Bases de Datos (*MySQL/MariaDB/Percona/PostgreSQL*) era una excelente oportunidad para participar del evento.
+
+Resulta que el evento era en la ciudad de *Santa Clara*, estado de *California* en *Estados Unidos*, asi que el primer paso era obtener la *VISA* (y no hablo de la tarjeta de crédito) para poder ingresar, en fin luego del trámite obtuve la *B1*, asi que con pasajes en mano y *tickets* de la conferencia ya estaba en condiciones de viajar.
+
+=> https://www.gcoop.coop/ 1: https://www.gcoop.coop/

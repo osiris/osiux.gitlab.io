@@ -1,0 +1,14 @@
+# OSiUX `plantuml`
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+## diagramas con `plantuml`
+
+*Si lo puedo dibujar es que lo entendí*
+
+## galería de archivos `.uml`
+
+Desde mis comienzos en el mundo `GNU/Linux` adopté `plantuml` porque me permite realizar fácilmente la generación de diagramas, solo es necesario crear un archivo `.uml` con las definiciones para luego obtener un bonito `.png`
+
+... continuará ...

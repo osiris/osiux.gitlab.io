@@ -1,0 +1,144 @@
+# ABSOLUTELLY NO WARRANTY 2012
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+`2012-10-15` CISL Conferencia Internacional Software Libre[1]
+
+=> tmb/redes-para-todos.png [IMG]
+[2]
+
+`2012-09-29` ¿Que hice ayer? ¿Que tengo que hacer hoy?[3]
+
+`2012-09-07` Ganamos el Concurso de Videos del Congreso Argentino de Cooperativas[4]
+
+=> tmb/gcoop-codigos-cooperativos.jpg [IMG]
+[5]
+
+`2012-08-30` gcoop tiene Códigos Cooperativos[6]
+
+=> tmb/codigos-cooperativos.jpg [IMG]
+[7]
+
+`2012-08-27` preparando varias charlas para los próximos eventos[8]
+
+=> tmb/COOPySL-CNEISI.png [IMG]
+[9]
+
+`2012-07-06` Free Software is cooperative[10]
+
+`2012-07-05` sslh ssl ssh shellinabox[11]
+
+`2012-06-30` Flasheando un TPLink MR3220 con BATMAN Mesh en HackBo durante las Cuartas Jornadas Regionales Redes Libres[12]
+
+`2012-06-26` CampusParty Bogotá CPCO5[13]
+
+=> tmb/cpco5/cpco5-1920-01.jpg [IMG]
+[14]
+
+`2012-06-15` Hackaton Software Libre y Economía Social en 28 segundos[15]
+
+`2012-06-14` Visualizando Cooperativas de Argentina[16]
+
+=> tmb/2012-06-13-SLyES-2037-0114.jpg [IMG]
+[17]
+
+`2012-06-13` 3er. Evento de Software Libre y Economía Social[18]
+
+`2012-06-01` PirateBox PirateFloppy[19]
+
+=> tmb/pirate-box-floppy-disk-1280-01.jpg [IMG]
+[20]
+
+`2012-05-28` Cómo automatizar VLC para grabar un programa de televisión digital abierta[21]
+
+=> tmb/sintonizador-usb-tda-con-amarre.jpg [IMG]
+[22]
+
+`2012-05-25` BuenosAiresLibre en el medio digital[23]
+
+=> tmb/buenos-aires-libre-en-el-medio-digital.jpg [IMG]
+[24]
+
+`2012-05-24` Carta Abierta Software Libre con CFK[25]
+
+`2012-05-23` si en tu barrio no hay una red libre, es momento de crearla y unirla a otras redes libres[26]
+
+`2012-05-18` episodio Software Libre cliclo En el medio digital[27]
+
+=> tmb/en-el-medio-digital-software-libre.jpg [IMG]
+[28]
+
+`2012-05-05` Redes Libres en FLISOL Bogotá[29]
+
+=> tmb/flisol-bogota.jpg [IMG]
+[30]
+
+`2012-04-28` Cooperativismo y Software Libre en FLISOL Buenos Aires[31]
+
+=> tmb/COOPySL.png [IMG]
+[32]
+
+`2012-03-05` redes abiertas versus redes cerradas[33]
+
+=> tmb/aps-2012-03-05.gif [IMG]
+[34]
+
+`2012-02-29` gcoop es una caricatura[35]
+
+=> tmb/gcoop-cartoon.gif [IMG]
+[36]
+
+`2012-02-17` las cooperativas construyen un mundo mejor[37]
+
+=> tmb/las-cooperativas-construyen-un-mundo-mejor.jpg [IMG]
+[38]
+
+`2012-02-14` De Fondo Negro a Fondo Blanco[39]
+
+=> tmb/de-fondo-negro-a-fondo-blanco.png [IMG]
+[40]
+
+## `ARCHIVE`[41]
+
+=> 2012-10-15-cisl-conferencia-internacional-software-libre.gmi 1: 2012-10-15-cisl-conferencia-internacional-software-libre.gmi
+=> file:2012-10-15-cisl-conferencia-internacional-software-libre.gmi 2: file:2012-10-15-cisl-conferencia-internacional-software-libre.gmi
+=> 2012-09-29-que-hice-ayer-que-tengo-que-hacer-hoy.gmi 3: 2012-09-29-que-hice-ayer-que-tengo-que-hacer-hoy.gmi
+=> 2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi 4: 2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi
+=> file:2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi 5: file:2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi
+=> 2012-08-30-gcoop-codigos-cooperativos.gmi 6: 2012-08-30-gcoop-codigos-cooperativos.gmi
+=> file:2012-08-30-gcoop-codigos-cooperativos.gmi 7: file:2012-08-30-gcoop-codigos-cooperativos.gmi
+=> 2012-08-27-proximas-charlas-y-eventos.gmi 8: 2012-08-27-proximas-charlas-y-eventos.gmi
+=> file:2012-08-27-proximas-charlas-y-eventos.gmi 9: file:2012-08-27-proximas-charlas-y-eventos.gmi
+=> 2012-07-06-free-software-is-cooperative.gmi 10: 2012-07-06-free-software-is-cooperative.gmi
+=> 2012-07-05-sslh-ssl-ssh-shellinabox.gmi 11: 2012-07-05-sslh-ssl-ssh-shellinabox.gmi
+=> 2012-06-30-hackbo-jrrl4-flash-tplink-mr3220-batman-mesh.gmi 12: 2012-06-30-hackbo-jrrl4-flash-tplink-mr3220-batman-mesh.gmi
+=> 2012-06-26-campus-party-bogota-cpco5.gmi 13: 2012-06-26-campus-party-bogota-cpco5.gmi
+=> file:2012-06-26-campus-party-bogota-cpco5.gmi 14: file:2012-06-26-campus-party-bogota-cpco5.gmi
+=> 2012-06-15-hackaton-SLyES-en-28-segundos.gmi 15: 2012-06-15-hackaton-SLyES-en-28-segundos.gmi
+=> 2012-06-14-visualizando-cooperativas-de-argentina.gmi 16: 2012-06-14-visualizando-cooperativas-de-argentina.gmi
+=> file:2012-06-14-visualizando-cooperativas-de-argentina.gmi 17: file:2012-06-14-visualizando-cooperativas-de-argentina.gmi
+=> 2012-06-13-SLyES-software-libre-y-economia-social-2012.gmi 18: 2012-06-13-SLyES-software-libre-y-economia-social-2012.gmi
+=> 2012-06-01-pirate-box-floppy-disk.gmi 19: 2012-06-01-pirate-box-floppy-disk.gmi
+=> file:2012-06-01-pirate-box-floppy-disk.gmi 20: file:2012-06-01-pirate-box-floppy-disk.gmi
+=> 2012-05-28-como-automatizar-vlc-para-grabar-programa-television-digital-abierta.gmi 21: 2012-05-28-como-automatizar-vlc-para-grabar-programa-television-digital-abierta.gmi
+=> file:2012-05-28-como-automatizar-vlc-para-grabar-programa-television-digital-abierta.gmi 22: file:2012-05-28-como-automatizar-vlc-para-grabar-programa-television-digital-abierta.gmi
+=> 2012-05-25-buenos-aires-libre-en-el-medio-digital.gmi 23: 2012-05-25-buenos-aires-libre-en-el-medio-digital.gmi
+=> file:2012-05-25-buenos-aires-libre-en-el-medio-digital.gmi 24: file:2012-05-25-buenos-aires-libre-en-el-medio-digital.gmi
+=> 2012-05-24-carta-abierta-software-libre-con-cfk.gmi 25: 2012-05-24-carta-abierta-software-libre-con-cfk.gmi
+=> 2012-05-23-la-escala-lo-cambia-todo.gmi 26: 2012-05-23-la-escala-lo-cambia-todo.gmi
+=> 2012-05-18-en-el-medio-digital-software-libre.gmi 27: 2012-05-18-en-el-medio-digital-software-libre.gmi
+=> file:2012-05-18-en-el-medio-digital-software-libre.gmi 28: file:2012-05-18-en-el-medio-digital-software-libre.gmi
+=> 2012-05-05-flisol-bogota.gmi 29: 2012-05-05-flisol-bogota.gmi
+=> file:2012-05-05-flisol-bogota.gmi 30: file:2012-05-05-flisol-bogota.gmi
+=> 2012-04-28-flisol-cooperativismo-y-software-libre.gmi 31: 2012-04-28-flisol-cooperativismo-y-software-libre.gmi
+=> file:2012-04-28-flisol-cooperativismo-y-software-libre.gmi 32: file:2012-04-28-flisol-cooperativismo-y-software-libre.gmi
+=> 2012-03-05-redes-abiertas-versus-redes-cerradas.gmi 33: 2012-03-05-redes-abiertas-versus-redes-cerradas.gmi
+=> file:2012-03-05-redes-abiertas-versus-redes-cerradas.gmi 34: file:2012-03-05-redes-abiertas-versus-redes-cerradas.gmi
+=> 2012-02-29-gcoop-cartoon.gmi 35: 2012-02-29-gcoop-cartoon.gmi
+=> file:2012-02-29-gcoop-cartoon.gmi 36: file:2012-02-29-gcoop-cartoon.gmi
+=> 2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi 37: 2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi
+=> file:2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi 38: file:2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi
+=> 2012-02-14-de-fondo-negro-a-fondo-blanco.gmi 39: 2012-02-14-de-fondo-negro-a-fondo-blanco.gmi
+=> file:2012-02-14-de-fondo-negro-a-fondo-blanco.gmi 40: file:2012-02-14-de-fondo-negro-a-fondo-blanco.gmi
+=> archive.gmi 41: archive.gmi

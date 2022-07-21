@@ -1,0 +1,67 @@
+# MatanzaComparte y RedesLibres en Plaza Ciencia 2013
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@altermunti.net
+* DATE: 2013-06-15 01:42
+
+## La feria
+
+La Secretaría de Ciencia, Tecnología y Políticas Educativas del Municipio de la Matanza organiza la Segunda Muestra Municipal de Ciencia y Tecnología del 12 al 19 de Junio.
+
+file:img/plaza-ciencia-2013/2013-06-14-1421-7409b1.jpg[1]
+
+Donde las escuelas técnicas exponen los proyectos que realizan los estudiantes. Es sorprendente la variedad de propuestas, desde la fabricación de materiales de construcción a partir de objetos reciclados de uso común.
+
+file:img/plaza-ciencia-2013/2013-06-14-1514-db3ea1.jpg[2]
+
+También hubo un stand de capacitación de las diferentes herramientas incluídas en **Huayra GNU/Linux** ^1[3] y de **Conectar Igualdad** ^2[4]
+
+file:img/plaza-ciencia-2013/2013-06-14-1447-c7b362.jpg[5]
+
+Varios robots circulaban por los pasillos:
+
+file:img/plaza-ciencia-2013/2013-06-14-1518-85b0fb.jpg[6]
+
+## MatanzaComparte
+
+Los estudiantes de la *Escuela Ténica Nro 10 de Villa Madero*, a cargo del profesor *Eduardo Sandulli* presentaron un proyecto de red libre **MatanzaComparte** usando un panel solar para dar autonomía a un router `TP-Link MR3020` usando **Altermesh** ^3[7].
+
+file:img/plaza-ciencia-2013/2013-06-14-1453-4cf1c8.jpg[8]
+
+file:img/plaza-ciencia-2013/2013-06-14-1454-c4e956.jpg[9]
+
+file:img/plaza-ciencia-2013/2013-06-14-1455-0ba838.jpg[10]
+
+## Las charlas
+
+Un extenso cronograma ^4[11] de charlas llenó el auditorio del evento:
+
+file:img/plaza-ciencia-2013/2013-06-14-1433-a2f579.jpg[12]
+
+El viernes 14, junto a *María Elena Casañas* ^5[13] y *Eduardo Sandulli* participé de un panel de **Tecnologías libres para la comunicación soberana**, donde se charló sobre los problemas actuales de privacidad en Internet y como contrapartida se mostró la alternativa para controlar nuestras comunicaciones ofrecidas por modelos autogestionados de **RedesLibres** ^6[14] como el caso del uso del firmware *Altermesh* generado por Altermudi ^7[15].
+
+file:img/plaza-ciencia-2013/2013-06-14-1644-ddff54.jpg[16]
+
+Están disponibles los slides ^8[17] de la presentación de RedesLibres:
+
+=> img/plaza-ciencia-2013/altermundi.png [IMG]
+[18]
+
+=> file:img/plaza-ciencia-2013/2013-06-14-1421-7409b1.jpg 1: file:img/plaza-ciencia-2013/2013-06-14-1421-7409b1.jpg
+=> file:img/plaza-ciencia-2013/2013-06-14-1514-db3ea1.jpg 2: file:img/plaza-ciencia-2013/2013-06-14-1514-db3ea1.jpg
+=> http://huayra.conectarigualdad.gob.ar 3: http://huayra.conectarigualdad.gob.ar
+=> http://www.conectarigualdad.gob.ar 4: http://www.conectarigualdad.gob.ar
+=> file:img/plaza-ciencia-2013/2013-06-14-1447-c7b362.jpg 5: file:img/plaza-ciencia-2013/2013-06-14-1447-c7b362.jpg
+=> file:img/plaza-ciencia-2013/2013-06-14-1518-85b0fb.jpg 6: file:img/plaza-ciencia-2013/2013-06-14-1518-85b0fb.jpg
+=> http://docs.altermundi.net/AlterMesh/ 7: http://docs.altermundi.net/AlterMesh/
+=> file:img/plaza-ciencia-2013/2013-06-14-1453-4cf1c8.jpg 8: file:img/plaza-ciencia-2013/2013-06-14-1453-4cf1c8.jpg
+=> file:img/plaza-ciencia-2013/2013-06-14-1454-c4e956.jpg 9: file:img/plaza-ciencia-2013/2013-06-14-1454-c4e956.jpg
+=> file:img/plaza-ciencia-2013/2013-06-14-1455-0ba838.jpg 10: file:img/plaza-ciencia-2013/2013-06-14-1455-0ba838.jpg
+=> http://www.colectivocientifico.com.ar/plaza-ciencia-2013/6-programa-plaza-ciencia-2013 11: http://www.colectivocientifico.com.ar/plaza-ciencia-2013/6-programa-plaza-ciencia-2013
+=> file:img/plaza-ciencia-2013/2013-06-14-1433-a2f579.jpg 12: file:img/plaza-ciencia-2013/2013-06-14-1433-a2f579.jpg
+=> http://www.casanas.com.ar 13: http://www.casanas.com.ar
+=> http://www.redeslibres.gmi 14: http://www.redeslibres.gmi
+=> http://www.altermundi.net 15: http://www.altermundi.net
+=> file:img/plaza-ciencia-2013/2013-06-14-1644-ddff54.jpg 16: file:img/plaza-ciencia-2013/2013-06-14-1644-ddff54.jpg
+=> http://pub.osiux.com/altermundi.pdf 17: http://pub.osiux.com/altermundi.pdf
+=> http://pub.osiux.com/altermundi.pdf 18: http://pub.osiux.com/altermundi.pdf

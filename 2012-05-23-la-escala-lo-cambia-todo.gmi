@@ -1,0 +1,19 @@
+# si en tu barrio no hay una red libre, es momento de crearla y unirla a otras redes libres
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2012-05-23 22:19
+
+Esta madrugada leí un interesante artículo titulado **si en tu barrio no hay un nodo** ^1[1] realizado por Hollman Enciso hollman.enciso@gmail.com de **BogotáMesh** ^2[2] que está basado en parte en una entrevista que me realizaron el año pasado en el diario página12 ^3[3].
+
+La primer sugerencia que leo por parte de Wilson Daniel Ochoa wilsondanielg@gmail.com de la red **EspinalLibre** ^4[4] fue "Cambie Bogota-Mesh por el nombre de su proyecto local y aplica igual" y eso fue suficiente como disparador para una reflexión que hace tiempo vengo elaborando y charlando con varios integrantes de diferentes redes libres.
+
+La titulé la escala lo cambia todo[5] ^5[6] y si bien está muy dirigida a la comunidad de **BuenosAiresLibre** ^6[7] creo que aplica a cualquier ciudad grande donde hay espacio para la creación de más de una red, con la posibilidad de tener mayor diversidad tanto en servicios y contenidos como en el propósito de cada red sin olvidar la interconexión entre todas las redes disponibles a fin de lograr un rápido y efectivo despliegue.
+
+=> http://www.bogota-mesh.gmi/es/blog/si_en_tu_barrio_no_hay_un_nodo 1: http://www.bogota-mesh.gmi/es/blog/si_en_tu_barrio_no_hay_un_nodo
+=> http://www.bogota-mesh.gmi/ 2: http://www.bogota-mesh.gmi/
+=> http://www.pagina12.com.ar/diario/suplementos/futuro/13-2546-2011-06-11.html 3: http://www.pagina12.com.ar/diario/suplementos/futuro/13-2546-2011-06-11.html
+=> http://espinal.redlibre.co/ 4: http://espinal.redlibre.co/
+=> la-escala-lo-cambia-todo.gmi 5: la-escala-lo-cambia-todo.gmi
+=> %5Bfile:la-escala-lo-cambia-todo.gmi%5D(la-escala-lo-cambia-todo.gmi) 6: %5Bfile:la-escala-lo-cambia-todo.gmi%5D(la-escala-lo-cambia-todo.gmi)
+=> http://buenosaireslibre.gmi 7: http://buenosaireslibre.gmi

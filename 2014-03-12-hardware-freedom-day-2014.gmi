@@ -1,0 +1,40 @@
+# Hardware Freedom Day 2014
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+* DATE: 2014-03-12 09:25
+
+=> tmb/Hardware-Freedom-Day-2014.png [IMG]
+[1]
+
+El próximo Sábado 15 de Marzo en el Aula 60 de la Universidad Nacional de Quilmes (Roque Saénz Peña 352, Bernal, Quilmes, Pabellón Aulas Sur, Planta Baja) Se realizará el Día de la Libertad del Hardware Edición 2014.
+
+El evento se realizará en simultáneo en más de 20 países de todo el mundo.
+
+La importancia del Hardware Abierto se ha ido incrementando los últimos años, con la aparición de dispositivos cada vez más poderosos.
+
+La filosofía del software libre (las ideas sobre la libertad edl conocimiento) se aplican directamente a los diseños de hardware, permitiendo así copiarlos, redistrivuirlos, modificarlos y compartir las mejoras, de manera que beneficien a toda la comunidad.
+
+Este año contaremos con la presencia de destacados panelistas que compartirán sus experiencias en el desarrollo de tecnologías de HL.
+
+Las acreditaciones son a partir de las 13:45, las charlas comienzan a las 14:00hs y se extenderán hasta las 18:00hs.
+
+Los esperamos.
+
+Cualquier consulta o sugerencia es bien recibida, también a hfday2014@quilmeslug.gmi
+
+Algunas de las Presentaciones/Charlas:
+
+--------------------------------------------------------------------------------
+
+Arduino YUN                                      Federico Pfaffendorf        Club Arduino - Argentina[2]   Balero Rodante                                   Diego Gutierrez (Diegote)   BuenosAiresLibre[3]   Brazos, robots, insectos                         Daniel Esquerdo             Kit Robot[4]   Crear - El Arte y la Tecnología                  Facundo Mainere             Cooperativa de Trabajo[5]   OpenMolo                                         Leonel Caraciolli           OpenMolo[6]   Robótica con Hardware Abierto y Software Libre   Martin Noblia               Proyecto de Extensión Universitaria RHASL[7]
+
+--------------------------------------------------------------------------------
+
+=> file:img/Hardware-Freedom-Day-2014.png 1: file:img/Hardware-Freedom-Day-2014.png
+=> http://clubarduino.com.ar/ 2: http://clubarduino.com.ar/
+=> http://buenosaireslibre.gmi 3: http://buenosaireslibre.gmi
+=> http://www.kitrobot.com.ar/ 4: http://www.kitrobot.com.ar/
+=> http://www.elarteylatecnologia.com.ar/ 5: http://www.elarteylatecnologia.com.ar/
+=> http://openmolo.com.ar/ 6: http://openmolo.com.ar/
+=> http://www.unq.edu.ar/ 7: http://www.unq.edu.ar/

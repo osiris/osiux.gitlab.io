@@ -1,0 +1,42 @@
+# pomodoro notify-send
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2011-02-03 22:19
+
+Hace tiempo vengo utilizando a diario la técnica pomodoro ^1[1] que me ayuda a focalizarme en lo que tengo que hacer y no distraerme o procastinar
+
+`pomodoro-notify`
+
+``` {.bash org-language="sh" results="none" exports="code"}
+  #!/bin/bash
+
+  MM=25
+
+  if [ ! -z "$1" ]
+  then
+      MM=$1
+  fi
+
+  IMG=~/img/pomodoro/1.png
+
+  for i in $(seq $MM -1 0)
+  do
+      if [ $i -eq 0 ]
+      then
+        notify-send -u critical -i $IMG "Listo!"
+        exit
+      fi
+
+      if [ $i -le 5 ]
+      then
+        notify-send -u critical -i $IMG "Faltan $i:00 minutos!"
+      else
+        notify-send -i $IMG "Faltan $i:00 minutos"
+      fi
+
+      sleep 60
+done
+```
+
+=> http://osiux.com/la-tecnica-pomodoro.txt 1: http://osiux.com/la-tecnica-pomodoro.txt

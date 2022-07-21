@@ -1,0 +1,432 @@
+# Resumen Redes Libres en FLISOL Bogotá
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2013-03-18 02:00
+
+## largo viaje
+
+Luego de 9hs de vuelo y una escala de 4hs en Panamá llegué a Bogotá.
+
+=> tmb/flisol-bogota/viaje-ezeiza-partida.jpg [IMG]
+[1]
+
+=> tmb/flisol-bogota/panama-hora.jpg [IMG]
+[2]
+
+=> tmb/flisol-bogota/panama-tocumen.jpg [IMG]
+[3]
+
+=> tmb/flisol-bogota/panama-wifi.jpg [IMG]
+[4]
+
+=> tmb/flisol-bogota/panama-canal.jpg [IMG]
+[5]
+
+=> tmb/flisol-bogota/viaje-colombia-avion.jpg [IMG]
+[6]
+
+=> tmb/flisol-bogota/viaje-colombia-nubes.jpg [IMG]
+[7]
+
+=> tmb/flisol-bogota/viaje-colombia-bienvenido.jpg [IMG]
+[8]
+
+Inicialmente la primera impresión de estar en un lugar completamente nuevo es muy entretenida, hay mucho por ver y entender. Fui recibido por **Jorge Rojas** integrante de **BogotáMesh** quien me alojó y se excedió en anfitrión y guía turístico!
+
+## ciudad bolivar
+
+El primer día comenzamos la recorrida directamente por **Ciudad Bolivar** ^1[9] viendo algunos de los nodos de **BogotaMesh** y buscando un punto alto para poder ver una sorprendente panorámica de la ciudad, pasando por la estación de **Televisión Comunitaria Canal5** ^2[10] en barrio **La Estrella**.
+
+=> tmb/flisol-bogota/ciudad-bolivar-1.jpg [IMG]
+[11]
+
+=> tmb/flisol-bogota/ciudad-bolivar-2.jpg [IMG]
+[12]
+
+=> tmb/flisol-bogota/ciudad-bolivar-nodo-1.jpg [IMG]
+[13]
+
+=> tmb/flisol-bogota/ciudad-bolivar-nodo-2.jpg [IMG]
+[14]
+
+=> tmb/flisol-bogota/ciudad-bolivar-jorge-osiux.jpg [IMG]
+[15]
+
+=> tmb/flisol-bogota/ciudad-bolivar-tv-antena.jpg [IMG]
+[16]
+
+=> tmb/flisol-bogota/ciudad-bolivar-tv-racks.jpg [IMG]
+[17]
+
+=> tmb/flisol-bogota/ciudad-bolivar-tv-estudio.jpg [IMG]
+[18]
+
+=> tmb/flisol-bogota/ciudad-bolivar-tv-programa.jpg [IMG]
+[19]
+
+=> tmb/flisol-bogota/ciudad-bolivar-tv-graffiti.jpg [IMG]
+[20]
+
+=> tmb/flisol-bogota/ciudad-bolivar-panoramica-1.jpg [IMG]
+[21]
+
+=> tmb/flisol-bogota/ciudad-bolivar-panoramica-2.jpg [IMG]
+[22]
+
+## primer noche
+
+La primer noche fue para conocer a otros integrantes de BogotaMesh que estaban muy bien acompañados! y comenzar a compartir diferentes experiencias de redes libres y obviamente disfrutar de unas cervezas!
+
+=> tmb/flisol-bogota/bogota-noche-1.jpg [IMG]
+[23]
+
+=> tmb/flisol-bogota/bogota-noche-2.jpg [IMG]
+[24]
+
+=> tmb/flisol-bogota/bogota-noche-3.jpg [IMG]
+[25]
+
+## día **F**
+
+Muy temprano partimos para el **Instituto Distrital de Recreación y Deporte** ^3[26] donde se montó el evento. Aproveché la mañana para rehacer mi presentación ya que justo antes de partir desde Buenos Aires borré accidentalmente los archivos! por suerte contaba con backup, luego de un panic attack pude reconstruirla y de paso readaptarla cambiando por completo la estructura inicial y las aplicaciones involucradas que serán motivo de una nota especial a futuro.
+
+=> tmb/flisol-bogota/flisol-idrd.jpg [IMG]
+[27]
+
+=> tmb/flisol-bogota/flisol-cartel.jpg [IMG]
+[28]
+
+=> tmb/flisol-bogota/flisol-auditorio.jpg [IMG]
+[29]
+
+=> tmb/flisol-bogota/flisol-banderas.jpg [IMG]
+[30]
+
+=> tmb/flisol-bogota/flisol-alcalde.jpg [IMG]
+[31]
+
+=> tmb/flisol-bogota/flisol-mesas.jpg [IMG]
+[32]
+
+=> tmb/flisol-bogota/flisol-compus.jpg [IMG]
+[33]
+
+=> tmb/flisol-bogota/flisol-stand.jpg [IMG]
+[34]
+
+=> tmb/flisol-bogota/flisol-hackbo.jpg [IMG]
+[35]
+
+=> tmb/flisol-bogota/flisol-robot.jpg [IMG]
+[36]
+
+## en la radio
+
+Mientras ajustaba detalles de los slides, de la organización del FLISOL me acercaron a periodistas de Radio LAUD ^4[37], quienes realizaron una entrevista sobre software libre, redes libres y cultura libre, aunque no escuché el audio espero haber sido coherente :-)
+
+## doctor fundador
+
+En el auditorio mayor encontré en primera fila una silla con mi nombre y dos sorpresas: al parecer soy **doctor** y por si fuera poco **fundador** de BuenosAiresLibre.gmi ^5[38]
+
+=> tmb/flisol-bogota/flisol-doctor-fundador.jpg [IMG]
+[39]
+
+No tengo doctorado pero me halagan! Y en cuanto a BAL, si consideramos que una red se funda todos los días con la participación activa no estaría mal, pero debo reconocer que me inicié activamente en el proyecto el 2 de diciembre del 2006 según consta en el wiki ^6[40]
+
+## el software libre tiene Alcalde en Bogotá
+
+Luego de escuchar los Himnos de Colombia y Bogotá tomó la palabra el **Alcalde Mayor de Bogotá**, Gustavo Petro ^7[41] quién ofreció un interesante discurso en relación a **compartir el conocimiento** y las políticas de software libre que se están llevando a cabo por medio de la Administración de Bogotá, entre ellas a destacar el plan de llevar fibra óptica a toda la ciudad comenzando por colegios y hospitales con un ancho de banda de 100 mbits.
+
+Está disponible el video del discurso de apertura:
+
+=> img/flisol-bogota/flisol-discurso-alcalde.jpg [IMG]
+[42]
+
+Acto seguido **Farid Amed** habló del compromiso de la comunidad del software libre que está luchando por una cultura libre.
+
+Finalmente el anuncio de brindar acceso a internet gratuito por medio de una red inalámbrica.
+
+## conferencia magistral
+
+Sobre la hora terminé de rehacer la presentación y comencé la conferencia titulada *Proyectos de Accesibilidad Digital y Reducción de Brecha Tecnologica. Abordando el caso de las Redes Inalambricas Comunitarias de Argentina* que simplifiqué en **Redes Libres**.
+
+Luego de una muy breve presentación, para romper el hielo ante un auditorio de unas 200 personas aproximadamente, obsequié 2 libros de *Redes Inálambricas en Países en Desarrollo* ^8[43] a aquellos que se animaron a contestar cuáles eran las **4 libertades del software libre** y qué son las **redes libres!**
+
+La charla fue bastante rica en preguntas de los asistentes quienes quedaron encantados con la presentación ^9[44] la cual comparto:
+
+=> img/flisol-bogota/redes-libres-inet.jpg [IMG]
+[45]
+
+Aunque me quedaron truncados varios slides, la iré corrigiendo ni bien pueda.
+
+```{=html}
+<video controls="controls" src="http://pub.osiux.com/charlas/FLISOL-Bogota-2012-Redes-Libres.ogv"></video>
+```
+
+* Descargar Video: http://pub.osiux.com/charlas/FLISOL-Bogota-2012-Redes-Libres.ogv[46]
+
+## a debatir!
+
+Mientras estaba hablando con *Andrés Gómez* de la *Red Inalámbrica y Comunitaria de Bogotá* ^10[47], nuevamente la organización del evento me invitó a participar de un panel sobre **Aportes a una Política Pública Tecnológica Libre en Bogotá** junto a Concejales de Bogotá, y el resto de invitados internacionales:
+
+* Hugo Baronti, Chile
+* Rafael Bonifaz, Ecuador
+* Hector Colina, Venezuela
+* Roberto Sanz, Bogotá
+
+Lamentablemente tuve que abandonar el panel a la mitad para asistir al foro de redes libres, pero antes de irme logré plantear la necesidad de contar no sólo con infraestructura de red propia en la ciudad, además expresé la importancia de contar con servicios para la red dentro de los límites geográficos de Bogotá a fin de garantizar la autonomía, privacidad y soberanía de los datos, destacando la posibilidad de cubrir zonas rurales donde las empresas de comunicaciones no las consideran rentables y por ende las dejan aisladas, cuando con software libre es posible resolver problemas puntuales mediante telefonía VOIP por dar un ejemplo.
+
+La calidad de los oradores fue excelente y espero ver el debate completo, el mismo fue transmitido en vivo y se puede ver en:
+
+=> img/flisol-bogota/video-debate.jpg [IMG]
+[48]
+
+## foro de redes libres
+
+En la carpa exterior, se organizó un foro titulado *MECANISMOS COMUNITARIOS PARA LA ACCESIBILIDAD DE LA INFORMACIÓN CON WIFI ABIERTA* donde participaron las distintas redes libres de Colombia, muchas de las cuales están comenzando con mucho entusiasmo y con una idea muy clara sobre el impacto social que logran más allá de las diferencias particulares de cada red, en su mayoría todas adhieren al **Manifiesto de Redes Libres** ^11[49] redactado en las Segundas Jornadas de Redes Libres que se realizaron en Uruguay y aprobado en las Terceras Jornadas de Redes Libres en el Foro Internacional de Software Libre en Brasil.
+
+Ademas de mi representación por BuenosAiresLibre, QuintanaLibre y DeltaLibre de Argentina, las redes participantes de Colombia fueron:
+
+* BogotaMesh, http://bogota-mesh.gmi[50]
+* CaribeMesh, http://caribemesh.gmi[51]
+* Espinal, http://espinal.redlibre.co[52]
+* FUSA, http://fusa.redlibre.co[53]
+* Girardot
+* RICB, http://ricb.gmi[54]
+* Valledupar-Mesh
+
+=> tmb/flisol-bogota/foro-redes-libres-general.jpg [IMG]
+[55]
+
+=> tmb/flisol-bogota/foro-redes-libres-hollman.jpg [IMG]
+[56]
+
+=> tmb/flisol-bogota/foro-redes-libres-gral-0.jpg [IMG]
+[57]
+
+=> tmb/flisol-bogota/foro-redes-libres-gral-1.jpg [IMG]
+[58]
+
+=> tmb/flisol-bogota/foro-redes-libres-gral-2.jpg [IMG]
+[59]
+
+=> tmb/flisol-bogota/foro-redes-libres-gral-3.jpg [IMG]
+[60]
+
+Se planteó la posibilidad de agrupar a las distintas redes en *RedLibre.co* ^12[61] como comunidad para la interoperabilidad de todas las redes libres actuales y futuras dentro del territorio Colombiano.
+
+El tiempo se acortó bastante pero se logró intercambiar mucha información y se realizó la invitación a participar de las Cuartas Jornadas Regionales de Redes Libres a realizarse a fin de Junio en Bogotá.
+
+## cena en centro mayor
+
+Invitado por entusiastas de redes libres, conocí el shopping Centro Mayor donde además de disfrutar de comida típica de Colombia pudimos charlar más distendidos sobre diversos temas como privacidad en la red, hardware libre.
+
+=> tmb/flisol-bogota/centro-mayor-1.jpg [IMG]
+[62]
+
+=> tmb/flisol-bogota/centro-mayor-2.jpg [IMG]
+[63]
+
+=> tmb/flisol-bogota/centro-mayor-3.jpg [IMG]
+[64]
+
+## el festejo
+
+Luego de tan agitado día era necesario festejar y matar algunas neuronas con cerveza y aguardiente a fin de relajarse un poco dejando de lado los dilemas y conflictos que enfrentamos a diario para mover un poco las caderas!
+
+=> tmb/flisol-bogota/sunrise-cerveza.jpg [IMG]
+[65]
+
+=> tmb/flisol-bogota/sunrise-grupal1.jpg [IMG]
+[66]
+
+=> tmb/flisol-bogota/sunrise-grupal2.jpg [IMG]
+[67]
+
+=> tmb/flisol-bogota/sunrise-aguardiente.jpg [IMG]
+[68]
+
+=> tmb/flisol-bogota/sunrise-andres.jpg [IMG]
+[69]
+
+=> tmb/flisol-bogota/sunrise-aleja.jpg [IMG]
+[70]
+
+=> tmb/flisol-bogota/sunrise-azul.jpg [IMG]
+[71]
+
+=> tmb/flisol-bogota/sunrise-sunrise.jpg [IMG]
+[72]
+
+## asado y nuevo nodo
+
+Para aprovechar el domingo, mientras varios ingenieros descifraban los secretos de enceder fuego para luego disfrutar de un rico asado colombiano, se trabajó en levantar un nodo en **Candelaria** que es parte de Ciudad Bolivar. Inicialmente se flasheó una NanoStation con Nightwing para luego estrenar el firmware CloudMesh. Como siempre la mayor tarea de levantar un nodo consiste en logística y muchas tareas manuales para fijar el mástil, los equipos y realizar el tendido de UTP+PoE. Luego de una prueba en la base que confirmaba la correcta configuración del AccessPoint se procedió a levantar el nodo mediante un caño de 3 metros adicionando una omni de 15dbi que ni bien ganó altura, BATMAN hizo su magia y se enlazó automágicamente a un nodo existente de BogotaMesh. Los aplausos no tardaron en llegar y luego de unos test de velocidad, ancho de banda y acceso a servicios internos como en internet pudimos disfrutar de la segunda y tercer tanda de asado y espumosas cervezas!
+
+=> tmb/flisol-bogota/perzam-poker.jpg [IMG]
+[73]
+
+=> tmb/flisol-bogota/perzam-asado.jpg [IMG]
+[74]
+
+=> tmb/flisol-bogota/perzam-grupal.jpg [IMG]
+[75]
+
+=> tmb/flisol-bogota/perzam-nightwing.jpg [IMG]
+[76]
+
+=> tmb/flisol-bogota/perzam-cloud-mesh.jpg [IMG]
+[77]
+
+=> tmb/flisol-bogota/perzam-redlibre.co.jpg [IMG]
+[78]
+
+=> tmb/flisol-bogota/perzam-pre-ereccion.jpg [IMG]
+[79]
+
+=> tmb/flisol-bogota/perzam-ereccion.jpg [IMG]
+[80]
+
+=> tmb/flisol-bogota/perzam-enlace.jpg [IMG]
+[81]
+
+=> tmb/flisol-bogota/perzam-nodo.jpg [IMG]
+[82]
+
+=> tmb/flisol-bogota/perzam-festejo.jpg [IMG]
+[83]
+
+=> tmb/flisol-bogota/perzam-chicas.jpg [IMG]
+[84]
+
+## en el punto más alto
+
+En una lluviosa mañana fuimos al monte Monserrate ^13[85], ascendimos 200 metros y paseamos un poco, lamentablemente habían tantas nubes que no se podía ver nada de la ciudad.
+
+=> tmb/flisol-bogota/monserrate-campanario.jpg [IMG]
+[86]
+
+=> tmb/flisol-bogota/monserrate-osiux-jorge.jpg [IMG]
+[87]
+
+=> tmb/flisol-bogota/monserrate-subida.jpg [IMG]
+[88]
+
+=> tmb/flisol-bogota/monserrate-turistas.jpg [IMG]
+[89]
+
+=> tmb/flisol-bogota/monserrate-iglesia.jpg [IMG]
+[90]
+
+=> tmb/flisol-bogota/monserrate-bajando.jpg [IMG]
+[91]
+
+=> tmb/flisol-bogota/monserrate-teleferico.jpg [IMG]
+[92]
+
+=> tmb/flisol-bogota/monserrate-cascada.jpg [IMG]
+[93]
+
+## hacklab
+
+En las últimas horas aprovechamos para hacer un **hacklab**, inicialmente di una charlita de **anonimato y privacidad en la red** donde básicamente hablé de tuneles ssh, tor y cifrado. Luego estuvimos configurando algunos equipos para formar parte de **LibreVPN** ^14[94] y compartir tráfico entre las distintas redeslibres que están formando parte del proyecto.
+
+## ChangeLog
+
+* [2013-05-10 vie] migro de formato rST a Org
+* [2015-07-18 sáb] elimino atributos width y height de imágenes y cambio previews
+
+=> file:img/flisol-bogota/viaje-ezeiza-partida.jpg 1: file:img/flisol-bogota/viaje-ezeiza-partida.jpg
+=> file:img/flisol-bogota/panama-hora.jpg 2: file:img/flisol-bogota/panama-hora.jpg
+=> file:img/flisol-bogota/panama-tocumen.jpg 3: file:img/flisol-bogota/panama-tocumen.jpg
+=> file:img/flisol-bogota/panama-wifi.jpg 4: file:img/flisol-bogota/panama-wifi.jpg
+=> file:img/flisol-bogota/panama-canal.jpg 5: file:img/flisol-bogota/panama-canal.jpg
+=> file:img/flisol-bogota/viaje-colombia-avion.jpg 6: file:img/flisol-bogota/viaje-colombia-avion.jpg
+=> file:img/flisol-bogota/viaje-colombia-nubes.jpg 7: file:img/flisol-bogota/viaje-colombia-nubes.jpg
+=> file:img/flisol-bogota/viaje-colombia-bienvenido.jpg 8: file:img/flisol-bogota/viaje-colombia-bienvenido.jpg
+=> %5Bhttps://es.wikipedia.gmi/wiki/Ciudad_Bol%C3%ADvar_(Bogot%C3%A1)%5D(https://es.wikipedia.gmi/wiki/Ciudad_Bol%C3%ADvar_(Bogot%C3%A1)) 9: %5Bhttps://es.wikipedia.gmi/wiki/Ciudad_Bol%C3%ADvar_(Bogot%C3%A1)%5D(https://es.wikipedia.gmi/wiki/Ciudad_Bol%C3%ADvar_(Bogot%C3%A1))
+=> http://tucanal5.com/ 10: http://tucanal5.com/
+=> file:img/flisol-bogota/ciudad-bolivar-1.jpg 11: file:img/flisol-bogota/ciudad-bolivar-1.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-2.jpg 12: file:img/flisol-bogota/ciudad-bolivar-2.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-nodo-1.jpg 13: file:img/flisol-bogota/ciudad-bolivar-nodo-1.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-nodo-2.jpg 14: file:img/flisol-bogota/ciudad-bolivar-nodo-2.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-jorge-osiux.jpg 15: file:img/flisol-bogota/ciudad-bolivar-jorge-osiux.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-antena.jpg 16: file:img/flisol-bogota/ciudad-bolivar-tv-antena.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-racks.jpg 17: file:img/flisol-bogota/ciudad-bolivar-tv-racks.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-estudio.jpg 18: file:img/flisol-bogota/ciudad-bolivar-tv-estudio.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-programa.jpg 19: file:img/flisol-bogota/ciudad-bolivar-tv-programa.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-graffiti.jpg 20: file:img/flisol-bogota/ciudad-bolivar-tv-graffiti.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-panoramica-1.jpg 21: file:img/flisol-bogota/ciudad-bolivar-panoramica-1.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-panoramica-2.jpg 22: file:img/flisol-bogota/ciudad-bolivar-panoramica-2.jpg
+=> file:img/flisol-bogota/bogota-noche-1.jpg 23: file:img/flisol-bogota/bogota-noche-1.jpg
+=> file:img/flisol-bogota/bogota-noche-2.jpg 24: file:img/flisol-bogota/bogota-noche-2.jpg
+=> file:img/flisol-bogota/bogota-noche-3.jpg 25: file:img/flisol-bogota/bogota-noche-3.jpg
+=> http://www.idrd.gov.co 26: http://www.idrd.gov.co
+=> file:img/flisol-bogota/flisol-idrd.jpg 27: file:img/flisol-bogota/flisol-idrd.jpg
+=> file:img/flisol-bogota/flisol-cartel.jpg 28: file:img/flisol-bogota/flisol-cartel.jpg
+=> file:img/flisol-bogota/flisol-auditorio.jpg 29: file:img/flisol-bogota/flisol-auditorio.jpg
+=> file:img/flisol-bogota/flisol-banderas.jpg 30: file:img/flisol-bogota/flisol-banderas.jpg
+=> file:img/flisol-bogota/flisol-alcalde.jpg 31: file:img/flisol-bogota/flisol-alcalde.jpg
+=> file:img/flisol-bogota/flisol-mesas.jpg 32: file:img/flisol-bogota/flisol-mesas.jpg
+=> file:img/flisol-bogota/flisol-compus.jpg 33: file:img/flisol-bogota/flisol-compus.jpg
+=> file:img/flisol-bogota/flisol-stand.jpg 34: file:img/flisol-bogota/flisol-stand.jpg
+=> file:img/flisol-bogota/flisol-hackbo.jpg 35: file:img/flisol-bogota/flisol-hackbo.jpg
+=> file:img/flisol-bogota/flisol-robot.jpg 36: file:img/flisol-bogota/flisol-robot.jpg
+=> http://laud.udistrital.edu.co 37: http://laud.udistrital.edu.co
+=> http://buenosaireslibre.gmi 38: http://buenosaireslibre.gmi
+=> file:img/flisol-bogota/flisol-doctor-fundador.jpg 39: file:img/flisol-bogota/flisol-doctor-fundador.jpg
+=> http://wiki.buenosaireslibre.gmi/Reuniones/Organizativas/2006-Diciembre-2 40: http://wiki.buenosaireslibre.gmi/Reuniones/Organizativas/2006-Diciembre-2
+=> http://www.gustavopetro.com 41: http://www.gustavopetro.com
+=> http://youtu.be/_IcH8F_iDTg 42: http://youtu.be/_IcH8F_iDTg
+=> http://wndw.net 43: http://wndw.net
+=> http://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf 44: http://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf
+=> http://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf 45: http://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf
+=> http://pub.osiux.com/charlas/FLISOL-Bogota-2012-Redes-Libres.ogv 46: http://pub.osiux.com/charlas/FLISOL-Bogota-2012-Redes-Libres.ogv
+=> http://ricb.gmi 47: http://ricb.gmi
+=> http://www.ustream.tv/recorded/22379626 48: http://www.ustream.tv/recorded/22379626
+=> http://redeslibres.gmi/es/manifiesto-de-las-redes-libres 49: http://redeslibres.gmi/es/manifiesto-de-las-redes-libres
+=> http://bogota-mesh.gmi 50: http://bogota-mesh.gmi
+=> http://caribemesh.gmi 51: http://caribemesh.gmi
+=> http://espinal.redlibre.co 52: http://espinal.redlibre.co
+=> http://fusa.redlibre.co 53: http://fusa.redlibre.co
+=> http://ricb.gmi 54: http://ricb.gmi
+=> file:img/flisol-bogota/foro-redes-libres-general.jpg 55: file:img/flisol-bogota/foro-redes-libres-general.jpg
+=> file:img/flisol-bogota/foro-redes-libres-hollman.jpg 56: file:img/flisol-bogota/foro-redes-libres-hollman.jpg
+=> file:img/flisol-bogota/foro-redes-libres-gral-0.jpg 57: file:img/flisol-bogota/foro-redes-libres-gral-0.jpg
+=> file:img/flisol-bogota/foro-redes-libres-gral-1.jpg 58: file:img/flisol-bogota/foro-redes-libres-gral-1.jpg
+=> file:img/flisol-bogota/foro-redes-libres-gral-2.jpg 59: file:img/flisol-bogota/foro-redes-libres-gral-2.jpg
+=> file:img/flisol-bogota/foro-redes-libres-gral-3.jpg 60: file:img/flisol-bogota/foro-redes-libres-gral-3.jpg
+=> http://redlibre.co 61: http://redlibre.co
+=> file:img/flisol-bogota/centro-mayor-1.jpg 62: file:img/flisol-bogota/centro-mayor-1.jpg
+=> file:img/flisol-bogota/centro-mayor-2.jpg 63: file:img/flisol-bogota/centro-mayor-2.jpg
+=> file:img/flisol-bogota/centro-mayor-3.jpg 64: file:img/flisol-bogota/centro-mayor-3.jpg
+=> file:img/flisol-bogota/sunrise-cerveza.jpg 65: file:img/flisol-bogota/sunrise-cerveza.jpg
+=> file:img/flisol-bogota/sunrise-grupal1.jpg 66: file:img/flisol-bogota/sunrise-grupal1.jpg
+=> file:img/flisol-bogota/sunrise-grupal2.jpg 67: file:img/flisol-bogota/sunrise-grupal2.jpg
+=> file:img/flisol-bogota/sunrise-aguardiente.jpg 68: file:img/flisol-bogota/sunrise-aguardiente.jpg
+=> file:img/flisol-bogota/sunrise-andres.jpg 69: file:img/flisol-bogota/sunrise-andres.jpg
+=> file:img/flisol-bogota/sunrise-aleja.jpg 70: file:img/flisol-bogota/sunrise-aleja.jpg
+=> file:img/flisol-bogota/sunrise-azul.jpg 71: file:img/flisol-bogota/sunrise-azul.jpg
+=> file:img/flisol-bogota/sunrise-sunrise.jpg 72: file:img/flisol-bogota/sunrise-sunrise.jpg
+=> file:img/flisol-bogota/perzam-poker.jpg 73: file:img/flisol-bogota/perzam-poker.jpg
+=> file:img/flisol-bogota/perzam-asado.jpg 74: file:img/flisol-bogota/perzam-asado.jpg
+=> file:img/flisol-bogota/perzam-grupal.jpg 75: file:img/flisol-bogota/perzam-grupal.jpg
+=> file:img/flisol-bogota/perzam-nightwing.jpg 76: file:img/flisol-bogota/perzam-nightwing.jpg
+=> file:img/flisol-bogota/perzam-cloud-mesh.jpg 77: file:img/flisol-bogota/perzam-cloud-mesh.jpg
+=> file:img/flisol-bogota/perzam-redlibre.co.jpg 78: file:img/flisol-bogota/perzam-redlibre.co.jpg
+=> file:img/flisol-bogota/perzam-pre-ereccion.jpg 79: file:img/flisol-bogota/perzam-pre-ereccion.jpg
+=> file:img/flisol-bogota/perzam-ereccion.jpg 80: file:img/flisol-bogota/perzam-ereccion.jpg
+=> file:img/flisol-bogota/perzam-enlace.jpg 81: file:img/flisol-bogota/perzam-enlace.jpg
+=> file:img/flisol-bogota/perzam-nodo.jpg 82: file:img/flisol-bogota/perzam-nodo.jpg
+=> file:img/flisol-bogota/perzam-festejo.jpg 83: file:img/flisol-bogota/perzam-festejo.jpg
+=> file:img/flisol-bogota/perzam-chicas.jpg 84: file:img/flisol-bogota/perzam-chicas.jpg
+=> %5Bhttps://es.wikipedia.gmi/wiki/Telef%C3%A9rico_a_Monserrate%5D(https://es.wikipedia.gmi/wiki/Telef%C3%A9rico_a_Monserrate) 85: %5Bhttps://es.wikipedia.gmi/wiki/Telef%C3%A9rico_a_Monserrate%5D(https://es.wikipedia.gmi/wiki/Telef%C3%A9rico_a_Monserrate)
+=> file:img/flisol-bogota/monserrate-campanario.jpg 86: file:img/flisol-bogota/monserrate-campanario.jpg
+=> file:img/flisol-bogota/monserrate-osiux-jorge.jpg 87: file:img/flisol-bogota/monserrate-osiux-jorge.jpg
+=> file:img/flisol-bogota/monserrate-subida.jpg 88: file:img/flisol-bogota/monserrate-subida.jpg
+=> file:img/flisol-bogota/monserrate-turistas.jpg 89: file:img/flisol-bogota/monserrate-turistas.jpg
+=> file:img/flisol-bogota/monserrate-iglesia.jpg 90: file:img/flisol-bogota/monserrate-iglesia.jpg
+=> file:img/flisol-bogota/monserrate-bajando.jpg 91: file:img/flisol-bogota/monserrate-bajando.jpg
+=> file:img/flisol-bogota/monserrate-teleferico.jpg 92: file:img/flisol-bogota/monserrate-teleferico.jpg
+=> file:img/flisol-bogota/monserrate-cascada.jpg 93: file:img/flisol-bogota/monserrate-cascada.jpg
+=> https://kiwwwi.com.ar/librevpn/ 94: https://kiwwwi.com.ar/librevpn/

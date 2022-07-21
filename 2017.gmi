@@ -1,0 +1,58 @@
+# ABSOLUTELLY NO WARRANTY 2017
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+`2017-12-04` nuevo blog gracias a `jrnl` y `markdown-styles`[1]
+
+`2017-07-10` Convertir Org-mode a Markdown `org2md`[2]
+
+`2017-07-08` Instalar `markdown-styles` para convertir un `.md` en un `.html`[3]
+
+`2017-07-07` Ideas para utilizar `txt-bash-jrnl` como un sistema de micro blog[4]
+
+`2017-04-30` Percona Live 17 `SJO -> DFW -> EZE`[5]
+
+`2017-04-29` Percona Live 17 `santa clara`[6]
+
+`2017-04-28` Percona Live 17 `san francisco`[7]
+
+`2017-04-27` Percona Live 17 `day three` keynotes[8]
+
+`2017-04-26` Percona Live 17 `Day Two` Too Many Talks[9]
+
+=> tmb/2017-04-26-percona-multi-site-master.png [IMG]
+[10]
+
+`2017-04-25` Percona Live 17 `Day One` MySQL Load Balancers[11]
+
+=> tmb/2017-04-25-percona-mysql-ha-closeup.png [IMG]
+[12]
+
+`2017-04-24` Percona Live 17 `Zero Day` tutorials[13]
+
+`2017-04-23` Percona Live 17 `EZE -> DFW -> SJO`[14]
+
+`2017-04-23` Percona Live 17 Open Source Databases Conference[15]
+
+`2017-04-23` [16]
+
+## `ARCHIVE`[17]
+
+=> 2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.gmi 1: 2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.gmi
+=> 2017-07-10-convertir-org-mode-a-markdown-org2md.gmi 2: 2017-07-10-convertir-org-mode-a-markdown-org2md.gmi
+=> 2017-07-08-instalar-markdown-styles-para-convertir-un-md-en-un-html.gmi 3: 2017-07-08-instalar-markdown-styles-para-convertir-un-md-en-un-html.gmi
+=> 2017-07-07-ideas-para-utilizar-txt-bash-jrnl-como-un-sistema-de-micro-blog.gmi 4: 2017-07-07-ideas-para-utilizar-txt-bash-jrnl-como-un-sistema-de-micro-blog.gmi
+=> 2017-04-30-percona-live-17-eze.gmi 5: 2017-04-30-percona-live-17-eze.gmi
+=> 2017-04-29-percona-live-17-santa-clara.gmi 6: 2017-04-29-percona-live-17-santa-clara.gmi
+=> 2017-04-28-percona-live-17-san-francisco.gmi 7: 2017-04-28-percona-live-17-san-francisco.gmi
+=> 2017-04-27-percona-live-17-day-three.gmi 8: 2017-04-27-percona-live-17-day-three.gmi
+=> 2017-04-26-percona-live-17-day-two.gmi 9: 2017-04-26-percona-live-17-day-two.gmi
+=> file:2017-04-26-percona-live-17-day-two.gmi 10: file:2017-04-26-percona-live-17-day-two.gmi
+=> 2017-04-25-percona-live-17-day-one.gmi 11: 2017-04-25-percona-live-17-day-one.gmi
+=> file:2017-04-25-percona-live-17-day-one.gmi 12: file:2017-04-25-percona-live-17-day-one.gmi
+=> 2017-04-24-percona-live-17-zero-day.gmi 13: 2017-04-24-percona-live-17-zero-day.gmi
+=> 2017-04-23-percona-live-17-sjo.gmi 14: 2017-04-23-percona-live-17-sjo.gmi
+=> 2017-04-23-percona-live-17-osdc.gmi 15: 2017-04-23-percona-live-17-osdc.gmi
+=> 2017-04-23-percona-live-17-header.gmi 16: 2017-04-23-percona-live-17-header.gmi
+=> archive.gmi 17: archive.gmi

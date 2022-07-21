@@ -1,0 +1,15 @@
+# ABSOLUTELLY NO WARRANTY 2016
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+`2016-02-03` monitoreo en status bar de `tmux`[1]
+
+=> tmb/qmhandle-status-bar-tmux.png [IMG]
+[2]
+
+## `ARCHIVE`[3]
+
+=> 2016-02-03-monitoreo-en-status-bar-de-tmux.gmi 1: 2016-02-03-monitoreo-en-status-bar-de-tmux.gmi
+=> file:2016-02-03-monitoreo-en-status-bar-de-tmux.gmi 2: file:2016-02-03-monitoreo-en-status-bar-de-tmux.gmi
+=> archive.gmi 3: archive.gmi

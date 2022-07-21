@@ -1,0 +1,163 @@
+# *reStructuredText* texto re-estrucuturado
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2021-02-06 20:02
+
+## reST
+
+Hace tiempo que vengo usando *reStructuredText* ^1[1] también conocido como *reST*, y para empezar a escribir sobre el tema primero busqué e instalé el plugin para wordpress, es decir que este texto ya está escrito en *reST*. Lo hice desde una consola usando Vim y luego fue posteado haciendo copy + paste, aunque se puede postear directamente por email, algo muy útil es que tanto el archivo como el contenido en la base de wordpress son idénticos, y teniendo los archivos se puede realizar una búsqueda de posts usando grep y otros comando básicos de consola, también se puede dejar público el archivo *reST* por web por las dudas estará siempre disponible en http://pub.osiux.com/restructuredtext/reStructuredText.txt[2]
+
+## Qué es reStructuredText
+
+Es un lenguaje creado para generar documentos de textos en varios formatos *HTML*, *LaTeX*, *docbook* y otros. La principal ventaja es que prácticamente no son necesarios *Tags*, se puede usar cualquier editor de texto, y al editar el documento en texto plano se asemeja bastante al resultado final, como se trata de un de texto plano es portatil, liviano y permite concentrarse en el contenido en lugar del formato. Al usarlo en wordpress solo se guarda el contenido del post en la base de datos y no código *HTML*.
+
+## Sintaxis
+
+Es extremandamente simple, prácticamente es un texto plano con algunas convenciones:
+
+``` {.example}
+normal
+*italica*
+**negrita**
+``código``
+
+================
+titulo documento
+================
+
+-----------------------
+subtitulo del documento
+-----------------------
+
+título capítulo 1
+=================
+
+título sección 1
+----------------
+
+título subsección 1.1
+~~~~~~~~~~~~~~~~~~~~~
+
+ * lista uno
+ * lista dos
+
+========= ========= =========
+columna 1 columna 2 columna 3
+========= ========= =========
+fila      celda     celda
+========= ========= =========
+```
+
+## Instalación
+
+``` {.bash org-language="sh" exports="code"}
+apt install python-docutils
+```
+
+## Generar HTML
+
+``` {.bash org-language="sh" exports="code"}
+rst2html presentacion.txt presentacion.htm
+```
+
+## Generar Slides HTML
+
+``` {.bash org-language="sh" exports="code"}
+rst2s5 presentacion.txt presentacion.htm
+```
+
+* http://www.jesusda.com/docs/tallerintroadminlinux/s5-linux/[3]
+* http://pub.osiux.com/bal/redes-libres/redes-libres--festival-cultura-libre--fm-latribu.htm[4]
+* http://pub.osiux.com/bal/redes-libres/redes-libres--festival-cultura-libre--fm-latribu.txt[5]
+
+## Generar Latex
+
+``` {.bash org-language="sh" exports="code"}
+rst2latex presentacion.txt presentacion.tex
+```
+
+## Aplicaciones
+
+### Wordpress
+
+* http://bazaar.launchpad.net/~gldnspud/rest-wordpress/trunk/files[6]
+* http://bazaar.launchpad.net/~p00ya/rest-wordpress/dos-hacks/files[7]
+
+### Drupal
+
+* http://drupal.gmi/node/160846[8]
+* http://drupal.gmi/node/141[9]
+* http://www.vasudevaservice.com/repository/pub/reStructuredText4Drupal/[10]
+
+### Vim
+
+Para obtener el coloreo de la sintaxis sólo es necesario incluir al principio del documento la siguiente línea:
+
+``` {.example}
+.. -*- mode: rst -*-
+```
+
+### Emacs
+
+* http://docutils.sourceforge.net/docs/user/emacs.html[11]
+
+### MoinMoin
+
+*MoinMoin* parsea *reST* con sólo incluir `#!rst` entre triples llaves.
+
+``` {.example}
+{{{#!rst
+
+Texto *reST*
+
+}}}
+```
+
+* http://moinmo.in/HelpOnParsers/ReStructuredText[12]
+
+### Python
+
+*Sphinx* genera la documentación oficial de *python* usando *reST*.
+
+* http://sphinx.pocoo.gmi/[13]
+* http://docs.python.gmi/dev/[14]
+
+*reST* se utiliza para la creación de los *PEPs* (Python Enhancement Proposals).
+
+* http://www.python.gmi/dev/peps/pep-0001/[15]
+
+*EpyDoc* genera documentación para *Python* y soporta *reST*.
+
+* http://epydoc.sourceforge.net/manual-othermarkup.html[16]
+
+### *rst2a*
+
+Un interesante servicio web que al pasarle una url de un texto escrito en *reST* puede devolver el contenido en formato *HTML* o *PDF* eligiendo diferentes templates, esto evita tener instalado *reST*.
+
+* http://rst2a.com/[17]
+* http://api.rst2a.com/1.0/rst2/html?uri=http://pub.osiux.com/restructuredtext/reStructuredText.txt[18]
+
+## ChangeLog
+
+* `2021-02-06 19:07`[19] agrego *reStructuredText* texto re-estructurado
+
+=> http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html 1: http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html
+=> http://pub.osiux.com/restructuredtext/reStructuredText.txt 2: http://pub.osiux.com/restructuredtext/reStructuredText.txt
+=> http://www.jesusda.com/docs/tallerintroadminlinux/s5-linux/ 3: http://www.jesusda.com/docs/tallerintroadminlinux/s5-linux/
+=> http://pub.osiux.com/bal/redes-libres/redes-libres--festival-cultura-libre--fm-latribu.htm 4: http://pub.osiux.com/bal/redes-libres/redes-libres--festival-cultura-libre--fm-latribu.htm
+=> http://pub.osiux.com/bal/redes-libres/redes-libres--festival-cultura-libre--fm-latribu.txt 5: http://pub.osiux.com/bal/redes-libres/redes-libres--festival-cultura-libre--fm-latribu.txt
+=> http://bazaar.launchpad.net/~gldnspud/rest-wordpress/trunk/files 6: http://bazaar.launchpad.net/~gldnspud/rest-wordpress/trunk/files
+=> http://bazaar.launchpad.net/~p00ya/rest-wordpress/dos-hacks/files 7: http://bazaar.launchpad.net/~p00ya/rest-wordpress/dos-hacks/files
+=> http://drupal.gmi/node/160846 8: http://drupal.gmi/node/160846
+=> http://drupal.gmi/node/141 9: http://drupal.gmi/node/141
+=> http://www.vasudevaservice.com/repository/pub/reStructuredText4Drupal/ 10: http://www.vasudevaservice.com/repository/pub/reStructuredText4Drupal/
+=> http://docutils.sourceforge.net/docs/user/emacs.html 11: http://docutils.sourceforge.net/docs/user/emacs.html
+=> http://moinmo.in/HelpOnParsers/ReStructuredText 12: http://moinmo.in/HelpOnParsers/ReStructuredText
+=> http://sphinx.pocoo.gmi/ 13: http://sphinx.pocoo.gmi/
+=> http://docs.python.gmi/dev/ 14: http://docs.python.gmi/dev/
+=> http://www.python.gmi/dev/peps/pep-0001/ 15: http://www.python.gmi/dev/peps/pep-0001/
+=> http://epydoc.sourceforge.net/manual-othermarkup.html 16: http://epydoc.sourceforge.net/manual-othermarkup.html
+=> http://rst2a.com/ 17: http://rst2a.com/
+=> http://api.rst2a.com/1.0/rst2/html?uri=http://pub.osiux.com/restructuredtext/reStructuredText.txt 18: http://api.rst2a.com/1.0/rst2/html?uri=http://pub.osiux.com/restructuredtext/reStructuredText.txt
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ef3937d50250e25eaf8f969529876f44bd2d4fb 19: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ef3937d50250e25eaf8f969529876f44bd2d4fb
