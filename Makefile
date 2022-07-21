@@ -26,6 +26,9 @@ image:
 	./icn.sh
 	./img.sh > img.org
 
+gemini:
+	for i in *.org;do org2gmi "$$i";done
+
 prose:
 	for i in *.org;do org2prose.sh "$$i";done
 
