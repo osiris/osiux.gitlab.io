@@ -45,7 +45,6 @@ Esto es todo un tema y hace mucho me tomaba el trabajo de convertir a `.txt` cad
 * `2021-02-01 18:00`[16] corrijo fecha de bookmarks vs links
 * `2021-01-31 04:49`[17] agrego bookmarks vs links
 
-
 => https://es.m.wikipedia.gmi/wiki/Principio_KISS 1: https://es.m.wikipedia.gmi/wiki/Principio_KISS
 => gtd-gething-this-done.gmi 2: gtd-gething-this-done.gmi
 => https://examplelab.com.ar 3: https://examplelab.com.ar

@@ -13,7 +13,6 @@ Creo que fue en el 2008 cuando en *`gcoop`* ^1[1] decidimos registrar cuánto ti
 Obtener el listado de tiempo de cada *commit* es simple de obtener, para esto basta con ejecutar `git-log-time` ^2[2]
 
 ``` {.bash org-language="sh" exports="code"}
-
 git-log-time
 
     00:01
@@ -50,7 +49,6 @@ git-log-time
 Si lo único que queremos es obtener el total de tiempo de un proyecto basta con ejecutar `git-log-timesum` ^3[3]
 
 ``` {.bash org-language="sh" exports="code"}
-
 git-log-timesum
 
     18:04
@@ -68,7 +66,6 @@ En algún momento voy a consolidar todas las posibles estadísticas que se podr�
 
 * `2021-03-19 00:43`[7] corregir *link* a `git-repos2org` y agregar links a *gcoop*
 * `2021-03-18 23:03`[8] agregar *`git commit timesum`*
-
 
 => https://www.gcoop.coop/ 1: https://www.gcoop.coop/
 => https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-time 2: https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-time

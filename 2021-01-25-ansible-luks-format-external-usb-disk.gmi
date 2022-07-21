@@ -25,7 +25,6 @@ Con unos muy pocos cambios logré cifrar el nuevo disco externo usando el rol qu
 1. Conectar el disco y detectar su `id`:
 
 ``` {.example}
-
 ls -1 /dev/disk/by-id/ | grep sdb1
 usb-WD_Elements_1234_567890123456789012345678-0:0-part1 ⇒ ../../sdb1
 ```
@@ -33,7 +32,6 @@ usb-WD_Elements_1234_567890123456789012345678-0:0-part1 ⇒ ../../sdb1
 1. Definir la variable `gcoop_luks_devices`:
 
 ``` {.yaml exports="code"}
-
 gcoop_luks_devices:
   - dev:  '/dev/sdb1'
     pass: "{{ lookup('pass', 'luks/' + ansible_hostname + '/' + 'usb-WD_Elements_1234_567890123456789012345678-0:0-part1' + gcoop_luks_pass_opts ) }}"
@@ -43,7 +41,6 @@ gcoop_luks_devices:
 1. Ejecutar el rol `gcoop-libre.luks`:
 
 ``` {.example}
-
 # make
 ANSIBLE_PASS_PASSWORD_STORE_DIR=$HOME/.password-store ansible-playbook  -i tests/inventory tests/test.yml
 

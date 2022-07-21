@@ -15,7 +15,6 @@ En mi *blog* hace tiempo que en lugar de utilizar *links* en línea, uso *footno
 Veamos un ejemplo:
 
 ``` {.bash org-language="sh" exports="code"}
-
 grep -h '^\[fn:' 2014-08-12-clonar-pendrives.gmi
 
 [fn:openwrt] http://openwrt.gmi
@@ -35,7 +34,6 @@ grep -h '^\[fn:' 2014-08-12-clonar-pendrives.gmi
 Si bien para alinear, justificar y hasta jugar con párrafos utilizo el comando `par` ^1[1], tenía ganas de resolver el problema con un *script* `bash` que fue muy fácil de generar:
 
 ``` {.bash org-language="sh" exports="code"}
-
 #!/bin/bash
 
 # This script comes with ABSOLUTELY NO WARRANTY, use at own risk
@@ -94,7 +92,6 @@ done < "$TMPI"
 Básicamente `align2col` obtiene máximo de caracteres de la 1er columna y se ocupa de alinear completando con espacios en blanco, esto facilita la lectura y pone un poco orden al caos reinante! `:)`
 
 ``` {.bash org-language="sh" exports="code"}
-
 grep -h '^\[fn:' 2014-08-12-clonar-pendrives.gmi | align2col
 
 [fn:openwrt]     http://openwrt.gmi                                                                                     
@@ -118,7 +115,6 @@ En `vim` es posible seleccionar un rango de líneas presionando `shift + v`, sel
 De momento el *script* soporta hasta 4 columnas, pero eso lo voy a mejorar en algún momento, por ejemplo:
 
 ``` {.example}
-
 acijado balazo cesarino despuesto
 adulterio balume copista diserta
 auspiciar brasilada canillero deportoso
@@ -129,7 +125,6 @@ algadara bisabuela cargar debelador
 El resultado es mucho mas legible:
 
 ``` {.example}
-
 acijado    balazo     cesarino   despuesto 
 adulterio  balume     copista    diserta   
 auspiciar  brasilada  canillero  deportoso 
@@ -142,7 +137,6 @@ Seguro hay mil maneras de hacer esto, pero es muy gratificante poder idear y res
 ## ChangeLog
 
 * `2021-04-05 23:13`[2] agregar *alinear textos en columnas*
-
 
 => https://osiux.com/2011-03-15-dibujando-con-numeros-desde-la-consola.html 1: https://osiux.com/2011-03-15-dibujando-con-numeros-desde-la-consola.html
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1b4792fa18d5e254b83578f1df850b39d2efdbe6 2: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1b4792fa18d5e254b83578f1df850b39d2efdbe6

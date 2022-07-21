@@ -47,6 +47,7 @@ En el primer punto de nuestro *`Manifiesto gcoop`* ^20[20] esta muy claro, que v
 > clientxs, sino también desarrollar los intereses de sus socixs,
 > colaborar para construir una sociedad más justa y difundir el Software
 > Libre y el Cooperativismo.
+
 Luego de mucho debate, construimos de forma colectiva un documento al que llamamos *`acuerdos gcoop`* ^21[21]
 
 > Nuestras acciones buscan resolver el sustento de les socies de la
@@ -60,6 +61,7 @@ Luego de mucho debate, construimos de forma colectiva un documento al que llamam
 > y que busca no discriminar por ningún motivo y es en ese marco que
 > hemos decidido construir este acuerdo para el cumplimiento de nuestro
 > objetivo de construir una sociedad justa y solidaria:
+
 ## la salida es colectiva!
 
 Junto a otras empresas fundamos `CAdESoL` ^22[22] *`Cámara Argentina de Empresas de Software Libre`*, y desde nuestros comienzos apostamos a fomentar la creación de nuevas cooperativas tecnológicas, porque siempre pensamos que mejor que una cooperativa de 100 personas, era contar con 10 cooperativas de 10 personas e intercooperar y luego de unos años, junto a otras cooperativas fundamos `FACTTIC` ^23[23] la *`Federación Argentina de Coooperativas de Trabajo Tecnología Innovación y Conocimiento`*
@@ -102,7 +104,6 @@ Asi como la idea de formar un cooperativa nació simple y fue escalando, este *p
 
 * `2021-02-18 18:35`[29] corregir imprecisiones mundanzas, link a sitio `FACTTIC`
 * `2021-02-16 15:33`[30] agregar *Vivir del Software Libre*
-
 
 => https://es.wikipedia.gmi/wiki/Grupo_de_usuarios_de_Linux 1: https://es.wikipedia.gmi/wiki/Grupo_de_usuarios_de_Linux
 => https://es.wikipedia.gmi/wiki/CafeConf 2: https://es.wikipedia.gmi/wiki/CafeConf

@@ -64,7 +64,6 @@ Sin dudas, es un ejercicio y de cada experiencia de la vida diaria se puede apre
 * `2021-02-07 20:14`[20] corrijo *link* a *reStructuredText* texto re-estructurado
 * `2021-02-07 19:23`[21] agrego *agrandar la tarea*
 
-
 => https://bulletjournal.com/ 1: https://bulletjournal.com/
 => https://gitlab.com/osiux/libretA7/ 2: https://gitlab.com/osiux/libretA7/
 => https://osiux.com/capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.html 3: https://osiux.com/capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.html

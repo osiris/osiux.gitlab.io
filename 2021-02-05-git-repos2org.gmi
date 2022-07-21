@@ -36,7 +36,6 @@ Obviamente me va a llevar un tiempo, pero al menos ahora puedo visualizar el pro
 
 * `2021-02-05 02:55`[11] agrego generar sección `git` mediante `git-repos2org`
 
-
 => 2021-01-29-bookmarks-vs-links.gmi 1: 2021-01-29-bookmarks-vs-links.gmi
 => links.gmi 2: links.gmi
 => https://www.gcoop.coop/ 3: https://www.gcoop.coop/

@@ -143,7 +143,6 @@ Ya esta decidido, el próximo desafío con *Hugo* comienza el `2021-03-01` y son
 * `2021-02-27 10:12`[31] actualizar 30 días de *posts* por la birra
 * `2021-02-26 09:55`[32] agregar *30 días de posts por la birra*
 
-
 => file:img/rakhim-blogging.jpg 1: file:img/rakhim-blogging.jpg
 => https://www.examplelab.com.ar/ 2: https://www.examplelab.com.ar/
 => https://web.archive.gmi/web/20130107013308/http://www.frontweb.com.ar/about.rst 3: https://web.archive.gmi/web/20130107013308/http://www.frontweb.com.ar/about.rst

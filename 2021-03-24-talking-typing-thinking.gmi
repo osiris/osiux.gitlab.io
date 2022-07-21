@@ -22,9 +22,7 @@ Como la mayoría de nosotros, comencé mi carrera con la impresión de que pasé
 
 Para que usted también pueda justificar pasar la mayor parte de la mañana envuelto en un capullo de calidez limpiadora, analicemos esto y veamos 5 actividades físicas del desarrollo de software eficaz. Como todas las listas buenas, esto está ordenado aproximadamente en orden creciente de tiempo e importancia.
 
-5. Hablar
-
---------------------------------------------------------------------------------
+## 5. Hablar
 
 Algunos desarrollos de software probablemente no necesitan hablar para ser efectivos. Entiendo, por ejemplo, que se considera universalmente de mala educación hablar en voz alta sobre el desarrollo del *kernel* de *Linux*. El contenido de `~/bin` también, no hablamos.
 
@@ -36,9 +34,7 @@ Por otro lado, he trabajado en proyectos donde hablar es un apoyo para disfrazar
 
 Entonces, para la mayoría de los casos: hablar es fundamental, pero en la cantidad correcta.
 
-4. Escuchar
-
---------------------------------------------------------------------------------
+## 4. Escuchar
 
 Honestamente, solo incluí esto por simetría. Lo único que agregaré es que tenemos dos oídos y una boca, por lo que la audición binaural ofrece una ventaja evolutiva contra cierta presión de selección o se supone que debemos escuchar el doble de lo que hablamos.
 
@@ -46,9 +42,7 @@ Toma tu sabiduría concisa como quieras.
 
 (busca rápidamente en *Google* por qué tenemos dos orejas)
 
-3. Escritura
-
---------------------------------------------------------------------------------
+## 3. Escritura
 
 ¡Escribiendo código por supuesto! Pero también ... `READMEs`, comentarios, documentación en línea, descripciones de relaciones públicas, revisiones de código, `git commits`; todo esto es parte del trabajo principal. Es tentador ver esta metaescritura como una sobrecarga además de la escritura de "código" real. Pero la escritura efectiva en estos otros lugares es un multiplicador de fuerza para su código.
 
@@ -56,24 +50,17 @@ Sin embargo, lo que es mucho más importante, en mi experiencia, la mejor comuni
 
 * Es asincrónico, lo que significa que se puede consumir cuando sea conveniente para cada lector (es decir, después de una ducha matutina).
 
-
 * Se puede distribuir fácilmente y no tiene pérdida de fidelidad cuando se comparte (en comparación con hablar con *John* sobre lo que *Sarah* le dijo que *Steve* dijo en la reunión en la que ninguno de ustedes estuvo).
-
 
 * Crea un registro, en lugar de "espera, ¿por qué hicimos ...?"
 
-
 * *`¡Escribir es pensar!`* ^1[2] Escribir te obliga a estructurar tus ideas de manera coherente (al menos, lo parece para algunas personas). Revela deficiencias o lagunas en su comprensión o plan.
-
-
 
 Debido a esto, animo a que las comunicaciones del equipo se escriban en su mayoría. *Jira*, *Slack*, correos electrónicos, *trello*, publicaciones de *blog*, lo que sea. Incluso una foto en alta resolución de una pared de notas *post-it* ha sido en ocasiones una hoja de ruta arquitectónica indispensable. Independientemente de cómo se publique, la redacción detallada y bien pensada es 💯.
 
 Quizás incluso más importante que escribir es ...
 
-2. Lectura
-
---------------------------------------------------------------------------------
+## 2. Lectura
 
 Habiendo ensalzado las virtudes de escribir `READMEs`, enviar mensajes, descripciones de relaciones públicas, etc., obviamente debería animarle a leerlos. Se llama `README` EN MAYÚSCULAS por una razón, y no solo porque sea un acrónimo. Sin embargo, si tuviera un dólar por cada vez que alguien me hiciera una pregunta que ya fue respondida en el `README`, tendría tres dólares. 💰
 
@@ -89,24 +76,17 @@ Ninguno de los posibles adyacentes se puede descubrir sin los conocimientos adqu
 
 * documentación (leer el *`manual de postgres`* ^7[8] muy bien escrito o los *`documentos de Redis`* ^8[9] es la experiencia más íntima que tuve con *Neo* descargando *kung-fu* en su cerebro)
 
-
 * código (muy subestimado: no hay una *gema* en mis archivos *Gem* que no haya agrupado al menos una vez)
-
 
 * archivos de registro (*log files*), mensajes de error, ese tutorial sobre cómo leer gráficos de llamas
 
-
 * la especificación, la legislación, el documento de política, la directriz del *NIST*, el artículo original en *open access journal*.
-
-
 
 ... ya captas la idea, solo encuentra el documento autorizado y sorpréndelo en tu cerebro. Incluso si parece que nada se pega, un breve encuentro con el texto dejará una impresión duradera. Es como la homeopatía pero real.
 
 Hablar / escuchar ... escribir / leer ... y finalmente ... ruidos de redoble de tambores
 
-1. Pensando
-
---------------------------------------------------------------------------------
+## 1. Pensando
 
 Cuando lo reduce, este es el esfuerzo principal para mí y, sin embargo, es algo oculto.
 
@@ -144,7 +124,6 @@ De todos modos, tengo que ir a darme una ducha. 🚿
 
 * `2021-03-24 23:21`[11] corregir formato *link footnote*
 * `2021-03-24 23:19`[12] agregar traducción de *talking - typing - thinking*
-
 
 => https://daniel.fone.net.nz/blog/2020/10/21/talking-typing-thinking-software-is-not-a-desk-job/ 1: https://daniel.fone.net.nz/blog/2020/10/21/talking-typing-thinking-software-is-not-a-desk-job/
 => https://alistapart.com/article/writing-is-thinking/ 2: https://alistapart.com/article/writing-is-thinking/

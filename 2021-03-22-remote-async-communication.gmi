@@ -28,34 +28,23 @@ El uso de chats sincrónicos como *Slack* o *Teams* de *Microsoft* no es como ha
 
 * Es más difícil de iniciar. Cuando es un compañero de equipo a tu lado, solo hablar es mucho más fácil que escribir una pregunta. Esto lleva a que se arrastre algo rápido y fácil más de lo necesario porque el compañero de equipo primero intentará resolverlo por sí mismo.
 
-
 * Es muy fácil de iniciar. Cuando se trata de alguien de un departamento diferente, en la oficina, generalmente, primero consultará con sus propios compañeros de equipo. Pero ahora, es tan fácil ir directamente a la fuente. Entonces recibirás *spam*.
-
 
 * Todos esperan una respuesta inmediata. Es un chat. Está diseñado para darnos la sensación de urgencia. Incluso cuando no es realmente urgente.
 
-
 * Perderás tu historia. Incluso si inviertes tiempo en explicar un concepto de la compañía a alguien en el chat, no se guarda en ningún lugar de manera organizada o reconocible. Se perderá en los registros de chat. Muy pronto, te encontrarás explicando las mismas cosas nuevamente.
 
-
 * Promueve el secreto. Las personas son naturalmente tímidas y prefieren no mostrar "debilidad" a otros compañeros de equipo. Por lo tanto, mantendrán sus preguntas y actualizaciones principalmente en chats privados o salas privadas.
-
-
 
 ## Las videoconferencias también son problemáticas:
 
 * Solo una persona puede hablar a la vez. En realidad, más de uno puede hablar y aún todos podrán entender. Esta es una limitación de software.
 
-
 * No hay conversaciones paralelas. En realidad, en grandes reuniones, puede susurrar algo a un subgrupo de personas de la reunión. No puedes hacer esto en videoconferencias.
-
 
 * Todo esto lleva a reuniones de video que se sienten más como una conferencia. Una discusión verdadera es más difícil de facilitar (aunque no imposible).
 
-
 * Las videollamadas son cansadoras. La cámara está enfocada en tu cara y todos te ven todo el tiempo. No puedes perder el enfoque o alejarte para descansar un poco.
-
-
 
 ## La comunicación sincrónica es problemática.
 
@@ -117,13 +106,9 @@ Ya ves a dónde voy con eso. Cuando todo es fácilmente accesible y obvio, puede
 
 * Josh de mi equipo: "Oye, ¿alguien le hizo algo al *DB* recientemente?"
 
-
 * Dani del equipo de datos: "Oye, ¿lanzaste o cambiaste alguna consulta pesada recientemente?"
 
-
 * Ramón de la infraestructura de datos: "Oye, ¿cómo usamos nuestra herramienta de visualización para editar un tablero?"
-
-
 
 En este caso, depende de que otros estén disponibles y recuerden todas las respuestas. Su flujo se interrumpe constantemente sin ninguna forma de progresar antes de obtener respuestas. No puede concentrarse en un horario de trabajo flexible, porque debe tener todos los miembros del equipo constantemente disponibles.
 
@@ -133,9 +118,7 @@ En este ensayo describí por qué, en mi opinión, la comunicación sincrónica,
 
 * La comunicación sincrónica mientras que la remota depende de chats y videollamadas, ambas son herramientas de comunicación inferiores que intentan imitar las conversaciones de la oficina. Pero no lo son.
 
-
 * La comunicación sincrónica es agotadora, repetitiva y elimina la mayoría de los beneficios del trabajo remoto (como horarios flexibles, contratación de todo el mundo, etc.)
-
 
 * La comunicación asincrónica permite el autodescubrimiento sin interrupciones:
 
@@ -145,19 +128,13 @@ En este ensayo describí por qué, en mi opinión, la comunicación sincrónica,
 
  * Puedes trabajar siempre que no dependas de nadie inmediatamente
 
-
-
 La comunicación asíncrona preserva mejor el conocimiento de la empresa:
 
 * Has escrito registros de todo
 
-
 * Los tutoriales y guías se perfeccionan constantemente, por lo que las personas no perderán el tiempo en lo mismo dos veces
 
-
 * Tiene un lugar para el conocimiento a través de la escritura, en lugar del conocimiento privado en llamadas privadas o sala de chat que se pierde poco después
-
-
 
 ## Te recomiendo leer
 
@@ -167,7 +144,6 @@ La comunicación asíncrona preserva mejor el conocimiento de la empresa:
 
 * `2021-03-24 23:14`[7] agregar *link* a traducción *talking - typing - thinking*
 * `2021-03-22 23:03`[8] agregar traducción *Written communication is remote work super power*
-
 
 => https://mattermost.com/ 1: https://mattermost.com/
 => https://jitsi.gmi/ 2: https://jitsi.gmi/

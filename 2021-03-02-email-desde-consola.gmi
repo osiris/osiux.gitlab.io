@@ -39,6 +39,5 @@ A lo largo de varios *posts* que seguramente me llevarán varios días, iré doc
 
 * `2021-03-02 23:49`[2] agregar *email desde consola*
 
-
 => file:img/imapfilter-imap-offlineimap-maildir-mutt-smtp.png 1: file:img/imapfilter-imap-offlineimap-maildir-mutt-smtp.png
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/aac1e02095fa924540e0378f3935d1c9cbf453e3 2: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/aac1e02095fa924540e0378f3935d1c9cbf453e3

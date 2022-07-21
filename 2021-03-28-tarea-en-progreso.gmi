@@ -15,7 +15,6 @@ Ni bien hay un nuevo *issue* es necesario evaluar si es un *bug* o se trata de u
 De manera simplificada una tarea comienza en `Nueva`, cambia a `En Curso` y ni bien se termina pasa a `Resuelta` para que alguien la valide y la de por `Cerrada`.
 
 ``` {.example}
-
 +-----+     +-------------+     +-------+     +--------+
 | new | --> | in-progress | --> | fixed | --> | closed |
 +-----+     +-------------+     +-------+     +--------+
@@ -48,7 +47,6 @@ Muchas veces sucede que en la *vorágine* del apuro por resolver algo crítico o
 La solución a este problema la encontré con un par de *scripts*, primero *`redmine-history`* ^5[5] revisa el historial de *bash* y muestra que comandos de `redmine` ejecuté hoy y a que hora exactamente!
 
 ``` {.example}
-
 redmine-history
 
   09:57 redmine-new-issue "scrum $(today)" 
@@ -63,7 +61,6 @@ redmine-history
 Luego el comando *`redmine-timediff-last-comment`* ^6[6] discrimina que comandos envían comentarios a `redmine` y calcula la diferencia de tiempo con la última ejecución:
 
 ``` {.example}
-
 redmine-timediff-last-comment
 
   02:30
@@ -83,7 +80,6 @@ A futuro se me ocurre darle mas "inteligencia" al comando y que interactué con 
 ## ChangeLog
 
 * `2021-03-31 14:58`[8] agregar *tarea en progreso*
-
 
 => https://www.gcoop.coop/ 1: https://www.gcoop.coop/
 => https://redmine.gmi/ 2: https://redmine.gmi/

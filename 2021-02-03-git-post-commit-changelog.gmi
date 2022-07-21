@@ -24,10 +24,7 @@ Luego de reescribir el historial de `git` para corregir todos los errores, docum
 
 1. descargar los *scripts* git-log-files[2] y git-log-org-changelog[3] y dejarlos accesibles para su ejecución (en mi caso, directamente todo el repositorio `git-bash-utils`[4])
 
-
 2. descargar el *hoook* post-commit-org-changelog[5] y guardarlo en `.git/hooks/post-commit` y darle permiso de ejecución.
-
-
 
 Ahora luego de cada *commit* se genera un *commit* de *ChangeLog* automáticamente :)
 
@@ -35,7 +32,6 @@ Ahora luego de cada *commit* se genera un *commit* de *ChangeLog* automáticamen
 
 * `2021-02-04 11:46`[6] detallo inconvenientes y solución final de `post-commit` *ChangeLog*
 * `2021-02-03 23:00`[7] agrego git `post-commit` *ChangeLog*
-
 
 => 2021-02-01-git-log-org-changelog.gmi 1: 2021-02-01-git-log-org-changelog.gmi
 => https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-files 2: https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-files

@@ -6,7 +6,6 @@
 ## Actividad por día
 
 ``` {.example}
-
 ▣▣▣ ▣▣ ▣▣□□□ □□ □▣▣▣▣ □□ ▣▣▣□□ □□ □□▣□
 ```
 
@@ -21,7 +20,6 @@ item                 value
 ## Total de *commits* por día
 
 ``` {.example}
-
   3.57 %   3.57 %          1 █                    2021-03-01 
  10.71 %   7.14 %          2 █                    2021-03-02 
  14.29 %   3.57 %          1 █                    2021-03-03 
@@ -44,7 +42,6 @@ item                 value
 ## Total de *commits* por hora
 
 ``` {.example}
-
  10.71 %  10.71 %          3 ██                   00 
  17.86 %   7.14 %          2 █                    07 
  21.43 %   3.57 %          1 █                    08 
@@ -56,7 +53,6 @@ item                 value
 ## Total de *commits* por tiempo
 
 ``` {.example}
-
  14.29 %  14.29 %          4 ███                  00:01 
  32.14 %  17.86 %          5 ████                 00:05 
  42.86 %  10.71 %          3 ██                   00:10 
@@ -115,7 +111,6 @@ item                 value
 ## ChangeLog
 
 * `2021-03-31 23:16`[22] agregar estadísticas de *commits* y *posts* del 2021-03-01 al 2021-03-31
-
 
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/49b23dc 1: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/49b23dc
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/57fe05f 2: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/57fe05f

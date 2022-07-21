@@ -17,7 +17,6 @@ Desde el 2014 que **NO recuerdo la mayoría de mis *passwords*** y es más, **ni
 Para generar de manera aleatoria una contraseña alfanumérica de 64 caracteres para el usuario `admin` del sitio `example.com` es tan simple como tipear esto:
 
 ``` {.bash org-language="sh" exports="code"}
-
 pass generate admin/example.com -n 64
 ```
 
@@ -37,14 +36,12 @@ Quiere decir que `pass` solo me pregunta un nombre de archivo, genera la contras
 Esencialmente hay dos maneras, la primera es pedirle a `pass` que me muestre la contraseña guardada, de esta manera:
 
 ``` {.bash org-language="sh" exports="code"}
-
 pass admin/example.com
 ```
 
 Una mucho mejor es que en lugar de mostrarnos la contraseña, directamente se la copie al *clipboard* o *portapapeles* y de estar manera podría ingresar al sitio `example.com` como el usuario `admin` sin siquiera saber cuál es la contraseña!
 
 ``` {.bash org-language="sh" exports="code"}
-
 pass -c admin/example.com
 ```
 
@@ -57,7 +54,6 @@ Es posible que, en un descuido los archivos de mi *GPG*, alguien mas logre copia
 Cada vez que regeneramos una contraseña o creamos una nueva, `pass` puede invocar a `git` y guardar ese cambio en un repositorio, inicialmente en el directorio `~/.password-store/.git` y llevar un log!
 
 ``` {.example}
-
 commit 252572a362264d91853d8ba5218380740c99c7db (HEAD -> master)
 Author: osiris <osiux@osiux.com>
 Date:   Fri Feb 19 02:04:41 2021 -0300
@@ -74,7 +70,6 @@ Si se define un repositorio `git` remoto para `pass`, podés asegurarte de tener
 Solo hay que recordar sincronizar el repositorio `git` de esta manera:
 
 ``` {.bash org-language="sh" exports="code"}
-
 pass git pull
 pass git push
 ```
@@ -84,7 +79,6 @@ pass git push
 En lugar de autogenerar la password con `pass`, también es posible insertar una contraseña, lo mas simple es tipearla luego de este comando:
 
 ``` {.bash org-language="sh" exports="code"}
-
 pass insert example.com/admin
 ```
 
@@ -93,14 +87,12 @@ pass insert example.com/admin
 `pass` permite que la contraseña sea un texto que provenga de otro comando y para generar *passphrases* nada mejor que usar `gen-passphrase` ^5[5], por ejemplo para generar 4 palabras que comiencen con las letras `p`, `a`, `s` y otra `s`, y que tengan entre 4 y 8 caracteres, el comando sería asi:
 
 ``` {.bash org-language="sh" exports="code"}
-
 gen-passphrase pass 4 8 | pass insert -m admin/example.com
 ```
 
 Una posible *frase de contraseña* auto-generada sería la siguiente:
 
 ``` {.example}
-
 panol algar sulfito socavar
 ```
 
@@ -109,7 +101,6 @@ panol algar sulfito socavar
 Una manera de evitar tener que acordar de ejecutar `pass git push` cada tanto es utilizar un *script* que lo haga por vos
 
 ``` {.bash org-language="sh" exports="code"}
-
 #!/bin/sh
 
 # This script comes with ABSOLUTELY NO WARRANTY, use at own risk
@@ -141,19 +132,18 @@ git push origin master
 Y luego editar el `crontab` para que se ejecute `git.sh` cad 5 minutos!
 
 ``` {.example}
-
 */5 * * * * $HOME/.password-store/git.sh
 ```
 
-## [TODO]{.todo .TODO} =passmenu= {#passmenu}
+## [TODO]{.todo .TODO} `passmenu` {#passmenu}
 
 ...
 
-## [TODO]{.todo .TODO} =metadata= {#metadata}
+## [TODO]{.todo .TODO} `metadata` {#metadata}
 
 ...
 
-## [TODO]{.todo .TODO} =pass= en sus múltiples formas {#pass-en-sus-múltiples-formas}
+## [TODO]{.todo .TODO} `pass` en sus múltiples formas {#pass-en-sus-múltiples-formas}
 
 ...
 
@@ -161,15 +151,15 @@ Y luego editar el `crontab` para que se ejecute `git.sh` cad 5 minutos!
 
 ...
 
-## [TODO]{.todo .TODO} =pass patch= {#pass-patch}
+## [TODO]{.todo .TODO} `pass patch` {#pass-patch}
 
 ...
 
-## [TODO]{.todo .TODO} =ansible <3 pass= {#ansible-3-pass}
+## [TODO]{.todo .TODO} `ansible <3 pass` {#ansible-3-pass}
 
 ...
 
-## [TODO]{.todo .TODO} =pass <3 luks= {#pass-3-luks}
+## [TODO]{.todo .TODO} `pass <3 luks` {#pass-3-luks}
 
 ...
 
@@ -181,7 +171,6 @@ Y luego editar el `crontab` para que se ejecute `git.sh` cad 5 minutos!
 ## ChangeLog
 
 * `2021-02-19 05:14`[8] agregar *no me acuerdo de nada... dejame en `pass`!*
-
 
 => https://www.passwordstore.gmi/ 1: https://www.passwordstore.gmi/
 => %5Bhttps://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix%5D(https://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix) 2: %5Bhttps://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix%5D(https://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix)

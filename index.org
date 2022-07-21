@@ -6,65 +6,65 @@
 #+INCLUDE:   header.org
 #+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
 
+*** [[file:2022-07-20-lists.sh-es-para-amantes-de-las-listas.org][=lists.sh= es para amantes de las listas]]
+
+*** [[file:2022-07-17-prose.sh-a-blog-platform-for-hackers.org][prose.sh a blog platform for hackers]]
+
+*** [[file:2022-04-23-filiales-gnu-linux-flisol-caba.org][=Filiales GNU/Linux= FLISoL CABA]]
+
+*** [[file:2022-04-22-thinkpad-hacktoon-floss-vinyl.org][Thinkpad HackToon FLOSS Vinyl by OSiUX]]
+
+*** [[file:2022-01-17-conectar-igualdad-microsoft-y-estado-asunto-separado.org][Bienvenido de vuelta /Conectar Igualdad/ - Microsoft y Estado, Asunto Separado]]
+
+*** [[file:2021-12-30-automated-bios-configuration-using-ansible-and-hp-linux-tools.org][Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/]]
+
+*** [[file:2021-11-29-cuanto-espacio-ocupa-tu-pagina-web.org][Cuánto espacio ocupa tu página web?]]
+
+*** [[file:2021-09-27-hp-prodesk-400-g5-desktop-mini-bios-disable-aspm-from-linux-command-line.org][Deshabilitar /ASPM/ en /BIOS/ /ProDesk 400 G5 Desktop Mini/ desde /GNU/Linux/ utilizando =hp-repsetup=]]
+
+*** [[file:2021-08-16-install-debian-bullseye-on-thinkpad-t14-gen-1.org][/Install Debian Bullseye on ThinkPad T14 Gen 1/]]
+
+*** [[file:2021-04-28-gemini-es-para-amantes-del-texto-plano.org][=gemini://= es para amantes del texto plano]]
+
+*** [[file:2021-04-05-align2col.org][alinear textos en columnas]]
+
+*** [[file:2021-03-28-tarea-en-progreso.org][tarea en progreso]]
+
+*** [[file:2021-03-24-talking-typing-thinking.org][/Hablar, escribir, pensar: el software no es un trabajo de escritorio/]]
+
+*** [[file:2021-03-23-wpa-passphrase-wpa-supplicant.org][conectar la wifi desde la consola]]
+
+*** [[file:2021-03-22-remote-async-communication.org][La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto]]
+
+*** [[file:2021-03-18-git-commit-timesum.org][git commit timesum]]
+
+*** [[file:2021-03-17-historial-infinito-en-bash.org][historial infinito en =bash=]]
+
+*** [[file:2021-03-16-todo-txt-es-una-lista-de-tareas.org][=todo.txt= es una lista de tareas]]
+
+*** [[file:2021-03-09-git-commiter-date.org][cambiar la fecha de un /commit/ usando =GIT_COMMITER_DATE=]]
+
+*** [[file:2021-03-08-quien-necesita-mas-de-64-redes-cerca.org][quién necesita mas de 64 redes WiFi cerca? ]]
+
+*** [[file:2021-03-07-xscreensaver-watch-pomodoro.org][=xscreensaver-watch= pomodoro]]
+
+*** [[file:2021-03-06-galeria-de-imagenes.org][generar Galería de Imágenes]]
+
+*** [[file:2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.org][convertir la imagen de un número a un número usando gocr]]
+
+*** [[file:2021-03-04-diagrama-de-secuencia-trafico-de-red.org][Diagrama de secuencia de Tráfico de Red]]
+
+*** [[file:2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.org][Diagramas de Topología de Red =csv2nwdiag=]]
+
+*** [[file:2021-03-02-email-desde-consola.org][email desde consola]]
+
+*** [[file:2021-03-01-cooperativismo-y-software-libre.org][Cooperativismo y Software Libre]]
+
+*** [[file:2021-03-01-2021-03-31-posts.org][ABSOLUTELLY NO WARRANTY /posts/ 2021-03-01 - 2021-03-31]]
+
+*** [[file:2021-02-26-30-dias-de-posts-por-la-birra.org][🍺🍺🍺 30 días de /posts/ por la birra!]]
+
 *** [[file:2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.org][/no me acuerdo de nada... dejame en =pass=!/]]
-
-*** [[file:2021-02-16-vivir-del-software-libre.org][/Vivir del Software Libre/]]
-
-*** [[file:2021-02-14-tty-music-on-console.org][=tty= /Music On Console/]]
-
-*** [[file:2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.org][Install Debian Buster on ThinkPad T14 Gen 1]]
-
-*** [[file:2021-02-07-agrandar-la-tarea.org][agrandar la tarea]]
-
-*** [[file:2021-02-05-git-repos2org.org][generar sección =git= mediante =git-repos2org=]]
-
-*** [[file:2021-02-05-ansible-awx-tools.org][Ansible/AWX tools]]
-
-*** [[file:2021-02-03-git-post-commit-changelog.org][git =post-commit= /ChangeLog/]]
-
-*** [[file:2021-02-01-git-log-org-changelog.org][generar /ChangeLog/ en =org-mode= usando =git log=]]
-
-*** [[file:2021-01-29-bookmarks-vs-links.org][bookmarks vs links.txt]]
-
-*** [[file:2021-01-26-disaster-recovery-plan-osiux.org][DIsaster REcovery PLan OSiux]]
-
-*** [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][ansible luks format external usb disk]]
-
-*** [[file:2019-04-22-install-ca-certificate-into-firefox-from-command-line.org][Instalar una *CA* (*Autoridad Certificante*) en un perfil de *Firefox* desde la consola]]
-
-*** [[file:2019-04-21-gitlab-ci-org-mode-publish.org][gitlab-ci org-mode publish]]
-
-*** [[file:2019-04-10-awx-ansible-tower-cli-failed-to-parse-some-of-the-extra-variables.org][AWX Ansible =tower_cli.exceptions.TowerCLIError: failed to parse some of the extra variables=]]
-
-*** [[file:2018-12-11-org-mode-is-back.org][Org-mode is back!]]
-
-*** [[file:2018-08-21-ejecutar-un-binarioexe-de-32bits-en-un-gnulinux-de-64bits-y-resolver-sus-dependencias.org][Ejecutar un =Binario.exe= de 32bits en un /GNU/Linux/ de 64bits y resolver sus dependencias]]
-
-*** [[file:2018-08-15-realizar-un-profile-en-vim-y-deshabilitar-foldexpr-markdown.org][Realizar un /profile/ en =vim= y deshabilitar =Foldexpr_markdown=]]
-
-*** [[file:2018-01-01-reemplazando-orgmode-por-txt-bash-jrnl.org][Reemplazando *Org-mode* por =txt-bash-jrnl=]]
-
-*** [[file:2017-12-04-nuevo-blog-gracias-a-jrnl-y-markdown-styles.org][nuevo blog gracias a =jrnl= y =markdown-styles=]]
-
-*** [[file:2017-07-10-convertir-org-mode-a-markdown-org2md.org][Convertir Org-mode a Markdown =org2md=]]
-
-*** [[file:2017-07-08-instalar-markdown-styles-para-convertir-un-md-en-un-html.org][Instalar =markdown-styles= para convertir un =.md= en un =.html=]]
-
-*** [[file:2017-07-07-ideas-para-utilizar-txt-bash-jrnl-como-un-sistema-de-micro-blog.org][Ideas para utilizar =txt-bash-jrnl= como un sistema de micro blog]]
-
-*** [[file:2017-04-30-percona-live-17-eze.org][Percona Live 17 =SJO -> DFW -> EZE=]]
-
-*** [[file:2017-04-29-percona-live-17-santa-clara.org][Percona Live 17 =santa clara=]]
-
-*** [[file:2017-04-28-percona-live-17-san-francisco.org][Percona Live 17 =san francisco=]]
-
-*** [[file:2017-04-27-percona-live-17-day-three.org][Percona Live 17 =day three= keynotes]]
-
-*** [[file:2017-04-26-percona-live-17-day-two.org][Percona Live 17 =Day Two= Too Many Talks]]
-
-*** [[file:2017-04-25-percona-live-17-day-one.org][Percona Live 17 =Day One= MySQL Load Balancers]]
-
-*** [[file:2017-04-24-percona-live-17-zero-day.org][Percona Live 17 =Zero Day= tutorials]]
 
 
 ** [[file:blog.org][=blog=]]

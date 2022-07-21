@@ -17,7 +17,6 @@ En *`GTD`* ^1[1] como en otras metodologías, es muy común manejarse con listas
 Como era de esperarse, prefiero manipular un archivo `todo.txt` usando el *`cli`* ^4[4] y para ello opté por definir en la configuración `todo.cfg` que el directorio de trabajo sea el directorio actual, de esta forma en cada directorio puedo tener un `todo.txt` diferente, normalmente uno por proyecto.
 
 ``` {.bash org-language="sh" exports="code"}
-
 export TODO_DIR="$PWD"
 ```
 
@@ -26,7 +25,6 @@ export TODO_DIR="$PWD"
 Tres alias, simplifican la tarea de listar (`tol`), agregar un nuevo item (`toa`) y completar la tarea (`tod`):
 
 ``` {.bash org-language="sh" exports="code"}
-
 alias toa='todo.sh add'
 alias tod='todo.sh do'
 alias tol='todo.sh ls'
@@ -39,7 +37,6 @@ alias tol='todo.sh ls'
 ## ChangeLog
 
 * `2021-03-16 23:28`[7] agregar `todo.txt` es una lista de tareas
-
 
 => https://osiux.com/gtd-gething-this-done.html 1: https://osiux.com/gtd-gething-this-done.html
 => https://orgmode.gmi/ 2: https://orgmode.gmi/

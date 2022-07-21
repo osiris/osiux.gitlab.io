@@ -64,7 +64,6 @@ Si querés mejorar la señal de tu conexión *WiFi* es ideal utilizar `wavemon` 
 
 ... continuará ...
 
-
 => index.gmi 1: index.gmi
 => osiux.gmi 2: osiux.gmi
 => links.gmi 3: links.gmi

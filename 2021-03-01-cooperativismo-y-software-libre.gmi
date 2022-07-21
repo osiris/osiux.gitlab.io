@@ -33,7 +33,6 @@ A la espera de que este *post* este siempre disponible y con suerte un poco mas 
 
 * `2021-03-01 23:01`[10] agregar *Cooperativismo y Software Libre*
 
-
 => https://www.gcoop.coop/ 1: https://www.gcoop.coop/
 => https://osiux.com/introduccion-al-software-libre.html 2: https://osiux.com/introduccion-al-software-libre.html
 => http://biblioweb.sindominio.net/telematica/catedral.html 3: http://biblioweb.sindominio.net/telematica/catedral.html

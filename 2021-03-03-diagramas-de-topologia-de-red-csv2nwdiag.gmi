@@ -24,7 +24,6 @@ Se puede usar `nwdiag` desde un *`sitio web`* ^1[2] de manera interactiva sin ne
 * `2021-03-31 12:56`[3] agregar *link* a sitio web interactivo de `nwdiag`
 * `2021-03-03 23:27`[4] agregar *Diagramas de Topología de Red* `csv2nwdiag`
 
-
 => file:img/csv2nwdiag-vms-prd-vms-stg.png 1: file:img/csv2nwdiag-vms-prd-vms-stg.png
 => http://interactive.blockdiag.com/nwdiag/ 2: http://interactive.blockdiag.com/nwdiag/
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4678ba05e3917b84be661aab288f66b89cbb7f12 3: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4678ba05e3917b84be661aab288f66b89cbb7f12

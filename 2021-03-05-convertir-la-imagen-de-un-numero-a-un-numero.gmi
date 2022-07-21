@@ -20,7 +20,6 @@ Gracias a `imagemagick` se puede recortar la porción de la imagen que necesito,
 Solo hay que instalar estos paquetes:
 
 ``` {.bash org-language="sh" exports="code"}
-
 apt install imagemagick gocr
 ```
 
@@ -29,7 +28,6 @@ apt install imagemagick gocr
 Lo primero fue recortar la imagen, para ello primero debo saber que tamaño tiene usando `identify`
 
 ``` {.bash org-language="sh" exports="code"}
-
 identify gocr-fecha-nro.png
 
 gocr-fecha-nro.png PNG 157x286 157x286+0+0 8-bit sRGB 22286B 0.000u 0:00.000
@@ -43,7 +41,6 @@ gocr-fecha-nro.png PNG 157x286 157x286+0+0 8-bit sRGB 22286B 0.000u 0:00.000
 Necesito la segunda columa, y estimo que tiene 50 pixeles de ancho, asi que sabiendo el alto total de la imagen la corto y genero una nueva imagen, solo con los números:
 
 ``` {.bash org-language="sh" exports="code"}
-
 convert -crop 50x286+105+0 gocr-fecha-nro.png gocr-solo-nro.png
 ```
 
@@ -55,7 +52,6 @@ convert -crop 50x286+105+0 gocr-fecha-nro.png gocr-solo-nro.png
 Finalmente ****la magia ocurre con una sola línea de comandos****:
 
 ``` {.bash org-language="sh" exports="code"}
-
 gocr -i gocr-solo-nro.png -C 0-9
 
 247
@@ -79,7 +75,6 @@ El parámetro `C 0-9` indica que solo espero reconocer números, esto es vital p
 
 * `2021-03-06 07:45`[5] corregir imágenes y agregar link a CBU
 * `2021-03-05 23:33`[6] agregar *convertir la imagen de un número a un número*
-
 
 => file:img/gocr-imagen-a-numeros.png 1: file:img/gocr-imagen-a-numeros.png
 => https://es.wikipedia.gmi/wiki/Clave_Bancaria_Uniforme 2: https://es.wikipedia.gmi/wiki/Clave_Bancaria_Uniforme

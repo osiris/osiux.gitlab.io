@@ -35,7 +35,6 @@ De momento cuando se complica, encontré una solución analógica, utilizar algo
 Hago un breve *ranking* de *SSIDs* para ilustrar el vecindario:
 
 ``` {.bash org-language="sh" exports="code"}
-
 grep SSID wlan0-1614375901.log | cut -d: -f2 | awk '{print $1}'  | tr A-Z a-z | cut -d- -f1 | tr -d '+.' | sort | uniq -c | sort -nr | barra
 
  51.69 %  51.69 %        168 |||||||||||||        telecentro 
@@ -93,7 +92,6 @@ Por ahora dejé un `cron` que detecta y guarda las redes detectadas para hacer a
 ## ChangeLog
 
 * `2021-03-08 23:56`[5] agregar *quién necesita mas de 64 redes WiFi cerca?*
-
 
 => https://bugs.debian.gmi/cgi-bin/bugreport.cgi?bug=900742 1: https://bugs.debian.gmi/cgi-bin/bugreport.cgi?bug=900742
 => https://bugs.launchpad.net/wicd/+bug/1801751 2: https://bugs.launchpad.net/wicd/+bug/1801751

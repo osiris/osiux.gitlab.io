@@ -17,7 +17,6 @@ Para clarificar un poco qué esta sucediendo se me ocurrió graficarlo! Es decir
 Como gran parte de "mis soluciones", *`pcap2uml`* ^2[2] no es mas que un *script bash* que lee un `.pcap` utilizando `tshark` (la versión *tty* de `whireshark`) y luego se filtra el tráfico por protocolo y se obtiene esencialmente esto:
 
 ``` {.plantuml exports="code"}
-
 src_host -> dst_host : [proto] request message
 dst_host -> src_host : [proto] response message
 ```
@@ -27,7 +26,6 @@ dst_host -> src_host : [proto] response message
 Si vemos un ejemplo de login ***LDAP + Kerberos*** apriori no es muy grata la salida de `tcpdump`
 
 ``` {.bash org-language="sh" exports="code"}
-
 tcpdump -nntt -r ldap-krb5-sign-seal-01.cap 
 
     reading from file ldap-krb5-sign-seal-01.cap, link-type EN10MB (Ethernet)
@@ -78,7 +76,6 @@ tcpdump -nntt -r ldap-krb5-sign-seal-01.cap
 Si tomamos esa misma captura y usamos `pcap2uml` la salida ya aporta cierta laridad a la conversación:
 
 ``` {.plantuml exports="code"}
-
 title ldap-krb5-sign-seal-01.cap
 
 hide footbox
@@ -123,7 +120,6 @@ Utilizando `plantuml` ^3[3] se puede convertir ese `.uml` en un bonito `.png` e 
 ## ChangeLog
 
 * `2021-03-04 23:20`[5] agregar *Diagrama de Secuencia de Tráfico de Red* usando `pcap2uml`
-
 
 => https://osiux.com/que-no-se-entere-nadie.html 1: https://osiux.com/que-no-se-entere-nadie.html
 => https://gitlab.com/osiux/pcap2uml/ 2: https://gitlab.com/osiux/pcap2uml/

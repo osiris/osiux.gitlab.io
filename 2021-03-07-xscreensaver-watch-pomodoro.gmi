@@ -25,7 +25,6 @@ Mi primer versión del *script* `xscreensaver-watch` se ocupa de registrar en un
 Falta pulir un poco, pero va queriendo bloquear correctamente `:)`
 
 ``` {.bash org-language="sh" exports="code"}
-
 #!/bin/bash
 
 # This script comes with ABSOLUTELY NO WARRANTY, use at own risk
@@ -99,7 +98,6 @@ done
 ## ChangeLog
 
 * `2021-03-07 23:02`[4] agregar `xscreensaver-watch` pomodoro
-
 
 => https://osiux.com/la-tecnica-pomodoro.html 1: https://osiux.com/la-tecnica-pomodoro.html
 => https://osiux.com/pomodoro-notify-send.html 2: https://osiux.com/pomodoro-notify-send.html

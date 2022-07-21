@@ -1,11 +1,3 @@
-``` {.example}
-┏━╸╻╺┳╸
-┃╺┓┃ ┃ 
-┗━┛╹ ╹ 
-```
-
-index[1] osiux[2] links[3] tty[4]
-
 # OSiUX git repositories
 
 * AUTHOR: Osiris Alejandro Gómez
@@ -13,9 +5,9 @@ index[1] osiux[2] links[3] tty[4]
 
 ## `git-repos2org`
 
-En base a un archivo `.git-repos` se *`genera dinámicamente`* ^1[5] **esta página** con un listado de todos los repositorios de proyectos que mas activamente participo.
+En base a un archivo `.git-repos` se *`genera dinámicamente`* ^1[1] **esta página** con un listado de todos los repositorios de proyectos que mas activamente participo.
 
-El *script* es `git-repos2org` ^2[6] y es parte de mis utilidades `git` del repositorio `git-bash-utils` ^3[7]
+El *script* es `git-repos2org` ^2[2] y es parte de mis utilidades `git` del repositorio `git-bash-utils` ^3[3]
 
 ## git repositories
 
@@ -23,240 +15,235 @@ repo                                                                            
 
 --------------------------------------------------------------------------------
 
-`ansible_role_apt_pin`[8]                               v0.1.1   03:05    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-backup-profile`[9]                          00:00    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-ispconfig-base`[10]                          00:10    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-ispconfig-mail`[11]                          00:10    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-ispconfig-multiserver`[12]            00:25    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-ispconfig-web`[13]                            00:10    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-mysqldump`[14]                           v0.7     09:47    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `aps2dot`[15]                                                                  02:04    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `charlas`[16]                                                                  04:02    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `direplos`[17]                                                                12:33    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `git-bash-utils`[18]                                                    26:40    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `isp-utils`[19]                                                              59:14    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `libretA7`[20]                                                                03:00    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `links-bash-utils`[21]                                       v0.1.1   01:05    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `log-bash-utils`[22]                                           v0.1.0   03:00    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `mails2dot`[23]                                                              04:56    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `media-bash-utils`[24]                                                05:51    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `minimal-bash-prompt`[25]                                          00:40    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `multiboot`[26]                                                              01:00    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `multi-ssh-config`[27]                                                05:34    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `org-bash-utils`[28]                                                    13:18    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `org-mode-doc-es`[29]                                                  01:04    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `osiux.gitlab.io`[30]                                                  147:46   `□▣▣ □□ □□▣□▣ ▣□ ▣▣▣▣▣ ▣▣ ▣▣□□□ □□ □▣▣▣`   `pass-utils`[31]                                                   v0.0.5   02:29    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `pcap2dot`[32]                                                                22:26    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `pcap2uml`[33]                                                                00:55    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `plan-b`[34]                                                                    08:22    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `redmine-bash-utils`[35]                                   v0.1.0   14:12    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `sugar-graphviz`[36]                                                    05:33    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `traducciones`[37]                                                        00:21    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `txt-bash-jrnl`[38]                                             v0.1.0   18:04    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`
+`ansible_role_apt_pin`[4]                               v0.1.1   03:05    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-backup-profile`[5]                          00:00    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-ispconfig-base`[6]                          00:10    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-ispconfig-mail`[7]                          00:10    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-ispconfig-multiserver`[8]            00:25    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-ispconfig-web`[9]                            00:10    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `ansible-role-mysqldump`[10]                           v0.7     09:47    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `aps2dot`[11]                                                                  02:04    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `charlas`[12]                                                                  04:02    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `direplos`[13]                                                                12:33    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `git-bash-utils`[14]                                                    26:40    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `isp-utils`[15]                                                              59:14    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `libretA7`[16]                                                                03:00    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `links-bash-utils`[17]                                       v0.1.1   01:05    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `log-bash-utils`[18]                                           v0.1.0   03:00    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `mails2dot`[19]                                                              04:56    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `media-bash-utils`[20]                                                05:51    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `minimal-bash-prompt`[21]                                          00:40    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `multiboot`[22]                                                              01:00    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `multi-ssh-config`[23]                                                05:34    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `org-bash-utils`[24]                                                    13:18    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `org-mode-doc-es`[25]                                                  01:04    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `osiux.gitlab.io`[26]                                                  147:46   `□▣▣ □□ □□▣□▣ ▣□ ▣▣▣▣▣ ▣▣ ▣▣□□□ □□ □▣▣▣`   `pass-utils`[27]                                                   v0.0.5   02:29    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `pcap2dot`[28]                                                                22:26    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `pcap2uml`[29]                                                                00:55    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `plan-b`[30]                                                                    08:22    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `redmine-bash-utils`[31]                                   v0.1.0   14:12    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `sugar-graphviz`[32]                                                    05:33    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `traducciones`[33]                                                        00:21    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`   `txt-bash-jrnl`[34]                                             v0.1.0   18:04    `□□□ □□ □□□□□ □□ □□□□□ □□ □□□□□ □□ □□□□`
 
 ## `ansible_role_apt_pin`
 
 *Ansible* role to pinning `apt` packages.
 
-* gitlab[39]
+* gitlab[35]
 
 ## `ansible-role-backup-profile`
 
 ansible role to SQL Backup using stous.backup
 
-* github[40]
+* github[36]
 
 ## `ansible-role-ispconfig-base`
 
-* github[41]
+* github[37]
 
 ## `ansible-role-ispconfig-mail`
 
 *Ansible* mail role to install and configure a *ISPConfig Multiserver*.
 
-* github[42]
+* github[38]
 
 ## `ansible-role-ispconfig-multiserver`
 
 *Ansible* role to install and configure a *ISPConfig Multiserver*.
 
-* github[43]
+* github[39]
 
 ## `ansible-role-ispconfig-web`
 
 *Ansible* web role to install and configure a *ISPConfig Multiserver*
 
-* github[44]
+* github[40]
 
 ## `ansible-role-mysqldump`
 
 This role, configure access to *MySQL, MariaDB, Percona* in *localhost* and *cronfile* for backup using `mysqldump` command.
 
-* github[45]
+* github[41]
 
 ## `aps2dot`
 
-* gitlab[46]
+* gitlab[42]
 
 ## `charlas`
 
-* gitlab[47]
+* gitlab[43]
 
 ## `direplos`
 
-* gitlab[48]
+* gitlab[44]
 
 ## `git-bash-utils`
 
 Useful bash scripts for various git utils.
 
-* gitlab[49]
+* gitlab[45]
 
 ## `libretA7` {#libretA7}
 
 *Bash scripts* to create a *Booklet*, *PocketMod*, *HipsterPDA* in paper size *ISO A7* using `rst2pdf` and other tools like `pdfjam`
 
-* gitlab[50]
+* gitlab[46]
 
 ## `links-bash-utils`
 
-* gitlab[51]
+* gitlab[47]
 
 ## `log-bash-utils`
 
-* github[52]
+* github[48]
 
-```html
+```{=html}
 <!-- -->
 ```
 
-* gitlab[53]
+* gitlab[49]
 
 ## `mails2dot`
 
-* gitlab[54]
+* gitlab[50]
 
 ## `media-bash-utils`
 
-* gitlab[55]
+* gitlab[51]
 
 ## `minimal-bash-prompt`
 
-* gitlab[56]
+* gitlab[52]
 
 ## `multiboot`
 
-* gitlab[57]
+* gitlab[53]
 
 ## `multi-ssh-config`
 
-* gitlab[58]
+* gitlab[54]
 
 ## `org-bash-utils`
 
-* gitlab[59]
+* gitlab[55]
 
 ## `org-mode-doc-es`
 
-* gitlab[60]
+* gitlab[56]
 
 ## `osiux.gitlab.io`
 
 ABSOLUTELLY NO WARRANTY static blog site org2html
 
-* gitlab[61]
+* gitlab[57]
 
 ## `pass-utils`
 
-* github[62]
+* github[58]
 
-```html
+```{=html}
 <!-- -->
 ```
 
-* gitlab[63]
+* gitlab[59]
 
 ## `pcap2dot`
 
-* gitlab[64]
+* gitlab[60]
 
 ## `pcap2uml`
 
-* github[65]
+* github[61]
 
-```html
+```{=html}
 <!-- -->
 ```
 
-* gitlab[66]
+* gitlab[62]
 
 ## `plan-b`
 
-* github[67]
+* github[63]
 
 ## `redmine-bash-utils`
 
 *Bash scripts* to using *Redmine* from `tty`.
 
-* gitlab[68]
+* gitlab[64]
 
 ## `sugar-graphviz`
 
 Draw entity diagram relationships of SugarCRM/SuiteCRM modules including custom tables.
 
-* gitlab[69]
+* gitlab[65]
 
 ## `traducciones`
 
-* gitlab[70]
+* gitlab[66]
 
 ## `txt-bash-jrnl`
 
-A simple command line journal application that stores your journal in a plain texts files, developed in *Bash* and inspired in `jrnl.sh` https://jrnl.sh/[71]
+A simple command line journal application that stores your journal in a plain texts files, developed in *Bash* and inspired in `jrnl.sh` https://jrnl.sh/[67]
 
-* gitlab[72]
+* gitlab[68]
 
-
-=> index.gmi 1: index.gmi
-=> osiux.gmi 2: osiux.gmi
-=> links.gmi 3: links.gmi
-=> tty.gmi 4: tty.gmi
-=> https://osiux.com/2021-02-05-git-repos2org.html 5: https://osiux.com/2021-02-05-git-repos2org.html
-=> https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org 6: https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org
-=> https://gitlab.com/osiux/git-bash-utils/ 7: https://gitlab.com/osiux/git-bash-utils/
-=> git.gmi::#ansible_role_apt_pin 8: git.gmi::#ansible_role_apt_pin
-=> git.gmi::#ansible-role-backup-profile 9: git.gmi::#ansible-role-backup-profile
-=> git.gmi::#ansible-role-ispconfig-base 10: git.gmi::#ansible-role-ispconfig-base
-=> git.gmi::#ansible-role-ispconfig-mail 11: git.gmi::#ansible-role-ispconfig-mail
-=> git.gmi::#ansible-role-ispconfig-multiserver 12: git.gmi::#ansible-role-ispconfig-multiserver
-=> git.gmi::#ansible-role-ispconfig-web 13: git.gmi::#ansible-role-ispconfig-web
-=> git.gmi::#ansible-role-mysqldump 14: git.gmi::#ansible-role-mysqldump
-=> git.gmi::#aps2dot 15: git.gmi::#aps2dot
-=> git.gmi::#charlas 16: git.gmi::#charlas
-=> git.gmi::#direplos 17: git.gmi::#direplos
-=> git.gmi::#git-bash-utils 18: git.gmi::#git-bash-utils
-=> git.gmi::#isp-utils 19: git.gmi::#isp-utils
-=> git.gmi::#libretA7 20: git.gmi::#libretA7
-=> git.gmi::#links-bash-utils 21: git.gmi::#links-bash-utils
-=> git.gmi::#log-bash-utils 22: git.gmi::#log-bash-utils
-=> git.gmi::#mails2dot 23: git.gmi::#mails2dot
-=> git.gmi::#media-bash-utils 24: git.gmi::#media-bash-utils
-=> git.gmi::#minimal-bash-prompt 25: git.gmi::#minimal-bash-prompt
-=> git.gmi::#multiboot 26: git.gmi::#multiboot
-=> git.gmi::#multi-ssh-config 27: git.gmi::#multi-ssh-config
-=> git.gmi::#org-bash-utils 28: git.gmi::#org-bash-utils
-=> git.gmi::#org-mode-doc-es 29: git.gmi::#org-mode-doc-es
-=> git.gmi::#osiux.gitlab.io 30: git.gmi::#osiux.gitlab.io
-=> git.gmi::#pass-utils 31: git.gmi::#pass-utils
-=> git.gmi::#pcap2dot 32: git.gmi::#pcap2dot
-=> git.gmi::#pcap2uml 33: git.gmi::#pcap2uml
-=> git.gmi::#plan-b 34: git.gmi::#plan-b
-=> git.gmi::#redmine-bash-utils 35: git.gmi::#redmine-bash-utils
-=> git.gmi::#sugar-graphviz 36: git.gmi::#sugar-graphviz
-=> git.gmi::#traducciones 37: git.gmi::#traducciones
-=> git.gmi::#txt-bash-jrnl 38: git.gmi::#txt-bash-jrnl
-=> https://gitlab.com/gcoop-libre/ansible_role_apt_pin 39: https://gitlab.com/gcoop-libre/ansible_role_apt_pin
-=> https://github.com/gcoop-libre/ansible-role-backup-profile 40: https://github.com/gcoop-libre/ansible-role-backup-profile
-=> https://github.com/gcoop-libre/ansible-role-ispconfig-base.git 41: https://github.com/gcoop-libre/ansible-role-ispconfig-base.git
-=> https://github.com/gcoop-libre/ansible-role-ispconfig-mail 42: https://github.com/gcoop-libre/ansible-role-ispconfig-mail
-=> https://github.com/gcoop-libre/ansible-role-ispconfig-multiserver 43: https://github.com/gcoop-libre/ansible-role-ispconfig-multiserver
-=> https://github.com/gcoop-libre/ansible-role-ispconfig-web 44: https://github.com/gcoop-libre/ansible-role-ispconfig-web
-=> https://github.com/gcoop-libre/ansible-role-mysqldump 45: https://github.com/gcoop-libre/ansible-role-mysqldump
-=> https://gitlab.com/osiux/aps2dot 46: https://gitlab.com/osiux/aps2dot
-=> https://gitlab.com/osiux/charlas 47: https://gitlab.com/osiux/charlas
-=> https://gitlab.com/osiux/direplos 48: https://gitlab.com/osiux/direplos
-=> https://gitlab.com/osiux/git-bash-utils 49: https://gitlab.com/osiux/git-bash-utils
-=> https://gitlab.com/osiux/libretA7 50: https://gitlab.com/osiux/libretA7
-=> https://gitlab.com/osiux/links-bash-utils.git 51: https://gitlab.com/osiux/links-bash-utils.git
-=> https://github.com/osiris/log-bash-utils.git 52: https://github.com/osiris/log-bash-utils.git
-=> https://gitlab.com/osiux/log-bash-utils.git 53: https://gitlab.com/osiux/log-bash-utils.git
-=> https://gitlab.com/osiux/mails2dot 54: https://gitlab.com/osiux/mails2dot
-=> https://gitlab.com/osiux/media-bash-utils 55: https://gitlab.com/osiux/media-bash-utils
-=> https://gitlab.com/osiux/minimal-bash-prompt 56: https://gitlab.com/osiux/minimal-bash-prompt
-=> https://gitlab.com/osiux/multiboot 57: https://gitlab.com/osiux/multiboot
-=> https://gitlab.com/osiux/multi-ssh-config 58: https://gitlab.com/osiux/multi-ssh-config
-=> https://gitlab.com/osiux/org-bash-utils 59: https://gitlab.com/osiux/org-bash-utils
-=> https://gitlab.com/osiux/org-mode-doc-es 60: https://gitlab.com/osiux/org-mode-doc-es
-=> https://gitlab.com/osiux/osiux.gitlab.io 61: https://gitlab.com/osiux/osiux.gitlab.io
-=> https://github.com/gcoop-libre/pass-utils 62: https://github.com/gcoop-libre/pass-utils
-=> https://gitlab.com/osiux/pass-utils 63: https://gitlab.com/osiux/pass-utils
-=> https://gitlab.com/osiux/pcap2dot 64: https://gitlab.com/osiux/pcap2dot
-=> https://github.com/osiris/pcap2uml.git 65: https://github.com/osiris/pcap2uml.git
-=> https://gitlab.com/osiux/pcap2uml.git 66: https://gitlab.com/osiux/pcap2uml.git
-=> https://github.com/gcoop-libre/plan-b 67: https://github.com/gcoop-libre/plan-b
-=> https://gitlab.com/osiux/redmine-bash-utils 68: https://gitlab.com/osiux/redmine-bash-utils
-=> https://gitlab.com/osiux/sugar-graphviz 69: https://gitlab.com/osiux/sugar-graphviz
-=> https://gitlab.com/osiux/traducciones 70: https://gitlab.com/osiux/traducciones
-=> https://jrnl.sh/ 71: https://jrnl.sh/
-=> https://gitlab.com/osiux/txt-bash-jrnl 72: https://gitlab.com/osiux/txt-bash-jrnl
+=> https://osiux.com/2021-02-05-git-repos2org.html 1: https://osiux.com/2021-02-05-git-repos2org.html
+=> https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org 2: https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org
+=> https://gitlab.com/osiux/git-bash-utils/ 3: https://gitlab.com/osiux/git-bash-utils/
+=> git.gmi::#ansible_role_apt_pin 4: git.gmi::#ansible_role_apt_pin
+=> git.gmi::#ansible-role-backup-profile 5: git.gmi::#ansible-role-backup-profile
+=> git.gmi::#ansible-role-ispconfig-base 6: git.gmi::#ansible-role-ispconfig-base
+=> git.gmi::#ansible-role-ispconfig-mail 7: git.gmi::#ansible-role-ispconfig-mail
+=> git.gmi::#ansible-role-ispconfig-multiserver 8: git.gmi::#ansible-role-ispconfig-multiserver
+=> git.gmi::#ansible-role-ispconfig-web 9: git.gmi::#ansible-role-ispconfig-web
+=> git.gmi::#ansible-role-mysqldump 10: git.gmi::#ansible-role-mysqldump
+=> git.gmi::#aps2dot 11: git.gmi::#aps2dot
+=> git.gmi::#charlas 12: git.gmi::#charlas
+=> git.gmi::#direplos 13: git.gmi::#direplos
+=> git.gmi::#git-bash-utils 14: git.gmi::#git-bash-utils
+=> git.gmi::#isp-utils 15: git.gmi::#isp-utils
+=> git.gmi::#libretA7 16: git.gmi::#libretA7
+=> git.gmi::#links-bash-utils 17: git.gmi::#links-bash-utils
+=> git.gmi::#log-bash-utils 18: git.gmi::#log-bash-utils
+=> git.gmi::#mails2dot 19: git.gmi::#mails2dot
+=> git.gmi::#media-bash-utils 20: git.gmi::#media-bash-utils
+=> git.gmi::#minimal-bash-prompt 21: git.gmi::#minimal-bash-prompt
+=> git.gmi::#multiboot 22: git.gmi::#multiboot
+=> git.gmi::#multi-ssh-config 23: git.gmi::#multi-ssh-config
+=> git.gmi::#org-bash-utils 24: git.gmi::#org-bash-utils
+=> git.gmi::#org-mode-doc-es 25: git.gmi::#org-mode-doc-es
+=> git.gmi::#osiux.gitlab.io 26: git.gmi::#osiux.gitlab.io
+=> git.gmi::#pass-utils 27: git.gmi::#pass-utils
+=> git.gmi::#pcap2dot 28: git.gmi::#pcap2dot
+=> git.gmi::#pcap2uml 29: git.gmi::#pcap2uml
+=> git.gmi::#plan-b 30: git.gmi::#plan-b
+=> git.gmi::#redmine-bash-utils 31: git.gmi::#redmine-bash-utils
+=> git.gmi::#sugar-graphviz 32: git.gmi::#sugar-graphviz
+=> git.gmi::#traducciones 33: git.gmi::#traducciones
+=> git.gmi::#txt-bash-jrnl 34: git.gmi::#txt-bash-jrnl
+=> https://gitlab.com/gcoop-libre/ansible_role_apt_pin 35: https://gitlab.com/gcoop-libre/ansible_role_apt_pin
+=> https://github.com/gcoop-libre/ansible-role-backup-profile 36: https://github.com/gcoop-libre/ansible-role-backup-profile
+=> https://github.com/gcoop-libre/ansible-role-ispconfig-base.git 37: https://github.com/gcoop-libre/ansible-role-ispconfig-base.git
+=> https://github.com/gcoop-libre/ansible-role-ispconfig-mail 38: https://github.com/gcoop-libre/ansible-role-ispconfig-mail
+=> https://github.com/gcoop-libre/ansible-role-ispconfig-multiserver 39: https://github.com/gcoop-libre/ansible-role-ispconfig-multiserver
+=> https://github.com/gcoop-libre/ansible-role-ispconfig-web 40: https://github.com/gcoop-libre/ansible-role-ispconfig-web
+=> https://github.com/gcoop-libre/ansible-role-mysqldump 41: https://github.com/gcoop-libre/ansible-role-mysqldump
+=> https://gitlab.com/osiux/aps2dot 42: https://gitlab.com/osiux/aps2dot
+=> https://gitlab.com/osiux/charlas 43: https://gitlab.com/osiux/charlas
+=> https://gitlab.com/osiux/direplos 44: https://gitlab.com/osiux/direplos
+=> https://gitlab.com/osiux/git-bash-utils 45: https://gitlab.com/osiux/git-bash-utils
+=> https://gitlab.com/osiux/libretA7 46: https://gitlab.com/osiux/libretA7
+=> https://gitlab.com/osiux/links-bash-utils.git 47: https://gitlab.com/osiux/links-bash-utils.git
+=> https://github.com/osiris/log-bash-utils.git 48: https://github.com/osiris/log-bash-utils.git
+=> https://gitlab.com/osiux/log-bash-utils.git 49: https://gitlab.com/osiux/log-bash-utils.git
+=> https://gitlab.com/osiux/mails2dot 50: https://gitlab.com/osiux/mails2dot
+=> https://gitlab.com/osiux/media-bash-utils 51: https://gitlab.com/osiux/media-bash-utils
+=> https://gitlab.com/osiux/minimal-bash-prompt 52: https://gitlab.com/osiux/minimal-bash-prompt
+=> https://gitlab.com/osiux/multiboot 53: https://gitlab.com/osiux/multiboot
+=> https://gitlab.com/osiux/multi-ssh-config 54: https://gitlab.com/osiux/multi-ssh-config
+=> https://gitlab.com/osiux/org-bash-utils 55: https://gitlab.com/osiux/org-bash-utils
+=> https://gitlab.com/osiux/org-mode-doc-es 56: https://gitlab.com/osiux/org-mode-doc-es
+=> https://gitlab.com/osiux/osiux.gitlab.io 57: https://gitlab.com/osiux/osiux.gitlab.io
+=> https://github.com/gcoop-libre/pass-utils 58: https://github.com/gcoop-libre/pass-utils
+=> https://gitlab.com/osiux/pass-utils 59: https://gitlab.com/osiux/pass-utils
+=> https://gitlab.com/osiux/pcap2dot 60: https://gitlab.com/osiux/pcap2dot
+=> https://github.com/osiris/pcap2uml.git 61: https://github.com/osiris/pcap2uml.git
+=> https://gitlab.com/osiux/pcap2uml.git 62: https://gitlab.com/osiux/pcap2uml.git
+=> https://github.com/gcoop-libre/plan-b 63: https://github.com/gcoop-libre/plan-b
+=> https://gitlab.com/osiux/redmine-bash-utils 64: https://gitlab.com/osiux/redmine-bash-utils
+=> https://gitlab.com/osiux/sugar-graphviz 65: https://gitlab.com/osiux/sugar-graphviz
+=> https://gitlab.com/osiux/traducciones 66: https://gitlab.com/osiux/traducciones
+=> https://jrnl.sh/ 67: https://jrnl.sh/
+=> https://gitlab.com/osiux/txt-bash-jrnl 68: https://gitlab.com/osiux/txt-bash-jrnl

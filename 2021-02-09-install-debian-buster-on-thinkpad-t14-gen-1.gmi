@@ -19,7 +19,6 @@ Si bien tengo esperanzas de reparar de alguna manera a `cachaza` en algún momen
 Como siempre el esquema es 1 partición `/boot`, 2 particiones idénticas para *Sistema Operativo*, una para la `/` de ahora y una disponibles para cuando falle, el resto de la unidad para datos, pero como estamos en un sistema **moderno** además es necesaria 1 partición para *EFI*, en fin, quedó asi:
 
 ``` {.example}
-
 Model: SAMSUNG MZVLB512HBJQ-000L7 (nvme)
 Disk /dev/nvme0n1: 512GB
 Sector size (logical/physical): 512B/512B
@@ -43,7 +42,6 @@ Esta tarea esta super des-atendida gracias a los *scripts* de *DIREPLOS*, aunque
 Sin dudas fue extremandamente difícil que funcione *Xorg* y no hubo caso hasta que se me ocurrió instalar un *kernel* de *Debian Backports*:
 
 ``` {.example}
-
 uname -a
 
   Linux tequila 5.9.0-0.bpo.5-amd64 #1 SMP Debian 5.9.15-1~bpo10+1 (2020-12-31) x86_64 GNU/Linux
@@ -54,7 +52,6 @@ uname -a
 Luego de mucho buscar, encontré el *backport* del firmware-iwlwifi[2] que me permitió desconectar el cable *UTP*.
 
 ``` {.example}
-
 dpkg -l | grep iwlwifi
 
     ii  firmware-iwlwifi  20200918-1~bpo10+1  all  Binary firmware for Intel Wireless cards
@@ -65,7 +62,6 @@ dpkg -l | grep iwlwifi
 Como no podía ser de otra manera, también fue necesario obtener una versión actualizada de firmware-sof-signed[3] para poder escuchar música mientras **codeo**, y si, también para el maldito *zoom* `:S`
 
 ``` {.example}
-
 dpkg -l | grep sof-signed
 
     ii  firmware-sof-signed  1.6.1-2  all  Intel SOF firmware - signed
@@ -83,7 +79,6 @@ Tengo mucho por documentar sobre la instalación y configuración, la idea es ah
 ## ChangeLog
 
 * `2021-02-09 23:21`[6] agrego Instalar *Debian Buster* en una *ThinkPad T14 Gen 1*
-
 
 => 2021-01-26-disaster-recovery-plan-osiux.gmi 1: 2021-01-26-disaster-recovery-plan-osiux.gmi
 => http://ftp.us.debian.gmi/debian/pool/non-free/f/firmware-nonfree/firmware-iwlwifi_20200918-1~bpo10+1_all.deb 2: http://ftp.us.debian.gmi/debian/pool/non-free/f/firmware-nonfree/firmware-iwlwifi_20200918-1~bpo10+1_all.deb

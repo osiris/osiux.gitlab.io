@@ -21,7 +21,6 @@ Lo importante es que esa local idea que tenía en mente, ahora puedo ver que se 
 * `2021-03-07 08:27`[2] agregar *footnote* a Galería de Imágenes
 * `2021-03-06 23:11`[3] agregar *generar Galería de Imágenes*
 
-
 => https://osiux.com/img.html 1: https://osiux.com/img.html
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2ecee3b9e38c5092a521b124a243c22968127c35 2: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2ecee3b9e38c5092a521b124a243c22968127c35
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0305b3d6ab14cadbf036f63508f5f48d93c0c702 3: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0305b3d6ab14cadbf036f63508f5f48d93c0c702

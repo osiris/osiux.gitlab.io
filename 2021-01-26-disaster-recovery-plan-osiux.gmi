@@ -51,7 +51,6 @@ Cualquier equipo en cualquier momento puede morir repentinamente o si es móvil 
 Hace años, de alguna manera automaticé rústicamente todos los paquetes que considero vitales para mi entorno en el repositorio direplos[4], si bien quedó desactualizado el *script* `deb.sh` y a medio "refactorizar" y sin publicar la versión *ansible*, pero con mínimos cambios pude ejecutar la instalación con el comando:
 
 ``` {.src exports="code"}
-
 deb.sh -ut
 ```
 
@@ -66,7 +65,6 @@ Por ser previsor, gran parte de lo que necesito, esta (o debería estar) en un r
 De cabezadura se me ocurrió solucionarlo con un desarrollo propio que simplifica la tarea de clonar y mantener sincronizados todos los repos, solo basta ejecutar:
 
 ``` {.src exports="code"}
-
 git clone https://gitlab.com/osiux/git-bash-utils
 cd git-bash-utils
 git-repos -c
@@ -93,7 +91,6 @@ Lo malo es que si no tenes tu entorno disponible, te volvés muy torpe y lento, 
 * `2021-01-31 04:49`[10] agrego explicación sobre *direplos* y hago intro a `git-repos`
 * `2021-01-31 04:49`[11] correcciones menores de formato y *link* roto
 * `2021-01-31 04:20`[12] agrego disaster recovery plan osiux [WiP]
-
 
 => 2021-01-25-ansible-luks-format-external-usb-disk.gmi 1: 2021-01-25-ansible-luks-format-external-usb-disk.gmi
 => https://www.gcoop.coop/ 2: https://www.gcoop.coop/

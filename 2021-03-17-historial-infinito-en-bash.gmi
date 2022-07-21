@@ -9,7 +9,6 @@
 Por defecto *bash* mantiene un historial numérico, lo cual presenta de manera ordenada la secuencia de comandos ejecutados:
 
 ``` {.bash org-language="sh" exports="code"}
-
 1786  ls -lht | head
 1787  du -hs
 1788  rm -f /tmp/*
@@ -21,7 +20,6 @@ Por defecto *bash* mantiene un historial numérico, lo cual presenta de manera o
 Mucho mejor es poder contar con un historial que además registre la fecha y hora de cada comando ejecutado:
 
 ``` {.bash org-language="sh" exports="code"}
-
 22922 2021-03-17 22:47 c history_aliases | cclip
 22923 2021-03-17 22:47 cd
 22924 2021-03-17 22:47 cd bash/
@@ -41,7 +39,6 @@ Mucho mejor es poder contar con un historial que además registre la fecha y hor
 Entonces, por un lado necesitamos registrar con un mejor formato cada comando ejecutado y por otro lado queremos que el comando `history` *`recuerde muchas líneas`* ^1[1] y que además guarde *`inmediatamente cada comando ejecutado`* ^2[2], por si nos quedamos sin batería o se cuelga el comando ejecutado `:P`
 
 ``` {.bash org-language="sh" exports="code"}
-
 ## Allow a larger history file
 export HISTSIZE=1000000
 export HISTFILESIZE=1000000
@@ -65,7 +62,6 @@ export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
 Algunos alias de historial me permiten ver rápidamente que hice hoy o ayer para asi poder registrar mejor las tareas o resolver algún misterio.
 
 ``` {.bash org-language="sh" exports="code"}
-
 alias today='date +%Y-%m-%d'
 alias yesterday='echo $(date --date="yesterday" +%Y-%m-%d)'
 alias hh='history | grep $(today)  | cut -c 19- | sort -u'
@@ -77,7 +73,6 @@ alias hhy='history | grep $(yesterday)  | cut -c 19- | sort -u'
 Hace años que tengo en el `crontab` un *script* `archive_bash_history` que se ocupa de archivar mi historial de *bash* a un archivo por cada día, asi luego puedo auditar o divertime generando estadísticas `:P`
 
 ``` {.bash org-language="sh" exports="code"}
-
 #!/bin/bash
 
 # This script comes with ABSOLUTELY NO WARRANTY, use at own risk
@@ -128,7 +123,6 @@ sort -u "$BAK" > "$TMP" && mv -f "$TMP" "$BAK"
 ## ChangeLog
 
 * `2021-03-17 23:54`[3] agregar *historial infinito en `bash`*
-
 
 => https://sanctum.geek.nz/arabesque/better-bash-history/ 1: https://sanctum.geek.nz/arabesque/better-bash-history/
 => https://linuxhint.com/bash_command_history_usage/ 2: https://linuxhint.com/bash_command_history_usage/

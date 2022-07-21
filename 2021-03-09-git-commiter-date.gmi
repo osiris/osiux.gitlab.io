@@ -17,7 +17,6 @@ Una estrategia que aprendí hace un par de años es la antes que termine el día
 Se puede redefinir la fecha y hora de un *commit* antes de realizar utilizando la variable `GIT_COMMITER_DATE`, por ejemplo si quisiera registrar que un *commit* se hizo ayer `2021-03-09` a la misma hora de hoy `2021-03-10 23:52` se puede basta ejecutar de la siguiente manera:
 
 ``` {.bash org-language="sh" exports="code"}
-
 GIT_COMMITER_DATE="$(date -d 'now -1 days')" git commit --amend --date "$(date -d 'now -1 days')"
 ```
 
@@ -26,7 +25,6 @@ GIT_COMMITER_DATE="$(date -d 'now -1 days')" git commit --amend --date "$(date -
 Para generalizar, creé una función `gct` *git commit time* y simplemente especificando `25m`, `2h`, `1d`:
 
 ``` {.bash org-language="sh" exports="code"}
-
 function gct()
 {
 
@@ -54,6 +52,5 @@ function gct()
 ## ChangeLog
 
 * `2021-03-09 23:54`[1] agregar cambiar la fecha de un *commit* usando `GIT_COMMITER_DATE`
-
 
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4d045bc4abecda5b8316a0e3b92faa315ad92206 1: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4d045bc4abecda5b8316a0e3b92faa315ad92206

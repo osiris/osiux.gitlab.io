@@ -17,7 +17,6 @@ Luego de varias pruebas de concepto, muchos roles y *playbooks* desarrollados (u
 *AWX* posee una *API* muy completa y una *cli* super útil, pero en todo momento uno tiende a automatizar y/o simplificar un poquito mas todo el entorno y así fue como surgieron un puñado de *scripts* para ir creciendo en cantidad y calidad, a continuación totalizo por categoría de *script*:
 
 ``` {.example}
-
 # ls -1 awx-* | grep -v .md | cut -d- -f2 | uniq -c | sort -nr
 
      22 json
@@ -46,7 +45,6 @@ Luego de varias pruebas de concepto, muchos roles y *playbooks* desarrollados (u
 Todavía me falta pulir un poco el "manual" para que sea usable por terceros, pero algo que me ayudó fue definir una función `usage` en cada *script* de la siguiente manera:
 
 ``` {.bash org-language="sh" exports="code"}
-
 function usage()                                                        
 {                                                                       
 cat << EOF                                                              
@@ -71,7 +69,6 @@ Ni bien este mas o menos completo estaré publicando el repositorio con todos lo
 ## ChangeLog
 
 * `2021-02-05 20:21`[2] agrego Ansible/AWX tools
-
 
 => https://www.nube.coop/ 1: https://www.nube.coop/
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0d91f02c093c831708f06fe91c44e46dd49d9e9f 2: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0d91f02c093c831708f06fe91c44e46dd49d9e9f
