@@ -1,0 +1,8 @@
+=: title OSiUX links
+=: description bookmarks
+
+Este es un listado de URLs de sitios que me interesa compartir.
+Las categorías o tags pueden cambiar sin previo aviso.
+Esta página se genera dinámicamente!
+=> https://osiux.com/2021-01-29-bookmarks-vs-links.html bookmarks vs links.txt
+
