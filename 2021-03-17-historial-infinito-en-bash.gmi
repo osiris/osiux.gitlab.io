@@ -1,0 +1,135 @@
+# historial infinito en `bash`
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2021-03-17 22:48
+
+## historial numérico
+
+Por defecto *bash* mantiene un historial numérico, lo cual presenta de manera ordenada la secuencia de comandos ejecutados:
+
+``` {.bash org-language="sh" exports="code"}
+
+1786  ls -lht | head
+1787  du -hs
+1788  rm -f /tmp/*
+1789  ls
+```
+
+## historial para recordar
+
+Mucho mejor es poder contar con un historial que además registre la fecha y hora de cada comando ejecutado:
+
+``` {.bash org-language="sh" exports="code"}
+
+22922 2021-03-17 22:47 c history_aliases | cclip
+22923 2021-03-17 22:47 cd
+22924 2021-03-17 22:47 cd bash/
+22925 2021-03-17 22:47 cdc
+22926 2021-03-17 22:47 gir hist *
+22927 2021-03-17 22:47 hhy
+22928 2021-03-17 22:47 jn @blog
+22929 2021-03-17 22:47 pwd
+22930 2021-03-17 22:48 ff bash
+22931 2021-03-17 22:48 ll
+22932 2021-03-17 22:49 pomo
+22933 2021-03-17 22:49 pomodoro
+```
+
+## historial para no olvidar nada
+
+Entonces, por un lado necesitamos registrar con un mejor formato cada comando ejecutado y por otro lado queremos que el comando `history` *`recuerde muchas líneas`* ^1[1] y que además guarde *`inmediatamente cada comando ejecutado`* ^2[2], por si nos quedamos sin batería o se cuelga el comando ejecutado `:P`
+
+``` {.bash org-language="sh" exports="code"}
+
+## Allow a larger history file
+export HISTSIZE=1000000
+export HISTFILESIZE=1000000
+
+## Record timestamps
+export HISTTIMEFORMAT='%Y-%m-%d %H:%M '
+
+## Don’t store specific lines
+HISTCONTROL=ignoreboth
+
+## Append history instead of rewriting it
+shopt -s histappend
+shopt -s checkwinsize
+
+## Store history immediately
+export PROMPT_COMMAND="history -a; history -c; history -r; $PROMPT_COMMAND"
+```
+
+## alias de historial
+
+Algunos alias de historial me permiten ver rápidamente que hice hoy o ayer para asi poder registrar mejor las tareas o resolver algún misterio.
+
+``` {.bash org-language="sh" exports="code"}
+
+alias today='date +%Y-%m-%d'
+alias yesterday='echo $(date --date="yesterday" +%Y-%m-%d)'
+alias hh='history | grep $(today)  | cut -c 19- | sort -u'
+alias hhy='history | grep $(yesterday)  | cut -c 19- | sort -u'
+```
+
+## archivando el historial
+
+Hace años que tengo en el `crontab` un *script* `archive_bash_history` que se ocupa de archivar mi historial de *bash* a un archivo por cada día, asi luego puedo auditar o divertime generando estadísticas `:P`
+
+``` {.bash org-language="sh" exports="code"}
+
+#!/bin/bash
+
+# This script comes with ABSOLUTELY NO WARRANTY, use at own risk
+# Copyright (C) 2014 Osiris Alejandro Gomez <osiux@osiux.com>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+# General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.gmi/licenses/>.
+
+YESTERDAY=$(date --date 'yesterday' +%F)
+
+DIR="$HOME/history"
+mkdir -p "$DIR"
+
+DAY="$YESTERDAY"
+
+[[ ! -z "$1" ]] && DAY="$1"
+
+BAK="$DIR/${DAY}.log"
+TMP="$DIR/${DAY}.tmp"
+
+cat "$HOME/.bash_history" | while read -r LINE
+do
+  if [[ "$LINE" =~ ^#[0-9]+ ]]
+  then
+    EPOC="$(echo "$LINE" | tr -d "#")"
+    DATE="$(date -d @$EPOC +%Y-%m-%d)"
+    TIME="$(date -d @$EPOC +%H:%M)"
+    BAK="$DIR/${DATE}.log"
+    TMP="$DIR/${DATE}.tmp"
+  else
+    [[ "$DAY" = "$DATE" ]] && echo "$DATE $TIME $LINE" >> "$BAK"
+  fi
+done
+
+sort -u "$BAK" > "$TMP" && mv -f "$TMP" "$BAK"
+```
+
+## ChangeLog
+
+* `2021-03-17 23:54`[3] agregar *historial infinito en `bash`*
+
+
+=> https://sanctum.geek.nz/arabesque/better-bash-history/ 1: https://sanctum.geek.nz/arabesque/better-bash-history/
+=> https://linuxhint.com/bash_command_history_usage/ 2: https://linuxhint.com/bash_command_history_usage/
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e2f1451e1f4ffebf5078d1fd44634047e035b144 3: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e2f1451e1f4ffebf5078d1fd44634047e035b144

@@ -1,0 +1,82 @@
+``` {.example}
+╺┳╸╺┳╸╻ ╻
+ ┃  ┃ ┗┳┛
+ ╹  ╹  ╹ 
+```
+
+index[1] osiux[2] links[3] tty[4]
+
+# OSiUX `tty`, terminal, consola, ncurses, shell, línea de comandos
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+## *`dame una consola`* ^1[5] `<3`
+
+Amo la `tty`, *terminal*, *consola*, `shell`, *línea de comandos*, *emulador de terminal* y cualquier programa que use `ncurses` o `ascii-art`.
+
+El *`texto es el lenguaje universal`* y cada comando puede procesarlo y su salida puede ser el ingreso de otro comando, es simple, rápido, eficiente, consume poco espacio, poco ancho de banda y poca batería, es altamente comprimible, es esencial, vital, puro, elegante y creativo.
+
+No necesito nada más, en serio, puedo vivir en una `tty`, lo demostré en mi *`semana negra`* ^2[6], la única aplicación que necesito usar a diario es `firefox` y por ello utilizo *X* y obviamente aprovecho el arcoiris de colores y soporte de mejoras visuales que me brinda `terminator`, mi *emulador de terminal* preferido.
+
+Prácticamente todos los comandos que uso están en `deb.sh` ^3[7] o en `pip.sh` ^4[8] en el repositorio *`DiRePlOs`* ^5[9], pero siempre tuve ganas de armar un listado con capturas de pantalla y una pequeña *review*, y tal vez hasta alguna configuración extra que a continuación iré detallando...
+
+## shell
+
+### `lsd`
+
+Un reemplazo de `ls`, además de colores, agrega iconos *UTF-8* a cada tipo de archivo y facilita la navegación de directorios.
+
+=> tmb/tty-shell-lsd.png [IMG]
+[10]
+
+### `bat`
+
+Un multicolor sustituto de `cat`, con resaltado de sintaxis de varios lenguajes, entona muy bien con `lsd`.
+
+=> tmb/tty-shell-bat.png [IMG]
+[11]
+
+## music
+
+### `mocp`
+
+Mi reproductor favorito de *`Music On Console`* ^6[12], dentro de un `tmux` combina muy bien con `pulsemixer` y `cava`.
+
+=> tmb/tty-music-on-console.png [IMG]
+[13]
+
+## wifi
+
+### `wicd-curses`
+
+Detesto el `network-manager` porque decide por mi, por eso siempre uso `wicd-ncurses`, simple y efectivo, suelo dejar que se ocupe de la *WiFi* y que no me toque la `eth0`, de esa me ocupo yo!
+
+=> tmb/tty-wifi-wicd-curses.png [IMG]
+[14]
+
+### `wavemon`
+
+Si querés mejorar la señal de tu conexión *WiFi* es ideal utilizar `wavemon` que te brinda datos precisos, un histograma de la señal para que puedas buscar la mejor ubicación fácilmente, además permite *scannear* redes.
+
+=> img/tty-wifi-wavemon-histogram.png [IMG]
+[15]
+
+... continuará ...
+
+
+=> index.gmi 1: index.gmi
+=> osiux.gmi 2: osiux.gmi
+=> links.gmi 3: links.gmi
+=> tty.gmi 4: tty.gmi
+=> https://osiux.com/dame-una-consola.html 5: https://osiux.com/dame-una-consola.html
+=> https://osiux.com/2014-04-28-semana-negra.html 6: https://osiux.com/2014-04-28-semana-negra.html
+=> https://gitlab.com/osiux/direplos/-/raw/master/deb.sh 7: https://gitlab.com/osiux/direplos/-/raw/master/deb.sh
+=> https://gitlab.com/osiux/direplos/-/raw/master/pip.sh 8: https://gitlab.com/osiux/direplos/-/raw/master/pip.sh
+=> https://gitlab.com/osiux/direplos 9: https://gitlab.com/osiux/direplos
+=> file:img/tty-shell-lsd.png 10: file:img/tty-shell-lsd.png
+=> file:img/tty-shell-bat.png 11: file:img/tty-shell-bat.png
+=> https://osiux.com/2021-02-14-tty-music-on-console.html 12: https://osiux.com/2021-02-14-tty-music-on-console.html
+=> file:img/tty-music-on-console.png 13: file:img/tty-music-on-console.png
+=> file:img/tty-wifi-wicd-curses.png 14: file:img/tty-wifi-wicd-curses.png
+=> file:img/tty-wifi-wavemon-histogram.png 15: file:img/tty-wifi-wavemon-histogram.png

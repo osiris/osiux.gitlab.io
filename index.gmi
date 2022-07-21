@@ -1,0 +1,77 @@
+```
+┏━┓┏━┓╻╻ ╻╻ ╻
+┃ ┃┗━┓┃┃ ┃┏╋┛
+┗━┛┗━┛╹┗━┛╹ ╹
+```
+
+=> index.gmi index
+=> osiux.gmi osiux
+=> links.gmi links
+=> tty.gmi tty
+
+# ABSOLUTELLY NO WARRANTY
+
+=> mailto:osiux@osiux.com Osiris Alejandro Gómez
+
+### 
+=> 2021-04-28-gemini-es-para-amantes-del-texto-plano.gmi `gemini://` es para amantes del texto plano
+### 
+=> 2021-04-20-awx-intro.gmi *AWX* | Administración y Despliegue Centralizado
+### 
+=> 2021-04-05-align2col.gmi alinear textos en columnas
+### 
+=> 2021-03-28-tarea-en-progreso.gmi tarea en progreso
+### 
+=> 2021-03-24-talking-typing-thinking.gmi *Hablar, escribir, pensar: el software no es un trabajo de escritorio*
+### 
+=> 2021-03-23-wpa-passphrase-wpa-supplicant.gmi conectar la wifi desde la consola
+### 
+=> 2021-03-22-remote-async-communication.gmi La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto
+### 
+=> 2021-03-18-git-commit-timesum.gmi git commit timesum
+### 
+=> 2021-03-17-historial-infinito-en-bash.gmi historial infinito en `bash`
+### 
+=> 2021-03-16-todo-txt-es-una-lista-de-tareas.gmi `todo.txt` es una lista de tareas
+### 
+=> 2021-03-09-git-commiter-date.gmi cambiar la fecha de un *commit* usando `GIT_COMMITER_DATE`
+### 
+=> 2021-03-08-quien-necesita-mas-de-64-redes-cerca.gmi quién necesita mas de 64 redes WiFi cerca?
+### 
+=> 2021-03-07-xscreensaver-watch-pomodoro.gmi `xscreensaver-watch` pomodoro
+### 
+=> 2021-03-06-galeria-de-imagenes.gmi generar Galería de Imágenes
+### 
+=> 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi convertir la imagen de un número a un número usando gocr
+### 
+=> 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi Diagrama de secuencia de Tráfico de Red
+### 
+=> 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi Diagramas de Topología de Red `csv2nwdiag`
+### 
+=> 2021-03-02-email-desde-consola.gmi email desde consola
+### 
+=> 2021-03-01-cooperativismo-y-software-libre.gmi Cooperativismo y Software Libre
+### 
+=> 2021-03-01-2021-03-31-posts.gmi ABSOLUTELLY NO WARRANTY *posts* 2021-03-01 - 2021-03-31
+### 
+=> 2021-02-26-30-dias-de-posts-por-la-birra.gmi 🍺🍺🍺 30 días de *posts* por la birra!
+### 
+=> 2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.gmi *no me acuerdo de nada... dejame en `pass`!*
+### 
+=> 2021-02-16-vivir-del-software-libre.gmi *Vivir del Software Libre*
+### 
+=> 2021-02-14-tty-music-on-console.gmi `tty` *Music On Console*
+### 
+=> 2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.gmi Install Debian Buster on ThinkPad T14 Gen 1
+### 
+=> 2021-02-07-agrandar-la-tarea.gmi agrandar la tarea
+### 
+=> 2021-02-05-git-repos2org.gmi generar sección `git` mediante `git-repos2org`
+### 
+=> 2021-02-05-ansible-awx-tools.gmi Ansible/AWX tools
+### 
+=> 2021-02-03-git-post-commit-changelog.gmi git `post-commit` *ChangeLog*
+### 
+=> 2021-02-01-git-log-org-changelog.gmi generar *ChangeLog* en `org-mode` usando `git log`
+## 
+=> blog.gmi `blog`

@@ -1,0 +1,247 @@
+# ABSOLUTELLY NO WARRANTY *posts* 2021-01-25 - 2021-02-25
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+## Actividad por día
+
+``` {.example}
+
+□ ▣▣ ▣▣▣▣▣ ▣▣ □▣□▣□ □▣ □▣□▣▣ □□ □□▣□▣ ▣
+```
+
+## Resumen
+
+item                 value
+
+--------------------------------------------------------------------------------
+
+`LAST_HASH`          `048decd`[1]   `FIRST_HASH`         `7147f24`[2]   `TOTAL_TIME`         `34:02 hs`   `TOTAL_COMMITS`      `47`   `TOTAL_BLOG_POSTS`   `48`
+
+## Total de *commits* por día
+
+``` {.example}
+
+  8.51 %   8.51 %          4 ██                   2021-01-26 
+ 17.02 %   8.51 %          4 ██                   2021-01-28 
+ 21.28 %   4.26 %          2 █                    2021-01-30 
+ 27.66 %   6.38 %          3 █                    2021-01-31 
+ 31.91 %   4.26 %          2 █                    2021-02-01 
+ 48.94 %  17.02 %          8 ████                 2021-02-02 
+ 51.06 %   2.13 %          1 ▌                    2021-02-03 
+ 57.45 %   6.38 %          3 █                    2021-02-04 
+ 65.96 %   8.51 %          4 ██                   2021-02-05 
+ 72.34 %   6.38 %          3 █                    2021-02-06 
+ 78.72 %   6.38 %          3 █                    2021-02-07 
+ 80.85 %   2.13 %          1 ▌                    2021-02-09 
+ 85.11 %   4.26 %          2 █                    2021-02-11 
+ 89.36 %   4.26 %          2 █                    2021-02-14 
+ 93.62 %   4.26 %          2 █                    2021-02-16 
+ 95.74 %   2.13 %          1 ▌                    2021-02-18 
+ 97.87 %   2.13 %          1 ▌                    2021-02-19 
+100.00 %   2.13 %          1 ▌                    2021-02-24 
+                          47
+```
+
+## Total de *commits* por hora
+
+``` {.example}
+
+  4.26 %   4.26 %          2 █                    00 
+ 12.77 %   8.51 %          4 ██                   01 
+ 17.02 %   4.26 %          2 █                    02 
+ 23.40 %   6.38 %          3 █                    04 
+ 25.53 %   2.13 %          1 ▌                    05 
+ 27.66 %   2.13 %          1 ▌                    11 
+ 31.91 %   4.26 %          2 █                    12 
+ 36.17 %   4.26 %          2 █                    15 
+ 44.68 %   8.51 %          4 ██                   18 
+ 70.21 %  25.53 %         12 ██████               19 
+ 78.72 %   8.51 %          4 ██                   20 
+ 82.98 %   4.26 %          2 █                    21 
+ 91.49 %   8.51 %          4 ██                   22 
+100.00 %   8.51 %          4 ██                   23 
+                          47
+```
+
+## Total de *commits* por tiempo
+
+``` {.example}
+
+  2.13 %   2.13 %          1 ▌                    00:01 
+  8.51 %   6.38 %          3 █                    00:02 
+ 36.17 %  27.66 %         13 ███████              00:05 
+ 51.06 %  14.89 %          7 ███                  00:10 
+ 53.19 %   2.13 %          1 ▌                    00:15 
+ 57.45 %   4.26 %          2 █                    00:20 
+ 63.83 %   6.38 %          3 █                    00:25 
+ 68.09 %   4.26 %          2 █                    00:30 
+ 70.21 %   2.13 %          1 ▌                    00:35 
+ 74.47 %   4.26 %          2 █                    00:40 
+ 82.98 %   8.51 %          4 ██                   00:45 
+ 85.11 %   2.13 %          1 ▌                    01:00 
+ 87.23 %   2.13 %          1 ▌                    01:05 
+ 89.36 %   2.13 %          1 ▌                    01:10 
+ 93.62 %   4.26 %          2 █                    02:00 
+ 95.74 %   2.13 %          1 ▌                    03:00 
+ 97.87 %   2.13 %          1 ▌                    05:20 
+100.00 %   2.13 %          1 ▌                    08:00 
+                          47
+```
+
+## Detalle de *posts* nuevos, modificados y autogenerados
+
+### years[3]
+
+### visualizando dos años de orgmode con gnuplot - viewing two years of orgmode with gnuplot[4]
+
+### Visualizando Grafos usando Graphviz[5]
+
+### OSiUX `plantuml`[6]
+
+### OSiUX `tty`, terminal, consola, ncurses, shell, línea de comandos[7]
+
+### tmux + terminator + awesome[8]
+
+### stats-posts[9]
+
+### *reStructuredText* texto re-estrucuturado[10]
+
+### OSiUX gnuplot[11]
+
+### OSiUX links[12]
+
+### La Técnica Pomodoro[13]
+
+### ABSOLUTELLY NO WARRANTY[14]
+
+### header[15]
+
+### OSiUX links[16]
+
+### OSiUX git repositories[17]
+
+### OSiUX git repositories[18]
+
+### OSiUX `graphviz`[19]
+
+### ABSOLUTELLY NO WARRANTY Docs[20]
+
+### dame una consola[21]
+
+### Primeras Charlas Software Libre Curuzú Cuatiá 6 y 7 Nov 2008[22]
+
+### Conferencias y Capacitaciones[23]
+
+### Capturar ideas en papel: de moleskine, hispterpda, pocketmod y libreta artesanal[24]
+
+### ABSOLUTELLY NO WARRANTY blog[25]
+
+### Awesome es Increíble[26]
+
+### ABSOLUTELLY NO WARRANTY ARCHIVE[27]
+
+### ABSOLUTELLY NO WARRANTY 2021[28]
+
+### *no me acuerdo de nada... dejame en `pass`!*[29]
+
+### *Vivir del Software Libre*[30]
+
+### `tty` *Music On Console*[31]
+
+### Install Debian Buster on ThinkPad T14 Gen 1[32]
+
+### agrandar la tarea[33]
+
+### generar sección `git` mediante `git-repos2org`[34]
+
+### Ansible/AWX tools[35]
+
+### git `post-commit` *ChangeLog*[36]
+
+### generar *ChangeLog* en `org-mode` usando `git log`[37]
+
+### bookmarks vs links.txt[38]
+
+### DIsaster REcovery PLan OSiux[39]
+
+### ABSOLUTELLY NO WARRANTY 2019[40]
+
+### Instalar una **CA** (**Autoridad Certificante**) en un perfil de **Firefox** desde la consola[41]
+
+### ABSOLUTELLY NO WARRANTY 2018[42]
+
+### ABSOLUTELLY NO WARRANTY 2017[43]
+
+### ABSOLUTELLY NO WARRANTY 2016[44]
+
+### ABSOLUTELLY NO WARRANTY 2015[45]
+
+### ABSOLUTELLY NO WARRANTY 2014[46]
+
+### ABSOLUTELLY NO WARRANTY 2013[47]
+
+### ABSOLUTELLY NO WARRANTY 2012[48]
+
+### Ganamos el Concurso de Videos del Congreso Argentino de Cooperativas[49]
+
+### ABSOLUTELLY NO WARRANTY 2011[50]
+
+## ChangeLog
+
+* `2021-02-27 20:46`[51] agregar total de *commits* por tiempo y correcciones menores de sintaxis
+* `2021-02-26 02:02`[52] agregar 2021-01-25 - 2021-02-25 *posts*
+
+
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/048decd 1: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/048decd
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7147f24 2: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7147f24
+=> years.gmi 3: years.gmi
+=> visualizando-org-mode-con-gnuplot.gmi 4: visualizando-org-mode-con-gnuplot.gmi
+=> visualizando-grafos-graphviz.gmi 5: visualizando-grafos-graphviz.gmi
+=> uml.gmi 6: uml.gmi
+=> tty.gmi 7: tty.gmi
+=> tmux-terminator-awesome.gmi 8: tmux-terminator-awesome.gmi
+=> stats-posts.gmi 9: stats-posts.gmi
+=> restructuredtext-texto-re-estructurado.gmi 10: restructuredtext-texto-re-estructurado.gmi
+=> plt.gmi 11: plt.gmi
+=> links.gmi 12: links.gmi
+=> la-tecnica-pomodoro.gmi 13: la-tecnica-pomodoro.gmi
+=> index.gmi 14: index.gmi
+=> header.gmi 15: header.gmi
+=> header-links.gmi 16: header-links.gmi
+=> git.gmi 17: git.gmi
+=> git-head.gmi 18: git-head.gmi
+=> dot.gmi 19: dot.gmi
+=> docs.gmi 20: docs.gmi
+=> dame-una-consola.gmi 21: dame-una-consola.gmi
+=> curuzu-libre-2008.gmi 22: curuzu-libre-2008.gmi
+=> charlas.gmi 23: charlas.gmi
+=> capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.gmi 24: capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.gmi
+=> blog.gmi 25: blog.gmi
+=> awesome-es-increible.gmi 26: awesome-es-increible.gmi
+=> archive.gmi 27: archive.gmi
+=> 2021.gmi 28: 2021.gmi
+=> 2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.gmi 29: 2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.gmi
+=> 2021-02-16-vivir-del-software-libre.gmi 30: 2021-02-16-vivir-del-software-libre.gmi
+=> 2021-02-14-tty-music-on-console.gmi 31: 2021-02-14-tty-music-on-console.gmi
+=> 2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.gmi 32: 2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.gmi
+=> 2021-02-07-agrandar-la-tarea.gmi 33: 2021-02-07-agrandar-la-tarea.gmi
+=> 2021-02-05-git-repos2org.gmi 34: 2021-02-05-git-repos2org.gmi
+=> 2021-02-05-ansible-awx-tools.gmi 35: 2021-02-05-ansible-awx-tools.gmi
+=> 2021-02-03-git-post-commit-changelog.gmi 36: 2021-02-03-git-post-commit-changelog.gmi
+=> 2021-02-01-git-log-org-changelog.gmi 37: 2021-02-01-git-log-org-changelog.gmi
+=> 2021-01-29-bookmarks-vs-links.gmi 38: 2021-01-29-bookmarks-vs-links.gmi
+=> 2021-01-26-disaster-recovery-plan-osiux.gmi 39: 2021-01-26-disaster-recovery-plan-osiux.gmi
+=> 2019.gmi 40: 2019.gmi
+=> 2019-04-22-install-ca-certificate-into-firefox-from-command-line.gmi 41: 2019-04-22-install-ca-certificate-into-firefox-from-command-line.gmi
+=> 2018.gmi 42: 2018.gmi
+=> 2017.gmi 43: 2017.gmi
+=> 2016.gmi 44: 2016.gmi
+=> 2015.gmi 45: 2015.gmi
+=> 2014.gmi 46: 2014.gmi
+=> 2013.gmi 47: 2013.gmi
+=> 2012.gmi 48: 2012.gmi
+=> 2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi 49: 2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi
+=> 2011.gmi 50: 2011.gmi
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/374554ed29c70a799fb9f1f97055ba214b50ac92 51: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/374554ed29c70a799fb9f1f97055ba214b50ac92
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bced8dd506e9bb7e8ab041409147477d3a759a69 52: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bced8dd506e9bb7e8ab041409147477d3a759a69

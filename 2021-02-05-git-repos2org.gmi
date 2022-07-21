@@ -1,0 +1,50 @@
+# generar sección `git` mediante `git-repos2org`
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2021-02-05 01:59
+
+## Compartir es Bueno!
+
+Así como comparto mis favoritos[1] en `links`[2], hace tiempo que tenía ganas de compartir un listado consolidado de mis repositorios `git`.
+
+Inicialmente cuento con un extenso listado de todos los *repos* `git` que en algún momento me resultaron interesantes, pero creo que es tan extenso y desordenado que de momento me voy a ocupar únicamente de aquellos proyectos donde metí varios *commits*, muchos *repos* son de mis proyectos personales y otros tantos de los proyectos que desarrollé mayormente en gcoop Cooperativa de Software Libre[3] (donde trabajo desde el 2007).
+
+## `git-repos`
+
+Llevo un par de años almacenando el listado de repositorios `git` en un archivo `.git-repos`, originalmente contaba con uno solo en mi `home` pero hace un par de semanas decidí adaptar el *script* `git-repos`[4] con el que administro el uso de todos los repositorios ya que de esta manera me brinda mayor flexibilidad, sobre todo para segmentar y priorizar los repositorios mas importantes a la hora de recuperarme de un desastre[5].
+
+## `git-repos2org`
+
+Generar una página `git`[6] fué muy fácil, usando el *script* `git-repos2org`[7] y me compré varias tareas para hacer en cada *repo*:
+
+* [ ] agregar un archivo `description`
+* [ ] implementar `git-flow` y generar al menos un *release*
+* [ ] publicar repositorios que solo existen en mi `localhost`
+* [ ] verificar que existan *mirrors* en *gitlab* y en *github*
+* [ ] asegurar que existe un `README` básico
+
+Obviamente me va a llevar un tiempo, pero al menos ahora puedo visualizar el problema gracias a consolidar el listado!
+
+## tal vez te interese leer
+
+* disaster recovery plan OSiUX[8]
+* sincronizar repositorios git[9]
+* las cooperativas construyen un mundo mejor[10]
+
+## ChangeLog
+
+* `2021-02-05 02:55`[11] agrego generar sección `git` mediante `git-repos2org`
+
+
+=> 2021-01-29-bookmarks-vs-links.gmi 1: 2021-01-29-bookmarks-vs-links.gmi
+=> links.gmi 2: links.gmi
+=> https://www.gcoop.coop/ 3: https://www.gcoop.coop/
+=> https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos 4: https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos
+=> 2021-01-26-disaster-recovery-plan-osiux.gmi 5: 2021-01-26-disaster-recovery-plan-osiux.gmi
+=> git.gmi 6: git.gmi
+=> https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org 7: https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-repos2org
+=> 2021-01-26-disaster-recovery-plan-osiux.gmi 8: 2021-01-26-disaster-recovery-plan-osiux.gmi
+=> 2015-01-14-sincronizar-repositorios-git-repos.gmi 9: 2015-01-14-sincronizar-repositorios-git-repos.gmi
+=> 2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi 10: 2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/59d3cad9c12311a578328423d99f83f68b7aad51 11: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/59d3cad9c12311a578328423d99f83f68b7aad51

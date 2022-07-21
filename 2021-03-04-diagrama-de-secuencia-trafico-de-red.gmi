@@ -1,0 +1,132 @@
+# Diagrama de secuencia de Tráfico de Red
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2021-03-04 23:00
+
+## no entiendo nada
+
+Muchas veces tengo que *`analizar tráfico de red`* ^1[1], mayormente usando `tcpdump`, pero resulta que a veces es un tanto difícil entender la conversación, muchas idas y vueltas, paquetes que van y que vienen, diferentes protocolos, muchos *hosts* dialogando.
+
+## graficar para entender
+
+Para clarificar un poco qué esta sucediendo se me ocurrió graficarlo! Es decir, si guardo el tráfico de red en un archivo `.pcap` y después veo de filtrar ese tráfico y generar un archivo `.uml` con un resumen de qué le dice un *host* a otro *host*, tal vez al convertirlo en un bonito `.png` pueda entender mejor que esta sucendiendo!
+
+## `pcap2uml`
+
+Como gran parte de "mis soluciones", *`pcap2uml`* ^2[2] no es mas que un *script bash* que lee un `.pcap` utilizando `tshark` (la versión *tty* de `whireshark`) y luego se filtra el tráfico por protocolo y se obtiene esencialmente esto:
+
+``` {.plantuml exports="code"}
+
+src_host -> dst_host : [proto] request message
+dst_host -> src_host : [proto] response message
+```
+
+## un `.pcap` al desnudo
+
+Si vemos un ejemplo de login ***LDAP + Kerberos*** apriori no es muy grata la salida de `tcpdump`
+
+``` {.bash org-language="sh" exports="code"}
+
+tcpdump -nntt -r ldap-krb5-sign-seal-01.cap 
+
+    reading from file ldap-krb5-sign-seal-01.cap, link-type EN10MB (Ethernet)
+    1103541634.053138 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [S], seq 2507797749, win 64240, options [mss 1460,nop,nop,sackOK], length 0
+    1103541634.053546 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [S.], seq 2116938212, ack 2507797750, win 64240, options [mss 1460,nop,nop,sackOK], length 0
+    1103541634.055718 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [.], ack 1, win 64240, length 0
+    1103541634.058384 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 1:352, ack 1, win 64240, length 351
+    1103541634.059344 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [.], seq 1:1461, ack 352, win 63889, length 1460
+    1103541634.059463 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 1461:2201, ack 352, win 63889, length 740
+    1103541634.061931 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [.], ack 2201, win 64240, length 0
+    1103541634.739853 IP 172.31.1.104.3118 > 172.31.1.101.88: 
+    1103541634.763602 IP 172.31.1.101.88 > 172.31.1.104.3118: 
+    1103541634.769640 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 352:1713, ack 2201, win 64240, length 1361
+    1103541634.784940 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 2201:2392, ack 1713, win 64240, length 191
+    1103541634.866413 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 1713:1815, ack 2392, win 64049, length 102
+    1103541634.867502 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [.], seq 2392:3852, ack 1815, win 64138, length 1460
+    1103541634.867613 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 3852:4921, ack 1815, win 64138, length 1069
+    1103541634.868121 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [.], ack 4921, win 64240, length 0
+    1103541634.869334 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 1815:1962, ack 4921, win 64240, length 147
+    1103541634.870170 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 4921:5099, ack 1962, win 63991, length 178
+    1103541634.870988 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 1962:2125, ack 5099, win 64062, length 163
+    1103541634.871494 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 5099:5954, ack 2125, win 63828, length 855
+    1103541634.872270 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 2125:2306, ack 5954, win 63207, length 181
+    1103541634.916866 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [.], seq 5954:7414, ack 2306, win 63647, length 1460
+    1103541634.916980 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [.], seq 7414:8874, ack 2306, win 63647, length 1460
+    1103541634.917056 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [.], seq 8874:10334, ack 2306, win 63647, length 1460
+    1103541634.917130 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 10334:11402, ack 2306, win 63647, length 1068
+    1103541634.918271 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [.], ack 11402, win 64240, length 0
+    1103541634.924121 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 2306:2484, ack 11402, win 64240, length 178
+    1103541634.925141 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 11402:11611, ack 2484, win 63469, length 209
+    1103541634.925920 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 2484:2696, ack 11611, win 64031, length 212
+    1103541634.926713 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 11611:12862, ack 2696, win 63257, length 1251
+    1103541634.927886 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 2696:2870, ack 12862, win 64240, length 174
+    1103541634.928513 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 12862:13053, ack 2870, win 63083, length 191
+    1103541634.929220 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 2870:3078, ack 13053, win 64049, length 208
+    1103541634.930274 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [.], seq 13053:14513, ack 3078, win 62875, length 1460
+    1103541634.930401 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 14513:15898, ack 3078, win 62875, length 1385
+    1103541634.930706 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [.], ack 15898, win 64240, length 0
+    1103541634.931883 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 3078:3242, ack 15898, win 64240, length 164
+    1103541634.932577 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 15898:16089, ack 3242, win 64240, length 191
+    1103541634.933296 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [P.], seq 3242:3406, ack 16089, win 64049, length 164
+    1103541634.933949 IP 172.31.1.101.389 > 172.31.1.104.3116: Flags [P.], seq 16089:16280, ack 3406, win 64076, length 191
+    1103541635.046572 IP 172.31.1.104.3116 > 172.31.1.101.389: Flags [.], ack 16280, win 63858, length 0
+```
+
+## un `.uml` se entiende un poco mas (o casi)
+
+Si tomamos esa misma captura y usamos `pcap2uml` la salida ya aporta cierta laridad a la conversación:
+
+``` {.plantuml exports="code"}
+
+title ldap-krb5-sign-seal-01.cap
+
+hide footbox
+participant "172.31.1.101" #a4c400
+participant "172.31.1.104" #60a917
+
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] searchRequest 213  ROOT  baseObject
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] searchResEntry 213  ROOT  | searchResDone 213 success  1 result 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [KRB5] TGS-REQ
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [KRB5] TGS-REP
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] bindRequest 215  ROOT  sasl
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] bindResponse 215 success
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+172.31.1.104 -[#60a917]> 172.31.1.101 : [LDAP] SASL GSS-API Integrity 
+172.31.1.101 -[#a4c400]> 172.31.1.104 : [LDAP] SASL GSS-API Integrity 
+```
+
+## ahora si se puede ver!
+
+Utilizando `plantuml` ^3[3] se puede convertir ese `.uml` en un bonito `.png` e incluso de ser muuuucho tráfico y muy grande la imagen resultante, se puede imprimir a lo grande y analizarla lejos del teclado.
+
+=> img/pcap2uml-ldap-krb5-sign-seal-01.png [IMG]
+[4]
+
+## ChangeLog
+
+* `2021-03-04 23:20`[5] agregar *Diagrama de Secuencia de Tráfico de Red* usando `pcap2uml`
+
+
+=> https://osiux.com/que-no-se-entere-nadie.html 1: https://osiux.com/que-no-se-entere-nadie.html
+=> https://gitlab.com/osiux/pcap2uml/ 2: https://gitlab.com/osiux/pcap2uml/
+=> https://plantuml.com/ 3: https://plantuml.com/
+=> file:img/pcap2uml-ldap-krb5-sign-seal-01.png 4: file:img/pcap2uml-ldap-krb5-sign-seal-01.png
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e37e74bd7aa895d091225e7251481b38f84ca6d6 5: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e37e74bd7aa895d091225e7251481b38f84ca6d6

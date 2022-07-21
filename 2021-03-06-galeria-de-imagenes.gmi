@@ -1,0 +1,27 @@
+# generar Galería de Imágenes
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2021-03-06 23:47
+
+## una loca idea
+
+Se me ocurrió que hay podría generar una *`Galería de Imágenes`*^1[1] buscando todas las imágenes de todos los *posts* y mostrarlos en una única página, obviamente con un *link* al *post*.
+
+## manos a la obra
+
+En principio, crear un *script bash* para hacerlo fue fácil, en apenas 10 minutos ya tengo una versión básica y funcional, pero seguramente voy a tener que trabajar un poco más en pulirla y lograr algo mas acabado.
+
+## resultado inmediato
+
+Lo importante es que esa local idea que tenía en mente, ahora puedo ver que se acerca bastante a lo que quería, poder llegar a un *post* a partir de una imagen, a veces se trata de un diagrama de red, de un grafo, de una captura de pantalla o de una foto (que a mi me trae recuerdos) que llama un poco más la atención para despertar la curiosidad de la historia detrás de esa imagen.
+
+## ChangeLog
+
+* `2021-03-07 08:27`[2] agregar *footnote* a Galería de Imágenes
+* `2021-03-06 23:11`[3] agregar *generar Galería de Imágenes*
+
+
+=> https://osiux.com/img.html 1: https://osiux.com/img.html
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2ecee3b9e38c5092a521b124a243c22968127c35 2: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2ecee3b9e38c5092a521b124a243c22968127c35
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0305b3d6ab14cadbf036f63508f5f48d93c0c702 3: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0305b3d6ab14cadbf036f63508f5f48d93c0c702

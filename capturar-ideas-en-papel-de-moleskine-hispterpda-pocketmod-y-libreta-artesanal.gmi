@@ -1,0 +1,214 @@
+# Capturar ideas en papel: de moleskine, hispterpda, pocketmod y libreta artesanal
+
+* AUTHOR: Osiris Alejandro Gomez
+* EMAIL: osiux@osiux.com
+* DATE: 2011-10-06 13:18
+
+## Capturando Ideas
+
+Muchas metodologías de gestión del tiempo coinciden en un paso escencial, capturas ideas lo antes posible y uno de los medios más efectivos, flexibles y más disponibles es el papel, por esto conviene siempre tener alguna especie de libreta a mano. Si bien hace tiempo es posible utilizar algún dispositivo electrónico, ninguno es tan versatil y maleable como el papel.
+
+=> tmb/libreta_artesanal/libreta_artesanal_11.jpg [IMG]
+[1]
+
+=> tmb/libreta_artesanal/libreta_artesanal_12.jpg [IMG]
+[2]
+
+=> tmb/libreta_artesanal/libreta_artesanal_13.jpg [IMG]
+[3]
+
+=> tmb/libreta_artesanal/libreta_artesanal_14.jpg [IMG]
+[4]
+
+Inicialmente cuando leía acerca del método GTD ^1[5], pase un buen rato eligiendo la mejor libreta para recopilar y en esa carrera terminé comprando una **moleskine** ^2[6], y antes de completarla ya había comprado otra libreta de similares características pero menor calidad y precio, luego tuve la suerte de perderlas para provisoriamente usar una muy barata libreta que en poco tiempo terminó por desarmarse (realmente era de mala calidad).
+
+## Alternativas a moleskine
+
+En la búsqueda de algo económico y práctico a la vez descubrí la **hispterPDA** ^3[7], que consta de varias hojas sostenidas por un clip, broche o incluso una banda elástica, tiene la ventaja de poder separar las hojas para tener una visión global, reorganizar e incluso archivar de maneras muy distintas. No encontré un clip que no lo perdiera y por lo que suelo registrar se escapaba a mis necesidades.
+
+Entonces dí con la **pocketmod** ^4[8] una idea fabulosa por su simplesa, tomar una hoja y dividirla en 8 partes y haciendo sólo dos cortes ya obtenés una mini-libreta lista para usar. Con esto jugué bastante, primero con los generadores web que incluyen calendarios, listas de tareas y varios templates.
+
+=> tmb/libreta_artesanal/libreta_pocketmod_01.jpg [IMG]
+[9]
+
+=> tmb/libreta_artesanal/libreta_pocketmod_02.jpg [IMG]
+[10]
+
+=> tmb/libreta_artesanal/libreta_pocketmod_03.jpg [IMG]
+[11]
+
+=> tmb/libreta_artesanal/libreta_pocketmod_04.jpg [IMG]
+[12]
+
+Como uso **Org-mode** ^5[13] decidí integrarlo a la **pocketmod**, intenté adaptar un script para **hispterpda** que extraía citas de **Org-mode** generando un PDF en formato **pocketmod** pero no me dió resultado, aunque de esa experiencia obtuve la experiencia de interactuar con el utilitario `pdfjam` ^6[14] que facilita la unión de distintos archivos pdf en uno solo.
+
+Decidido a obtener mi propio template de **pocketmod**, obté por hacer un par de archivos en ascii-art, incluyendo la salida del programa `cal` de consola, esto está disponible en un repositorio `git` ^7[15] y no son más que unos archivos en formato **reStructuredText** ^8[16].
+
+Cuando finalmente quedé conforme con el template y lo imprimí y empecé a usarlo vi rápidamente que estaba desaprovechando papel, la hoja A4 estaba siendo usada de una sola cara. Fui a una papelería y adquirí unas hojas de 120 gramos pensando en imprimir en doble faz, luego de hacerlo y plegarla vi que no resultaba cómoda y le di vueltas al asunto.
+
+Buscando maneras de encuadernar sin usar adhesivos vi varios ejemplos de plegado y observando una foto de un sitio web que no recuerdo obtuve una libreta que me gustó, aunque con el uso dejé de imprimir el template y generalmente uso las hojas en blanco.
+
+### Libreta Artesanal
+
+Usando una hoja A4 (210x297mm) el primer paso es doblarla en dos para luego nuevamente doblarla en dos.
+
+``` {.example}
++---------+---------+    +---------+---------+
+|         |         |    |         |         |
+|         |         |    |         |         |
+|         |         |    +---------+---------+
+|         |         |    |         |         |
+|         |         |    |         |         |
++---------+---------+    +---------+---------+
+
++----+----+---------+    +----+----+----+----+
+|    |    |         |    |    |    |    |    |
+|    |    |         |    |    |    |    |    |
++----+----+---------+    +----+----+----+----+
+|    |    |         |    |    |    |    |    |
+|    |    |         |    |    |    |    |    |
++----+----+---------+    +----+----+----+----+
+```
+
+Luego es necesario hacer 2 cortes, asi obtenemos 4 hojas A6 (148x105mm)
+
+``` {.example}
++----+----+----+----+    +----+----+  +----+----+
+|    |    |    |    |    |    |    |  |    |    |
+|    |    |    |    |    |    |    |  |    |    |
++----+----+----+----+    +----+----+  +----+----+
+
++----+----+----+----+    +----+----+  +----+----+
+|    |    |    |    |    |    |    |  |    |    |
+|    |    |    |    |    |    |    |  |    |    |
++----+----+----+----+    +----+----+  +----+----+
+```
+
+Ahora hacer 6 cortes de 5mm cada 15mm para la unión entre hojas
+
+``` {.example}
+ 15mm 15mm 15mm 15mm 15mm 15mm 15mm
++<-->+<-->+<-->+<-->+<-->+<-->+<-->+
+
+     1    2    3    4    5    6
++----+----+----+----+----+----+----+   +
+|    |    |    |    |    |    |    |   ^
+|                                  |   |
+|                                  |   |
+|                                  |   |
+|                                  |  148.5mm
+|                                  |   |
+|                                  |   |
+|                                  |   |
+|                                  |   v
++----------------------------------+   +
+
++<------------ 105mm ------------->+
+```
+
+Plegar hacia adentro los 3 segmentos interiores
+
+``` {.example}
++----+    +----+    +----+    +----+
+|    +----+    +----+    +----+    |
+|    +----+    +----+    +----+    |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
++----------------------------------+
+```
+
+Luego los mismos 3 segmentos hacia el otro lado
+
+``` {.example}
++----+    +----+    +----+    +----+
+|    +----+    +----+    +----+    |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
+|                                  |
++----------------------------------+
+```
+
+Finalmente apilar todas las hojas e introducir una varilla de madera de 2mm de diámetro.
+
+## Fotos Paso a Paso
+
+=> tmb/libreta_artesanal/libreta_artesanal_01.jpg [IMG]
+[17]
+
+=> tmb/libreta_artesanal/libreta_artesanal_02.jpg [IMG]
+[18]
+
+=> tmb/libreta_artesanal/libreta_artesanal_03.jpg [IMG]
+[19]
+
+=> tmb/libreta_artesanal/libreta_artesanal_04.jpg [IMG]
+[20]
+
+=> tmb/libreta_artesanal/libreta_artesanal_05.jpg [IMG]
+[21]
+
+=> tmb/libreta_artesanal/libreta_artesanal_06.jpg [IMG]
+[22]
+
+## También te puede interesar leer
+
+* *GTD Gething this Done*[23]
+* `todo.txt` `rst+org-mode`[24]
+
+## ChangeLog
+
+* `2021-02-06 19:16`[25] corrijo *links* y sintaxis, agrego *posts* relacionados
+* `2019-04-18 00:21`[26] Agregar hora en header date
+* `2019-04-18 00:01`[27] Corregir identación header #+INCLUDE:
+* `2015-07-03 04:31`[28] @ 00:05 hs - elimino #+OPTIONS: de todos los archivos excepto header.gmi
+* `2015-07-03 03:59`[29] @ 01:00 hs - reemplazo :alt por :title y cambios menores
+* `2015-06-30 05:58`[30] @ 01:00 hs - corrijo header.gmi para exportar individualmente y agrego posts a medio terminar
+* `2014-04-22 11:35`[31] @ 00:34 hs - Agrego timestamp:nil
+* `2013-06-21 02:36`[32] @ 00:40 hs - agrego imágenes libreta artesanal
+* `2013-04-24 08:04`[33] @ 01:50 hs - migro a org 8.0
+* `2013-03-14 13:40`[34] @ 01:34 hs - Correcciones y nuevo texto migrado de rst a org
+
+=> file:img/libreta_artesanal/libreta_artesanal_11.jpg 1: file:img/libreta_artesanal/libreta_artesanal_11.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_12.jpg 2: file:img/libreta_artesanal/libreta_artesanal_12.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_13.jpg 3: file:img/libreta_artesanal/libreta_artesanal_13.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_14.jpg 4: file:img/libreta_artesanal/libreta_artesanal_14.jpg
+=> https://es.wikipedia.gmi/wiki/GTD 5: https://es.wikipedia.gmi/wiki/GTD
+=> https://es.wikipedia.gmi/wiki/Moleskine 6: https://es.wikipedia.gmi/wiki/Moleskine
+=> https://secure.wikimedia.gmi/wikipedia/en/wiki/Hipster_PDA 7: https://secure.wikimedia.gmi/wikipedia/en/wiki/Hipster_PDA
+=> http://www.pocketmod.com/ 8: http://www.pocketmod.com/
+=> file:img/libreta_artesanal/libreta_pocketmod_01.jpg 9: file:img/libreta_artesanal/libreta_pocketmod_01.jpg
+=> file:img/libreta_artesanal/libreta_pocketmod_02.jpg 10: file:img/libreta_artesanal/libreta_pocketmod_02.jpg
+=> file:img/libreta_artesanal/libreta_pocketmod_03.jpg 11: file:img/libreta_artesanal/libreta_pocketmod_03.jpg
+=> file:img/libreta_artesanal/libreta_pocketmod_04.jpg 12: file:img/libreta_artesanal/libreta_pocketmod_04.jpg
+=> https://es.wikipedia.gmi/wiki/Org-mode 13: https://es.wikipedia.gmi/wiki/Org-mode
+=> http://freshmeat.net/projects/pdfjam/ 14: http://freshmeat.net/projects/pdfjam/
+=> https://gitlab.com/osiux/libretA7 15: https://gitlab.com/osiux/libretA7
+=> http://osiux.com/restructuredtext-texto-re-estructurado.txt 16: http://osiux.com/restructuredtext-texto-re-estructurado.txt
+=> file:img/libreta_artesanal/libreta_artesanal_01.jpg 17: file:img/libreta_artesanal/libreta_artesanal_01.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_02.jpg 18: file:img/libreta_artesanal/libreta_artesanal_02.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_03.jpg 19: file:img/libreta_artesanal/libreta_artesanal_03.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_04.jpg 20: file:img/libreta_artesanal/libreta_artesanal_04.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_05.jpg 21: file:img/libreta_artesanal/libreta_artesanal_05.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_06.jpg 22: file:img/libreta_artesanal/libreta_artesanal_06.jpg
+=> gtd-gething-this-done.gmi 23: gtd-gething-this-done.gmi
+=> todo-txt-rst+org-mode.gmi 24: todo-txt-rst+org-mode.gmi
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/399518e629348943bc32b98848a67e93d3d9f3ad 25: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/399518e629348943bc32b98848a67e93d3d9f3ad
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc 26: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b 27: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bbc3bbc728f2a3eeb4fe2e0a012ee5d8d613e3ef 28: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bbc3bbc728f2a3eeb4fe2e0a012ee5d8d613e3ef
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a2abb3b333c91e0d3c15ea9e93a21589bd4d86f7 29: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a2abb3b333c91e0d3c15ea9e93a21589bd4d86f7
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c4f35213a5ce601aacae9636dd28aa99c2925943 30: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c4f35213a5ce601aacae9636dd28aa99c2925943
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/74165280ffad770d1f8b8acbfa7f22b95459b52a 31: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/74165280ffad770d1f8b8acbfa7f22b95459b52a
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/71d89f5723e08d91fff52405fec01a9d00acbce5 32: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/71d89f5723e08d91fff52405fec01a9d00acbce5
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ad3755a3df07cdfbdc75d56cae06db2fee4b5f2 33: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ad3755a3df07cdfbdc75d56cae06db2fee4b5f2
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/69b41173759cd575222017d21c4ffc77554dc55a 34: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/69b41173759cd575222017d21c4ffc77554dc55a

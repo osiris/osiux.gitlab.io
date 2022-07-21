@@ -1,0 +1,68 @@
+``` {.example}
+┏━┓┏━┓╻╻ ╻╻ ╻
+┃ ┃┗━┓┃┃ ┃┏╋┛
+┗━┛┗━┛╹┗━┛╹ ╹
+```
+
+index[1] osiux[2] links[3] tty[4]
+
+# OSiUX
+
+* AUTHOR: Osiris Alejandro Gómez
+* EMAIL: osiux@osiux.com
+
+## `whoami`
+
+=> img/no-soy-un-pirata-compartir-es-bueno.jpg [IMG]
+
+Osiris Alejandro Gómez (a.k.a. OSiUX), es Programador y Administrador GNU/Linux. Socio de gcoop Cooperativa de Software Libre[5] y miembro de Altermundi[6] y BuenosAiresLibre[7], además colabora en USLA[8] (Usuarios de Software Libre de Argentina) y CaFeLUG[9] (Grupo de Usuarios GNU/Linux de la Capital Federal).
+
+## `.git`
+
+Los archivos `*.gmi` de este blog se encuentran en:
+
+* http://gitlab.com/osiux/osiux.gitlab.io[10]
+
+Se puede visualizar la versión generada en `.html` desde:
+
+* https://osiux.gitlab.io/[11]
+
+## `gpg`
+
+Mantener las conversaciones confidenciales hoy día es una tarea importante ante tanto logueo y registro de los medios de comunicación digitales.
+
+Si no sabés qué es **GPG**, lee el siguiente tutorial:
+
+* file:howto-gpg-gnu-pgp.gmi[12]
+
+### `signature`
+
+``` {.example}
+Osiris Alejandro Gomez (OSiUX) osiux@osiux.com
+DC4495D2 0D5DD544  FC1AF00F  B308A671 9237D36C
+https://www.osiux.com/ https://www.gcoop.coop/
+
+Osiris Alejandro Gomez (OSiRiS) osiris@gcoop.coop
+DC44 95D2 0D5D D544 FC1A F00F B308 A671 9237 D36C
+http://gcoop.coop | Cooperativa de Software Libre
+La Pampa 4395 CABA C1430BXU | (0054 11) 5254-7755
+```
+
+### `public key`
+
+https://pub.osiux.com/gpg/9237D36C.asc[13]
+
+
+=> index.gmi 1: index.gmi
+=> osiux.gmi 2: osiux.gmi
+=> links.gmi 3: links.gmi
+=> tty.gmi 4: tty.gmi
+=> http://gcoop.coop 5: http://gcoop.coop
+=> http://altermundi.net 6: http://altermundi.net
+=> http://buenosaireslibre.gmi 7: http://buenosaireslibre.gmi
+=> http://usla.gmi.ar 8: http://usla.gmi.ar
+=> http://cafelug.gmi.ar 9: http://cafelug.gmi.ar
+=> http://gitlab.com/osiux/osiux.gitlab.io 10: http://gitlab.com/osiux/osiux.gitlab.io
+=> https://osiux.gitlab.io/ 11: https://osiux.gitlab.io/
+=> howto-gpg-gnu-pgp.gmi 12: howto-gpg-gnu-pgp.gmi
+=> https://pub.osiux.com/gpg/9237D36C.asc 13: https://pub.osiux.com/gpg/9237D36C.asc
