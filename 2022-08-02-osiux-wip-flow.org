@@ -157,6 +157,7 @@ no deja de ser un =Work in Progress=, aunque incompleto me completa =<3=
 [fn:gcoop]      https://www.gcoop.coop/
 [fn:ley-linus]  https://es.wikipedia.org/wiki/Ley_de_Linus
 
+
 ** ChangeLog
 
-  - [[https://gitlab.com//osiux/osiux.gitlab.io/-/commit/0ea41748bf59981b916a5b684084ba86709f776b][=2022-08-02 01:04=]] liberar borrador OSiUX WiP Flow
+  - [[https://gitlab.com//osiux/osiux.gitlab.io/-/commit/bf3976eea3282d44624c331b6b47c60228626b89][=2022-08-02 01:39=]] liberar borrador OSiUX WiP Flow
