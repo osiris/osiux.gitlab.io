@@ -18,6 +18,9 @@
 * EMAIL: osiux@osiux.com
 
 ### 
+=> 2022-08-02-osiux-wip-flow.gmi OSiUX Work In Progress Flow
+
+### 
 => 2022-07-20-lists.sh-es-para-amantes-de-las-listas.gmi `lists.sh` es para amantes de las listas
 
 ### 
@@ -103,9 +106,6 @@
 
 ### 
 => 2021-02-26-30-dias-de-posts-por-la-birra.gmi 🍺🍺🍺 30 días de *posts* por la birra!
-
-### 
-=> 2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.gmi *no me acuerdo de nada... dejame en `pass`!*
 
 ## 
 => blog.gmi `blog`
