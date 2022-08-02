@@ -18,8 +18,8 @@ momento...
 
 Sin dudas el 2020 fue un año atípico para todo el planeta, yo no logré
 escribir al menos 1 /post/ en todo el año y por ello comencé el 2021 con
-un desafío compartido que dio muy buenos resultados por 2 meses y luego
-volví a abandonar una vez más mi /blog/... =:)=
+un =desafío compartido= [fn:30diasblog] que dio muy buenos resultados
+por 2 meses y luego volví a abandonar una vez más mi /blog/... =:)=
 
 ** /punteo de ideas/
 
@@ -51,8 +51,9 @@ como ="Developer vs SysAdmin GNU/Linux"= comprobé una vez más mi falta
 de disciplina y llegué a aceptar que ="amo el orden pero soy un caos"=
 
 El pegamento que une estas acciones es otro intento para completar las
-tareas (luego de /"fracasar"/ con /GTD/, /AutoFocus/, /SCRUM/, etc) pero
-esta vez pensando que en algún momento no voy a estar para continuar lo
+tareas (luego de /"fracasar"/ repetidamente con /GTD/ [fn:GTD],
+/AutoFocus/ [fn:autofocus], /SCRUM/ [fn:SCRUM], etc) pero esta vez
+pensando que en algún momento no voy a estar para continuar lo
 abandonado y con la esperanza de que alguien retome las tareas
 inconclusas o que al menos sirvan de inspiración o como guía de todo lo
 que esta mal =:P=
@@ -153,6 +154,10 @@ o de toda una comunidad!
 18 meses después que comencé este /post/ hoy termino de esbozarlo aunque
 no deja de ser un =Work in Progress=, aunque incompleto me completa =<3=
 
+[fn:30diasblog] [[file:2021-02-26-30-dias-de-posts-por-la-birra.org]]
+[fn:GTD]        [[file:gtd-gething-this-done.org]]
+[fn:autofocus]  http://markforster.squarespace.com/spanish/
+[fn:SCRUM]      https://proyectosagiles.org/que-es-scrum/
 [fn:unixway]    https://es.wikipedia.org/wiki/Filosofía_de_Unix
 [fn:gcoop]      https://www.gcoop.coop/
 [fn:ley-linus]  https://es.wikipedia.org/wiki/Ley_de_Linus
