@@ -21,8 +21,8 @@ momento...
 
 Sin dudas el 2020 fue un año atípico para todo el planeta, yo no logré
 escribir al menos 1 *post* en todo el año y por ello comencé el 2021 con
-un desafío compartido que dio muy buenos resultados por 2 meses y luego
-volví a abandonar una vez más mi *blog*... `:)`
+un `desafío compartido` [^1] que dio muy buenos resultados por 2 meses y
+luego volví a abandonar una vez más mi *blog*... `:)`
 
 ## *punteo de ideas*
 
@@ -54,11 +54,11 @@ como `"Developer vs SysAdmin GNU/Linux"` comprobé una vez más mi falta
 de disciplina y llegué a aceptar que `"amo el orden pero soy un caos"`
 
 El pegamento que une estas acciones es otro intento para completar las
-tareas (luego de *\"fracasar\"* con *GTD*, *AutoFocus*, *SCRUM*, etc)
-pero esta vez pensando que en algún momento no voy a estar para
-continuar lo abandonado y con la esperanza de que alguien retome las
-tareas inconclusas o que al menos sirvan de inspiración o como guía de
-todo lo que esta mal `:P`
+tareas (luego de *\"fracasar\"* repetidamente con *GTD* [^2],
+*AutoFocus* [^3], *SCRUM* [^4], etc) pero esta vez pensando que en algún
+momento no voy a estar para continuar lo abandonado y con la esperanza
+de que alguien retome las tareas inconclusas o que al menos sirvan de
+inspiración o como guía de todo lo que esta mal `:P`
 
 No estoy inventando nada nuevo, esto es solo un *remix* muy mezclado de
 todo lo aprendido, pero \"ordenado\" de otra manera, tal vez como una
@@ -113,7 +113,7 @@ Teniendo clara la tarea, el primer paso es automatizar, la premisa
 básica para delegar el conocimiento es contar al menos con un *script*
 que resuelva un problema de la manera mas automatizada posible, es decir
 una pieza de código limitada pero completamente funcional en resolver
-algo puntual a la `UNIX Way` [^1].
+algo puntual a la `UNIX Way` [^5].
 
 ## *Documento para Independizar*
 
@@ -124,11 +124,11 @@ terminamos gastando tiempo valioso en soporte técnico innecesario.
 ## *Libero para Visibilizar*
 
 De nada sirve contar con un programa muy *\"monono\"* que solo vive en
-mi `localhost`. Hace poco en *gcoop* [^2] me hicieron un *Merge Request*
+mi `localhost`. Hace poco en *gcoop* [^6] me hicieron un *Merge Request*
 de algo que ya había resuelto, pero que ni siquiera hice el *commit* y
 el problemita estaba ahí latente, bastó que alguien más se topara con él
 para intentar resolverlo y compartirlo, por este motivo me recordaron
-*la ley de Linus* [^3], `Libera rápido, libera
+*la ley de Linus* [^7], `Libera rápido, libera
 seguido`
 
 Además de compartir soluciones a problemas, liberar sirve para
@@ -158,11 +158,24 @@ no deja de ser un `Work in Progress`, aunque incompleto me completa `<3`
 
 ## ChangeLog
 
+-   [`2022-08-02 09:52`](https://gitlab.com//osiux/osiux.gitlab.io/-/commit/4aa5043ada468cb91f7756f6dda85c4fd4139223)
+reemplazar links internos por externos en referencias de
+`OSiUX WiP Flow`
+-   [`2022-08-02 09:40`](https://gitlab.com//osiux/osiux.gitlab.io/-/commit/198eeb2f93e0b5edea11e6f78f1bdefa20dbc9d0)
+agregar referencias en `OSiUX WiP Flow`
 -   [`2022-08-02 01:39`](https://gitlab.com//osiux/osiux.gitlab.io/-/commit/bf3976eea3282d44624c331b6b47c60228626b89)
 liberar borrador OSiUX WiP Flow
 
-[^1]: [https://es.wikipedia.org/wiki/Filosofía\_de\_Unix](https://es.wikipedia.org/wiki/Filosofía_de_Unix)
+[^1]: <https://osiux.com/2021-02-26-30-dias-de-posts-por-la-birra.html>
 
-[^2]: <https://www.gcoop.coop/>
+[^2]: <https://osiux.com/gtd-gething-this-done.html>
 
-[^3]: <https://es.wikipedia.org/wiki/Ley_de_Linus>
+[^3]: <http://markforster.squarespace.com/spanish/>
+
+[^4]: <https://proyectosagiles.org/que-es-scrum/>
+
+[^5]: [https://es.wikipedia.org/wiki/Filosofía\_de\_Unix](https://es.wikipedia.org/wiki/Filosofía_de_Unix)
+
+[^6]: <https://www.gcoop.coop/>
+
+[^7]: <https://es.wikipedia.org/wiki/Ley_de_Linus>
