@@ -8,7 +8,7 @@
 
 A principio del año 2021, en plenas vacaciones, como todos los años, reflexiono sobre qué espero hacer todo el año, ya desistí de titularlo *"objetivos"* porque en el fondo sé que me voy a desviar de lo *"planificado"* y por ello intento registrar un punteo de ideas que puedo desarrollarlas o abandonarlas, pero que están ahí para no ser olvidadas, esperando a que las continué de alguna manera en algún momento...
 
-Sin dudas el 2020 fue un año atípico para todo el planeta, yo no logré escribir al menos 1 *post* en todo el año y por ello comencé el 2021 con un desafío compartido que dio muy buenos resultados por 2 meses y luego volví a abandonar una vez más mi *blog*... `:)`
+Sin dudas el 2020 fue un año atípico para todo el planeta, yo no logré escribir al menos 1 *post* en todo el año y por ello comencé el 2021 con un `desafío compartido` ^1[1] que dio muy buenos resultados por 2 meses y luego volví a abandonar una vez más mi *blog*... `:)`
 
 ## *punteo de ideas*
 
@@ -32,7 +32,7 @@ Estas definiciones de acciones estuvieron latentes en mi mente y voy a intentar 
 
 Haciendo una suerte de revisionismo histórico sobre mis años de trabajo como `"Developer vs SysAdmin GNU/Linux"` comprobé una vez más mi falta de disciplina y llegué a aceptar que `"amo el orden pero soy un caos"`
 
-El pegamento que une estas acciones es otro intento para completar las tareas (luego de *"fracasar"* con *GTD*, *AutoFocus*, *SCRUM*, etc) pero esta vez pensando que en algún momento no voy a estar para continuar lo abandonado y con la esperanza de que alguien retome las tareas inconclusas o que al menos sirvan de inspiración o como guía de todo lo que esta mal `:P`
+El pegamento que une estas acciones es otro intento para completar las tareas (luego de *"fracasar"* repetidamente con *GTD* ^2[2], *AutoFocus* ^3[3], *SCRUM* ^4[4], etc) pero esta vez pensando que en algún momento no voy a estar para continuar lo abandonado y con la esperanza de que alguien retome las tareas inconclusas o que al menos sirvan de inspiración o como guía de todo lo que esta mal `:P`
 
 No estoy inventando nada nuevo, esto es solo un *remix* muy mezclado de todo lo aprendido, pero "ordenado" de otra manera, tal vez como una `"definición de terminado"` a obtener en solo 7 pasos. `:)`
 
@@ -66,7 +66,7 @@ Es vital contar con métricas para entender cómo funciona y dónde convendría 
 
 ## *Automatizo para Delegar*
 
-Teniendo clara la tarea, el primer paso es automatizar, la premisa básica para delegar el conocimiento es contar al menos con un *script* que resuelva un problema de la manera mas automatizada posible, es decir una pieza de código limitada pero completamente funcional en resolver algo puntual a la `UNIX Way` ^1[1].
+Teniendo clara la tarea, el primer paso es automatizar, la premisa básica para delegar el conocimiento es contar al menos con un *script* que resuelva un problema de la manera mas automatizada posible, es decir una pieza de código limitada pero completamente funcional en resolver algo puntual a la `UNIX Way` ^5[5].
 
 ## *Documento para Independizar*
 
@@ -74,7 +74,7 @@ Sin documentación básica nos atamos a nuestros desarrollos y no permite indepe
 
 ## *Libero para Visibilizar*
 
-De nada sirve contar con un programa muy *"monono"* que solo vive en mi `localhost`. Hace poco en *gcoop* ^2[2] me hicieron un *Merge Request* de algo que ya había resuelto, pero que ni siquiera hice el *commit* y el problemita estaba ahí latente, bastó que alguien más se topara con él para intentar resolverlo y compartirlo, por este motivo me recordaron *la ley de Linus* ^3[3], `Libera rápido, libera seguido`
+De nada sirve contar con un programa muy *"monono"* que solo vive en mi `localhost`. Hace poco en *gcoop* ^6[6] me hicieron un *Merge Request* de algo que ya había resuelto, pero que ni siquiera hice el *commit* y el problemita estaba ahí latente, bastó que alguien más se topara con él para intentar resolverlo y compartirlo, por este motivo me recordaron *la ley de Linus* ^7[7], `Libera rápido, libera seguido`
 
 Además de compartir soluciones a problemas, liberar sirve para visibilizar que se estuvo trabajando en resolver un problema o mejorar una solución, hacerla mas elegante y/o *"performante"*, pero por sobre todo sirve para tener un registro visible de a qué le estamos dedicando tiempo para no duplicar esfuerzos.
 
@@ -92,9 +92,17 @@ Para contrarrestar estas incoherencias, nada mejor que `Compartir la solución`,
 
 ## ChangeLog
 
-* `2022-08-02 01:39`[4] liberar borrador OSiUX WiP Flow
+* `2022-08-02 09:52`[8] reemplazar links internos por externos en referencias de `OSiUX WiP Flow`
+* `2022-08-02 09:40`[9] agregar referencias en `OSiUX WiP Flow`
+* `2022-08-02 01:39`[10] liberar borrador OSiUX WiP Flow
 
-=> %5Bhttps://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix%5D(https://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix) 1: %5Bhttps://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix%5D(https://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix)
-=> https://www.gcoop.coop/ 2: https://www.gcoop.coop/
-=> https://es.wikipedia.gmi/wiki/Ley_de_Linus 3: https://es.wikipedia.gmi/wiki/Ley_de_Linus
-=> https://gitlab.com//osiux/osiux.gitlab.io/-/commit/bf3976eea3282d44624c331b6b47c60228626b89 4: https://gitlab.com//osiux/osiux.gitlab.io/-/commit/bf3976eea3282d44624c331b6b47c60228626b89
+=> https://osiux.com/2021-02-26-30-dias-de-posts-por-la-birra.html 1: https://osiux.com/2021-02-26-30-dias-de-posts-por-la-birra.html
+=> https://osiux.com/gtd-gething-this-done.html 2: https://osiux.com/gtd-gething-this-done.html
+=> http://markforster.squarespace.com/spanish/ 3: http://markforster.squarespace.com/spanish/
+=> https://proyectosagiles.gmi/que-es-scrum/ 4: https://proyectosagiles.gmi/que-es-scrum/
+=> %5Bhttps://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix%5D(https://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix) 5: %5Bhttps://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix%5D(https://es.wikipedia.gmi/wiki/Filosof%C3%ADa_de_Unix)
+=> https://www.gcoop.coop/ 6: https://www.gcoop.coop/
+=> https://es.wikipedia.gmi/wiki/Ley_de_Linus 7: https://es.wikipedia.gmi/wiki/Ley_de_Linus
+=> https://gitlab.com//osiux/osiux.gitlab.io/-/commit/4aa5043ada468cb91f7756f6dda85c4fd4139223 8: https://gitlab.com//osiux/osiux.gitlab.io/-/commit/4aa5043ada468cb91f7756f6dda85c4fd4139223
+=> https://gitlab.com//osiux/osiux.gitlab.io/-/commit/198eeb2f93e0b5edea11e6f78f1bdefa20dbc9d0 9: https://gitlab.com//osiux/osiux.gitlab.io/-/commit/198eeb2f93e0b5edea11e6f78f1bdefa20dbc9d0
+=> https://gitlab.com//osiux/osiux.gitlab.io/-/commit/bf3976eea3282d44624c331b6b47c60228626b89 10: https://gitlab.com//osiux/osiux.gitlab.io/-/commit/bf3976eea3282d44624c331b6b47c60228626b89
