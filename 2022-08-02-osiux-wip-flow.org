@@ -164,7 +164,9 @@ no deja de ser un =Work in Progress=, aunque incompleto me completa =<3=
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com//osiux/osiux.gitlab.io/-/commit/4aa5043ada468cb91f7756f6dda85c4fd4139223][=2022-08-02 09:52=]] reemplazar links internos por externos en referencias de =OSiUX WiP Flow=
   - [[https://gitlab.com//osiux/osiux.gitlab.io/-/commit/198eeb2f93e0b5edea11e6f78f1bdefa20dbc9d0][=2022-08-02 09:40=]] agregar referencias en =OSiUX WiP Flow=
   - [[https://gitlab.com//osiux/osiux.gitlab.io/-/commit/bf3976eea3282d44624c331b6b47c60228626b89][=2022-08-02 01:39=]] liberar borrador OSiUX WiP Flow
