@@ -151,6 +151,8 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 => links.gmi::#+ezine `+ezine`
 
+=> links.gmi::#+fediverse `+fediverse`
+
 => links.gmi::#+ffox `+ffox`
 
 => links.gmi::#+filesystem `+filesystem`
@@ -198,6 +200,8 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 => links.gmi::#+inet `+inet`
 
 => links.gmi::#+iot `+iot`
+
+=> links.gmi::#+ipa `+ipa`
 
 => links.gmi::#+ipfs `+ipfs`
 
@@ -256,6 +260,8 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 => links.gmi::#+nsa `+nsa`
 
 => links.gmi::#+ntp `+ntp`
+
+=> links.gmi::#+ocr `+ocr`
 
 => links.gmi::#+offline `+offline`
 
@@ -453,155 +459,155 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ## Recents links
 
-### `2022-06-11` 
-=> https://www.gilesorr.com/wm/table.html The Comprehensive List of Window Managers for Unix
+### `2022-07-23` 
+=> https://jstutter.netlify.app/#220721-writing-my-phd-using-groff Joshua Stutter
 
-=> links.gmi::#+unix `+unix`
+=> links.gmi::#+pdf `+pdf`
 
-### `2022-06-11` 
-=> https://smallstep.com/blog/if-openssl-were-a-gui/ If OpenSSL were a GUI
+### `2022-07-23` 
+=> https://hpjansson.gmi/blag/2022/07/23/gnome-at-25-a-health-checkup/ GNOME at 25: A Health Checkup - Et tu, Cthulhu
 
-=> links.gmi::#+ssl `+ssl`
+=> links.gmi::#+community `+community`
 
-### `2022-06-11` 
-=> https://skarnet.gmi/software/skalibs/djblegacy.html skalibs: the djb legacy
-
-=> links.gmi::#+dev `+dev`
-
-### `2022-06-11` 
-=> https://github.com/codic12/worm A dynamic, tag-based window manager written in Nim
-
-=> links.gmi::#+x11 `+x11`
-
-### `2022-06-11` 
-=> https://coding.napolux.com/signs-its-time-to-leave-your-company/ Signs it&#8217;s time to leave your company - On Coding
-
-=> links.gmi::#+dev `+dev`
-
-### `2022-06-10` 
-=> http://www.alwaysownyourplatform.com/ Always Own Your Platform
-
-=> links.gmi::#+sysadmin `+sysadmin`
-
-### `2022-06-10` 
-=> https://www.zainrizvi.io/blog/why-software-engineers-like-woodworking/ Why Software Engineers like Woodworking
-
-=> links.gmi::#+dev `+dev`
-
-### `2022-06-10` 
-=> https://sergionajera.com/dont-think-of-price-think-of-cost-per-use Dont Think Of Price Think Of Cost Per Use
-
-=> links.gmi::#+readme `+readme`
-
-### `2022-06-10` 
-=> https://nolanlawson.com/2022/06/09/the-collapse-of-complex-software/ The collapse of complex software | Read the Tea Leaves
-
-=> links.gmi::#+dev `+dev`
-
-### `2022-06-10` 
-=> https://news.ycombinator.com/item?id=31681234 Ask HN: I miss Usenet. Are there any modern equivalents? | Hacker News
-
-=> links.gmi::#+retro `+retro`
-
-### `2022-06-10` 
-=> https://github.com/Hypfer/Valetudo Open source cloud replacement for vacuum robots enabling local-only operation
-
-=> links.gmi::#+dev `+dev`
-
-### `2022-06-10` 
-=> https://blog.sigstore.dev/introducing-gitsign-9fd3f1b682aa https://blog.sigstore.dev/introducing-gitsign-9fd3f1b682aa
+### `2022-07-23` 
+=> https://github.com/hpjansson/fornalder Visualize long-term trends in collections of Git repositories.
 
 => links.gmi::#+git `+git`
 
-### `2022-06-08` 
-=> https://hexwords.netlify.app/ #HEXWORDS
+### `2022-07-23` 
+=> https://drmaciver.substack.com/p/task-estimation-101 How to think about task estimation - by David R. MacIver
 
-=> links.gmi::#+css `+css`
+=> links.gmi::#+org `+org`
 
-### `2022-06-07` 
-=> https://shkspr.mobi/blog/2022/06/ive-locked-myself-out-of-my-digital-life/ I&#8217;ve locked myself out of my digital life - Terence Eden's Blog
+### `2022-07-22` 
+=> https://github.com/StevenBlack/hosts 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
 
-=> links.gmi::#+security `+security`
+=> links.gmi::#+dns `+dns`
 
-### `2022-06-06` 
-=> https://z.digitalclouds.dev/community/zsh_handbook/ 🔤 Zsh Native Scripting Handbook | ❮ ZI ❯
-
-=> links.gmi::#+tty `+tty`
-
-### `2022-06-06` 
-=> http://akkartik.name/lines.html Plain text. With lines.
-
-=> links.gmi::#+txt `+txt`
-
-### `2022-06-05` 
-=> https://pboyd.io/posts/screw-ups/ The day I wiped a production database table
-
-=> links.gmi::#+sql `+sql`
-
-### `2022-06-05` 
-=> https://joel.net/how-one-guy-ruined-hacktoberfest2020-drama How One Guy Ruined #Hacktoberfest2020 #Drama
-
-=> links.gmi::#+hack `+hack`
-
-### `2022-06-05` 
-=> https://github.com/plantuml-stdlib/C4-PlantUML C4-PlantUML combines the benefits of PlantUML and the C4 model for providing a simple way of describing and communicate software architectures
-
-=> links.gmi::#+viz `+viz`
-
-### `2022-06-05` 
-=> https://github.com/metalbear-co/mirrord mirrord lets you easily mirror traffic from your production environment to your development environment.
-
-=> links.gmi::#+docker `+docker`
-
-### `2022-06-05` 
-=> https://github.com/jwilk/abmagick abuse ImageMagick (or GraphicsMagick) to create arbitrary files
-
-=> links.gmi::#+tty `+tty`
-
-### `2022-06-05` 
-=> https://github.com/junegunn/fzf.vim fzf vim
-
-=> links.gmi::#+vim `+vim`
-
-### `2022-06-05` 
-=> https://gadgettendency.com/an-enthusiast-turned-a-nokia-1680-feature-phone-into-a-linux-computer-with-a-working-screen-and-keyboard/ An Enthusiast Turned A Nokia 1680 Feature Phone Into A Linux Computer With A Working Screen And Keyboard - Gadget Tendency
-
-=> links.gmi::#+linux `+linux`
-
-### `2022-06-05` 
-=> https://blog.apnic.net/2022/05/24/tcpls-modern-transport-services-with-tcp-and-tls/ TCPLS: Modern Transport Services with TCP and TLS | APNIC Blog
-
-=> links.gmi::#+inet `+inet`
-
-### `2022-06-05` 
-=> https://alexanderell.is/posts/sneaking-notifications/ I only care about the helpful notifications, not the promotional ones . Caffeinspiration
-
-=> links.gmi::#+dev `+dev`
-
-### `2022-06-04` 
-=> https://rr-project.gmi/ rr: lightweight recording & deterministic debugging
-
-=> links.gmi::#+dev `+dev`
-
-### `2022-06-04` 
-=> https://prithu.dev/posts/unix-pipeline/ The beauty of Unix pipelines
-
-=> links.gmi::#+tty `+tty`
-
-### `2022-06-04` 
-=> https://mobile.twitter.com/ehn/status/1533016975999393793 https://mobile.twitter.com/ehn/status/1533016975999393793
-
-=> links.gmi::#+copyleft `+copyleft`
-
-### `2022-06-04` 
-=> https://github.com/PiRogueToolSuite/pirogue-os OS image for the PiRogue based on RaspberryPi OS
+### `2022-07-22` 
+=> https://github.com/pimox/pimox7 Proxmox V7 for Raspberry Pi
 
 => links.gmi::#+pi `+pi`
 
-### `2022-06-04` 
-=> https://github.com/Genymobile/scrcpy Display and control your Android device
+### `2022-07-21` 
+=> https://www.randorisec.fr/crack-linux-firewall/ CVE-2022-34918 A crack in the Linux firewall
 
-=> links.gmi::#+apk `+apk`
+=> links.gmi::#+CVE `+CVE`
+
+### `2022-07-21` 
+=> https://unixsheikh.com/articles/the-delusions-of-debian.html The delusions of debian
+
+=> links.gmi::#+deb `+deb`
+
+### `2022-07-21` 
+=> https://mtlynch.io/tinypilot-redesign/ I Regret my $46k Website Redesign · mtlynch.io
+
+=> links.gmi::#+design `+design`
+
+### `2022-07-21` 
+=> https://lethain.com/how-to-estimate-disk-space/ How to estimate disk space. | Irrational Exuberance
+
+=> links.gmi::#+filesystem `+filesystem`
+
+### `2022-07-21` 
+=> https://jvns.ca/blog/2022/07/20/pseudoterminals/ What happens when you press a key in your terminal?
+
+=> links.gmi::#+tty `+tty`
+
+### `2022-07-21` 
+=> https://github.com/supabase/pg_jsonschema PostgreSQL extension providing JSON Schema validation
+
+=> links.gmi::#+postgresql `+postgresql`
+
+### `2022-07-21` 
+=> https://github.com/grafana/scribe A tool for building elaborate CI pipelines using a familiar programming language
+
+=> links.gmi::#+devops `+devops`
+
+### `2022-07-21` 
+=> https://endler.dev/2017/yes/ A Little Story About the `yes` Unix Command | Matthias Endler
+
+=> links.gmi::#+tty `+tty`
+
+### `2022-07-21` 
+=> https://emacs.stackexchange.com/questions/48646/how-can-i-use-the-options-broken-links-option-to-ignore-broken-links-in-a-s org mode - How can I use the #+OPTIONS: broken-links: option to ignore broken links, in a specific way? - Emacs Stack Exchange
+
+=> links.gmi::#+org `+org`
+
+### `2022-07-20` 
+=> https://tech.marksblogg.com/pretty-maps-in-python.html Pretty Maps in Python
+
+=> links.gmi::#+python `+python`
+
+### `2022-07-20` 
+=> https://flipperzero.one/ Flipper Zero --- Portable Multi-tool Device for Geeks
+
+=> links.gmi::#+openhard `+openhard`
+
+### `2022-07-20` 
+=> https://beej.us/guide/ Beej's Guides
+
+=> links.gmi::#+dev `+dev`
+
+### `2022-07-20` 
+=> https://asciiflow.com/ ASCIIFlow
+
+=> links.gmi::#+asciiart `+asciiart`
+
+### `2022-07-19` 
+=> https://lists.sh/ lists.sh -- a microblog for lists
+
+=> links.gmi::#+minimalist `+minimalist`
+
+### `2022-07-19` 
+=> https://gitea.nulo.in/Sutty/gemini Sutty/gemini - gemini - cat /dev/null
+
+=> links.gmi::#+gmi `+gmi`
+
+### `2022-07-18` 
+=> https://lock.cmpxchg8b.com/wordperfect.html WordPerfect for UNIX
+
+=> links.gmi::#+retro `+retro`
+
+### `2022-07-18` 
+=> https://github.com/xslendix/postbash An API tester writter in bash
+
+=> links.gmi::#+bash `+bash`
+
+### `2022-07-18` 
+=> https://github.com/ivanmaeder/vimv Rename a list of files using a text editor
+
+=> links.gmi::#+vim `+vim`
+
+### `2022-07-17` 
+=> https://prose.sh/ prose.sh -- a blog platform for hackers
+
+=> links.gmi::#+minimalist `+minimalist`
+
+### `2022-07-17` 
+=> https://git.sr.ht/~erock/prose.sh ~erock/prose.sh - sourcehut git
+
+=> links.gmi::#+md `+md`
+
+### `2022-07-17` 
+=> https://github.com/tylertreat/comcast Simulating shitty network connections so you can build better systems.
+
+=> links.gmi::#+sysadmin `+sysadmin`
+
+### `2022-07-17` 
+=> https://github.com/miniscruff/changie Automated changelog tool for preparing releases with lots of customization options
+
+=> links.gmi::#+git `+git`
+
+### `2022-07-17` 
+=> https://danpla.github.io/dpscreenocr/ dpScreenOCR
+
+=> links.gmi::#+ocr `+ocr`
+
+### `2022-07-17` 
+=> https://citizen428.net/blog/self-hosting-static-site-openbsd-httpd-relayd/ Self-hosting a static site with OpenBSD, httpd, and relayd - citizen428.net
+
+=> links.gmi::#+bsd `+bsd`
 
 ## `+3d` {#+3d}
 
@@ -709,6 +715,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-05-21` 
 => https://nvlabs.github.io/nvdiffrec/ Extracting Triangular 3D Models, Materials, and Lighting From Images
+
+### `2022-06-25` 
+=> https://www.brachiograph.art/index.html BrachioGraph 0.1 documentation
 
 ## `+accesibility` {#+accesibility}
 
@@ -992,6 +1001,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-05-25` 
 => https://elists.isoc.gmi/pipermail/internet-history/2021-January/006912.html ih History of 127/8 as localhost/loopback addresses?
 
+### `2022-06-30` 
+=> http://www.catb.gmi/jargon/html/magic-story.html A Story About 'Magic'
+
 ## `+arduino` {#+arduino}
 
 ### `2021-05-11` 
@@ -1038,6 +1050,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2021-08-01` 
 => https://play.ertdfgcvb.xyz/ Play
 
+### `2022-06-27` 
+=> https://blog.regehr.gmi/archives/1653 Explaining Code using ASCII Art - Embedded in Academia
+
+### `2022-07-20` 
+=> https://asciiflow.com/ ASCIIFlow
+
 ## `+asciiart` {#+asciiart}
 
 ### `2019-05-30` 
@@ -1075,6 +1093,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2021-08-01` 
 => https://play.ertdfgcvb.xyz/ Play
+
+### `2022-06-27` 
+=> https://blog.regehr.gmi/archives/1653 Explaining Code using ASCII Art - Embedded in Academia
+
+### `2022-07-20` 
+=> https://asciiflow.com/ ASCIIFlow
 
 ## `+audio` {#+audio}
 
@@ -1152,6 +1176,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-04-09` 
 => https://www.ctrl.blog/entry/apple-music-nullbytes.html The 0,5 MB of nothing in all Apple Music files
+
+### `2022-07-07` 
+=> https://musicforprogramming.net/latest/ https://musicforprogramming.net/latest/
+
+### `2022-07-09` 
+=> https://github.com/ZaneH/piano-trainer 🎹 Memorize piano scales with ease! A music practice program w/ MIDI support. Consider it an interactive reference manual
 
 ## `+autofs` {#+autofs}
 
@@ -1252,6 +1282,18 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-05-29` 
 => https://github.com/restic/restic Fast, secure, efficient backup program
+
+### `2022-07-07` 
+=> https://blog.lenny.ninja/zrepl-on-rsync-net.html zrepl on rsync.net
+
+### `2022-07-12` 
+=> https://docs.observium.gmi/persistent_ramdisk/ Persistent RAM disk - Observium
+
+### `2022-07-12` 
+=> https://gitlab.com/jamesdawson1995/persist James Dawson / persist · GitLab
+
+### `2022-07-12` 
+=> https://www.a-netz.de/blog/2013/02/persistent-storage-with-ramdisks.html Persistent storage with ramdisks
 
 ## `+bash` {#+bash}
 
@@ -1390,6 +1432,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-05-09` 
 => https://www.tyil.nl/post/2022/05/07/configuring-my-machines-with-bashtard/ Configuring my Machines with Bashtard - Tyil
 
+### `2022-07-01` 
+=> https://github.com/bashbox/bashbox Bashbox is a wannabe bash compiler which aims to help create modular and maintainable bash projects. With added native beautification, formatting, optimization and syntax/error checking/handling(stack-trace) of bash-scripts in pure bash.
+
+### `2022-07-18` 
+=> https://github.com/xslendix/postbash An API tester writter in bash
+
 ## `+bbs` {#+bbs}
 
 ### `2021-12-26` 
@@ -1450,6 +1498,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-01-21` 
 => https://www.exoticsilicon.com/crystal/pinephone_openbsd ExoticSilicon.com - Crystal installs OpenBSD on the Pinephone
 
+### `2022-07-14` 
+=> https://justine.lol/pledge/ Porting OpenBSD pledge() to Linux
+
+### `2022-07-17` 
+=> https://citizen428.net/blog/self-hosting-static-site-openbsd-httpd-relayd/ Self-hosting a static site with OpenBSD, httpd, and relayd - citizen428.net
+
 ## `+bugs` {#+bugs}
 
 ### `2019-11-10` 
@@ -1508,6 +1562,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2021-08-27` 
 => https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1 the~futureofdpy~.md · GitHub
+
+### `2022-07-15` 
+=> https://lwn.net/SubscriberLink/900953/44823d451920e233/ "Critical" projects and volunteer maintainers LWN.net
+
+### `2022-07-23` 
+=> https://hpjansson.gmi/blag/2022/07/23/gnome-at-25-a-health-checkup/ GNOME at 25: A Health Checkup - Et tu, Cthulhu
 
 ## `+coop` {#+coop}
 
@@ -1659,6 +1719,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-06-04` 
 => https://mobile.twitter.com/ehn/status/1533016975999393793 https://mobile.twitter.com/ehn/status/1533016975999393793
+
+### `2022-06-27` 
+=> https://danb.me/blog/posts/misrepresenting-open-source/ Misrepresenting Open Source for Business Benefit . Danb Blog
+
+### `2022-07-01` 
+=> https://www.theregister.com/2022/06/30/software_freedom_conservancy_quits_github/ Open source body quits GitHub, urges you to do the same • The Register
 
 ## `+covid19` {#+covid19}
 
@@ -2107,6 +2173,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-03-08` 
 => https://dirtypipe.cm4all.com/ The Dirty Pipe Vulnerability - The Dirty Pipe Vulnerability documentation
 
+### `2022-06-30` 
+=> https://www.kb.cert.gmi/vuls/id/473698 https://www.kb.cert.gmi/vuls/id/473698
+
+### `2022-07-21` 
+=> https://www.randorisec.fr/crack-linux-firewall/ CVE-2022-34918 A crack in the Linux firewall
+
 ## `+cyberpunk` {#+cyberpunk}
 
 ### `2020-01-06` 
@@ -2141,6 +2213,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-02-07` 
 => http://moyix.blogspot.com/2022/02/on-building-30k-debian-packages.html Push the Red Button: On Building 30K Debian Packages
+
+### `2022-07-21` 
+=> https://unixsheikh.com/articles/the-delusions-of-debian.html The delusions of debian
 
 ## `+deduplication` {#+deduplication}
 
@@ -2273,6 +2348,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-06-04` 
 => https://derekyu.com/makegames/pixelart2.html PIXEL ART: COMMON MISTAKES
+
+### `2022-07-21` 
+=> https://mtlynch.io/tinypilot-redesign/ I Regret my $46k Website Redesign · mtlynch.io
 
 ## `+dev` {#+dev}
 
@@ -2909,6 +2987,27 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-11` 
 => https://skarnet.gmi/software/skalibs/djblegacy.html skalibs: the djb legacy
 
+### `2022-06-16` 
+=> http://shvbsle.in/computers-are-fast-but-you-dont-know-it-p1/ http://shvbsle.in/computers-are-fast-but-you-dont-know-it-p1/
+
+### `2022-07-04` 
+=> https://blog.adacore.com/i-cant-believe-that-i-can-prove-that-it-can-sort I can't believe that I can prove that it can sort | The AdaCore Blog
+
+### `2022-07-04` 
+=> https://github.com/idcmardelplata/functional-programming-jargon/ Jargon from the functional programming world in simple terms!
+
+### `2022-07-09` 
+=> https://github.com/wibyweb/wiby Wiby Search Engine
+
+### `2022-07-10` 
+=> https://stackoverflow.blog/2022/07/06/why-perl-is-still-relevant-in-2022/ Why Perl is still relevant in 2022 - Stack Overflow Blog
+
+### `2022-07-14` 
+=> https://github.com/Permify/permify Permify is an open-source authorization service &amp; policy engine based on Google Zanzibar.
+
+### `2022-07-20` 
+=> https://beej.us/guide/ Beej's Guides
+
 ### `2020-05-01` 
 => https://github.com/openshift/odo odo - Developer-focused CLI for OpenShift and Kubernetes
 
@@ -2941,6 +3040,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-04-26` 
 => https://nts.strzibny.name/one-year-of-sales/ One year of sales
+
+### `2022-06-26` 
+=> https://leebriggs.co.uk/blog/2022/06/21/devops-is-a-failure DevOps is a failure | lbr.
+
+### `2022-07-21` 
+=> https://github.com/grafana/scribe A tool for building elaborate CI pipelines using a familiar programming language
 
 ## `+devops` {#+devops}
 
@@ -2976,6 +3081,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-04-26` 
 => https://nts.strzibny.name/one-year-of-sales/ One year of sales
+
+### `2022-06-26` 
+=> https://leebriggs.co.uk/blog/2022/06/21/devops-is-a-failure DevOps is a failure | lbr.
+
+### `2022-07-21` 
+=> https://github.com/grafana/scribe A tool for building elaborate CI pipelines using a familiar programming language
 
 ## `+dhcp` {#+dhcp}
 
@@ -3120,6 +3231,15 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-02-01` 
 => https://lsd.gnunet.gmi/lsd0001/ The GNU Name System
+
+### `2022-06-11` 
+=> https://www.dns.toys/ Useful utilities and toys over DNS
+
+### `2022-07-14` 
+=> https://shkspr.mobi/blog/2022/07/dns-esoterica-why-you-cant-dig-switzerland/ DNS Esoterica - Why you can&#8217;t dig Switzerland - Terence Eden's Blog
+
+### `2022-07-22` 
+=> https://github.com/StevenBlack/hosts 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.
 
 ## `+docker` {#+docker}
 
@@ -3336,6 +3456,15 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-05` 
 => https://github.com/metalbear-co/mirrord mirrord lets you easily mirror traffic from your production environment to your development environment.
 
+### `2022-07-14` 
+=> https://memgraph.com/blog/ship-it-on-arm64-or-is-it-aarch64 Ship it on ARM64! Or is it AARCH64?
+
+### `2022-07-16` 
+=> https://github.com/rapidfort/community-images RapidFort hardened secure images
+
+### `2022-07-16` 
+=> https://medium.com/@codervinod/i-deleted-78-of-my-redis-container-and-it-still-works-df8310a3a007 I deleted 78% of my Redis container image and it still works | by Vinod Gupta | Jun, 2022 | Medium
+
 ## `+dotfiles` {#+dotfiles}
 
 ### `2019-10-23` 
@@ -3515,6 +3644,11 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2021-03-21` 
 => https://files.awknode.com/zines/ awknode - Files
 
+## `+fediverse` {#+fediverse}
+
+### `2022-06-12` 
+=> https://github.com/LemmyNet/lemmy/ 🐀 Building a federated link aggregator in rust
+
 ## `+ffox` {#+ffox}
 
 ### `2021-10-11` 
@@ -3551,6 +3685,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-04-26` 
 => https://github.com/spacedriveapp Spacedrive · GitHub
+
+### `2022-07-21` 
+=> https://lethain.com/how-to-estimate-disk-space/ How to estimate disk space. | Irrational Exuberance
 
 ## `+firefox` {#+firefox}
 
@@ -3721,6 +3858,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-01-21` 
 => https://github.com/JetBrains/JetBrainsMono JetBrains Mono -- the free and open-source typeface for developers
+
+### `2022-07-09` 
+=> https://www.programmingfonts.gmi/ Programming Fonts - Test Drive
 
 ## `+game` {#+game}
 
@@ -4084,6 +4224,18 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-10` 
 => https://blog.sigstore.dev/introducing-gitsign-9fd3f1b682aa https://blog.sigstore.dev/introducing-gitsign-9fd3f1b682aa
 
+### `2022-07-07` 
+=> https://github.com/gogitdb/gitdb Distributed Embeddable Database
+
+### `2022-07-17` 
+=> https://agateau.com/2022/your-git-log-is-not-a-changelog/ Your git log is not a changelog! | agateau.com
+
+### `2022-07-17` 
+=> https://github.com/miniscruff/changie Automated changelog tool for preparing releases with lots of customization options
+
+### `2022-07-23` 
+=> https://github.com/hpjansson/fornalder Visualize long-term trends in collections of Git repositories.
+
 ### `2019-04-05` 
 => https://gitlab.com/pages/emacs-reveal GitLab Pages examples / emacs-reveal Â· GitLab
 
@@ -4171,6 +4323,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2021-11-20` 
 => https://github.com/MasterQ32/kristall Graphical small-internet client for windows, linux, MacOS X and BSDs. Supports gemini, http, https, gopher, finger.
+
+### `2022-07-19` 
+=> https://gitea.nulo.in/Sutty/gemini Sutty/gemini - gemini - cat /dev/null
 
 ## `+gnome` {#+gnome}
 
@@ -4505,6 +4660,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-05-19` 
 => https://http.cat/ HTTP Cats
 
+### `2022-06-16` 
+=> https://justine.lol/redbean2/ redbean 2.0 release notes
+
 ## `+i18n` {#+i18n}
 
 ### `2019-06-19` 
@@ -4592,6 +4750,14 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2021-11-25` 
 => https://blog.toit.io/the-toit-language-is-now-open-source-14bdcb1604d9 https://blog.toit.io/the-toit-language-is-now-open-source-14bdcb1604d9
+
+## `+ipa` {#+ipa}
+
+### `2022-06-24` 
+=> https://freeipa.readthedocs.io/en/latest/index.html Welcome to FreeIPA's documentation! - FreeIPA 4.9-dev documentation
+
+### `2022-06-24` 
+=> https://github.com/freeipa/freeipa Mirror of FreeIPA, an integrated security information management solution
 
 ## `+ipfs` {#+ipfs}
 
@@ -4898,6 +5064,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-05-21` 
 => https://github.com/sealerio/sealer A tool to seal application's all dependencies and Kubernetes into CloudImage, distribute this application anywhere via CloudImage, and run it within any cluster in one command.
 
+### `2022-06-20` 
+=> https://matt-rickard.com/dont-use-kubernetes-yet/ Don't Use Kubernetes, Yet
+
 ## `+kernel` {#+kernel}
 
 ### `2019-10-04` 
@@ -5071,6 +5240,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-05` 
 => https://gadgettendency.com/an-enthusiast-turned-a-nokia-1680-feature-phone-into-a-linux-computer-with-a-working-screen-and-keyboard/ An Enthusiast Turned A Nokia 1680 Feature Phone Into A Linux Computer With A Working Screen And Keyboard - Gadget Tendency
 
+### `2022-06-26` 
+=> https://manybutfinite.com/post/what-does-an-idle-cpu-do/ What does an idle CPU do? | Many But Finite
+
+### `2022-07-04` 
+=> https://blog.maxgio.me/posts/linux-scheduler-journey/ A journey into the Linux scheduler | Maxgio's blog
+
 ## `+localhost` {#+localhost}
 
 ### `2020-01-09` 
@@ -5116,6 +5291,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-03-13` 
 => https://convey.earth/conversation?id=51&amp;ref=hn Convey
+
+### `2022-07-01` 
+=> https://guicommits.com/how-to-log-in-python-like-a-pro/ How to Python Logging 🐍🌴
 
 ## `+make` {#+make}
 
@@ -5176,6 +5354,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2021-12-26` 
 => https://github.com/marktext/marktext 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
+
+### `2022-07-17` 
+=> https://git.sr.ht/~erock/prose.sh ~erock/prose.sh - sourcehut git
 
 ## `+minify` {#+minify}
 
@@ -5239,6 +5420,15 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 => https://bestmotherfucking.website/ Best Motherfucking Website
 
 ### `2022-04-27` 
+=> https://lists.sh/ lists.sh -- a microblog for lists
+
+### `2022-07-04` 
+=> https://book.micro.blog/ Indie Microblogging
+
+### `2022-07-17` 
+=> https://prose.sh/ prose.sh -- a blog platform for hackers
+
+### `2022-07-19` 
 => https://lists.sh/ lists.sh -- a microblog for lists
 
 ## `+monitor` {#+monitor}
@@ -5428,6 +5618,15 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-05-14` 
 => https://www.servethehome.com/zfs-without-a-server-using-the-nvidia-bluefield-2-dpu-nvme-arm-aic-iscsi/ ZFS without a Server Using the NVIDIA BlueField-2 DPU
 
+### `2022-06-20` 
+=> https://benoitessiambre.com/macro.html Benoit Essiambre
+
+### `2022-06-28` 
+=> https://www.thestarwarstrilogy.com/project-4k77/ Project 4K77 | The Star Wars Trilogy
+
+### `2022-07-04` 
+=> https://letsavelectricity.com/how-to-calculate-power-consumption-of-any-appliance/ How To Calculate Power Consumption Of Any Appliance - Lets Save Electricity
+
 ## `+nfs` {#+nfs}
 
 ### `2019-06-03` 
@@ -5476,6 +5675,11 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2019-08-07` 
 => https://blog.segu-info.com.ar/2019/08/argentina-establece-la-regulacion-de-la.html Argentina establece la regulaciÃ³n de la Hora Oficial en entornos electrÃ³nicos ~ Segu-Info
+
+## `+ocr` {#+ocr}
+
+### `2022-07-17` 
+=> https://danpla.github.io/dpscreenocr/ dpScreenOCR
 
 ## `+offline` {#+offline}
 
@@ -5546,6 +5750,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-05-29` 
 => https://www.home-assistant.io/blog/2022/05/16/home-assistant-os-release-8/ Home Assistant OS Release 8 - Home Assistant
+
+### `2022-07-20` 
+=> https://flipperzero.one/ Flipper Zero --- Portable Multi-tool Device for Geeks
 
 ## `+org` {#+org}
 
@@ -5978,6 +6185,19 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-05-31` 
 => https://todool.handmade.network/ Todool | Handmade Network
 
+### `2022-06-20` 
+=> https://sive.rs/1s writing one sentence per line | Derek Sivers
+
+### `2022-06-25` 
+=> https://users.speakeasy.net/~lion/nb/html/ book
+{#book}
+
+### `2022-07-21` 
+=> https://emacs.stackexchange.com/questions/48646/how-can-i-use-the-options-broken-links-option-to-ignore-broken-links-in-a-s org mode - How can I use the #+OPTIONS: broken-links: option to ignore broken links, in a specific way? - Emacs Stack Exchange
+
+### `2022-07-23` 
+=> https://drmaciver.substack.com/p/task-estimation-101 How to think about task estimation - by David R. MacIver
+
 ## `+os` {#+os}
 
 ### `2019-08-01` 
@@ -6052,6 +6272,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2021-09-12` 
 => https://github.com/pdfarranger/pdfarranger.git Small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface
 
+### `2022-07-23` 
+=> https://jstutter.netlify.app/#220721-writing-my-phd-using-groff Joshua Stutter
+
 ## `+perf` {#+perf}
 
 ### `2019-03-31` 
@@ -6119,6 +6342,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-06-03` 
 => https://blog.flant.com/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor/ Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes - Flant blog
+
+### `2022-06-25` 
+=> https://danluu.com/octopress-speedup/ Speeding up this site by 50x
 
 ## `+phishing` {#+phishing}
 
@@ -6428,6 +6654,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-04` 
 => https://github.com/PiRogueToolSuite/pirogue-os OS image for the PiRogue based on RaspberryPi OS
 
+### `2022-07-14` 
+=> https://geoffg.net/picomite.html Geoff's Projects - BASIC Interpreter for the Raspberry Pi Pico
+
+### `2022-07-22` 
+=> https://github.com/pimox/pimox7 Proxmox V7 for Raspberry Pi
+
 ## `+postfix` {#+postfix}
 
 ### `2019-07-29` 
@@ -6479,6 +6711,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-04-21` 
 => https://pganalyze.com/blog/how-postgres-chooses-index How Postgres Chooses Which Index To Use For A Query
+
+### `2022-07-11` 
+=> https://blog.rustprooflabs.com/2022/07/postgres-15-unique-improvement-with-null Postgres 15 improves UNIQUE and NULL - Blog @ RustProof Labs
+
+### `2022-07-21` 
+=> https://github.com/supabase/pg_jsonschema PostgreSQL extension providing JSON Schema validation
 
 ## `+print` {#+print}
 
@@ -6774,6 +7012,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-04-17` 
 => https://mjg59.dreamwidth.gmi/59479.html mjg59 | The Freedom Phone is not great at privacy
+
+### `2022-06-20` 
+=> https://musings.tychi.me/the-case-for-unique-email-addresses The Case for Unique Email Addresses - Musings
 
 ## `+proxy` {#+proxy}
 
@@ -7096,6 +7337,18 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-02` 
 => https://github.com/joshiemoore/snakeware A free Linux distro with a Python-based userspace
 
+### `2022-06-26` 
+=> https://roman.pt/posts/dont-let-dicts-spoil-your-code/ https://roman.pt/posts/dont-let-dicts-spoil-your-code/
+
+### `2022-07-02` 
+=> https://wesmckinney.com/book/ Python for Data Analysis, 3E
+
+### `2022-07-16` 
+=> https://chriswarrick.com/blog/2018/07/17/pipenv-promises-a-lot-delivers-very-little/ Pipenv: promises a lot, delivers very little | Chris Warrick
+
+### `2022-07-20` 
+=> https://tech.marksblogg.com/pretty-maps-in-python.html Pretty Maps in Python
+
 ## `+qr` {#+qr}
 
 ### `2020-04-19` 
@@ -7124,6 +7377,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-01-21` 
 => https://www.androidpolice.com/google-camera-randomly-changes-some-qr-code-urls-on-android-12/ Google Camera update fixes issue that randomly changed QR code URLs on Android 12
+
+### `2022-07-12` 
+=> https://blog.jgc.gmi/2022/07/guest-wifi-using-qr-code.html?m=1 jgc.gmi blog: Guest WiFi using a QR code
 
 ## `+r` {#+r}
 
@@ -7234,6 +7490,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-06-10` 
 => https://sergionajera.com/dont-think-of-price-think-of-cost-per-use Dont Think Of Price Think Of Cost Per Use
+
+### `2022-06-12` 
+=> https://www.devever.net/~hl/ruthlessness Computers are an inherently oppressive technology
 
 ### `2019-05-09` 
 => https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image Introducing the Red Hat Universal Base Image
@@ -7496,6 +7755,15 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-10` 
 => https://news.ycombinator.com/item?id=31681234 Ask HN: I miss Usenet. Are there any modern equivalents? | Hacker News
 
+### `2022-07-01` 
+=> http://www.brutman.com/mTCP/mTCP.html mTCP TCP/IP applications for DOS PCs
+
+### `2022-07-14` 
+=> https://atari8.co.uk/gui/ GUI | Atari8
+
+### `2022-07-18` 
+=> https://lock.cmpxchg8b.com/wordperfect.html WordPerfect for UNIX
+
 ### `2019-07-08` 
 => https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/ 10 tips for reviewing code you don't like - Red Hat Developer
 
@@ -7546,6 +7814,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2021-03-18` 
 => https://console.dev/qa/rsync-john-kozubik/ Q&amp;A with John Kozubik, rsync.net - Console
+
+### `2022-07-02` 
+=> https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work/ rsync, article 3: How does rsync work? - Michael Stapelberg
 
 ### `2020-03-18` 
 => https://en.m.wikipedia.gmi/wiki/1%25_rule_(Internet_culture) 1% rule (Internet culture) - Wikipedia
@@ -7667,6 +7938,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-06-10` 
 => https://sergionajera.com/dont-think-of-price-think-of-cost-per-use Dont Think Of Price Think Of Cost Per Use
+
+### `2022-06-12` 
+=> https://www.devever.net/~hl/ruthlessness Computers are an inherently oppressive technology
 
 ## `+redhat` {#+redhat}
 
@@ -7937,6 +8211,15 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-10` 
 => https://news.ycombinator.com/item?id=31681234 Ask HN: I miss Usenet. Are there any modern equivalents? | Hacker News
 
+### `2022-07-01` 
+=> http://www.brutman.com/mTCP/mTCP.html mTCP TCP/IP applications for DOS PCs
+
+### `2022-07-14` 
+=> https://atari8.co.uk/gui/ GUI | Atari8
+
+### `2022-07-18` 
+=> https://lock.cmpxchg8b.com/wordperfect.html WordPerfect for UNIX
+
 ## `+review` {#+review}
 
 ### `2019-07-08` 
@@ -8003,6 +8286,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2021-03-18` 
 => https://console.dev/qa/rsync-john-kozubik/ Q&amp;A with John Kozubik, rsync.net - Console
+
+### `2022-07-02` 
+=> https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work/ rsync, article 3: How does rsync work? - Michael Stapelberg
 
 ## `+rules` {#+rules}
 
@@ -8324,6 +8610,24 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-07` 
 => https://shkspr.mobi/blog/2022/06/ive-locked-myself-out-of-my-digital-life/ I&#8217;ve locked myself out of my digital life - Terence Eden's Blog
 
+### `2022-06-20` 
+=> https://decoded.avast.io/davidalvarez/linux-threat-hunting-syslogk-a-kernel-rootkit-found-under-development-in-the-wild/ Linux Threat Hunting: 'Syslogk' a kernel rootkit found under development in the wild - Avast Threat Labs
+
+### `2022-06-26` 
+=> https://github.com/evilsocket/opensnitch OpenSnitch is a GNU/Linux port of the Little Snitch application firewall
+
+### `2022-07-01` 
+=> https://github.com/ffuf/ffuf Fast web fuzzer written in Go
+
+### `2022-07-10` 
+=> https://github.com/cloudflare/gokey A simple vaultless password manager in Go
+
+### `2022-07-15` 
+=> https://github.com/TomCools/rickroll-security-spring-boot-starter This Spring Boot Starter will reroute configured paths to a video of Rick Astley - Never Gonna Give You Up.
+
+### `2022-07-16` 
+=> https://bestpractices.coreinfrastructure.gmi/en BadgeApp
+
 ## `+seo` {#+seo}
 
 ### `2020-12-25` 
@@ -8635,6 +8939,27 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-06-05` 
 => https://pboyd.io/posts/screw-ups/ The day I wiped a production database table
+
+### `2022-06-22` 
+=> https://til.simonwillison.net/sqlite/one-line-csv-operations One-liner for running queries against CSV files with SQLite | Simon Willison's TILs
+
+### `2022-06-25` 
+=> https://github.com/x2bool/xlite SQLite extension to query Excel (.xlsx, .xls, .ods) files as virtual tables
+
+### `2022-06-27` 
+=> https://architecturenotes.co/things-you-should-know-about-databases/ Things You Should Know About Databases
+
+### `2022-06-27` 
+=> https://github.com/prql/prql PRQL is a modern language for transforming data --- a simple, powerful, pipelined SQL replacement
+
+### `2022-07-10` 
+=> https://github.com/Qovery/Replibyte Seed your development database with real data ⚡️
+
+### `2022-07-16` 
+=> https://github.com/cube2222/octosql OctoSQL is a query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL.
+
+### `2022-07-16` 
+=> https://github.com/gazette/core Build platforms that flexibly mix SQL, batch, and stream processing paradigms
 
 ## `+ssh` {#+ssh}
 
@@ -9231,6 +9556,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-10` 
 => http://www.alwaysownyourplatform.com/ Always Own Your Platform
 
+### `2022-07-17` 
+=> https://github.com/tylertreat/comcast Simulating shitty network connections so you can build better systems.
+
 ## `+tag` {#+tag}
 
 ### `2022-02-19` 
@@ -9281,6 +9609,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-01-15` 
 => https://stackoverflow.blog/2022/01/03/favor-real-dependencies-for-unit-testing/ Favor real dependencies for unit testing - Stack Overflow Blog
+
+### `2022-06-20` 
+=> https://zhd.dev/sufficiently/ Sufficiently Advanced Testing
+
+### `2022-07-10` 
+=> https://sourceless.gmi/posts/the-continuous-delivery-test.html Sourceless - The Continuous Delivery Test
 
 ## `+tld` {#+tld}
 
@@ -9895,6 +10229,42 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-06` 
 => https://z.digitalclouds.dev/community/zsh_handbook/ 🔤 Zsh Native Scripting Handbook | ❮ ZI ❯
 
+### `2022-06-20` 
+=> https://changelog.complete.gmi/archives/10388-pipes-deadlocks-and-strace-annoyingly-fixing-them Pipes, deadlocks, and strace annoyingly fixing them | The Changelog
+
+### `2022-06-20` 
+=> https://drewdevault.com/2022/06/20/Himitsu.html Introducing the Himitsu keyring &amp; password manager for Unix
+
+### `2022-06-20` 
+=> https://github.com/smmr-software/mabel A fancy BitTorrent client for the terminal
+
+### `2022-06-20` 
+=> https://utcc.utoronto.ca/~cks/space/blog/linux/TextAndFramebufferConsoles Chris's Wiki :: blog/linux/TextAndFramebufferConsoles
+
+### `2022-06-23` 
+=> https://rhodesmill.gmi/brandon/2009/commands-with-comma/ Start all of your commands with a comma
+
+### `2022-06-25` 
+=> https://github.com/timvisee/ffsend Easily and securely share files from the command line. A fully featured Firefox Send client.
+
+### `2022-06-27` 
+=> https://nixsanctuary.com/best-linux-hardware-system-info-commands/ Best Linux Commands For Advanced Hardware and System Info
+
+### `2022-07-09` 
+=> https://github.com/letientai299/7guis/tree/master/tui 7guis/tui at master · letientai299/7guis · GitHub
+
+### `2022-07-16` 
+=> https://github.com/mgunyho/tere Terminal file explorer
+
+### `2022-07-17` 
+=> https://charm.sh/ Charm
+
+### `2022-07-21` 
+=> https://endler.dev/2017/yes/ A Little Story About the `yes` Unix Command | Matthias Endler
+
+### `2022-07-21` 
+=> https://jvns.ca/blog/2022/07/20/pseudoterminals/ What happens when you press a key in your terminal?
+
 ## `+txt` {#+txt}
 
 ### `2021-02-25` 
@@ -10038,6 +10408,15 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-11` 
 => https://www.gilesorr.com/wm/table.html The Comprehensive List of Window Managers for Unix
 
+### `2022-06-16` 
+=> https://github.com/dspinellis/unix-history-repo Continuous Unix commit history from 1970 until today
+
+### `2022-06-26` 
+=> https://computeradsfromthepast.substack.com/p/interactive-unix Interactive UNIX - by John Paul Wohlscheid
+
+### `2022-07-16` 
+=> https://utcc.utoronto.ca/~cks/space/blog/unix/ExecAndShebangHistory Chris's Wiki :: blog/unix/ExecAndShebangHistory
+
 ## `+unknown` {#+unknown}
 
 ### `2019-04-08` 
@@ -10169,9 +10548,6 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-03-03` 
 => https://colin-scott.github.io/personal_website/research/interactive_latency.html Numbers Every Programmer Should Know By Year
 
-### `2022-05-19` 
-=> https://github.com/pikasTech/pikascript An ultra-lightweight Python engine that can run with 4KB of RAM and 32KB of Flash (such as STM32G030C8 and STM32F103C8), and is very easy to deploy and expand.
-
 ## `+upnp` {#+upnp}
 
 ### `2021-11-27` 
@@ -10245,6 +10621,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-02-09` 
 => https://sethmlarson.dev/blog/utf-8 How does UTF-8 turn "😂" into "F09F9882"?
+
+### `2022-07-14` 
+=> https://www.dampfkraft.com/ghost-characters.html A Spectre is Haunting Unicode
 
 ## `+util` {#+util}
 
@@ -10487,6 +10866,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 ### `2022-06-05` 
 => https://github.com/junegunn/fzf.vim fzf vim
 
+### `2022-07-09` 
+=> https://www.vimified.com/ Learn Vim the Simple Way
+
+### `2022-07-18` 
+=> https://github.com/ivanmaeder/vimv Rename a list of files using a text editor
+
 ## `+virtual` {#+virtual}
 
 ### `2019-04-10` 
@@ -10637,6 +11022,12 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-06-05` 
 => https://github.com/plantuml-stdlib/C4-PlantUML C4-PlantUML combines the benefits of PlantUML and the C4 model for providing a simple way of describing and communicate software architectures
+
+### `2022-06-13` 
+=> https://towardsdatascience.com/best-practices-for-visualizing-your-cluster-results-20a3baac7426 https://towardsdatascience.com/best-practices-for-visualizing-your-cluster-results-20a3baac7426
+
+### `2022-07-01` 
+=> https://bost.ocks.gmi/mike/algorithms/ Visualizing Algorithms
 
 ## `+vnc` {#+vnc}
 
@@ -10822,6 +11213,9 @@ Este es un listado de *URLs* de sitios que me interesa compartir. Las categoría
 
 ### `2022-05-14` 
 => https://macwright.com/2020/08/22/clean-starts-for-the-web.html A clean start for the web - macwright.com
+
+### `2022-07-15` 
+=> https://ccampbell.io/posts/10-percent-of-top-million-sites-are-dead/ 10% of the Top 1 Million Sites are Dead . Craig Campbell
 
 ## `+wifi` {#+wifi}
 
