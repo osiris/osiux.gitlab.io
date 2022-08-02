@@ -1,6 +1,6 @@
 ---
 title: OSiUX links
-date: 2022-07-18
+date: 2022-08-02
 author: Osiris Alejandro Gómez osiux@osiux.com
 ---
 
@@ -48,7 +48,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 [`+emacs`](links.org::#+emacs) [`+email`](links.org::#+email)
 [`+env`](links.org::#+env) [`+epub`](links.org::#+epub)
 [`+exploit`](links.org::#+exploit) [`+ezine`](links.org::#+ezine)
-[`+ffox`](links.org::#+ffox) [`+filesystem`](links.org::#+filesystem)
+[`+fediverse`](links.org::#+fediverse) [`+ffox`](links.org::#+ffox)
+[`+filesystem`](links.org::#+filesystem)
 [`+firefox`](links.org::#+firefox) [`+firejail`](links.org::#+firejail)
 [`+firmware`](links.org::#+firmware) [`+font`](links.org::#+font)
 [`+game`](links.org::#+game) [`+git`](links.org::#+git)
@@ -60,12 +61,12 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 [`+http`](links.org::#+http) [`+i18n`](links.org::#+i18n)
 [`+iascode`](links.org::#+iascode) [`+ietf`](links.org::#+ietf)
 [`+inet`](links.org::#+inet) [`+iot`](links.org::#+iot)
-[`+ipfs`](links.org::#+ipfs) [`+isp`](links.org::#+isp)
-[`+ispconfig`](links.org::#+ispconfig) [`+jitsi`](links.org::#+jitsi)
-[`+js`](links.org::#+js) [`+json`](links.org::#+json)
-[`+k8s`](links.org::#+k8s) [`+kernel`](links.org::#+kernel)
-[`+ldap`](links.org::#+ldap) [`+leak`](links.org::#+leak)
-[`+librerouter`](links.org::#+librerouter)
+[`+ipa`](links.org::#+ipa) [`+ipfs`](links.org::#+ipfs)
+[`+isp`](links.org::#+isp) [`+ispconfig`](links.org::#+ispconfig)
+[`+jitsi`](links.org::#+jitsi) [`+js`](links.org::#+js)
+[`+json`](links.org::#+json) [`+k8s`](links.org::#+k8s)
+[`+kernel`](links.org::#+kernel) [`+ldap`](links.org::#+ldap)
+[`+leak`](links.org::#+leak) [`+librerouter`](links.org::#+librerouter)
 [`+linux`](links.org::#+linux) [`+localhost`](links.org::#+localhost)
 [`+log`](links.org::#+log) [`+make`](links.org::#+make)
 [`+man`](links.org::#+man) [`+md`](links.org::#+md)
@@ -76,14 +77,15 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 [`+nerd`](links.org::#+nerd) [`+nfs`](links.org::#+nfs)
 [`+nix`](links.org::#+nix) [`+node`](links.org::#+node)
 [`+nsa`](links.org::#+nsa) [`+ntp`](links.org::#+ntp)
-[`+offline`](links.org::#+offline) [`+openhard`](links.org::#+openhard)
-[`+org`](links.org::#) [`+os`](links.org::#+os)
-[`+outage`](links.org::#+outage) [`+p2p`](links.org::#+p2p)
-[`+packages`](links.org::#+packages) [`+papers`](links.org::#+papers)
-[`+pcb`](links.org::#+pcb) [`+pdf`](links.org::#+pdf)
-[`+perf`](links.org::#+perf) [`+phishing`](links.org::#+phishing)
-[`+photos`](links.org::#+photos) [`+php`](links.org::#+php)
-[`+pi`](links.org::#+pi) [`+postfix`](links.org::#+postfix)
+[`+ocr`](links.org::#+ocr) [`+offline`](links.org::#+offline)
+[`+openhard`](links.org::#+openhard) [`+org`](links.org::#)
+[`+os`](links.org::#+os) [`+outage`](links.org::#+outage)
+[`+p2p`](links.org::#+p2p) [`+packages`](links.org::#+packages)
+[`+papers`](links.org::#+papers) [`+pcb`](links.org::#+pcb)
+[`+pdf`](links.org::#+pdf) [`+perf`](links.org::#+perf)
+[`+phishing`](links.org::#+phishing) [`+photos`](links.org::#+photos)
+[`+php`](links.org::#+php) [`+pi`](links.org::#+pi)
+[`+postfix`](links.org::#+postfix)
 [`+postgresql`](links.org::#+postgresql) [`+print`](links.org::#+print)
 [`+privacy`](links.org::#+privacy) [`+proxy`](links.org::#+proxy)
 [`+pve`](links.org::#+pve) [`+python`](links.org::#+python)
@@ -128,65 +130,65 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ## Recents links
 
-### `2022-06-11` [The Comprehensive List of Window Managers for Unix](https://www.gilesorr.com/wm/table.html) [`+unix`](links.org::#+unix)
+### `2022-07-23` [Joshua Stutter](https://jstutter.netlify.app/#220721-writing-my-phd-using-groff) [`+pdf`](links.org::#+pdf)
 
-### `2022-06-11` [If OpenSSL were a GUI](https://smallstep.com/blog/if-openssl-were-a-gui/) [`+ssl`](links.org::#+ssl)
+### `2022-07-23` [GNOME at 25: A Health Checkup - Et tu, Cthulhu](https://hpjansson.org/blag/2022/07/23/gnome-at-25-a-health-checkup/) [`+community`](links.org::#+community)
 
-### `2022-06-11` [skalibs: the djb legacy](https://skarnet.org/software/skalibs/djblegacy.html) [`+dev`](links.org::#+dev)
+### `2022-07-23` [Visualize long-term trends in collections of Git repositories.](https://github.com/hpjansson/fornalder) [`+git`](links.org::#+git)
 
-### `2022-06-11` [A dynamic, tag-based window manager written in Nim](https://github.com/codic12/worm) [`+x11`](links.org::#+x11)
+### `2022-07-23` [How to think about task estimation - by David R. MacIver](https://drmaciver.substack.com/p/task-estimation-101) [`+org`](links.org::#+org)
 
-### `2022-06-11` [Signs it&\#8217;s time to leave your company - On Coding](https://coding.napolux.com/signs-its-time-to-leave-your-company/) [`+dev`](links.org::#+dev)
+### `2022-07-22` [🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.](https://github.com/StevenBlack/hosts) [`+dns`](links.org::#+dns)
 
-### `2022-06-10` [Always Own Your Platform](http://www.alwaysownyourplatform.com/) [`+sysadmin`](links.org::#+sysadmin)
+### `2022-07-22` [Proxmox V7 for Raspberry Pi](https://github.com/pimox/pimox7) [`+pi`](links.org::#+pi)
 
-### `2022-06-10` [Why Software Engineers like Woodworking](https://www.zainrizvi.io/blog/why-software-engineers-like-woodworking/) [`+dev`](links.org::#+dev)
+### `2022-07-21` [CVE-2022-34918 A crack in the Linux firewall](https://www.randorisec.fr/crack-linux-firewall/) [`+CVE`](links.org::#+CVE)
 
-### `2022-06-10` [Dont Think Of Price Think Of Cost Per Use](https://sergionajera.com/dont-think-of-price-think-of-cost-per-use) [`+readme`](links.org::#+readme)
+### `2022-07-21` [The delusions of debian](https://unixsheikh.com/articles/the-delusions-of-debian.html) [`+deb`](links.org::#+deb)
 
-### `2022-06-10` [The collapse of complex software \| Read the Tea Leaves](https://nolanlawson.com/2022/06/09/the-collapse-of-complex-software/) [`+dev`](links.org::#+dev)
+### `2022-07-21` [I Regret my \$46k Website Redesign · mtlynch.io](https://mtlynch.io/tinypilot-redesign/) [`+design`](links.org::#+design)
 
-### `2022-06-10` [Ask HN: I miss Usenet. Are there any modern equivalents? \| Hacker News](https://news.ycombinator.com/item?id=31681234) [`+retro`](links.org::#+retro)
+### `2022-07-21` [How to estimate disk space. \| Irrational Exuberance](https://lethain.com/how-to-estimate-disk-space/) [`+filesystem`](links.org::#+filesystem)
 
-### `2022-06-10` [Open source cloud replacement for vacuum robots enabling local-only operation](https://github.com/Hypfer/Valetudo) [`+dev`](links.org::#+dev)
+### `2022-07-21` [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/) [`+tty`](links.org::#+tty)
 
-### `2022-06-10` <https://blog.sigstore.dev/introducing-gitsign-9fd3f1b682aa> [`+git`](links.org::#+git)
+### `2022-07-21` [PostgreSQL extension providing JSON Schema validation](https://github.com/supabase/pg_jsonschema) [`+postgresql`](links.org::#+postgresql)
 
-### `2022-06-08` [\#HEXWORDS](https://hexwords.netlify.app/) [`+css`](links.org::#+css)
+### `2022-07-21` [A tool for building elaborate CI pipelines using a familiar programming language](https://github.com/grafana/scribe) [`+devops`](links.org::#+devops)
 
-### `2022-06-07` [I&\#8217;ve locked myself out of my digital life - Terence Eden's Blog](https://shkspr.mobi/blog/2022/06/ive-locked-myself-out-of-my-digital-life/) [`+security`](links.org::#+security)
+### `2022-07-21` [A Little Story About the \`yes\` Unix Command \| Matthias Endler](https://endler.dev/2017/yes/) [`+tty`](links.org::#+tty)
 
-### `2022-06-06` [🔤 Zsh Native Scripting Handbook \| ❮ ZI ❯](https://z.digitalclouds.dev/community/zsh_handbook/) [`+tty`](links.org::#+tty)
+### `2022-07-21` [org mode - How can I use the \#+OPTIONS: broken-links: option to ignore broken links, in a specific way? - Emacs Stack Exchange](https://emacs.stackexchange.com/questions/48646/how-can-i-use-the-options-broken-links-option-to-ignore-broken-links-in-a-s) [`+org`](links.org::#+org)
 
-### `2022-06-06` [Plain text. With lines.](http://akkartik.name/lines.html) [`+txt`](links.org::#+txt)
+### `2022-07-20` [Pretty Maps in Python](https://tech.marksblogg.com/pretty-maps-in-python.html) [`+python`](links.org::#+python)
 
-### `2022-06-05` [The day I wiped a production database table](https://pboyd.io/posts/screw-ups/) [`+sql`](links.org::#+sql)
+### `2022-07-20` [Flipper Zero --- Portable Multi-tool Device for Geeks](https://flipperzero.one/) [`+openhard`](links.org::#+openhard)
 
-### `2022-06-05` [How One Guy Ruined \#Hacktoberfest2020 \#Drama](https://joel.net/how-one-guy-ruined-hacktoberfest2020-drama) [`+hack`](links.org::#+hack)
+### `2022-07-20` [Beej\'s Guides](https://beej.us/guide/) [`+dev`](links.org::#+dev)
 
-### `2022-06-05` [C4-PlantUML combines the benefits of PlantUML and the C4 model for providing a simple way of describing and communicate software architectures](https://github.com/plantuml-stdlib/C4-PlantUML) [`+viz`](links.org::#+viz)
+### `2022-07-20` [ASCIIFlow](https://asciiflow.com/) [`+asciiart`](links.org::#+asciiart)
 
-### `2022-06-05` [mirrord lets you easily mirror traffic from your production environment to your development environment.](https://github.com/metalbear-co/mirrord) [`+docker`](links.org::#+docker)
+### `2022-07-19` [lists.sh -- a microblog for lists](https://lists.sh/) [`+minimalist`](links.org::#+minimalist)
 
-### `2022-06-05` [abuse ImageMagick (or GraphicsMagick) to create arbitrary files](https://github.com/jwilk/abmagick) [`+tty`](links.org::#+tty)
+### `2022-07-19` [Sutty/gemini - gemini - cat /dev/null](https://gitea.nulo.in/Sutty/gemini) [`+gmi`](links.org::#+gmi)
 
-### `2022-06-05` [fzf vim](https://github.com/junegunn/fzf.vim) [`+vim`](links.org::#+vim)
+### `2022-07-18` [WordPerfect for UNIX](https://lock.cmpxchg8b.com/wordperfect.html) [`+retro`](links.org::#+retro)
 
-### `2022-06-05` [An Enthusiast Turned A Nokia 1680 Feature Phone Into A Linux Computer With A Working Screen And Keyboard - Gadget Tendency](https://gadgettendency.com/an-enthusiast-turned-a-nokia-1680-feature-phone-into-a-linux-computer-with-a-working-screen-and-keyboard/) [`+linux`](links.org::#+linux)
+### `2022-07-18` [An API tester writter in bash](https://github.com/xslendix/postbash) [`+bash`](links.org::#+bash)
 
-### `2022-06-05` [TCPLS: Modern Transport Services with TCP and TLS \| APNIC Blog](https://blog.apnic.net/2022/05/24/tcpls-modern-transport-services-with-tcp-and-tls/) [`+inet`](links.org::#+inet)
+### `2022-07-18` [Rename a list of files using a text editor](https://github.com/ivanmaeder/vimv) [`+vim`](links.org::#+vim)
 
-### `2022-06-05` [I only care about the helpful notifications, not the promotional ones . Caffeinspiration](https://alexanderell.is/posts/sneaking-notifications/) [`+dev`](links.org::#+dev)
+### `2022-07-17` [prose.sh -- a blog platform for hackers](https://prose.sh/) [`+minimalist`](links.org::#+minimalist)
 
-### `2022-06-04` [rr: lightweight recording & deterministic debugging](https://rr-project.org/) [`+dev`](links.org::#+dev)
+### `2022-07-17` [\~erock/prose.sh - sourcehut git](https://git.sr.ht/~erock/prose.sh) [`+md`](links.org::#+md)
 
-### `2022-06-04` [The beauty of Unix pipelines](https://prithu.dev/posts/unix-pipeline/) [`+tty`](links.org::#+tty)
+### `2022-07-17` [Simulating shitty network connections so you can build better systems.](https://github.com/tylertreat/comcast) [`+sysadmin`](links.org::#+sysadmin)
 
-### `2022-06-04` <https://mobile.twitter.com/ehn/status/1533016975999393793> [`+copyleft`](links.org::#+copyleft)
+### `2022-07-17` [Automated changelog tool for preparing releases with lots of customization options](https://github.com/miniscruff/changie) [`+git`](links.org::#+git)
 
-### `2022-06-04` [OS image for the PiRogue based on RaspberryPi OS](https://github.com/PiRogueToolSuite/pirogue-os) [`+pi`](links.org::#+pi)
+### `2022-07-17` [dpScreenOCR](https://danpla.github.io/dpscreenocr/) [`+ocr`](links.org::#+ocr)
 
-### `2022-06-04` [Display and control your Android device](https://github.com/Genymobile/scrcpy) [`+apk`](links.org::#+apk)
+### `2022-07-17` [Self-hosting a static site with OpenBSD, httpd, and relayd - citizen428.net](https://citizen428.net/blog/self-hosting-static-site-openbsd-httpd-relayd/) [`+bsd`](links.org::#+bsd)
 
 ## `+3d` {#+3d}
 
@@ -259,6 +261,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-04-26` [Making 3D printing truly 3D](https://phys.org/news/2022-04-3d.html)
 
 ### `2022-05-21` [Extracting Triangular 3D Models, Materials, and Lighting From Images](https://nvlabs.github.io/nvdiffrec/)
+
+### `2022-06-25` [BrachioGraph 0.1 documentation](https://www.brachiograph.art/index.html)
 
 ## `+accesibility` {#+accesibility}
 
@@ -454,6 +458,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-05-25` [ih History of 127/8 as localhost/loopback addresses?](https://elists.isoc.org/pipermail/internet-history/2021-January/006912.html)
 
+### `2022-06-30` [A Story About 'Magic\'](http://www.catb.org/jargon/html/magic-story.html)
+
 ## `+arduino` {#+arduino}
 
 ### `2021-05-11` [Announcing the Arduino IDE 2.0 (beta) \| Arduino Blog](https://blog.arduino.cc/2021/03/01/announcing-the-arduino-ide-2-0-beta/)
@@ -486,6 +492,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2021-08-01` [Play](https://play.ertdfgcvb.xyz/)
 
+### `2022-06-27` [Explaining Code using ASCII Art - Embedded in Academia](https://blog.regehr.org/archives/1653)
+
+### `2022-07-20` [ASCIIFlow](https://asciiflow.com/)
+
 ## `+asciiart` {#+asciiart}
 
 ### `2019-05-30` [Render diagrams to Braille](https://github.com/mlang/diagrams-braille/)
@@ -511,6 +521,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-04-27` [A mashup of ANSI art and MIDI music](https://github.com/oakes/ansiwave)
 
 ### `2021-08-01` [Play](https://play.ertdfgcvb.xyz/)
+
+### `2022-06-27` [Explaining Code using ASCII Art - Embedded in Academia](https://blog.regehr.org/archives/1653)
+
+### `2022-07-20` [ASCIIFlow](https://asciiflow.com/)
 
 ## `+audio` {#+audio}
 
@@ -563,6 +577,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-12-09` [Cat meow sounds visualized as ACF images \| GLSL &amp; Sound](https://soundshader.github.io/cats.html)
 
 ### `2022-04-09` [The 0,5 MB of nothing in all Apple Music files](https://www.ctrl.blog/entry/apple-music-nullbytes.html)
+
+### `2022-07-07` <https://musicforprogramming.net/latest/>
+
+### `2022-07-09` [🎹 Memorize piano scales with ease! A music practice program w/ MIDI support. Consider it an interactive reference manual](https://github.com/ZaneH/piano-trainer)
 
 ## `+autofs` {#+autofs}
 
@@ -633,6 +651,14 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-05-16` [Correct Backups Require Filesystem Snapshots \| by Craig Younkins \| May, 2022 \| Medium](https://cyounkins.medium.com/correct-backups-require-filesystem-snapshots-23062e2e7a15)
 
 ### `2022-05-29` [Fast, secure, efficient backup program](https://github.com/restic/restic)
+
+### `2022-07-07` [zrepl on rsync.net](https://blog.lenny.ninja/zrepl-on-rsync-net.html)
+
+### `2022-07-12` [Persistent RAM disk - Observium](https://docs.observium.org/persistent_ramdisk/)
+
+### `2022-07-12` [James Dawson / persist · GitLab](https://gitlab.com/jamesdawson1995/persist)
+
+### `2022-07-12` [Persistent storage with ramdisks](https://www.a-netz.de/blog/2013/02/persistent-storage-with-ramdisks.html)
 
 ## `+bash` {#+bash}
 
@@ -726,6 +752,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-05-09` [Configuring my Machines with Bashtard - Tyil](https://www.tyil.nl/post/2022/05/07/configuring-my-machines-with-bashtard/)
 
+### `2022-07-01` [Bashbox is a wannabe bash compiler which aims to help create modular and maintainable bash projects. With added native beautification, formatting, optimization and syntax/error checking/handling(stack-trace) of bash-scripts in pure bash.](https://github.com/bashbox/bashbox)
+
+### `2022-07-18` [An API tester writter in bash](https://github.com/xslendix/postbash)
+
 ## `+bbs` {#+bbs}
 
 ### `2021-12-26` [ANSIWAVE BBS](https://ansiwave.net/)
@@ -770,6 +800,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-01-21` [ExoticSilicon.com - Crystal installs OpenBSD on the Pinephone](https://www.exoticsilicon.com/crystal/pinephone_openbsd)
 
+### `2022-07-14` [Porting OpenBSD pledge() to Linux](https://justine.lol/pledge/)
+
+### `2022-07-17` [Self-hosting a static site with OpenBSD, httpd, and relayd - citizen428.net](https://citizen428.net/blog/self-hosting-static-site-openbsd-httpd-relayd/)
+
 ## `+bugs` {#+bugs}
 
 ### `2019-11-10` [airlines - My name causes an issue with any booking! (names end with MR and MRS) - Travel Stack Exchange](https://travel.stackexchange.com/questions/149323/my-name-causes-an-issue-with-any-booking-names-end-with-mr-and-mrs)
@@ -811,6 +845,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-06-14` [FSF and GNU move official IRC channels to Libera.Chat network - Free Software Foundation - Working together for free software](https://www.fsf.org/news/fsf-and-gnu-move-official-irc-channels-to-libera-chat-network)
 
 ### `2021-08-27` [the~futureofdpy~.md · GitHub](https://gist.github.com/Rapptz/4a2f62751b9600a31a0d3c78100287f1)
+
+### `2022-07-15` [\"Critical\" projects and volunteer maintainers LWN.net](https://lwn.net/SubscriberLink/900953/44823d451920e233/)
+
+### `2022-07-23` [GNOME at 25: A Health Checkup - Et tu, Cthulhu](https://hpjansson.org/blag/2022/07/23/gnome-at-25-a-health-checkup/)
 
 ## `+coop` {#+coop}
 
@@ -913,6 +951,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-05-30` [Producing Open Source Software](https://producingoss.com/)
 
 ### `2022-06-04` <https://mobile.twitter.com/ehn/status/1533016975999393793>
+
+### `2022-06-27` [Misrepresenting Open Source for Business Benefit . Danb Blog](https://danb.me/blog/posts/misrepresenting-open-source/)
+
+### `2022-07-01` [Open source body quits GitHub, urges you to do the same • The Register](https://www.theregister.com/2022/06/30/software_freedom_conservancy_quits_github/)
 
 ## `+covid19` {#+covid19}
 
@@ -1218,6 +1260,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-03-08` [The Dirty Pipe Vulnerability - The Dirty Pipe Vulnerability documentation](https://dirtypipe.cm4all.com/)
 
+### `2022-06-30` <https://www.kb.cert.org/vuls/id/473698>
+
+### `2022-07-21` [CVE-2022-34918 A crack in the Linux firewall](https://www.randorisec.fr/crack-linux-firewall/)
+
 ## `+cyberpunk` {#+cyberpunk}
 
 ### `2020-01-06` [Your cyberpunk games are dangerous / Offworld](https://boingboing.net/2015/05/08/your-cyberpunk-games-are-dange.html)
@@ -1243,6 +1289,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-10-28` [Debian\'s which hunt LWN.net](https://lwn.net/SubscriberLink/874049/bf89a969ed3dde87/)
 
 ### `2022-02-07` [Push the Red Button: On Building 30K Debian Packages](http://moyix.blogspot.com/2022/02/on-building-30k-debian-packages.html)
+
+### `2022-07-21` [The delusions of debian](https://unixsheikh.com/articles/the-delusions-of-debian.html)
 
 ## `+deduplication` {#+deduplication}
 
@@ -1333,6 +1381,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-04-30` [Why Train When You Can Optimize?](https://justinmeiners.github.io/why-train-when-you-can-optimize/)
 
 ### `2022-06-04` [PIXEL ART: COMMON MISTAKES](https://derekyu.com/makegames/pixelart2.html)
+
+### `2022-07-21` [I Regret my \$46k Website Redesign · mtlynch.io](https://mtlynch.io/tinypilot-redesign/)
 
 ## `+dev` {#+dev}
 
@@ -1758,6 +1808,20 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-11` [skalibs: the djb legacy](https://skarnet.org/software/skalibs/djblegacy.html)
 
+### `2022-06-16` <http://shvbsle.in/computers-are-fast-but-you-dont-know-it-p1/>
+
+### `2022-07-04` [I can't believe that I can prove that it can sort \| The AdaCore Blog](https://blog.adacore.com/i-cant-believe-that-i-can-prove-that-it-can-sort)
+
+### `2022-07-04` [Jargon from the functional programming world in simple terms!](https://github.com/idcmardelplata/functional-programming-jargon/)
+
+### `2022-07-09` [Wiby Search Engine](https://github.com/wibyweb/wiby)
+
+### `2022-07-10` [Why Perl is still relevant in 2022 - Stack Overflow Blog](https://stackoverflow.blog/2022/07/06/why-perl-is-still-relevant-in-2022/)
+
+### `2022-07-14` [Permify is an open-source authorization service &amp; policy engine based on Google Zanzibar.](https://github.com/Permify/permify)
+
+### `2022-07-20` [Beej\'s Guides](https://beej.us/guide/)
+
 ### `2020-05-01` [odo - Developer-focused CLI for OpenShift and Kubernetes](https://github.com/openshift/odo)
 
 ### `2020-07-13` [DevOps Newsletters](https://devopsnewsletters.com/)
@@ -1779,6 +1843,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-12-19` [The Big DevOps Misunderstanding. When the term DevOps came up it was all... \| by Oliver Wolf \| Medium](https://wolfoliver.medium.com/the-big-devops-misunderstanding-8435a910a5fd)
 
 ### `2022-04-26` [One year of sales](https://nts.strzibny.name/one-year-of-sales/)
+
+### `2022-06-26` [DevOps is a failure \| lbr.](https://leebriggs.co.uk/blog/2022/06/21/devops-is-a-failure)
+
+### `2022-07-21` [A tool for building elaborate CI pipelines using a familiar programming language](https://github.com/grafana/scribe)
 
 ## `+devops` {#+devops}
 
@@ -1803,6 +1871,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-12-19` [The Big DevOps Misunderstanding. When the term DevOps came up it was all... \| by Oliver Wolf \| Medium](https://wolfoliver.medium.com/the-big-devops-misunderstanding-8435a910a5fd)
 
 ### `2022-04-26` [One year of sales](https://nts.strzibny.name/one-year-of-sales/)
+
+### `2022-06-26` [DevOps is a failure \| lbr.](https://leebriggs.co.uk/blog/2022/06/21/devops-is-a-failure)
+
+### `2022-07-21` [A tool for building elaborate CI pipelines using a familiar programming language](https://github.com/grafana/scribe)
 
 ## `+dhcp` {#+dhcp}
 
@@ -1901,6 +1973,12 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-01-13` [Alternative DNS Roots \| scholz.ruhr](https://scholz.ruhr/post/alternative-dns-root/)
 
 ### `2022-02-01` [The GNU Name System](https://lsd.gnunet.org/lsd0001/)
+
+### `2022-06-11` [Useful utilities and toys over DNS](https://www.dns.toys/)
+
+### `2022-07-14` [DNS Esoterica - Why you can&\#8217;t dig Switzerland - Terence Eden's Blog](https://shkspr.mobi/blog/2022/07/dns-esoterica-why-you-cant-dig-switzerland/)
+
+### `2022-07-22` [🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.](https://github.com/StevenBlack/hosts)
 
 ## `+docker` {#+docker}
 
@@ -2046,6 +2124,12 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-05` [mirrord lets you easily mirror traffic from your production environment to your development environment.](https://github.com/metalbear-co/mirrord)
 
+### `2022-07-14` [Ship it on ARM64! Or is it AARCH64?](https://memgraph.com/blog/ship-it-on-arm64-or-is-it-aarch64)
+
+### `2022-07-16` [RapidFort hardened secure images](https://github.com/rapidfort/community-images)
+
+### `2022-07-16` [I deleted 78% of my Redis container image and it still works \| by Vinod Gupta \| Jun, 2022 \| Medium](https://medium.com/@codervinod/i-deleted-78-of-my-redis-container-and-it-still-works-df8310a3a007)
+
 ## `+dotfiles` {#+dotfiles}
 
 ### `2019-10-23` [My default configuration files.](https://github.com/ryannjohnson/dotfiles/)
@@ -2172,6 +2256,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2021-03-21` [awknode - Files](https://files.awknode.com/zines/)
 
+## `+fediverse` {#+fediverse}
+
+### `2022-06-12` [🐀 Building a federated link aggregator in rust](https://github.com/LemmyNet/lemmy/)
+
 ## `+ffox` {#+ffox}
 
 ### `2021-10-11` [Harden &amp; secure browsers in containers, with GUI - Cr;Lf;](https://crlf.link/log/entries/211008-1/)
@@ -2197,6 +2285,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-04-06` [You can do a lot with an empty file](https://rachelbythebay.com/w/2022/04/06/text/)
 
 ### `2022-04-26` [Spacedrive · GitHub](https://github.com/spacedriveapp)
+
+### `2022-07-21` [How to estimate disk space. \| Irrational Exuberance](https://lethain.com/how-to-estimate-disk-space/)
 
 ## `+firefox` {#+firefox}
 
@@ -2313,6 +2403,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-04-01` [Input: Fonts for Code --- Preview](https://input.djr.com/preview/)
 
 ### `2022-01-21` [JetBrains Mono -- the free and open-source typeface for developers](https://github.com/JetBrains/JetBrainsMono)
+
+### `2022-07-09` [Programming Fonts - Test Drive](https://www.programmingfonts.org/)
 
 ## `+game` {#+game}
 
@@ -2554,6 +2646,14 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-10` <https://blog.sigstore.dev/introducing-gitsign-9fd3f1b682aa>
 
+### `2022-07-07` [Distributed Embeddable Database](https://github.com/gogitdb/gitdb)
+
+### `2022-07-17` [Your git log is not a changelog! \| agateau.com](https://agateau.com/2022/your-git-log-is-not-a-changelog/)
+
+### `2022-07-17` [Automated changelog tool for preparing releases with lots of customization options](https://github.com/miniscruff/changie)
+
+### `2022-07-23` [Visualize long-term trends in collections of Git repositories.](https://github.com/hpjansson/fornalder)
+
 ### `2019-04-05` [GitLab Pages examples / emacs-reveal Â· GitLab](https://gitlab.com/pages/emacs-reveal)
 
 ### `2019-04-05` [GitLab Pages examples / org-mode Â· GitLab](https://gitlab.com/pages/org-mode)
@@ -2613,6 +2713,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-05-01` [An experimental Gemini server](https://github.com/michael-lazar/jetforce)
 
 ### `2021-11-20` [Graphical small-internet client for windows, linux, MacOS X and BSDs. Supports gemini, http, https, gopher, finger.](https://github.com/MasterQ32/kristall)
+
+### `2022-07-19` [Sutty/gemini - gemini - cat /dev/null](https://gitea.nulo.in/Sutty/gemini)
 
 ## `+gnome` {#+gnome}
 
@@ -2842,6 +2944,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-05-19` [HTTP Cats](https://http.cat/)
 
+### `2022-06-16` [redbean 2.0 release notes](https://justine.lol/redbean2/)
+
 ## `+i18n` {#+i18n}
 
 ### `2019-06-19` [Weblate: regionalizaciÃ³n basada en web](https://weblate.org/es/)
@@ -2903,6 +3007,12 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ## `+iot` {#+iot}
 
 ### `2021-11-25` <https://blog.toit.io/the-toit-language-is-now-open-source-14bdcb1604d9>
+
+## `+ipa` {#+ipa}
+
+### `2022-06-24` [Welcome to FreeIPA's documentation! - FreeIPA 4.9-dev documentation](https://freeipa.readthedocs.io/en/latest/index.html)
+
+### `2022-06-24` [Mirror of FreeIPA, an integrated security information management solution](https://github.com/freeipa/freeipa)
 
 ## `+ipfs` {#+ipfs}
 
@@ -3112,6 +3222,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-05-21` [A tool to seal application\'s all dependencies and Kubernetes into CloudImage, distribute this application anywhere via CloudImage, and run it within any cluster in one command.](https://github.com/sealerio/sealer)
 
+### `2022-06-20` [Don\'t Use Kubernetes, Yet](https://matt-rickard.com/dont-use-kubernetes-yet/)
+
 ## `+kernel` {#+kernel}
 
 ### `2019-10-04` [A New Linux Memory Controller Promises to Save Lots of RAM - The New Stack](https://thenewstack.io/a-new-linux-memory-controller-promises-to-save-lots-of-ram/)
@@ -3230,6 +3342,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-05` [An Enthusiast Turned A Nokia 1680 Feature Phone Into A Linux Computer With A Working Screen And Keyboard - Gadget Tendency](https://gadgettendency.com/an-enthusiast-turned-a-nokia-1680-feature-phone-into-a-linux-computer-with-a-working-screen-and-keyboard/)
 
+### `2022-06-26` [What does an idle CPU do? \| Many But Finite](https://manybutfinite.com/post/what-does-an-idle-cpu-do/)
+
+### `2022-07-04` [A journey into the Linux scheduler \| Maxgio\'s blog](https://blog.maxgio.me/posts/linux-scheduler-journey/)
+
 ## `+localhost` {#+localhost}
 
 ### `2020-01-09` <https://mobile.twitter.com/rfreebern/status/1214560971185778693>
@@ -3261,6 +3377,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-01-05` [Do not log](https://sobolevn.me/2020/03/do-not-log)
 
 ### `2022-03-13` [Convey](https://convey.earth/conversation?id=51&ref=hn)
+
+### `2022-07-01` [How to Python Logging 🐍🌴](https://guicommits.com/how-to-log-in-python-like-a-pro/)
 
 ## `+make` {#+make}
 
@@ -3303,6 +3421,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-12-21` [Aftertext - Breck Yunits\' Scroll](https://breckyunits.com/aftertext.html)
 
 ### `2021-12-26` [📝A simple and elegant markdown editor, available for Linux, macOS and Windows.](https://github.com/marktext/marktext)
+
+### `2022-07-17` [\~erock/prose.sh - sourcehut git](https://git.sr.ht/~erock/prose.sh)
 
 ## `+minify` {#+minify}
 
@@ -3347,6 +3467,12 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-01-08` [Best Motherfucking Website](https://bestmotherfucking.website/)
 
 ### `2022-04-27` [lists.sh -- a microblog for lists](https://lists.sh/)
+
+### `2022-07-04` [Indie Microblogging](https://book.micro.blog/)
+
+### `2022-07-17` [prose.sh -- a blog platform for hackers](https://prose.sh/)
+
+### `2022-07-19` [lists.sh -- a microblog for lists](https://lists.sh/)
 
 ## `+monitor` {#+monitor}
 
@@ -3476,6 +3602,12 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-05-14` [ZFS without a Server Using the NVIDIA BlueField-2 DPU](https://www.servethehome.com/zfs-without-a-server-using-the-nvidia-bluefield-2-dpu-nvme-arm-aic-iscsi/)
 
+### `2022-06-20` [Benoit Essiambre](https://benoitessiambre.com/macro.html)
+
+### `2022-06-28` [Project 4K77 \| The Star Wars Trilogy](https://www.thestarwarstrilogy.com/project-4k77/)
+
+### `2022-07-04` [How To Calculate Power Consumption Of Any Appliance - Lets Save Electricity](https://letsavelectricity.com/how-to-calculate-power-consumption-of-any-appliance/)
+
 ## `+nfs` {#+nfs}
 
 ### `2019-06-03` [Tunneling NFS4 over SSH \| Field Commander Wieers](http://dag.wiee.rs/blog/tunneling-nfs4-over-ssh)
@@ -3511,6 +3643,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ## `+ntp` {#+ntp}
 
 ### `2019-08-07` [Argentina establece la regulaciÃ³n de la Hora Oficial en entornos electrÃ³nicos \~ Segu-Info](https://blog.segu-info.com.ar/2019/08/argentina-establece-la-regulacion-de-la.html)
+
+## `+ocr` {#+ocr}
+
+### `2022-07-17` [dpScreenOCR](https://danpla.github.io/dpscreenocr/)
 
 ## `+offline` {#+offline}
 
@@ -3559,6 +3695,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-05-25` [8088 PC XT Compatible](https://github.com/homebrew8088/8088-PC-Compatible)
 
 ### `2022-05-29` [Home Assistant OS Release 8 - Home Assistant](https://www.home-assistant.io/blog/2022/05/16/home-assistant-os-release-8/)
+
+### `2022-07-20` [Flipper Zero --- Portable Multi-tool Device for Geeks](https://flipperzero.one/)
 
 ## `+org` {#+org}
 
@@ -3848,6 +3986,14 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-05-31` [Todool \| Handmade Network](https://todool.handmade.network/)
 
+### `2022-06-20` [writing one sentence per line \| Derek Sivers](https://sive.rs/1s)
+
+### `2022-06-25` [book](https://users.speakeasy.net/~lion/nb/html/) {#book}
+
+### `2022-07-21` [org mode - How can I use the \#+OPTIONS: broken-links: option to ignore broken links, in a specific way? - Emacs Stack Exchange](https://emacs.stackexchange.com/questions/48646/how-can-i-use-the-options-broken-links-option-to-ignore-broken-links-in-a-s)
+
+### `2022-07-23` [How to think about task estimation - by David R. MacIver](https://drmaciver.substack.com/p/task-estimation-101)
+
 ## `+os` {#+os}
 
 ### `2019-08-01` [bootOS is a monolithic operating system in 512 bytes of x86 machine code.](https://github.com/nanochess/bootOS)
@@ -3902,6 +4048,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2021-09-12` [Small python-gtk application, which helps the user to merge or split pdf documents and rotate, crop and rearrange their pages using an interactive and intuitive graphical interface](https://github.com/pdfarranger/pdfarranger.git)
 
+### `2022-07-23` [Joshua Stutter](https://jstutter.netlify.app/#220721-writing-my-phd-using-groff)
+
 ## `+perf` {#+perf}
 
 ### `2019-03-31` [Transparent Hugepages: measuring the performance impact - The mole is digging](https://alexandrnikitin.github.io/blog/transparent-hugepages-measuring-the-performance-impact/)
@@ -3947,6 +4095,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-12-31` [How a Single Line of Code Made a 24-core Server Slower Than a Laptop \| Piotr Kołaczkowski](https://pkolaczk.github.io/server-slower-than-a-laptop/)
 
 ### `2022-06-03` [Comparing Ceph, LINSTOR, Mayastor, and Vitastor storage performance in Kubernetes - Flant blog](https://blog.flant.com/kubernetes-storage-performance-linstor-ceph-mayastor-vitastor/)
+
+### `2022-06-25` [Speeding up this site by 50x](https://danluu.com/octopress-speedup/)
 
 ## `+phishing` {#+phishing}
 
@@ -4156,6 +4306,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-04` [OS image for the PiRogue based on RaspberryPi OS](https://github.com/PiRogueToolSuite/pirogue-os)
 
+### `2022-07-14` [Geoff\'s Projects - BASIC Interpreter for the Raspberry Pi Pico](https://geoffg.net/picomite.html)
+
+### `2022-07-22` [Proxmox V7 for Raspberry Pi](https://github.com/pimox/pimox7)
+
 ## `+postfix` {#+postfix}
 
 ### `2019-07-29` [How we send 22000 emails every hour](https://www.jitbit.com/news/email-architecture/)
@@ -4191,6 +4345,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-02-25` [blog.md · GitHub](https://gist.github.com/jcoleman/1e6ad1bf8de454c166da94b67537758b)
 
 ### `2022-04-21` [How Postgres Chooses Which Index To Use For A Query](https://pganalyze.com/blog/how-postgres-chooses-index)
+
+### `2022-07-11` [Postgres 15 improves UNIQUE and NULL - Blog @ RustProof Labs](https://blog.rustprooflabs.com/2022/07/postgres-15-unique-improvement-with-null)
+
+### `2022-07-21` [PostgreSQL extension providing JSON Schema validation](https://github.com/supabase/pg_jsonschema)
 
 ## `+print` {#+print}
 
@@ -4389,6 +4547,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-03-03` [Problems with Signal messenger app](https://ravidwivedi.in/signal/)
 
 ### `2022-04-17` [mjg59 \| The Freedom Phone is not great at privacy](https://mjg59.dreamwidth.org/59479.html)
+
+### `2022-06-20` [The Case for Unique Email Addresses - Musings](https://musings.tychi.me/the-case-for-unique-email-addresses)
 
 ## `+proxy` {#+proxy}
 
@@ -4606,6 +4766,14 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-02` [A free Linux distro with a Python-based userspace](https://github.com/joshiemoore/snakeware)
 
+### `2022-06-26` <https://roman.pt/posts/dont-let-dicts-spoil-your-code/>
+
+### `2022-07-02` [Python for Data Analysis, 3E](https://wesmckinney.com/book/)
+
+### `2022-07-16` [Pipenv: promises a lot, delivers very little \| Chris Warrick](https://chriswarrick.com/blog/2018/07/17/pipenv-promises-a-lot-delivers-very-little/)
+
+### `2022-07-20` [Pretty Maps in Python](https://tech.marksblogg.com/pretty-maps-in-python.html)
+
 ## `+qr` {#+qr}
 
 ### `2020-04-19` [When did I run that command?](https://redandblack.io/blog/2020/bash-prompt-with-updating-time/)
@@ -4625,6 +4793,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-07-13` [📶 Print a QR code for connecting to your WiFi (wificard.io)](https://github.com/bndw/wifi-card)
 
 ### `2022-01-21` [Google Camera update fixes issue that randomly changed QR code URLs on Android 12](https://www.androidpolice.com/google-camera-randomly-changes-some-qr-code-urls-on-android-12/)
+
+### `2022-07-12` [jgc.org blog: Guest WiFi using a QR code](https://blog.jgc.org/2022/07/guest-wifi-using-qr-code.html?m=1)
 
 ## `+r` {#+r}
 
@@ -4699,6 +4869,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-11-25` [README In Static Site (RISS) \| Clément Joly -- Software Engineer](https://cj.rs//readme-in-static-site/)
 
 ### `2022-06-10` [Dont Think Of Price Think Of Cost Per Use](https://sergionajera.com/dont-think-of-price-think-of-cost-per-use)
+
+### `2022-06-12` [Computers are an inherently oppressive technology](https://www.devever.net/~hl/ruthlessness)
 
 ### `2019-05-09` [Introducing the Red Hat Universal Base Image](https://www.redhat.com/en/blog/introducing-red-hat-universal-base-image)
 
@@ -4874,6 +5046,12 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-10` [Ask HN: I miss Usenet. Are there any modern equivalents? \| Hacker News](https://news.ycombinator.com/item?id=31681234)
 
+### `2022-07-01` [mTCP TCP/IP applications for DOS PCs](http://www.brutman.com/mTCP/mTCP.html)
+
+### `2022-07-14` [GUI \| Atari8](https://atari8.co.uk/gui/)
+
+### `2022-07-18` [WordPerfect for UNIX](https://lock.cmpxchg8b.com/wordperfect.html)
+
 ### `2019-07-08` [10 tips for reviewing code you don\'t like - Red Hat Developer](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/)
 
 ### `2019-04-29` [Custard Antenna \| michaelcullen.name](https://michaelcullen.name/2019/04/custard-antenna/)
@@ -4907,6 +5085,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-05-22` <https://shinobi.website/index.txt>
 
 ### `2021-03-18` [Q&amp;A with John Kozubik, rsync.net - Console](https://console.dev/qa/rsync-john-kozubik/)
+
+### `2022-07-02` [rsync, article 3: How does rsync work? - Michael Stapelberg](https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work/)
 
 ### `2020-03-18` [1% rule (Internet culture) - Wikipedia](https://en.m.wikipedia.org/wiki/1%25_rule_(Internet_culture))
 
@@ -4991,6 +5171,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-11-25` [README In Static Site (RISS) \| Clément Joly -- Software Engineer](https://cj.rs//readme-in-static-site/)
 
 ### `2022-06-10` [Dont Think Of Price Think Of Cost Per Use](https://sergionajera.com/dont-think-of-price-think-of-cost-per-use)
+
+### `2022-06-12` [Computers are an inherently oppressive technology](https://www.devever.net/~hl/ruthlessness)
 
 ## `+redhat` {#+redhat}
 
@@ -5174,6 +5356,12 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-10` [Ask HN: I miss Usenet. Are there any modern equivalents? \| Hacker News](https://news.ycombinator.com/item?id=31681234)
 
+### `2022-07-01` [mTCP TCP/IP applications for DOS PCs](http://www.brutman.com/mTCP/mTCP.html)
+
+### `2022-07-14` [GUI \| Atari8](https://atari8.co.uk/gui/)
+
+### `2022-07-18` [WordPerfect for UNIX](https://lock.cmpxchg8b.com/wordperfect.html)
+
 ## `+review` {#+review}
 
 ### `2019-07-08` [10 tips for reviewing code you don\'t like - Red Hat Developer](https://developers.redhat.com/blog/2019/07/08/10-tips-for-reviewing-code-you-dont-like/)
@@ -5221,6 +5409,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ## `+rsync` {#+rsync}
 
 ### `2021-03-18` [Q&amp;A with John Kozubik, rsync.net - Console](https://console.dev/qa/rsync-john-kozubik/)
+
+### `2022-07-02` [rsync, article 3: How does rsync work? - Michael Stapelberg](https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work/)
 
 ## `+rules` {#+rules}
 
@@ -5440,6 +5630,18 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-07` [I&\#8217;ve locked myself out of my digital life - Terence Eden's Blog](https://shkspr.mobi/blog/2022/06/ive-locked-myself-out-of-my-digital-life/)
 
+### `2022-06-20` [Linux Threat Hunting: \'Syslogk\' a kernel rootkit found under development in the wild - Avast Threat Labs](https://decoded.avast.io/davidalvarez/linux-threat-hunting-syslogk-a-kernel-rootkit-found-under-development-in-the-wild/)
+
+### `2022-06-26` [OpenSnitch is a GNU/Linux port of the Little Snitch application firewall](https://github.com/evilsocket/opensnitch)
+
+### `2022-07-01` [Fast web fuzzer written in Go](https://github.com/ffuf/ffuf)
+
+### `2022-07-10` [A simple vaultless password manager in Go](https://github.com/cloudflare/gokey)
+
+### `2022-07-15` [This Spring Boot Starter will reroute configured paths to a video of Rick Astley - Never Gonna Give You Up.](https://github.com/TomCools/rickroll-security-spring-boot-starter)
+
+### `2022-07-16` [BadgeApp](https://bestpractices.coreinfrastructure.org/en)
+
 ## `+seo` {#+seo}
 
 ### `2020-12-25` [Demystifying SEO with experiments \| by Pinterest Engineering \| Pinterest Engineering Blog \| Medium](https://medium.com/pinterest-engineering/demystifying-seo-with-experiments-a183b325cf4c)
@@ -5651,6 +5853,20 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-05-16` [Observability Powered by SQL: Understand Your Systems Like Never Before With OpenTelemetry Traces and PostgreSQL](https://www.timescale.com/blog/observability-powered-by-sql-understand-your-systems-like-never-before-with-opentelemetry-traces-and-postgresql/)
 
 ### `2022-06-05` [The day I wiped a production database table](https://pboyd.io/posts/screw-ups/)
+
+### `2022-06-22` [One-liner for running queries against CSV files with SQLite \| Simon Willison's TILs](https://til.simonwillison.net/sqlite/one-line-csv-operations)
+
+### `2022-06-25` [SQLite extension to query Excel (.xlsx, .xls, .ods) files as virtual tables](https://github.com/x2bool/xlite)
+
+### `2022-06-27` [Things You Should Know About Databases](https://architecturenotes.co/things-you-should-know-about-databases/)
+
+### `2022-06-27` [PRQL is a modern language for transforming data --- a simple, powerful, pipelined SQL replacement](https://github.com/prql/prql)
+
+### `2022-07-10` [Seed your development database with real data ⚡️](https://github.com/Qovery/Replibyte)
+
+### `2022-07-16` [OctoSQL is a query tool that allows you to join, analyse and transform data from multiple databases and file formats using SQL.](https://github.com/cube2222/octosql)
+
+### `2022-07-16` [Build platforms that flexibly mix SQL, batch, and stream processing paradigms](https://github.com/gazette/core)
 
 ## `+ssh` {#+ssh}
 
@@ -6052,6 +6268,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-10` [Always Own Your Platform](http://www.alwaysownyourplatform.com/)
 
+### `2022-07-17` [Simulating shitty network connections so you can build better systems.](https://github.com/tylertreat/comcast)
+
 ## `+tag` {#+tag}
 
 ### `2022-02-19` [What do you really get from IDE-driven development? -- brian d foy -- Random Adventures](https://briandfoy.github.io/ide-driven-development/)
@@ -6087,6 +6305,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-01-06` [How programmers make sure that their software is correct - Daniel Lemire\'s blog](https://lemire.me/blog/2022/01/03/how-programmers-make-sure-that-their-software-is-correct/)
 
 ### `2022-01-15` [Favor real dependencies for unit testing - Stack Overflow Blog](https://stackoverflow.blog/2022/01/03/favor-real-dependencies-for-unit-testing/)
+
+### `2022-06-20` [Sufficiently Advanced Testing](https://zhd.dev/sufficiently/)
+
+### `2022-07-10` [Sourceless - The Continuous Delivery Test](https://sourceless.org/posts/the-continuous-delivery-test.html)
 
 ## `+tld` {#+tld}
 
@@ -6500,6 +6722,30 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-06` [🔤 Zsh Native Scripting Handbook \| ❮ ZI ❯](https://z.digitalclouds.dev/community/zsh_handbook/)
 
+### `2022-06-20` [Pipes, deadlocks, and strace annoyingly fixing them \| The Changelog](https://changelog.complete.org/archives/10388-pipes-deadlocks-and-strace-annoyingly-fixing-them)
+
+### `2022-06-20` [Introducing the Himitsu keyring &amp; password manager for Unix](https://drewdevault.com/2022/06/20/Himitsu.html)
+
+### `2022-06-20` [A fancy BitTorrent client for the terminal](https://github.com/smmr-software/mabel)
+
+### `2022-06-20` [Chris\'s Wiki :: blog/linux/TextAndFramebufferConsoles](https://utcc.utoronto.ca/~cks/space/blog/linux/TextAndFramebufferConsoles)
+
+### `2022-06-23` [Start all of your commands with a comma](https://rhodesmill.org/brandon/2009/commands-with-comma/)
+
+### `2022-06-25` [Easily and securely share files from the command line. A fully featured Firefox Send client.](https://github.com/timvisee/ffsend)
+
+### `2022-06-27` [Best Linux Commands For Advanced Hardware and System Info](https://nixsanctuary.com/best-linux-hardware-system-info-commands/)
+
+### `2022-07-09` [7guis/tui at master · letientai299/7guis · GitHub](https://github.com/letientai299/7guis/tree/master/tui)
+
+### `2022-07-16` [Terminal file explorer](https://github.com/mgunyho/tere)
+
+### `2022-07-17` [Charm](https://charm.sh/)
+
+### `2022-07-21` [A Little Story About the \`yes\` Unix Command \| Matthias Endler](https://endler.dev/2017/yes/)
+
+### `2022-07-21` [What happens when you press a key in your terminal?](https://jvns.ca/blog/2022/07/20/pseudoterminals/)
+
 ## `+txt` {#+txt}
 
 ### `2021-02-25` [Plain Text Protocols](https://blainsmith.com/articles/plain-text-protocols/)
@@ -6598,6 +6844,12 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-11` [The Comprehensive List of Window Managers for Unix](https://www.gilesorr.com/wm/table.html)
 
+### `2022-06-16` [Continuous Unix commit history from 1970 until today](https://github.com/dspinellis/unix-history-repo)
+
+### `2022-06-26` [Interactive UNIX - by John Paul Wohlscheid](https://computeradsfromthepast.substack.com/p/interactive-unix)
+
+### `2022-07-16` [Chris\'s Wiki :: blog/unix/ExecAndShebangHistory](https://utcc.utoronto.ca/~cks/space/blog/unix/ExecAndShebangHistory)
+
 ## `+unknown` {#+unknown}
 
 ### `2019-04-08` <https://github.com/qqrs/qqqr/+pi>
@@ -6686,8 +6938,6 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-03-03` [Numbers Every Programmer Should Know By Year](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
 
-### `2022-05-19` [An ultra-lightweight Python engine that can run with 4KB of RAM and 32KB of Flash (such as STM32G030C8 and STM32F103C8), and is very easy to deploy and expand.](https://github.com/pikasTech/pikascript)
-
 ## `+upnp` {#+upnp}
 
 ### `2021-11-27` [Computers Are Bad](https://computer.rip/2021-11-26-no-u-pnp.html)
@@ -6739,6 +6989,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2021-10-21` [What is the unit of a text column number?](https://www.foonathan.net/2021/02/column/)
 
 ### `2022-02-09` [How does UTF-8 turn \"😂\" into \"F09F9882\"?](https://sethmlarson.dev/blog/utf-8)
+
+### `2022-07-14` [A Spectre is Haunting Unicode](https://www.dampfkraft.com/ghost-characters.html)
 
 ## `+util` {#+util}
 
@@ -6904,6 +7156,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 
 ### `2022-06-05` [fzf vim](https://github.com/junegunn/fzf.vim)
 
+### `2022-07-09` [Learn Vim the Simple Way](https://www.vimified.com/)
+
+### `2022-07-18` [Rename a list of files using a text editor](https://github.com/ivanmaeder/vimv)
+
 ## `+virtual` {#+virtual}
 
 ### `2019-04-10` [Kata Containers - Open Source Container Runtime Software \| Kata Containers](http://katacontainers.io)
@@ -7005,6 +7261,10 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-06-02` [A lightweight Svelte component library for building interactive node-based flow diagrams](https://github.com/oslabs-beta/Svelvet)
 
 ### `2022-06-05` [C4-PlantUML combines the benefits of PlantUML and the C4 model for providing a simple way of describing and communicate software architectures](https://github.com/plantuml-stdlib/C4-PlantUML)
+
+### `2022-06-13` <https://towardsdatascience.com/best-practices-for-visualizing-your-cluster-results-20a3baac7426>
+
+### `2022-07-01` [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 
 ## `+vnc` {#+vnc}
 
@@ -7133,6 +7393,8 @@ categorías o *tags* pueden cambiar sin previo aviso. Esta página se
 ### `2022-02-01` [Containers are not just for Kubernetes - by Raman Sharma](https://ramansharma.substack.com/p/containers-are-not-just-for-kubernetes-fa330653cbbd)
 
 ### `2022-05-14` [A clean start for the web - macwright.com](https://macwright.com/2020/08/22/clean-starts-for-the-web.html)
+
+### `2022-07-15` [10% of the Top 1 Million Sites are Dead . Craig Campbell](https://ccampbell.io/posts/10-percent-of-top-million-sites-are-dead/)
 
 ## `+wifi` {#+wifi}
 
