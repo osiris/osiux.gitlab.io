@@ -154,8 +154,8 @@ o de toda una comunidad!
 18 meses después que comencé este /post/ hoy termino de esbozarlo aunque
 no deja de ser un =Work in Progress=, aunque incompleto me completa =<3=
 
-[fn:30diasblog] [[file:2021-02-26-30-dias-de-posts-por-la-birra.org]]
-[fn:GTD]        [[file:gtd-gething-this-done.org]]
+[fn:30diasblog] https://osiux.com/2021-02-26-30-dias-de-posts-por-la-birra.html
+[fn:GTD]        https://osiux.com/gtd-gething-this-done.html
 [fn:autofocus]  http://markforster.squarespace.com/spanish/
 [fn:SCRUM]      https://proyectosagiles.org/que-es-scrum/
 [fn:unixway]    https://es.wikipedia.org/wiki/Filosofía_de_Unix
