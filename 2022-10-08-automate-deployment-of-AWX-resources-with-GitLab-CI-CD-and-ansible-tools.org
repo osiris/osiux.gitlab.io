@@ -1,0 +1,109 @@
+#+TITLE:       Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2022-10-08 20:17
+
+[[file:img/ansible-devops-gitlab-awx-deploy-revision.png][file:tmb/ansible-devops-gitlab-awx-deploy-revision.png]]
+
+** la escala lo cambia todo
+
+Instalar y configurar equipos usando =ansible= [fn:ansible] es muy
+cómodo, pero siempre se puede mejorar y a gran escala, cuando es
+necesario lidiar con cientos o miles de /servers/ y /workstations/ es
+conveniente utilizar /AWX/ [fn:awx] ya que permite organizar, registrar
+y monitorear el /deploy/ en paralelo sin perder ningún detalle.
+
+** módulos =tower= vs =awx-cli=
+
+/Ansible/ cuenta con módulos =tower_*= [fn:tower-module] (/collections/
+en las versiones nuevas) que permiten crear y/o modificar los diferentes
+recursos de una instancia de /AWX/ (/Ansible Tower/) e inicialmente creé
+un rol =ansible_role_tower_cli= que tomaba las definiciones de desde
+archivos /YAML/ para crear y/o modificar /projects/, /job_templates/.
+
+A medida que pasaron los días y en el apuro de varios /deploys/,
+ejecutar el rol no resultó práctico, porque estaba pensado para
+actualizar el histórico de recursos completos de /AWX/.
+
+Luego de probar diferentes alternativas de trabajo con /AWX/, crear un
+/job_template/ manualmente en la instancia de desarrollo (=awx-dev=) y
+exportar la plantilla a un archivo =.json= usando =awx-cli= [fn:awx-cli]
+para luego importarla en la instancia productiva (=awx-prd=) resultó muy
+práctico.
+
+** =awx.git + ansible-tools=
+
+Versionar los recursos de /AWX/ en un repositorio =awx.git= [fn:awx-git]
+surgió naturalmente para obtener reproducibilidad entre diferentes
+instancias, generar /releases/, verificar diferencias y aplicar
+correcciones.
+
+El repositorio =awx.git= impulsó la creación de nuevos /scripts/ de
+=ansible_tools= [fn:ansible-tools], para interactuar con /AWX/, obtener
+dependencias, validar recursos, otorgar permisos y obtener valores de
+variables de la una instancia.
+
+** =awx-deploy-revision=
+
+Teniendo todos los recursos versionados en un repositorio =git=, era
+inevitable automatizar el /deploy/ de una revisión de /AWX/, al
+principio =awx-deploy-revision= [fn:awx-deploy-revision] se ejecutaba
+manualmente y permitía reproducir el /deploy/ de un /release/ en
+diferentes instancias, asegurando la integridad de cada componente
+detectando inconsistencias y asegurando los mismos permisos.
+
+** /GitLab CI/CD/
+
+Invocando reglas de =Makefile= [fn:Makefile], fue posible ejecutar
+=awx-deploy-revision= desde =.gitlab-ci.yml= [fn:gitlab-ci] de modo
+desatendido y aprovechando todas las ventajas de las /Pipelines/ ahora
+es posible iniciar el desarrollo de un /job_template/ directamente desde
+el repositorio =awx.git= monitoreando la salida de los /jobs/ de
+/GitLab/ sin necesidad de ingresar a /AWX/.
+
+** =git push= = /pipeline success/
+
+Sin entrar en detalles, la secuencia de pasos automatizada es la
+siguiente:
+
+1. La persona hoy conicida como /DevOps/ ejecuta =git push=
+2. /GitLab/ recibe los cambios y ejecuta =json-lint=
+3. Luego se configura el entorno definido en =AWX_ENV= mediante =awx-config=
+4. Se envían los /teams/ usando =awx-cli send team=
+5. Se envían los /projects/ usando =awx-cli send project=
+6. Se actualizan los /projects/ enviados usando =awx-cli update project=
+7. Se envían los /inventories sources/ usando =awx-cli send inventory_source=
+8. Se envían los /inventories/ usando =awx-cli send inventory=
+9. Se actualizan los /inventories sources/ usando =awx-cli pdate inventory_source=
+10. Se envían los /job templates/ usando =awx-cli send job_template=
+11. Se envían los /workflows/ usando =awx-cli send workflow=
+12. Se otorgan permisos para todos los recursos usando =awx-cli grant=
+
+Si no hubo ningún error, se obtiene /Pipeline Success/ y la revisión en
+curso queda disponible para ejecutar en /AWX/ =:)=
+
+Si hubo algún error, basta con observar la salida del /Job/ fallido y
+realizar los cambios necesarios en el repositorio =awx.git=, efectuar un
+/commit/ y al ejecutar nuevamente =git push=, /GitLab/ se ocupará del
+/deploy/.
+
+Si fue exitoso el /deploy/ en =awx-dev=, en otro /stage/ se realiza el
+mismo /deploy/ en otra instancia de /AWX/.
+
+** Relacionado
+
+- [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
+- [[file:2021-02-05-ansible-awx-tools.org][Ansible/AWX tools]]
+
+[fn:ansible]              https://www.ansible.com/
+[fn:awx]                  https://github.com/ansible/awx/
+[fn:gitlab-ci]            https://gitlab.com/osiux/awx/.gitlab-ci.yml
+[fn:Makefile]             https://gitlab.com/osiux/awx/Makefile
+[fn:awx-git]              https://gitlab.com/osiux/awx/
+[fn:ansible-tools]        https://gitlab.com/osiux/ansible_tools/
+[fn:awx-cli]              https://github.com/ansible/tower-cli
+[fn:tower-module]         https://docs.ansible.com/ansible/2.9/modules/tower_project_module.html
+[fn:awx-deploy-revision]  https://gitlab.com/osiux/ansible_tools/-/blob/master/awx-deploy-revision
