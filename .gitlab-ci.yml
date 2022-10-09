@@ -2,10 +2,10 @@ image: iquiw/alpine-emacs
 
 pages:
   script:
-  - cat index.sh | /bin/sh
-  - cat blog.sh  | /bin/sh
-  - cat stats-posts.sh | /bin/sh
-  - cat years.sh       | /bin/sh
+  - cat index.sh | /bin/bash
+  - cat blog.sh  | /bin/bash
+  - cat stats-posts.sh | /bin/bash
+  - cat years.sh       | /bin/bash
   - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
   - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
   - cat sitemap.sh | /bin/sh
