@@ -1,5 +1,9 @@
 image: iquiw/alpine-emacs
 
+before_script:
+  - apk update && apk add bash
+  - emacs --version
+
 pages:
   script:
   - cat index.sh | /bin/bash
