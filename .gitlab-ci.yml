@@ -9,8 +9,8 @@ pages:
   script:
   - cat index.sh | /bin/bash
   - cat blog.sh  | /bin/bash
-  - cat stats-posts.sh | /bin/bash
-  - cat years.sh       | /bin/bash
+  - cat stats-posts.sh | /bin/bash > stats-posts.org
+  - cat years.sh       | /bin/bash > years.org
   - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
   - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
   - cat sitemap.sh | /bin/sh
