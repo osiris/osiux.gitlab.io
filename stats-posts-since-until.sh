@@ -94,8 +94,8 @@ git log --since "$SINCE" --until "$UNTIL"  \
 
   done > "$TMP0"
 
-GIT_ORIGIN="$(git remote get-url origin | tr : / | sed 's/git@//g')"
-GIT_URL="https://$GIT_ORIGIN/-/commit"
+GIT_ORIGIN="$(git-remote-geturl | sed 's/\.git$//g')"
+GIT_URL="$GIT_ORIGIN/-/commit"
 
 LAST_HASH=$(head -1 "$TMP0" | awk '{print $1}')
 FIRST_HASH=$(tail -1 "$TMP0" | awk '{print $1}')
