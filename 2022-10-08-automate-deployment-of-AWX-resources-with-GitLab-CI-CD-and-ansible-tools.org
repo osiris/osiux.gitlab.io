@@ -100,8 +100,8 @@ mismo /deploy/ en otra instancia de /AWX/.
 
 [fn:ansible]              https://www.ansible.com/
 [fn:awx]                  https://github.com/ansible/awx/
-[fn:gitlab-ci]            https://gitlab.com/osiux/awx/.gitlab-ci.yml
-[fn:Makefile]             https://gitlab.com/osiux/awx/Makefile
+[fn:gitlab-ci]            https://gitlab.com/osiux/awx/-/raw/develop/.gitlab-ci.yml
+[fn:Makefile]             https://gitlab.com/osiux/awx/-/raw/develop/Makefile
 [fn:awx-git]              https://gitlab.com/osiux/awx/
 [fn:ansible-tools]        https://gitlab.com/osiux/ansible_tools/
 [fn:awx-cli]              https://github.com/ansible/tower-cli
