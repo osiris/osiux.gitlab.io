@@ -229,3 +229,7 @@ que las voy necesitando.
 [fn:txt-bash-jrnl]       https://gitlab.com/osiux/txt-bash-jrnl
 [fn:gitlab-bash-utils]   https://gitlab.com/osiux/gitlab-bash-utils
 [fn:gl-issues]           https://gitlab.com/gcoop-libre/gitlab-bash-utils/-/issues
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0b200766813009e7d95a63f31e8e48930d7baae4][=2022-10-11 10:05=]] agregar cómo usar /GitLab/ desde la línea de comandos
