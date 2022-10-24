@@ -40,20 +40,60 @@ x = execute     1
 
 ## comandos básicos
 
---------------------------------------------------------------------------------
-
-`man`     leer el manual, es el mas importante!   `echo`    eco, imprime texto en pantalla   `ls`      listar archivos y directorios   `pwd`     mostrar directorio actual   `cd`      cambiar directorio   `cp`      copiar   `rm`      borrar   `mv`      mover   `mkdir`   crear directorio   `cat`     muestra contenido de un archivo
-
---------------------------------------------------------------------------------
-
+```table
+┌─────────┬───────────────────────────────────────┐
+│         │                                       │
+╞═════════╪═══════════════════════════════════════╡
+│ `man`   │ leer el manual, es el mas importante! │
+├─────────┼───────────────────────────────────────┤
+│ `echo`  │ eco, imprime texto en pantalla        │
+├─────────┼───────────────────────────────────────┤
+│ `ls`    │ listar archivos y directorios         │
+├─────────┼───────────────────────────────────────┤
+│ `pwd`   │ mostrar directorio actual             │
+├─────────┼───────────────────────────────────────┤
+│ `cd`    │ cambiar directorio                    │
+├─────────┼───────────────────────────────────────┤
+│ `cp`    │ copiar                                │
+├─────────┼───────────────────────────────────────┤
+│ `rm`    │ borrar                                │
+├─────────┼───────────────────────────────────────┤
+│ `mv`    │ mover                                 │
+├─────────┼───────────────────────────────────────┤
+│ `mkdir` │ crear directorio                      │
+├─────────┼───────────────────────────────────────┤
+│ `cat`   │ muestra contenido de un archivo       │
+└─────────┴───────────────────────────────────────┘
+```
 ## más comandos
 
---------------------------------------------------------------------------------
-
-`more`    pagina la salida de un archivo   `sort`    ordena   `wc`      cuenta cantidad líneas y palabaras   `grep`    filtra un texto   `sed`     editor de texto en línea   `awk`     procesa texto   `find`    busca archivos   `chmod`   cambia permisos   `chown`   cambia el propietario de un archivo   `alias`   define un alias para un comando   `ps`      muestra procesos en ejecucion
-
---------------------------------------------------------------------------------
-
+```table
+┌─────────┬─────────────────────────────────────┐
+│         │                                     │
+╞═════════╪═════════════════════════════════════╡
+│ `more`  │ pagina la salida de un archivo      │
+├─────────┼─────────────────────────────────────┤
+│ `sort`  │ ordena                              │
+├─────────┼─────────────────────────────────────┤
+│ `wc`    │ cuenta cantidad líneas y palabaras  │
+├─────────┼─────────────────────────────────────┤
+│ `grep`  │ filtra un texto                     │
+├─────────┼─────────────────────────────────────┤
+│ `sed`   │ editor de texto en línea            │
+├─────────┼─────────────────────────────────────┤
+│ `awk`   │ procesa texto                       │
+├─────────┼─────────────────────────────────────┤
+│ `find`  │ busca archivos                      │
+├─────────┼─────────────────────────────────────┤
+│ `chmod` │ cambia permisos                     │
+├─────────┼─────────────────────────────────────┤
+│ `chown` │ cambia el propietario de un archivo │
+├─────────┼─────────────────────────────────────┤
+│ `alias` │ define un alias para un comando     │
+├─────────┼─────────────────────────────────────┤
+│ `ps`    │ muestra procesos en ejecucion       │
+└─────────┴─────────────────────────────────────┘
+```
 ## stdinput
 
 En lugar de tipear podemos enviar un archivo como la entrada estandard de un comando:
@@ -85,12 +125,31 @@ ls | sort
 
 ## expresiones regulares
 
---------------------------------------------------------------------------------
-
-`[a-z]`   rango de la **a** a la **z**   `[A-Z]`   rango de la **A** a la **Z**   `[0-9]`   rango de 0 a 9   `[^..]`   negación   `^`       principio de línea   `$`       fin de línea   `.`       cualquier caracter   `?`       cero o una aparición   `*`       ninguna o muchas repeticiones   `+`       una o mas repeticiones
-
---------------------------------------------------------------------------------
-
+```table
+┌─────────┬───────────────────────────────┐
+│         │                               │
+╞═════════╪═══════════════════════════════╡
+│ `[a-z]` │ rango de la **a** a la **z**  │
+├─────────┼───────────────────────────────┤
+│ `[A-Z]` │ rango de la **A** a la **Z**  │
+├─────────┼───────────────────────────────┤
+│ `[0-9]` │ rango de 0 a 9                │
+├─────────┼───────────────────────────────┤
+│ `[^..]` │ negación                      │
+├─────────┼───────────────────────────────┤
+│ `^`     │ principio de línea            │
+├─────────┼───────────────────────────────┤
+│ `$`     │ fin de línea                  │
+├─────────┼───────────────────────────────┤
+│ `.`     │ cualquier caracter            │
+├─────────┼───────────────────────────────┤
+│ `?`     │ cero o una aparición          │
+├─────────┼───────────────────────────────┤
+│ `*`     │ ninguna o muchas repeticiones │
+├─────────┼───────────────────────────────┤
+│ `+`     │ una o mas repeticiones        │
+└─────────┴───────────────────────────────┘
+```
 ## aplicaciones
 
 ``` {.example}
@@ -158,20 +217,62 @@ else;notify-send "$MSG";fi
 
 ## vim
 
---------------------------------------------------------------------------------
-
-`Esc`   cambia a modo visual   `a`     agregar texto posición actual   `A`     agregar texto al final línea   `i`     inserta en la posición actual   `I`     inserta al inicio de la línea   `r`     reemplazar un caracter   `R`     modo reemplazar   `x`     borra caracter a la derecha   `X`     borra caracter a la izquierda   `y`     copiar   `p`     pegar
-
---------------------------------------------------------------------------------
-
+```table
+┌───────┬───────────────────────────────┐
+│       │                               │
+╞═══════╪═══════════════════════════════╡
+│ `Esc` │ cambia a modo visual          │
+├───────┼───────────────────────────────┤
+│ `a`   │ agregar texto posición actual │
+├───────┼───────────────────────────────┤
+│ `A`   │ agregar texto al final línea  │
+├───────┼───────────────────────────────┤
+│ `i`   │ inserta en la posición actual │
+├───────┼───────────────────────────────┤
+│ `I`   │ inserta al inicio de la línea │
+├───────┼───────────────────────────────┤
+│ `r`   │ reemplazar un caracter        │
+├───────┼───────────────────────────────┤
+│ `R`   │ modo reemplazar               │
+├───────┼───────────────────────────────┤
+│ `x`   │ borra caracter a la derecha   │
+├───────┼───────────────────────────────┤
+│ `X`   │ borra caracter a la izquierda │
+├───────┼───────────────────────────────┤
+│ `y`   │ copiar                        │
+├───────┼───────────────────────────────┤
+│ `p`   │ pegar                         │
+└───────┴───────────────────────────────┘
+```
 ## más vim
 
---------------------------------------------------------------------------------
-
-`d`       eliminar   `.`       repite última función   `:`       cambia a modo comando   `:q`      salir si no hubo cambios   `:q!`     salir sin guardar cambios   `:wq`     guardar y salir   `:e`      editar archivo   `:.`      línea actual   `:1,.`    desde primer línea a la actual   `:.,$`    desde línea actual a la última   `:5,15`   desde línea 5 a la número 15
-
---------------------------------------------------------------------------------
-
+```table
+┌─────────┬────────────────────────────────┐
+│         │                                │
+╞═════════╪════════════════════════════════╡
+│ `d`     │ eliminar                       │
+├─────────┼────────────────────────────────┤
+│ `.`     │ repite última función          │
+├─────────┼────────────────────────────────┤
+│ `:`     │ cambia a modo comando          │
+├─────────┼────────────────────────────────┤
+│ `:q`    │ salir si no hubo cambios       │
+├─────────┼────────────────────────────────┤
+│ `:q!`   │ salir sin guardar cambios      │
+├─────────┼────────────────────────────────┤
+│ `:wq`   │ guardar y salir                │
+├─────────┼────────────────────────────────┤
+│ `:e`    │ editar archivo                 │
+├─────────┼────────────────────────────────┤
+│ `:.`    │ línea actual                   │
+├─────────┼────────────────────────────────┤
+│ `:1,.`  │ desde primer línea a la actual │
+├─────────┼────────────────────────────────┤
+│ `:.,$`  │ desde línea actual a la última │
+├─────────┼────────────────────────────────┤
+│ `:5,15` │ desde línea 5 a la número 15   │
+└─────────┴────────────────────────────────┘
+```
 ## telnet mail
 
 ``` {.example}

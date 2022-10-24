@@ -43,17 +43,23 @@ De esta manera se crea una sesion **osiux** con dos ventanas **mm** y **mx**, en
 
 Entonces tengo asociada cada sesion de `tmux` a un **workspace** de `awesome` con el siguiente esquema:
 
-ws   alias    comando
-
---------------------------------------------------------------------------------
-
-1    tmo      tmuxosiris
-  2    tgca     tmuxgca
-  3    tmx      tmuxosiux
-  7    temacs   tmuxemacs
-  8    tmoc     tmuxmoc
-  9    tchat    tmuxchat
-
+```table
+┌────┬────────┬────────────┬──┐
+│ ws │ alias  │  comando   │  │
+╞════╪════════╪════════════╪══╡
+│ 1  │ tmo    │ tmuxosiris │  │
+├────┼────────┼────────────┼──┤
+│ 2  │ tgca   │ tmuxgca    │  │
+├────┼────────┼────────────┼──┤
+│ 3  │ tmx    │ tmuxosiux  │  │
+├────┼────────┼────────────┼──┤
+│ 7  │ temacs │ tmuxemacs  │  │
+├────┼────────┼────────────┼──┤
+│ 8  │ tmoc   │ tmuxmoc    │  │
+├────┼────────┼────────────┼──┤
+│ 9  │ tchat  │ tmuxchat   │  │
+└────┴────────┴────────────┴──┘
+```
 Otros alias que uso bastante son:
 
 ``` {.bash session="yes" results="code" export="code"}

@@ -22,12 +22,17 @@ Los invito a armar sus propias redes e interconectarlas mediante *Altermesh*.
 
 Un requisito indispensable es tener un *Router Inalámbrico* también conocido como *Access Point* que sea compatible con el firmware *AlterMesh*, actualemente están soportados algunos modelos de TP-Link con chipset `ar71xx` y además algunos modelos de Ubiquiti, en mi caso comencé por los siguientes modelos:
 
-modelo               flash   ram     radio0   radio1
-
---------------------------------------------------------------------------------
-
-TL-WDR3500ND ^10[10]   8mb     128mb   2.4Ghz   5Ghz   TL-MR3220 ^11[11]      4mb     32mb    2.4Ghz   -   TL-WR842ND ^12[12]     8mb     32mb    2.4Ghz   -
-
+```table
+┌──────────────────────┬───────┬───────┬────────┬────────┐
+│        modelo        │ flash │  ram  │ radio0 │ radio1 │
+╞══════════════════════╪═══════╪═══════╪════════╪════════╡
+│ TL-WDR3500ND ^10[10] │ 8mb   │ 128mb │ 2.4Ghz │ 5Ghz   │
+├──────────────────────┼───────┼───────┼────────┼────────┤
+│ TL-MR3220 ^11[11]    │ 4mb   │ 32mb  │ 2.4Ghz │ -      │
+├──────────────────────┼───────┼───────┼────────┼────────┤
+│ TL-WR842ND ^12[12]   │ 8mb   │ 32mb  │ 2.4Ghz │ -      │
+└──────────────────────┴───────┴───────┴────────┴────────┘
+```
 Todos los equipos cuentan con un conector USB que permite utilizar un pendrive para almacenar datos como asi también es posible conectar un dongle como el TL-WN722N para tener una segunda radio para enlazar a otros nodos.
 
 ## Flasheando AccessPoints

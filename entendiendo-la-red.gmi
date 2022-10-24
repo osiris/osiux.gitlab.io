@@ -150,15 +150,7 @@ egrep -o "A+\? .*\." | sed s/".$"//g | awk '{print $2}' | \
 egrep -v "(osiux|fbcdn|akamai)" | sort | uniq -c | sort -nr | head
 ```
 
-::: {#ranking-dns}
-
---------------------------------------------------------------------------------
-
-47   www.facebook.com   42   dns.msftncsi.com   41   su.ff.avast.com   37   ssl.google-analytics.com   37   ipv6.msftncsi.com   32   www.habbo.es   26   imap.googlemail.com   21   dynamic.zoneedit.com   19   www.msftncsi.com   18   kiwwwi.com.ar
-
---------------------------------------------------------------------------------
-
-:::
+::: {#ranking-dns} |     |                          | |-----|--------------------------| | 47  | www.facebook.com         | | 42  | dns.msftncsi.com         | | 41  | su.ff.avast.com          | | 37  | ssl.google-analytics.com | | 37  | ipv6.msftncsi.com        | | 32  | www.habbo.es             | | 26  | imap.googlemail.com      | | 21  | dynamic.zoneedit.com     | | 19  | www.msftncsi.com         | | 18  | kiwwwi.com.ar            | :::
 
 => img/ranking-dns.png [IMG]
 

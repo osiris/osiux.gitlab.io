@@ -32,12 +32,35 @@ Si nos aprendemos las teclas principales de una aplicación ya no es necesario m
 
 Las teclas más importantes son:
 
---------------------------------------------------------------------------------
-
-`Modkey`                             Es la más importante, se combina con el resto para distintas acciones   `Modkey + [0-9]`                     Cambiar de escritorio, por ejemplo: Modkey+1 escritorio 1   `Modkey + Enter`                     Abrir una terminal sin importar dónde uno se encuentre   `Modkey + Barria de Espacio`         Cambiar el layout, de horizontal a vertical por ejemplo   `Modkey + H/L`                       Cambiar tamaño de las ventanas   `Modkey + J/K`                       Intercambiar ventanas de posición   `Modkey + r`                         Invocar un comando   `Modkey + Ctrl + Barra de Espacio`   Convierte en flotante la ventana   `Modkey + Shift + C`                 Matar la ventana actual   `Modkey + Shift + Q`                 Salir de Awesome
-
---------------------------------------------------------------------------------
-
+```table
+┌────────────────────────────────────┬─────────────────────────────────────────┐
+│                                    │                                         │
+╞════════════════════════════════════╪═════════════════════════════════════════╡
+│ `Modkey`                           │ Es la más importante, se combina con el │
+│                                    │ resto para distintas acciones           │
+├────────────────────────────────────┼─────────────────────────────────────────┤
+│ `Modkey + [0-9]`                   │ Cambiar de escritorio, por ejemplo:     │
+│                                    │ Modkey+1 escritorio 1                   │
+├────────────────────────────────────┼─────────────────────────────────────────┤
+│ `Modkey + Enter`                   │ Abrir una terminal sin importar dónde   │
+│                                    │ uno se encuentre                        │
+├────────────────────────────────────┼─────────────────────────────────────────┤
+│ `Modkey + Barria de Espacio`       │ Cambiar el layout, de horizontal a      │
+│                                    │ vertical por ejemplo                    │
+├────────────────────────────────────┼─────────────────────────────────────────┤
+│ `Modkey + H/L`                     │ Cambiar tamaño de las ventanas          │
+├────────────────────────────────────┼─────────────────────────────────────────┤
+│ `Modkey + J/K`                     │ Intercambiar ventanas de posición       │
+├────────────────────────────────────┼─────────────────────────────────────────┤
+│ `Modkey + r`                       │ Invocar un comando                      │
+├────────────────────────────────────┼─────────────────────────────────────────┤
+│ `Modkey + Ctrl + Barra de Espacio` │ Convierte en flotante la ventana        │
+├────────────────────────────────────┼─────────────────────────────────────────┤
+│ `Modkey + Shift + C`               │ Matar la ventana actual                 │
+├────────────────────────────────────┼─────────────────────────────────────────┤
+│ `Modkey + Shift + Q`               │ Salir de Awesome                        │
+└────────────────────────────────────┴─────────────────────────────────────────┘
+```
 ## Ventanas en Mosaico
 
 La gran ventaja de este manejador de ventanas reside en que al abrir una nueva aplicación ésta adopta el máximo tamaño disponible y al abrir otra aplicación, las ventanas se acomodan dividiendo la pantalla tantas veces como ventanas abiertas estén visibles. Esto ahorra muchísimo tiempo en el que habitualmente uno tendría que resolver manualmente acomodando cada ventana para que no tape otra aplicación. Si se necesita cambiar la disposición de las ventanas abiertas basta con presionar una combinación de teclas y todo el esquema cambia de horizontal a vertical por ejemplo.
@@ -56,12 +79,29 @@ Es posible también tener ventanas flotantes, muy útiles en algunas contadas oc
 
 Es totalmente personalizable, actualmente el esquema que utilizo es el siguiente:
 
-N   Uso                 Aplicaciones
-
---------------------------------------------------------------------------------
-
-1   terminal            terminator + vim   2   terminal de root    terminator   3   auxiliar            thunar, inkscape, gimp   4   navegador           firefox, iceweasel   5   correo trabajo      mutt   6   correo personal     mutt   7   agenda              emacs + org-mode   8   música              mocp   9   mensajería y chat   finch
-
+```table
+┌───┬───────────────────┬────────────────────────┐
+│ N │        Uso        │      Aplicaciones      │
+╞═══╪═══════════════════╪════════════════════════╡
+│ 1 │ terminal          │ terminator + vim       │
+├───┼───────────────────┼────────────────────────┤
+│ 2 │ terminal de root  │ terminator             │
+├───┼───────────────────┼────────────────────────┤
+│ 3 │ auxiliar          │ thunar, inkscape, gimp │
+├───┼───────────────────┼────────────────────────┤
+│ 4 │ navegador         │ firefox, iceweasel     │
+├───┼───────────────────┼────────────────────────┤
+│ 5 │ correo trabajo    │ mutt                   │
+├───┼───────────────────┼────────────────────────┤
+│ 6 │ correo personal   │ mutt                   │
+├───┼───────────────────┼────────────────────────┤
+│ 7 │ agenda            │ emacs + org-mode       │
+├───┼───────────────────┼────────────────────────┤
+│ 8 │ música            │ mocp                   │
+├───┼───────────────────┼────────────────────────┤
+│ 9 │ mensajería y chat │ finch                  │
+└───┴───────────────────┴────────────────────────┘
+```
 => tmb/awesome/awesome-800x600.png [IMG]
 [11]
 
@@ -83,20 +123,40 @@ Entonces para todo esto necesito una buena terminal o emulador de terminal para 
 
 Hay que aprenderse unas teclas básicas:
 
-Tecla                                Acción
-
---------------------------------------------------------------------------------
-
-`Ctrl + Shift + e`                   Divide verticalmente.   `Ctrl + Shift + o`                   Divide horizontalmente.   `Ctrl + Shift + izquierda/derecha`   Cambia el ancho.   `Ctrl + Shift + arriba/abajo`        Cambia el alto.   `Ctrl + Tab`                         Intercambia de terminal.
-
+```table
+┌────────────────────────────────────┬──────────────────────────┐
+│               Tecla                │          Acción          │
+╞════════════════════════════════════╪══════════════════════════╡
+│ `Ctrl + Shift + e`                 │ Divide verticalmente.    │
+├────────────────────────────────────┼──────────────────────────┤
+│ `Ctrl + Shift + o`                 │ Divide horizontalmente.  │
+├────────────────────────────────────┼──────────────────────────┤
+│ `Ctrl + Shift + izquierda/derecha` │ Cambia el ancho.         │
+├────────────────────────────────────┼──────────────────────────┤
+│ `Ctrl + Shift + arriba/abajo`      │ Cambia el alto.          │
+├────────────────────────────────────┼──────────────────────────┤
+│ `Ctrl + Tab`                       │ Intercambia de terminal. │
+└────────────────────────────────────┴──────────────────────────┘
+```
 Lo interesante es que no conflictuan las combinaciones de teclas de división de ventanas de otras aplicaciones como screen, vim, emacs, etc.
 
-Tecla            Aplicación
-
---------------------------------------------------------------------------------
-
-`Ctrl + w`       vim   `Ctrl + x + o`   emacs   `Ctrl + x + 1`   emacs   `Ctrl + x + 2`   emacs   `Ctrl + x + 3`   emacs   `Ctrl + a + S`   screen
-
+```table
+┌────────────────┬────────────┐
+│     Tecla      │ Aplicación │
+╞════════════════╪════════════╡
+│ `Ctrl + w`     │ vim        │
+├────────────────┼────────────┤
+│ `Ctrl + x + o` │ emacs      │
+├────────────────┼────────────┤
+│ `Ctrl + x + 1` │ emacs      │
+├────────────────┼────────────┤
+│ `Ctrl + x + 2` │ emacs      │
+├────────────────┼────────────┤
+│ `Ctrl + x + 3` │ emacs      │
+├────────────────┼────────────┤
+│ `Ctrl + a + S` │ screen     │
+└────────────────┴────────────┘
+```
 ## Ejecutar Aplicaciones
 
 Existen básicamente dos maneras, la primera es configurar un menú desde el cual se puede hacer click en el nombre de la aplicación y ésta es ejecutada. La segunda manera es invocar la secuencia de teclas `Modkey + r`, como consecuencia se visualiza la palabra **Run:** en la barra principal de **Awesome** y se puede tipear casi cualquier cosa, es como si estuvieramos dentro de una terminal, mantien historial, autocompleta comandos y nombres de archivos, es sin duda la más usada porque se puede prescindir del mouse, está siempre disponible y no sólo no ocupa mucho espacio, además no interfiere con el resto de las aplicaciones que tengamos abiertas. Aclaro que si te equivocás con suerte no pasa nada, es decir no muestra mensajes de error y con mala suerte se queda medio colgado por unos segundos.

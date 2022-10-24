@@ -25,11 +25,27 @@ Cualquier consulta o sugerencia es bien recibida, también a hfday2014@quilmeslu
 
 Algunas de las Presentaciones/Charlas:
 
---------------------------------------------------------------------------------
-
-Arduino YUN                                      Federico Pfaffendorf        Club Arduino - Argentina[2]   Balero Rodante                                   Diego Gutierrez (Diegote)   BuenosAiresLibre[3]   Brazos, robots, insectos                         Daniel Esquerdo             Kit Robot[4]   Crear - El Arte y la Tecnología                  Facundo Mainere             Cooperativa de Trabajo[5]   OpenMolo                                         Leonel Caraciolli           OpenMolo[6]   Robótica con Hardware Abierto y Software Libre   Martin Noblia               Proyecto de Extensión Universitaria RHASL[7]
-
---------------------------------------------------------------------------------
+```table
+┌──────────────────────────┬─────────────────────────┬─────────────────────────┐
+│                          │                         │                         │
+╞══════════════════════════╪═════════════════════════╪═════════════════════════╡
+│ Arduino YUN              │ Federico Pfaffendorf    │ Club Arduino -          │
+│                          │                         │ Argentina[2]            │
+├──────────────────────────┼─────────────────────────┼─────────────────────────┤
+│ Balero Rodante           │ Diego Gutierrez         │ BuenosAiresLibre[3]     │
+│                          │ (Diegote)               │                         │
+├──────────────────────────┼─────────────────────────┼─────────────────────────┤
+│ Brazos, robots, insectos │ Daniel Esquerdo         │ Kit Robot[4]            │
+├──────────────────────────┼─────────────────────────┼─────────────────────────┤
+│ Crear - El Arte y la     │ Facundo Mainere         │ Cooperativa de          │
+│ Tecnología               │                         │ Trabajo[5]              │
+├──────────────────────────┼─────────────────────────┼─────────────────────────┤
+│ OpenMolo                 │ Leonel Caraciolli       │ OpenMolo[6]             │
+├──────────────────────────┼─────────────────────────┼─────────────────────────┤
+│ Robótica con Hardware    │ Martin Noblia           │ Proyecto de Extensión   │
+│ Abierto y Software Libre │                         │ Universitaria RHASL[7]  │
+└──────────────────────────┴─────────────────────────┴─────────────────────────┘
+```
 
 => file:img/Hardware-Freedom-Day-2014.png 1: file:img/Hardware-Freedom-Day-2014.png
 => http://clubarduino.com.ar/ 2: http://clubarduino.com.ar/

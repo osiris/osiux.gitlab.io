@@ -18,6 +18,15 @@
 * EMAIL: osiux@osiux.com
 
 ### 
+=> 2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.gmi Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools
+
+### 
+=> 2022-10-03-ansible-tools-v0-3-0.gmi *Ansible Tools* `v0.3.0`
+
+### 
+=> 2022-08-21-howto-use-gitlab-from-command-line.gmi cómo usar *GitLab* desde la línea de comandos
+
+### 
 => 2022-08-02-osiux-wip-flow.gmi OSiUX Work In Progress Flow
 
 ### 
@@ -97,15 +106,6 @@
 
 ### 
 => 2021-03-02-email-desde-consola.gmi email desde consola
-
-### 
-=> 2021-03-01-cooperativismo-y-software-libre.gmi Cooperativismo y Software Libre
-
-### 
-=> 2021-03-01-2021-03-31-posts.gmi ABSOLUTELLY NO WARRANTY *posts* 2021-03-01 - 2021-03-31
-
-### 
-=> 2021-02-26-30-dias-de-posts-por-la-birra.gmi 🍺🍺🍺 30 días de *posts* por la birra!
 
 ## 
 => blog.gmi `blog`

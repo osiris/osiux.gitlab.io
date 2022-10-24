@@ -67,38 +67,102 @@ Utilización de **re-StructuredText** ^5[6] como fuente principal de un document
 
 ### Leer y Editar Archivos
 
---------------------------------------------------------------------------------
-
-`:w [archivo]`   Guarda los cambios del archivo actual   `:wq`            Sale guardando los cambios del archivo actual cambios   `:q!`            Sale del editor sin guardar cambios   `:q`             evita perder modificaciones   `:e archivo`     Edita el archivo indicado   `:r archivo`     Lee el contenido del archivo y lo escribe en el buffer actual   `gf`             Abre el archivo bajo el cursor (usar CTRL-o para regresar)   `CTRL+]`         Da un salto a donde se define el símbolo debajo del cursor (*)   `CTRL+t`         Regresa al archivo anterior luego de hacer un salto (*)
-
---------------------------------------------------------------------------------
-
+```table
+┌────────────────┬─────────────────────────────────────────────────────────────┐
+│                │                                                             │
+╞════════════════╪═════════════════════════════════════════════════════════════╡
+│ `:w [archivo]` │ Guarda los cambios del archivo actual                       │
+├────────────────┼─────────────────────────────────────────────────────────────┤
+│ `:wq`          │ Sale guardando los cambios del archivo actual cambios       │
+├────────────────┼─────────────────────────────────────────────────────────────┤
+│ `:q!`          │ Sale del editor sin guardar cambios                         │
+├────────────────┼─────────────────────────────────────────────────────────────┤
+│ `:q`           │ evita perder modificaciones                                 │
+├────────────────┼─────────────────────────────────────────────────────────────┤
+│ `:e archivo`   │ Edita el archivo indicado                                   │
+├────────────────┼─────────────────────────────────────────────────────────────┤
+│ `:r archivo`   │ Lee el contenido del archivo y lo escribe en el buffer      │
+│                │ actual                                                      │
+├────────────────┼─────────────────────────────────────────────────────────────┤
+│ `gf`           │ Abre el archivo bajo el cursor (usar CTRL-o para regresar)  │
+├────────────────┼─────────────────────────────────────────────────────────────┤
+│ `CTRL+]`       │ Da un salto a donde se define el símbolo debajo del cursor  │
+│                │ (*)                                                         │
+├────────────────┼─────────────────────────────────────────────────────────────┤
+│ `CTRL+t`       │ Regresa al archivo anterior luego de hacer un salto (*)     │
+└────────────────┴─────────────────────────────────────────────────────────────┘
+```
 * Usar `ctags` para que funcione correctamente, al menos en PHP, C y python.
 
 ### Modo Inserción
 
---------------------------------------------------------------------------------
-
-`i`   Ingresa a izquierda del caracter actual   `I`   Ingresa al principio de la linea   `a`   Ingresa a derecha del caracter actual   `A`   Ingresa al final de la linea   `o`   Inserta un linea debajo de la actual   `O`   Inserta una linea arriba de la actual
-
---------------------------------------------------------------------------------
-
+```table
+┌─────┬─────────────────────────────────────────┐
+│     │                                         │
+╞═════╪═════════════════════════════════════════╡
+│ `i` │ Ingresa a izquierda del caracter actual │
+├─────┼─────────────────────────────────────────┤
+│ `I` │ Ingresa al principio de la linea        │
+├─────┼─────────────────────────────────────────┤
+│ `a` │ Ingresa a derecha del caracter actual   │
+├─────┼─────────────────────────────────────────┤
+│ `A` │ Ingresa al final de la linea            │
+├─────┼─────────────────────────────────────────┤
+│ `o` │ Inserta un linea debajo de la actual    │
+├─────┼─────────────────────────────────────────┤
+│ `O` │ Inserta una linea arriba de la actual   │
+└─────┴─────────────────────────────────────────┘
+```
 ### Movimientos
 
---------------------------------------------------------------------------------
-
-`H, L`     Izquierda, Derecha   `J, K`     Abajo, Arriba   `CTRL-d`   Avaza media pantalla   `CTRL-u`   Retrocede media pantalla   `w, W`     Avanza de a palabras, W hace saltos mas largos   `b, B`     Como **w, W** en sentido inverso   `e, E`     Como **w, W** coloca el cursor a la derecha de la palabra   `0, $`     Principio y final de la linea actual   `gg, G`    Ir al principio o final del archivo   `:nro`     Se dirige directamente al número de línea indicado
-
---------------------------------------------------------------------------------
-
+```table
+┌──────────┬───────────────────────────────────────────────────────────┐
+│          │                                                           │
+╞══════════╪═══════════════════════════════════════════════════════════╡
+│ `H, L`   │ Izquierda, Derecha                                        │
+├──────────┼───────────────────────────────────────────────────────────┤
+│ `J, K`   │ Abajo, Arriba                                             │
+├──────────┼───────────────────────────────────────────────────────────┤
+│ `CTRL-d` │ Avaza media pantalla                                      │
+├──────────┼───────────────────────────────────────────────────────────┤
+│ `CTRL-u` │ Retrocede media pantalla                                  │
+├──────────┼───────────────────────────────────────────────────────────┤
+│ `w, W`   │ Avanza de a palabras, W hace saltos mas largos            │
+├──────────┼───────────────────────────────────────────────────────────┤
+│ `b, B`   │ Como **w, W** en sentido inverso                          │
+├──────────┼───────────────────────────────────────────────────────────┤
+│ `e, E`   │ Como **w, W** coloca el cursor a la derecha de la palabra │
+├──────────┼───────────────────────────────────────────────────────────┤
+│ `0, $`   │ Principio y final de la linea actual                      │
+├──────────┼───────────────────────────────────────────────────────────┤
+│ `gg, G`  │ Ir al principio o final del archivo                       │
+├──────────┼───────────────────────────────────────────────────────────┤
+│ `:nro`   │ Se dirige directamente al número de línea indicado        │
+└──────────┴───────────────────────────────────────────────────────────┘
+```
 ### Borrar y Deshacer
 
---------------------------------------------------------------------------------
-
-`D, d$`    Borra todos los caracteres hasta el final de la linea   `x`        Elimina el caracter bajo el cursor ****delete****   `X`        Elimina el caracter bajo el cursor ****backpace****   `dd`       Elimina la linea actual   `d{5w}`    Borra 5 palabras hacia la derecha   `u`        Deshacer el último cambio   `CTRL-R`   Rehacer   `U`        Deshacer todos los cambios de la linea actual
-
---------------------------------------------------------------------------------
-
+```table
+┌──────────┬───────────────────────────────────────────────────────┐
+│          │                                                       │
+╞══════════╪═══════════════════════════════════════════════════════╡
+│ `D, d$`  │ Borra todos los caracteres hasta el final de la linea │
+├──────────┼───────────────────────────────────────────────────────┤
+│ `x`      │ Elimina el caracter bajo el cursor ****delete****     │
+├──────────┼───────────────────────────────────────────────────────┤
+│ `X`      │ Elimina el caracter bajo el cursor ****backpace****   │
+├──────────┼───────────────────────────────────────────────────────┤
+│ `dd`     │ Elimina la linea actual                               │
+├──────────┼───────────────────────────────────────────────────────┤
+│ `d{5w}`  │ Borra 5 palabras hacia la derecha                     │
+├──────────┼───────────────────────────────────────────────────────┤
+│ `u`      │ Deshacer el último cambio                             │
+├──────────┼───────────────────────────────────────────────────────┤
+│ `CTRL-R` │ Rehacer                                               │
+├──────────┼───────────────────────────────────────────────────────┤
+│ `U`      │ Deshacer todos los cambios de la linea actual         │
+└──────────┴───────────────────────────────────────────────────────┘
+```
 ### Búsquedas
 
 Opciones para habilitar búsquedas inmediatas y subrayado de resultado:
@@ -129,20 +193,34 @@ Reemplaza todas las apariciones de {a~buscar~} por {reemplazo} en el sector indi
 
 ### Copiar y pegar
 
---------------------------------------------------------------------------------
-
-`y{3w}`   Copia (yank) copia 3 palabras   `y$`      Copia hasta hasta el final de linea   `yy`      Copia la linea completa   `p, P`    Pega el texto debajo o arriba de la linea actual   `ddp`     Invierte dos líneas
-
---------------------------------------------------------------------------------
-
+```table
+┌─────────┬──────────────────────────────────────────────────┐
+│         │                                                  │
+╞═════════╪══════════════════════════════════════════════════╡
+│ `y{3w}` │ Copia (yank) copia 3 palabras                    │
+├─────────┼──────────────────────────────────────────────────┤
+│ `y$`    │ Copia hasta hasta el final de linea              │
+├─────────┼──────────────────────────────────────────────────┤
+│ `yy`    │ Copia la linea completa                          │
+├─────────┼──────────────────────────────────────────────────┤
+│ `p, P`  │ Pega el texto debajo o arriba de la linea actual │
+├─────────┼──────────────────────────────────────────────────┤
+│ `ddp`   │ Invierte dos líneas                              │
+└─────────┴──────────────────────────────────────────────────┘
+```
 ### Otros modos de selección
 
---------------------------------------------------------------------------------
-
-`v`         Define una zona de selección   `CTRL-v`    Similar al anterior pero en bloque   `SHIFT-v`   Útil para seleccionar lineas de texto completas
-
---------------------------------------------------------------------------------
-
+```table
+┌───────────┬─────────────────────────────────────────────────┐
+│           │                                                 │
+╞═══════════╪═════════════════════════════════════════════════╡
+│ `v`       │ Define una zona de selección                    │
+├───────────┼─────────────────────────────────────────────────┤
+│ `CTRL-v`  │ Similar al anterior pero en bloque              │
+├───────────┼─────────────────────────────────────────────────┤
+│ `SHIFT-v` │ Útil para seleccionar lineas de texto completas │
+└───────────┴─────────────────────────────────────────────────┘
+```
 ### Autocompletado
 
 `CTRL-x CTRL-p, CTRL-x CTRL-n`
@@ -163,20 +241,38 @@ Autocompleta consultando un diccionario personalizado. Usar algo como **:set dic
 
 ### Ventanas y Tabs
 
---------------------------------------------------------------------------------
-
-`:split`     Divide la ventana horizontalmente   `:vsplit`    Similar al anterior pero verticalmente   `:Explore`   Abre un navegador de archivos   `CTRL-w`     Alterna entre ventanas   `:tabNew`    Crea un nuevo tab   `:tabNext`   Alterna entre tabs
-
---------------------------------------------------------------------------------
-
+```table
+┌────────────┬────────────────────────────────────────┐
+│            │                                        │
+╞════════════╪════════════════════════════════════════╡
+│ `:split`   │ Divide la ventana horizontalmente      │
+├────────────┼────────────────────────────────────────┤
+│ `:vsplit`  │ Similar al anterior pero verticalmente │
+├────────────┼────────────────────────────────────────┤
+│ `:Explore` │ Abre un navegador de archivos          │
+├────────────┼────────────────────────────────────────┤
+│ `CTRL-w`   │ Alterna entre ventanas                 │
+├────────────┼────────────────────────────────────────┤
+│ `:tabNew`  │ Crea un nuevo tab                      │
+├────────────┼────────────────────────────────────────┤
+│ `:tabNext` │ Alterna entre tabs                     │
+└────────────┴────────────────────────────────────────┘
+```
 ### Integración con bash
 
---------------------------------------------------------------------------------
-
-`:!comando`     Ejecuta el comando y muestra la salida en pantalla   `:r !comando`   Ejecuta el comando e inserta la salida de pantalla                   Por ejemplo **:r !cal** inserta el calendario del mes actual   `:shell`        Inicia un proceso bash, utilice **exit** para regresar
-
---------------------------------------------------------------------------------
-
+```table
+┌───────────────┬──────────────────────────────────────────────────────────────┐
+│               │                                                              │
+╞═══════════════╪══════════════════════════════════════════════════════════════╡
+│ `:!comando`   │ Ejecuta el comando y muestra la salida en pantalla           │
+├───────────────┼──────────────────────────────────────────────────────────────┤
+│ `:r !comando` │ Ejecuta el comando e inserta la salida de pantalla           │
+├───────────────┼──────────────────────────────────────────────────────────────┤
+│               │ Por ejemplo **:r !cal** inserta el calendario del mes actual │
+├───────────────┼──────────────────────────────────────────────────────────────┤
+│ `:shell`      │ Inicia un proceso bash, utilice **exit** para regresar       │
+└───────────────┴──────────────────────────────────────────────────────────────┘
+```
 ### Atajos y macros
 
 `:map <F5> :r !date<CR>`
@@ -197,20 +293,47 @@ Repite las operaciones que ha guardado en el registro **a**. Puede usar un núme
 
 ### Corrector ortográfico
 
---------------------------------------------------------------------------------
-
-`:set spell spelllang=es`   Habilita el corrector en español   `=z`                        Muestra sugerencias de corrección   `zg`                        Agrega en el diccionario la palabra   `]s, [s`                    Avanza o retrocede palabras incorrectas
-
---------------------------------------------------------------------------------
-
+```table
+┌───────────────────────────┬─────────────────────────────────────────┐
+│                           │                                         │
+╞═══════════════════════════╪═════════════════════════════════════════╡
+│ `:set spell spelllang=es` │ Habilita el corrector en español        │
+├───────────────────────────┼─────────────────────────────────────────┤
+│ `=z`                      │ Muestra sugerencias de corrección       │
+├───────────────────────────┼─────────────────────────────────────────┤
+│ `zg`                      │ Agrega en el diccionario la palabra     │
+├───────────────────────────┼─────────────────────────────────────────┤
+│ `]s, [s`                  │ Avanza o retrocede palabras incorrectas │
+└───────────────────────────┴─────────────────────────────────────────┘
+```
 ### Otros
 
---------------------------------------------------------------------------------
-
-`.`               Repite el último cambio   `SHIFT-j`         Une la linea actual con la siguente, elimina el salto de linea   `gqap`            Aplica formato a todo el párrafo   `:set wildmenu`   Visor de autocompletado en la barra de comandos   `:colorscheme`    Alterna el tema de colores actual   `:set paste`      Habilita **pegar** texto desde aplicaciones externas   `:X`              Solicita una contraseña para cifrar el contenido de un archivo   `%`               Busca el complemento del paréntesis, llave o corchete bajo el cursor   `*`               Va al primer caracter de la siguiente linea
-
---------------------------------------------------------------------------------
-
+```table
+┌─────────────────┬────────────────────────────────────────────────────────────┐
+│                 │                                                            │
+╞═════════════════╪════════════════════════════════════════════════════════════╡
+│ `.`             │ Repite el último cambio                                    │
+├─────────────────┼────────────────────────────────────────────────────────────┤
+│ `SHIFT-j`       │ Une la linea actual con la siguente, elimina el salto de   │
+│                 │ linea                                                      │
+├─────────────────┼────────────────────────────────────────────────────────────┤
+│ `gqap`          │ Aplica formato a todo el párrafo                           │
+├─────────────────┼────────────────────────────────────────────────────────────┤
+│ `:set wildmenu` │ Visor de autocompletado en la barra de comandos            │
+├─────────────────┼────────────────────────────────────────────────────────────┤
+│ `:colorscheme`  │ Alterna el tema de colores actual                          │
+├─────────────────┼────────────────────────────────────────────────────────────┤
+│ `:set paste`    │ Habilita **pegar** texto desde aplicaciones externas       │
+├─────────────────┼────────────────────────────────────────────────────────────┤
+│ `:X`            │ Solicita una contraseña para cifrar el contenido de un     │
+│                 │ archivo                                                    │
+├─────────────────┼────────────────────────────────────────────────────────────┤
+│ `%`             │ Busca el complemento del paréntesis, llave o corchete bajo │
+│                 │ el cursor                                                  │
+├─────────────────┼────────────────────────────────────────────────────────────┤
+│ `*`             │ Va al primer caracter de la siguiente linea                │
+└─────────────────┴────────────────────────────────────────────────────────────┘
+```
 ## re-StructuredText
 
 ### Instalación
@@ -382,60 +505,141 @@ A diferencia de otros expertos en gestión del tiempo, ****Allen**** no se centr
 
 ### Convención de Teclas
 
---------------------------------------------------------------------------------
-
-`C-g`       Mantener pulsada Ctrl, presionar g y soltar Ctrl   `C-x C-s`   Mantener pulsada Ctrl, presionar x, presionar s, soltar Ctrl   `C-x f`     Mantener pulsada Ctrl, presionar x, presionar f   `M-q`       Mantener pulsada Meta (Esc o Alt), presionar q, soltar Meta
-
---------------------------------------------------------------------------------
-
+```table
+┌───────────┬──────────────────────────────────────────────────────────────┐
+│           │                                                              │
+╞═══════════╪══════════════════════════════════════════════════════════════╡
+│ `C-g`     │ Mantener pulsada Ctrl, presionar g y soltar Ctrl             │
+├───────────┼──────────────────────────────────────────────────────────────┤
+│ `C-x C-s` │ Mantener pulsada Ctrl, presionar x, presionar s, soltar Ctrl │
+├───────────┼──────────────────────────────────────────────────────────────┤
+│ `C-x f`   │ Mantener pulsada Ctrl, presionar x, presionar f              │
+├───────────┼──────────────────────────────────────────────────────────────┤
+│ `M-q`     │ Mantener pulsada Meta (Esc o Alt), presionar q, soltar Meta  │
+└───────────┴──────────────────────────────────────────────────────────────┘
+```
 ### Rectángulos
 
---------------------------------------------------------------------------------
-
-`C-SPACE`   Marcar una region   `C-x r t`   Reemplaza un rectangulo con caracter   `C-x r d`   Borrar un rectangulo   `C-x r o`   Inserta un rectangulo en blanco   `C-x r c`   Reemplaza un rectangulo con espacios
-
---------------------------------------------------------------------------------
-
+```table
+┌───────────┬──────────────────────────────────────┐
+│           │                                      │
+╞═══════════╪══════════════════════════════════════╡
+│ `C-SPACE` │ Marcar una region                    │
+├───────────┼──────────────────────────────────────┤
+│ `C-x r t` │ Reemplaza un rectangulo con caracter │
+├───────────┼──────────────────────────────────────┤
+│ `C-x r d` │ Borrar un rectangulo                 │
+├───────────┼──────────────────────────────────────┤
+│ `C-x r o` │ Inserta un rectangulo en blanco      │
+├───────────┼──────────────────────────────────────┤
+│ `C-x r c` │ Reemplaza un rectangulo con espacios │
+└───────────┴──────────────────────────────────────┘
+```
 ### Buffers
 
---------------------------------------------------------------------------------
-
-`C-x C-f`   Buscar un archivo   `C-x C-k`   Cerrar un buffer   `C-x C-s`   Guardar buffer en un archivo   `C-x C-w`   Guardar buffer en un archivo distinto   `M-<`       Ir al principio del buffer   `M->`       Ir al final del buffer   `C-x C-b`   Listar buffers abiertos   `C-x b`     Cambiar de buffer
-
---------------------------------------------------------------------------------
-
+```table
+┌───────────┬───────────────────────────────────────┐
+│           │                                       │
+╞═══════════╪═══════════════════════════════════════╡
+│ `C-x C-f` │ Buscar un archivo                     │
+├───────────┼───────────────────────────────────────┤
+│ `C-x C-k` │ Cerrar un buffer                      │
+├───────────┼───────────────────────────────────────┤
+│ `C-x C-s` │ Guardar buffer en un archivo          │
+├───────────┼───────────────────────────────────────┤
+│ `C-x C-w` │ Guardar buffer en un archivo distinto │
+├───────────┼───────────────────────────────────────┤
+│ `M-<`     │ Ir al principio del buffer            │
+├───────────┼───────────────────────────────────────┤
+│ `M->`     │ Ir al final del buffer                │
+├───────────┼───────────────────────────────────────┤
+│ `C-x C-b` │ Listar buffers abiertos               │
+├───────────┼───────────────────────────────────────┤
+│ `C-x b`   │ Cambiar de buffer                     │
+└───────────┴───────────────────────────────────────┘
+```
 ### Movimiento
 
---------------------------------------------------------------------------------
-
-`M-v`   Retroceder página   `C-f`   Avanza un caracter   `C-b`   Retrocede un caracter   `C-p`   Línea anterior   `C-n`   Siguiente línea   `M-f`   Siguiente palabra   `M-b`   Palabra anterior   `C-a`   Ir al principio de la línea   `C-e`   Ir al final de la línea   `C-v`   Avanzar página
-
---------------------------------------------------------------------------------
-
+```table
+┌───────┬─────────────────────────────┐
+│       │                             │
+╞═══════╪═════════════════════════════╡
+│ `M-v` │ Retroceder página           │
+├───────┼─────────────────────────────┤
+│ `C-f` │ Avanza un caracter          │
+├───────┼─────────────────────────────┤
+│ `C-b` │ Retrocede un caracter       │
+├───────┼─────────────────────────────┤
+│ `C-p` │ Línea anterior              │
+├───────┼─────────────────────────────┤
+│ `C-n` │ Siguiente línea             │
+├───────┼─────────────────────────────┤
+│ `M-f` │ Siguiente palabra           │
+├───────┼─────────────────────────────┤
+│ `M-b` │ Palabra anterior            │
+├───────┼─────────────────────────────┤
+│ `C-a` │ Ir al principio de la línea │
+├───────┼─────────────────────────────┤
+│ `C-e` │ Ir al final de la línea     │
+├───────┼─────────────────────────────┤
+│ `C-v` │ Avanzar página              │
+└───────┴─────────────────────────────┘
+```
 ### Edición
 
---------------------------------------------------------------------------------
-
-`C-x u`   Deshacer   `C-d`     Borrar caracter   `C-g`     Cancela cualquier comando   `M-x`     Permite ejecutar comandos interactivos   `C-w`     Cortar   `C-y`     Pegar   `M-w`     Copiar   `M-y`     Rota el portapapeles   `M-q`     Justifica un parrafo
-
---------------------------------------------------------------------------------
-
+```table
+┌─────────┬────────────────────────────────────────┐
+│         │                                        │
+╞═════════╪════════════════════════════════════════╡
+│ `C-x u` │ Deshacer                               │
+├─────────┼────────────────────────────────────────┤
+│ `C-d`   │ Borrar caracter                        │
+├─────────┼────────────────────────────────────────┤
+│ `C-g`   │ Cancela cualquier comando              │
+├─────────┼────────────────────────────────────────┤
+│ `M-x`   │ Permite ejecutar comandos interactivos │
+├─────────┼────────────────────────────────────────┤
+│ `C-w`   │ Cortar                                 │
+├─────────┼────────────────────────────────────────┤
+│ `C-y`   │ Pegar                                  │
+├─────────┼────────────────────────────────────────┤
+│ `M-w`   │ Copiar                                 │
+├─────────┼────────────────────────────────────────┤
+│ `M-y`   │ Rota el portapapeles                   │
+├─────────┼────────────────────────────────────────┤
+│ `M-q`   │ Justifica un parrafo                   │
+└─────────┴────────────────────────────────────────┘
+```
 ### Buscar y Reemplazar
 
---------------------------------------------------------------------------------
-
-`C-s`   Busqueda hacia adelante   `C-r`   Busqueda hacia atrás   `M-%`   Buscar y Reemplazar
-
---------------------------------------------------------------------------------
-
+```table
+┌───────┬─────────────────────────┐
+│       │                         │
+╞═══════╪═════════════════════════╡
+│ `C-s` │ Busqueda hacia adelante │
+├───────┼─────────────────────────┤
+│ `C-r` │ Busqueda hacia atrás    │
+├───────┼─────────────────────────┤
+│ `M-%` │ Buscar y Reemplazar     │
+└───────┴─────────────────────────┘
+```
 ### Ventanas
 
---------------------------------------------------------------------------------
-
-`C-x 0`   Elimina ventana   `C-x 1`   1 sola ventana   `C-x 2`   2 ventanas verticales   `C-x 3`   2 ventanas horizontales   `C-x o`   Ir a la otra ventana
-
---------------------------------------------------------------------------------
-
+```table
+┌─────────┬─────────────────────────┐
+│         │                         │
+╞═════════╪═════════════════════════╡
+│ `C-x 0` │ Elimina ventana         │
+├─────────┼─────────────────────────┤
+│ `C-x 1` │ 1 sola ventana          │
+├─────────┼─────────────────────────┤
+│ `C-x 2` │ 2 ventanas verticales   │
+├─────────┼─────────────────────────┤
+│ `C-x 3` │ 2 ventanas horizontales │
+├─────────┼─────────────────────────┤
+│ `C-x o` │ Ir a la otra ventana    │
+└─────────┴─────────────────────────┘
+```
 ## org-mode
 
 * Desarrollado por Carsten Dominik.

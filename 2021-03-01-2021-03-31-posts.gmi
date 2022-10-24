@@ -6,131 +6,143 @@
 ## Actividad por día
 
 ``` {.example}
-▣▣▣ ▣▣ ▣▣□□□ □□ □▣▣▣▣ □□ ▣▣▣□□ □□ □□▣□
+[0m□[0m□[0m□[0m□[0m□ [0m□[0m□ [0m□[0m□[0m□[0m□[0m□ [0m□[0m□ [0m□[0m□[0m□[0m□[0m□ [0m□[0m□ [01;32m▣[0m□[0m□[0m□[0m□ [01;32m▣[01;32m▣ [01;32m▣[01;32m▣[0m
 ```
 
 ## Resumen
 
-item                 value
-
---------------------------------------------------------------------------------
-
-`LAST_HASH`          `49b23dc`[1]   `FIRST_HASH`         `57fe05f`[2]   `TOTAL_TIME`         `09:07 hs`   `TOTAL_COMMITS`      `28`   `TOTAL_BLOG_POSTS`   `19`
-
+```table
+┌────────────────────┬──────────────┐
+│        item        │    value     │
+╞════════════════════╪══════════════╡
+│ `LAST_HASH`        │ `da92c29`[1] │
+├────────────────────┼──────────────┤
+│ `FIRST_HASH`       │ `57fe05f`[2] │
+├────────────────────┼──────────────┤
+│ `TOTAL_TIME`       │ `09:27 hs`   │
+├────────────────────┼──────────────┤
+│ `TOTAL_COMMITS`    │ `30`         │
+├────────────────────┼──────────────┤
+│ `TOTAL_BLOG_POSTS` │ `21`         │
+└────────────────────┴──────────────┘
+```
 ## Total de *commits* por día
 
 ``` {.example}
-  3.57 %   3.57 %          1 █                    2021-03-01 
- 10.71 %   7.14 %          2 █                    2021-03-02 
- 14.29 %   3.57 %          1 █                    2021-03-03 
- 25.00 %  10.71 %          3 ██                   2021-03-04 
- 28.57 %   3.57 %          1 █                    2021-03-05 
- 42.86 %  14.29 %          4 ███                  2021-03-06 
- 50.00 %   7.14 %          2 █                    2021-03-07 
- 53.57 %   3.57 %          1 █                    2021-03-08 
- 57.14 %   3.57 %          1 █                    2021-03-09 
- 60.71 %   3.57 %          1 █                    2021-03-16 
- 64.29 %   3.57 %          1 █                    2021-03-17 
- 75.00 %  10.71 %          3 ██                   2021-03-18 
- 78.57 %   3.57 %          1 █                    2021-03-19 
- 85.71 %   7.14 %          2 █                    2021-03-22 
- 89.29 %   3.57 %          1 █                    2021-03-23 
-100.00 %  10.71 %          3 ██                   2021-03-24 
-                          28
+  3.33 %   3.33 %          1 ▌                    2021-03-01 
+ 10.00 %   6.67 %          2 █                    2021-03-02 
+ 13.33 %   3.33 %          1 ▌                    2021-03-03 
+ 23.33 %  10.00 %          3 ██                   2021-03-04 
+ 26.67 %   3.33 %          1 ▌                    2021-03-05 
+ 40.00 %  13.33 %          4 ███                  2021-03-06 
+ 46.67 %   6.67 %          2 █                    2021-03-07 
+ 50.00 %   3.33 %          1 ▌                    2021-03-08 
+ 53.33 %   3.33 %          1 ▌                    2021-03-09 
+ 56.67 %   3.33 %          1 ▌                    2021-03-16 
+ 60.00 %   3.33 %          1 ▌                    2021-03-17 
+ 70.00 %  10.00 %          3 ██                   2021-03-18 
+ 73.33 %   3.33 %          1 ▌                    2021-03-19 
+ 80.00 %   6.67 %          2 █                    2021-03-22 
+ 83.33 %   3.33 %          1 ▌                    2021-03-23 
+ 93.33 %  10.00 %          3 ██                   2021-03-24 
+100.00 %   6.67 %          2 █                    2021-03-31 
+                          30
 ```
 
 ## Total de *commits* por hora
 
 ``` {.example}
- 10.71 %  10.71 %          3 ██                   00 
- 17.86 %   7.14 %          2 █                    07 
- 21.43 %   3.57 %          1 █                    08 
- 25.00 %   3.57 %          1 █                    10 
-100.00 %  75.00 %         21 ██████████████████   23 
-                          28
+ 10.00 %  10.00 %          3 ██                   00 
+ 16.67 %   6.67 %          2 █                    07 
+ 20.00 %   3.33 %          1 ▌                    08 
+ 26.67 %   6.67 %          2 █                    09 
+ 30.00 %   3.33 %          1 ▌                    10 
+100.00 %  70.00 %         21 █████████████████    23 
+                          30
 ```
 
 ## Total de *commits* por tiempo
 
 ``` {.example}
- 14.29 %  14.29 %          4 ███                  00:01 
- 32.14 %  17.86 %          5 ████                 00:05 
- 42.86 %  10.71 %          3 ██                   00:10 
- 53.57 %  10.71 %          3 ██                   00:15 
- 57.14 %   3.57 %          1 █                    00:20 
- 60.71 %   3.57 %          1 █                    00:23 
- 64.29 %   3.57 %          1 █                    00:27 
- 67.86 %   3.57 %          1 █                    00:29 
- 82.14 %  14.29 %          4 ███                  00:30 
- 85.71 %   3.57 %          1 █                    00:40 
- 96.43 %  10.71 %          3 ██                   00:45 
-100.00 %   3.57 %          1 █                    00:49 
-                          28
+ 13.33 %  13.33 %          4 ███                  00:01 
+ 33.33 %  20.00 %          6 █████                00:05 
+ 43.33 %  10.00 %          3 ██                   00:10 
+ 56.67 %  13.33 %          4 ███                  00:15 
+ 60.00 %   3.33 %          1 ▌                    00:20 
+ 63.33 %   3.33 %          1 ▌                    00:23 
+ 66.67 %   3.33 %          1 ▌                    00:27 
+ 70.00 %   3.33 %          1 ▌                    00:29 
+ 83.33 %  13.33 %          4 ███                  00:30 
+ 86.67 %   3.33 %          1 ▌                    00:40 
+ 96.67 %  10.00 %          3 ██                   00:45 
+100.00 %   3.33 %          1 ▌                    00:49 
+                          30
 ```
 
 ## Detalle de *posts* nuevos, modificados y autogenerados
 
-### OSiUX links[3]
+### Software Libre en las Olimpíadas Informáticas de Monte Caseros[3]
 
-### Galería de Imágenes[4]
+### OSiUX links[4]
 
-### header[5]
+### Galería de Imágenes[5]
 
-### OSiUX git repositories[6]
+### header[6]
 
-### *Hablar, escribir, pensar: el software no es un trabajo de escritorio*[7]
+### OSiUX git repositories[7]
 
-### conectar la wifi desde la consola[8]
+### *Hablar, escribir, pensar: el software no es un trabajo de escritorio*[8]
 
-### La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto[9]
+### conectar la wifi desde la consola[9]
 
-### git commit timesum[10]
+### La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto[10]
 
-### historial infinito en `bash`[11]
+### git commit timesum[11]
 
-### `todo.txt` es una lista de tareas[12]
+### historial infinito en `bash`[12]
 
-### cambiar la fecha de un *commit* usando `GIT_COMMITER_DATE`[13]
+### `todo.txt` es una lista de tareas[13]
 
-### quién necesita mas de 64 redes WiFi cerca?[14]
+### cambiar la fecha de un *commit* usando `GIT_COMMITER_DATE`[14]
 
-### `xscreensaver-watch` pomodoro[15]
+### quién necesita mas de 64 redes WiFi cerca?[15]
 
-### generar Galería de Imágenes[16]
+### `xscreensaver-watch` pomodoro[16]
 
-### convertir la imagen de un número a un número usando gocr[17]
+### generar Galería de Imágenes[17]
 
-### Diagrama de secuencia de Tráfico de Red[18]
+### convertir la imagen de un número a un número usando gocr[18]
 
-### Diagramas de Topología de Red `csv2nwdiag`[19]
+### Diagrama de secuencia de Tráfico de Red[19]
 
-### email desde consola[20]
+### Diagramas de Topología de Red `csv2nwdiag`[20]
 
-### Cooperativismo y Software Libre[21]
+### email desde consola[21]
 
-## ChangeLog
+### Cooperativismo y Software Libre[22]
 
-* `2021-03-31 23:16`[22] agregar estadísticas de *commits* y *posts* del 2021-03-01 al 2021-03-31
+### gcoop tiene Códigos Cooperativos[23]
 
-=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/49b23dc 1: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/49b23dc
+=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/da92c29 1: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/da92c29
 => https://gitlab.com/osiux/osiux.gitlab.io/-/commit/57fe05f 2: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/57fe05f
-=> links.gmi 3: links.gmi
-=> img.gmi 4: img.gmi
-=> header.gmi 5: header.gmi
-=> git.gmi 6: git.gmi
-=> 2021-03-24-talking-typing-thinking.gmi 7: 2021-03-24-talking-typing-thinking.gmi
-=> 2021-03-23-wpa-passphrase-wpa-supplicant.gmi 8: 2021-03-23-wpa-passphrase-wpa-supplicant.gmi
-=> 2021-03-22-remote-async-communication.gmi 9: 2021-03-22-remote-async-communication.gmi
-=> 2021-03-18-git-commit-timesum.gmi 10: 2021-03-18-git-commit-timesum.gmi
-=> 2021-03-17-historial-infinito-en-bash.gmi 11: 2021-03-17-historial-infinito-en-bash.gmi
-=> 2021-03-16-todo-txt-es-una-lista-de-tareas.gmi 12: 2021-03-16-todo-txt-es-una-lista-de-tareas.gmi
-=> 2021-03-09-git-commiter-date.gmi 13: 2021-03-09-git-commiter-date.gmi
-=> 2021-03-08-quien-necesita-mas-de-64-redes-cerca.gmi 14: 2021-03-08-quien-necesita-mas-de-64-redes-cerca.gmi
-=> 2021-03-07-xscreensaver-watch-pomodoro.gmi 15: 2021-03-07-xscreensaver-watch-pomodoro.gmi
-=> 2021-03-06-galeria-de-imagenes.gmi 16: 2021-03-06-galeria-de-imagenes.gmi
-=> 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi 17: 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi
-=> 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi 18: 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi
-=> 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi 19: 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi
-=> 2021-03-02-email-desde-consola.gmi 20: 2021-03-02-email-desde-consola.gmi
-=> 2021-03-01-cooperativismo-y-software-libre.gmi 21: 2021-03-01-cooperativismo-y-software-libre.gmi
-=> https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5824c4fccb678b9e7a3752f375312cac2235049b 22: https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5824c4fccb678b9e7a3752f375312cac2235049b
+=> olimpiadas-informaticas-en-monte-caseros.gmi 3: olimpiadas-informaticas-en-monte-caseros.gmi
+=> links.gmi 4: links.gmi
+=> img.gmi 5: img.gmi
+=> header.gmi 6: header.gmi
+=> git.gmi 7: git.gmi
+=> 2021-03-24-talking-typing-thinking.gmi 8: 2021-03-24-talking-typing-thinking.gmi
+=> 2021-03-23-wpa-passphrase-wpa-supplicant.gmi 9: 2021-03-23-wpa-passphrase-wpa-supplicant.gmi
+=> 2021-03-22-remote-async-communication.gmi 10: 2021-03-22-remote-async-communication.gmi
+=> 2021-03-18-git-commit-timesum.gmi 11: 2021-03-18-git-commit-timesum.gmi
+=> 2021-03-17-historial-infinito-en-bash.gmi 12: 2021-03-17-historial-infinito-en-bash.gmi
+=> 2021-03-16-todo-txt-es-una-lista-de-tareas.gmi 13: 2021-03-16-todo-txt-es-una-lista-de-tareas.gmi
+=> 2021-03-09-git-commiter-date.gmi 14: 2021-03-09-git-commiter-date.gmi
+=> 2021-03-08-quien-necesita-mas-de-64-redes-cerca.gmi 15: 2021-03-08-quien-necesita-mas-de-64-redes-cerca.gmi
+=> 2021-03-07-xscreensaver-watch-pomodoro.gmi 16: 2021-03-07-xscreensaver-watch-pomodoro.gmi
+=> 2021-03-06-galeria-de-imagenes.gmi 17: 2021-03-06-galeria-de-imagenes.gmi
+=> 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi 18: 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi
+=> 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi 19: 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi
+=> 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi 20: 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi
+=> 2021-03-02-email-desde-consola.gmi 21: 2021-03-02-email-desde-consola.gmi
+=> 2021-03-01-cooperativismo-y-software-libre.gmi 22: 2021-03-01-cooperativismo-y-software-libre.gmi
+=> 2012-08-30-gcoop-codigos-cooperativos.gmi 23: 2012-08-30-gcoop-codigos-cooperativos.gmi

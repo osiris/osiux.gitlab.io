@@ -56,12 +56,23 @@ Las licencias **Creative Commons** o **CC** están inspiradas en la licencia GPL
 
 Existen una serie de licencias Creative Commons ^7[10], cada una con diferentes configuraciones o principios, como el derecho del autor original a dar libertad para citar su obra, reproducirla, crear obras derivadas, ofrecerla públicamente y con diferentes restricciones como no permitir el uso comercial o respetar la autoría original.
 
---------------------------------------------------------------------------------
-
-Attribution                                     BY   Attribution-Share Alike                         BY-SA   Attribution-No Derivative Works                 BY-ND   Attribution-Noncommercial                       BY-NC   Attribution-Noncommercial-No Derivative Works   BY-NC-ND   Attribution-Noncommercial-Share                 BY-NC-SA
-
---------------------------------------------------------------------------------
-
+```table
+┌───────────────────────────────────────────────┬──────────┐
+│                                               │          │
+╞═══════════════════════════════════════════════╪══════════╡
+│ Attribution                                   │ BY       │
+├───────────────────────────────────────────────┼──────────┤
+│ Attribution-Share Alike                       │ BY-SA    │
+├───────────────────────────────────────────────┼──────────┤
+│ Attribution-No Derivative Works               │ BY-ND    │
+├───────────────────────────────────────────────┼──────────┤
+│ Attribution-Noncommercial                     │ BY-NC    │
+├───────────────────────────────────────────────┼──────────┤
+│ Attribution-Noncommercial-No Derivative Works │ BY-NC-ND │
+├───────────────────────────────────────────────┼──────────┤
+│ Attribution-Noncommercial-Share               │ BY-NC-SA │
+└───────────────────────────────────────────────┴──────────┘
+```
 file:img/CC-BY.png[11] file:img/CC-SA.png[12] file:img/CC-ND.png[13] file:img/CC-NC.png[14]
 
 ## Distribuciones GNU/Linux
@@ -121,20 +132,44 @@ file:img/CC-BY.png[11] file:img/CC-SA.png[12] file:img/CC-ND.png[13] file:img/CC
 
 Existen programas libres para hacer todo lo que habitualmente se necesita hacer con una computadora. No es más dificil ni más fácil usarlos, en la mayoría de los casos sólo es ligeramente distinto.
 
-Web           Chat           FTP/P2P      Oficina      Graficos   Multimedia   3D
-
---------------------------------------------------------------------------------
-
-Firefox       aMSN           aMule        OO Writer    Scribus    Mplayer      Blender   Konqueror     emesene        gFTP         AbiWord      Inkscape   VLC          k3d   KompoZer      Pidgin         KTorrent     Kile         The Gimp   Audacity     pythoncad   Akregator     Ekiga          LimeWire     OO Calc      F-Spot     Audacious    raster3d   Liferea       ChatZilla      Vuze         Gnumeric     imgSeek    Kino
-  RSSOwl        Konversation   Freeloader   OO Impress   Xsane      Avidemux
-  Amaya         Kopete         ncftp        KPDF         Digikam
-  Bluefish      KVIrc          rtorrent     Evince       Imagick
-  Epiphany      X-Chat                      Korganizer
-  Quanta                                    OO Base
-  KMail                                     OO Draw
-  Thunderbird                               Latex
-  Evolution
-
+```table
+┌───────────┬───────────┬──────────┬──────────┬──────────┬──────────┬──────────┐
+│    Web    │   Chat    │ FTP/P2P  │ Oficina  │ Graficos │ Multimed │    3D    │
+│           │           │          │          │          │    ia    │          │
+╞═══════════╪═══════════╪══════════╪══════════╪══════════╪══════════╪══════════╡
+│ Firefox   │ aMSN      │ aMule    │ OO       │ Scribus  │ Mplayer  │ Blender  │
+│           │           │          │ Writer   │          │          │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ Konqueror │ emesene   │ gFTP     │ AbiWord  │ Inkscape │ VLC      │ k3d      │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ KompoZer  │ Pidgin    │ KTorrent │ Kile     │ The Gimp │ Audacity │ pythonca │
+│           │           │          │          │          │          │ d        │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ Akregator │ Ekiga     │ LimeWire │ OO Calc  │ F-Spot   │ Audaciou │ raster3d │
+│           │           │          │          │          │ s        │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ Liferea   │ ChatZilla │ Vuze     │ Gnumeric │ imgSeek  │ Kino     │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ RSSOwl    │ Konversat │ Freeload │ OO       │ Xsane    │ Avidemux │          │
+│           │ ion       │ er       │ Impress  │          │          │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ Amaya     │ Kopete    │ ncftp    │ KPDF     │ Digikam  │          │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ Bluefish  │ KVIrc     │ rtorrent │ Evince   │ Imagick  │          │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ Epiphany  │ X-Chat    │          │ Korganiz │          │          │          │
+│           │           │          │ er       │          │          │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ Quanta    │           │          │ OO Base  │          │          │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ KMail     │           │          │ OO Draw  │          │          │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ Thunderbi │           │          │ Latex    │          │          │          │
+│ rd        │           │          │          │          │          │          │
+├───────────┼───────────┼──────────┼──────────┼──────────┼──────────┼──────────┤
+│ Evolution │           │          │          │          │          │          │
+└───────────┴───────────┴──────────┴──────────┴──────────┴──────────┴──────────┘
+```
 ## Virtualizar o Emular
 
 ### QEMU

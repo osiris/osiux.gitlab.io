@@ -3,418 +3,424 @@
 * AUTHOR: Osiris Alejandro Gomez
 * EMAIL: osiux@osiux.com
 
-## `Filiales GNU/Linux` FLISoL CABA[1]
+## Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools[1]
 
-=> icn/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg [IMG]
+=> icn/ansible-devops-gitlab-awx-deploy-revision.png [IMG]
 [2]
 
-=> img/2022-04-23-flisol-caba-sala-10.jpg [IMG]
-[3]
+## *Ansible Tools* `v0.3.0`[3]
 
-=> icn/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg [IMG]
+=> icn/ansible-tools-v0-3-0.jpg [IMG]
 [4]
 
-=> img/2022-04-23-flisol-caba-filiales-gnu-linux-slides.jpg [IMG]
-[5]
+## cómo usar *GitLab* desde la línea de comandos[5]
 
-## Thinkpad HackToon FLOSS Vinyl by OSiUX[6]
+=> icn/gitlab-bash-utils.jpg [IMG]
+[6]
 
-=> icn/thinkpad-hacktoon-floss-vinyl-t14.jpg [IMG]
-[7]
+## `Filiales GNU/Linux` FLISoL CABA[7]
 
-=> icn/original-hacktoon-floss.jpg [IMG]
+=> icn/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg [IMG]
 [8]
 
-=> icn/thinkpad-hacktoon-floss-vinyl-v01.png [IMG]
+=> icn/2022-04-23-flisol-caba-sala-10.jpg [IMG]
 [9]
 
-=> icn/thinkpad-hacktoon-floss-vinyl-v02.png [IMG]
+=> icn/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg [IMG]
 [10]
 
-=> icn/thinkpad-hacktoon-floss-vinyl-wip.jpg [IMG]
-[11]
+## Thinkpad HackToon FLOSS Vinyl by OSiUX[11]
 
-## `gemini://` es para amantes del texto plano[12]
+=> icn/thinkpad-hacktoon-floss-vinyl-t14.jpg [IMG]
+[12]
 
-=> icn/gemini-amfora-vs-lagrange.png [IMG]
+=> icn/original-hacktoon-floss.jpg [IMG]
 [13]
 
-## tarea en progreso[14]
+=> icn/thinkpad-hacktoon-floss-vinyl-wip.jpg [IMG]
+[14]
+
+## `gemini://` es para amantes del texto plano[15]
+
+=> icn/gemini-amfora-vs-lagrange.png [IMG]
+[16]
+
+## tarea en progreso[17]
 
 => icn/tarea-en-progreso-tmux-redmine-timediff-last-comment.png [IMG]
-[15]
+[18]
 
-## La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto[16]
+## La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto[19]
 
 => img/async_chat_example.png [IMG]
 
-## convertir la imagen de un número a un número usando gocr[17]
+## convertir la imagen de un número a un número usando gocr[20]
 
 => img/gocr-imagen-a-numeros.png [IMG]
-[18]
+[21]
 
 => img/gocr-fecha-nro.png [IMG]
-[19]
-
-=> img/gocr-solo-nro.png [IMG]
-[20]
-
-## Diagrama de secuencia de Tráfico de Red[21]
-
-=> img/pcap2uml-ldap-krb5-sign-seal-01.png [IMG]
 [22]
 
-## Diagramas de Topología de Red `csv2nwdiag`[23]
+=> img/gocr-solo-nro.png [IMG]
+[23]
+
+## Diagrama de secuencia de Tráfico de Red[24]
+
+=> img/pcap2uml-ldap-krb5-sign-seal-01.png [IMG]
+[25]
+
+## Diagramas de Topología de Red `csv2nwdiag`[26]
 
 => icn/csv2nwdiag-vms-prd-vms-stg.png [IMG]
-[24]
+[27]
 
-## email desde consola[25]
+## email desde consola[28]
 
 => icn/imapfilter-imap-offlineimap-maildir-mutt-smtp.png [IMG]
-[26]
+[29]
 
-## ABSOLUTELLY NO WARRANTY *posts* 2021-03-01 - 2021-03-31[27]
+## ABSOLUTELLY NO WARRANTY *posts* 2021-03-01 - 2021-03-31[30]
 
-### Galería de Imágenes[28]
+### Galería de Imágenes[31]
 
-## 🍺🍺🍺 30 días de *posts* por la birra![29]
+## 🍺🍺🍺 30 días de *posts* por la birra![32]
 
 => icn/rakhim-blogging.jpg [IMG]
-[30]
+[33]
 
-## `tty` *Music On Console*[31]
+## `tty` *Music On Console*[34]
 
 => icn/tty-music-on-console.png [IMG]
-[32]
-
-## Percona Live 17 `Day Two` Too Many Talks[33]
-
-=> icn/2017-04-26-percona-multi-site-master.png [IMG]
-[34]
-
-=> icn/2017-04-26-percona-optimizing-without-sql.png [IMG]
 [35]
 
-=> icn/2017-04-26-percona-multi-site-master.png [IMG]
-[36]
+## Percona Live 17 `Day Two` Too Many Talks[36]
 
-=> icn/2017-04-26-percona-caching-tokudb-without-pkey.png [IMG]
+=> icn/2017-04-26-percona-multi-site-master.png [IMG]
 [37]
 
-## Percona Live 17 `Day One` MySQL Load Balancers[38]
+=> icn/2017-04-26-percona-optimizing-without-sql.png [IMG]
+[38]
 
-=> icn/2017-04-25-percona-mysql-ha-closeup.png [IMG]
+=> icn/2017-04-26-percona-multi-site-master.png [IMG]
 [39]
 
-=> icn/2017-04-25-percona-proxysql-improve-ha.png [IMG]
+=> icn/2017-04-26-percona-caching-tokudb-without-pkey.png [IMG]
 [40]
 
-## monitoreo en status bar de `tmux`[41]
+## Percona Live 17 `Day One` MySQL Load Balancers[41]
 
-=> icn/qmhandle-status-bar-tmux-spark.png [IMG]
+=> icn/2017-04-25-percona-mysql-ha-closeup.png [IMG]
 [42]
 
-## Sincronizar Repositorios git con git-repos[43]
+=> icn/2017-04-25-percona-proxysql-improve-ha.png [IMG]
+[43]
 
-=> icn/git-repos-osiris.png [IMG]
-[44]
+## monitoreo en status bar de `tmux`[44]
 
-=> icn/git-repos-list.png [IMG]
+=> icn/qmhandle-status-bar-tmux-spark.png [IMG]
 [45]
 
-=> icn/git-repos-show-time.png [IMG]
-[46]
+## Sincronizar Repositorios git con git-repos[46]
 
-=> icn/git-repos-show-log.png [IMG]
+=> icn/git-repos-osiris.png [IMG]
 [47]
 
-=> icn/git-repos-pull.png [IMG]
+=> icn/git-repos-list.png [IMG]
 [48]
 
-## Renombrar y Ordenar Fotos Duplicadas[49]
+=> icn/git-repos-show-time.png [IMG]
+[49]
+
+=> icn/git-repos-show-log.png [IMG]
+[50]
+
+=> icn/git-repos-pull.png [IMG]
+[51]
+
+## Renombrar y Ordenar Fotos Duplicadas[52]
 
 => img/nahuel-osiris-leonel.jpg [IMG]
 
-## Tensión en la red - Libertad y control en la era digital[50]
+## Tensión en la red - Libertad y control en la era digital[53]
 
 => img/tension-en-la-red.jpg [IMG]
-[51]
-
-## Clonar 24 pendrives al mismo tiempo[52]
-
-=> icn/clonar-pendrives/letras-viajeras-routers.jpg [IMG]
-[53]
-
-=> icn/clonar-pendrives/letras-viajeras-wicd.jpg [IMG]
 [54]
 
-=> icn/clonar-pendrives/letras-viajeras-pssh.jpg [IMG]
-[55]
+## Clonar 24 pendrives al mismo tiempo[55]
 
-=> icn/clonar-pendrives/letras-viajeras-md5.jpg [IMG]
+=> icn/clonar-pendrives/letras-viajeras-routers.jpg [IMG]
 [56]
 
-=> icn/clonar-pendrives/letras-viajeras-iftop.jpg [IMG]
+=> icn/clonar-pendrives/letras-viajeras-wicd.jpg [IMG]
 [57]
 
-## Semana Negra - Sobrevivir en la shell[58]
+=> icn/clonar-pendrives/letras-viajeras-pssh.jpg [IMG]
+[58]
 
-=> icn/semana-negra/tmux.png [IMG]
+=> icn/clonar-pendrives/letras-viajeras-md5.jpg [IMG]
 [59]
 
-=> icn/semana-negra/cacaview.png [IMG]
+=> icn/clonar-pendrives/letras-viajeras-iftop.jpg [IMG]
 [60]
 
-=> icn/semana-negra/cacaview-zoom.png [IMG]
-[61]
+## Semana Negra - Sobrevivir en la shell[61]
 
-=> icn/semana-negra/fbi.png [IMG]
+=> icn/semana-negra/tmux.png [IMG]
 [62]
 
-=> icn/semana-negra/links2.png [IMG]
+=> icn/semana-negra/cacaview.png [IMG]
 [63]
 
-=> icn/semana-negra/tmux-mplayer.png [IMG]
+=> icn/semana-negra/cacaview-zoom.png [IMG]
 [64]
 
-## FLISoL Avellaneda en la Universidad Nacional de Avellaneda[65]
+=> icn/semana-negra/fbi.png [IMG]
+[65]
 
-=> icn/flisol-2014-undav/2014-04-26-1411-e167fe.jpg [IMG]
+=> icn/semana-negra/links2.png [IMG]
 [66]
 
-=> icn/flisol-2014-undav/2014-04-26-1417-1efa0f.jpg [IMG]
+=> icn/semana-negra/tmux-mplayer.png [IMG]
 [67]
 
-=> icn/flisol-2014-undav/2014-04-26-1320-ababc0.jpg [IMG]
-[68]
+## FLISoL Avellaneda en la Universidad Nacional de Avellaneda[68]
 
-=> icn/flisol-2014-undav/2014-04-26-1047-f393d3.jpg [IMG]
+=> icn/flisol-2014-undav/2014-04-26-1411-e167fe.jpg [IMG]
 [69]
 
-=> icn/flisol-2014-undav/2014-04-26-1617-e2a80d.jpg [IMG]
+=> icn/flisol-2014-undav/2014-04-26-1417-1efa0f.jpg [IMG]
 [70]
 
-=> icn/flisol-2014-undav/2014-04-26-1748-4190a2.jpg [IMG]
+=> icn/flisol-2014-undav/2014-04-26-1320-ababc0.jpg [IMG]
 [71]
 
-## Disponible Huayra 2.0[72]
+=> icn/flisol-2014-undav/2014-04-26-1047-f393d3.jpg [IMG]
+[72]
 
-=> icn/huayra-2.0.png [IMG]
+=> icn/flisol-2014-undav/2014-04-26-1617-e2a80d.jpg [IMG]
 [73]
 
-## Festival Latinoamericano de Instalación de Software Libre[74]
+=> icn/flisol-2014-undav/2014-04-26-1748-4190a2.jpg [IMG]
+[74]
+
+## Disponible Huayra 2.0[75]
+
+=> icn/huayra-2.0.png [IMG]
+[76]
+
+## Festival Latinoamericano de Instalación de Software Libre[77]
 
 => img/flisol-2014-banner.png [IMG]
 
-## Las Cooperativas de tecnología argentinas contaron su experiencia de trabajo en el MIT[75]
+## Las Cooperativas de tecnología argentinas contaron su experiencia de trabajo en el MIT[78]
 
 => img/facttic-mit-libre-planet.jpg [IMG]
 
-## SASOConf en Curuzú Cuatiá[76]
+## SASOConf en Curuzú Cuatiá[79]
 
 => icn/sasoconf/SASOConf-2014-03-14-1143-d2c88a.jpg [IMG]
-[77]
-
-=> icn/sasoconf/SASOConf-2014-03-14-0842-b95560.jpg [IMG]
-[78]
-
-=> icn/sasoconf/SASOConf-2014-03-14-0845-42a761.jpg [IMG]
-[79]
-
-=> icn/sasoconf/SASOConf-2014-03-14-0926-94bfdd.jpg [IMG]
 [80]
 
-=> icn/sasoconf/SASOConf-2014-03-14-1033-7b5ac1.jpg [IMG]
+=> icn/sasoconf/SASOConf-2014-03-14-0842-b95560.jpg [IMG]
 [81]
 
-=> icn/sasoconf/SASOConf-2014-03-14-1102-f8b526.jpg [IMG]
+=> icn/sasoconf/SASOConf-2014-03-14-0845-42a761.jpg [IMG]
 [82]
 
-=> icn/sasoconf/SASOConf-2014-03-14-1215-144531.jpg [IMG]
+=> icn/sasoconf/SASOConf-2014-03-14-0926-94bfdd.jpg [IMG]
 [83]
 
-## Hardware Freedom Day 2014[84]
+=> icn/sasoconf/SASOConf-2014-03-14-1033-7b5ac1.jpg [IMG]
+[84]
 
-=> icn/Hardware-Freedom-Day-2014.png [IMG]
+=> icn/sasoconf/SASOConf-2014-03-14-1102-f8b526.jpg [IMG]
 [85]
 
-## Se viene la SASOConf[86]
+=> icn/sasoconf/SASOConf-2014-03-14-1215-144531.jpg [IMG]
+[86]
+
+## Hardware Freedom Day 2014[87]
+
+=> icn/Hardware-Freedom-Day-2014.png [IMG]
+[88]
+
+## Se viene la SASOConf[89]
 
 => icn/SASOConf.png [IMG]
-[87]
-
-## Hacks/Hackers Buenos Aires 2013[88]
-
-=> icn/hhba-2013/hhba-2013-09-30-11.jpg [IMG]
-[89]
-
-=> icn/hhba-2013/hhba-2013-09-30-27.jpg [IMG]
 [90]
 
-=> icn/hhba-2013/hhba-2013-09-30-38.jpg [IMG]
-[91]
+## Hacks/Hackers Buenos Aires 2013[91]
 
-=> icn/hhba-2013/hhba-2013-09-30-44.jpg [IMG]
+=> icn/hhba-2013/hhba-2013-09-30-11.jpg [IMG]
 [92]
 
-=> icn/hhba-2013/hhba-2013-09-30-52.jpg [IMG]
+=> icn/hhba-2013/hhba-2013-09-30-27.jpg [IMG]
 [93]
 
-=> icn/hhba-2013/hhba-2013-09-30-54.jpg [IMG]
+=> icn/hhba-2013/hhba-2013-09-30-38.jpg [IMG]
 [94]
 
-=> img/antena-omni-bal.png [IMG]
+=> icn/hhba-2013/hhba-2013-09-30-44.jpg [IMG]
 [95]
 
-## Huayra Primer Sistema Operativo Libre de Conectar Igualdad[96]
+=> icn/hhba-2013/hhba-2013-09-30-52.jpg [IMG]
+[96]
 
-=> icn/huayra-oficial/2013-09-13-1115-8988a5.jpg [IMG]
+=> icn/hhba-2013/hhba-2013-09-30-54.jpg [IMG]
 [97]
 
-=> icn/huayra-oficial/2013-09-13-1124-ea0852.jpg [IMG]
+=> img/antena-omni-bal.png [IMG]
 [98]
 
-=> icn/huayra-oficial/2013-09-13-1127-32843f.jpg [IMG]
-[99]
+## Huayra Primer Sistema Operativo Libre de Conectar Igualdad[99]
 
-=> icn/huayra-oficial/2013-09-13-1131-35fefc.jpg [IMG]
+=> icn/huayra-oficial/2013-09-13-1115-8988a5.jpg [IMG]
 [100]
 
-=> icn/huayra-oficial/2013-09-13-1141-fc2efc.jpg [IMG]
+=> icn/huayra-oficial/2013-09-13-1124-ea0852.jpg [IMG]
 [101]
 
-## MatanzaComparte y RedesLibres en Plaza Ciencia 2013[102]
+=> icn/huayra-oficial/2013-09-13-1127-32843f.jpg [IMG]
+[102]
 
-=> img/plaza-ciencia-2013/altermundi.png [IMG]
+=> icn/huayra-oficial/2013-09-13-1131-35fefc.jpg [IMG]
 [103]
 
-## gcoop libera "Letras Viajeras"[104]
+=> icn/huayra-oficial/2013-09-13-1141-fc2efc.jpg [IMG]
+[104]
+
+## MatanzaComparte y RedesLibres en Plaza Ciencia 2013[105]
+
+=> img/plaza-ciencia-2013/altermundi.png [IMG]
+[106]
+
+## gcoop libera "Letras Viajeras"[107]
 
 => img/letras-viajeras.jpg [IMG]
 
-## FLISoL 2013 Escuela Ténica 10 Villa Madero, La Matanza[105]
+## FLISoL 2013 Escuela Ténica 10 Villa Madero, La Matanza[108]
 
 => icn/flisol-2013-et10/2013-04-27-1042-3fecd5.jpg [IMG]
-[106]
-
-=> icn/flisol-2013-et10/2013-04-27-1043-5c496d.jpg [IMG]
-[107]
-
-=> icn/flisol-2013-et10/2013-04-27-1310-5262b9.jpg [IMG]
-[108]
-
-=> icn/flisol-2013-et10/2013-04-27-1311-8b4cbe.jpg [IMG]
 [109]
 
-=> icn/flisol-2013-et10/2013-04-27-1455-16532e.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1043-5c496d.jpg [IMG]
 [110]
 
-=> icn/flisol-2013-et10/2013-04-27-1455-268126.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1310-5262b9.jpg [IMG]
 [111]
 
-=> icn/flisol-2013-et10/2013-04-27-1455-677a7c.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1311-8b4cbe.jpg [IMG]
 [112]
 
-=> icn/flisol-2013-et10/2013-04-27-1455-deb420.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1455-16532e.jpg [IMG]
 [113]
 
-=> icn/flisol-2013-et10/2013-04-27-1502-b96832.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1455-268126.jpg [IMG]
 [114]
 
-=> icn/flisol-2013-et10/2013-04-27-1607-5cef9f.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1455-677a7c.jpg [IMG]
 [115]
 
-=> icn/flisol-2013-et10/2013-04-27-1610-d28f99.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1455-deb420.jpg [IMG]
 [116]
 
-=> icn/flisol-2013-et10/2013-04-27-1612-7cec2f.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1502-b96832.jpg [IMG]
 [117]
 
-=> icn/flisol-2013-et10/2013-04-27-1747-a4cb7a.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1607-5cef9f.jpg [IMG]
 [118]
 
-=> icn/flisol-2013-et10/2013-04-27-1754-4f4c90.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1610-d28f99.jpg [IMG]
 [119]
 
-=> icn/flisol-2013-et10/2013-04-27-1755-620d74.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1612-7cec2f.jpg [IMG]
 [120]
 
-=> icn/flisol-2013-et10/2013-04-27-1756-8093d2.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1747-a4cb7a.jpg [IMG]
 [121]
 
-## Ministerio de Ciencia crea clúster de software libre[122]
+=> icn/flisol-2013-et10/2013-04-27-1754-4f4c90.jpg [IMG]
+[122]
 
-=> icn/2013-04-23-cluster-de-software-libre.jpg [IMG]
+=> icn/flisol-2013-et10/2013-04-27-1755-620d74.jpg [IMG]
 [123]
 
-## Primer Encuentro de Software Libre en Monte Caseros[124]
+=> icn/flisol-2013-et10/2013-04-27-1756-8093d2.jpg [IMG]
+[124]
 
-=> icn/1eslmc/2013-04-06-16-11-579919.jpg [IMG]
-[125]
+## Ministerio de Ciencia crea clúster de software libre[125]
 
-=> icn/1eslmc/2013-04-05-17-41-0c7ebc.jpg [IMG]
+=> icn/2013-04-23-cluster-de-software-libre.jpg [IMG]
 [126]
 
-=> icn/1eslmc/2013-04-05-17-11-791474.jpg [IMG]
-[127]
+## Primer Encuentro de Software Libre en Monte Caseros[127]
 
-## Altermesh, BuenosAiresLibre y CompartirEsBueno[128]
+=> icn/1eslmc/2013-04-06-16-11-579919.jpg [IMG]
+[128]
 
-=> icn/osiux-network.png [IMG]
+=> icn/1eslmc/2013-04-05-17-41-0c7ebc.jpg [IMG]
 [129]
 
-## Huayra, el día que las vacas vuelen, llegó![130]
+=> icn/1eslmc/2013-04-05-17-11-791474.jpg [IMG]
+[130]
+
+## Altermesh, BuenosAiresLibre y CompartirEsBueno[131]
+
+=> icn/osiux-network.png [IMG]
+[132]
+
+## Huayra, el día que las vacas vuelen, llegó![133]
 
 => img/huayra-vaca-volando.png [IMG]
 
-## CISL Conferencia Internacional Software Libre[131]
+## CISL Conferencia Internacional Software Libre[134]
 
 => img/redes-para-todos.png [IMG]
 
-## Ganamos el Concurso de Videos del Congreso Argentino de Cooperativas[132]
+## Ganamos el Concurso de Videos del Congreso Argentino de Cooperativas[135]
 
 => img/gcoop-codigos-cooperativos.jpg [IMG]
 
-## preparando varias charlas para los próximos eventos[133]
+## preparando varias charlas para los próximos eventos[136]
 
 => img/COOPySL-CNEISI.png [IMG]
 
 => img/priv-y-anon.png [IMG]
 
-## CampusParty Bogotá CPCO5[134]
+## CampusParty Bogotá CPCO5[137]
 
 => img/cpco5/cpco5-600-01.jpg [IMG]
-[135]
-
-=> img/cpco5/cpco5-600-02.jpg [IMG]
-[136]
-
-=> img/cpco5/cpco5-600-03.jpg [IMG]
-[137]
-
-=> img/cpco5/cpco5-600-04.jpg [IMG]
 [138]
 
-=> img/cpco5/cpco5-600-05.jpg [IMG]
+=> img/cpco5/cpco5-600-02.jpg [IMG]
 [139]
 
-=> img/cpco5/cpco5-600-06.jpg [IMG]
+=> img/cpco5/cpco5-600-03.jpg [IMG]
 [140]
 
-=> img/cpco5/cpco5-600-07.jpg [IMG]
+=> img/cpco5/cpco5-600-04.jpg [IMG]
 [141]
 
-=> img/cpco5/cpco5-600-08.jpg [IMG]
+=> img/cpco5/cpco5-600-05.jpg [IMG]
 [142]
 
-=> img/cpco5/cpco5-600-09.jpg [IMG]
+=> img/cpco5/cpco5-600-06.jpg [IMG]
 [143]
 
-=> img/cpco5/cpco5-redlibre.jpg [IMG]
+=> img/cpco5/cpco5-600-07.jpg [IMG]
 [144]
 
-## Visualizando Cooperativas de Argentina[145]
+=> img/cpco5/cpco5-600-08.jpg [IMG]
+[145]
+
+=> img/cpco5/cpco5-600-09.jpg [IMG]
+[146]
+
+=> img/cpco5/cpco5-redlibre.jpg [IMG]
+[147]
+
+## Visualizando Cooperativas de Argentina[148]
 
 => img/2012-06-13-SLyES-2037-0114.jpg [IMG]
 
@@ -424,71 +430,71 @@
 
 => img/SLyES-2012-CoopViz-2007.jpg [IMG]
 
-## PirateBox PirateFloppy[146]
+## PirateBox PirateFloppy[149]
 
 => img/pirate-box-floppy-disk-640-01.jpg [IMG]
-[147]
+[150]
 
 => img/pirate-box-floppy-disk-640-02.jpg [IMG]
-[148]
+[151]
 
-## Cómo automatizar VLC para grabar un programa de televisión digital abierta[149]
+## Cómo automatizar VLC para grabar un programa de televisión digital abierta[152]
 
 => img/sintonizador-usb-tda-con-amarre.jpg [IMG]
 
-## BuenosAiresLibre en el medio digital[150]
+## BuenosAiresLibre en el medio digital[153]
 
 => img/buenos-aires-libre-en-el-medio-digital.jpg [IMG]
 
-## episodio Software Libre cliclo En el medio digital[151]
+## episodio Software Libre cliclo En el medio digital[154]
 
 => img/en-el-medio-digital-software-libre.jpg [IMG]
 
-## Redes Libres en FLISOL Bogotá[152]
+## Redes Libres en FLISOL Bogotá[155]
 
 => img/flisol-bogota.jpg [IMG]
 
-## Cooperativismo y Software Libre en FLISOL Buenos Aires[153]
+## Cooperativismo y Software Libre en FLISOL Buenos Aires[156]
 
 => img/COOPySL.png [IMG]
 
-## redes abiertas versus redes cerradas[154]
+## redes abiertas versus redes cerradas[157]
 
 => img/aps-2012-03-05.gif [IMG]
 
-## gcoop es una caricatura[155]
+## gcoop es una caricatura[158]
 
 => img/gcoop-cartoon.gif [IMG]
 
-## las cooperativas construyen un mundo mejor[156]
+## las cooperativas construyen un mundo mejor[159]
 
 => icn/las-cooperativas-construyen-un-mundo-mejor.jpg [IMG]
-[157]
+[160]
 
-## De Fondo Negro a Fondo Blanco[158]
+## De Fondo Negro a Fondo Blanco[161]
 
 => icn/de-fondo-negro-a-fondo-blanco.png [IMG]
-[159]
+[162]
 
-## orgmode y gnuplot una buena combinación[160]
+## orgmode y gnuplot una buena combinación[163]
 
 => img/org-task-by-day-2011-12.png [IMG]
 
-## Software Libre y Conectar Igualdad[161]
+## Software Libre y Conectar Igualdad[164]
 
 => img/conectar-igualdad/2011-10-22_ubuntu-conectar-igualdad_10.jpg [IMG]
 
 => img/conectar-igualdad/2011-10-22_ubuntu-conectar-igualdad_14.jpg [IMG]
 
-## Pomodoro notify-send y Minutos OSD[162]
+## Pomodoro notify-send y Minutos OSD[165]
 
 => img/pomodoro/pomodoro-notify-send-5.png [IMG]
 
-## visualizando dos años de orgmode con gnuplot - viewing two years of orgmode with gnuplot[163]
+## visualizando dos años de orgmode con gnuplot - viewing two years of orgmode with gnuplot[166]
 
 => img/org-task-by-day-1.png [IMG]
 
-## Visualizando Grafos usando Graphviz[164]
+## Visualizando Grafos usando Graphviz[167]
 
 => img/graphviz-dot.png [IMG]
 
@@ -500,7 +506,7 @@
 
 => img/graphviz-circo.png [IMG]
 
-## Instalando Ubuntu 11.10 en Exomate de Conectar Igualdad[165]
+## Instalando Ubuntu 11.10 en Exomate de Conectar Igualdad[168]
 
 => img/conectar-igualdad/2011-10-22_exomate-conectar-igualdad.jpg [IMG]
 
@@ -514,38 +520,38 @@
 
 => img/conectar-igualdad/2011-10-22_modem-3g-conectar-igualdad_16.jpg [IMG]
 
-## TV Digital Geniatech USB MyGica S87 dibcom STK8096GP Debian Sidux[166]
+## TV Digital Geniatech USB MyGica S87 dibcom STK8096GP Debian Sidux[169]
 
 => icn/tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.png [IMG]
-[167]
-
-## OSiUX `tty`, terminal, consola, ncurses, shell, línea de comandos[168]
-
-=> icn/tty-shell-lsd.png [IMG]
-[169]
-
-=> icn/tty-shell-bat.png [IMG]
 [170]
 
-=> icn/tty-music-on-console.png [IMG]
-[171]
+## OSiUX `tty`, terminal, consola, ncurses, shell, línea de comandos[171]
 
-=> icn/tty-wifi-wicd-curses.png [IMG]
+=> icn/tty-shell-lsd.png [IMG]
 [172]
 
-=> img/tty-wifi-wavemon-histogram.png [IMG]
+=> icn/tty-shell-bat.png [IMG]
 [173]
 
-## TODO TXT | rst + org-mode[174]
+=> icn/tty-music-on-console.png [IMG]
+[174]
 
-=> icn/txt.png [IMG]
+=> icn/tty-wifi-wicd-curses.png [IMG]
 [175]
 
-=> icn/emacs-vim-notepad.png [IMG]
+=> img/tty-wifi-wavemon-histogram.png [IMG]
 [176]
 
+## TODO TXT | rst + org-mode[177]
+
+=> icn/txt.png [IMG]
+[178]
+
+=> icn/emacs-vim-notepad.png [IMG]
+[179]
+
 => icn/vim-vs-emacs.jpg [IMG]
-[177]
+[180]
 
 => img/secciones.png [IMG]
 
@@ -555,27 +561,27 @@
 
 => img/org-s-tab.png [IMG]
 
-## tmux + terminator + awesome[178]
+## tmux + terminator + awesome[181]
 
 => icn/tmux-terminator-awesome.png [IMG]
-[179]
-
-=> icn/tmux-screen.png [IMG]
-[180]
-
-=> icn/tmux-terminator-ssh.png [IMG]
-[181]
-
-=> icn/tmux-juice-ssh-android.png [IMG]
 [182]
 
-=> icn/tmux-malbec-gorra.png [IMG]
+=> icn/tmux-screen.png [IMG]
 [183]
 
-=> icn/tmux-tail-logs.png [IMG]
+=> icn/tmux-terminator-ssh.png [IMG]
 [184]
 
-## Procesos Linux[185]
+=> icn/tmux-juice-ssh-android.png [IMG]
+[185]
+
+=> icn/tmux-malbec-gorra.png [IMG]
+[186]
+
+=> icn/tmux-tail-logs.png [IMG]
+[187]
+
+## Procesos Linux[188]
 
 => img/cfp-procesos-01.png [IMG]
 
@@ -589,55 +595,56 @@
 
 => img/cfp-procesos-11.png [IMG]
 
-## pomodoro notify-send[186]
+## pomodoro notify-send[189]
 
 => img/pomodoro/pomodoro-notify-send-6.png [IMG]
 
 => img/pomodoro/pomodoro-notify-send-5.png [IMG]
 
-## Técnica Pomodoro, mostrar minutos mediante OSD (On Screen Display)[187]
+## Técnica Pomodoro, mostrar minutos mediante OSD (On Screen Display)[190]
 
 => img/pomodoro/pomodoro-minutos-osd.png [IMG]
 
-## OSiUX gnuplot[188]
+## OSiUX gnuplot[191]
 
 => icn/plot12i-ssh-2019.png [IMG]
-[189]
-
-## OSiUX[190]
-
-=> img/no-soy-un-pirata-compartir-es-bueno.jpg [IMG]
-
-## Software Libre en las Olimpíadas Informáticas de Monte Caseros[191]
-
-=> icn/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_12.jpg [IMG]
 [192]
 
-=> icn/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_13.jpg [IMG]
-[193]
+## OSiUX[193]
 
-=> icn/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_14.jpg [IMG]
+=> icn/no-soy-un-pirata-compartir-es-bueno.jpg [IMG]
 [194]
 
-=> icn/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_25.jpg [IMG]
-[195]
+## Software Libre en las Olimpíadas Informáticas de Monte Caseros[195]
 
-=> icn/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_50.jpg [IMG]
+=> icn/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_12.jpg [IMG]
 [196]
 
-=> icn/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_54.jpg [IMG]
+=> icn/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_13.jpg [IMG]
 [197]
 
-=> icn/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_60.jpg [IMG]
+=> icn/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_14.jpg [IMG]
 [198]
 
-=> icn/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_61.jpg [IMG]
+=> icn/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_25.jpg [IMG]
 [199]
 
-=> icn/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_68.jpg [IMG]
+=> icn/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_50.jpg [IMG]
 [200]
 
-## Administrador de Sistemas GNU/Linux[201]
+=> icn/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_54.jpg [IMG]
+[201]
+
+=> icn/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_60.jpg [IMG]
+[202]
+
+=> icn/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_61.jpg [IMG]
+[203]
+
+=> icn/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_68.jpg [IMG]
+[204]
+
+## Administrador de Sistemas GNU/Linux[205]
 
 => img/stdout-file.png [IMG]
 
@@ -657,7 +664,7 @@
 
 => img/stdout-pipe-stdin.png [IMG]
 
-## JRRL3 - Terceras Jornadas Regionales de Redes Libres en FISL12 - Foro Internacional de Software Libre[202]
+## JRRL3 - Terceras Jornadas Regionales de Redes Libres en FISL12 - Foro Internacional de Software Libre[206]
 
 => img/fisl12/jrrl3-previa-manifiesto-hostel.jpg [IMG]
 
@@ -699,7 +706,7 @@
 
 => img/fisl12/jrrl3-atardecer-rio.jpg [IMG]
 
-## imágenes mágicas | imagemagick[203]
+## imágenes mágicas | imagemagick[207]
 
 => img/green-cc-by.jpg [IMG]
 
@@ -709,15 +716,15 @@
 
 => img/3x3.jpg [IMG]
 
-## [[file:header.gmi[204]][]]
+## [[file:header.gmi[208]][]]
 
-`img`[205] |
+`img`[209] |
 
-## GTD - Gething This Done - Cómo hacer las cosas[206]
+## GTD - Gething This Done - Cómo hacer las cosas[210]
 
 => img/gtd-workflow.png [IMG]
 
-## Graficar desde consola[207]
+## Graficar desde consola[211]
 
 => img/ditaa-der.png [IMG]
 
@@ -733,236 +740,236 @@
 
 => img/0895-query-execution-time.png [IMG]
 
-## fluxbox + gtk2 + root-tail + gkrellm[208]
+## fluxbox + gtk2 + root-tail + gkrellm[212]
 
 => icn/osiux-fluxbox-screenshot-640x480-01.png [IMG]
-[209]
-
-## Resumen Redes Libres en FLISOL Bogotá[210]
-
-=> icn/flisol-bogota/viaje-ezeiza-partida.jpg [IMG]
-[211]
-
-=> icn/flisol-bogota/panama-hora.jpg [IMG]
-[212]
-
-=> icn/flisol-bogota/panama-tocumen.jpg [IMG]
 [213]
 
-=> icn/flisol-bogota/panama-wifi.jpg [IMG]
-[214]
+## Resumen Redes Libres en FLISOL Bogotá[214]
 
-=> icn/flisol-bogota/panama-canal.jpg [IMG]
+=> icn/flisol-bogota/viaje-ezeiza-partida.jpg [IMG]
 [215]
 
-=> icn/flisol-bogota/viaje-colombia-avion.jpg [IMG]
+=> icn/flisol-bogota/panama-hora.jpg [IMG]
 [216]
 
-=> icn/flisol-bogota/viaje-colombia-nubes.jpg [IMG]
+=> icn/flisol-bogota/panama-tocumen.jpg [IMG]
 [217]
 
-=> icn/flisol-bogota/viaje-colombia-bienvenido.jpg [IMG]
+=> icn/flisol-bogota/panama-wifi.jpg [IMG]
 [218]
 
-=> icn/flisol-bogota/ciudad-bolivar-1.jpg [IMG]
+=> icn/flisol-bogota/panama-canal.jpg [IMG]
 [219]
 
-=> icn/flisol-bogota/ciudad-bolivar-2.jpg [IMG]
+=> icn/flisol-bogota/viaje-colombia-avion.jpg [IMG]
 [220]
 
-=> icn/flisol-bogota/ciudad-bolivar-nodo-1.jpg [IMG]
+=> icn/flisol-bogota/viaje-colombia-nubes.jpg [IMG]
 [221]
 
-=> icn/flisol-bogota/ciudad-bolivar-nodo-2.jpg [IMG]
+=> icn/flisol-bogota/viaje-colombia-bienvenido.jpg [IMG]
 [222]
 
-=> icn/flisol-bogota/ciudad-bolivar-jorge-osiux.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-1.jpg [IMG]
 [223]
 
-=> icn/flisol-bogota/ciudad-bolivar-tv-antena.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-2.jpg [IMG]
 [224]
 
-=> icn/flisol-bogota/ciudad-bolivar-tv-racks.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-nodo-1.jpg [IMG]
 [225]
 
-=> icn/flisol-bogota/ciudad-bolivar-tv-estudio.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-nodo-2.jpg [IMG]
 [226]
 
-=> icn/flisol-bogota/ciudad-bolivar-tv-programa.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-jorge-osiux.jpg [IMG]
 [227]
 
-=> icn/flisol-bogota/ciudad-bolivar-tv-graffiti.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-tv-antena.jpg [IMG]
 [228]
 
-=> icn/flisol-bogota/ciudad-bolivar-panoramica-1.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-tv-racks.jpg [IMG]
 [229]
 
-=> icn/flisol-bogota/ciudad-bolivar-panoramica-2.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-tv-estudio.jpg [IMG]
 [230]
 
-=> icn/flisol-bogota/bogota-noche-1.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-tv-programa.jpg [IMG]
 [231]
 
-=> icn/flisol-bogota/bogota-noche-2.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-tv-graffiti.jpg [IMG]
 [232]
 
-=> icn/flisol-bogota/bogota-noche-3.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-panoramica-1.jpg [IMG]
 [233]
 
-=> icn/flisol-bogota/flisol-idrd.jpg [IMG]
+=> icn/flisol-bogota/ciudad-bolivar-panoramica-2.jpg [IMG]
 [234]
 
-=> icn/flisol-bogota/flisol-cartel.jpg [IMG]
+=> icn/flisol-bogota/bogota-noche-1.jpg [IMG]
 [235]
 
-=> icn/flisol-bogota/flisol-auditorio.jpg [IMG]
+=> icn/flisol-bogota/bogota-noche-2.jpg [IMG]
 [236]
 
-=> icn/flisol-bogota/flisol-banderas.jpg [IMG]
+=> icn/flisol-bogota/bogota-noche-3.jpg [IMG]
 [237]
 
-=> icn/flisol-bogota/flisol-alcalde.jpg [IMG]
+=> icn/flisol-bogota/flisol-idrd.jpg [IMG]
 [238]
 
-=> icn/flisol-bogota/flisol-mesas.jpg [IMG]
+=> icn/flisol-bogota/flisol-cartel.jpg [IMG]
 [239]
 
-=> icn/flisol-bogota/flisol-compus.jpg [IMG]
+=> icn/flisol-bogota/flisol-auditorio.jpg [IMG]
 [240]
 
-=> icn/flisol-bogota/flisol-stand.jpg [IMG]
+=> icn/flisol-bogota/flisol-banderas.jpg [IMG]
 [241]
 
-=> icn/flisol-bogota/flisol-hackbo.jpg [IMG]
+=> icn/flisol-bogota/flisol-alcalde.jpg [IMG]
 [242]
 
-=> icn/flisol-bogota/flisol-robot.jpg [IMG]
+=> icn/flisol-bogota/flisol-mesas.jpg [IMG]
 [243]
 
-=> icn/flisol-bogota/flisol-doctor-fundador.jpg [IMG]
+=> icn/flisol-bogota/flisol-compus.jpg [IMG]
 [244]
 
-=> img/flisol-bogota/flisol-discurso-alcalde.jpg [IMG]
+=> icn/flisol-bogota/flisol-stand.jpg [IMG]
 [245]
 
-=> img/flisol-bogota/redes-libres-inet.jpg [IMG]
+=> icn/flisol-bogota/flisol-hackbo.jpg [IMG]
 [246]
 
-=> img/flisol-bogota/video-debate.jpg [IMG]
+=> icn/flisol-bogota/flisol-robot.jpg [IMG]
 [247]
 
-=> icn/flisol-bogota/foro-redes-libres-general.jpg [IMG]
+=> icn/flisol-bogota/flisol-doctor-fundador.jpg [IMG]
 [248]
 
-=> icn/flisol-bogota/foro-redes-libres-hollman.jpg [IMG]
+=> img/flisol-bogota/flisol-discurso-alcalde.jpg [IMG]
 [249]
 
-=> icn/flisol-bogota/foro-redes-libres-gral-0.jpg [IMG]
+=> img/flisol-bogota/redes-libres-inet.jpg [IMG]
 [250]
 
-=> icn/flisol-bogota/foro-redes-libres-gral-1.jpg [IMG]
+=> img/flisol-bogota/video-debate.jpg [IMG]
 [251]
 
-=> icn/flisol-bogota/foro-redes-libres-gral-2.jpg [IMG]
+=> icn/flisol-bogota/foro-redes-libres-general.jpg [IMG]
 [252]
 
-=> icn/flisol-bogota/foro-redes-libres-gral-3.jpg [IMG]
+=> icn/flisol-bogota/foro-redes-libres-hollman.jpg [IMG]
 [253]
 
-=> icn/flisol-bogota/centro-mayor-1.jpg [IMG]
+=> icn/flisol-bogota/foro-redes-libres-gral-0.jpg [IMG]
 [254]
 
-=> icn/flisol-bogota/centro-mayor-2.jpg [IMG]
+=> icn/flisol-bogota/foro-redes-libres-gral-1.jpg [IMG]
 [255]
 
-=> icn/flisol-bogota/centro-mayor-3.jpg [IMG]
+=> icn/flisol-bogota/foro-redes-libres-gral-2.jpg [IMG]
 [256]
 
-=> icn/flisol-bogota/sunrise-cerveza.jpg [IMG]
+=> icn/flisol-bogota/foro-redes-libres-gral-3.jpg [IMG]
 [257]
 
-=> icn/flisol-bogota/sunrise-grupal1.jpg [IMG]
+=> icn/flisol-bogota/centro-mayor-1.jpg [IMG]
 [258]
 
-=> icn/flisol-bogota/sunrise-grupal2.jpg [IMG]
+=> icn/flisol-bogota/centro-mayor-2.jpg [IMG]
 [259]
 
-=> icn/flisol-bogota/sunrise-aguardiente.jpg [IMG]
+=> icn/flisol-bogota/centro-mayor-3.jpg [IMG]
 [260]
 
-=> icn/flisol-bogota/sunrise-andres.jpg [IMG]
+=> icn/flisol-bogota/sunrise-cerveza.jpg [IMG]
 [261]
 
-=> icn/flisol-bogota/sunrise-aleja.jpg [IMG]
+=> icn/flisol-bogota/sunrise-grupal1.jpg [IMG]
 [262]
 
-=> icn/flisol-bogota/sunrise-azul.jpg [IMG]
+=> icn/flisol-bogota/sunrise-grupal2.jpg [IMG]
 [263]
 
-=> icn/flisol-bogota/sunrise-sunrise.jpg [IMG]
+=> icn/flisol-bogota/sunrise-aguardiente.jpg [IMG]
 [264]
 
-=> icn/flisol-bogota/perzam-poker.jpg [IMG]
+=> icn/flisol-bogota/sunrise-andres.jpg [IMG]
 [265]
 
-=> icn/flisol-bogota/perzam-asado.jpg [IMG]
+=> icn/flisol-bogota/sunrise-aleja.jpg [IMG]
 [266]
 
-=> icn/flisol-bogota/perzam-grupal.jpg [IMG]
+=> icn/flisol-bogota/sunrise-azul.jpg [IMG]
 [267]
 
-=> icn/flisol-bogota/perzam-nightwing.jpg [IMG]
+=> icn/flisol-bogota/sunrise-sunrise.jpg [IMG]
 [268]
 
-=> icn/flisol-bogota/perzam-cloud-mesh.jpg [IMG]
+=> icn/flisol-bogota/perzam-poker.jpg [IMG]
 [269]
 
-=> icn/flisol-bogota/perzam-redlibre.co.jpg [IMG]
+=> icn/flisol-bogota/perzam-asado.jpg [IMG]
 [270]
 
-=> icn/flisol-bogota/perzam-pre-ereccion.jpg [IMG]
+=> icn/flisol-bogota/perzam-grupal.jpg [IMG]
 [271]
 
-=> icn/flisol-bogota/perzam-ereccion.jpg [IMG]
+=> icn/flisol-bogota/perzam-nightwing.jpg [IMG]
 [272]
 
-=> icn/flisol-bogota/perzam-enlace.jpg [IMG]
+=> icn/flisol-bogota/perzam-cloud-mesh.jpg [IMG]
 [273]
 
-=> icn/flisol-bogota/perzam-nodo.jpg [IMG]
+=> icn/flisol-bogota/perzam-redlibre.co.jpg [IMG]
 [274]
 
-=> icn/flisol-bogota/perzam-festejo.jpg [IMG]
+=> icn/flisol-bogota/perzam-pre-ereccion.jpg [IMG]
 [275]
 
-=> icn/flisol-bogota/perzam-chicas.jpg [IMG]
+=> icn/flisol-bogota/perzam-ereccion.jpg [IMG]
 [276]
 
-=> icn/flisol-bogota/monserrate-campanario.jpg [IMG]
+=> icn/flisol-bogota/perzam-enlace.jpg [IMG]
 [277]
 
-=> icn/flisol-bogota/monserrate-osiux-jorge.jpg [IMG]
+=> icn/flisol-bogota/perzam-nodo.jpg [IMG]
 [278]
 
-=> icn/flisol-bogota/monserrate-subida.jpg [IMG]
+=> icn/flisol-bogota/perzam-festejo.jpg [IMG]
 [279]
 
-=> icn/flisol-bogota/monserrate-turistas.jpg [IMG]
+=> icn/flisol-bogota/perzam-chicas.jpg [IMG]
 [280]
 
-=> icn/flisol-bogota/monserrate-iglesia.jpg [IMG]
+=> icn/flisol-bogota/monserrate-campanario.jpg [IMG]
 [281]
 
-=> icn/flisol-bogota/monserrate-bajando.jpg [IMG]
+=> icn/flisol-bogota/monserrate-osiux-jorge.jpg [IMG]
 [282]
 
-=> icn/flisol-bogota/monserrate-teleferico.jpg [IMG]
+=> icn/flisol-bogota/monserrate-subida.jpg [IMG]
 [283]
 
-=> icn/flisol-bogota/monserrate-cascada.jpg [IMG]
+=> icn/flisol-bogota/monserrate-turistas.jpg [IMG]
 [284]
 
-## entendiendo la red[285]
+=> icn/flisol-bogota/monserrate-iglesia.jpg [IMG]
+[285]
+
+=> icn/flisol-bogota/monserrate-bajando.jpg [IMG]
+[286]
+
+=> icn/flisol-bogota/monserrate-teleferico.jpg [IMG]
+[287]
+
+=> icn/flisol-bogota/monserrate-cascada.jpg [IMG]
+[288]
+
+## entendiendo la red[289]
 
 => img/redes-centralizadas.png [IMG]
 
@@ -992,7 +999,7 @@
 
 => img/redes-protocolos-2.png [IMG]
 
-## dame una consola[286]
+## dame una consola[290]
 
 => img/terminal.png [IMG]
 
@@ -1006,429 +1013,433 @@
 
 => img/gcoop.png [IMG]
 
-## Conferencias y Capacitaciones[287]
+## Conferencias y Capacitaciones[291]
 
 => img/no-podemos-innovar-si-seguimos-realizando-tareas-manuales-pyconcar-caba-ccgsm.png [IMG]
-[288]
-
-=> img/COOPySL-UNPAZ.png [IMG]
-[289]
-
-=> img/COOPySL-RGL.png [IMG]
-[290]
-
-=> img/privacidad-y-anonimato-con-software-libre-flisol-caba-ccgsm.png [IMG]
-[291]
-
-=> img/solo-confio-en-localhost.png [IMG]
 [292]
 
-=> img/plan-b-sasoconf.png [IMG]
+=> img/COOPySL-UNPAZ.png [IMG]
 [293]
 
-<file:img/priv-y-anon.pdf>[294]
+=> img/COOPySL-RGL.png [IMG]
+[294]
 
-=> img/COOPySL-CNEISI.png [IMG]
+=> img/privacidad-y-anonimato-con-software-libre-flisol-caba-ccgsm.png [IMG]
 [295]
 
-=> img/taller-comunicaciones-seguras.png [IMG]
+=> img/solo-confio-en-localhost.png [IMG]
 [296]
 
-=> img/cpco5-redlibre.png [IMG]
+=> img/plan-b-sasoconf.png [IMG]
 [297]
 
-=> img/bal-jrrl3.png [IMG]
-[298]
+<file:img/priv-y-anon.pdf>[298]
 
-=> img/todo-txt-rst-org-mode.png [IMG]
+=> img/COOPySL-CNEISI.png [IMG]
 [299]
 
-=> img/presentacion-bal.png [IMG]
+=> img/taller-comunicaciones-seguras.png [IMG]
 [300]
 
-=> img/WhyFLOSS-2007-BuenosAiresLibre.png [IMG]
+=> img/cpco5-redlibre.png [IMG]
 [301]
 
-## Capturar ideas en papel: de moleskine, hispterpda, pocketmod y libreta artesanal[302]
+=> img/bal-jrrl3.png [IMG]
+[302]
 
-=> icn/libreta_artesanal/libreta_artesanal_11.jpg [IMG]
+=> img/todo-txt-rst-org-mode.png [IMG]
 [303]
 
-=> icn/libreta_artesanal/libreta_artesanal_12.jpg [IMG]
+=> img/presentacion-bal.png [IMG]
 [304]
 
-=> icn/libreta_artesanal/libreta_artesanal_13.jpg [IMG]
+=> img/WhyFLOSS-2007-BuenosAiresLibre.png [IMG]
 [305]
 
-=> icn/libreta_artesanal/libreta_artesanal_14.jpg [IMG]
-[306]
+## Capturar ideas en papel: de moleskine, hispterpda, pocketmod y libreta artesanal[306]
 
-=> icn/libreta_artesanal/libreta_pocketmod_01.jpg [IMG]
+=> icn/libreta_artesanal/libreta_artesanal_11.jpg [IMG]
 [307]
 
-=> icn/libreta_artesanal/libreta_pocketmod_02.jpg [IMG]
+=> icn/libreta_artesanal/libreta_artesanal_12.jpg [IMG]
 [308]
 
-=> icn/libreta_artesanal/libreta_pocketmod_03.jpg [IMG]
+=> icn/libreta_artesanal/libreta_artesanal_13.jpg [IMG]
 [309]
 
-=> icn/libreta_artesanal/libreta_pocketmod_04.jpg [IMG]
+=> icn/libreta_artesanal/libreta_artesanal_14.jpg [IMG]
 [310]
 
-=> icn/libreta_artesanal/libreta_artesanal_01.jpg [IMG]
+=> icn/libreta_artesanal/libreta_pocketmod_01.jpg [IMG]
 [311]
 
-=> icn/libreta_artesanal/libreta_artesanal_02.jpg [IMG]
+=> icn/libreta_artesanal/libreta_pocketmod_02.jpg [IMG]
 [312]
 
-=> icn/libreta_artesanal/libreta_artesanal_03.jpg [IMG]
+=> icn/libreta_artesanal/libreta_pocketmod_03.jpg [IMG]
 [313]
 
-=> icn/libreta_artesanal/libreta_artesanal_04.jpg [IMG]
+=> icn/libreta_artesanal/libreta_pocketmod_04.jpg [IMG]
 [314]
 
-=> icn/libreta_artesanal/libreta_artesanal_05.jpg [IMG]
+=> icn/libreta_artesanal/libreta_artesanal_01.jpg [IMG]
 [315]
 
-=> icn/libreta_artesanal/libreta_artesanal_06.jpg [IMG]
+=> icn/libreta_artesanal/libreta_artesanal_02.jpg [IMG]
 [316]
 
-## Awesome es Increíble[317]
+=> icn/libreta_artesanal/libreta_artesanal_03.jpg [IMG]
+[317]
 
-=> icn/awesome/awesome-mosaico.png [IMG]
+=> icn/libreta_artesanal/libreta_artesanal_04.jpg [IMG]
 [318]
 
-=> icn/awesome/awesome-flotante.png [IMG]
+=> icn/libreta_artesanal/libreta_artesanal_05.jpg [IMG]
 [319]
 
-=> icn/awesome/awesome-800x600.png [IMG]
+=> icn/libreta_artesanal/libreta_artesanal_06.jpg [IMG]
 [320]
 
-=> icn/awesome/awesome-vertical_800x450.png [IMG]
-[321]
+## Awesome es Increíble[321]
 
-=> icn/awesome/awesome-terminator.png [IMG]
+=> icn/awesome/awesome-mosaico.png [IMG]
 [322]
 
-=> 2022-04-23-filiales-gnu-linux-flisol-caba.gmi 1: 2022-04-23-filiales-gnu-linux-flisol-caba.gmi
-=> file:img/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg 2: file:img/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg
-=> file:img/2022-04-23-flisol-caba-sala-10.jpg 3: file:img/2022-04-23-flisol-caba-sala-10.jpg
-=> file:img/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg 4: file:img/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg
-=> https://eventol.flisol.gmi.ar/media/talks/ansible-awx-bccl_KBu4UfA.pdf 5: https://eventol.flisol.gmi.ar/media/talks/ansible-awx-bccl_KBu4UfA.pdf
-=> 2022-04-22-thinkpad-hacktoon-floss-vinyl.gmi 6: 2022-04-22-thinkpad-hacktoon-floss-vinyl.gmi
-=> file:img/thinkpad-hacktoon-floss-vinyl-t14.jpg 7: file:img/thinkpad-hacktoon-floss-vinyl-t14.jpg
-=> file:img/original-hacktoon-floss.jpg 8: file:img/original-hacktoon-floss.jpg
-=> file:img/thinkpad-hacktoon-floss-vinyl-v01.png 9: file:img/thinkpad-hacktoon-floss-vinyl-v01.png
-=> file:img/thinkpad-hacktoon-floss-vinyl-v02.png 10: file:img/thinkpad-hacktoon-floss-vinyl-v02.png
-=> file:img/thinkpad-hacktoon-floss-vinyl-wip.jpg 11: file:img/thinkpad-hacktoon-floss-vinyl-wip.jpg
-=> 2021-04-28-gemini-es-para-amantes-del-texto-plano.gmi 12: 2021-04-28-gemini-es-para-amantes-del-texto-plano.gmi
-=> file:img/gemini-amfora-vs-lagrange.png 13: file:img/gemini-amfora-vs-lagrange.png
-=> 2021-03-28-tarea-en-progreso.gmi 14: 2021-03-28-tarea-en-progreso.gmi
-=> file:img/tarea-en-progreso-tmux-redmine-timediff-last-comment.png 15: file:img/tarea-en-progreso-tmux-redmine-timediff-last-comment.png
-=> 2021-03-22-remote-async-communication.gmi 16: 2021-03-22-remote-async-communication.gmi
-=> 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi 17: 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi
-=> file:img/gocr-imagen-a-numeros.png 18: file:img/gocr-imagen-a-numeros.png
-=> file:img/gocr-fecha-nro.png 19: file:img/gocr-fecha-nro.png
-=> file:img/gocr-fecha-nro.png 20: file:img/gocr-fecha-nro.png
-=> 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi 21: 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi
-=> file:img/pcap2uml-ldap-krb5-sign-seal-01.png 22: file:img/pcap2uml-ldap-krb5-sign-seal-01.png
-=> 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi 23: 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi
-=> file:img/csv2nwdiag-vms-prd-vms-stg.png 24: file:img/csv2nwdiag-vms-prd-vms-stg.png
-=> 2021-03-02-email-desde-consola.gmi 25: 2021-03-02-email-desde-consola.gmi
-=> file:img/imapfilter-imap-offlineimap-maildir-mutt-smtp.png 26: file:img/imapfilter-imap-offlineimap-maildir-mutt-smtp.png
-=> 2021-03-01-2021-03-31-posts.gmi 27: 2021-03-01-2021-03-31-posts.gmi
-=> img.gmi 28: img.gmi
-=> 2021-02-26-30-dias-de-posts-por-la-birra.gmi 29: 2021-02-26-30-dias-de-posts-por-la-birra.gmi
-=> file:img/rakhim-blogging.jpg 30: file:img/rakhim-blogging.jpg
-=> 2021-02-14-tty-music-on-console.gmi 31: 2021-02-14-tty-music-on-console.gmi
-=> file:img/tty-music-on-console.png 32: file:img/tty-music-on-console.png
-=> 2017-04-26-percona-live-17-day-two.gmi 33: 2017-04-26-percona-live-17-day-two.gmi
-=> file:img/2017-04-26-percona-multi-site-master.png 34: file:img/2017-04-26-percona-multi-site-master.png
-=> file:img/2017-04-26-percona-optimizing-without-sql.png 35: file:img/2017-04-26-percona-optimizing-without-sql.png
-=> file:img/2017-04-26-percona-multi-site-master.png 36: file:img/2017-04-26-percona-multi-site-master.png
+=> icn/awesome/awesome-flotante.png [IMG]
+[323]
+
+=> icn/awesome/awesome-800x600.png [IMG]
+[324]
+
+=> icn/awesome/awesome-vertical_800x450.png [IMG]
+[325]
+
+=> icn/awesome/awesome-terminator.png [IMG]
+[326]
+
+=> 2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.gmi 1: 2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.gmi
+=> file:img/ansible-devops-gitlab-awx-deploy-revision.png 2: file:img/ansible-devops-gitlab-awx-deploy-revision.png
+=> 2022-10-03-ansible-tools-v0-3-0.gmi 3: 2022-10-03-ansible-tools-v0-3-0.gmi
+=> file:img/2022-10-03-ansible-tools-v0-3-0.jpg 4: file:img/2022-10-03-ansible-tools-v0-3-0.jpg
+=> 2022-08-21-howto-use-gitlab-from-command-line.gmi 5: 2022-08-21-howto-use-gitlab-from-command-line.gmi
+=> file:img/gitlab-bash-utils.jpg 6: file:img/gitlab-bash-utils.jpg
+=> 2022-04-23-filiales-gnu-linux-flisol-caba.gmi 7: 2022-04-23-filiales-gnu-linux-flisol-caba.gmi
+=> file:img/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg 8: file:img/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg
+=> file:img/2022-04-23-flisol-caba-sala-10.jpg 9: file:img/2022-04-23-flisol-caba-sala-10.jpg
+=> file:img/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg 10: file:img/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg
+=> 2022-04-22-thinkpad-hacktoon-floss-vinyl.gmi 11: 2022-04-22-thinkpad-hacktoon-floss-vinyl.gmi
+=> file:img/thinkpad-hacktoon-floss-vinyl-t14.jpg 12: file:img/thinkpad-hacktoon-floss-vinyl-t14.jpg
+=> file:img/original-hacktoon-floss.jpg 13: file:img/original-hacktoon-floss.jpg
+=> file:img/thinkpad-hacktoon-floss-vinyl-wip.jpg 14: file:img/thinkpad-hacktoon-floss-vinyl-wip.jpg
+=> 2021-04-28-gemini-es-para-amantes-del-texto-plano.gmi 15: 2021-04-28-gemini-es-para-amantes-del-texto-plano.gmi
+=> file:img/gemini-amfora-vs-lagrange.png 16: file:img/gemini-amfora-vs-lagrange.png
+=> 2021-03-28-tarea-en-progreso.gmi 17: 2021-03-28-tarea-en-progreso.gmi
+=> file:img/tarea-en-progreso-tmux-redmine-timediff-last-comment.png 18: file:img/tarea-en-progreso-tmux-redmine-timediff-last-comment.png
+=> 2021-03-22-remote-async-communication.gmi 19: 2021-03-22-remote-async-communication.gmi
+=> 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi 20: 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi
+=> file:img/gocr-imagen-a-numeros.png 21: file:img/gocr-imagen-a-numeros.png
+=> file:img/gocr-fecha-nro.png 22: file:img/gocr-fecha-nro.png
+=> file:img/gocr-fecha-nro.png 23: file:img/gocr-fecha-nro.png
+=> 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi 24: 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi
+=> file:img/pcap2uml-ldap-krb5-sign-seal-01.png 25: file:img/pcap2uml-ldap-krb5-sign-seal-01.png
+=> 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi 26: 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi
+=> file:img/csv2nwdiag-vms-prd-vms-stg.png 27: file:img/csv2nwdiag-vms-prd-vms-stg.png
+=> 2021-03-02-email-desde-consola.gmi 28: 2021-03-02-email-desde-consola.gmi
+=> file:img/imapfilter-imap-offlineimap-maildir-mutt-smtp.png 29: file:img/imapfilter-imap-offlineimap-maildir-mutt-smtp.png
+=> 2021-03-01-2021-03-31-posts.gmi 30: 2021-03-01-2021-03-31-posts.gmi
+=> img.gmi 31: img.gmi
+=> 2021-02-26-30-dias-de-posts-por-la-birra.gmi 32: 2021-02-26-30-dias-de-posts-por-la-birra.gmi
+=> file:img/rakhim-blogging.jpg 33: file:img/rakhim-blogging.jpg
+=> 2021-02-14-tty-music-on-console.gmi 34: 2021-02-14-tty-music-on-console.gmi
+=> file:img/tty-music-on-console.png 35: file:img/tty-music-on-console.png
+=> 2017-04-26-percona-live-17-day-two.gmi 36: 2017-04-26-percona-live-17-day-two.gmi
 => file:img/2017-04-26-percona-multi-site-master.png 37: file:img/2017-04-26-percona-multi-site-master.png
-=> 2017-04-25-percona-live-17-day-one.gmi 38: 2017-04-25-percona-live-17-day-one.gmi
-=> file:img/2017-04-25-percona-mysql-ha-closeup.png 39: file:img/2017-04-25-percona-mysql-ha-closeup.png
-=> file:img/2017-04-25-percona-proxysql-improve-ha.png 40: file:img/2017-04-25-percona-proxysql-improve-ha.png
-=> 2016-02-03-monitoreo-en-status-bar-de-tmux.gmi 41: 2016-02-03-monitoreo-en-status-bar-de-tmux.gmi
-=> file:img/qmhandle-status-bar-tmux.png 42: file:img/qmhandle-status-bar-tmux.png
-=> 2015-01-14-sincronizar-repositorios-git-repos.gmi 43: 2015-01-14-sincronizar-repositorios-git-repos.gmi
-=> file:img/git-repos-osiris.png 44: file:img/git-repos-osiris.png
-=> file:img/git-repos-list.png 45: file:img/git-repos-list.png
-=> file:img/git-repos-show-time.png 46: file:img/git-repos-show-time.png
-=> file:img/git-repos-show-log.png 47: file:img/git-repos-show-log.png
-=> file:img/git-repos-pull.png 48: file:img/git-repos-pull.png
-=> 2015-01-10-renombrar-y-ordenar-fotos-duplicadas.gmi 49: 2015-01-10-renombrar-y-ordenar-fotos-duplicadas.gmi
-=> 2014-10-08-tension-en-la-red.gmi 50: 2014-10-08-tension-en-la-red.gmi
-=> http://www.estebanmagnani.com.ar/wp-content/uploads/2014/09/Tension-en-la-red-interior.pdf 51: http://www.estebanmagnani.com.ar/wp-content/uploads/2014/09/Tension-en-la-red-interior.pdf
-=> 2014-08-12-clonar-pendrives.gmi 52: 2014-08-12-clonar-pendrives.gmi
-=> file:img/clonar-pendrives/letras-viajeras-routers.jpg 53: file:img/clonar-pendrives/letras-viajeras-routers.jpg
-=> file:img/clonar-pendrives/letras-viajeras-wicd.jpg 54: file:img/clonar-pendrives/letras-viajeras-wicd.jpg
-=> file:img/clonar-pendrives/letras-viajeras-pssh.jpg 55: file:img/clonar-pendrives/letras-viajeras-pssh.jpg
-=> file:img/clonar-pendrives/letras-viajeras-md5.jpg 56: file:img/clonar-pendrives/letras-viajeras-md5.jpg
-=> file:img/clonar-pendrives/letras-viajeras-iftop.jpg 57: file:img/clonar-pendrives/letras-viajeras-iftop.jpg
-=> 2014-04-28-semana-negra.gmi 58: 2014-04-28-semana-negra.gmi
-=> file:img/semana-negra/tmux.png 59: file:img/semana-negra/tmux.png
-=> file:img/semana-negra/cacaview.png 60: file:img/semana-negra/cacaview.png
-=> file:img/semana-negra/cacaview-zoom.png 61: file:img/semana-negra/cacaview-zoom.png
-=> file:img/semana-negra/fbi.png 62: file:img/semana-negra/fbi.png
-=> file:img/semana-negra/links2.png 63: file:img/semana-negra/links2.png
-=> file:img/semana-negra/tmux-mplayer.png 64: file:img/semana-negra/tmux-mplayer.png
-=> 2014-04-26-flisol-avellaneda-undav.gmi 65: 2014-04-26-flisol-avellaneda-undav.gmi
-=> file:img/flisol-2014-undav/2014-04-26-1411-e167fe.jpg 66: file:img/flisol-2014-undav/2014-04-26-1411-e167fe.jpg
-=> file:img/flisol-2014-undav/2014-04-26-1417-1efa0f.jpg 67: file:img/flisol-2014-undav/2014-04-26-1417-1efa0f.jpg
-=> file:img/flisol-2014-undav/2014-04-26-1320-ababc0.jpg 68: file:img/flisol-2014-undav/2014-04-26-1320-ababc0.jpg
-=> file:img/flisol-2014-undav/2014-04-26-1047-f393d3.jpg 69: file:img/flisol-2014-undav/2014-04-26-1047-f393d3.jpg
-=> file:img/flisol-2014-undav/2014-04-26-1617-e2a80d.jpg 70: file:img/flisol-2014-undav/2014-04-26-1617-e2a80d.jpg
-=> file:img/flisol-2014-undav/2014-04-26-1748-4190a2.jpg 71: file:img/flisol-2014-undav/2014-04-26-1748-4190a2.jpg
-=> 2014-04-25-huayra-2.0.gmi 72: 2014-04-25-huayra-2.0.gmi
-=> file:img/huayra-2.0.png 73: file:img/huayra-2.0.png
-=> 2014-04-22-flisol-2014.gmi 74: 2014-04-22-flisol-2014.gmi
-=> 2014-03-22-facttic-mit-libre-planet.gmi 75: 2014-03-22-facttic-mit-libre-planet.gmi
-=> 2014-03-14-saso-conf-curuzu-cuatia.gmi 76: 2014-03-14-saso-conf-curuzu-cuatia.gmi
-=> file:img/sasoconf/SASOConf-2014-03-14-1143-d2c88a.jpg 77: file:img/sasoconf/SASOConf-2014-03-14-1143-d2c88a.jpg
-=> file:img/sasoconf/SASOConf-2014-03-14-0842-b95560.jpg 78: file:img/sasoconf/SASOConf-2014-03-14-0842-b95560.jpg
-=> file:img/sasoconf/SASOConf-2014-03-14-0845-42a761.jpg 79: file:img/sasoconf/SASOConf-2014-03-14-0845-42a761.jpg
-=> file:img/sasoconf/SASOConf-2014-03-14-0926-94bfdd.jpg 80: file:img/sasoconf/SASOConf-2014-03-14-0926-94bfdd.jpg
-=> file:img/sasoconf/SASOConf-2014-03-14-1033-7b5ac1.jpg 81: file:img/sasoconf/SASOConf-2014-03-14-1033-7b5ac1.jpg
-=> file:img/sasoconf/SASOConf-2014-03-14-1102-f8b526.jpg 82: file:img/sasoconf/SASOConf-2014-03-14-1102-f8b526.jpg
-=> file:img/sasoconf/SASOConf-2014-03-14-1215-144531.jpg 83: file:img/sasoconf/SASOConf-2014-03-14-1215-144531.jpg
-=> 2014-03-12-hardware-freedom-day-2014.gmi 84: 2014-03-12-hardware-freedom-day-2014.gmi
-=> file:img/Hardware-Freedom-Day-2014.png 85: file:img/Hardware-Freedom-Day-2014.png
-=> 2014-03-11-se-viene-la-sasoconf.gmi 86: 2014-03-11-se-viene-la-sasoconf.gmi
-=> file:img/SASOConf.png 87: file:img/SASOConf.png
-=> 2013-09-30-hacks-hackers-buenos-aires-2013.gmi 88: 2013-09-30-hacks-hackers-buenos-aires-2013.gmi
-=> file:img/hhba-2013/hhba-2013-09-30-11.jpg 89: file:img/hhba-2013/hhba-2013-09-30-11.jpg
-=> file:img/hhba-2013/hhba-2013-09-30-27.jpg 90: file:img/hhba-2013/hhba-2013-09-30-27.jpg
-=> file:img/hhba-2013/hhba-2013-09-30-38.jpg 91: file:img/hhba-2013/hhba-2013-09-30-38.jpg
-=> file:img/hhba-2013/hhba-2013-09-30-44.jpg 92: file:img/hhba-2013/hhba-2013-09-30-44.jpg
-=> file:img/hhba-2013/hhba-2013-09-30-52.jpg 93: file:img/hhba-2013/hhba-2013-09-30-52.jpg
-=> file:img/hhba-2013/hhba-2013-09-30-54.jpg 94: file:img/hhba-2013/hhba-2013-09-30-54.jpg
-=> file:img/antena-omni-bal.png 95: file:img/antena-omni-bal.png
-=> 2013-09-13-huayra-primer-sistema-operativo-libre-de-conectar-igualdad.gmi 96: 2013-09-13-huayra-primer-sistema-operativo-libre-de-conectar-igualdad.gmi
-=> file:img/huayra-oficial/2013-09-13-1115-8988a5.jpg 97: file:img/huayra-oficial/2013-09-13-1115-8988a5.jpg
-=> file:img/huayra-oficial/2013-09-13-1124-ea0852.jpg 98: file:img/huayra-oficial/2013-09-13-1124-ea0852.jpg
-=> file:img/huayra-oficial/2013-09-13-1127-32843f.jpg 99: file:img/huayra-oficial/2013-09-13-1127-32843f.jpg
-=> file:img/huayra-oficial/2013-09-13-1131-35fefc.jpg 100: file:img/huayra-oficial/2013-09-13-1131-35fefc.jpg
-=> file:img/huayra-oficial/2013-09-13-1141-fc2efc.jpg 101: file:img/huayra-oficial/2013-09-13-1141-fc2efc.jpg
-=> 2013-06-14-matanza-comparte-y-redes-libres-en-plaza-ciencia-2013.gmi 102: 2013-06-14-matanza-comparte-y-redes-libres-en-plaza-ciencia-2013.gmi
-=> http://pub.osiux.com/altermundi.pdf 103: http://pub.osiux.com/altermundi.pdf
-=> 2013-05-06-letras-viajeras.gmi 104: 2013-05-06-letras-viajeras.gmi
-=> 2013-04-27-flisol-2013-et10.gmi 105: 2013-04-27-flisol-2013-et10.gmi
-=> file:img/flisol-2013-et10/2013-04-27-1042-3fecd5.jpg 106: file:img/flisol-2013-et10/2013-04-27-1042-3fecd5.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1043-5c496d.jpg 107: file:img/flisol-2013-et10/2013-04-27-1043-5c496d.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1310-5262b9.jpg 108: file:img/flisol-2013-et10/2013-04-27-1310-5262b9.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1311-8b4cbe.jpg 109: file:img/flisol-2013-et10/2013-04-27-1311-8b4cbe.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1455-16532e.jpg 110: file:img/flisol-2013-et10/2013-04-27-1455-16532e.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1455-268126.jpg 111: file:img/flisol-2013-et10/2013-04-27-1455-268126.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1455-677a7c.jpg 112: file:img/flisol-2013-et10/2013-04-27-1455-677a7c.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1455-deb420.jpg 113: file:img/flisol-2013-et10/2013-04-27-1455-deb420.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1502-b96832.jpg 114: file:img/flisol-2013-et10/2013-04-27-1502-b96832.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1607-5cef9f.jpg 115: file:img/flisol-2013-et10/2013-04-27-1607-5cef9f.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1610-d28f99.jpg 116: file:img/flisol-2013-et10/2013-04-27-1610-d28f99.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1612-7cec2f.jpg 117: file:img/flisol-2013-et10/2013-04-27-1612-7cec2f.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1747-a4cb7a.jpg 118: file:img/flisol-2013-et10/2013-04-27-1747-a4cb7a.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1754-4f4c90.jpg 119: file:img/flisol-2013-et10/2013-04-27-1754-4f4c90.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1755-620d74.jpg 120: file:img/flisol-2013-et10/2013-04-27-1755-620d74.jpg
-=> file:img/flisol-2013-et10/2013-04-27-1756-8093d2.jpg 121: file:img/flisol-2013-et10/2013-04-27-1756-8093d2.jpg
-=> 2013-04-23-cluster-de-software-libre.gmi 122: 2013-04-23-cluster-de-software-libre.gmi
-=> file:img/2013-04-23-cluster-de-software-libre.jpg 123: file:img/2013-04-23-cluster-de-software-libre.jpg
-=> 2013-04-06-primer-encuentro-software-libre-monte-caseros.gmi 124: 2013-04-06-primer-encuentro-software-libre-monte-caseros.gmi
-=> file:img/1eslmc/2013-04-06-16-11-579919.jpg 125: file:img/1eslmc/2013-04-06-16-11-579919.jpg
-=> file:img/1eslmc/2013-04-05-17-41-0c7ebc.jpg 126: file:img/1eslmc/2013-04-05-17-41-0c7ebc.jpg
-=> file:img/1eslmc/2013-04-05-17-11-791474.jpg 127: file:img/1eslmc/2013-04-05-17-11-791474.jpg
-=> 2013-04-02-altermesh-buenos-aires-libre-compartir-es-bueno.gmi 128: 2013-04-02-altermesh-buenos-aires-libre-compartir-es-bueno.gmi
-=> file:img/osiux-network.png 129: file:img/osiux-network.png
-=> 2013-03-18-huayra-el-dia-que-las-vacas-vuelen.gmi 130: 2013-03-18-huayra-el-dia-que-las-vacas-vuelen.gmi
-=> 2012-10-15-cisl-conferencia-internacional-software-libre.gmi 131: 2012-10-15-cisl-conferencia-internacional-software-libre.gmi
-=> 2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi 132: 2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi
-=> 2012-08-27-proximas-charlas-y-eventos.gmi 133: 2012-08-27-proximas-charlas-y-eventos.gmi
-=> 2012-06-26-campus-party-bogota-cpco5.gmi 134: 2012-06-26-campus-party-bogota-cpco5.gmi
-=> file:img/cpco5/cpco5-1920-01.jpg 135: file:img/cpco5/cpco5-1920-01.jpg
-=> file:img/cpco5/cpco5-1920-02.jpg 136: file:img/cpco5/cpco5-1920-02.jpg
-=> file:img/cpco5/cpco5-1920-03.jpg 137: file:img/cpco5/cpco5-1920-03.jpg
-=> file:img/cpco5/cpco5-1920-04.jpg 138: file:img/cpco5/cpco5-1920-04.jpg
-=> file:img/cpco5/cpco5-1920-05.jpg 139: file:img/cpco5/cpco5-1920-05.jpg
-=> file:img/cpco5/cpco5-1920-06.jpg 140: file:img/cpco5/cpco5-1920-06.jpg
-=> file:img/cpco5/cpco5-1920-07.jpg 141: file:img/cpco5/cpco5-1920-07.jpg
-=> file:img/cpco5/cpco5-1920-08.jpg 142: file:img/cpco5/cpco5-1920-08.jpg
-=> file:img/cpco5/cpco5-1920-09.jpg 143: file:img/cpco5/cpco5-1920-09.jpg
-=> http://youtu.be/IKO17A5Imbc 144: http://youtu.be/IKO17A5Imbc
-=> 2012-06-14-visualizando-cooperativas-de-argentina.gmi 145: 2012-06-14-visualizando-cooperativas-de-argentina.gmi
-=> 2012-06-01-pirate-box-floppy-disk.gmi 146: 2012-06-01-pirate-box-floppy-disk.gmi
-=> file:img/pirate-box-floppy-disk-1280-01.jpg 147: file:img/pirate-box-floppy-disk-1280-01.jpg
-=> file:img/pirate-box-floppy-disk-1280-02.jpg 148: file:img/pirate-box-floppy-disk-1280-02.jpg
-=> 2012-05-28-como-automatizar-vlc-para-grabar-programa-television-digital-abierta.gmi 149: 2012-05-28-como-automatizar-vlc-para-grabar-programa-television-digital-abierta.gmi
-=> 2012-05-25-buenos-aires-libre-en-el-medio-digital.gmi 150: 2012-05-25-buenos-aires-libre-en-el-medio-digital.gmi
-=> 2012-05-18-en-el-medio-digital-software-libre.gmi 151: 2012-05-18-en-el-medio-digital-software-libre.gmi
-=> 2012-05-05-flisol-bogota.gmi 152: 2012-05-05-flisol-bogota.gmi
-=> 2012-04-28-flisol-cooperativismo-y-software-libre.gmi 153: 2012-04-28-flisol-cooperativismo-y-software-libre.gmi
-=> 2012-03-05-redes-abiertas-versus-redes-cerradas.gmi 154: 2012-03-05-redes-abiertas-versus-redes-cerradas.gmi
-=> 2012-02-29-gcoop-cartoon.gmi 155: 2012-02-29-gcoop-cartoon.gmi
-=> 2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi 156: 2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi
-=> file:img/las-cooperativas-construyen-un-mundo-mejor.jpg 157: file:img/las-cooperativas-construyen-un-mundo-mejor.jpg
-=> 2012-02-14-de-fondo-negro-a-fondo-blanco.gmi 158: 2012-02-14-de-fondo-negro-a-fondo-blanco.gmi
-=> file:img/de-fondo-negro-a-fondo-blanco.png 159: file:img/de-fondo-negro-a-fondo-blanco.png
-=> 2011-12-29-orgmode-y-gnuplot.gmi 160: 2011-12-29-orgmode-y-gnuplot.gmi
-=> 2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.gmi 161: 2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.gmi
-=> 2011-05-23-pomodoro-notify-send-minutos-osd.gmi 162: 2011-05-23-pomodoro-notify-send-minutos-osd.gmi
-=> visualizando-org-mode-con-gnuplot.gmi 163: visualizando-org-mode-con-gnuplot.gmi
-=> visualizando-grafos-graphviz.gmi 164: visualizando-grafos-graphviz.gmi
-=> ubuntu-11.10-en-exomate-de-conectar-igualdad.gmi 165: ubuntu-11.10-en-exomate-de-conectar-igualdad.gmi
-=> tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.gmi 166: tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.gmi
-=> file:img/tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.png 167: file:img/tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.png
-=> tty.gmi 168: tty.gmi
-=> file:img/tty-shell-lsd.png 169: file:img/tty-shell-lsd.png
-=> file:img/tty-shell-bat.png 170: file:img/tty-shell-bat.png
-=> file:img/tty-music-on-console.png 171: file:img/tty-music-on-console.png
-=> file:img/tty-wifi-wicd-curses.png 172: file:img/tty-wifi-wicd-curses.png
-=> file:img/tty-wifi-wavemon-histogram.png 173: file:img/tty-wifi-wavemon-histogram.png
-=> todo-txt-rst+org-mode.gmi 174: todo-txt-rst+org-mode.gmi
-=> file:img/txt.png 175: file:img/txt.png
-=> file:img/emacs-vim-notepad.png 176: file:img/emacs-vim-notepad.png
-=> file:img/vim-vs-emacs.jpg 177: file:img/vim-vs-emacs.jpg
-=> tmux-terminator-awesome.gmi 178: tmux-terminator-awesome.gmi
-=> file:img/tmux-terminator-awesome.png 179: file:img/tmux-terminator-awesome.png
-=> file:img/tmux-screen.png 180: file:img/tmux-screen.png
-=> file:img/tmux-terminator-ssh.png 181: file:img/tmux-terminator-ssh.png
-=> file:img/tmux-juice-ssh-android.png 182: file:img/tmux-juice-ssh-android.png
-=> file:img/tmux-malbec-gorra.png 183: file:img/tmux-malbec-gorra.png
-=> file:img/tmux-tail-logs.png 184: file:img/tmux-tail-logs.png
-=> procesos-linux.gmi 185: procesos-linux.gmi
-=> pomodoro-notify-send.gmi 186: pomodoro-notify-send.gmi
-=> pomodoro-minutos-osd.gmi 187: pomodoro-minutos-osd.gmi
-=> plt.gmi 188: plt.gmi
-=> file:img/plot12i-ssh-2019.png 189: file:img/plot12i-ssh-2019.png
-=> osiux.gmi 190: osiux.gmi
-=> olimpiadas-informaticas-en-monte-caseros.gmi 191: olimpiadas-informaticas-en-monte-caseros.gmi
-=> file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_12.jpg 192: file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_12.jpg
-=> file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_13.jpg 193: file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_13.jpg
-=> file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_14.jpg 194: file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_14.jpg
-=> file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_25.jpg 195: file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_25.jpg
-=> file:img/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_50.jpg 196: file:img/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_50.jpg
-=> file:img/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_54.jpg 197: file:img/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_54.jpg
-=> file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_60.jpg 198: file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_60.jpg
-=> file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_61.jpg 199: file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_61.jpg
-=> file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_68.jpg 200: file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_68.jpg
-=> linux-sysadmin.gmi 201: linux-sysadmin.gmi
-=> jrrl3-terceras-jornadas-regionales-de-redes-libres-en-fisl12.gmi 202: jrrl3-terceras-jornadas-regionales-de-redes-libres-en-fisl12.gmi
-=> imagenes-magicas-imagemagick.gmi 203: imagenes-magicas-imagemagick.gmi
-=> file:header.gmi 204: file:header.gmi
-=> img.gmi 205: img.gmi
-=> gtd-gething-this-done.gmi 206: gtd-gething-this-done.gmi
-=> graficar-desde-consola.gmi 207: graficar-desde-consola.gmi
-=> fluxbox-gtk2-root-tail-gkrellm.gmi 208: fluxbox-gtk2-root-tail-gkrellm.gmi
-=> file:img/osiux-fluxbox-screenshot-1024x768-01.png 209: file:img/osiux-fluxbox-screenshot-1024x768-01.png
-=> flisol-bogota-2012.gmi 210: flisol-bogota-2012.gmi
-=> file:img/flisol-bogota/viaje-ezeiza-partida.jpg 211: file:img/flisol-bogota/viaje-ezeiza-partida.jpg
-=> file:img/flisol-bogota/panama-hora.jpg 212: file:img/flisol-bogota/panama-hora.jpg
-=> file:img/flisol-bogota/panama-tocumen.jpg 213: file:img/flisol-bogota/panama-tocumen.jpg
-=> file:img/flisol-bogota/panama-wifi.jpg 214: file:img/flisol-bogota/panama-wifi.jpg
-=> file:img/flisol-bogota/panama-canal.jpg 215: file:img/flisol-bogota/panama-canal.jpg
-=> file:img/flisol-bogota/viaje-colombia-avion.jpg 216: file:img/flisol-bogota/viaje-colombia-avion.jpg
-=> file:img/flisol-bogota/viaje-colombia-nubes.jpg 217: file:img/flisol-bogota/viaje-colombia-nubes.jpg
-=> file:img/flisol-bogota/viaje-colombia-bienvenido.jpg 218: file:img/flisol-bogota/viaje-colombia-bienvenido.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-1.jpg 219: file:img/flisol-bogota/ciudad-bolivar-1.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-2.jpg 220: file:img/flisol-bogota/ciudad-bolivar-2.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-nodo-1.jpg 221: file:img/flisol-bogota/ciudad-bolivar-nodo-1.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-nodo-2.jpg 222: file:img/flisol-bogota/ciudad-bolivar-nodo-2.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-jorge-osiux.jpg 223: file:img/flisol-bogota/ciudad-bolivar-jorge-osiux.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-tv-antena.jpg 224: file:img/flisol-bogota/ciudad-bolivar-tv-antena.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-tv-racks.jpg 225: file:img/flisol-bogota/ciudad-bolivar-tv-racks.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-tv-estudio.jpg 226: file:img/flisol-bogota/ciudad-bolivar-tv-estudio.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-tv-programa.jpg 227: file:img/flisol-bogota/ciudad-bolivar-tv-programa.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-tv-graffiti.jpg 228: file:img/flisol-bogota/ciudad-bolivar-tv-graffiti.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-panoramica-1.jpg 229: file:img/flisol-bogota/ciudad-bolivar-panoramica-1.jpg
-=> file:img/flisol-bogota/ciudad-bolivar-panoramica-2.jpg 230: file:img/flisol-bogota/ciudad-bolivar-panoramica-2.jpg
-=> file:img/flisol-bogota/bogota-noche-1.jpg 231: file:img/flisol-bogota/bogota-noche-1.jpg
-=> file:img/flisol-bogota/bogota-noche-2.jpg 232: file:img/flisol-bogota/bogota-noche-2.jpg
-=> file:img/flisol-bogota/bogota-noche-3.jpg 233: file:img/flisol-bogota/bogota-noche-3.jpg
-=> file:img/flisol-bogota/flisol-idrd.jpg 234: file:img/flisol-bogota/flisol-idrd.jpg
-=> file:img/flisol-bogota/flisol-cartel.jpg 235: file:img/flisol-bogota/flisol-cartel.jpg
-=> file:img/flisol-bogota/flisol-auditorio.jpg 236: file:img/flisol-bogota/flisol-auditorio.jpg
-=> file:img/flisol-bogota/flisol-banderas.jpg 237: file:img/flisol-bogota/flisol-banderas.jpg
-=> file:img/flisol-bogota/flisol-alcalde.jpg 238: file:img/flisol-bogota/flisol-alcalde.jpg
-=> file:img/flisol-bogota/flisol-mesas.jpg 239: file:img/flisol-bogota/flisol-mesas.jpg
-=> file:img/flisol-bogota/flisol-compus.jpg 240: file:img/flisol-bogota/flisol-compus.jpg
-=> file:img/flisol-bogota/flisol-stand.jpg 241: file:img/flisol-bogota/flisol-stand.jpg
-=> file:img/flisol-bogota/flisol-hackbo.jpg 242: file:img/flisol-bogota/flisol-hackbo.jpg
-=> file:img/flisol-bogota/flisol-robot.jpg 243: file:img/flisol-bogota/flisol-robot.jpg
-=> file:img/flisol-bogota/flisol-doctor-fundador.jpg 244: file:img/flisol-bogota/flisol-doctor-fundador.jpg
-=> http://youtu.be/_IcH8F_iDTg 245: http://youtu.be/_IcH8F_iDTg
-=> http://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf 246: http://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf
-=> http://www.ustream.tv/recorded/22379626 247: http://www.ustream.tv/recorded/22379626
-=> file:img/flisol-bogota/foro-redes-libres-general.jpg 248: file:img/flisol-bogota/foro-redes-libres-general.jpg
-=> file:img/flisol-bogota/foro-redes-libres-hollman.jpg 249: file:img/flisol-bogota/foro-redes-libres-hollman.jpg
-=> file:img/flisol-bogota/foro-redes-libres-gral-0.jpg 250: file:img/flisol-bogota/foro-redes-libres-gral-0.jpg
-=> file:img/flisol-bogota/foro-redes-libres-gral-1.jpg 251: file:img/flisol-bogota/foro-redes-libres-gral-1.jpg
-=> file:img/flisol-bogota/foro-redes-libres-gral-2.jpg 252: file:img/flisol-bogota/foro-redes-libres-gral-2.jpg
-=> file:img/flisol-bogota/foro-redes-libres-gral-3.jpg 253: file:img/flisol-bogota/foro-redes-libres-gral-3.jpg
-=> file:img/flisol-bogota/centro-mayor-1.jpg 254: file:img/flisol-bogota/centro-mayor-1.jpg
-=> file:img/flisol-bogota/centro-mayor-2.jpg 255: file:img/flisol-bogota/centro-mayor-2.jpg
-=> file:img/flisol-bogota/centro-mayor-3.jpg 256: file:img/flisol-bogota/centro-mayor-3.jpg
-=> file:img/flisol-bogota/sunrise-cerveza.jpg 257: file:img/flisol-bogota/sunrise-cerveza.jpg
-=> file:img/flisol-bogota/sunrise-grupal1.jpg 258: file:img/flisol-bogota/sunrise-grupal1.jpg
-=> file:img/flisol-bogota/sunrise-grupal2.jpg 259: file:img/flisol-bogota/sunrise-grupal2.jpg
-=> file:img/flisol-bogota/sunrise-aguardiente.jpg 260: file:img/flisol-bogota/sunrise-aguardiente.jpg
-=> file:img/flisol-bogota/sunrise-andres.jpg 261: file:img/flisol-bogota/sunrise-andres.jpg
-=> file:img/flisol-bogota/sunrise-aleja.jpg 262: file:img/flisol-bogota/sunrise-aleja.jpg
-=> file:img/flisol-bogota/sunrise-azul.jpg 263: file:img/flisol-bogota/sunrise-azul.jpg
-=> file:img/flisol-bogota/sunrise-sunrise.jpg 264: file:img/flisol-bogota/sunrise-sunrise.jpg
-=> file:img/flisol-bogota/perzam-poker.jpg 265: file:img/flisol-bogota/perzam-poker.jpg
-=> file:img/flisol-bogota/perzam-asado.jpg 266: file:img/flisol-bogota/perzam-asado.jpg
-=> file:img/flisol-bogota/perzam-grupal.jpg 267: file:img/flisol-bogota/perzam-grupal.jpg
-=> file:img/flisol-bogota/perzam-nightwing.jpg 268: file:img/flisol-bogota/perzam-nightwing.jpg
-=> file:img/flisol-bogota/perzam-cloud-mesh.jpg 269: file:img/flisol-bogota/perzam-cloud-mesh.jpg
-=> file:img/flisol-bogota/perzam-redlibre.co.jpg 270: file:img/flisol-bogota/perzam-redlibre.co.jpg
-=> file:img/flisol-bogota/perzam-pre-ereccion.jpg 271: file:img/flisol-bogota/perzam-pre-ereccion.jpg
-=> file:img/flisol-bogota/perzam-ereccion.jpg 272: file:img/flisol-bogota/perzam-ereccion.jpg
-=> file:img/flisol-bogota/perzam-enlace.jpg 273: file:img/flisol-bogota/perzam-enlace.jpg
-=> file:img/flisol-bogota/perzam-nodo.jpg 274: file:img/flisol-bogota/perzam-nodo.jpg
-=> file:img/flisol-bogota/perzam-festejo.jpg 275: file:img/flisol-bogota/perzam-festejo.jpg
-=> file:img/flisol-bogota/perzam-chicas.jpg 276: file:img/flisol-bogota/perzam-chicas.jpg
-=> file:img/flisol-bogota/monserrate-campanario.jpg 277: file:img/flisol-bogota/monserrate-campanario.jpg
-=> file:img/flisol-bogota/monserrate-osiux-jorge.jpg 278: file:img/flisol-bogota/monserrate-osiux-jorge.jpg
-=> file:img/flisol-bogota/monserrate-subida.jpg 279: file:img/flisol-bogota/monserrate-subida.jpg
-=> file:img/flisol-bogota/monserrate-turistas.jpg 280: file:img/flisol-bogota/monserrate-turistas.jpg
-=> file:img/flisol-bogota/monserrate-iglesia.jpg 281: file:img/flisol-bogota/monserrate-iglesia.jpg
-=> file:img/flisol-bogota/monserrate-bajando.jpg 282: file:img/flisol-bogota/monserrate-bajando.jpg
-=> file:img/flisol-bogota/monserrate-teleferico.jpg 283: file:img/flisol-bogota/monserrate-teleferico.jpg
-=> file:img/flisol-bogota/monserrate-cascada.jpg 284: file:img/flisol-bogota/monserrate-cascada.jpg
-=> entendiendo-la-red.gmi 285: entendiendo-la-red.gmi
-=> dame-una-consola.gmi 286: dame-una-consola.gmi
-=> charlas.gmi 287: charlas.gmi
-=> https://www.youtube.com/watch?v=f93KQ0cAbxI 288: https://www.youtube.com/watch?v=f93KQ0cAbxI
-=> https://pub.osiux.com/COOPySL-UNPAZ.pdf 289: https://pub.osiux.com/COOPySL-UNPAZ.pdf
-=> https://pub.osiux.com/COOPySL-RGL.pdf 290: https://pub.osiux.com/COOPySL-RGL.pdf
-=> https://pub.osiux.com/privacidad-y-anonimato-con-software-libre-flisol-caba-ccgsm.pdf 291: https://pub.osiux.com/privacidad-y-anonimato-con-software-libre-flisol-caba-ccgsm.pdf
-=> https://pub.osiux.com/solo-confio-en-localhost.pdf 292: https://pub.osiux.com/solo-confio-en-localhost.pdf
-=> https://pub.osiux.com/plan-b-sasoconf.pdf 293: https://pub.osiux.com/plan-b-sasoconf.pdf
-=> http://youtu.be/xjxzCDmkNyQ 294: http://youtu.be/xjxzCDmkNyQ
-=> http://gcoop.coop/COOPySL-CNEISI.pdf 295: http://gcoop.coop/COOPySL-CNEISI.pdf
-=> https://pub.osiux.com/priv-y-anon.pdf 296: https://pub.osiux.com/priv-y-anon.pdf
-=> https://pub.osiux.com/cpco5-redlibre.pdf 297: https://pub.osiux.com/cpco5-redlibre.pdf
-=> https://pub.osiux.com/charlas/bal-jrrl3.pdf 298: https://pub.osiux.com/charlas/bal-jrrl3.pdf
-=> https://pub.osiux.com/charlas/todo-txt-rst+org-mode-slides.pdf 299: https://pub.osiux.com/charlas/todo-txt-rst+org-mode-slides.pdf
-=> https://pub.osiux.com/charlas/WhyFLOSS-2007-BuenosAiresLibre.pdf 300: https://pub.osiux.com/charlas/WhyFLOSS-2007-BuenosAiresLibre.pdf
-=> https://pub.osiux.com/charlas/lugfi-jornadas-2007/presentacion-bal.pdf 301: https://pub.osiux.com/charlas/lugfi-jornadas-2007/presentacion-bal.pdf
-=> capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.gmi 302: capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.gmi
-=> file:img/libreta_artesanal/libreta_artesanal_11.jpg 303: file:img/libreta_artesanal/libreta_artesanal_11.jpg
-=> file:img/libreta_artesanal/libreta_artesanal_12.jpg 304: file:img/libreta_artesanal/libreta_artesanal_12.jpg
-=> file:img/libreta_artesanal/libreta_artesanal_13.jpg 305: file:img/libreta_artesanal/libreta_artesanal_13.jpg
-=> file:img/libreta_artesanal/libreta_artesanal_14.jpg 306: file:img/libreta_artesanal/libreta_artesanal_14.jpg
-=> file:img/libreta_artesanal/libreta_pocketmod_01.jpg 307: file:img/libreta_artesanal/libreta_pocketmod_01.jpg
-=> file:img/libreta_artesanal/libreta_pocketmod_02.jpg 308: file:img/libreta_artesanal/libreta_pocketmod_02.jpg
-=> file:img/libreta_artesanal/libreta_pocketmod_03.jpg 309: file:img/libreta_artesanal/libreta_pocketmod_03.jpg
-=> file:img/libreta_artesanal/libreta_pocketmod_04.jpg 310: file:img/libreta_artesanal/libreta_pocketmod_04.jpg
-=> file:img/libreta_artesanal/libreta_artesanal_01.jpg 311: file:img/libreta_artesanal/libreta_artesanal_01.jpg
-=> file:img/libreta_artesanal/libreta_artesanal_02.jpg 312: file:img/libreta_artesanal/libreta_artesanal_02.jpg
-=> file:img/libreta_artesanal/libreta_artesanal_03.jpg 313: file:img/libreta_artesanal/libreta_artesanal_03.jpg
-=> file:img/libreta_artesanal/libreta_artesanal_04.jpg 314: file:img/libreta_artesanal/libreta_artesanal_04.jpg
-=> file:img/libreta_artesanal/libreta_artesanal_05.jpg 315: file:img/libreta_artesanal/libreta_artesanal_05.jpg
-=> file:img/libreta_artesanal/libreta_artesanal_06.jpg 316: file:img/libreta_artesanal/libreta_artesanal_06.jpg
-=> awesome-es-increible.gmi 317: awesome-es-increible.gmi
-=> file:img/awesome/awesome-mosaico.png 318: file:img/awesome/awesome-mosaico.png
-=> file:img/awesome/awesome-flotante.png 319: file:img/awesome/awesome-flotante.png
-=> file:img/awesome/awesome-2400x1800.png 320: file:img/awesome/awesome-2400x1800.png
-=> file:img/awesome/awesome-vertical_800x450.png 321: file:img/awesome/awesome-vertical_800x450.png
-=> file:img/awesome/awesome-terminator.png 322: file:img/awesome/awesome-terminator.png
+=> file:img/2017-04-26-percona-optimizing-without-sql.png 38: file:img/2017-04-26-percona-optimizing-without-sql.png
+=> file:img/2017-04-26-percona-multi-site-master.png 39: file:img/2017-04-26-percona-multi-site-master.png
+=> file:img/2017-04-26-percona-multi-site-master.png 40: file:img/2017-04-26-percona-multi-site-master.png
+=> 2017-04-25-percona-live-17-day-one.gmi 41: 2017-04-25-percona-live-17-day-one.gmi
+=> file:img/2017-04-25-percona-mysql-ha-closeup.png 42: file:img/2017-04-25-percona-mysql-ha-closeup.png
+=> file:img/2017-04-25-percona-proxysql-improve-ha.png 43: file:img/2017-04-25-percona-proxysql-improve-ha.png
+=> 2016-02-03-monitoreo-en-status-bar-de-tmux.gmi 44: 2016-02-03-monitoreo-en-status-bar-de-tmux.gmi
+=> file:img/qmhandle-status-bar-tmux.png 45: file:img/qmhandle-status-bar-tmux.png
+=> 2015-01-14-sincronizar-repositorios-git-repos.gmi 46: 2015-01-14-sincronizar-repositorios-git-repos.gmi
+=> file:img/git-repos-osiris.png 47: file:img/git-repos-osiris.png
+=> file:img/git-repos-list.png 48: file:img/git-repos-list.png
+=> file:img/git-repos-show-time.png 49: file:img/git-repos-show-time.png
+=> file:img/git-repos-show-log.png 50: file:img/git-repos-show-log.png
+=> file:img/git-repos-pull.png 51: file:img/git-repos-pull.png
+=> 2015-01-10-renombrar-y-ordenar-fotos-duplicadas.gmi 52: 2015-01-10-renombrar-y-ordenar-fotos-duplicadas.gmi
+=> 2014-10-08-tension-en-la-red.gmi 53: 2014-10-08-tension-en-la-red.gmi
+=> http://www.estebanmagnani.com.ar/wp-content/uploads/2014/09/Tension-en-la-red-interior.pdf 54: http://www.estebanmagnani.com.ar/wp-content/uploads/2014/09/Tension-en-la-red-interior.pdf
+=> 2014-08-12-clonar-pendrives.gmi 55: 2014-08-12-clonar-pendrives.gmi
+=> file:img/clonar-pendrives/letras-viajeras-routers.jpg 56: file:img/clonar-pendrives/letras-viajeras-routers.jpg
+=> file:img/clonar-pendrives/letras-viajeras-wicd.jpg 57: file:img/clonar-pendrives/letras-viajeras-wicd.jpg
+=> file:img/clonar-pendrives/letras-viajeras-pssh.jpg 58: file:img/clonar-pendrives/letras-viajeras-pssh.jpg
+=> file:img/clonar-pendrives/letras-viajeras-md5.jpg 59: file:img/clonar-pendrives/letras-viajeras-md5.jpg
+=> file:img/clonar-pendrives/letras-viajeras-iftop.jpg 60: file:img/clonar-pendrives/letras-viajeras-iftop.jpg
+=> 2014-04-28-semana-negra.gmi 61: 2014-04-28-semana-negra.gmi
+=> file:img/semana-negra/tmux.png 62: file:img/semana-negra/tmux.png
+=> file:img/semana-negra/cacaview.png 63: file:img/semana-negra/cacaview.png
+=> file:img/semana-negra/cacaview-zoom.png 64: file:img/semana-negra/cacaview-zoom.png
+=> file:img/semana-negra/fbi.png 65: file:img/semana-negra/fbi.png
+=> file:img/semana-negra/links2.png 66: file:img/semana-negra/links2.png
+=> file:img/semana-negra/tmux-mplayer.png 67: file:img/semana-negra/tmux-mplayer.png
+=> 2014-04-26-flisol-avellaneda-undav.gmi 68: 2014-04-26-flisol-avellaneda-undav.gmi
+=> file:img/flisol-2014-undav/2014-04-26-1411-e167fe.jpg 69: file:img/flisol-2014-undav/2014-04-26-1411-e167fe.jpg
+=> file:img/flisol-2014-undav/2014-04-26-1417-1efa0f.jpg 70: file:img/flisol-2014-undav/2014-04-26-1417-1efa0f.jpg
+=> file:img/flisol-2014-undav/2014-04-26-1320-ababc0.jpg 71: file:img/flisol-2014-undav/2014-04-26-1320-ababc0.jpg
+=> file:img/flisol-2014-undav/2014-04-26-1047-f393d3.jpg 72: file:img/flisol-2014-undav/2014-04-26-1047-f393d3.jpg
+=> file:img/flisol-2014-undav/2014-04-26-1617-e2a80d.jpg 73: file:img/flisol-2014-undav/2014-04-26-1617-e2a80d.jpg
+=> file:img/flisol-2014-undav/2014-04-26-1748-4190a2.jpg 74: file:img/flisol-2014-undav/2014-04-26-1748-4190a2.jpg
+=> 2014-04-25-huayra-2.0.gmi 75: 2014-04-25-huayra-2.0.gmi
+=> file:img/huayra-2.0.png 76: file:img/huayra-2.0.png
+=> 2014-04-22-flisol-2014.gmi 77: 2014-04-22-flisol-2014.gmi
+=> 2014-03-22-facttic-mit-libre-planet.gmi 78: 2014-03-22-facttic-mit-libre-planet.gmi
+=> 2014-03-14-saso-conf-curuzu-cuatia.gmi 79: 2014-03-14-saso-conf-curuzu-cuatia.gmi
+=> file:img/sasoconf/SASOConf-2014-03-14-1143-d2c88a.jpg 80: file:img/sasoconf/SASOConf-2014-03-14-1143-d2c88a.jpg
+=> file:img/sasoconf/SASOConf-2014-03-14-0842-b95560.jpg 81: file:img/sasoconf/SASOConf-2014-03-14-0842-b95560.jpg
+=> file:img/sasoconf/SASOConf-2014-03-14-0845-42a761.jpg 82: file:img/sasoconf/SASOConf-2014-03-14-0845-42a761.jpg
+=> file:img/sasoconf/SASOConf-2014-03-14-0926-94bfdd.jpg 83: file:img/sasoconf/SASOConf-2014-03-14-0926-94bfdd.jpg
+=> file:img/sasoconf/SASOConf-2014-03-14-1033-7b5ac1.jpg 84: file:img/sasoconf/SASOConf-2014-03-14-1033-7b5ac1.jpg
+=> file:img/sasoconf/SASOConf-2014-03-14-1102-f8b526.jpg 85: file:img/sasoconf/SASOConf-2014-03-14-1102-f8b526.jpg
+=> file:img/sasoconf/SASOConf-2014-03-14-1215-144531.jpg 86: file:img/sasoconf/SASOConf-2014-03-14-1215-144531.jpg
+=> 2014-03-12-hardware-freedom-day-2014.gmi 87: 2014-03-12-hardware-freedom-day-2014.gmi
+=> file:img/Hardware-Freedom-Day-2014.png 88: file:img/Hardware-Freedom-Day-2014.png
+=> 2014-03-11-se-viene-la-sasoconf.gmi 89: 2014-03-11-se-viene-la-sasoconf.gmi
+=> file:img/SASOConf.png 90: file:img/SASOConf.png
+=> 2013-09-30-hacks-hackers-buenos-aires-2013.gmi 91: 2013-09-30-hacks-hackers-buenos-aires-2013.gmi
+=> file:img/hhba-2013/hhba-2013-09-30-11.jpg 92: file:img/hhba-2013/hhba-2013-09-30-11.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-27.jpg 93: file:img/hhba-2013/hhba-2013-09-30-27.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-38.jpg 94: file:img/hhba-2013/hhba-2013-09-30-38.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-44.jpg 95: file:img/hhba-2013/hhba-2013-09-30-44.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-52.jpg 96: file:img/hhba-2013/hhba-2013-09-30-52.jpg
+=> file:img/hhba-2013/hhba-2013-09-30-54.jpg 97: file:img/hhba-2013/hhba-2013-09-30-54.jpg
+=> file:img/antena-omni-bal.png 98: file:img/antena-omni-bal.png
+=> 2013-09-13-huayra-primer-sistema-operativo-libre-de-conectar-igualdad.gmi 99: 2013-09-13-huayra-primer-sistema-operativo-libre-de-conectar-igualdad.gmi
+=> file:img/huayra-oficial/2013-09-13-1115-8988a5.jpg 100: file:img/huayra-oficial/2013-09-13-1115-8988a5.jpg
+=> file:img/huayra-oficial/2013-09-13-1124-ea0852.jpg 101: file:img/huayra-oficial/2013-09-13-1124-ea0852.jpg
+=> file:img/huayra-oficial/2013-09-13-1127-32843f.jpg 102: file:img/huayra-oficial/2013-09-13-1127-32843f.jpg
+=> file:img/huayra-oficial/2013-09-13-1131-35fefc.jpg 103: file:img/huayra-oficial/2013-09-13-1131-35fefc.jpg
+=> file:img/huayra-oficial/2013-09-13-1141-fc2efc.jpg 104: file:img/huayra-oficial/2013-09-13-1141-fc2efc.jpg
+=> 2013-06-14-matanza-comparte-y-redes-libres-en-plaza-ciencia-2013.gmi 105: 2013-06-14-matanza-comparte-y-redes-libres-en-plaza-ciencia-2013.gmi
+=> http://pub.osiux.com/altermundi.pdf 106: http://pub.osiux.com/altermundi.pdf
+=> 2013-05-06-letras-viajeras.gmi 107: 2013-05-06-letras-viajeras.gmi
+=> 2013-04-27-flisol-2013-et10.gmi 108: 2013-04-27-flisol-2013-et10.gmi
+=> file:img/flisol-2013-et10/2013-04-27-1042-3fecd5.jpg 109: file:img/flisol-2013-et10/2013-04-27-1042-3fecd5.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1043-5c496d.jpg 110: file:img/flisol-2013-et10/2013-04-27-1043-5c496d.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1310-5262b9.jpg 111: file:img/flisol-2013-et10/2013-04-27-1310-5262b9.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1311-8b4cbe.jpg 112: file:img/flisol-2013-et10/2013-04-27-1311-8b4cbe.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1455-16532e.jpg 113: file:img/flisol-2013-et10/2013-04-27-1455-16532e.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1455-268126.jpg 114: file:img/flisol-2013-et10/2013-04-27-1455-268126.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1455-677a7c.jpg 115: file:img/flisol-2013-et10/2013-04-27-1455-677a7c.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1455-deb420.jpg 116: file:img/flisol-2013-et10/2013-04-27-1455-deb420.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1502-b96832.jpg 117: file:img/flisol-2013-et10/2013-04-27-1502-b96832.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1607-5cef9f.jpg 118: file:img/flisol-2013-et10/2013-04-27-1607-5cef9f.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1610-d28f99.jpg 119: file:img/flisol-2013-et10/2013-04-27-1610-d28f99.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1612-7cec2f.jpg 120: file:img/flisol-2013-et10/2013-04-27-1612-7cec2f.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1747-a4cb7a.jpg 121: file:img/flisol-2013-et10/2013-04-27-1747-a4cb7a.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1754-4f4c90.jpg 122: file:img/flisol-2013-et10/2013-04-27-1754-4f4c90.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1755-620d74.jpg 123: file:img/flisol-2013-et10/2013-04-27-1755-620d74.jpg
+=> file:img/flisol-2013-et10/2013-04-27-1756-8093d2.jpg 124: file:img/flisol-2013-et10/2013-04-27-1756-8093d2.jpg
+=> 2013-04-23-cluster-de-software-libre.gmi 125: 2013-04-23-cluster-de-software-libre.gmi
+=> file:img/2013-04-23-cluster-de-software-libre.jpg 126: file:img/2013-04-23-cluster-de-software-libre.jpg
+=> 2013-04-06-primer-encuentro-software-libre-monte-caseros.gmi 127: 2013-04-06-primer-encuentro-software-libre-monte-caseros.gmi
+=> file:img/1eslmc/2013-04-06-16-11-579919.jpg 128: file:img/1eslmc/2013-04-06-16-11-579919.jpg
+=> file:img/1eslmc/2013-04-05-17-41-0c7ebc.jpg 129: file:img/1eslmc/2013-04-05-17-41-0c7ebc.jpg
+=> file:img/1eslmc/2013-04-05-17-11-791474.jpg 130: file:img/1eslmc/2013-04-05-17-11-791474.jpg
+=> 2013-04-02-altermesh-buenos-aires-libre-compartir-es-bueno.gmi 131: 2013-04-02-altermesh-buenos-aires-libre-compartir-es-bueno.gmi
+=> file:img/osiux-network.png 132: file:img/osiux-network.png
+=> 2013-03-18-huayra-el-dia-que-las-vacas-vuelen.gmi 133: 2013-03-18-huayra-el-dia-que-las-vacas-vuelen.gmi
+=> 2012-10-15-cisl-conferencia-internacional-software-libre.gmi 134: 2012-10-15-cisl-conferencia-internacional-software-libre.gmi
+=> 2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi 135: 2012-09-07-gcoop-gano-concurso-imagenes-del-cooperativismo.gmi
+=> 2012-08-27-proximas-charlas-y-eventos.gmi 136: 2012-08-27-proximas-charlas-y-eventos.gmi
+=> 2012-06-26-campus-party-bogota-cpco5.gmi 137: 2012-06-26-campus-party-bogota-cpco5.gmi
+=> file:img/cpco5/cpco5-1920-01.jpg 138: file:img/cpco5/cpco5-1920-01.jpg
+=> file:img/cpco5/cpco5-1920-02.jpg 139: file:img/cpco5/cpco5-1920-02.jpg
+=> file:img/cpco5/cpco5-1920-03.jpg 140: file:img/cpco5/cpco5-1920-03.jpg
+=> file:img/cpco5/cpco5-1920-04.jpg 141: file:img/cpco5/cpco5-1920-04.jpg
+=> file:img/cpco5/cpco5-1920-05.jpg 142: file:img/cpco5/cpco5-1920-05.jpg
+=> file:img/cpco5/cpco5-1920-06.jpg 143: file:img/cpco5/cpco5-1920-06.jpg
+=> file:img/cpco5/cpco5-1920-07.jpg 144: file:img/cpco5/cpco5-1920-07.jpg
+=> file:img/cpco5/cpco5-1920-08.jpg 145: file:img/cpco5/cpco5-1920-08.jpg
+=> file:img/cpco5/cpco5-1920-09.jpg 146: file:img/cpco5/cpco5-1920-09.jpg
+=> http://youtu.be/IKO17A5Imbc 147: http://youtu.be/IKO17A5Imbc
+=> 2012-06-14-visualizando-cooperativas-de-argentina.gmi 148: 2012-06-14-visualizando-cooperativas-de-argentina.gmi
+=> 2012-06-01-pirate-box-floppy-disk.gmi 149: 2012-06-01-pirate-box-floppy-disk.gmi
+=> file:img/pirate-box-floppy-disk-1280-01.jpg 150: file:img/pirate-box-floppy-disk-1280-01.jpg
+=> file:img/pirate-box-floppy-disk-1280-02.jpg 151: file:img/pirate-box-floppy-disk-1280-02.jpg
+=> 2012-05-28-como-automatizar-vlc-para-grabar-programa-television-digital-abierta.gmi 152: 2012-05-28-como-automatizar-vlc-para-grabar-programa-television-digital-abierta.gmi
+=> 2012-05-25-buenos-aires-libre-en-el-medio-digital.gmi 153: 2012-05-25-buenos-aires-libre-en-el-medio-digital.gmi
+=> 2012-05-18-en-el-medio-digital-software-libre.gmi 154: 2012-05-18-en-el-medio-digital-software-libre.gmi
+=> 2012-05-05-flisol-bogota.gmi 155: 2012-05-05-flisol-bogota.gmi
+=> 2012-04-28-flisol-cooperativismo-y-software-libre.gmi 156: 2012-04-28-flisol-cooperativismo-y-software-libre.gmi
+=> 2012-03-05-redes-abiertas-versus-redes-cerradas.gmi 157: 2012-03-05-redes-abiertas-versus-redes-cerradas.gmi
+=> 2012-02-29-gcoop-cartoon.gmi 158: 2012-02-29-gcoop-cartoon.gmi
+=> 2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi 159: 2012-02-17-las-cooperativas-construyen-un-mundo-mejor.gmi
+=> file:img/las-cooperativas-construyen-un-mundo-mejor.jpg 160: file:img/las-cooperativas-construyen-un-mundo-mejor.jpg
+=> 2012-02-14-de-fondo-negro-a-fondo-blanco.gmi 161: 2012-02-14-de-fondo-negro-a-fondo-blanco.gmi
+=> file:img/de-fondo-negro-a-fondo-blanco.png 162: file:img/de-fondo-negro-a-fondo-blanco.png
+=> 2011-12-29-orgmode-y-gnuplot.gmi 163: 2011-12-29-orgmode-y-gnuplot.gmi
+=> 2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.gmi 164: 2011-10-24-software-libre-en-monte-caseros-y-ubuntu-11.10-en-conectar-igualdad.gmi
+=> 2011-05-23-pomodoro-notify-send-minutos-osd.gmi 165: 2011-05-23-pomodoro-notify-send-minutos-osd.gmi
+=> visualizando-org-mode-con-gnuplot.gmi 166: visualizando-org-mode-con-gnuplot.gmi
+=> visualizando-grafos-graphviz.gmi 167: visualizando-grafos-graphviz.gmi
+=> ubuntu-11.10-en-exomate-de-conectar-igualdad.gmi 168: ubuntu-11.10-en-exomate-de-conectar-igualdad.gmi
+=> tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.gmi 169: tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.gmi
+=> file:img/tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.png 170: file:img/tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.png
+=> tty.gmi 171: tty.gmi
+=> file:img/tty-shell-lsd.png 172: file:img/tty-shell-lsd.png
+=> file:img/tty-shell-bat.png 173: file:img/tty-shell-bat.png
+=> file:img/tty-music-on-console.png 174: file:img/tty-music-on-console.png
+=> file:img/tty-wifi-wicd-curses.png 175: file:img/tty-wifi-wicd-curses.png
+=> file:img/tty-wifi-wavemon-histogram.png 176: file:img/tty-wifi-wavemon-histogram.png
+=> todo-txt-rst+org-mode.gmi 177: todo-txt-rst+org-mode.gmi
+=> file:img/txt.png 178: file:img/txt.png
+=> file:img/emacs-vim-notepad.png 179: file:img/emacs-vim-notepad.png
+=> file:img/vim-vs-emacs.jpg 180: file:img/vim-vs-emacs.jpg
+=> tmux-terminator-awesome.gmi 181: tmux-terminator-awesome.gmi
+=> file:img/tmux-terminator-awesome.png 182: file:img/tmux-terminator-awesome.png
+=> file:img/tmux-screen.png 183: file:img/tmux-screen.png
+=> file:img/tmux-terminator-ssh.png 184: file:img/tmux-terminator-ssh.png
+=> file:img/tmux-juice-ssh-android.png 185: file:img/tmux-juice-ssh-android.png
+=> file:img/tmux-malbec-gorra.png 186: file:img/tmux-malbec-gorra.png
+=> file:img/tmux-tail-logs.png 187: file:img/tmux-tail-logs.png
+=> procesos-linux.gmi 188: procesos-linux.gmi
+=> pomodoro-notify-send.gmi 189: pomodoro-notify-send.gmi
+=> pomodoro-minutos-osd.gmi 190: pomodoro-minutos-osd.gmi
+=> plt.gmi 191: plt.gmi
+=> file:img/plot12i-ssh-2019.png 192: file:img/plot12i-ssh-2019.png
+=> osiux.gmi 193: osiux.gmi
+=> file:img/no-soy-un-pirata-compartir-es-bueno.jpg 194: file:img/no-soy-un-pirata-compartir-es-bueno.jpg
+=> olimpiadas-informaticas-en-monte-caseros.gmi 195: olimpiadas-informaticas-en-monte-caseros.gmi
+=> file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_12.jpg 196: file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_12.jpg
+=> file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_13.jpg 197: file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_13.jpg
+=> file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_14.jpg 198: file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_14.jpg
+=> file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_25.jpg 199: file:img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_25.jpg
+=> file:img/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_50.jpg 200: file:img/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_50.jpg
+=> file:img/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_54.jpg 201: file:img/olimpiadas-monte-caseros/2011-10-21_rio-uruguay-monte-caseros_54.jpg
+=> file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_60.jpg 202: file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_60.jpg
+=> file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_61.jpg 203: file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_61.jpg
+=> file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_68.jpg 204: file:img/olimpiadas-monte-caseros/2011-10-21_software-libre-monte-caseros_68.jpg
+=> linux-sysadmin.gmi 205: linux-sysadmin.gmi
+=> jrrl3-terceras-jornadas-regionales-de-redes-libres-en-fisl12.gmi 206: jrrl3-terceras-jornadas-regionales-de-redes-libres-en-fisl12.gmi
+=> imagenes-magicas-imagemagick.gmi 207: imagenes-magicas-imagemagick.gmi
+=> file:header.gmi 208: file:header.gmi
+=> img.gmi 209: img.gmi
+=> gtd-gething-this-done.gmi 210: gtd-gething-this-done.gmi
+=> graficar-desde-consola.gmi 211: graficar-desde-consola.gmi
+=> fluxbox-gtk2-root-tail-gkrellm.gmi 212: fluxbox-gtk2-root-tail-gkrellm.gmi
+=> file:img/osiux-fluxbox-screenshot-1024x768-01.png 213: file:img/osiux-fluxbox-screenshot-1024x768-01.png
+=> flisol-bogota-2012.gmi 214: flisol-bogota-2012.gmi
+=> file:img/flisol-bogota/viaje-ezeiza-partida.jpg 215: file:img/flisol-bogota/viaje-ezeiza-partida.jpg
+=> file:img/flisol-bogota/panama-hora.jpg 216: file:img/flisol-bogota/panama-hora.jpg
+=> file:img/flisol-bogota/panama-tocumen.jpg 217: file:img/flisol-bogota/panama-tocumen.jpg
+=> file:img/flisol-bogota/panama-wifi.jpg 218: file:img/flisol-bogota/panama-wifi.jpg
+=> file:img/flisol-bogota/panama-canal.jpg 219: file:img/flisol-bogota/panama-canal.jpg
+=> file:img/flisol-bogota/viaje-colombia-avion.jpg 220: file:img/flisol-bogota/viaje-colombia-avion.jpg
+=> file:img/flisol-bogota/viaje-colombia-nubes.jpg 221: file:img/flisol-bogota/viaje-colombia-nubes.jpg
+=> file:img/flisol-bogota/viaje-colombia-bienvenido.jpg 222: file:img/flisol-bogota/viaje-colombia-bienvenido.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-1.jpg 223: file:img/flisol-bogota/ciudad-bolivar-1.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-2.jpg 224: file:img/flisol-bogota/ciudad-bolivar-2.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-nodo-1.jpg 225: file:img/flisol-bogota/ciudad-bolivar-nodo-1.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-nodo-2.jpg 226: file:img/flisol-bogota/ciudad-bolivar-nodo-2.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-jorge-osiux.jpg 227: file:img/flisol-bogota/ciudad-bolivar-jorge-osiux.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-antena.jpg 228: file:img/flisol-bogota/ciudad-bolivar-tv-antena.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-racks.jpg 229: file:img/flisol-bogota/ciudad-bolivar-tv-racks.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-estudio.jpg 230: file:img/flisol-bogota/ciudad-bolivar-tv-estudio.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-programa.jpg 231: file:img/flisol-bogota/ciudad-bolivar-tv-programa.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-tv-graffiti.jpg 232: file:img/flisol-bogota/ciudad-bolivar-tv-graffiti.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-panoramica-1.jpg 233: file:img/flisol-bogota/ciudad-bolivar-panoramica-1.jpg
+=> file:img/flisol-bogota/ciudad-bolivar-panoramica-2.jpg 234: file:img/flisol-bogota/ciudad-bolivar-panoramica-2.jpg
+=> file:img/flisol-bogota/bogota-noche-1.jpg 235: file:img/flisol-bogota/bogota-noche-1.jpg
+=> file:img/flisol-bogota/bogota-noche-2.jpg 236: file:img/flisol-bogota/bogota-noche-2.jpg
+=> file:img/flisol-bogota/bogota-noche-3.jpg 237: file:img/flisol-bogota/bogota-noche-3.jpg
+=> file:img/flisol-bogota/flisol-idrd.jpg 238: file:img/flisol-bogota/flisol-idrd.jpg
+=> file:img/flisol-bogota/flisol-cartel.jpg 239: file:img/flisol-bogota/flisol-cartel.jpg
+=> file:img/flisol-bogota/flisol-auditorio.jpg 240: file:img/flisol-bogota/flisol-auditorio.jpg
+=> file:img/flisol-bogota/flisol-banderas.jpg 241: file:img/flisol-bogota/flisol-banderas.jpg
+=> file:img/flisol-bogota/flisol-alcalde.jpg 242: file:img/flisol-bogota/flisol-alcalde.jpg
+=> file:img/flisol-bogota/flisol-mesas.jpg 243: file:img/flisol-bogota/flisol-mesas.jpg
+=> file:img/flisol-bogota/flisol-compus.jpg 244: file:img/flisol-bogota/flisol-compus.jpg
+=> file:img/flisol-bogota/flisol-stand.jpg 245: file:img/flisol-bogota/flisol-stand.jpg
+=> file:img/flisol-bogota/flisol-hackbo.jpg 246: file:img/flisol-bogota/flisol-hackbo.jpg
+=> file:img/flisol-bogota/flisol-robot.jpg 247: file:img/flisol-bogota/flisol-robot.jpg
+=> file:img/flisol-bogota/flisol-doctor-fundador.jpg 248: file:img/flisol-bogota/flisol-doctor-fundador.jpg
+=> http://youtu.be/_IcH8F_iDTg 249: http://youtu.be/_IcH8F_iDTg
+=> http://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf 250: http://pub.osiux.com/charlas/flisol-bogota-redes-libres.pdf
+=> http://www.ustream.tv/recorded/22379626 251: http://www.ustream.tv/recorded/22379626
+=> file:img/flisol-bogota/foro-redes-libres-general.jpg 252: file:img/flisol-bogota/foro-redes-libres-general.jpg
+=> file:img/flisol-bogota/foro-redes-libres-hollman.jpg 253: file:img/flisol-bogota/foro-redes-libres-hollman.jpg
+=> file:img/flisol-bogota/foro-redes-libres-gral-0.jpg 254: file:img/flisol-bogota/foro-redes-libres-gral-0.jpg
+=> file:img/flisol-bogota/foro-redes-libres-gral-1.jpg 255: file:img/flisol-bogota/foro-redes-libres-gral-1.jpg
+=> file:img/flisol-bogota/foro-redes-libres-gral-2.jpg 256: file:img/flisol-bogota/foro-redes-libres-gral-2.jpg
+=> file:img/flisol-bogota/foro-redes-libres-gral-3.jpg 257: file:img/flisol-bogota/foro-redes-libres-gral-3.jpg
+=> file:img/flisol-bogota/centro-mayor-1.jpg 258: file:img/flisol-bogota/centro-mayor-1.jpg
+=> file:img/flisol-bogota/centro-mayor-2.jpg 259: file:img/flisol-bogota/centro-mayor-2.jpg
+=> file:img/flisol-bogota/centro-mayor-3.jpg 260: file:img/flisol-bogota/centro-mayor-3.jpg
+=> file:img/flisol-bogota/sunrise-cerveza.jpg 261: file:img/flisol-bogota/sunrise-cerveza.jpg
+=> file:img/flisol-bogota/sunrise-grupal1.jpg 262: file:img/flisol-bogota/sunrise-grupal1.jpg
+=> file:img/flisol-bogota/sunrise-grupal2.jpg 263: file:img/flisol-bogota/sunrise-grupal2.jpg
+=> file:img/flisol-bogota/sunrise-aguardiente.jpg 264: file:img/flisol-bogota/sunrise-aguardiente.jpg
+=> file:img/flisol-bogota/sunrise-andres.jpg 265: file:img/flisol-bogota/sunrise-andres.jpg
+=> file:img/flisol-bogota/sunrise-aleja.jpg 266: file:img/flisol-bogota/sunrise-aleja.jpg
+=> file:img/flisol-bogota/sunrise-azul.jpg 267: file:img/flisol-bogota/sunrise-azul.jpg
+=> file:img/flisol-bogota/sunrise-sunrise.jpg 268: file:img/flisol-bogota/sunrise-sunrise.jpg
+=> file:img/flisol-bogota/perzam-poker.jpg 269: file:img/flisol-bogota/perzam-poker.jpg
+=> file:img/flisol-bogota/perzam-asado.jpg 270: file:img/flisol-bogota/perzam-asado.jpg
+=> file:img/flisol-bogota/perzam-grupal.jpg 271: file:img/flisol-bogota/perzam-grupal.jpg
+=> file:img/flisol-bogota/perzam-nightwing.jpg 272: file:img/flisol-bogota/perzam-nightwing.jpg
+=> file:img/flisol-bogota/perzam-cloud-mesh.jpg 273: file:img/flisol-bogota/perzam-cloud-mesh.jpg
+=> file:img/flisol-bogota/perzam-redlibre.co.jpg 274: file:img/flisol-bogota/perzam-redlibre.co.jpg
+=> file:img/flisol-bogota/perzam-pre-ereccion.jpg 275: file:img/flisol-bogota/perzam-pre-ereccion.jpg
+=> file:img/flisol-bogota/perzam-ereccion.jpg 276: file:img/flisol-bogota/perzam-ereccion.jpg
+=> file:img/flisol-bogota/perzam-enlace.jpg 277: file:img/flisol-bogota/perzam-enlace.jpg
+=> file:img/flisol-bogota/perzam-nodo.jpg 278: file:img/flisol-bogota/perzam-nodo.jpg
+=> file:img/flisol-bogota/perzam-festejo.jpg 279: file:img/flisol-bogota/perzam-festejo.jpg
+=> file:img/flisol-bogota/perzam-chicas.jpg 280: file:img/flisol-bogota/perzam-chicas.jpg
+=> file:img/flisol-bogota/monserrate-campanario.jpg 281: file:img/flisol-bogota/monserrate-campanario.jpg
+=> file:img/flisol-bogota/monserrate-osiux-jorge.jpg 282: file:img/flisol-bogota/monserrate-osiux-jorge.jpg
+=> file:img/flisol-bogota/monserrate-subida.jpg 283: file:img/flisol-bogota/monserrate-subida.jpg
+=> file:img/flisol-bogota/monserrate-turistas.jpg 284: file:img/flisol-bogota/monserrate-turistas.jpg
+=> file:img/flisol-bogota/monserrate-iglesia.jpg 285: file:img/flisol-bogota/monserrate-iglesia.jpg
+=> file:img/flisol-bogota/monserrate-bajando.jpg 286: file:img/flisol-bogota/monserrate-bajando.jpg
+=> file:img/flisol-bogota/monserrate-teleferico.jpg 287: file:img/flisol-bogota/monserrate-teleferico.jpg
+=> file:img/flisol-bogota/monserrate-cascada.jpg 288: file:img/flisol-bogota/monserrate-cascada.jpg
+=> entendiendo-la-red.gmi 289: entendiendo-la-red.gmi
+=> dame-una-consola.gmi 290: dame-una-consola.gmi
+=> charlas.gmi 291: charlas.gmi
+=> https://www.youtube.com/watch?v=f93KQ0cAbxI 292: https://www.youtube.com/watch?v=f93KQ0cAbxI
+=> https://pub.osiux.com/COOPySL-UNPAZ.pdf 293: https://pub.osiux.com/COOPySL-UNPAZ.pdf
+=> https://pub.osiux.com/COOPySL-RGL.pdf 294: https://pub.osiux.com/COOPySL-RGL.pdf
+=> https://pub.osiux.com/privacidad-y-anonimato-con-software-libre-flisol-caba-ccgsm.pdf 295: https://pub.osiux.com/privacidad-y-anonimato-con-software-libre-flisol-caba-ccgsm.pdf
+=> https://pub.osiux.com/solo-confio-en-localhost.pdf 296: https://pub.osiux.com/solo-confio-en-localhost.pdf
+=> https://pub.osiux.com/plan-b-sasoconf.pdf 297: https://pub.osiux.com/plan-b-sasoconf.pdf
+=> http://youtu.be/xjxzCDmkNyQ 298: http://youtu.be/xjxzCDmkNyQ
+=> http://gcoop.coop/COOPySL-CNEISI.pdf 299: http://gcoop.coop/COOPySL-CNEISI.pdf
+=> https://pub.osiux.com/priv-y-anon.pdf 300: https://pub.osiux.com/priv-y-anon.pdf
+=> https://pub.osiux.com/cpco5-redlibre.pdf 301: https://pub.osiux.com/cpco5-redlibre.pdf
+=> https://pub.osiux.com/charlas/bal-jrrl3.pdf 302: https://pub.osiux.com/charlas/bal-jrrl3.pdf
+=> https://pub.osiux.com/charlas/todo-txt-rst+org-mode-slides.pdf 303: https://pub.osiux.com/charlas/todo-txt-rst+org-mode-slides.pdf
+=> https://pub.osiux.com/charlas/WhyFLOSS-2007-BuenosAiresLibre.pdf 304: https://pub.osiux.com/charlas/WhyFLOSS-2007-BuenosAiresLibre.pdf
+=> https://pub.osiux.com/charlas/lugfi-jornadas-2007/presentacion-bal.pdf 305: https://pub.osiux.com/charlas/lugfi-jornadas-2007/presentacion-bal.pdf
+=> capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.gmi 306: capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.gmi
+=> file:img/libreta_artesanal/libreta_artesanal_11.jpg 307: file:img/libreta_artesanal/libreta_artesanal_11.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_12.jpg 308: file:img/libreta_artesanal/libreta_artesanal_12.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_13.jpg 309: file:img/libreta_artesanal/libreta_artesanal_13.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_14.jpg 310: file:img/libreta_artesanal/libreta_artesanal_14.jpg
+=> file:img/libreta_artesanal/libreta_pocketmod_01.jpg 311: file:img/libreta_artesanal/libreta_pocketmod_01.jpg
+=> file:img/libreta_artesanal/libreta_pocketmod_02.jpg 312: file:img/libreta_artesanal/libreta_pocketmod_02.jpg
+=> file:img/libreta_artesanal/libreta_pocketmod_03.jpg 313: file:img/libreta_artesanal/libreta_pocketmod_03.jpg
+=> file:img/libreta_artesanal/libreta_pocketmod_04.jpg 314: file:img/libreta_artesanal/libreta_pocketmod_04.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_01.jpg 315: file:img/libreta_artesanal/libreta_artesanal_01.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_02.jpg 316: file:img/libreta_artesanal/libreta_artesanal_02.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_03.jpg 317: file:img/libreta_artesanal/libreta_artesanal_03.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_04.jpg 318: file:img/libreta_artesanal/libreta_artesanal_04.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_05.jpg 319: file:img/libreta_artesanal/libreta_artesanal_05.jpg
+=> file:img/libreta_artesanal/libreta_artesanal_06.jpg 320: file:img/libreta_artesanal/libreta_artesanal_06.jpg
+=> awesome-es-increible.gmi 321: awesome-es-increible.gmi
+=> file:img/awesome/awesome-mosaico.png 322: file:img/awesome/awesome-mosaico.png
+=> file:img/awesome/awesome-flotante.png 323: file:img/awesome/awesome-flotante.png
+=> file:img/awesome/awesome-2400x1800.png 324: file:img/awesome/awesome-2400x1800.png
+=> file:img/awesome/awesome-vertical_800x450.png 325: file:img/awesome/awesome-vertical_800x450.png
+=> file:img/awesome/awesome-terminator.png 326: file:img/awesome/awesome-terminator.png

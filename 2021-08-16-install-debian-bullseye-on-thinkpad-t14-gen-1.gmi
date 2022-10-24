@@ -57,12 +57,17 @@ Por algún motivo `wicd-curses` no esta disponible en *Debian Bullseye* (`python
 
 La *WiFi* anda mucho mejor y el sonido tiene mejor soporte. El *Kernel* que venía usando era un *Backport* y con el nuevo funciona todo muy bien.
 
-package               buster                bullseye
-
---------------------------------------------------------------------------------
-
-linux-image           5.10.0-0.bpo.5        5.10.0-8   firmware-iwlwifi      20200918-1~bpo10+1   20210315-3   firmware-sof-signed   1.6.1-2               1.7-1
-
+```table
+┌─────────────────────┬────────────────────┬────────────┐
+│       package       │       buster       │  bullseye  │
+╞═════════════════════╪════════════════════╪════════════╡
+│ linux-image         │ 5.10.0-0.bpo.5     │ 5.10.0-8   │
+├─────────────────────┼────────────────────┼────────────┤
+│ firmware-iwlwifi    │ 20200918-1~bpo10+1 │ 20210315-3 │
+├─────────────────────┼────────────────────┼────────────┤
+│ firmware-sof-signed │ 1.6.1-2            │ 1.7-1      │
+└─────────────────────┴────────────────────┴────────────┘
+```
 ## Tal vez te interese leer...
 
 * DIsaster REcovery PLan OSiux[9]

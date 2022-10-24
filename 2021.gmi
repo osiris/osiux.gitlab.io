@@ -3,46 +3,153 @@
 * AUTHOR: Osiris Alejandro Gómez
 * EMAIL: osiux@osiux.com
 
-`2021-02-19` *no me acuerdo de nada... dejame en `pass`!*[1]
+`2021-12-30` Automatizar la configuración de la *BIOS* usando `ansible` y *HP Linux Tools*[1]
 
-`2021-02-16` *Vivir del Software Libre*[2]
+`2021-11-29` Cuánto espacio ocupa tu página web?[2]
 
-`2021-02-14` `tty` *Music On Console*[3]
+`2021-09-27` Deshabilitar *ASPM* en *BIOS* *ProDesk 400 G5 Desktop Mini* desde *GNU/Linux* utilizando `hp-repsetup`[3]
+
+`2021-08-16` *Install Debian Bullseye on ThinkPad T14 Gen 1*[4]
+
+`2021-04-28` `gemini://` es para amantes del texto plano[5]
+
+=> tmb/gemini-amfora-vs-lagrange.png [IMG]
+[6]
+
+`2021-04-05` alinear textos en columnas[7]
+
+`2021-03-28` tarea en progreso[8]
+
+=> tmb/tarea-en-progreso-tmux-redmine-timediff-last-comment.png [IMG]
+[9]
+
+`2021-03-24` *Hablar, escribir, pensar: el software no es un trabajo de escritorio*[10]
+
+`2021-03-23` conectar la wifi desde la consola[11]
+
+`2021-03-22` La Comunicación Asincrónica es un Superpoder para el Trabajo Remoto[12]
+
+=> tmb/async_chat_example.png [IMG]
+[13]
+
+`2021-03-18` git commit timesum[14]
+
+`2021-03-17` historial infinito en `bash`[15]
+
+`2021-03-16` `todo.txt` es una lista de tareas[16]
+
+`2021-03-09` cambiar la fecha de un *commit* usando `GIT_COMMITER_DATE`[17]
+
+`2021-03-08` quién necesita mas de 64 redes WiFi cerca?[18]
+
+`2021-03-07` `xscreensaver-watch` pomodoro[19]
+
+`2021-03-06` generar Galería de Imágenes[20]
+
+`2021-03-05` convertir la imagen de un número a un número usando gocr[21]
+
+=> tmb/gocr-imagen-a-numeros.png [IMG]
+[22]
+
+`2021-03-04` Diagrama de secuencia de Tráfico de Red[23]
+
+=> tmb/pcap2uml-ldap-krb5-sign-seal-01.png [IMG]
+[24]
+
+`2021-03-03` Diagramas de Topología de Red `csv2nwdiag`[25]
+
+=> tmb/csv2nwdiag-vms-prd-vms-stg.png [IMG]
+[26]
+
+`2021-03-02` email desde consola[27]
+
+=> tmb/imapfilter-imap-offlineimap-maildir-mutt-smtp.png [IMG]
+[28]
+
+`2021-03-01` Cooperativismo y Software Libre[29]
+
+`2021-03-01` ABSOLUTELLY NO WARRANTY *posts* 2021-03-01 - 2021-03-31[30]
+
+`2021-02-26` 🍺🍺🍺 30 días de *posts* por la birra![31]
+
+=> tmb/rakhim-blogging.jpg [IMG]
+[32]
+
+`2021-02-19` *no me acuerdo de nada... dejame en `pass`!*[33]
+
+`2021-02-16` *Vivir del Software Libre*[34]
+
+`2021-02-14` `tty` *Music On Console*[35]
 
 => tmb/tty-music-on-console.png [IMG]
-[4]
+[36]
 
-`2021-02-09` Install Debian Buster on ThinkPad T14 Gen 1[5]
+`2021-02-09` Install Debian Buster on ThinkPad T14 Gen 1[37]
 
-`2021-02-07` agrandar la tarea[6]
+`2021-02-07` agrandar la tarea[38]
 
-`2021-02-05` generar sección `git` mediante `git-repos2org`[7]
+`2021-02-05` generar sección `git` mediante `git-repos2org`[39]
 
-`2021-02-05` Ansible/AWX tools[8]
+`2021-02-05` Ansible/AWX tools[40]
 
-`2021-02-03` git `post-commit` *ChangeLog*[9]
+`2021-02-03` git `post-commit` *ChangeLog*[41]
 
-`2021-02-01` generar *ChangeLog* en `org-mode` usando `git log`[10]
+`2021-02-01` generar *ChangeLog* en `org-mode` usando `git log`[42]
 
-`2021-01-29` bookmarks vs links.txt[11]
+`2021-01-29` bookmarks vs links.txt[43]
 
-`2021-01-26` DIsaster REcovery PLan OSiux[12]
+`2021-01-26` DIsaster REcovery PLan OSiux[44]
 
-`2021-01-25` ansible luks format external usb disk[13]
+`2021-01-25` ansible luks format external usb disk[45]
 
-## `ARCHIVE`[14]
+`2021-01-25` ABSOLUTELLY NO WARRANTY *posts* 2021-01-25 - 2021-02-25[46]
 
-=> 2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.gmi 1: 2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.gmi
-=> 2021-02-16-vivir-del-software-libre.gmi 2: 2021-02-16-vivir-del-software-libre.gmi
-=> 2021-02-14-tty-music-on-console.gmi 3: 2021-02-14-tty-music-on-console.gmi
-=> file:2021-02-14-tty-music-on-console.gmi 4: file:2021-02-14-tty-music-on-console.gmi
-=> 2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.gmi 5: 2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.gmi
-=> 2021-02-07-agrandar-la-tarea.gmi 6: 2021-02-07-agrandar-la-tarea.gmi
-=> 2021-02-05-git-repos2org.gmi 7: 2021-02-05-git-repos2org.gmi
-=> 2021-02-05-ansible-awx-tools.gmi 8: 2021-02-05-ansible-awx-tools.gmi
-=> 2021-02-03-git-post-commit-changelog.gmi 9: 2021-02-03-git-post-commit-changelog.gmi
-=> 2021-02-01-git-log-org-changelog.gmi 10: 2021-02-01-git-log-org-changelog.gmi
-=> 2021-01-29-bookmarks-vs-links.gmi 11: 2021-01-29-bookmarks-vs-links.gmi
-=> 2021-01-26-disaster-recovery-plan-osiux.gmi 12: 2021-01-26-disaster-recovery-plan-osiux.gmi
-=> 2021-01-25-ansible-luks-format-external-usb-disk.gmi 13: 2021-01-25-ansible-luks-format-external-usb-disk.gmi
-=> archive.gmi 14: archive.gmi
+## `ARCHIVE`[47]
+
+=> 2021-12-30-automated-bios-configuration-using-ansible-and-hp-linux-tools.gmi 1: 2021-12-30-automated-bios-configuration-using-ansible-and-hp-linux-tools.gmi
+=> 2021-11-29-cuanto-espacio-ocupa-tu-pagina-web.gmi 2: 2021-11-29-cuanto-espacio-ocupa-tu-pagina-web.gmi
+=> 2021-09-27-hp-prodesk-400-g5-desktop-mini-bios-disable-aspm-from-linux-command-line.gmi 3: 2021-09-27-hp-prodesk-400-g5-desktop-mini-bios-disable-aspm-from-linux-command-line.gmi
+=> 2021-08-16-install-debian-bullseye-on-thinkpad-t14-gen-1.gmi 4: 2021-08-16-install-debian-bullseye-on-thinkpad-t14-gen-1.gmi
+=> 2021-04-28-gemini-es-para-amantes-del-texto-plano.gmi 5: 2021-04-28-gemini-es-para-amantes-del-texto-plano.gmi
+=> file:2021-04-28-gemini-es-para-amantes-del-texto-plano.gmi 6: file:2021-04-28-gemini-es-para-amantes-del-texto-plano.gmi
+=> 2021-04-05-align2col.gmi 7: 2021-04-05-align2col.gmi
+=> 2021-03-28-tarea-en-progreso.gmi 8: 2021-03-28-tarea-en-progreso.gmi
+=> file:2021-03-28-tarea-en-progreso.gmi 9: file:2021-03-28-tarea-en-progreso.gmi
+=> 2021-03-24-talking-typing-thinking.gmi 10: 2021-03-24-talking-typing-thinking.gmi
+=> 2021-03-23-wpa-passphrase-wpa-supplicant.gmi 11: 2021-03-23-wpa-passphrase-wpa-supplicant.gmi
+=> 2021-03-22-remote-async-communication.gmi 12: 2021-03-22-remote-async-communication.gmi
+=> file:2021-03-22-remote-async-communication.gmi 13: file:2021-03-22-remote-async-communication.gmi
+=> 2021-03-18-git-commit-timesum.gmi 14: 2021-03-18-git-commit-timesum.gmi
+=> 2021-03-17-historial-infinito-en-bash.gmi 15: 2021-03-17-historial-infinito-en-bash.gmi
+=> 2021-03-16-todo-txt-es-una-lista-de-tareas.gmi 16: 2021-03-16-todo-txt-es-una-lista-de-tareas.gmi
+=> 2021-03-09-git-commiter-date.gmi 17: 2021-03-09-git-commiter-date.gmi
+=> 2021-03-08-quien-necesita-mas-de-64-redes-cerca.gmi 18: 2021-03-08-quien-necesita-mas-de-64-redes-cerca.gmi
+=> 2021-03-07-xscreensaver-watch-pomodoro.gmi 19: 2021-03-07-xscreensaver-watch-pomodoro.gmi
+=> 2021-03-06-galeria-de-imagenes.gmi 20: 2021-03-06-galeria-de-imagenes.gmi
+=> 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi 21: 2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi
+=> file:2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi 22: file:2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.gmi
+=> 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi 23: 2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi
+=> file:2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi 24: file:2021-03-04-diagrama-de-secuencia-trafico-de-red.gmi
+=> 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi 25: 2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi
+=> file:2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi 26: file:2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.gmi
+=> 2021-03-02-email-desde-consola.gmi 27: 2021-03-02-email-desde-consola.gmi
+=> file:2021-03-02-email-desde-consola.gmi 28: file:2021-03-02-email-desde-consola.gmi
+=> 2021-03-01-cooperativismo-y-software-libre.gmi 29: 2021-03-01-cooperativismo-y-software-libre.gmi
+=> 2021-03-01-2021-03-31-posts.gmi 30: 2021-03-01-2021-03-31-posts.gmi
+=> 2021-02-26-30-dias-de-posts-por-la-birra.gmi 31: 2021-02-26-30-dias-de-posts-por-la-birra.gmi
+=> file:2021-02-26-30-dias-de-posts-por-la-birra.gmi 32: file:2021-02-26-30-dias-de-posts-por-la-birra.gmi
+=> 2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.gmi 33: 2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.gmi
+=> 2021-02-16-vivir-del-software-libre.gmi 34: 2021-02-16-vivir-del-software-libre.gmi
+=> 2021-02-14-tty-music-on-console.gmi 35: 2021-02-14-tty-music-on-console.gmi
+=> file:2021-02-14-tty-music-on-console.gmi 36: file:2021-02-14-tty-music-on-console.gmi
+=> 2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.gmi 37: 2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.gmi
+=> 2021-02-07-agrandar-la-tarea.gmi 38: 2021-02-07-agrandar-la-tarea.gmi
+=> 2021-02-05-git-repos2org.gmi 39: 2021-02-05-git-repos2org.gmi
+=> 2021-02-05-ansible-awx-tools.gmi 40: 2021-02-05-ansible-awx-tools.gmi
+=> 2021-02-03-git-post-commit-changelog.gmi 41: 2021-02-03-git-post-commit-changelog.gmi
+=> 2021-02-01-git-log-org-changelog.gmi 42: 2021-02-01-git-log-org-changelog.gmi
+=> 2021-01-29-bookmarks-vs-links.gmi 43: 2021-01-29-bookmarks-vs-links.gmi
+=> 2021-01-26-disaster-recovery-plan-osiux.gmi 44: 2021-01-26-disaster-recovery-plan-osiux.gmi
+=> 2021-01-25-ansible-luks-format-external-usb-disk.gmi 45: 2021-01-25-ansible-luks-format-external-usb-disk.gmi
+=> 2021-01-25-2021-02-25-posts.gmi 46: 2021-01-25-2021-02-25-posts.gmi
+=> archive.gmi 47: archive.gmi
