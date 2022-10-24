@@ -1,6 +1,6 @@
 ---
 title: OSiUX =tty=, terminal, consola, ncurses, shell, línea de comandos
-date: 2022-07-18
+date: 2022-10-11
 author: Osiris Alejandro Gómez osiux@osiux.com
 ---
 

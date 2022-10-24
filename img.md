@@ -1,6 +1,6 @@
 ---
 title: Galería de Imágenes
-date: 2022-07-18
+date: 2022-10-11
 author: Osiris Alejandro Gomez osiux@osiux.com
 ---
 
@@ -9,25 +9,31 @@ author: Osiris Alejandro Gomez osiux@osiux.com
 [`.gmi`](gemini://gmi.osiux.com/img.gmi) |
 [`.html`](https://osiux.gitlab.io/img.html)
 
+## [Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools](2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools)
+
+[![](https://osiux.com/icn/ansible-devops-gitlab-awx-deploy-revision.png)](https://osiux.com/img/ansible-devops-gitlab-awx-deploy-revision.png)
+
+## [*Ansible Tools* `v0.3.0`](2022-10-03-ansible-tools-v0-3-0)
+
+[![](https://osiux.com/icn/ansible-tools-v0-3-0.jpg)](https://osiux.com/img/2022-10-03-ansible-tools-v0-3-0.jpg)
+
+## [cómo usar *GitLab* desde la línea de comandos](2022-08-21-howto-use-gitlab-from-command-line)
+
+[![](https://osiux.com/icn/gitlab-bash-utils.jpg)](https://osiux.com/img/gitlab-bash-utils.jpg)
+
 ## [`Filiales GNU/Linux` FLISoL CABA](2022-04-23-filiales-gnu-linux-flisol-caba)
 
 [![](https://osiux.com/icn/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg)](https://osiux.com/img/2022-04-23-flisol-caba-filiales-gnu-linux-osiux-forks.jpg)
 
-[![](img/2022-04-23-flisol-caba-sala-10.jpg)](https://osiux.com/img/2022-04-23-flisol-caba-sala-10.jpg)
+[![](https://osiux.com/icn/2022-04-23-flisol-caba-sala-10.jpg)](https://osiux.com/img/2022-04-23-flisol-caba-sala-10.jpg)
 
 [![](https://osiux.com/icn/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg)](https://osiux.com/img/2022-04-23-flisol-caba-filiales-gnu-linux-charla-gcoop.jpg)
-
-[![](img/2022-04-23-flisol-caba-filiales-gnu-linux-slides.jpg)](https://eventol.flisol.org.ar/media/talks/ansible-awx-bccl_KBu4UfA.pdf)
 
 ## [Thinkpad HackToon FLOSS Vinyl by OSiUX](2022-04-22-thinkpad-hacktoon-floss-vinyl)
 
 [![](https://osiux.com/icn/thinkpad-hacktoon-floss-vinyl-t14.jpg)](https://osiux.com/img/thinkpad-hacktoon-floss-vinyl-t14.jpg)
 
 [![](https://osiux.com/icn/original-hacktoon-floss.jpg)](https://osiux.com/img/original-hacktoon-floss.jpg)
-
-[![](https://osiux.com/icn/thinkpad-hacktoon-floss-vinyl-v01.png)](https://osiux.com/img/thinkpad-hacktoon-floss-vinyl-v01.png)
-
-[![](https://osiux.com/icn/thinkpad-hacktoon-floss-vinyl-v02.png)](https://osiux.com/img/thinkpad-hacktoon-floss-vinyl-v02.png)
 
 [![](https://osiux.com/icn/thinkpad-hacktoon-floss-vinyl-wip.jpg)](https://osiux.com/img/thinkpad-hacktoon-floss-vinyl-wip.jpg)
 
@@ -489,7 +495,7 @@ author: Osiris Alejandro Gomez osiux@osiux.com
 
 ## [OSiUX](osiux)
 
-![](img/no-soy-un-pirata-compartir-es-bueno.jpg)
+[![](https://osiux.com/icn/no-soy-un-pirata-compartir-es-bueno.jpg)](https://osiux.com/img/no-soy-un-pirata-compartir-es-bueno.jpg)
 
 ## [Software Libre en las Olimpíadas Informáticas de Monte Caseros](olimpiadas-informaticas-en-monte-caseros)
 

@@ -1,6 +1,6 @@
 ---
 title: ABSOLUTELLY NO WARRANTY ARCHIVE
-date: 2022-07-18
+date: 2022-10-11
 author: Osiris Alejandro Gómez osiux@osiux.com
 ---
 
