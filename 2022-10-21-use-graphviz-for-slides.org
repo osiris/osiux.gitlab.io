@@ -201,3 +201,7 @@ un /script/ /Python/ que toma la imagen =.png= y la divide en partes.
 [fn:openseadragon]  https://openseadragon.github.io/
 [fn:dzipy]          https://github.com/openzoom/deepzoom.py
 [fn:fgnuldzi]       http://filiales-gnu-linux.g.coop.ar/prd.html
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/67553bbb8d2ab8bf4f26f654e8a1cb1567cf2c74][=2022-10-26 17:35=]] agregar =Usar Graphviz para generar Slides=
