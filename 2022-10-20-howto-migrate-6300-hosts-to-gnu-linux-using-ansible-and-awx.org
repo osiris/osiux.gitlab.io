@@ -1,0 +1,880 @@
+#+TITLE:       Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2022-10-20 16:45
+
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3hjQwbqCUP4" title="HowTo Migrate 6300 hosts to GNU/Linux using Ansible and AWX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
+
+** /nerdearla/
+
+Aprovechando la vuelta presencial de =nerdearla= [fn:nerdearla] edición
+2022 en el /Konex/ [fn:konex], presenté la charla ="Cómo migrar 6300
+equipos a GNU/Linux usando Ansible y AWX"= [fn:fgnlyt]
+
+** 4 años en un pomodoro?
+
+Resumir /4 años/ de trabajo en /25 minutos/ no es tarea fácil, pero
+debido a la gran cantidad de charlas en simultáneo no quedaba otra que
+resumir, asi que dividí el charla en 7 etapas, coincidiendo con los 7
+colores del cooperativismo 🌈
+
+Para detallar y extender un poco más la charla, desgrabé el audio y voy
+a estar agregando referencias a cada tema y/o tecnología mencionada,
+para quienes quieran profundizar un poco más.
+
+En lugar de hacer /Slides/ generé un sitio /web/ [fn:fgnulweb] con la
+ayuda de /Hugo Ruscitti/ [fn:hugoruscitti] quien armó el /visor de
+videos multiples/ [fn:visorvideos], el cual utilicé para mostrar varios
+videos al mismo tiempo.
+
+Como varias personas preguntaron sobre la herramienta que utilicé para
+hacer los gráficos, armé un /post/ [fn:graphviz-slides] detallando cómo
+generé los gráficos y la =línea de tiempo= [fn:timeline2dot] usando
+/GraphViz/ [fn:graphviz]
+
+Al final agregué las preguntas y respuestas que surgieron en /swapcard/
+[fn:swapcard]
+
+** Apertura de Guido Vilariño
+
+Bueno, bienvenidos nuevamente al /track Infra/ en /Nerdearla/!
+
+Todo bien? Cómo la están pasando? Eh ahí va ese público todavía!
+
+Bueno muy bien, muchas gracias por estar acá!
+
+Dije ya varias veces, lo vuelvo a decir la novena edición de /Nerdearla/
+2022, los 10 años de /Sysarmy/ [fn:sysarmy] y aquí estamos, acá Trac
+Infra, tenemos un Trac Dev Online y un Trac Sec Online y el Trac de
+DataScience allá en el otro auditorio, acá en la Ciudad Cultural Konex
+del 19 al 22 de Octubre, nada venite, todavía estas a tiempo de venirte,
+esta tarde, Viernes y Sábado si nos estas viendo por Internet pero si
+estás acá, ya estás disfrutando de todas las actividades que tenemos en
+los Stands, de los auditorios, de lugares para hacer coworking, juegos,
+etc hay de todo gracias! Gracias  por estar acá y acompañarnos!
+
+** Presentación
+
+Y ahora se viene viene la última tanda de charlas, no es la última
+charla, la última tanda, son varias las charlas que tenemos por delante.
+
+Bueno y ahora vamos a hablar de algo que a mi me gusta mucho, que es el
+/Software Libre/. A quién le gusta el /Software Libre/ acá?
+
+Vamos todavía! Mirá, tenes /FANs/! Joya
+
+Bueno entonces, vamos a recibir a /OSiRiS GóMeZ/, que es socio de
+=gcoop= [fn:gcoop], que es una /Cooperativa de Software Libre/...
+
+=Héroes sin capa, como solemos decir...=
+
+Es programador y Administrador de GNU/Linux (viste que dije GNU y no
+G-N-U, sino /Richard Stallman/ [fn:rms] se enoja) es autodidacta y
+fanático de automatizar todo desde una terminal (una =tty= en realidad
+dice acá) y esta muy interesado en divulgar el uso del /Software Libre/,
+así que...
+
+Los dejo con /OSiRiS/ un aplauso por favor!
+
+** Intro
+
+Huy que alto que estoy!, se escucha?, si?, perfecto!
+
+(bueno, ahí me parece que se escucha mejor
+
+Primero pido disculpas si por ahí toso porque vengo mal de la garganta.
+
+Y lo que voy a intentar hacer en /25 minutos/, si es que lo logro es
+contarle la historia de /gcoop/ y =Banco Credicoop= [fn:bccl] en estos
+últimos /4 años/.
+
+Básicamente es un =proyecto de migración de toda la Infraestructura de
+las Filiales=, son muchas, en todo el país y bueno, fue todo un desafío,
+lo logramos!
+
+Pero vamos a ir viéndolo paso a paso un poco como lo fuimos viviendo.
+
+** [[http://filiales-gnu-linux.g.coop.ar/lab.html][=lab= /laboratory/]]
+
+[[file:img/filiales-gnu-linux/lab-10.png][file:tmb/filiales-gnu-linux/lab-10.png]]
+
+Inicialmente tuvimos una etapa de laboratorio, en esta etapa de
+laboratorio teníamos que analizar si era posible hacer este proyecto de
+migración y con qué herramientas libres era posible hacerlo?
+
+Básicamente lo que detectamos es que primero íbamos a usar /Ansible/
+porque nosotros ya lo veníamos usando en /gcoop/ y estábamos muy
+contentos con el uso de /Ansible/, eh, básicamente era hacer roles y
+/playbooks/, este código que lo escribíamos iba a estar en un
+repositorio /GitLab/ y este repositorio /GitLab/ iba a ser obtenido como
+Infraestructura como Código desde la herramienta /AWX/ para hacer el
+despliegue o el /deploy/ en todos los equipos que hiciera falta y
+algo...
+
+(a ver si me funciona esto..., si, no, ahí)
+
+La barrita que se ve abajo (vamos a intentar que se quede quieta por un
+minuto) es una línea de tiempo de todos los proyectos que terminamos
+utilizando finalmente en algún momento del proyecto, estoy hablando de
+casi 4 años y lo interesante es que el primer día que empezamos esto,
+que fue en el 2018 no teníamos ni idea que esa barrita la íbamos a estar
+usando es decir, que hay un montón de proyectos de distintas comunidades
+de desarrollo de Software Libre, alrededor del mundo que estaban
+haciendo proyectos que luego nosotros los íbamos a terminar usando y
+esto es lo importante del Software Libre o sea que nos potenciamos todos
+y todas, este... Construyendo y devolviendo finalmente algo más!
+
+Teniendo Ansible y teniendo AWX con GitLab ya podíamos empezar a hacer
+un despliegue masivo, pero el primer impedimento que encontramos es que
+teníamos que reemplazar un puesto de trabajo, el puesto de trabajo que
+tenía el Banco en ese momento era un Sistema Operativo que tenía 2000 en
+su nombre y estábamos en el 2018, así que tenía un par de años
+desactualizado!
+
+(no se escucha? ah bueno esta bien perdón, pensé que no se escuchaba)
+
+Y un requerimiento que teníamos era que estos puestos de trabajo
+necesitaban que se conectaran a los usuarios que estaban en un AD
+(Active Directory), entonces ese AD estaba en CasaCentral y los puestos
+de trabajo estaban desparramados...
+
+(se escucha? Ahí?)
+
+... Por distintas ciudades, en todo el país...
+
+(yo no sé si me corro, se escucha muy fuerte? Esta bien? Bueno, si..si,
+no..no, si..si, no..no)
+
+Bueno finalmente estábamos así, teníamos un puesto de trabajo basado en
+Debian, era claro que íbamos a usar eso y teníamos el AD, así que
+teníamos que encontrar algo que, una pieza que una esto en el medio y
+esto se llama IPA, es un desarrollo libre que lo pueden utilizar para
+integrar.
+
+(yo? Agarro... Perdón... Tengo 2 manos no me había dado cuenta!)
+
+Bueno... Conseguimos entonces, usuarios que hablen con el AD, este,
+mediante IPA y finalmente la otra pata que nos faltaba era la parte de
+servidores, en cada sucursal del Banco había un servidor, éste en lugar
+de terminar con un 2000, terminaba con un 4 (el Software) y también en
+el 2018 imagínense!
+
+Y vía una VPN íbamos a llegar al servidor, el servidor iba a estar
+basado en Debian, una distribución que se llama Proxmox, iba a
+virtualizar e iba a tener un montón de máquinas virtuales con Debian
+nuevamente para completar el esquema esa fue la etapa de Laboratorio,
+seis meses tardamos para darnos cuenta de eso!
+
+** [[http://filiales-gnu-linux.g.coop.ar/dev.html][=dev= /develop/]]
+
+[[file:img/filiales-gnu-linux/awx-pve-deploy-14.png][file:tmb/filiales-gnu-linux/awx-pve-deploy-14.png]]
+
+Y pasamos a una etapa de Desarrollo!
+
+(a ver si funciona esto? Poquito ahí, estamos mejor)
+
+En la etapa de desarrollo ya imaginamos cómo hacer el despliegue de
+estos servicios y este despliegue de servicios básicamente es el AWX se
+conecta al GitLab, obtiene el código, con ese código se comunica al
+iDRAC que es la interfaz de administración de un servidor DELL y se
+ocupa de crear el storage, este, configurar la BIOS y reiniciar el
+equipo.
+
+Ni bien reinicia el equipo, el Proxmox empieza a correr:
+
+- habla con el NodoVPN, obtiene una IP
+- habla con un servidor PXE, obtiene una imagen con un Kernel
+- bootea, obtiene una imagen base
+- va a un CDN local, busca los recursos locales,
+- lo que no tiene localmente va a buscar a CasaCentral (cuando digo
+CasaCentral es porque podemos estar en cualquier Filial, en cualquier
+punto del país)
+- y finalmente si hay que instalar paquetes de Debian, necesitamos un
+repositorio APT y tenemos una cache local
+- pero si en la cache local no esta el paquete que necesitamos, se
+accede a CasaCentral a otro repositorio de cache de cache y finalmente
+se instalan todos los paquetes
+- y de esta manera tenemos un servidor, este.. desde cero, recién
+instalado!
+
+Ahora, pensando en... Mas... En verlo...
+
+(a ver si es posible, acá tenemos...)
+
+Ahí esta el inicio de la interfaz de iDRAC, de fondo lo que ven en verde
+y negro soy yo jugando para obtener debug, pero el proceso es
+automatizado es decir:
+
+- desde AWX se disparó la conexión
+- se levanta el servidor el servidor toma una interfaz por PXE
+- va a obtener una imagen de Debian que va a ser autoinstalable, es un
+proceso que dura una serie de minutos
+- y el operador que dispara ejecución desde la interfaz de
+administración de AWX, no tiene que hacer nada, mas que esperar!
+
+Y de hecho en el momento de generación de servidores, imaginen son 300
+filiales, había que generar 300 servidores llegaron a generar 3
+servidores al mismo tiempo, de esta manera en paralelo lo generaban en
+CasaCentral, este simplemente abriendo la caja conectando 2 cables de
+red y desde AWX disparando la ejecución y esperar, no sé, creo que
+máximo 1 hora y tenías 3 servidores instalados y configurados desde
+cero, con todos los componentes que tenían dentro, es decir:
+
+- Primero se hace un Debian Net Install que es lo que estamos viendo ahí
+de manera acelerada
+- Luego se reinicia el equipo
+- Se dá de alta el equipo solo al AWX, en el inventario, le dice... Soy
+tal MAC, soy tal IP, soy tal equipo
+- y a partir de ahí el operador puede disparar la segunda ejecución que
+es.. Bueno ahora dejas de ser un Debian base y pasas a ser un Proxmox
+- y luego de que ya te convertiste en un Proxmox, este pasa a ... Un
+circuito que lo que hace es crear las 10 virtuales que hacen falta y
+- y después un tercer circuito que lo que hace es crear los servicios
+que hay dentro de cada virtual y todo el proceso es de manera
+automatizada
+- y finalmente... Nada, queda funcionando un servidor que va a tener
+todas las virtuales que necesita!
+
+Pero además va a tener la capacidad de generar otro servidor exactamente
+igual, este con los mismos pasos es decir:
+
+- para generar un servidor usamos un servidor
+- para generar otro servidor usamos ese mismo servidor generado
+- recursividad le dicen...
+
+Workstation... Bueno con workstation nos pasa que como eran muchas, ya
+no eran 300, eran 3000, lo que hicimos es una imagen base, esa imagen
+base se envió a clonar con el fabricante de las workstations
+
+Y lo que había que hacer después era, seleccionar esa workstation y
+aplicarle los cambios, lo que haya de nuevo y básicamente enrolarla a la
+red
+
+(acá lo que vamos a ver, voy a ver si puedo pausar un poco...)
+
+Eh... A la derecha...si.. Estoy en un servidor Proxmox con una virtual,
+para jugar en Desarrollo.
+
+Y a la izquierda tengo la interfaz de AWX y básicamente lo que tengo es
+identificado en el inventario la IP del host, la MAC, el hostname y a
+que Filial pertenece, en este caso es la 661.
+
+Y a la derecha lo que voy a ir viendo es que lo que va a ejecutar a la
+izquierda AWX a la derecha se va a materializar de alguna manera en este
+caso es un ejemplo bastante simple, que es cambiar el fondo de pantalla
+pero lo interesante es que se hace desde CasaCentral, la workstation
+puede estar en cualquier lugar del país.
+
+Y el operador solo ve la interfaz de AWX, nunca ve la pantalla de la
+workstation, simplemente elige una serie de plantillas y dentro de la
+plantilla lo que elije es el límite.
+
+El límite es básicamente uno o mas equipos en conjunto que va deployar
+siempre se deployan en paralelo,
+
+Este.. Todos lo que hagan falta es importante el límite en eso y una vez
+que se ejecuta en el panel de control lo que van a ver es un montón de
+mensajes.
+
+(ahí se ve medio chico pero... A ver si hago zoom...si..eh)
+
+Lo que esta verde esta bien, lo que esta rojo es error grave, este
+naranjita es cuando cambia algo de valor y celestito cuando se lo pudo
+saltear porque no era hecesario hacerlo.
+
+El esquema es bastante simple es una página web, se eligen valores, esos
+valores...
+
+(vamos a hacer una pausa ahí, a ver...)
+
+Ahí por ejemplo vemos, estamos en una workstation y vemos las variables
+que están cargadas dentro del AWX y dice por ejemplo el
+default_background y el nombre de la imagen y básicamente ese valor
+proviene desde el GitLab y esta versionado, pero desde el panel de
+Administración de AWX, si tenés permisos suficientes, lo podés cambiar y
+si lo cambias, como es en este caso acá, eh.. Esta tratando de cambiar
+el fondo de la pantalla vamos a ver si lo logra en esta ejecución, creo
+que hubo un error ahí.
+
+(ya ni me acuerdo lo que hice...)
+
+Si, efectivamente ahí dice =gcoop.jpg= y dice fallido y si miramos en el
+/log/... Ahí va a estar bajando... Ahí donde esta en rojo es porque esta
+tratando de buscar una imagen que no existe, entonces ahora lo que va a
+ir haciendo es... No hay ningún problema, el operador puede cambiar el
+nombre de archivo por el nombre de archivo que corresponde, ahí puso el
+nombre correcto, le dice guardar.
+
+Volver a ejecutar y se ejecuta sobre el equipo fallido, que puede ser 1
+o muchos y una vez que le dé verde, o sea el operador solo espera que le
+de verde, si le da verde esta todo bien y sigue con otra plantilla o con
+otro equipo y si le da rojo, algo pasó...
+
+Y así que cambia inmediatamente en el lado derecho, en el puesto de
+trabajo al usuario mientras estaba /"logueado"/, es decir, es bastante
+simple el ejemplo pero también sirve para comentar de que cualquier
+tarea por mas pequeña que sea, se puede automatizar y de hecho los
+puestos de trabajo, como son 3000, **los usuarios no tienen permiso para
+nada**, es decir **todo se hace desde /CasaCentral/** de manera
+automatizada, centralizada, están todos versionados los cambios, porque
+=es la única manera de mantener el control sobre tantos equipos=...
+
+** [[http://filiales-gnu-linux.g.coop.ar/dep.html][=dep= /deploy/]]
+
+[[file:img/filiales-gnu-linux/awx-wst-deploy-09.png][file:tmb/filiales-gnu-linux/awx-wst-deploy-09.png]]
+
+Bueno, entonces ahí ya estábamos listos para hacer el despliegue...
+
+Para hacer el despliegue es hacer esto mismo pero con muchas
+/workstations/ al mismo tiempo entonces básicamente se empieza a
+complejizar, es similar a lo anterior es decir:
+
+- /AWX/ se comunica con /GitLab/, obtiene el código
+- y va a ejecutar a un equipo, en este caso 3 puestos de trabajo
+- éstos 3 puestos de trabajo obtienen los cambios, pero necesitan
+recursos locales
+- algunos recursos locales son la cache de /APT/ local
+- un /CDN/ local que es un =nginx= que tenemos ahí en una /VM /en un
+servidor,
+- pero después necesita recursos contra el /FileServer/ que esta dentro
+de la Filial
+- y finalmente para poder tener /login/ centralizado necesita hablar con
+el /IPA/ que esta en /CasaCentral/
+- y además con el /Cluster/ de los 4 /ADs/ que están en /CasaCentral/
+- entonces empieza a haber mucho tráfico de una lado para el otro que es
+un poco ... colorinche, pero bueno, funciona,
+
+En la vida real casi nadie ve que esta pasando todo esto por detrás,
+dentro de /AWX/ o se ve verde o se ve rojo y salió todo bien o nos
+llaman.
+
+** [[http://filiales-gnu-linux.g.coop.ar/stg.html][=stg= /staging/]]
+
+Bueno, siguiente etapa, ya estamos para /staging/!
+
+[[file:img/filiales-gnu-linux/filiales-gnu-linux-03-hardware.png][file:tmb/filiales-gnu-linux/filiales-gnu-linux-03-hardware.png]]
+
+/Staging/, básicamente... Es decir salir a producción en este caso pero
+con una sola Filial, en lugar de con 300 para ver si efectivamente la
+solución anda
+
+Y ahí nos encontramos con cosas, no? 
+
+Bueno no solo hay 3000 /workstations/, hay miles de periféricos
+distintos!
+
+[[file:img/filiales-gnu-linux/filiales-gnu-linux-04-printers.png][file:tmb/filiales-gnu-linux/filiales-gnu-linux-04-printers.png]]
+
+(a ver si puedo poner pausa, ahí)
+
+En estos periféricos tuvimos que hacer que la /workstations/ que son
+todas iguales para un puesto de caja, también sean para el gerente o
+para la recepcionista o para quien sea que este dentro del /Banco/ y
+tiene que andar ese mismo puesto de trabajo con un /Scanner/ de cheques,
+con una impresora de /tickets/ o lo que sea que haga falta...
+
+La tecnología que utilizamos en resumen es esto:
+
+[[file:img/filiales-gnu-linux/filiales-gnu-linux-05-technology.png][file:tmb/filiales-gnu-linux/filiales-gnu-linux-05-technology.png]]
+
+- /Ansible/, /Python/, /AWX/
+- del lado de /IPA/, /IPA/ va con /CentOS/, /CentOS 7/, cuando empezamos el proyecto existía /CentOS 7/, ahora no, ya lo vamos a migrar
+- del lado de los servidores /Debian 10/, cuando empezamos era /stable/, /Proxmox 6.3/
+- y lo mismo del lado de los puestos de trabajo, ya nos quedó un poquito viejo...
+
+=Como todo proyecto de migración grande, cuando terminas de migrarlo,
+tenes que volver a empezar!=
+
+La ventaja es que sería solo actualizar algunos /playbooks/ y /roles/,
+total, la herramienta de despliegue ya la tenemos!
+
+Bueno, tenemos 10 máquinas virtuales, para recapitular, con distintos
+usos este.. /PrintServer/, /FileServer/...
+
+[[file:img/filiales-gnu-linux/filiales-gnu-linux-06-vms.png][file:tmb/filiales-gnu-linux/filiales-gnu-linux-06-vms.png]]
+
+Dentro de /GitLab/ tenemos mas de 200 repositorios!
+
+[[file:img/filiales-gnu-linux/filiales-gnu-linux-07-repositories.png][file:tmb/filiales-gnu-linux/filiales-gnu-linux-07-repositories.png]]
+
+Acá por ahí hago una pausa, este fue un cambio importante de trabajar,
+normalmente en un proyecto por mas grande que sea con 1, 2, 5
+repositorios...
+
+Y pasar a trabajar con 200 repositorios... es un caos!
+
+Es un caos y encima esta todo versionado y muchos repos están anidados
+que unos dependen de los otros y bueno es posible!. /GitFlow/ ayudó
+bastante ahí.
+
+Y lo importante ahí es que hay 1 repositorio que se llama =inventory=
+que es todo el inventario de todos los equipos que estén dando vuelta,
+=están versionados en un único lugar= y hay un repositorio que se llama
+=awx=, es decir, =toda la información para que se corra el despliegue de
+/AWX=, que se podría realizar manualmente desde la interfaz de
+administración la hicimos vía código y entonces, ese código se envía y
+se /deploya/ y queda versionado.
+
+(bue... Y ahí se colgó todo...no? Hasta acá llegamos!)
+
+Bueno ahí /AWX/, la cantidad de proyectos que tenemos, mas de 200
+proyectos, 300 inventarios, nada, muchas plantillas, cada una hace algo
+distinto
+
+[[file:img/filiales-gnu-linux/filiales-gnu-linux-08-awx.png][file:tmb/filiales-gnu-linux/filiales-gnu-linux-08-awx.png]]
+
+(y a ver si... Pausa)
+
+Bue, esto es un resumen de tiempos de cómo venimos hasta el momento es
+decir, tuvimos 6 meses de laboratorio, 1 año de desarrollo, 1 año de
+despliegue de la solución, 87 días en /staging/, es decir tuvimos una
+Filial casi 3 meses operativa funcionando, totalmente migrada, servidor
+y nuevo.
+
+[[file:img/filiales-gnu-linux/filiales-gnu-linux-10-time.png][file:tmb/filiales-gnu-linux/filiales-gnu-linux-10-time.png]]
+
+Y a partir de ahí empezó la tarea ardua que nosotros hasta acá, digamos
+hasta ahí llegamos, nosotros diseñamos la solución, pero la
+implementación la hacía el equipo de /Implementaciones/ del /Banco/ la
+verdad que lograron hacerlo en menos de 1 año! =En 347 días migraron 300
+/Filiales=, llegaron a migrar 3 por noche!
+
+Y eso es algo importante de entender, estamos hablando de un /Banco/ y
+en un /Banco/ o sea como cierra a las 06:00, abre a las 09:00. Bueno,
+esa era la ventana que tenía el equipo de /Implementaciones/ para
+cambiar el servidor, cambiar el /rack/, cambiar los /switchs/, recablear
+todo, instalar un /Sistema Operativo/ nuevo, hacer el /deploy/ desde
+/CasaCentral/ y que a la mañana todo siga operando, como que la gente
+vaya y haga no sé su plazo fijo y funcione todo!
+
+Y se hizo obviamente en 2 etapas, se hizo una primer etapa de servidores
+y una segunda etapa de /workstations/, pero inicialmente, es decir
+=todas las Filiales, pasaban de un día al otro a tirar la
+infraestructura que tenían y a arrancar con una nueva=.
+
+Y algo importante es que, una diferencia que tuvo este proyecto, es que
+antes la /VPN/ estaba por fuera y en este caso el servidor que
+reemplazaba la infraestructura de la /Filial/ tenía la /VPN/ dentro del
+servidor virtualizado, así que fue todo un desafío eso bueno y
+terminamos en 2021, el 9 de Septiembre, se terminó el despliegue de
+todas las Filiales.
+
+Entramos ahí lo que sería soporte, que en realidad bueno como saben,
+soporte de algo recién migrado es como terminar un poco lo que veníamos
+haciendo y a partir de ahí bueno... Mantenimiento evolutivo por así
+decirlo, este hay mejoras todos los días y nuevos desafíos y desarrollos
+que solucionar.
+
+(esperen...que no me anda nada)
+
+** [[http://filiales-gnu-linux.g.coop.ar/prd.html][=prd= /production/]]
+
+[[file:img/filiales-gnu-linux/awx-bccl-center.png][file:tmb/filiales-gnu-linux/awx-bccl-center.png]]
+
+Bueno vamos a saltar a Producción Estamos en Producción!
+
+Esto es una manera de ver producción!
+
+(vamos a ver si podemos aumentar)
+
+
+Esta es una interpretación de lo que es el /Banco/ migrado para
+nosotros!
+
+En el centro de todo eso, esta /AWX/, cada globito es un equipo que
+podemos administrar...
+
+(vamos a acercarnos!)
+
+Ven aquí en el centro, esta /AWX/ que es un solo equipo que esta
+virtualizado en /CasaCentral/, que se va a conectar por ejemplo acá en
+rojo/naranja la /Filial 105/ y esa /Filial 105/ bueno tiene sus 10
+máquinas virtuales, su servidor /Proxmox/, su /PrintServer/ y sus 10 o
+15 /workstations/ ahí y lo mismo le va a pasar a la /252/ que esta ahí
+al lado, a la /85/ y a todas las demás!
+
+Es un caos!
+
+Yo no sé como hacían esto antes! De que usáramos /AWX/ y tuviéramos
+versionado todo y /Ansible/.
+
+Pero la verdad es que... =La única manera de poder administrar tantos
+equipos a tan gran escala y saber que es lo que le pasa a cada uno= y
+ver porqué no anda, no se, la impresora de la /Filial 24/, es como...
+
+=No hay otra manera, tiene que ser centralizado y tiene que estar
+automatizado!=
+
+** [[http://filiales-gnu-linux.g.coop.ar/sup.html][=sup= /support/]]
+
+[[file:img/filiales-gnu-linux/awx-pve-deploy-14.png][file:tmb/filiales-gnu-linux/awx-pve-deploy-14.png]]
+(no sé como venimos de tiempo?, me quedan 3 minutos!)
+
+Uno de los problemitas que tuvimos cuando empezamos Producción fue esto!
+
+Que nosotros todas las pruebas que hicimos de /login/ de usuarios, lo
+hacíamos, si bien simular cierta carga, nunca íbamos a tener la carga
+que era producción que es básicamente cerca de las 10:00 de la mañana
+tenés 2000 personas que se /"loguean"/ al mismo tiempo!
+
+Y entonces eso bueno generó, algunos segundos de demora por ejemplo ahí
+estamos viendo que hay... Mas de 20 segundos de demora en el /login/ es
+como todo un problema!.
+
+Entonces bueno, esto es algo que mitigamos de alguna manera generando
+una sincronización de /cache/ de /login/ y una /API/ en el medio para
+justo a tiempo tratar de sincronizar esos usuarios y bueno la solución
+definitiva va a venir dentro de pronto con un /Cluster de IPAs/ en lugar
+de uno solo, creemos que va a ser la solución pero bueno es uno de los
+problemas que hay con la concurrencia de muchos usuarios al mismo tiempo
+
+(y se me perdió todo, esperen, =F5=)
+
+** [[http://filiales-gnu-linux.g.coop.ar/nxt.html][=nxt= /next/]]
+
+[[file:img/filiales-gnu-linux/awx-deploy-revision-13.png][file:tmb/filiales-gnu-linux/awx-deploy-revision-13.png]]
+
+Bueno, que sigue?
+
+Estamos trabajando con muchas cosas en paralelo pero bueno acá, este es
+un breve gráfico que básicamente lo que hacemos es la solución de
+actualización de /AWX/, es decir, en el inicio nosotros que hacíamos?
+
+Hacíamos una plantilla en /AWX/, prueba y error, prueba y error hasta
+que nos andaba y decíamos bueno ya esta!
+
+Y ahora hay que pasarla a producción y a pasarla a Producción bueno
+exportábamos un =.json= y ese /JSON/ lo poníamos en producción a mano
+digamos con comandos de un /CLI/ pero básicamente manual y decíamos /"ya
+esta!"/
+
+Pero bueno, eso no esta piola, que Desarrollo toque Producción, entonces
+lo que hicimos es un /script/ que lo que hace es, ni bien empezás a
+desarrollar en un /branch/ de tu /rol/ o de tu /playbook/, ni bien hacés
+=push=, /GitLab/ se ocupa con la /CI/ de hacer todo lo que haga falta
+para que esa plantilla se /deploye/.
+
+- primero se /deploya/ en /Desarrollo/
+
+- si salió bien, el /deploy/ en /Desarrollo/, se /deploya/ en /Staging/
+
+- y si en /Staging/ ya quedó bien digamos, cumplió los dos pasos y pasó
+todo el circuito de pruebas, generamos un /release/
+
+Y le decimos al equipo de /Tecnología/ del /Banco/, "che, pueden
+/deployar/ tal /release/" y el pase a /Producción/ se usa el mismo
+/script/ que utiliza /GitLab CI/ pero disparado por un /SysAdmin/ que
+dice todo anda ... (y que desconfía de nosotros...!)
+
+Bueno, eso es básicamente una idea y un resumen del proyecto de
+migración que nos tocó hacer desde /gcoop/, no lo dije antes pero:
+
+=gcoop/ es una /Cooperativa de Software Libre/, trabajamos
+exclusivamente con /Software Libre/, no tenemos jefes, no tenemos
+empleados, todos somos socios y socias y es otra manera de trabajar y es
+posible que hagamos cosas asi, como éstas y que funcionen!=
+
+Así que a partir de ahora, llegué justo con los 20 segundos! Respondo
+preguntas, tenemos unos minutos, si se animan? Yo todavía estoy en pie!
+
+** Preguntas?
+
+*** Hola, que tal, buena la charla! Zarpado laburo.. este quería preguntarte cómo hacían, porque me imagino que alguna excepción habrán tenido, cuando encontraban en medio de la noche, este un server o un equipo que no respondía como debía...
+
+Me llamaban!
+
+Te llamaban! Guardia todas las noches! Año y pico?
+
+No no, al principio, la verdad que el equipo de /Implementaciones/ ahí
+fue muchísima gente del lado del Banco.
+
+Nosotros solo Diseñamos y Desarrollamos la solución, pero este lo
+opera un equipo muy grande propio y también tercerizado digamos de
+alguna manera para poder cubrir todo el país.
+
+Estamos hablando que tenes una /Filial/ en /Salta/, este tenes una
+/Filial/ en /Tierra del Fuego/, /Neuquén/, donde se te ocurra,
+entonces...
+
+Bue, no lo mencioné, esto además fue en /Pandemia/, o sea empezamos en
+el 2018 y el proceso de migración grande fue de 2020-2021...
+
+Eh, fueron aprendiendo, básicamente al principio nos necesitaban que
+estemos ahí acompañando los /deploys/, después ya solo nos llamaban
+cuando había algo raro, este si ese algo raro después se podía
+solucionar de alguna manera o automatizar para que no vuelva a
+suceder, digamos =al otro día hacíamos una nueva plantilla, una nueva
+corrección y listo la próxima vez no volvía a pasar= o ya sabían como
+mitigarlo.
+
+Perfecto. Gracias!
+
+(Alguna otra Pregunta? Ahí voy...)
+
+*** Tuvieron que lidiar, tuvieron estaciones de trabajo que sean /laptops/ o básicamente como lidiaban con intermitencia de que una /laptop/ o una computadora de escritorio pueda estar apagada y /Ansible/, o sea va desde el servidor hablando a los nodos que afecta
+
+Bueno, si, los puestos de trabajo son unos /HP Pro Desktop/ muy
+chiquititos, mini, hermosos, arrancan en menos de 30 segundos, están
+operativos, tienen creo que /8 GB/ de /RAM/, /256/ de /SSSD/ o sea son
+máquinas fuertes...
+
+Tenemos una plantilla que hace un /WakeOnLAN/, básicamente sobre uno o
+más equipos, así que digamos, de ser necesario, primero se corre esa
+plantilla y después la ejecución de lo que quieras. Siempre la
+ejecución de /AWX/ lo que ejecuta y no encuentra encendido te va a
+decir /"che no llegué, no sabe porqué"/ y vos le podés decir /"volvé a
+ejecutar sobre los que no llegaste"/ Ahí en el medio lo que hacés es
+bueno, generás otra ejecución para decir /prendo todos los equipos/.
+
+Por ahorro de energía también en un momento nos dijeron que convenía
+apagar los equipos, así que también los equipos están programados que
+se apagan a cierta hora, así que hay un momento que estas obligado si
+queras saber si llegas a todos? Los tenes que prender!
+
+Después también te pasan cosas de decir bueno hicimos que cada vez que
+un equipo obtiene una /IP/, va al inventario y se actualiza por si ese
+equipo por algún motivo cambió de /Filial/, que podría pasar.
+
+Eh también lo que hicimos es que ese equipo avisa por /SNMP/ su /IP/,
+su /hostname/ y el último /deploy/ que tuvo y entonces después podes
+hacer barridos por /SNMP/ para decir /"bueno che, a ver qué equipos
+están prendidos y quiénes son?"/
+
+Obviamente esto a medida que fuimos trabajando tuvimos que hacer
+distintas versiones y siempre esta el dilema de que /"tengo todos los
+equipos en la misma versión?"/ bueno , hay que preguntar y
+/redeployar/!
+
+*** Buenas Tardes, una pregunta... Como dijiste al principio los equipos levantan la imagen de OS desde el servidor y lo instalan en el /workstation/ digamos, no? Mi consulta sería si Uds. evaluaron esta posibilidad por una incapacidad del servidor para levantar máquinas virtuales para /deployar/ todas las /workstations/ requeridas para un /Banco/ o vieron alguna otra ventaja en este sistema? Gracias!
+
+Eh no, parte era de tratar de tener una tecnología y una arquitectura
+que el mismo /Banco/ pueda responder, es decir no podíamos salir con
+una nave espacial, digamos, tenía que ser... Hay un equipo para cada
+persona, es un equipo físico y si no hay conexión a /CasaCentral/ o no
+funciona algo, ese equipo tiene por lo menos tiene que poder servir
+por lo menos para decir, este no se, abre una planilla de cálculo y
+escribe /NO HAY SISTEMA/ y lo imprime, digamos por lo menos para eso,
+en ese sentido la virtualización también la hicimos con /KVM/, también
+por cuestiones de seguridad y era mucho mas simple en la operatoria de
+hacer recambio de equipos, es decir =si ante la duda si un equipo no
+funciona lo tirás y redeployás y no tenés que pensar que le esta
+pasando= y son todos iguales, es decir, podés tomar un equipo de la
+puerta de entrada y ponerlo en la línea de cajas y tiene que salir
+andando, obviamente tiene todos los servicios que necesita para eso,
+pero es la idea que sean todos iguales y nada, digamos extraño, no sé
+si responde la pregunta...
+
+...pero antes que me olvide...
+
+Acá puse, bue nuestra web es [[https://g.coop.ar/][https://g.coop.ar/]]
+es el dominio nuevo que tenemos ahora en /Argentina/ y parte de la
+solución esta ahí.
+
+En =GitLab= [fn:gitlab-gcoop] y en =GitHub= [fn:github-gcoop], son
+/roles/ y /playbooks/ de /Ansible/ que están disponibles para que los
+puedan usar y mejorar:
+
+- https://github.com/gcoop-libre/ansible-role-deploy-git-repos  
+- https://github.com/gcoop-libre/ansible-role-git-bare-repos    
+- https://github.com/gcoop-libre/ansible-role-pure-ftpd         
+- https://github.com/gcoop-libre/ansible_role_sssd_conf         
+- https://github.com/gcoop-libre/ansible_role_test_users        
+- https://github.com/gcoop-libre/ansible_sudoers                
+- https://gitlab.com/gcoop-libre/ansible_role_apt_pin           
+- https://gitlab.com/gcoop-libre/ansible_role_freeipa_sssd_tools
+- https://gitlab.com/gcoop-libre/ansible_role_hp_linux_tools    
+- https://gitlab.com/gcoop-libre/ansible_tools                  
+- https://gitlab.com/gcoop-libre/freeipa-sssd-tools             
+
+Hicimos mas de 200, de los cuales mas de 200, no sé, unos 30 no son
+nuestros! Es decir, tomamos roles de la comunidad, si alguien trabaja en
+/Ansible/, =Geerlingguy= [fn:geerlingguy] es por ejemplo una buena
+base para empezar y los extendemos lo que haga falta y los combinamos
+con roles propios!
+
+(ahi llevo el micrófono...)
+
+*** Buenas Tardes, muy linda la charla, quería consultar con respecto a los /workstation/, usaron la distribución /Ubuntu/, es por alguna razón en particular con respecto a características del /Hardware/ o es por la utilidad del usuario?
+
+A mi me gusta /Debian/, pero el soporte que necesitás para algunas
+aplicaciones, no lo vas a encontrar actualizado y nosotros somos una
+empresa de /Desarrollo/ que hoy somos 20 personas y estábamos migrando
+/6300 equipos/ y dijimos, bueno en algún momento puede ser que esto
+escale y no podamos dar soporte, entonces nos apoyamos sobre grandes
+empresas de desarrollo de /Software Libre/ a nivel internacional que
+puedan dar soporte si nosotros no podemos, entonces lo mejor era
+trabajar con alguna /distro/ basada en /Debian/ que tenga algún soporte
+comercial de ser necesario, lo mismo para los servicios de servidores.
+
+(Acá hay otra pregunta...)
+
+*** Muy buena la charla, dos, una preguntita simple que es saber que herramienta es esta que hace los gráficos? Y la otra pregunta un poco mas compleja no, eh bueno yo he trabajado con /Ansible/ y es muy bueno para aprovisionar /servers/ y todo lo demás, eh pero creo que también detrás de todo esto hay un gran trabajo de /networking/ para que los servidores tengan acceso a o los /workstations/ tengan acceso a determinado servidor y no sé si hay /firewall/ de por medio o qué? Cómo manejan todo eso también con /Ansible/? O bueno para que hacerlo manualmente creo que es mucho, no? O tienen alguna otra solución?
+
+Todo lo que es la infraestructura nueva, esta hecha con /Ansible/ como
+código, esto no solo permitió simplificar el despliegue sino que permite
+al Departamento de /Seguridad Informática/ y al de /Auditoría/ bueno
+revisar que se instala o sea hubo requerimientos específicos que tuvimos
+que cumplir pero lo que son reglas de /firewall/ específicas eso lo
+maneja otro sector y como si, este para poder /deployar/, tiene que
+estar la regla vigente, no lo manejamos, nosotros solo pedimos un /JIRA/
+para que este funcionando digamos, a nivel equipos lo que sea necesario
+va a correr un servicio tal y necesita llegar a tal destino.
+
+Y en cuanto a la herramienta, todos los gráficos que están en la
+presentación, hasta la línea de tiempo están hechos con =GraphViz=
+porque /GraphViz/ básicamente te permite hacer código, es
+decir, /yo no hice este dibujo, yo escribí código y ese código se
+transformó en ese dibujo/.
+
+(Alguna pregunta más? Acá adelante...)
+
+*** Gracias... Quería consultar cómo se originó todo esto? Porque no... Cómo fue un requerimiento del Banco? Uds. se lo vendieron...?
+
+/gcoop/... Eh... Yo tengo **15 años** [fn:vivir-del-sl] en /gcoop/,
+estoy desde el 2007 a los poquitos meses que inició, no soy fundador,
+pero soy de la primera camada digamos...
+
+Y desde entonces que le ofrecemos servicios y consultoría al /Banco/,
+básicamente hicimos desarrollos de /CRM/, el sistema de misión crítica
+del =Centro de Contacto Telefónico= y =Gestión de Contactos del
+Asociado= [fn:gcoop-gca], es decir cuando llamas por teléfono, bueno
+hay un /CRM/ detrás que nosotros desarrollamos desde el inicio de la
+cooperativa, así que tiene 14 años funcionando y muchas mas
+migraciones que esta digamos, pero bueno este sin desmerecerlo es un
+/ABM/ gigante pero que tiene 5000 usuarios, entonces es bastante
+crítico.
+
+Así hemos desarrollado otros proyectos, nunca habíamos hecho
+infraestructura hasta el 2018, o sea fue la primera vez y ellos
+analizaron diferentes ofertas y propuestas y como tienen una línea clara
+de trabajar con /Software Libre/, este, acudieron a nosotros y estuvimos
+6 meses convenciéndolos de que era posible y bueno lo pudimos hacer y
+bueno lo estamos mejorando igual esto, todos los días hay un desafío
+nuevo.
+
+Estamos, Gracias!
+
+** Cierre
+
+Muchas Gracias /OSiRiS/!  Bueno Muchas Gracias!
+
+Excelente charla! Grande /gcoop/ aguante el /Software Libre/ y el
+desarrollo de ese estilo, hace tanto falta mas!
+
+Les pido que se queden acá mientras cerramos la siguiente presentación
+que aviso va a ser en Inglés, así que quienes necesiten, detrás tenemos
+/Headsets/ para la traducción en tiempo real de nuestras estrella de la
+noche, ahí en la cabina, así que bueno, muchas gracias nuevamente
+/OSiRiS/, un nuevo aplauso, nos vemos en unos minutos...
+
+** Questions
+
+El evento utilizaba la plataforma /swapcard/ y luego de la charla pude
+ver que hicieron varias preguntas, algunas fueron contestadas en el
+momento, pero otras quedaron pendientes, asi que respondo cada pregunta
+por acá.
+
+*** /Por que instalan Debian y luego PVE arriba? Era mas sencillo que instalar directamente PVE con su propia imagen?/
+
+Principalmente porque de esta manera podíamos automatizar por completo
+la instalación, hay algunas configuraciones del /Sistema Operativo/ que
+deben ser realizadas antes de instalar /Proxmox/, por ejemplo la
+configuración de red es bastante compleja, los servidores cuentan con 10
+placas de red y debíamos fijar versiones de paquetes además de registrar
+el servidor en el inventario de /AWX/.
+
+*** /los playbooks como se loguean a los equipos, usan intercambio de llaves de ssh ? o que método?/
+
+/Ansible/ es /agentless/ y por ello /AWX/ se conecta a los equipos
+utilizando llaves /SSH/, las mismas son definidas y configuradas en el
+proceso de instalación /PXE /tanto para servidores como /workstations/.
+
+*** /que es eso de gcoop podrías desarrollarlo un poco mas la manera de trabajo?/
+
+/gcoop/ es la /Cooperativa de Software Libre/, nació en 2007 y hoy
+cuenta con 20 personas organizadas de manera horizontal y
+autogestionadas (es decir, /no hay jefxs ni empleadxs/), es una
+/cooperativa de trabajo/ y se dedica a la consultoría y desarrollo de
+software utilizando exclusivamente /Software Libre/. /MAS DATOS/ en la
+web de [[https://g.coop.ar/][gcoop.coop]]
+
+*** /A que te referías en la parte de cuando ejecutan los playbooks, "Lo importante es el límite"?/
+
+Al ejecutar un /playbook/, el mismo se ejecutará en todos los /hosts/ de
+un inventario y por ejemplo el inventario =wst= (/workstations/) cuenta
+con 3000 /hosts/, si no especificas un límite, el /playbook/ por defecto
+intentará ejecutarse en los 3000 /hosts/ en paralelo y difícilmente
+quieras y/o necesites realizarlo en tantos equipos al mismo tiempo, lo
+mas prudente es establecer un límite, por ejemplo por Filial, aunque hay
+Filiales con menos de 10 equipos, algunas cuentan con mas de 60 equipos,
+se puede especificar de a 1 o mas /hosts/, ejemplos de filtros:
+
+| límite                  | definición                                        |
+|-------------------------+---------------------------------------------------|
+| =f0001=                 | todos los equipos del grupo =f0001=               |
+| =f0001:f0002=           | todos los equipos de los grupos =f0001= y =f0002= |
+| =wst-8CC123:wst-8CC124= | solo en los equipos =wst-8CC123= y =wst-8CC124=   |
+| =wst-8CC123=            | únicamente en el equipo =wst-8CC123=              |
+
+*** /Cómo lidiaban con los fallos de conexión o timeouts que puedan surgir?/
+
+Cada /Filial/ cuenta con al menos 2 enlaces de diferentes proveedores y
+a lo largo y ancho del país, hay diferentes /"angostos de banda"/,
+básicamente en cada /Filial/ se comenzaba por realizar /deploy/ en 2
+equipos en paralelo y si no había errores se aumentaba a 4 equipos en
+paralelo, y así hasta encontrar el máximo de equipos en paralelo sin que
+existan interrupciones.
+
+Si se interrumpía la conexión del /deploy/ de un equipo, se volvía a
+intentar luego con ese equipo, y el /playbook/ retomaba en donde quedó
+(en realidad, vuelve a comprobar cada tarea y determina si es necesario
+volver a ejecutarla).
+
+*** /Si cambiaban de IP, cómo se actualizaban luego en el Inventario?
+Usaban un agente para informar al controller?/
+
+Usamos un /script/ en =Network Manager Dispacher= [fn:networkmanager]
+que invoca a =awx-cli= realizando un /update/ del /host/, es decir la
+/workstation/ modifica el inventario de /AWX/ cada vez que recibe una
+nueva /IP/ y en el caso de que el /host/ no exista en el inventario, se
+crea en el momento.
+
+*** /alguno me podría decir el nombre del soft que usan para graficar?/
+
+Los gráficos los hice utilizando [[file:2022-10-21-use-graphviz-for-slides.org][/GraphViz/]]
+
+** Seguro te interesará leer...
+
+- [[file:2021-12-30-automated-bios-configuration-using-ansible-and-hp-linux-tools.org][Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/]]
+- [[file:2022-04-23-filiales-gnu-linux-flisol-caba.org][=Filiales GNU/Linux= FLISoL CABA]]
+- [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
+- [[file:2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.org][Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools]]
+- [[file:2022-10-21-use-graphviz-for-slides.org][Usar Graphviz para generar Slides]]
+- [[file:2022-10-25-how-to-make-a-timeline-with-graphviz-usign-timeline2dot.org][Cómo hacer una línea de tiempo con GraphViz]]
+
+[fn:nerdearla]        https://nerdear.la/
+[fn:konex]            https://www.cckonex.org/
+[fn:fgnlyt]           https://www.youtube.com/watch?v=3hjQwbqCUP4
+[fn:fgnulweb]         http://filiales-gnu-linux.g.coop.ar/
+[fn:hugoruscitti]     https://www.examplelab.com.ar/
+[fn:visorvideos]      https://github.com/hugoruscitti/visor-de-videos-multiple
+[fn:graphviz-slides]  https://osiux.com/2022-10-21-use-graphviz-for-slides.html
+[fn:timeline2dot]     https://osiux.com/2022-10-25-how-to-make-a-timeline-with-graphviz-using-timeline2dot.html
+[fn:graphviz]         https://graphviz.org/
+[fn:swapcard]         https://app.swapcard.com/event/nerdearla-2022
+[fn:sysarmy]          https://timeline.sysarmy.com/
+[fn:gcoop]            https://g.coop.ar/
+[fn:rms]              https://endefensadelsl.org/que_es_el_software_libre.pdf
+[fn:bccl]             https://www.bancocredicoop.coop/
+[fn:gitlab-gcoop]     https://gitlab.com/gcoop-libre
+[fn:github-gcoop]     https://github.com/gcoop-libre
+[fn:geerlingguy]      https://ansible.jeffgeerling.com/
+[fn:networkmanager]   https://networkmanager.dev/docs/api/latest/NetworkManager-dispatcher.html
+[fn:vivir-del-sl]     https://osiux.com/2021-02-16-vivir-del-software-libre.html
+[fn:gcoop-gca]        https://www.gcoop.coop/gca-la-implementacion-de-suitecrm-mas-grande-de-america
+
