@@ -878,3 +878,7 @@ Los gráficos los hice utilizando [[file:2022-10-21-use-graphviz-for-slides.org]
 [fn:vivir-del-sl]     https://osiux.com/2021-02-16-vivir-del-software-libre.html
 [fn:gcoop-gca]        https://www.gcoop.coop/gca-la-implementacion-de-suitecrm-mas-grande-de-america
 
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c5dc009193ac5792e153c1c034278adbb657626a][=2022-10-26 17:48=]] agregar =Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX=
