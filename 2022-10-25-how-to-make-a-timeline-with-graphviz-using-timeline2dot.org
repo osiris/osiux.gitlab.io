@@ -1,0 +1,184 @@
+#+TITLE:       Cómo hacer una línea de tiempo con GraphViz
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2022-10-25 21:43
+
+[[file:img/filiales-gnu-linux/tlns-filiales-dev-0299.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0299.png]]
+
+** si no existe lo que necesitas, entonces ocúpate de generarlo!
+
+Hace un par de días, dí mi primer charla en /Nerdearla/ [fn:nerdearla],
+=Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX?= [fn:fgnul]
+y quería que tuviera /líneas de tiempo/ animadas, y luego de buscar por
+la /web/ algún /software/ que las hiciera usando código, no encontré
+nada de mi agrado, asi que llegué a la conclusión de que tenía que
+ocuparme de crear un /script/ que usara =/GraphViz/= [fn:graphviz] y que
+luego lo llamaría =timeline2dot= [fn:timeline2dot] 😎
+
+** y el requermiento?
+
+El auto-requerimiento era generar una línea de tiempo simple, con fechas
+y etiquetas que muestre un rango de fechas y luego se vaya moviendo de
+derecha a izquierda mostrando más días con más etiquetas de eventos
+importantes.
+
+** /Draft/
+
+Comencé a idear cómo mostrar una línea, segmentada en días y luego
+etiquetas que destaquen lo que sucedió en una fecha en particular.
+
+/GraphViz/ es fabuloso, básicamente cuenta con 2 elementos: =node= y
+=edge=, y es bastante difícil lograr posicionar los elementos donde te
+imaginas que deberían estar, esto es así porque debe resolver la
+posición de miles de objetos y entonces la potestad de dónde ubicarlos
+la tiene /GraphViz/.
+
+Sólo podés indicarle preferencias de dónde deberían estar los elementos,
+un posible orden y el mismo se ve afectado por el mismo orden en que
+escribís el código en lenguaje =/DOT/= [fn:dot], pero como llevo un par
+de años jugando con esto, algunas mañas ya se las conozco y siempre
+termino aprendiendo algo nuevo.
+
+En este caso, se me ocurrió usar como =label= de los nodos un /pipe/ =|=
+para usar como indicador de día y el carácter /UTF-8/ para /rectángulo
+vertical negro/ =█= (/BLACK VERTICAL RECTANGLE/ como señalador de día
+importante, desde donde saldría la etiqueta a destacar.
+
+De esta manera, desde el /nodo/ del día destacado con =█= debía realizar
+una relación con el /nodo/ de la etiqueta, por ejemplo
+=pass-utils/v0.0.2= que estaría dentro un rectángulo usando ="rect"=
+como tipo de /shape/.
+
+Para balancear un poco y que no se superpongan 2 etiquetas de días
+contiguos, lo mejor fue, dibujar los /días pares por encima/ de /la
+línea de tiempo/ y los /días impares por debajo/ de la misma.
+
+Y como texto de la relación pondría la fecha de la etiqueta inicialmente
+en formato /ISO8601/ [fn:iso8601] (luego lo cambié a =MMM/DD=) y de esta
+manera obtengo una /línea de tiempo/ completa y simple a la vez!
+
+** =.tln=
+
+Teniendo un /template/ de cómo se vería todo, ahora era hora de generar
+el /script/ =timeline2dot= que se ocuparía de leer desde un archivo de
+texto =.tln= los siguientes campos: =YYYY-MM-DD group tag vM.N.P= por
+ejemplo:
+
+#+BEGIN_EXAMPLE
+2018-09-20 dev ansible v2.7.0rc3 New release v2.7.0rc3
+2018-09-21 dev r_sudoers v2.0.20 Version 2.0.20
+2018-09-25 dev drbl v2.28.4 Released as v2.28.4.
+2018-09-26 dev drbl v2.28.5 Released as v2.28.5.
+2018-09-27 dev ansible v2.5.10 New release v2.5.10
+2018-09-28 dev ansible v2.6.5 New release v2.6.5
+2018-09-29 dev drbl v2.28.6 Released as v2.28.6.
+#+END_EXAMPLE
+
+** los /tags/ se convierten en una /timeline/
+
+La idea era generar un archivo =timeline.tln= por cada repositorio,
+partiendo de la información de los /tags/ de =git= ya que cuentan con
+una fecha de generación y una versión en formato =semver= [fn:semver]
+(/Semantic Version/), además de una anotación extra que podría mostrar.
+
+Asi que ahora en cualquier repositorio git, simplemente ejecuto
+=git-tag-timeline= [fn:git-tag-timeline] y obtengo una /línea de tiempo/
+en forma de archivo =timeline.tln=
+
+** agrupando fechas!
+
+A los efectos de agrupar de alguna manera las diferentes etiquetas de
+los proyectos, resolví utilizar un /script/ =date2stage= [fn:date2stage]
+que se ocuparía de recibir una fecha y devolver el =stage= o =grupo= al
+cuál debería pertenecer, es decir si ingreso =2020-03-15= obtengo =dep=,
+porque desde el /2019-09-02 al 2020-08-31/ estuvimos en la etapa de
+=deploy= del proyecto =Filiales GNU/Linux=
+
+** completando días faltantes!
+
+Para tener un mejor control de los días a visualizar, el /script/
+=timeline-days= se ocupa de completar los días faltantes entre el
+primero y el último definidos en =timeline.tln=
+
+** agregando un poco de estilo!
+
+Si en el directorio actual existe un archivo =timeline.style=, se pueden
+re-definir los colores de cada componente, utilizando como prefijo de
+las variables, los nombres de los nodos, por ejemplo
+=ANSIBLE_EDGE_COLOR=, algunos ejemplos usados:
+
+#+BEGIN_SRC sh :session :results none :exports code
+
+ALL_EDGE_COLOR='#16a085'
+ALL_EDGE_FONTCOLOR='#16a085'
+ALL_NODE_COLOR='#16a085'
+ALL_TAG_EDGE_COLOR='#16a085'
+ALL_TAG_SHAPE_FILL_COLOR='#16a085'
+ANSIBLE_EDGE_COLOR='#1abc9c'
+ANSIBLE_EDGE_FONTCOLOR='#1abc9c'
+ANSIBLE_NODE_COLOR='#1abc9c'
+ANSIBLE_TAG_EDGE_COLOR='#1abc9c'
+ANSIBLE_TAG_SHAPE_FILL_COLOR='#1abc9c'
+APT_EDGE_COLOR='#27ae60'
+APT_EDGE_FONTCOLOR='#27ae60'
+APT_NODE_COLOR='#27ae60'
+APT_TAG_EDGE_COLOR='#27ae60'
+APT_TAG_SHAPE_FILL_COLOR='#27ae60'
+AWX_EDGE_COLOR='#2980b9'
+AWX_EDGE_FONTCOLOR='#2980b9'
+AWX_NODE_COLOR='#2980b9'
+AWX_TAG_EDGE_COLOR='#2980b9'
+AWX_TAG_SHAPE_FILL_COLOR='#2980b9'
+
+#+END_SRC
+
+** series animadas
+
+=timeline-series= se ocupa de generar los archivos =.dot= y =.png= con 1
+día corrido en un período de 15 días para luego convertirlos a un video
+en formato =.mp4= usando =ffmpeg=.
+
+Se genera una imagen por cada día, por ejemplo para el /stage/ =dev=,
+una muestra de algunas imágenes generadas antes de convertise en video!
+
+[[file:img/filiales-gnu-linux/tlns-filiales-dev-0290.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0290.png]]
+
+[[file:img/filiales-gnu-linux/tlns-filiales-dev-0291.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0291.png]]
+
+[[file:img/filiales-gnu-linux/tlns-filiales-dev-0292.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0292.png]]
+
+[[file:img/filiales-gnu-linux/tlns-filiales-dev-0293.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0293.png]]
+
+[[file:img/filiales-gnu-linux/tlns-filiales-dev-0294.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0294.png]]
+
+[[file:img/filiales-gnu-linux/tlns-filiales-dev-0295.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0295.png]]
+
+** video generado!
+
+#+BEGIN_EXPORT html
+<video id="video" autoplay loop background="#000000" preload>
+  <source src="img/filiales-gnu-linux/filiales-dev.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+** tal vez te interese leer
+
+- [[file:imagenes-magicas-imagemagick.org][imágenes mágicas | imagemagick]]
+- [[file:visualizando-grafos-graphviz.org][Visualizando Grafos usando Graphviz]]
+- [[file:2012-03-05-redes-abiertas-versus-redes-cerradas.org][redes abiertas versus redes cerradas]]
+- [[file:2021-03-04-diagrama-de-secuencia-trafico-de-red][Diagrama de secuencia de Tráfico de Red]]
+- [[file:2022-10-20-howto-migrate-6300-hosts-to-gnu-linux-using-ansible-and-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
+- [[file:2022-10-21-use-graphviz-for-slides.org][Usar Graphviz para generar Slides]]
+
+[fn:nerdearla]         https://nerdear.la/
+[fn:fgnul]             https://osiux.com/2022-10-20-howto-migrate-6300-hosts-to-gnu-linux-using-ansible-and-awx.html
+[fn:graphviz]          https://graphviz.org/
+[fn:timeline2dot]      https://gitlab.com/osiux/timeline2dot.git
+[fn:dot]               http://www.graphviz.org/doc/info/lang.html
+[fn:iso8601]           https://es.wikipedia.org/wiki/ISO_8601
+[fn:semver]            https://semver.org/lang/es/
+[fn:git-tag-timeline]  https://gitlab.com/osiux/timeline2dot/-/raw/develop/git-tag-timeline
+[fn:date2stage]        https://gitlab.com/osiux/timeline2dot/-/raw/develop/date2stage
