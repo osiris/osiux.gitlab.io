@@ -1,0 +1,203 @@
+#+TITLE:       Usar Graphviz para generar Slides
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2022-10-21 11:32
+
+Hace años que utilizo /Graphviz/ [fn:graphviz] cada vez que puedo y ayer
+en /Nerdearla/ [fn:nerdearla] generé videos e imágenes para la charla
+=Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX= [fn:fgnul]
+
+** =dot2png=
+
+En lugar de dibujar, se escribe código en lenguaje =DOT= [fn:dot], lo
+básico sería dibujar 3 nodos y sus relaciones:
+
+#+BEGIN_SRC dot :results none :exports code
+digraph lab {
+
+ansible -> awx -> gitlab;
+
+}
+#+END_SRC
+
+Y ejecutando =dot -Tpng lab-00.dot >lab-00.png= se obtiene el resultado!
+
+[[file:img/filiales-gnu-linux/lab-00.png][file:tmb/filiales-gnu-linux/lab-00.png]]
+
+La salida es muy cruda, pero se generó un grafo usando código!
+
+Obviamente se le puede poner un poco de amor =<3=, especificando
+opciones de colores, tamaños de fuentes y hasta usar imágenes =.png=
+para los nodos!
+
+#+BEGIN_SRC dot :results none :exports code
+digraph lab {
+
+  rankdir=LR;
+  resolution=75;
+  nodesep=0.2
+  ranksep=5.5
+  graph [bgcolor="#000000"];
+  node  [fontname=Inconsolata, fontsize=14, color=black];
+  edge  [fontname=Inconsolata, fontsize=50, color=black, style="filled", penwidth="6", color="#000000"];
+
+  ans [shape=plain width=0 height=0 margin=0 label=<
+  <table border="0" cellborder="0" cellpadding="2" cellspacing="2" bgcolor="black" color="#286090">
+    <tr><td><img src="icons/onprem/iac/ansible-white.png" /></td></tr>
+    <tr><td><b><font color="white" face="Inconsolata, Bold" point-size="32">Ansible</font></b></td></tr>
+  </table>
+  >]
+
+  git [shape=plain style=invis width=0 height=0 margin=0 label=<
+  <table border="0" cellborder="0" cellpadding="2" cellspacing="2" bgcolor="black" color="#00b254">
+    <tr><td><img src="icons/onprem/vcs/gitlab.png" /></td></tr>
+    <tr><td><b><font color="white" face="Inconsolata, Bold" point-size="32">git</font></b></td></tr>
+  </table>
+  >]
+
+  awx [shape=plain style=invis width=0 height=0 margin=0 label=<
+  <table border="0" cellborder="0" cellpadding="2" cellspacing="2" bgcolor="black" color="#286090">
+    <tr><td><img src="icons/onprem/iac/awx2.png" /></td></tr>
+    <tr><td><b><font color="white" face="Inconsolata, Bold" point-size="32">AWX</font></b></td></tr>
+  </table>
+  >]
+
+  {rank=same awx; vms; ads; }
+
+  ans -> git -> awx;
+
+}
+
+#+END_SRC
+
+Y ahora el resultado es mucho mas bonito!
+
+[[file:img/filiales-gnu-linux/lab-01.png][file:tmb/filiales-gnu-linux/lab-01.png]]
+
+** [[file:2022-10-25-how-to-make-a-timeline-with-graphviz-using-timeline2dot.org][=timeline2dot=]]
+
+Se puede generar todo tipo de gráficos, es cuestión de aprender a jugar
+y adaptar el código, con un poco de =BASH= pude hacer un generador de
+líneas de tiempo en base a los /tags/ de un repositorio =git=
+
+[[file:img/filiales-gnu-linux/tlns-filiales-dev-0299.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0299.png]]
+
+** =dot2mp4=
+
+Se itera sobre archivos =patron-??.dot= de manera ordenada, convierte
+cada =.dot= en =.png=, luego ajusta el tamaño a un alto definido, por
+ejemplo =800= /pixels/ y centra y compone esta imagen con una imagen de
+fondo o /background/ (por defecto =bg.png=) garantizando que todas las
+imágenes sean iguales. Luego se genera un archivo =.lst= con el nombre
+de cada imagen y una duración de /3 segundos/ por defecto.
+
+Luego de generar cada imagen, se genera un video =.mp4= con un
+/slideshow/ de todas las imágenes!
+
+Lo único a tener en cuenta es que hay que generar un =.dot= por cada
+/slide/ y para ello es necesario ocultar los elementos que no se deben
+ver en un /slide/, para esto una estrategia es usar:
+
+#+BEGIN_SRC dot :session :results none :exports code
+style=invis
+#+END_SRC
+
+y también es válido definir =color= o =fontcolor= en =black= (si el
+fondo es negro), asi de esta manera se garantiza que los objetos no se
+muevan y terminen generando otro gráfico.
+
+#+BEGIN_EXPORT html
+<video id="video" autoplay loop background="#000000" preload>
+  <source src="img/filiales-gnu-linux/awx-deploy-revision.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+** demasiados /pixels/
+
+/Graphviz/ suele generar imágenes extremadamente grandes, que luego muy
+pocos visores pueden mostrar sin colgarse.
+
+Una estrategia es reducir la resolución definiendo:
+
+#+BEGIN_SRC dot 
+digraph dot { 
+  resolution=72;
+}
+#+END_SRC
+
+Pero si se estan dibujando miles de nodos y no estan superpuestos, la
+imagen fácilmente tendrá mas de /10 mil/ /pixels/!
+
+#+BEGIN_EXAMPLE
+
+# identify awx-bccl.png
+awx-bccl.png PNG 11016x11183 11016x11183+0+0 8-bit sRGB 82.4656MiB 0.000u 0:00.000
+
+#+END_EXAMPLE
+
+Un excelente visor es =geeqie= [fn:geeqie], permite hacer /zoom/ y
+soporta imágenes grandes sin colgarse.
+
+** /deep zoom/
+
+En la búsqueda por no perder calidad y poder navegar el grafo de
+=Filiales GNU/Linux= [fn:fgnuldzi] me topé con algo genial, se llama
+=OpenSeaDragon= [fn:openseadragon] que es un visor basado en
+/JavaScript/ para incrustar en sitios web imágenez =.dzi=.
+
+Una imagen =dzi= esta compuesta de 2 partes:
+
+- un archivo =.dzi= (con estensión =.dzi= o =.xml=)
+
+- un subdirectorio de imagenes, cada directorio es nombrado con el nivel
+de resolución. números altos corresponden a resoluciones altas, dentro
+de cada directorio hay una porción de la imagen que corresponde al nivel
+de resolución del directorio. Los números son consecutivos y están en
+columnas desde arriba a la izquierda hacia abajo a la derecha.
+
+#+BEGIN_EXAMPLE
+awx-bccl-v2.dzi
+awx-bccl-v2_files
+.
+├── 0
+├── 1
+├── 10
+├── 11
+├── 12
+├── 13
+├── 14
+├── 2
+├── 3
+├── 4
+├── 5
+├── 6
+├── 7
+├── 8
+└── 9
+#+END_EXAMPLE
+
+Para generar la imagen =.dzi= usé =Python Deep Zoom Tools= [fn:dzipy],
+un /script/ /Python/ que toma la imagen =.png= y la divide en partes.
+
+** También podés leer
+
+- [[file:visualizando-grafos-graphviz.org][http://osiux.com/visualizando-grafos-graphviz.html]]
+- [[file:imagenes-magicas-imagemagick.org][imágenes mágicas | imagemagick]]
+- [[file:visualizando-grafos-graphviz.org][Visualizando Grafos usando Graphviz]]
+- [[file:2012-03-05-redes-abiertas-versus-redes-cerradas.org][redes abiertas versus redes cerradas]]
+- [[file:2021-03-04-diagrama-de-secuencia-trafico-de-red][Diagrama de secuencia de Tráfico de Red]]
+- [[file:2022-10-20-howto-migrate-6300-hosts-to-gnu-linux-using-ansible-and-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
+- [[file:2022-10-25-how-to-make-a-timeline-with-graphviz-using-timeline2dot.org][Cómo hacer una línea de tiempo con GraphViz]]
+
+[fn:nerdearla]      https://nerdear.la/
+[fn:graphviz]       https://graphviz.org/
+[fn:dot]            http://www.graphviz.org/doc/info/lang.html
+[fn:fgnul]          https://osiux.com/2022-10-20-howto-migrate-6300-hosts-to-gnu-linux-using-ansible-and-awx.html
+[fn:dzi]            https://en.wikipedia.org/wiki/Deep_Zoom
+[fn:geeqie]         https://www.geeqie.org/
+[fn:openseadragon]  https://openseadragon.github.io/
+[fn:dzipy]          https://github.com/openzoom/deepzoom.py
+[fn:fgnuldzi]       http://filiales-gnu-linux.g.coop.ar/prd.html
