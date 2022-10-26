@@ -182,3 +182,7 @@ una muestra de algunas imágenes generadas antes de convertise en video!
 [fn:semver]            https://semver.org/lang/es/
 [fn:git-tag-timeline]  https://gitlab.com/osiux/timeline2dot/-/raw/develop/git-tag-timeline
 [fn:date2stage]        https://gitlab.com/osiux/timeline2dot/-/raw/develop/date2stage
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/9166b1634c42e39be8942c4ba99d3d3d3ab041af][=2022-10-26 17:07=]] agregar =Cómo hacer una línea de tiempo con GraphViz=
