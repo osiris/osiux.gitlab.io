@@ -10,11 +10,14 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hjQwbqCUP4" title="HowTo Migrate 6300 hosts to GNU/Linux using Ansible and AWX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+END_EXPORT
 
+This /post/ has an /English/ translation at
+[[https://osiux.com/2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][="How to migrate 6300 hosts to GNU/Linux using Ansible and AWX="]]
+
 ** /nerdearla/
 
 Aprovechando la vuelta presencial de =nerdearla= [fn:nerdearla] edición
 2022 en el /Konex/ [fn:konex], presenté la charla ="Cómo migrar 6300
-equipos a GNU/Linux usando Ansible y AWX"= [fn:fgnlyt]
+equipos a GNU/Linux usando Ansible y AWX"= [fn:fgnulyt]
 
 ** 4 años en un pomodoro?
 
@@ -859,7 +862,7 @@ Los gráficos los hice utilizando [[file:2022-10-21-use-graphviz-for-slides.org]
 
 [fn:nerdearla]        https://nerdear.la/
 [fn:konex]            https://www.cckonex.org/
-[fn:fgnlyt]           https://www.youtube.com/watch?v=3hjQwbqCUP4
+[fn:fgnulyt]          https://www.youtube.com/watch?v=3hjQwbqCUP4
 [fn:fgnulweb]         http://filiales-gnu-linux.g.coop.ar/
 [fn:hugoruscitti]     https://www.examplelab.com.ar/
 [fn:visorvideos]      https://github.com/hugoruscitti/visor-de-videos-multiple
