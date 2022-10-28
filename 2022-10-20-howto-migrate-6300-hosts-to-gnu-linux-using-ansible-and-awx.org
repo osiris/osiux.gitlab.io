@@ -103,7 +103,7 @@ quite a challenge, we did it!
 
 But we are going to see it step by step a little as we were living it.
 
-** lab laboratory
+** [[http://filiales-gnu-linux.g.coop.ar/lab.html][=lab= /laboratory/]]
 
 [[file:img/filiales-gnu-linux/lab-10.png][file:tmb/filiales-gnu-linux/lab-10.png]]
 
@@ -170,7 +170,7 @@ going to virtualize and it was going to have a lot of /virtual machines/
 with /Debian/ again to complete the scheme that was the /stage/ of
 /Laboratory/, it took us six months to realize that!
 
-** =dev= /develop/
+** [[http://filiales-gnu-linux.g.coop.ar/dev.html][=dev= /develop/]]
 
 [[file:img/filiales-gnu-linux/awx-pve-deploy-14.png][file:tmb/filiales-gnu-linux/awx-pve-deploy-14.png]]
 
@@ -310,7 +310,7 @@ permission for anything, that is, everything is done from Headquarters
 in an automated, centralized manner, all changes are versioned, because
 It's the only way to keep control over so many computers...
 
-** =dep= /deploy/
+** [[http://filiales-gnu-linux.g.coop.ar/dep.html][=dep= /deploy/]]
 
 [[file:img/filiales-gnu-linux/awx-wst-deploy-09.png][file:tmb/filiales-gnu-linux/awx-wst-deploy-09.png]]
 
@@ -326,7 +326,7 @@ similar to the above, that is:
 
 In real life, hardly anyone sees that all this is happening behind the scenes, inside AWX or they see green or they see red and everything went well or they call us.
 
-** =stg= /staging/
+** [[http://filiales-gnu-linux.g.coop.ar/stg.html][=stg= /staging/]]
 
 Well, next stage, we're ready for /staging/ !
 
@@ -479,7 +479,7 @@ work, I don't know, the printer of Subsidiary 24 , it's like...
 No hay otra manera, tiene que ser centralizado y tiene que estar
 automatizado!
 
-** sup support
+** [[http://filiales-gnu-linux.g.coop.ar/sup.html][=sup= /support/]]
 
 [[file:img/filiales-gnu-linux/awx-pve-deploy-14.png][file:tmb/filiales-gnu-linux/awx-pve-deploy-14.png]]
 
@@ -505,7 +505,7 @@ concurrence of many users at the same time.
 
 (and I lost everything, wait, F5)
 
-** nxt next
+** [[http://filiales-gnu-linux.g.coop.ar/nxt.html][=nxt= /next/]]
 
 [[file:img/filiales-gnu-linux/awx-deploy-revision-13.png][file:tmb/filiales-gnu-linux/awx-deploy-revision-13.png]]
 
