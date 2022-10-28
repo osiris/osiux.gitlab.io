@@ -11,7 +11,7 @@
 #+END_EXPORT
 
 This /post/ has an /English/ translation at
-[[https://osiux.com/2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][="How to migrate 6300 hosts to GNU/Linux using Ansible and AWX="]]
+[[https://osiux.com/2022-10-20-howto-migrate-6300-hosts-to-gnu-linux-using-ansible-and-awx.org][="How to migrate 6300 hosts to GNU/Linux using Ansible and AWX="]]
 
 ** /nerdearla/
 
