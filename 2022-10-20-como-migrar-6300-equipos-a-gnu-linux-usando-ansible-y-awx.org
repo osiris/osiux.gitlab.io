@@ -884,7 +884,9 @@ Los gráficos los hice utilizando [[file:2022-10-21-use-graphviz-for-slides.org]
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/387554ef0b1bd68cd397823d81fb19021af2a621][=2022-10-28 15:29=]] corregir link a traducción al Inglés de =Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/8839779a2a61bd84a983fd8b09d4816cf69f7297][=2022-10-28 14:35=]] agregar link a traducción al Inglés de =Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f7f08f8e9298dcc586597a6857f20f694b160461][=2022-10-28 13:26=]] renombrar 2022-10-20-howto-migrate-6300-hosts-to-gnu-linux-using-ansible-and-awx.org a 2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx
