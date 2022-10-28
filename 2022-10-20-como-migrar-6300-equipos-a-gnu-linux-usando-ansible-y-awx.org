@@ -879,6 +879,7 @@ Los gráficos los hice utilizando [[file:2022-10-21-use-graphviz-for-slides.org]
 [fn:gcoop-gca]        https://www.gcoop.coop/gca-la-implementacion-de-suitecrm-mas-grande-de-america
 
 
+
 ** ChangeLog
 
-  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c5dc009193ac5792e153c1c034278adbb657626a][=2022-10-26 17:48=]] agregar =Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX=
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f7f08f8e9298dcc586597a6857f20f694b160461][=2022-10-28 13:26=]] renombrar 2022-10-20-howto-migrate-6300-hosts-to-gnu-linux-using-ansible-and-awx.org a 2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx
