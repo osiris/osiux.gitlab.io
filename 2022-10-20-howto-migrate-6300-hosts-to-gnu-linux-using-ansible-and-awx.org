@@ -172,7 +172,7 @@ with /Debian/ again to complete the scheme that was the /stage/ of
 
 ** =dev= /develop/
 
-[[file:img/filiales-gnu-linux/awx-pve-deploy-14.png][file:img/filiales-gnu-linux/awx-pve-deploy-14.png]]
+[[file:img/filiales-gnu-linux/awx-pve-deploy-14.png][file:tmb/filiales-gnu-linux/awx-pve-deploy-14.png]]
 
 And we went to a stage of /Development/!
 
@@ -312,7 +312,7 @@ It's the only way to keep control over so many computers...
 
 ** =dep= /deploy/
 
-[[file:img/filiales-gnu-linux/awx-wst-deploy-09.png][file:img/filiales-gnu-linux/awx-wst-deploy-09.png]]
+[[file:img/filiales-gnu-linux/awx-wst-deploy-09.png][file:tmb/filiales-gnu-linux/awx-wst-deploy-09.png]]
 
 Well, then we were ready to deploy...
 
@@ -341,7 +341,7 @@ And there we find things, right?
 Well there are not only 3000 workstations, there are thousands of
 different peripherals!
 
-[[file:img/filiales-gnu-linux/filiales-gnu-linux-04-printers.png][file:img/filiales-gnu-linux/filiales-gnu-linux-04-printers.png]]
+[[file:img/filiales-gnu-linux/filiales-gnu-linux-04-printers.png][file:tmb/filiales-gnu-linux/filiales-gnu-linux-04-printers.png]]
 
 (let's see if I can pause, there)
 
@@ -353,7 +353,7 @@ whatever it takes...
 
 The technology we use in summary is this:
 
-[[file:img/filiales-gnu-linux/filiales-gnu-linux-05-technology.png][file:img/filiales-gnu-linux/filiales-gnu-linux-05-technology.png]]
+[[file:img/filiales-gnu-linux/filiales-gnu-linux-05-technology.png][file:tmb/filiales-gnu-linux/filiales-gnu-linux-05-technology.png]]
 
 - /Ansible/, /Python/, /AWX/
 - On the /IPA/ side, /IPA/ goes with /CentOS/, /CentOS 7/, when we started the project there was /CentOS 7/, not now, we are going to migrate it
@@ -481,7 +481,7 @@ automatizado!
 
 ** sup support
 
-[[file:img/filiales-gnu-linux/awx-pve-deploy-14.png][file:img/filiales-gnu-linux/awx-pve-deploy-14.png]]
+[[file:img/filiales-gnu-linux/awx-pve-deploy-14.png][file:tmb/filiales-gnu-linux/awx-pve-deploy-14.png]]
 
 (I don't know how we got here on time? I have 3 minutes left!)
 
@@ -507,7 +507,7 @@ concurrence of many users at the same time.
 
 ** nxt next
 
-[[file:img/filiales-gnu-linux/awx-deploy-revision-13.png][file:img/filiales-gnu-linux/awx-deploy-revision-13.png]]
+[[file:img/filiales-gnu-linux/awx-deploy-revision-13.png][file:tmb/filiales-gnu-linux/awx-deploy-revision-13.png]]
 
 Well, what's next?
 
