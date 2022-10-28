@@ -835,8 +835,10 @@ I made the graphs using /GraphViz/
 [fn:gcoop-gca]        https://www.gcoop.coop/gca-la-implementacion-de-suitecrm-mas-grande-de-america
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/84218db8e4d07cd33ae7caf0281f6597a18cc944][=2022-10-28 14:26=]] use thumbnails form images in Draft ="How to migrate 6300 hosts to GNU/Linux using Ansible and AWX"=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1c115ebde4a7e2bc475f6c9b9abed1d87ce05dd4][=2022-10-28 14:18=]] fix typo in footnote reference in Draft ="How to migrate 6300 hosts to GNU/Linux using Ansible and AWX"=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c451e84ae4bf3c7865160da416a8052a414b9ca2][=2022-10-28 13:37=]] add Draft ="How to migrate 6300 hosts to GNU/Linux using Ansible and AWX"=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f7f08f8e9298dcc586597a6857f20f694b160461][=2022-10-28 13:26=]] renombrar 2022-10-20-howto-migrate-6300-hosts-to-gnu-linux-using-ansible-and-awx.org a 2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx
