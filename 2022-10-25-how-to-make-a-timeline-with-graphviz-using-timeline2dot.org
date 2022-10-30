@@ -18,7 +18,7 @@ nada de mi agrado, asi que llegué a la conclusión de que tenía que
 ocuparme de crear un /script/ que usara =/GraphViz/= [fn:graphviz] y que
 luego lo llamaría =timeline2dot= [fn:timeline2dot] 😎
 
-** y el requermiento?
+** y el requerimiento?
 
 El auto-requerimiento era generar una línea de tiempo simple, con fechas
 y etiquetas que muestre un rango de fechas y luego se vaya moviendo de
@@ -142,7 +142,7 @@ día corrido en un período de 15 días para luego convertirlos a un video
 en formato =.mp4= usando =ffmpeg=.
 
 Se genera una imagen por cada día, por ejemplo para el /stage/ =dev=,
-una muestra de algunas imágenes generadas antes de convertise en video!
+una muestra de algunas imágenes generadas antes de convertirse en video!
 
 [[file:img/filiales-gnu-linux/tlns-filiales-dev-0290.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0290.png]]
 
@@ -156,10 +156,10 @@ una muestra de algunas imágenes generadas antes de convertise en video!
 
 [[file:img/filiales-gnu-linux/tlns-filiales-dev-0295.png][file:tmb/filiales-gnu-linux/tlns-filiales-dev-0295.png]]
 
-** video generado!
+** [[file:img/filiales-gnu-linux/filiales-dev.mp4][video generado!]]
 
 #+BEGIN_EXPORT html
-<video id="video" autoplay loop background="#000000" preload>
+<video id="video" controls autoplay loop background="#000000">
   <source src="img/filiales-gnu-linux/filiales-dev.mp4" type="video/mp4">
 </video>
 #+END_EXPORT
