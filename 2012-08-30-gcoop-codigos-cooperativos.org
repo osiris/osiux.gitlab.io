@@ -51,8 +51,10 @@ circular por el mundo. Los esperamos.
 [fn:codigoscoop]  https://www.gcoop.coop/codigos-cooperativos
 [fn:ccbysa]       https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5bd8b8883f6a3f49050c245723d570c27bfbd8f7][=2021-03-31 09:36=]] reemplazar /links/ por /footnotes y referenciar a web.archive.org
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b][=2019-04-18 00:01=]] Corregir identación header #+INCLUDE:
