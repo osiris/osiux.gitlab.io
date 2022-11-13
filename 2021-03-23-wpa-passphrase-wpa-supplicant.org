@@ -85,6 +85,8 @@ dhclient wlan0
 [fn:bug1801751] https://bugs.launchpad.net/wicd/+bug/1801751
 [fn:wifi64aps]  https://osiux.com/2021-03-08-quien-necesita-mas-de-64-redes-cerca.html
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/32ebe13f0d2e16de686b22336627d3d44324e0de][=2021-03-23 23:58=]] agregar /conectar la =wifi= desde la consola/
