@@ -223,7 +223,9 @@ puedo /*vivir del software libre*/, siendo parte de /gcoop/.
 [fn:coopysl]    https://www.gcoop.coop/COOPySL.pdf
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5b2965e6915b434e86f39b3fe7b8262a782af639][=2021-02-18 18:35=]] corregir imprecisiones mundanzas, link a sitio =FACTTIC=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/653e0db952bf717edddb76ce1c82da40496f05d3][=2021-02-16 15:33=]] agregar /Vivir del Software Libre/
