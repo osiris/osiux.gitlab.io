@@ -429,8 +429,10 @@
 [fn:altermesh]       https://libremesh.org/
 [fn:altermesh-nodo]  https://github.com/libremesh/chef
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a09d0000609b046f3cb8bcaf5c1491100f6bb079][=2022-11-13 20:05=]] agregar tags OpenGraph a Altermesh, BuenosAiresLibre y CompartirEsBueno
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b][=2019-04-18 00:01=]] Corregir identación header #+INCLUDE:
