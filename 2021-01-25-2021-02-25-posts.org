@@ -215,7 +215,9 @@
 *** [[file:2011.org][ABSOLUTELLY NO WARRANTY 2011]]
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/374554ed29c70a799fb9f1f97055ba214b50ac92][=2021-02-27 20:46=]] agregar total de /commits/ por tiempo y correcciones menores de sintaxis
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bced8dd506e9bb7e8ab041409147477d3a759a69][=2021-02-26 02:02=]] agregar 2021-01-25 - 2021-02-25 /posts/
