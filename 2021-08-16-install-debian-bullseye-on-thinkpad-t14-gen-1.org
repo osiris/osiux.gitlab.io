@@ -117,7 +117,9 @@ todo muy bien.
 [fn:pass]        file:2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.org
 [fn:ttymusic]    file:2021-02-14-tty-music-on-console.org
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/624bc8d39e7f4e8b7dcca7e866558da23b8fd36e][=2021-08-20 13:00=]] agregar /link/ a /Install Debian Buster on ThinkPad T14 Gen 1/ y corregir sintaxis
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/99ff89cd6260ebabc729205693c08d78fe073e9d][=2021-08-19 11:57=]] agrego Instalar /Debian Bullseye/ en una /ThinkPad T14 Gen 1/
