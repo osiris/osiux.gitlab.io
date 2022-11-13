@@ -65,7 +65,9 @@ pero muy posiblemente lo voy a invocar desde del /hook/ =post-commit=
 para automatizar por completo su generación totalmente desatendida.
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1a143d693a8007793e04914f4e61a7abd3a7e083][=2021-02-04 19:50=]] corrijo link a script =git-log-org-changelog=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f99f1b8e4f3c561aad89598d5773b095cd342835][=2021-02-01 19:33=]] agrego generar /ChangeLog/ en =org-mode= usando =git log=
