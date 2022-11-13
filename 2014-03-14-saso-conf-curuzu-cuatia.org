@@ -112,3 +112,16 @@ puntos del país.
 [fn:informatica] http://www.informaticacuruzu.com.ar/
 [fn:COOPySL] http://pub.osiux.com/COOPySL.pdf
 [fn:grafconsola] http://osiux.com/graficar-desde-consola.html
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b][=2019-04-18 00:01=]] Corregir identación header #+INCLUDE:
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bbc3bbc728f2a3eeb4fe2e0a012ee5d8d613e3ef][=2015-07-03 04:31=]] @ 00:05 hs - elimino #+OPTIONS: de todos los archivos excepto header.org
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a2abb3b333c91e0d3c15ea9e93a21589bd4d86f7][=2015-07-03 03:59=]] @ 01:00 hs - reemplazo :alt por :title y cambios menores
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/74165280ffad770d1f8b8acbfa7f22b95459b52a][=2014-04-22 11:35=]] @ 00:34 hs - Agrego timestamp:nil
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/9608140f9f42d0e61eb8c320755a7ef844e2ef36][=2014-03-21 10:48=]] @ 00:23 hs - Correciones menores a SASOConf y graficar desde consola
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/fbf91e67bc4d617be93925d4d46af32bf2ce8aa3][=2014-03-21 04:39=]] @ 01:14 hs - correcciones varioas a resumen SASOConf y charlas relacionadas
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1e506d1976082f0e2e05d597de401ddc35a638af][=2014-03-20 22:25=]] @ 00:45 hs - Agrego más datos a resumen SASOConf
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/cb5ce195a3b52fab223a33de5a09074b12ca08e6][=2014-03-20 07:12=]] @ 01:00 hs - agrego borrador resumen sasoconf
