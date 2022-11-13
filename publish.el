@@ -77,8 +77,6 @@
              :html-postamble t
              :html-head-include-default-style nil
              :html-head-include-scripts nil
-             :html-head-extra "<link rel=\"icon\" type=\"image/x-icon\" href=\"/favicon.ico\"/>"
-             :html-head-extra "<link rel=\"stylesheet\" type=\"text/css\" href=\"osiux.css\" />"
 						 ; SITEMAP
              :auto-sitemap nil
              :sitemap-filename "sitemap.org"
