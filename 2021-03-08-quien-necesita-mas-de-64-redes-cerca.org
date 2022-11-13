@@ -133,6 +133,8 @@ hacer algun análisis a futuro.
 [fn:thinkpadbuster] https://osiux.com/2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.html
 [fn:graforedes]     https://osiux.com/2012-03-05-redes-abiertas-versus-redes-cerradas.html
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/201bc4b14d140fbcbf4a171442ff4aebad5e9d46][=2021-03-08 23:56=]] agregar /quién necesita mas de 64 redes WiFi cerca?/
