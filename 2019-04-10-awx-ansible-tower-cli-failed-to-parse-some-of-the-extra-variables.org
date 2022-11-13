@@ -89,12 +89,8 @@ Versiones:
 : AWX 2.1.0
 : Ansible 2.7.1
 
+
 ** ChangeLog
 
-   - [2019-04-112 jue] Agrego versiones de =ansible= y =tower-cli=
-
-[fn:ansible]   https://www.ansible.com/
-[fn:tower-cli] https://tower-cli.readthedocs.io/en/latest/
-[fn:awx]       https://github.com/ansible/awx
-
-  @ 00:38 hs
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/642c747345c7b45e94e58dfe087d3cce78d604f7][=2019-04-16 00:36=]] Agregar .gitlab-ci.yml y publish.el para generar sitio en gitlab.com
