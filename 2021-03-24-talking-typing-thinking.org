@@ -265,7 +265,9 @@ De todos modos, tengo que ir a darme una ducha. 🚿
 [fn:redis]            https://redis.io/documentation
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/49b23dcf61daf60f2bc81f7b0901b57a800e679f][=2021-03-24 23:21=]] corregir formato /link footnote/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a533fb86ad5ebda931a19ec321bba90dad633b3b][=2021-03-24 23:19=]] agregar traducción de /talking - typing - thinking/
