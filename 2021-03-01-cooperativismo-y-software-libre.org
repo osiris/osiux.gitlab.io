@@ -74,6 +74,8 @@ mundo alternativo.
 [fn:pintores]    http://www.paulgraham.es/ensayos/hackers-y-pintores.html
 [fn:saberes]     http://empresasrecuperadas.org/Saberes-Recuperados-Completo.pdf
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/57fe05fcbe5132001bd3c590ebade2f05b8b4eee][=2021-03-01 23:01=]] agregar /Cooperativismo y Software Libre/
