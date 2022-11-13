@@ -27,6 +27,14 @@ BLOG_HEAD=$(cat << EOF
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
 #+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+#+HTML_HEAD: <meta property="og:title"       content="ABSOLUTELLY NO WARRANTY | OSiUX Blog" />
+#+HTML_HEAD: <meta property="og:type"        content="website" />
+#+HTML_HEAD: <meta property="og:url"         content="https://osiux.com/" />
+#+HTML_HEAD: <meta property="og:image"       content="https://osiux.com/img/no-soy-un-pirata-compartir-es-bueno.jpg" />
+#+HTML_HEAD: <meta property="og:image:alt"   content="No soy un Pirata, Compartir es Bueno" />
+#+HTML_HEAD: <meta property="og:description" content="GNU/Linux and Free Libre Open Software posts" />
+#+HTML_HEAD: <meta property="og:site_name"   content="OSiUX" />
+#+HTML_HEAD: <meta property="og:locale"      content="en_ES" />
 EOF
 )
 
