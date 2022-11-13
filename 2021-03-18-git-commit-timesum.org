@@ -96,7 +96,9 @@ podrían obtener con los tiempos registrados en los /commits/ de un repo
 [fn:txt-bash-jrnl]     https://gitlab.com/osiux/txt-bash-jrnl/
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/efb8315115f34fd7d285c674a867f9877f69c432][=2021-03-19 00:43=]] corregir /link/ a =git-repos2org= y agregar links a /gcoop/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4d52b7d119c3495ed0fc171ffe620c36a3339992][=2021-03-18 23:03=]] agregar /=git commit timesum=/
