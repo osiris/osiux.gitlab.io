@@ -65,7 +65,9 @@ Ahora luego de cada /commit/ se genera un /commit/ de /ChangeLog/
 automáticamente :)
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0c95f6b70f0cb765decca57ad01116a568bafbf4][=2021-02-04 11:46=]] detallo inconvenientes y solución final de =post-commit= /ChangeLog/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/736b44d0b43f4fb420ae9cab5585b28ac953b41a][=2021-02-03 23:00=]] agrego git =post-commit= /ChangeLog/
