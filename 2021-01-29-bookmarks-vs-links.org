@@ -112,8 +112,10 @@ mantener un /mirror/ de cada /link/, y "en breve" voy a escribir al
 respecto.
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/78b7254030feaa83b9279622914b2f708bfbd016][=2021-02-02 18:30=]] corrijo link roto a /gitlab-ci org-mode publish/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1b40b6045d031a7e1f19675f330db6b39f8ba4b4][=2021-02-02 18:07=]] agregar URLs de referencia a aplicaciones mencionadas
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/59d53d185d5b919e6797fbede574372b7edb278b][=2021-02-01 18:00=]] corrijo fecha de bookmarks vs links
