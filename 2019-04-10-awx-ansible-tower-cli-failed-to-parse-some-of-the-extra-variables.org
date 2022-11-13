@@ -1,4 +1,4 @@
-#+TITLE:     AWX Ansible =tower_cli.exceptions.TowerCLIError: failed to parse some of the extra variables=
+#+TITLE:       AWX Ansible =tower_cli.exceptions.TowerCLIError: failed to parse some of the extra variables=
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
@@ -15,9 +15,8 @@
 
 
 Estoy ejecutando un /playbook/ de /Ansible/ [fn:ansible] que utiliza
-=tower-cli= [fn:tower-cli] para interactuar con un servidor
-*AWX* [fn:awx] y me encontré varios minutos intentando corregir este
-error:
+=tower-cli= [fn:awx-cli] para interactuar con un servidor *AWX* [fn:awx]
+y me encontré varios minutos intentando corregir este error:
 
 : TASK [debug] *******************************************************************************
 : task path: /mnt/data/git/ansible-tower-cli/inventory.yml:10
@@ -89,6 +88,9 @@ Versiones:
 : AWX 2.1.0
 : Ansible 2.7.1
 
+[fn:awx]                  https://github.com/ansible/awx/
+[fn:awx-cli]              https://github.com/ansible/tower-cli
+[fn:ansible]              https://www.ansible.com/
 
 ** ChangeLog
 
