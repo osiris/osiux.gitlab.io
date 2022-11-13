@@ -103,3 +103,12 @@
 [fn:KISS] https://en.wikipedia.org/wiki/KISS_principle
 [fn:spark] https://github.com/holman/spark
 
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1f6384ca69090d6834954ad64441e507d14ede0b][=2019-04-18 02:11=]] Actualizar archive, years, charlas y corregir babel en un post
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/882b1cda084f7c18362c8414a78dd65c7b968a3f][=2019-04-09 03:01=]] Recuperar archivos en .md y convertirlos a .org
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1311ba6ddb764547ee6f44b036a1d5fa9c11d15e][=2016-02-03 18:20=]] @ 00:01 hs - mejor barra spark en 2016-02-03-monitoreo-en-status-bar-de-tmux.org
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/6efd26549d3920141eb203a1572e616760c96405][=2016-02-03 03:07=]] @ 02:00 hs - reorganizo archive blog y agrego primer post del 2016 :)
