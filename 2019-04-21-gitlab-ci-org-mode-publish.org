@@ -165,3 +165,13 @@ pages:
 [fn:gitlab-pages] https://docs.gitlab.com/ee/user/project/pages/
 [fn:gitlab-ci]    https://docs.gitlab.com/ee/ci/
 [fn:org-mode]     https://orgmode.org/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7bf4594ad042a0bd8303be04292ec72a511885d6][=2019-04-21 02:55=]] corregir typos en gitlab-ci-org-mode-publish
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4806fd55432495c70c64c3df7402fbb1f327619a][=2019-04-21 02:40=]] Corregir sequencia gitlab-ci-org-mode-publish
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/955b3705338430f013b84f844b8a478b6abeabec][=2019-04-21 02:03=]] Agregar referencias en gitlab-ci-org-mode-publish
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7fb1bd608539772d1e9693098ddbc5e955b06ff0][=2019-04-21 01:25=]] Quitar : en #+BEGIN_SRC
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c791a526c578a53f91a95097e6295b1e88c33235][=2019-04-21 01:33=]] Corregir bloque de codigo emacd-lisp
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/047af735f8be5e450ec1517654e3e4f57f787240][=2019-04-21 00:36=]] Corregir fecha y typo de gitlab-ci-org-mode-publish
