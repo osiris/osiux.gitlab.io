@@ -34,7 +34,7 @@ BLOG_HEAD=$(cat << EOF
 #+HTML_HEAD: <meta property="og:image:alt"   content="No soy un Pirata, Compartir es Bueno" />
 #+HTML_HEAD: <meta property="og:description" content="GNU/Linux and Free Libre Open Software posts" />
 #+HTML_HEAD: <meta property="og:site_name"   content="OSiUX" />
-#+HTML_HEAD: <meta property="og:locale"      content="en_ES" />
+#+HTML_HEAD: <meta property="og:locale"      content="es_AR" />
 EOF
 )
 
