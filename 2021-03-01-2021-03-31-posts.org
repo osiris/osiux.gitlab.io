@@ -140,6 +140,8 @@
 *** [[file:2021-03-01-cooperativismo-y-software-libre.org][Cooperativismo y Software Libre]]
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5824c4fccb678b9e7a3752f375312cac2235049b][=2021-03-31 23:16=]] agregar estadísticas de /commits/ y /posts/ del 2021-03-01 al 2021-03-31
