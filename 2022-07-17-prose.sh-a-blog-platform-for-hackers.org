@@ -152,7 +152,9 @@ compartiendo mis /scripts/!
 [fn:osiux-rss]    https://osiux.prose.sh/rss
 
 
+
 ** ChangeLog
 
-  - [[https://gitlab.com//osiux/osiux.gitlab.io/-/commit/05428b3e8f402af9b7652e8fbeaf2b95d32ae589][=2022-07-18 23:09=]] corregir sintaxis en /prose.sh a blog platform for hackers/
-  - [[https://gitlab.com//osiux/osiux.gitlab.io/-/commit/246ea0cb8a8a1f85e44d6f911523935bd6e7c82d][=2022-07-17 20:10=]] agregar prose.sh a blog platform for hackers
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/05428b3e8f402af9b7652e8fbeaf2b95d32ae589][=2022-07-18 23:09=]] corregir sintaxis en /prose.sh a blog platform for hackers/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/246ea0cb8a8a1f85e44d6f911523935bd6e7c82d][=2022-07-17 20:10=]] agregar prose.sh a blog platform for hackers
