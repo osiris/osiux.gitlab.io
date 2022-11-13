@@ -94,6 +94,8 @@ Compartimos la carta [fn:carta-pci] enviada al Ministro, y agradecemos su difusi
 [fn:via-libre]  https://www.vialibre.org.ar/bienvenido-de-vuelta-conectar-igualdad-microsoft-y-estado-asunto-separado/
 [fn:carta-pci]  https://www.vialibre.org.ar/wp-content/uploads/2022/01/Bienvenido-de-vuelta-Conectar-Igualdad-_-Estado-y-Microsoft-Asunto-Separado-1.pdf
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1a30b5b206cd2aa6e439abfda06ababe8c2c78e7][=2022-01-17 23:59=]] agregar /Bienvenido de vuelta Conectar Igualdad - Microsoft y Estado, Asunto Separado/
