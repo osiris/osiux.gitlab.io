@@ -5,6 +5,30 @@
 #+LINK_HOME: index.html
 #+INCLUDE:   header.org
 #+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+#+HTML_HEAD: <meta property="og:title"       content="ABSOLUTELLY NO WARRANTY | OSiUX Blog" />
+#+HTML_HEAD: <meta property="og:type"        content="website" />
+#+HTML_HEAD: <meta property="og:url"         content="https://osiux.com/" />
+#+HTML_HEAD: <meta property="og:image"       content="https://osiux.com/img/no-soy-un-pirata-compartir-es-bueno.jpg" />
+#+HTML_HEAD: <meta property="og:image:alt"   content="No soy un Pirata, Compartir es Bueno" />
+#+HTML_HEAD: <meta property="og:description" content="GNU/Linux and Free Libre Open Software posts" />
+#+HTML_HEAD: <meta property="og:site_name"   content="OSiUX" />
+#+HTML_HEAD: <meta property="og:locale"      content="en_ES" />
+
+*** [[file:2022-10-25-how-to-make-a-timeline-with-graphviz-using-timeline2dot.org][Cómo hacer una línea de tiempo con GraphViz]]
+
+*** [[file:2022-10-21-use-graphviz-for-slides.org][Usar Graphviz para generar Slides]]
+
+*** [[file:2022-10-20-howto-migrate-6300-hosts-to-gnu-linux-using-ansible-and-awx.org][How to migrate 6300 hosts to GNU/Linux using Ansible and AWX]]
+
+*** [[file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
+
+*** [[file:2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.org][Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools]]
+
+*** [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
+
+*** [[file:2022-08-21-howto-use-gitlab-from-command-line.org][cómo usar /GitLab/ desde la línea de comandos]]
+
+*** [[file:2022-08-02-osiux-wip-flow.org][OSiUX Work In Progress Flow]]
 
 *** [[file:2022-07-20-lists.sh-es-para-amantes-de-las-listas.org][=lists.sh= es para amantes de las listas]]
 
@@ -49,22 +73,6 @@
 *** [[file:2021-03-07-xscreensaver-watch-pomodoro.org][=xscreensaver-watch= pomodoro]]
 
 *** [[file:2021-03-06-galeria-de-imagenes.org][generar Galería de Imágenes]]
-
-*** [[file:2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.org][convertir la imagen de un número a un número usando gocr]]
-
-*** [[file:2021-03-04-diagrama-de-secuencia-trafico-de-red.org][Diagrama de secuencia de Tráfico de Red]]
-
-*** [[file:2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.org][Diagramas de Topología de Red =csv2nwdiag=]]
-
-*** [[file:2021-03-02-email-desde-consola.org][email desde consola]]
-
-*** [[file:2021-03-01-cooperativismo-y-software-libre.org][Cooperativismo y Software Libre]]
-
-*** [[file:2021-03-01-2021-03-31-posts.org][ABSOLUTELLY NO WARRANTY /posts/ 2021-03-01 - 2021-03-31]]
-
-*** [[file:2021-02-26-30-dias-de-posts-por-la-birra.org][🍺🍺🍺 30 días de /posts/ por la birra!]]
-
-*** [[file:2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.org][/no me acuerdo de nada... dejame en =pass=!/]]
 
 
 ** [[file:blog.org][=blog=]]
