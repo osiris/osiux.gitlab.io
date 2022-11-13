@@ -38,3 +38,10 @@
    esperar un poco más porque faltaban 97 pasajeros todos demorados
    por otros vuelos, no quedaba otra asi que empecé a mirar
    películas...
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/682f3f0adff5b9ddfc40d3f0eba5b8ebb2f13128][=2019-04-09 19:37=]] Actualizar archivos para exportar a html utiliznado publish.el
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/882b1cda084f7c18362c8414a78dd65c7b968a3f][=2019-04-09 03:01=]] Recuperar archivos en .md y convertirlos a .org
