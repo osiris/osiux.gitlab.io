@@ -74,6 +74,8 @@ lista de links [fn:links] de sitios que me interesa compartir.
 [fn:simpletask]  https://github.com/mpcjanssen/simpletask-android
 [fn:links]       https://osiux.com/2021-01-29-bookmarks-vs-links.html
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/6cf68bed15fe9afc139a6cb4f21d59ff28cab468][=2021-03-16 23:28=]] agregar =todo.txt= es una lista de tareas
