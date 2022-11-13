@@ -4,7 +4,15 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-06-30 22:19
+#+DATE:        2012-06-30 22:19
+#+HTML_HEAD:   <meta property="og:title" content="Flasheando un TPLink MR3220 con BATMAN Mesh en HackBo durante las Cuartas Jornadas Regionales Redes Libres" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-06-30" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2012-06-30-hackbo-jrrl4-flash-tplink-mr3220-batman-mesh.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 El 30 de Junio estuve en el [[http://hackbo.co/][HackBo]] dando una
 charla/taller sobre como flashear un AccessPoint TPLink MR3320 usando

@@ -16,6 +16,7 @@
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 #+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/filiales-gnu-linux/awx-bccl-center.png" />
 
+
 #+BEGIN_EXPORT html
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3hjQwbqCUP4" title="HowTo Migrate 6300 hosts to GNU/Linux using Ansible and AWX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 #+END_EXPORT

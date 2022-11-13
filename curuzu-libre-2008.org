@@ -5,6 +5,15 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+DATE:        2008-11-15 16:31
+#+HTML_HEAD:   <meta property="og:title" content="Primeras Charlas Software Libre Curuzú Cuatiá 6 y 7 Nov 2008" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2008-11-15" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/curuzu-libre-2008.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/GNU.png" />
+
 
 ** Qué es el Software Libre?
 *** ¿Cómo empezó todo?

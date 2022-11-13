@@ -1,10 +1,19 @@
-#+TITLE:     Renombrar y Ordenar Fotos Duplicadas
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       Renombrar y Ordenar Fotos Duplicadas
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2015-01-10 12:28
+#+DATE:        2015-01-10 12:28
+#+HTML_HEAD:   <meta property="og:title" content="Renombrar y Ordenar Fotos Duplicadas" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2015-01-10" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2015-01-10-renombrar-y-ordenar-fotos-duplicadas.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/nahuel-osiris-leonel.jpg" />
+
 
 #+ATTR_HTML: :width 640 :height 320 :title En casa usamos Debian
 [[file:img/nahuel-osiris-leonel.jpg]]

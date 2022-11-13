@@ -1,10 +1,18 @@
-#+TITLE:     DIsaster REcovery PLan OSiux
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
-#+INCLUDE:   header.org
-#+DATE:      2021-01-26 20:10
+#+TITLE:       DIsaster REcovery PLan OSiux
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2021-01-26 20:10
+#+HTML_HEAD:   <meta property="og:title" content="DIsaster REcovery PLan OSiux" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2021-01-26" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021-01-26-disaster-recovery-plan-osiux.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 
 ** Si algo malo puede pasar, pasará!

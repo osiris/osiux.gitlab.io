@@ -1,10 +1,19 @@
-#+TITLE:     FLISoL Avellaneda en la Universidad Nacional de Avellaneda
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       FLISoL Avellaneda en la Universidad Nacional de Avellaneda
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2014-04-26 03:04
+#+DATE:        2014-04-26 03:04
+#+HTML_HEAD:   <meta property="og:title" content="FLISoL Avellaneda en la Universidad Nacional de Avellaneda" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2014-04-26" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2014-04-26-flisol-avellaneda-undav.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/flisol-2014-undav/2014-04-26-1411-e167fe.jpg" />
+
 
 ** UNDAv
 

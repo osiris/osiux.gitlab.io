@@ -5,6 +5,15 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+DATE:        2021-03-04 23:00
+#+HTML_HEAD:   <meta property="og:title" content="Diagrama de secuencia de Tráfico de Red" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2021-03-04" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021-03-04-diagrama-de-secuencia-trafico-de-red.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pcap2uml-ldap-krb5-sign-seal-01.png" />
+
 
 
 ** no entiendo nada

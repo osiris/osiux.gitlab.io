@@ -4,7 +4,16 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-06-01 22:19
+#+DATE:        2012-06-01 22:19
+#+HTML_HEAD:   <meta property="og:title" content="PirateBox PirateFloppy" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-06-01" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2012-06-01-pirate-box-floppy-disk.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pirate-box-floppy-disk-1280-01.jpg" />
+
 
 PirateBox [fn:piratebox] es un proyecto para compartir archivos usando
 un router WiFi, en mi caso estoy usando un TPLink MR3020 [fn:mr3020] y

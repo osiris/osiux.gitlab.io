@@ -1,10 +1,18 @@
-#+TITLE:     Inscripción Cursos de Formación Profesional en Software Libre
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       Inscripción Cursos de Formación Profesional en Software Libre
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2013-03-31 20:09
+#+DATE:        2013-03-31 20:09
+#+HTML_HEAD:   <meta property="og:title" content="Inscripción Cursos de Formación Profesional en Software Libre" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2013-03-31" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2013-03-31-inscripcion-cursos-de-formacion-profesional.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 [[http://gcoop.coop][gcoop]] abrió la inscripción a los *Cursos de Formación Profesional en
 Software Libre*, en convenio con el /Ministerio de Trabajo de la

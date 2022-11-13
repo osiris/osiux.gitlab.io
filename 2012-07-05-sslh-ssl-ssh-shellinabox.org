@@ -1,10 +1,18 @@
-#+TITLE:     sslh ssl ssh shellinabox
-#+AUTHOR:    Osiris Alejandro Gomez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       sslh ssl ssh shellinabox
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-07-05 22:19
+#+DATE:        2012-07-05 22:19
+#+HTML_HEAD:   <meta property="og:title" content="sslh ssl ssh shellinabox" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-07-05" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2012-07-05-sslh-ssl-ssh-shellinabox.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 Como todo amante de =*UNIX= siempre quiero tener un
 =shell/terminal/consola/ssh= disponible y desde hace mucho que vengo

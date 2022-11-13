@@ -1,12 +1,20 @@
 #+startup: beamer
 #+LaTeX_CLASS: beamer
 #+LaTeX_CLASS_OPTIONS: [presentation,t]
-#+LANGUAGE: es
+#+LANGUAGE:    es
 #+BEAMER_HEADER_EXTRA: \usetheme{Madrid}\usecolortheme{default}
 #+BEAMER_FRAME_LEVEL: 2
-#+TITLE: de fondo negro a fondo blanco
-#+AUTHOR: OSiRiS <osiris@gcoop.coop>
-#+DATE:      2012-02-14 05:38
+#+TITLE:       de fondo negro a fondo blanco
+#+AUTHOR:      OSiRiS <osiris@gcoop.coop>
+#+DATE:        2012-02-14 05:38
+#+HTML_HEAD:   <meta property="og:title" content="de fondo negro a fondo blanco" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-02-14" />
+#+HTML_HEAD:   <meta property="og:article:author" content="OSiRiS <osiris@gcoop.coop>" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/de-fondo-negro-a-fondo-blanco.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 #+LANGUAGE: es
 #+COLUMNS: %10ID %10STATUS %10ASSIGNED(Asignado) %50ITEM
 

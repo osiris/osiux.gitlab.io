@@ -4,7 +4,15 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-06-15 22:19
+#+DATE:        2012-06-15 22:19
+#+HTML_HEAD:   <meta property="og:title" content="Hackaton Software Libre y Economía Social en 28 segundos" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-06-15" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2012-06-15-hackaton-SLyES-en-28-segundos.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 Ariel de [[http://gcoop.coop][gcoop]], dejó la cámara sacando **una foto
 cada 30 segundos** durante el hackaton del

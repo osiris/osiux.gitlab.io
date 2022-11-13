@@ -1,10 +1,19 @@
-#+TITLE:     OSiUX =tty=, terminal, consola, ncurses, shell, línea de comandos
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
-#+INCLUDE:   header.org
-#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+#+TITLE:       OSiUX =tty=, terminal, consola, ncurses, shell, línea de comandos
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        {{{modification-time(%Y-%m-%d %H:%M)}}}
+#+HTML_HEAD:   <meta property="og:title" content="OSiUX =tty=, terminal, consola, ncurses, shell, línea de comandos" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-11-13" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/tty.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/tty-shell-lsd.png" />
+
 
 
 ** /=dame una consola=/ [fn:dame1consola] =<3=

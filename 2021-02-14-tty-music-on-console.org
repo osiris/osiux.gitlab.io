@@ -5,6 +5,15 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+DATE:        2021-02-14 11:27
+#+HTML_HEAD:   <meta property="og:title" content="=tty= /Music On Console/" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2021-02-14" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021-02-14-tty-music-on-console.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/tty-music-on-console.png" />
+
 
 
 #+ATTR_HTML: :width 640 :height 360 :title tty music on console screenshot

@@ -4,7 +4,16 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-08-27 22:19
+#+DATE:        2012-08-27 22:19
+#+HTML_HEAD:   <meta property="og:title" content="preparando varias charlas para los próximos eventos" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-08-27" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2012-08-27-proximas-charlas-y-eventos.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/COOPySL-CNEISI.png" />
+
 
 Tengo un poco abandonado mi sitio web, obviamente estoy con muy poco tiempo y
 en parte se debe al hecho de que voy a estar participando de varios eventos y

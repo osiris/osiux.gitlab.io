@@ -1,10 +1,18 @@
-#+TITLE:     ABSOLUTELLY NO WARRANTY 2021
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
-#+INCLUDE:   header.org
-#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+#+TITLE:       ABSOLUTELLY NO WARRANTY 2021
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        {{{modification-time(%Y-%m-%d %H:%M)}}}
+#+HTML_HEAD:   <meta property="og:title" content="ABSOLUTELLY NO WARRANTY 2021" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2021" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 
 **** [[file:2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.org][=2021-02-19= /no me acuerdo de nada... dejame en =pass=!/]]

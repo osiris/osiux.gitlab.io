@@ -1,10 +1,19 @@
-#+TITLE:     Festival Latinoamericano de Instalación de Software Libre
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       Festival Latinoamericano de Instalación de Software Libre
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2014-04-22 10:29
+#+DATE:        2014-04-22 10:29
+#+HTML_HEAD:   <meta property="og:title" content="Festival Latinoamericano de Instalación de Software Libre" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2014-04-22" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2014-04-22-flisol-2014.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/flisol-2014-banner.png" />
+
 
 #+ATTR_HTML: :width 640 :height 366 :title FLISoL 2014
 [[file:img/flisol-2014-banner.png]]

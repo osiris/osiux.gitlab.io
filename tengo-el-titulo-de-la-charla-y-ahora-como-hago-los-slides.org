@@ -1,10 +1,18 @@
-#+TITLE:     tengo el título de la charla y ahora cómo hago los slides?
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
-#+INCLUDE:   header.org
-#+DATE:      2013-01-15 10:24
+#+TITLE:       tengo el título de la charla y ahora cómo hago los slides?
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2013-01-15 10:24
+#+HTML_HEAD:   <meta property="og:title" content="tengo el título de la charla y ahora cómo hago los slides?" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2013-01-15" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/tengo-el-titulo-de-la-charla-y-ahora-como-hago-los-slides.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 Hace varios años que me aventuré a dar charlas del proyecto
 *BuenosAiresLibre.org* [fn:BAL], recuerdo que me preguntaron

@@ -4,7 +4,16 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-04-28 22:19
+#+DATE:        2012-04-28 22:19
+#+HTML_HEAD:   <meta property="og:title" content="Cooperativismo y Software Libre en FLISOL Buenos Aires" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-04-28" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2012-04-28-flisol-cooperativismo-y-software-libre.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/COOPySL.png" />
+
 
 Este año en el [[http://flisol.info][Festival Latinoamericano de
 Instalación de Software Libre]] de Buenos Aires, pude dar una charla de

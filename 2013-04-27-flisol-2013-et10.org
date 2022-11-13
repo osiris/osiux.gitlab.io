@@ -4,7 +4,16 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2013-04-27 13:28
+#+DATE:        2013-04-27 13:28
+#+HTML_HEAD:   <meta property="og:title" content="FLISoL 2013 Escuela Ténica 10 Villa Madero, La Matanza" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2013-04-27" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2013-04-27-flisol-2013-et10.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/flisol-2013-et10/2013-04-27-1042-3fecd5.jpg" />
+
 
 El sábado 27 de Abril, junto a /Hugo Ruscitti/ [fn:hugo] de
 *gcoop* [fn:gcoop] estuvimos participando del *FLISoL* [fn:flisol] en

@@ -1,10 +1,19 @@
-#+TITLE:     Sincronizar Repositorios git con git-repos
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
-#+INCLUDE:   header.org
-#+DATE:      2015-01-14 14:00
+#+TITLE:       Sincronizar Repositorios git con git-repos
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2015-01-14 14:00
+#+HTML_HEAD:   <meta property="og:title" content="Sincronizar Repositorios git con git-repos" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2015-01-14" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2015-01-14-sincronizar-repositorios-git-repos.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/git-repos-osiris.png" />
+
 
 #+ATTR_HTML: :width 640 :height 480 :title git-repos
 [[file:img/git-repos-osiris.png][file:tmb/git-repos-osiris.png]]

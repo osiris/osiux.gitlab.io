@@ -1,10 +1,18 @@
-#+TITLE:     ODISEA Redes Libres en Anisacate
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       ODISEA Redes Libres en Anisacate
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2013-06-14 02:31
+#+DATE:        2013-06-14 02:31
+#+HTML_HEAD:   <meta property="og:title" content="ODISEA Redes Libres en Anisacate" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2013-06-14" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2013-06-14-odisea-cortometraje-redes-libres-en-anisacate.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 Cortometraje de /Lucas Schiaroli/ y su productora /25watts/ sobre las
 *RedesLibres* [fn:redeslibres], contado desde la experiencia de

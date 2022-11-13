@@ -1,10 +1,19 @@
-#+TITLE:     Software Libre en las Olimpíadas Informáticas de Monte Caseros
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       Software Libre en las Olimpíadas Informáticas de Monte Caseros
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2011-10-24 12:15
+#+DATE:        2011-10-24 12:15
+#+HTML_HEAD:   <meta property="og:title" content="Software Libre en las Olimpíadas Informáticas de Monte Caseros" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2011-10-24" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/olimpiadas-informaticas-en-monte-caseros.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/olimpiadas-monte-caseros/2011-10-21_olimpiadas-monte-caseros_12.jpg" />
+
 
 ** Las olimpíadas
 

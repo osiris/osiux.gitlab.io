@@ -4,7 +4,15 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-05-23 01:15
+#+DATE:        2012-05-23 01:15
+#+HTML_HEAD:   <meta property="og:title" content="la escala lo cambia todo" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-05-23" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/la-escala-lo-cambia-todo.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 Llevo más de seis años participando del proyecto *BuenosAiresLibre*
 también conocido como BAL [fn:BAL] y hemos realizado todo tipo de

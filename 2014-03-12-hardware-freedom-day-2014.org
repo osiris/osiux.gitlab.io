@@ -1,10 +1,19 @@
-#+TITLE:     Hardware Freedom Day 2014
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       Hardware Freedom Day 2014
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2014-03-12 09:25
+#+DATE:        2014-03-12 09:25
+#+HTML_HEAD:   <meta property="og:title" content="Hardware Freedom Day 2014" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2014-03-12" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2014-03-12-hardware-freedom-day-2014.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/Hardware-Freedom-Day-2014.png" />
+
 
 #+ATTR_HTML: :width 640 :height 346 :title Hardware Freedom Day 2014
 [[file:img/Hardware-Freedom-Day-2014.png][file:tmb/Hardware-Freedom-Day-2014.png]]

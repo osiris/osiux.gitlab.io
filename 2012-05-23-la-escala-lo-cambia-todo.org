@@ -4,7 +4,15 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2012-05-23 22:19
+#+DATE:        2012-05-23 22:19
+#+HTML_HEAD:   <meta property="og:title" content="si en tu barrio no hay una red libre, es momento de crearla y unirla a otras redes libres" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-05-23" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2012-05-23-la-escala-lo-cambia-todo.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 Esta madrugada leí un interesante artículo titulado *si en tu barrio
 no hay un nodo* [fn:hollman] realizado por Hollman Enciso

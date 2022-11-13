@@ -5,6 +5,16 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+DATE:        2022-08-21 19:49
+#+HTML_HEAD:   <meta property="og:title" content="cómo usar /GitLab/ desde la línea de comandos" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-08-21" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-08-21-howto-use-gitlab-from-command-line.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/gitlab-bash-utils.jpg" />
+
+
 
 [[file:img/gitlab-bash-utils.jpg][file:tmb/gitlab-bash-utils.jpg]]
 

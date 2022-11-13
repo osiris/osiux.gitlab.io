@@ -1,10 +1,18 @@
-#+TITLE:     Information Technology Conexión Libre
-#+AUTHOR:    Lucas Ledesma
-#+EMAIL:     ledesma punto ar en gmail punto com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       Information Technology Conexión Libre
+#+AUTHOR:      Lucas Ledesma
+#+EMAIL:       ledesma punto ar en gmail punto com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2011-11-01 11:18
+#+DATE:        2011-11-01 11:18
+#+HTML_HEAD:   <meta property="og:title" content="Information Technology Conexión Libre" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2011-11-01" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Lucas Ledesma" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2013-11-01-information-technology-conexion-libre.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 En la revista Information Technology Nro. 193 de Octubre 2013, en la
 sección Actualidad/TELCOS apareció la siguiente nota:

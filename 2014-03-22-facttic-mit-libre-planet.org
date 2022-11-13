@@ -1,10 +1,19 @@
-#+TITLE:     Las Cooperativas de tecnología argentinas contaron su experiencia de trabajo en el MIT
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiris@gcoop.coop
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       Las Cooperativas de tecnología argentinas contaron su experiencia de trabajo en el MIT
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiris@gcoop.coop
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2014-03-22 10:06
+#+DATE:        2014-03-22 10:06
+#+HTML_HEAD:   <meta property="og:title" content="Las Cooperativas de tecnología argentinas contaron su experiencia de trabajo en el MIT" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2014-03-22" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2014-03-22-facttic-mit-libre-planet.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/facttic-mit-libre-planet.jpg" />
+
 
 #+ATTR_HTML: :width 400 :height 265 :title FACTTIC MIT LibrePlanet
 [[file:img/facttic-mit-libre-planet.jpg]]

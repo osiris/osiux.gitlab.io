@@ -1,10 +1,19 @@
-#+TITLE:     Huayra, el día que las vacas vuelen, llegó!
-#+AUTHOR:    Osiris Alejandro Gomez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       Huayra, el día que las vacas vuelen, llegó!
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2013-03-18 05:39
+#+DATE:        2013-03-18 05:39
+#+HTML_HEAD:   <meta property="og:title" content="Huayra, el día que las vacas vuelen, llegó!" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2013-03-18" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2013-03-18-huayra-el-dia-que-las-vacas-vuelen.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/huayra-vaca-volando.png" />
+
 
 #+ATTR_HTML: :witdh 640 :height 500 :title Huayra
 [[file:img/huayra-vaca-volando.png]]

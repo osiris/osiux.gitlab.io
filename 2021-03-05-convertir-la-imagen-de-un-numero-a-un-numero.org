@@ -5,6 +5,15 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+DATE:        2021-03-05 23:40
+#+HTML_HEAD:   <meta property="og:title" content="convertir la imagen de un número a un número usando gocr" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2021-03-05" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021-03-05-convertir-la-imagen-de-un-numero-a-un-numero.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/gocr-imagen-a-numeros.png" />
+
 
 #+ATTR_HTML: :width 641 :height 288 :title convertir imagen a números
 [[file:img/gocr-imagen-a-numeros.png][file:img/gocr-imagen-a-numeros.png]]

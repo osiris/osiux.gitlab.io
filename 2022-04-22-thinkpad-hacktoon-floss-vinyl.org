@@ -5,6 +5,15 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+DATE:        2022-04-22 09:55
+#+HTML_HEAD:   <meta property="og:title" content="Thinkpad HackToon FLOSS Vinyl by OSiUX" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-04-22" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-04-22-thinkpad-hacktoon-floss-vinyl.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/thinkpad-hacktoon-floss-vinyl-t14.jpg" />
+
 
 [[file:img/thinkpad-hacktoon-floss-vinyl-t14.jpg][file:tmb/thinkpad-hacktoon-floss-vinyl-t14.jpg]]
 

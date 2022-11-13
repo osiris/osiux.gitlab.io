@@ -1,10 +1,18 @@
-#+TITLE:     Instalar =markdown-styles= para convertir un =.md= en un =.html=
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
-#+INCLUDE:   header.org
-#+DATE:      2017-07-08 03:30
+#+TITLE:       Instalar =markdown-styles= para convertir un =.md= en un =.html=
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2017-07-08 03:30
+#+HTML_HEAD:   <meta property="og:title" content="Instalar =markdown-styles= para convertir un =.md= en un =.html=" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2017-07-08" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2017-07-08-instalar-markdown-styles-para-convertir-un-md-en-un-html.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 Luego de una búsqueda por la web, encontré
 *markdown-styles* [fn:styles] que permite fácilmente convertir un

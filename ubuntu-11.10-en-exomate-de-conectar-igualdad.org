@@ -1,10 +1,19 @@
-#+TITLE:     Instalando Ubuntu 11.10 en Exomate de Conectar Igualdad
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       Instalando Ubuntu 11.10 en Exomate de Conectar Igualdad
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2011-10-24 12:15
+#+DATE:        2011-10-24 12:15
+#+HTML_HEAD:   <meta property="og:title" content="Instalando Ubuntu 11.10 en Exomate de Conectar Igualdad" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2011-10-24" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/ubuntu-11.10-en-exomate-de-conectar-igualdad.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/conectar-igualdad/2011-10-22_exomate-conectar-igualdad.jpg" />
+
 
 El sábado 22 en la Ciudad de Curuzú Cuatiá gracias a Liliana Arbelo,
 tuve la oportunidad de jugar un poco con varias notebooks del

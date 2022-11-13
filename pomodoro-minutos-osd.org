@@ -1,9 +1,18 @@
-#+TITLE:     Técnica Pomodoro, mostrar minutos mediante OSD (On Screen Display)
-#+AUTHOR:    Osiris Alejandro Gomez
-#+EMAIL:     osiux@osiux.com.ar
-#+LANGUAGE:  es
+#+TITLE:       Técnica Pomodoro, mostrar minutos mediante OSD (On Screen Display)
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com.ar
+#+LANGUAGE:    es
 #+INCLUDE:     header.org
-#+DATE:      2011-05-23 22:19
+#+DATE:        2011-05-23 22:19
+#+HTML_HEAD:   <meta property="og:title" content="Técnica Pomodoro, mostrar minutos mediante OSD (On Screen Display)" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2011-05-23" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/pomodoro-minutos-osd.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pomodoro/pomodoro-minutos-osd.png" />
+
 
 * Pomodoro Minutos OSD
 

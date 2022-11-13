@@ -1,10 +1,18 @@
-#+TITLE:      gcoop tiene Códigos Cooperativos
-#+AUTHOR:     Osiris Alejandro Gomez
-#+EMAIL:      osiux@osiux.com
-#+LANGUAGE:   es
-#+LINK_HOME:  index.html
-#+INCLUDE:    header.org
-#+DATE:       2012-08-30 22:19
+#+TITLE:       gcoop tiene Códigos Cooperativos
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2012-08-30 22:19
+#+HTML_HEAD:   <meta property="og:title" content="gcoop tiene Códigos Cooperativos" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-08-30" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2012-08-30-gcoop-codigos-cooperativos.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 Ya no solo desarrollamos Software Libre, en este caso presentamos un Corto
 Documental que produjimos en el que buscamos contar de manera amena lo que

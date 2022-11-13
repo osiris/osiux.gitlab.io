@@ -1,10 +1,18 @@
-#+TITLE:     MySQL Bash Vim Tips
-#+AUTHOR:    Osiris Alejandro Gomez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       MySQL Bash Vim Tips
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2009-12-01 01:15
+#+DATE:        2009-12-01 01:15
+#+HTML_HEAD:   <meta property="og:title" content="MySQL Bash Vim Tips" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2009-12-01" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/mysql-bash-vim-tips.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 ** Crear Base y Usuario
 

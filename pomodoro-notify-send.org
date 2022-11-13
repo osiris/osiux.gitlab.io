@@ -1,10 +1,19 @@
-#+TITLE:     pomodoro notify-send
-#+AUTHOR:    Osiris Alejandro Gomez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
+#+TITLE:       pomodoro notify-send
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:      2011-02-03 22:19
+#+DATE:        2011-02-03 22:19
+#+HTML_HEAD:   <meta property="og:title" content="pomodoro notify-send" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2011-02-03" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/pomodoro-notify-send.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pomodoro/pomodoro-notify-send-6.png" />
+
 
 Hace tiempo vengo utilizando a diario la técnica pomodoro [fn:pomodoro] que me
 ayuda a focalizarme en lo que tengo que hacer y no distraerme o procastinar
