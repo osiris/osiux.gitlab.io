@@ -119,8 +119,10 @@ mismo /deploy/ en otra instancia de /AWX/.
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/dfcc2246359073fc35cbdc446ee6dcd683a1ad23][=2022-10-10 15:54=]] remove Leaked GitLab Token from ChangeLog :S
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1433e03c4abec4ebe24964a155ecf6b5c0c5c070][=2022-10-10 13:04=]] corregir links de =.gitlab-ci.yml= y =Makefile= en /Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f35c37045805a67170a967f407b88aad3c6a70f6][=2022-10-08 23:02=]] Agregar Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools
