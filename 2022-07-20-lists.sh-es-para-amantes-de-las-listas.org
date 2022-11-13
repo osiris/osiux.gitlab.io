@@ -56,6 +56,8 @@ Seguramente en el futuro encontraré alguna otra lista mas por publicar!
 [fn:links2org]    https://gitlab.com/osiux/links-bash-utils/-/raw/master/links2org
 [fn:links2lists]  https://gitlab.com/osiux/links-bash-utils/-/raw/master/links2lists.sh
 
+
 ** ChangeLog
 
-  - [[https://gitlab.com//osiux/osiux.gitlab.io/-/commit/49295fc6cab79a36dc24a673f97329ac96569115][=2022-07-21 00:12=]] agregar =lists.sh= es para amantes de las listas
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/49295fc6cab79a36dc24a673f97329ac96569115][=2022-07-21 00:12=]] agregar =lists.sh= es para amantes de las listas
