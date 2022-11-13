@@ -132,3 +132,8 @@ Solo falta un pequeño _refactor_ para pulir y poder liberar el rol.
 ...continuará...
 
 
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/cba3fbb8e53a493c6d672381bb08b8dd5ff73fe8][=2021-01-25 18:16=]] add 2021-01-25-ansible-luks-format-external-usb-disk.org
