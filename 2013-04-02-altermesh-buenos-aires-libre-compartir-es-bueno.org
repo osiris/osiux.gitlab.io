@@ -421,6 +421,13 @@
      kmod-fs-ext4   
    #+END_EXAMPLE
 
+[fn:olsr]            http://www.olsr.org/mediawiki/index.php/Main_Page
+[fn:nwdiag]          http://blockdiag.com/en/nwdiag/index.html
+[fn:batman-adv]      https://www.open-mesh.org/projects/batman-adv/wiki/Wiki
+[fn:chef]            https://github.com/libremesh/chef
+[fn:altermundi]      https://altermundi.net/
+[fn:altermesh]       https://libremesh.org/
+[fn:altermesh-nodo]  https://github.com/libremesh/chef
 
 ** ChangeLog
 
