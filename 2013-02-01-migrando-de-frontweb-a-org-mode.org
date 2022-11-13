@@ -26,3 +26,13 @@ wireless :-P
 
 En fin, me queda mucho por migrar... pero al menos hay un primer
 cambio en este 2013 para mi blog.
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7baf690685f092fdd19f8a8aea2e92d49b4f6299][=2019-04-08 02:11=]] Agregar archivos sin commitear :S
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bbc3bbc728f2a3eeb4fe2e0a012ee5d8d613e3ef][=2015-07-03 04:31=]] @ 00:05 hs - elimino #+OPTIONS: de todos los archivos excepto header.org
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/74165280ffad770d1f8b8acbfa7f22b95459b52a][=2014-04-22 11:35=]] @ 00:34 hs - Agrego timestamp:nil
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ad3755a3df07cdfbdc75d56cae06db2fee4b5f2][=2013-04-24 08:04=]] @ 01:50 hs - migro a org 8.0
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/87e60f04329ca32c77b1000db24216cbecb77a69][=2013-02-01 18:13=]] @ 00:10 hs - Migrando de frontweb a org-mode
