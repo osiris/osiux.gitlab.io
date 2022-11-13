@@ -198,8 +198,10 @@ puede aprender y mejorar.
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c4d3d305692d7f60046aa191772b13d98f720ac7][=2021-02-11 22:17=]] corrijo /footnotes/ que quedaron sin /link/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/17800e9823ab71fa0ca6599360ef5f5bdbe02006][=2021-02-11 22:16=]] reemplazo /links/ por /footnotes/ y resalto palabras referenciadas
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/832eb5876bf111ffe19ed892cb6ecff42891841c][=2021-02-07 20:14=]] corrijo /link/ a /reStructuredText/ texto re-estructurado
