@@ -896,8 +896,10 @@ Los gráficos los hice utilizando [[file:2022-10-21-use-graphviz-for-slides.org]
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/3f97b2708880357dbb75fb170fb3c6bcccbc825f][=2022-11-13 12:56=]] agregar tags OpenGraph article y corregir type en =Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bab32f9e9aaeea452f7a781dbc2a450f22f4f1d9][=2022-11-13 10:40=]] agregar tags OpenGraph en =Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/387554ef0b1bd68cd397823d81fb19021af2a621][=2022-10-28 15:29=]] corregir link a traducción al Inglés de =Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/8839779a2a61bd84a983fd8b09d4816cf69f7297][=2022-10-28 14:35=]] agregar link a traducción al Inglés de =Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX=
