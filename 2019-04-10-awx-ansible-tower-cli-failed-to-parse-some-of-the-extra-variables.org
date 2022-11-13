@@ -92,7 +92,9 @@ Versiones:
 [fn:awx-cli]              https://github.com/ansible/tower-cli
 [fn:ansible]              https://www.ansible.com/
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/03db4fc70979978282d2b63d571d54922d492bb2][=2022-11-13 20:19=]] agregar y corregir footnotes en AWX Ansible =tower_cli.exceptions.TowerCLIError: failed to parse some of the extra variables=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/642c747345c7b45e94e58dfe087d3cce78d604f7][=2019-04-16 00:36=]] Agregar .gitlab-ci.yml y publish.el para generar sitio en gitlab.com
