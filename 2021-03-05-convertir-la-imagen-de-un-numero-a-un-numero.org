@@ -106,7 +106,9 @@ todo depende mucho de la calidad de la imagen y la tipografía utilizada.
 [fn:CBU] https://es.wikipedia.org/wiki/Clave_Bancaria_Uniforme
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/b5680a24a67d648b63f03438d3b6ea263e6af0e1][=2021-03-06 07:45=]] corregir imágenes y agregar link a CBU
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/40ddb751721f2dfd6687fc99a86b59a9c3af73fe][=2021-03-05 23:33=]] agregar /convertir la imagen de un número a un número/
