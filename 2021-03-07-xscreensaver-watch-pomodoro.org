@@ -135,6 +135,8 @@ done
 [fn:pomodoro]        https://osiux.com/pomodoro-notify-send.html
 [fn:foro]            https://bbs.archlinux.org/viewtopic.php?pid=1182514
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f6e60c7015bbf1e5a2efb6a25e17b05398f3c7a1][=2021-03-07 23:02=]] agregar =xscreensaver-watch= pomodoro
