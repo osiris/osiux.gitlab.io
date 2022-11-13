@@ -16,10 +16,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-TMP0=$(mktemp)
-TMP1=$(mktemp)
-TMP2=$(mktemp)
-
+TMP0="$(mktemp)"
+TMP1="$(mktemp)"
+TMP2="$(mktemp)"
+NOW="$(date +'%F')"
 ORG='blog.org'
 
 get_title()
@@ -42,13 +42,20 @@ get_image()
 header()
 {
 cat << EOF
-#+TITLE:     ABSOLUTELLY NO WARRANTY $1
-#+AUTHOR:    Osiris Alejandro Gómez
-#+EMAIL:     osiux@osiux.com
-#+LANGUAGE:  es
-#+LINK_HOME: index.html
-#+INCLUDE:   header.org
-#+DATE:      {{{modification-time(%Y-%m-%d %H:%M)}}}
+#+TITLE:       ABSOLUTELLY NO WARRANTY $1
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        $NOW
+#+HTML_HEAD:   <meta property="og:title" content="ABSOLUTELLY NO WARRANTY blog" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="$NOW" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/blog.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 
 
 EOF
