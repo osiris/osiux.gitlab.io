@@ -421,42 +421,19 @@
      kmod-fs-ext4   
    #+END_EXAMPLE
 
+
 ** ChangeLog
 
-   - [2013-08-09 vie] Agrego sección comentarios :-)
-   - [2013-06-04 mar] Agrego paquetes para almacenamiento USB
-   - [2013-04-03 mié] primer borrador, faltan agregar pasos y corregir.
-   - [2013-04-24 mié] actualizo pendientes y agrego algunas correcciones.
-
-[fn:BAL] http://www.buenosaireslibre.org
-[fn:NodoOsiux] http://wiki.buenosaireslibre.org/NodoOsiux
-[fn:QCamp] http://wiki.arraigodigital.org.ar/RedLibre/QuintanaCamp
-[fn:DeltaLibre] http://wiki.redeslibres.org/DeltaLibre
-[fn:QuintanaLibre] http://quintanalibre.org.ar
-[fn:olsr] http://es.wikipedia.org/wiki/OLSR
-[fn:batman-adv] http://es.wikipedia.org/wiki/B.A.T.M.A.N%2E
-[fn:WR842ND] http://www.tp-link.com/ar/products/details/?categoryid=&model=TL-WR842ND
-[fn:MR3220] http://www.tp-link.com/ar/products/details/?categoryid=&model=TL-MR3220
-[fn:WDR3500] http://www.tp-link.com/ar/products/details/?categoryid=&model=TL-WDR3500
-[fn:altermundi] http://altermundi.net
-[fn:altermesh] http://docs.altermundi.net/AlterMesh
-[fn:LibreNet6] http://docs.altermundi.net/LibreNet6
-[fn:chef] http://chef.mesh.altermundi.net
-[fn:altermesh-nodo] http://chef.mesh.altermundi.net/fwprofile/altermesh-nodo
-[fn:RedesLibres] http://wiki.redeslibres.org
-[fn:CompartirEsBueno] http://chef.mesh.altermundi.net/network/compartiresbueno
-[fn:nwdiag] http://blockdiag.com/en/nwdiag/introduction.html?highlight=nwdiag
-
-** Comentarios
-**** Muchas gracias por tu manual sobre Altermesh
-
-     #+BEGIN_EXAMPLE    
-       Date: Sat, 10 Aug 2013 00:30:51 +0000 (UTC)
-       From: al <al@blogmail.cc>
-     #+END_EXAMPLE
-
-     Te quería comentar debajo del propio manual, pero como no tiene
-     soporte para comentarios, te quería agradecer por mail.
-
-     He añadido el enlace en nuestro wiki:
-     http://es.wiki.guifi.net/wiki/Categoría:Altermesh   
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b][=2019-04-18 00:01=]] Corregir identación header #+INCLUDE:
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bbc3bbc728f2a3eeb4fe2e0a012ee5d8d613e3ef][=2015-07-03 04:31=]] @ 00:05 hs - elimino #+OPTIONS: de todos los archivos excepto header.org
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a2abb3b333c91e0d3c15ea9e93a21589bd4d86f7][=2015-07-03 03:59=]] @ 01:00 hs - reemplazo :alt por :title y cambios menores
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/74165280ffad770d1f8b8acbfa7f22b95459b52a][=2014-04-22 11:35=]] @ 00:34 hs - Agrego timestamp:nil
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f2fb5361314e3470475da6d272dda324a94ea14e][=2013-08-09 23:34=]] @ 00:02 hs - Agrego comentarios en Altermesh BAL CompartirEsBueno
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c86d3360a4ee41cf6184fac43879a866e207ed16][=2013-06-11 01:40=]] @ 01:00 hs - mejoro CSS, elimino timestamp y reorganizo blog
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0baa20f806c177591f312d276cd37ac99f057604][=2013-06-05 02:58=]] @ 02:30 hs - responsive max-width css + refactor
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ad3755a3df07cdfbdc75d56cae06db2fee4b5f2][=2013-04-24 08:04=]] @ 01:50 hs - migro a org 8.0
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0039c102c38ef20c8aa32db1a06311d2265e2abc][=2013-04-10 09:46=]] @ 00:10 hs - agrego huayra y 1eslmc, algunas correcciones menores
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7f85b1471d02cc9880f34c78aae931c8aff6471f][=2013-04-03 03:20=]] @ 00:05 hs - correcciones menores CompartirEsBueno
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/957d2deca3c0f76b5b83308fa8e615a848841753][=2013-04-03 03:31=]] @ 04:30 hs - Agrego Altermesh BAL y CompartirEsBueno
