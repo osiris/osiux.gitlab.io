@@ -8,7 +8,9 @@
 #+DATE:        2022-10-20 16:45
 #+HTML_HEAD:   <meta property="og:title" content="Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX" />
 #+HTML_HEAD:   <meta property="og:description" content="Transcripción de la charla "Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX" en Nerdearla 2022" />
-#+HTML_HEAD:   <meta property="og:type" content="website" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-10-20" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
