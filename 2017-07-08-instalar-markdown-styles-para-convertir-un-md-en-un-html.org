@@ -48,3 +48,8 @@ voy a utilizar en mi sistema de micro blog basándome en
 =txt-bash-jrnl=
 
 [fn:styles] https://github.com/mixu/markdown-styles
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/882b1cda084f7c18362c8414a78dd65c7b968a3f][=2019-04-09 03:01=]] Recuperar archivos en .md y convertirlos a .org
