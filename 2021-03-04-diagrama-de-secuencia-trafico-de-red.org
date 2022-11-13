@@ -153,6 +153,8 @@ teclado.
 [fn:pcap2uml]        https://gitlab.com/osiux/pcap2uml/
 [fn:plantuml]        https://plantuml.com/
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e37e74bd7aa895d091225e7251481b38f84ca6d6][=2021-03-04 23:20=]] agregar /Diagrama de Secuencia de Tráfico de Red/ usando =pcap2uml=
