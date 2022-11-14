@@ -12,7 +12,7 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/flisol-bogota-2012.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/flisol-bogota/viaje-ezeiza-partida.jpg" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/flisol-bogota/flisol-stand.jpg" />
 
 
 ** largo viaje
