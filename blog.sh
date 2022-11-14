@@ -41,6 +41,10 @@ get_image()
 
 header()
 {
+  local D="$NOW"
+
+  [[ "$1" != 'blog' ]] && D="$1-12-31"
+
 cat << EOF
 #+TITLE:       ABSOLUTELLY NO WARRANTY $1
 #+AUTHOR:      Osiris Alejandro Gómez
@@ -48,12 +52,12 @@ cat << EOF
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        $NOW
-#+HTML_HEAD:   <meta property="og:title" content="ABSOLUTELLY NO WARRANTY blog" />
+#+DATE:        $D
+#+HTML_HEAD:   <meta property="og:title" content="ABSOLUTELLY NO WARRANTY $1" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
-#+HTML_HEAD:   <meta property="og:article:published_time" content="$NOW" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="$D" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
-#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/blog.html" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/$1.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 
