@@ -5,6 +5,16 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+DATE:        2012-12-15
+#+HTML_HEAD:   <meta property="og:title" content="Automatizando Tareas" />
+#+HTML_HEAD:   <meta property="og:description" content="Manejo de crontab, watch y scripts" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2012-12-15" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/automatizando-tareas.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
 
 ** Procesos padres e hijos
 
