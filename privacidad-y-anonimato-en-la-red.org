@@ -4,7 +4,19 @@
 #+EMAIL:       <osiux@riseup.net>
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
-#+INCLUDE:     header.org                                                 
+#+INCLUDE:     header.org
+#+DATE:        2013-03-13
+#+HTML_HEAD:   <meta property="og:title" content="privacidad y anominato en la red" />
+#+HTML_HEAD:   <meta property="og:description" content="GPG, TOR, LUKS, HTTPS" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2013-03-13" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/privacidad-y-anonimato-en-la-red.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/navegar-sin-proxy.png" />
+
+
 #+EXCLUDE_TAGS: noexport
 
 * Seguridad de la Información
@@ -99,7 +111,7 @@
 
 * navegar sin proxy
 
-  [[file:navegar-sin-proxy.png]]
+  [[file:img/navegar-sin-proxy.png][file:tmb/navegar-sin-proxy.png]]
 
 * SSH Proxy SOCKS
 
@@ -112,7 +124,7 @@
 
 * navegar con proxy
 
-  [[file:navegar-con-proxy.png]]
+  [[file:img/navegar-con-proxy.png][file:tmb/navegar-con-proxy.png]]
 
 * firefox DNS
 
