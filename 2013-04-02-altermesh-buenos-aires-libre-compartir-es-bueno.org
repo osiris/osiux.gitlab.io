@@ -60,7 +60,7 @@
    | modelo                    | flash | ram   | radio0 | radio1 |
    |---------------------------+-------+-------+--------+--------|
    | TL-WDR3500ND [fn:WDR3500] | 8mb   | 128mb | 2.4Ghz | 5Ghz   |
-   | TL-MR3220 [fn:MR3220]     | 4mb   | 32mb  | 2.4Ghz | -      |
+   | TL-MR3020 [fn:MR3020]     | 4mb   | 32mb  | 2.4Ghz | -      |
    | TL-WR842ND [fn:WR842ND]   | 8mb   | 32mb  | 2.4Ghz | -      |
 
    Todos los equipos cuentan con un conector USB que permite utilizar
@@ -136,7 +136,7 @@
 
     #+BEGIN_EXAMPLE
       cd ~/altermesh
-      wget http://chef.mesh.altermundi.net/ls/CompartirEsBueno/r33815/altermesh-ar71xx-generic-tl-mr3220-v1-squashfs-r33815-CompartirEsBueno-nodo-compartir-factory.bin
+      wget http://chef.mesh.altermundi.net/ls/CompartirEsBueno/r33815/altermesh-ar71xx-generic-tl-MR3020-v1-squashfs-r33815-CompartirEsBueno-nodo-compartir-factory.bin
     #+END_EXAMPLE
 
     Si se trata de la primera vez que se realiza la operación se debe
@@ -154,7 +154,7 @@
     #+END_SRC
 
     #+RESULTS:
-    : 24f6dfddbe4c1fbf29e74d3c32f24afc  altermesh-ar71xx-generic-tl-mr3220-v1-squashfs-r33815-CompartirEsBueno-nodo-compartir-factory.bin
+    : 24f6dfddbe4c1fbf29e74d3c32f24afc  altermesh-ar71xx-generic-tl-MR3020-v1-squashfs-r33815-CompartirEsBueno-nodo-compartir-factory.bin
 
 *** actualizar el firmware
 
@@ -168,7 +168,7 @@
 
     #+BEGIN_EXAMPLE
       cd ~/altermesh
-      mv altermesh-ar71xx-generic-tl-mr3220-v1-squashfs-r33815-CompartirEsBueno-nodo-compartir-factory.bin compartir-factory.bin
+      mv altermesh-ar71xx-generic-tl-MR3020-v1-squashfs-r33815-CompartirEsBueno-nodo-compartir-factory.bin compartir-factory.bin
     #+END_EXAMPLE
 
     Finalmente subir la imagen y presionar actualizar (*este es el
@@ -403,7 +403,7 @@
    - [X] agregar agente altermap a los APs.
    - [ ] flashear Ubiquity Bullet.
    - [X] actualizar WR842ND con soporte USB storage.
-   - [ ] agregarle un WN722N al MR3220 con antena direccional o panel.
+   - [ ] agregarle un WN722N al MR3020 con antena direccional o panel.
    - [X] actualizar versión del WDR3500, actualmente no funciona /eth0/ ni /eth1/.
    - [ ] conseguir buenas antenas para el WDR3500.
    - [ ] enlazar a NodoPlazaFlores y todo aquel que quiera conectarse.
@@ -421,14 +421,24 @@
      kmod-fs-ext4   
    #+END_EXAMPLE
 
-[fn:olsr]            http://www.olsr.org/mediawiki/index.php/Main_Page
-[fn:nwdiag]          http://blockdiag.com/en/nwdiag/index.html
-[fn:batman-adv]      https://www.open-mesh.org/projects/batman-adv/wiki/Wiki
-[fn:chef]            https://github.com/libremesh/chef
-[fn:altermundi]      https://altermundi.net/
-[fn:altermesh]       https://libremesh.org/
-[fn:altermesh-nodo]  https://github.com/libremesh/chef
-
+[fn:olsr]              http://www.olsr.org/mediawiki/index.php/Main_Page
+[fn:nwdiag]            http://blockdiag.com/en/nwdiag/index.html
+[fn:batman-adv]        https://www.open-mesh.org/projects/batman-adv/wiki/Wiki
+[fn:chef]              https://github.com/libremesh/chef
+[fn:altermundi]        https://altermundi.net/
+[fn:altermesh]         https://libremesh.org/
+[fn:altermesh-nodo]    https://github.com/libremesh/chef
+[fn:LibreNet6]         https://libremesh.github.io/librenet6/
+[fn:BAL]               https://buenosaireslibre.org/
+[fn:WR842ND]           https://openwrt.org/toh/tp-link/tl-wr842nd
+[fn:MR3020]            https://openwrt.org/toh/tp-link/tl-mr3020
+[fn:WDR3500]           https://openwrt.org/toh/tp-link/tl-wdr3500_v1
+[fn:NodoOsiux]         http://web.archive.org/web/20131211050438/http://wiki.buenosaireslibre.org/NodoOsiux
+[fn:RedesLibres]       https://osiux.com/404.html
+[fn:QuintanaLibre]     https://osiux.com/404.html
+[fn:QCamp]             https://osiux.com/404.html
+[fn:DeltaLibre]        https://osiux.com/404.html
+[fn:CompartirEsBueno]  https://osiux.com/404.html
 
 ** ChangeLog
 
