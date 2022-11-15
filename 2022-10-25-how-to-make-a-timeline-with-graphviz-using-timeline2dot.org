@@ -194,8 +194,10 @@ una muestra de algunas imágenes generadas antes de convertirse en video!
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/ef590e14a78a8a1106c27f4727997e4bd5b908da][=2022-11-15 09:42=]] reemplazar imagen de OpenGraph en =Cómo hacer una línea de tiempo con GraphViz=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/6652f0fa1d2543e388ad46318a80ef7caec409c6][=2022-10-30 09:07=]] agregar controles de video a =Cómo hacer una línea de tiempo con GraphViz=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/9166b1634c42e39be8942c4ba99d3d3d3ab041af][=2022-10-26 17:07=]] agregar =Cómo hacer una línea de tiempo con GraphViz=
