@@ -4,6 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    graphviz, timeline, git, git-tag-timeline, animation, timeline2dot
 #+DATE:        2022-10-25 21:43
 #+HTML_HEAD:   <meta property="og:title" content="Cómo hacer una línea de tiempo con GraphViz" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
