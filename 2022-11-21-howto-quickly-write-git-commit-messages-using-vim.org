@@ -259,3 +259,7 @@ estrategia a futuro utilizarla.
 [fn:git-commit-message]   https://gitlab.com/osiux/git-bash-utils/-/blob/develop/git-commit-message
 [fn:vim]                  https://www.vim.org/
 [fn:conventionalcommits]  https://www.conventionalcommits.org/en/v1.0.0/
+
+** ChangeLog
+
+  - [[https://https///osiux/glpat-sVzkT4gP64xMqFUAiwgH@gitlab.com/osiux/osiux.gitlab.io.git/-/commit/0d4e1de1d64860a30d6c43bad8682178de76c05d][=2022-11-21 23:10=]] agregar "cómo escribir rápidamente mensajes de commit de git usando vim"
