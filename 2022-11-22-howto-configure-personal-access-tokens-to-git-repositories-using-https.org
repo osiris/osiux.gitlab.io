@@ -66,6 +66,8 @@ proyecto.
 [fn:codeberg-token]       https://docs.codeberg.org/advanced/access-token/
 [fn:github-token]         https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
+
 ** ChangeLog
 
+  - [[https://https///osiux/glpat-sVzkT4gP64xMqFUAiwgH@gitlab.com/osiux/osiux.gitlab.io.git/-/commit/65dfa2aa1d1cb17a9e7bf73561572571774a3017][=2022-11-22 15:25=]] agregar imagen a /Cómo configurar tokens de acceso personal a los repositorios de Git usando HTTPS/
   - [[https://https///osiux/glpat-sVzkT4gP64xMqFUAiwgH@gitlab.com/osiux/osiux.gitlab.io.git/-/commit/2da8dbb518bd24e175c3d12cb26dcca5488578c2][=2022-11-22 13:04=]] agregar /Cómo configurar tokens de acceso personal a los repositorios de Git usando HTTPS/
