@@ -1,0 +1,62 @@
+#+TITLE:       Cómo configurar tokens de acceso personal a los repositorios de Git usando HTTPS
+#+DESCRIPTON:  Reescribir las URLs de cada instancia de gitlab y/o github con el token de acceso en la configuración global de git.
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    git, token, gitlab, github, codeberg, config, https, ssh
+#+DATE:        2022-11-22 13:20
+#+HTML_HEAD:   <meta property="og:title" content="Cómo configurar tokens de acceso personal a los repositorios de Git usando HTTPS" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-11-22" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/howto-configure-personal-access-tokens-to-git-repositories-using-https.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+
+** Panqueque
+
+Siempre preferí utilizar /Git/ con /SSH/ porque es /SSH/ es seguro, y
+permite configurar todo tipo de túneles para saltar de un equipo a otro.
+
+Cuando comencé a interactuar con la /API/ de /GitLab/ desde de la
+=consola= [fn:gitlab-command-line], descubrí que era mas simple tener
+todos los repositorios configurados como /HTTP/S/, básicamente para
+acceder a diferentes instancias de /GitLab/ por medio de /Proxies HTTP/
+y unificar el uso de /Tokens/.
+
+** =~/.gitconfig=
+
+Para configurar globalmente, basta obtener el /token/ de cada instancia
+de /GitLab/ [fn:gitlab-token], /Codeberg/ [fn:codeberg-token] u otros
+repositorios como /GitHub/ [fn:github-token], reescribiendo las /URLs/
+de la siguiente manera:
+
+#+BEGIN_EXAMPLE
+[url "https://token:D0n7Sh4r3Y0urS3cr375@github.com"]
+  insteadOf = https://github.com
+[url "https://token:Sup3rS3cr37T0k3n@gitlab.com"]
+  insteadOf = https://gitlab.com
+[url "https://token:Thi5T0k3nI5Pub1ic@codeberg.org"]
+  insteadOf = https://codeberg.org
+#+END_EXAMPLE
+
+La contra es clara, los /Tokens/ quedan en claro en =~/.gitconfig=,
+debería bastar asegurarlos con =chmod 0600 ~/.gitconfig= pero nunca se
+sabe!
+
+A favor, se define el /Token/ en un único lugar =:)= y no hay necesidad
+de modificar los /n/ =~/.git/config= de cada repositorio de cada
+proyecto.
+
+** Seguro te interesa
+
+- [[https://osiux.com/2022-11-21-howto-quickly-write-git-commit-messages-using-vim.html][/cómo escribir rápidamente mensajes de commit de git usando vim/]]
+- [[https://osiux.com/2022-08-21-howto-use-gitlab-from-command-line.html][/cómo usar GitLab desde la línea de comandos/]]
+- [[https://osiux.com/2015-01-14-sincronizar-repositorios-git-repos.html][/Sincronizar Repositorios git con git-repos/]]
+
+[fn:gitlab-command-line]  https://osiux.com/2022-08-21-howto-use-gitlab-from-command-line.html
+[fn:gitlab-token]         https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html
+[fn:codeberg-token]       https://docs.codeberg.org/advanced/access-token/
+[fn:github-token]         https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
