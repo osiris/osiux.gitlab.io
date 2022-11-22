@@ -1,5 +1,5 @@
 #+TITLE:       Cómo configurar tokens de acceso personal a los repositorios de Git usando HTTPS
-#+DESCRIPTON:  Reescribir las URLs de cada instancia de gitlab y/o github con el token de acceso en la configuración global de git.
+#+DESCRIPTION: Reescribir las URLs de cada instancia de gitlab y/o github con el token de acceso en la configuración global de git.
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
@@ -8,12 +8,17 @@
 #+KEYWORDS:    git, token, gitlab, github, codeberg, config, https, ssh
 #+DATE:        2022-11-22 13:20
 #+HTML_HEAD:   <meta property="og:title" content="Cómo configurar tokens de acceso personal a los repositorios de Git usando HTTPS" />
+#+HTML_HEAD:   <meta property="og:description" content="Reescribir las URLs de cada instancia de gitlab y/o github con el token de acceso en la configuración global de git." />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2022-11-22" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
-#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/howto-configure-personal-access-tokens-to-git-repositories-using-https.html" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-11-22-howto-configure-personal-access-tokens-to-git-repositories-using-https.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/og/git-config-url-insteadof.png" />
+
+
+[[file:img/git-config-url-insteadof.png][file:tmb/git-config-url-insteadof.png]]
 
 ** Panqueque
 
