@@ -1,0 +1,261 @@
+#+TITLE:       cómo escribir rápidamente mensajes de commit de git usando vim
+#+DESCRIPTION: Acelerar la escritura de mensajes de commit de git desde vim automatizando el template mediante git-commit-message definiendo prefijo en el subject y agregando el tiempo consumido calculando la diferencia de tiempo entre commits o desde del último journal
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    howto, write, git, commit, messages, vim
+#+DATE:        2022-11-21 23:15
+#+HTML_HEAD:   <meta property="og:title" content="cómo escribir rápidamente mensajes de commit de git usando vim" />
+#+HTML_HEAD:   <meta property="og:description" content="Acelerar la escritura de mensajes de commit de git desde vim automatizando el template mediante git-commit-message definiendo prefijo en el subject y agregando el tiempo consumido calculando la diferencia de tiempo entre commits o desde del último journal" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-11-21" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-11-21-howto-quickly-write-git-commit-messages-using-vim.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/howto-quickly-write-git-commit-messages-using-vim.gif" />
+
+[[file:img/howto-quickly-write-git-commit-messages-using-vim.gif][file:img/howto-quickly-write-git-commit-messages-using-vim.gif]]
+
+** Cómo escribir un mensaje de /commit/ de =git=
+
+Desde que comencé a usar =git= [fn:git] que mayormente los mensajes de
+/commit/ los escribo en inglés, en parte porque resultan mas cortos y
+también porque es más simple relacionarlo a conceptos técnicos
+inherentes al código.
+
+Desde 2008 que además agrego el tiempo consumido de cada /commit/ con el
+formato =@ HH:MM hs= en la última línea, para llevar un registro de las
+horas trabajadas en cada proyecto.
+
+Dependiendo del proyecto, a veces se incluye en el mensaje una
+referencia a uno o mas /issues/ relacionados con formato =FIX #1234= o
+=REL #1234=.
+
+Si el /issuetracker/ no es de acceso público no le veo mucho sentido
+relacionar el /issue/, salvo que código y /bugtracker/ sean /repos/
+privados. En general, prefiero en el /issue/ relacionar los /commits/
+asociados, pero cada proyecto tiene sus particularidades, no hay una
+única regla.
+
+Sin dudas, la dificultad esta en qué escribir como resumen? Obviamente
+hay que evitar mensajes como los siguientes:
+
+- =general refactor=
+- =update foo=
+- =add bar=
+- =fix bla=
+
+** =~/.gitmessage=
+
+Hace varios años que venía usando un /template/
+definido en =~/.gitconfig= de la siguiente manera:
+
+#+BEGIN_EXAMPLE
+
+[commit]
+  template = /home/osiris/.gitmessage
+
+#+END_EXAMPLE
+
+El contenido del archivo =~/.gitmessage= es bastante claro y esta basado
+en el /post/ =How to Write a Git Commit Message= [fn:howto-git-commit]
+
+#+BEGIN_EXAMPLE
+
+# prefix: imperative summary < 50 chars
+#
+# Remember blank line between title and body.
+# Explain *what* and *why* (not *how*).
+# Wrap at 72 chars
+#
+# Include task ID
+# REL #1234
+# FIX #1234
+#
+# How to Write a Git Commit Message:
+# https://chris.beams.io/posts/git-commit/
+#
+# Include Task Time!
+#
+# @ 00:05 hs
+
+#+END_EXAMPLE
+
+Y ha sido de gran ayuda para no olvidar lo esencial a la hora de
+escribir el mensaje de un /commit/, pero **no es mas que un
+recordatorio**
+
+** =git-commmit-message=
+
+En otro intento por automatizar [fn:git-bash-utils] y reducir el tiempo
+de escritura de un mensaje de /commit/ y que sea algo útil a futuro, se
+me ocurrió generar un /script/ que se ocupe de armar un template
+dinámico, es decir, autocompleta todo lo que puede, acelerando el
+proceso y normalizando los mensajes de /commit/, más aún cuando se trata
+de /commits/ atómicos y muy similares.
+
+Es decir, al ejecutar =git-commit-message= [fn:git-commit-message]
+dentro del directorio de un repositorio /git/, se a a generar el
+siguiente mensaje:
+
+#+BEGIN_EXAMPLE
+use git-remote-geturl to prevent leak tokens
+
+  @ 00:09 hs
+#+END_EXAMPLE
+
+De dónde salió el /Subject/?, simplemente copia el último /subject/ ya
+que si estás realizando /commits/ atómicos y/o tareas similares, es muy
+probable que puedas reutilizarlo y de no servir, lo reescribís, similar
+al /template/ estático.
+
+Además se agregó el tiempo gastado? Se calcula de 2 posibles maneras:
+
+a. Si el último /commit/ es de hoy, se calcula la diferencia de tiempo.
+b. Caso contrario se usa el tiempo de último /journal/ [fn:txt-bash-jrnl]
+
+Si no están dadas las condiciones /a/ y /b/ se obtiene =@ 00:00 hs=,
+nuevamente como el /template/ estático.
+
+Ahora bien, si en lugar de ejecutar =git-commit-message= en una consola,
+lo hacemos desde =vim= [fn:vim] en el momento en que /git/ nos solicita
+ingresar el mensaje, el /script/ detecta el archivo que se esta por
+/commitear/, por ejemplo el archivo =test.txt= y lo utiliza como prefijo
+(sin extensión) similar a /Conventional Commits/.
+
+#+BEGIN_EXAMPLE
+test: use git-remote-geturl to prevent leak tokens
+
+  @ 00:09 hs
+#+END_EXAMPLE
+
+Y si el archivo estuviese en un directorio, por ejemplo =doc/test.txt=,
+el resultando sería el siguiente:
+
+#+BEGIN_EXAMPLE
+doc/test: use git-remote-geturl to prevent leak tokens
+
+  @ 00:09 hs
+#+END_EXAMPLE
+
+De esta manera =git-commit-message= en parte normaliza la estructura de
+los mensajes y al mismo tiempo simplifica el proceso de escritura.
+
+** Teclas Rápidas
+
+Para evitar invocar =:r!git-commit-message= constantemente, definí
+algunas teclas rápidas para ni siquiera tener que recordar el comando,
+simplemente basta con presionar una o más teclas de función.
+
+| /Key/ | /Action/                                                                                      |
+|-------|-----------------------------------------------------------------------------------------------|
+| =F3=  | agrega /filename: las commit subject/ en línea 1 y tiempo en formato  =@ 00:03 hs= en línea 3 |
+| =F4=  | elimina todo desde línea 4                                                                    |
+| =F5=  | agrega la salida de =git diff --staged= a partir de la última línea                           |
+| =F6=  | agrega tiempo en formato =@ 00:03 hs= en línea 3                                              |
+
+** la magia esta en =~/.vimrc=
+
+Algo muy piola de =vim= es la posibilidad de (re)definir acciones en las
+teclas de Función para un tipo y/o formato de archivo de manera muy
+simple, basta con indicar parte del nombre del archivo, en este caso
+=.git/COMMIT_EDITMSG= y mapear una tecla a una secuencia de comandos,
+por ejemplo:
+
+#+BEGIN_EXAMPLE
+  " git commit message
+  au BufNewFile,BufRead *.git/COMMIT_EDITMSG* map <F3> :1<CR>:r!git-commit-message<CR>ggddww
+  au BufNewFile,BufRead *.git/COMMIT_EDITMSG* map <F4> :4<CR>VGd$
+  au BufNewFile,BufRead *.git/COMMIT_EDITMSG* map <F5> :$<CR>$:r!git diff --staged<CR>
+  au BufNewFile,BufRead *.git/COMMIT_EDITMSG* map <F6> :2<CR>:r!git-last-timemsg<CR>
+#+END_EXAMPLE
+
+*** =F3=
+
+Presionando =F3= obtengo el mensaje de /commit/ casi completo, es un
+/template/ que contiene =prefijo: último mensaje de commit= y el tiempo
+consumido para este /commit/, calculando la diferencia de tiempo al
+último /commit/ o tomando el tiempo transcurrido del último /journal/.
+
+La secuencia de acciones es la siguiente:
+
+| /command/               | /action/                                           |
+|-------------------------|----------------------------------------------------|
+| =:1=                    | ir a la línea 1                                    |
+| =<CR>=                  | presionar /ENTER/                                  |
+| =:r!git-commit-message= | ejecutar =git-commit-message= y escribir contenido |
+| =<CR>=                  | presionar /ENTER/                                  |
+| =gg=                    | ir a la línea 1 en modo visual                     |
+| =dd=                    | borrar la primer línea                             |
+| =ww=                    | moverse 2 palabras (luego del prefijo)             |
+
+** =F4=
+
+Presionando =F4= se eliminan todas las líneas a partir de la línea 4.
+
+La secuencia de acciones es la siguiente:
+
+| /command/ | /action/                                                       |
+|-----------|----------------------------------------------------------------|
+| =:4=      | ir a la línea 4                                                |
+| =<CR>=    | presionar /ENTER/                                              |
+| =VGd$=    | seleccionar desde la línea actual hasta el final y eliminarlas |
+
+** =F5=
+
+Presionando =F5= se agrega temporalmente la salida de =git diff
+--staged= al mensaje de /commit/, es muy útil para verificar qué se esta
+por versionar y al mismo tiempo sirve de inspiración para el /Subject/ y
+permite autocompletar con el código mostrado.
+
+La secuencia de acciones es la siguiente:
+
+| /command/              | /action/                                          |
+|------------------------|---------------------------------------------------|
+| =:$=                   | ir a la última línea                              |
+| =<CR>=                 | presionar /ENTER/                                 |
+| =$=                    | ir al final de línea                              |
+| =:r!git diff --staged= | ejecutar =git diff --staged= y escribir contenido |
+| =<CR>=                 | presionar /ENTER/                                 |
+
+** =F6=
+
+Presionando =F6= se actualiza el tiempo consumido, por lo general es
+útil cuando pasaron unos minutos de revisión del /diff/ o si hubo un
+tiempo extra de confirmación y/o validación de modo externo.
+
+La secuencia de acciones es la siguiente:
+
+| /command/             | /action/                                         |
+|-----------------------|--------------------------------------------------|
+| =:2=                  | ir a la línea 2                                  |
+| =<CR>=                | presionar /ENTER/                                |
+| =:r!git-last-timemsg= | ejecutar =git-last-timemsg= y escribir contenido |
+| =<CR>=                | presionar /ENTER/                                |
+
+** =F= es la solución
+
+En resumen, la secuencia habitual puede ser presionar =F3= y =F4=,
+ajustar el /Subject/ y listo, sale el /commit/, otras veces puede ser
+primero =F3= y =F4=, luego =F5= y finalmente =F4= o también se puede
+prescindir de =git-commit-message= y simplemente presionar =F6= para
+agregar/actualizar el tiempo consumido y editar el /Subject/ sin
+condicionamientos.
+
+** /Commits Convencionales/ [fn:conventionalcommits]
+
+Es una especificación para dar significado a los mensajes de los
+/commits/ haciéndolos legibles para máquinas y humanos. Si bien todavía
+no lo estoy usando fielmente, es una fuente de inspiración y una buena
+estrategia a futuro utilizarla.
+
+[fn:git]                  https://git-scm.com/
+[fn:howto-git-commit]     https://chris.beams.io/posts/git-commit/
+[fn:txt-bash-jrnl]        https://gitlab.com/osiux/txt-bash-jrnl
+[fn:git-bash-utils]       https://gitlab.com/osiux/git-bash-utils/
+[fn:git-commit-message]   https://gitlab.com/osiux/git-bash-utils/-/blob/develop/git-commit-message
+[fn:vim]                  https://www.vim.org/
+[fn:conventionalcommits]  https://www.conventionalcommits.org/en/v1.0.0/
