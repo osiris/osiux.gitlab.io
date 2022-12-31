@@ -118,3 +118,7 @@ laboral.
 [fn:gcoop]           https://www.gcoop.coop/
 [fn:pyar]            https://www.python.org.ar/
 [fn:bubblebobble]    https://es.wikipedia.org/wiki/Bubble_Bobble
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a1085d43a52ea9d2a317fa4ad13d0cd7557406dd][=2022-12-31 17:37=]] agregrar Pytari en PyDay Santa Fe
