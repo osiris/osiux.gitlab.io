@@ -1,0 +1,83 @@
+#+TITLE:       SASOConf 2022
+#+DESCRIPTION: Resumen de la 4ta edición del evento de Software Libre, Redes y Seguridad Informática en Curuzú Cuatiá, Corrientes.
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    sasoconf, saso, evento, software, software libre, redes libres, seguridad, seguridad informática, curuzú, curuzú cuatiá, corrientes
+#+DATE:        2022-12-08 03:41
+
+[[file:img/sasoconf-2022/2022-12-10-23_48_52_KANT0088.jpg][file:img/sasoconf-2022/2022-12-10-23_48_52_KANT0088.jpg]]
+
+** /SASOConf Reloaded/
+
+Como muchos otros eventos, post-pandemia y de vuelta a la
+presencialidad, =SASOConf= [fn:sasoconf] decidió volver en su /4ta
+edición/ y esta vez en un lugar mas grande, con mas auspiciantes, mas
+disertantes y mucha energía renovada!
+
+Esta oportunidad, =gcoop= [fn:gcoop] fue auspiciante del evento, y
+también yo participé de la organización, colaborando en todo lo que pude
+y como de costumbre dando una charla.
+
+=ekoparty= [fn:ekoparty] además de auspiciar, montó un stand, donde se
+podía aprender y practicar =lockpicking= [fn:lockpicking]
+
+** Espíritu comunitario
+
+Desde sus comienzos, /SASOConf/ demostró ser un evento comunitario, casi
+que todo el evento en si es una excusa para reencontrarse una vez mas a
+compartir conocimientos y pasarla bien mientras colaboramos con la
+organización antes, durante y después.
+
+** Charlas
+
+El nivel técnico de las charlas se supera en cada edición, manteniendo
+al mismo tiempo charlas introductorias y de divulgación.
+
+*** Día 1
+
+Arrancamos con las clásicas presentaciones institucionales,
+reconocimiento municipal y provincial.
+
+Esta vez nos tocó compartir el partido /Argentina vs Países Bajos/ y el
+sufrimiento de los penales nos hizo olvidar el calor reinante. =XD=
+
+Por la fresca noche, la cena para competir las experiencias del día y
+obviamente unas espumosas cervezas para relajar. =:)=
+
+*** Día 2
+
+Otro día de charlas presenciales y remotas en dos auditorios, paseo por
+los stands y cierre con banda en vivo.
+
+Por la noche disfrutar de un asado para mas de 40 personas, con música y
+algo de baile!
+
+** /Gracias Rodo!/
+
+Si bien en cada edición, se suman mas manos a colaborar con la
+organización y desarrollo del evento, éste no sería posible sin el
+esfuerzo, dedicación y entusiasmo de su fundador, /Rodolfo Debona/,
+quién logró unir varias comunidades y contar con un evento de calidad
+fuera de la capital Argentina, contribuyendo en divulgar conocimiento
+libre desde /Curuzú Cuatiá/ [fn:curuzu] y para todo el Litoral.
+
+Hay muchísimas otras personas a quien agradecer que colaboraron
+activamente e incluso de manera remota para que el evento se realice.
+
+Sin dudas, la próxima edición saldrá mucho mejor y vamos a escoger una
+fecha mas templada! =:P=
+
+** Eventos relacionados
+
+- [[file:2014-03-11-se-viene-la-sasoconf.org][Se viene la SASOConf]]
+- [[file:2014-03-14-saso-conf-curuzu-cuatia.org][SASOConf en Curuzú Cuatiá]]
+- [[file:2022-11-04-ekoparty-2022.org][ekoparty 2022]]
+
+[fn:sasoconf]     https://sasoconf.ar/
+[fn:gcoop]        https://www.gcoop.coop/
+[fn:ekoparty]     https://ekoparty.org/
+[fn:lockpicking]  https://en.wikipedia.org/wiki/Lock_picking
+[fn:curuzu]       https://es.wikipedia.org/wiki/Curuzú_Cuatiá
