@@ -16,7 +16,7 @@
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 #+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pycamp-2022-baradero/2022-03-26-1654-c76dc7.jpg" />
 
-[file:img/pycamp-2022-baradero/2022-03-26-1654-c76dc7.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-1654-c76dc7.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-26-1654-c76dc7.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-1654-c76dc7.jpg]]
 
 ** y si vamos al /PyCamp/ ?
 
@@ -58,13 +58,13 @@ Dos /Ubiquiti Bullet/ [fn:bulletm2] en modo /bridge/ conectadas a un
 /AP/ con =OpenWRT= [fn:openwrt] y varios precintos, permitieron
 inmovilizar y asegurar la /"SillaCenter"/ =:P=
 
-[file:img/pycamp-2022-baradero/2022-03-24-1445-e905b4.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-1445-e905b4.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-24-1445-e905b4.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-1445-e905b4.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-24-1501-39ad0e.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-1501-39ad0e.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-24-1501-39ad0e.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-1501-39ad0e.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-24-1535-51c19e.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-1535-51c19e.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-24-1535-51c19e.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-1535-51c19e.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-24-2022-76c04d.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-2022-76c04d.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-24-2022-76c04d.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-2022-76c04d.jpg]]
 
 ** Día 1
 
@@ -79,9 +79,9 @@ generalizar la solución y se me ocurrió leer acciones desde un archivo
 /YAML/ para controlar /Splinter/ y desarrollar esta ida como un /script/
 al que terminé llamando =unavi= [fn:unavi] (/Unattended Web Navigation/)
 
-[file:img/pycamp-2022-baradero/2022-03-25-1317-91ae8f.jpg][file:tmb/pycamp-2022-baradero/2022-03-25-1317-91ae8f.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-25-1317-91ae8f.jpg][file:tmb/pycamp-2022-baradero/2022-03-25-1317-91ae8f.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-25-2340-1be28f.jpg][file:tmb/pycamp-2022-baradero/2022-03-25-2340-1be28f.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-25-2340-1be28f.jpg][file:tmb/pycamp-2022-baradero/2022-03-25-2340-1be28f.jpg]]
 
 ** Día 2
 
@@ -93,13 +93,13 @@ espada, integrar diferentes proyectos, noche ñoña de todo tipo de juegos
 de mesa y de rol, y para quienes gustan de la trasnoche, algo de alcohol
 mientras sonaba música y reproducíamos la peli "Hackers" XD.
 
-[file:img/pycamp-2022-baradero/2022-03-26-1532-e995b6.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-1532-e995b6.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-26-1532-e995b6.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-1532-e995b6.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-26-2028-8e16db.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-2028-8e16db.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-26-2028-8e16db.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-2028-8e16db.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-26-2239-d31afc.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-2239-d31afc.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-26-2239-d31afc.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-2239-d31afc.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-26-2345-16b007.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-2345-16b007.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-26-2345-16b007.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-2345-16b007.jpg]]
 
 ** Día 3
 
@@ -120,13 +120,13 @@ El cierre de actividades quedó registrado en video [fn:PyCamp2022Cierre]
 Luego se vino el desarme y emprender la vuelta, y empezando a contar los
 días hasta el próximo /PyCamp/
 
-[file:img/pycamp-2022-baradero/2022-03-27-0109-ec1136.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-0109-ec1136.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-27-0109-ec1136.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-0109-ec1136.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-27-0214-d928bd.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-0214-d928bd.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-27-0214-d928bd.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-0214-d928bd.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-27-1436-ff1c15.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-1436-ff1c15.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-27-1436-ff1c15.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-1436-ff1c15.jpg]]
 
-[file:img/pycamp-2022-baradero/2022-03-27-1520-8fd2d0.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-1520-8fd2d0.jpg]
+[[file:img/pycamp-2022-baradero/2022-03-27-1520-8fd2d0.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-1520-8fd2d0.jpg]]
 
 [fn:josemasson]        https://github.com/abuelodelanada
 [fn:pycamp]            https://wiki.python.org.ar/pycamp/
