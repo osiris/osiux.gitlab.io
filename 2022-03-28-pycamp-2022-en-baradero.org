@@ -1,0 +1,149 @@
+#+TITLE:       PyCamp 2022 en Baradero
+#+DESCRIPTION: Experiencias vividas en PyCamp 2022 en Baradero
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2022-03-28 23:00
+#+HTML_HEAD:   <meta property="og:title" content="PyCamp 2022 en Baradero" />
+#+HTML_HEAD:   <meta property="og:description" content="Experiencias vividas en PyCamp 2022 en Baradero" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-03-28" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-03-28-nuestro-primer-pycamp-en-baradero.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pycamp-2022-baradero/2022-03-26-1654-c76dc7.jpg" />
+
+[file:img/pycamp-2022-baradero/2022-03-26-1654-c76dc7.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-1654-c76dc7.jpg]
+
+** y si vamos al /PyCamp/ ?
+
+Mi amigo /José Masson/ [fn:josemasson] me preguntó si iba a ir al
+=PyCamp= de este año y mi respuesta fue rotunda /"no tengo ni tiempo ni
+dinero, estoy con otras cosas"/, pero como me conoce, dejó pasar unos
+días y volvió a insistir, pero esta vez comentando que =PyAr= [fn:pyar]
+estaba intentando sumar integrantes y había becas disponibles, así que
+luego de unos días de discutirlo en familia, postulamos a /Leo/
+[fn:hertzet] (mi primer /fork/) y nos dieron 75%, la cual aceptamos.
+
+Por mi lado, solicité a /gcoop/ [fn:gcoop] (la cooperativa donde trabajo
+hace casi 15 años) la posibilidad de costear mi participación ya que
+nunca había participado de un =PyCamp= [fn:pycamp] y por la conocida
+pandemia hacía 2 años que no participaba de un evento presencial y
+relacionado al Software Libre.
+
+** Qué es el /PyCamp/ ?
+
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQ4kcxT4IjY" title="Cierre de actividades del PyCamp 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
+
+** Día 0
+
+Como todo evento comunitario, siempre terminamos yendo en banda y esta
+vez no fue la excepción, se sumó /Hugo Ruscitti/ [fn:hugoruscitti] al
+viaje al /PyCamp 2022 en Baradero/ [fn:pycamp2022].
+
+Estando en Ronda Grande, todes nos fuimos presentando y fue gratificante
+reconocer caras e incluso contar con la presencia de ex compañeros de
+trabajo y amistades de /LUGs/ y de otras coops de =FACTTIC= [fn:facttic]
+
+Me toco ocuparme de la conectividad, es curioso que el kit de antenas y
+/APs/ es el mismo que usó /USLA/ [fn:usla] y /BuenosAiresLibre/ [fn:BAL]
+en la realización de /Wikimania2009/ [fn:wikimania2009].
+
+Dos /Ubiquiti Bullet/ [fn:bulletm2] en modo /bridge/ conectadas a un
+/AP/ con =OpenWRT= [fn:openwrt] y varios precintos, permitieron
+inmovilizar y asegurar la /"SillaCenter"/ =:P=
+
+[file:img/pycamp-2022-baradero/2022-03-24-1445-e905b4.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-1445-e905b4.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-24-1501-39ad0e.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-1501-39ad0e.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-24-1535-51c19e.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-1535-51c19e.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-24-2022-76c04d.jpg][file:tmb/pycamp-2022-baradero/2022-03-24-2022-76c04d.jpg]
+
+** Día 1
+
+/Leo/ se ocupó de generar una animación en /Blender/ de una imagen con
+mas de 6000 nodos que luego usaría en una presentación de
+=Filiales GNU/Linux= en el =FLISoL CABA= [fn:gnulinuxflisol]
+
+Hace años que en /gcoop/ usamos =Selenium= [fn:selenium] para
+automatizar el /login/ a una /VPN/ y si bien también utilizamos
+=Splinter= [fn:splinter] para simplificar el código, tenía en mente
+generalizar la solución y se me ocurrió leer acciones desde un archivo
+/YAML/ para controlar /Splinter/ y desarrollar esta ida como un /script/
+al que terminé llamando =unavi= [fn:unavi] (/Unattended Web Navigation/)
+
+[file:img/pycamp-2022-baradero/2022-03-25-1317-91ae8f.jpg][file:tmb/pycamp-2022-baradero/2022-03-25-1317-91ae8f.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-25-2340-1be28f.jpg][file:tmb/pycamp-2022-baradero/2022-03-25-2340-1be28f.jpg]
+
+** Día 2
+
+Día intenso, lleno de actividades, hubo Debate sobre futuras acciones de
+/PyAr/, lograr juntar a todas las personas para la /Foto Grupal/ fue
+todo un desafío, también hubo tiempo para varios deportes, desde
+palestra hasta arco y flecha, como también aprender a blandir una
+espada, integrar diferentes proyectos, noche ñoña de todo tipo de juegos
+de mesa y de rol, y para quienes gustan de la trasnoche, algo de alcohol
+mientras sonaba música y reproducíamos la peli "Hackers" XD.
+
+[file:img/pycamp-2022-baradero/2022-03-26-1532-e995b6.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-1532-e995b6.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-26-2028-8e16db.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-2028-8e16db.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-26-2239-d31afc.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-2239-d31afc.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-26-2345-16b007.jpg][file:tmb/pycamp-2022-baradero/2022-03-26-2345-16b007.jpg]
+
+** Día 3
+
+Fue la /Demo de Proyectos/, donde hubo espacio para presentar cada
+proyecto en el que se trabajó, muchísima variedad y diversidad, si dudas
+el mas memorable fue =Salvando La Cena= [fn:salvandolacena], un juego
+basado en el día previo al /PyCamp/ en el que se hizo un asado al aire
+libre y como se largó a llover, se tuvo que salvar la cena, moviendo
+todas las cosas (parrilla incluida) hasta un quincho que estaba bastante
+lejos.
+
+El cierre de actividades quedó registrado en video [fn:PyCamp2022Cierre]
+
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/49SA33yfifQ" title="Cierre de actividades del PyCamp 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
+
+Luego se vino el desarme y emprender la vuelta, y empezando a contar los
+días hasta el próximo /PyCamp/
+
+[file:img/pycamp-2022-baradero/2022-03-27-0109-ec1136.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-0109-ec1136.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-27-0214-d928bd.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-0214-d928bd.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-27-1436-ff1c15.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-1436-ff1c15.jpg]
+
+[file:img/pycamp-2022-baradero/2022-03-27-1520-8fd2d0.jpg][file:tmb/pycamp-2022-baradero/2022-03-27-1520-8fd2d0.jpg]
+
+[fn:josemasson]        https://github.com/abuelodelanada
+[fn:pycamp]            https://wiki.python.org.ar/pycamp/
+[fn:pyar]              https://www.python.org.ar/
+[fn:hertzet]           https://github.com/hertzet
+[fn:hugoruscitti]      https://www.examplelab.com.ar/
+[fn:BAL]               https://buenosaireslibre.org/
+[fn:wikimania2009]     https://wikimania2009.wikimedia.org/wiki/Infraestructura
+[fn:facttic]           https://facttic.org.ar/
+[fn:gcoop]             https://www.gcoop.coop/
+[fn:pycamp2022]        https://wiki.python.org.ar/PyCamp/2022/
+[fn:bulletm2]          https://openwrt.org/toh/ubiquiti/bullet
+[fn:openwrt]           https://openwrt.org/
+[fn:usla]              https://es.wikipedia.org/wiki/Anexo:Grupos_de_Usuarios_de_Software_Libre_de_Argentina
+[fn:gnulinuxflisol]    https://osiux.com/2022-04-23-filiales-gnu-linux-flisol-caba.html
+[fn:unavi]             https://gitlab.com/osiux/unavi.git
+[fn:selenium]          https://selenium-python.readthedocs.io/
+[fn:splinter]          https://splinter.readthedocs.io/en/latest/index.html
+[fn:salvandolacena]    https://github.com/PyAr/SalvandoLaCena
+[fn:PyCamp2022Cierre]  https://www.youtube.com/watch?v=49SA33yfifQ
