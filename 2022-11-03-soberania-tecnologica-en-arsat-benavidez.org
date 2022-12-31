@@ -59,3 +59,7 @@ Argentino, =ARSAT es Soberanía Tecnológica <3= [fn:soberaniatec]
 [fn:arsat-cnd]     https://www.arsat.com.ar/centro-nacional-de-datos/
 [fn:arsat-sat]     https://www.arsat.com.ar/satelital/
 [fn:soberaniatec]  https://es.wikipedia.org/wiki/Soberanía_tecnológica
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7203a4361f9a140faafe427f72af909a06919b1e][=2022-12-31 18:51=]] agregar Soberanía Tecnológica en ARSAT Benavídez
