@@ -147,3 +147,7 @@ días hasta el próximo /PyCamp/
 [fn:splinter]          https://splinter.readthedocs.io/en/latest/index.html
 [fn:salvandolacena]    https://github.com/PyAr/SalvandoLaCena
 [fn:PyCamp2022Cierre]  https://www.youtube.com/watch?v=49SA33yfifQ
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/ebaa5e4d9ab43152a1e279fb24812ed815c8a09d][=2022-12-31 16:27=]] agregar PyCamp 2022 en Baradero
