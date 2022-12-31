@@ -1,0 +1,73 @@
+#+TITLE:       PyDay La Plata 2022
+#+DESCRIPTION: Evento Python Argentina en UTN La Plata
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    tag
+#+DATE:        2022-09-17 23:00
+#+HTML_HEAD:   <meta property="og:title" content="PyDay La Plata 2022" />
+#+HTML_HEAD:   <meta property="og:description" content="Evento Python Argentina en UTN La Plata" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-09-17" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-11-17-pyday-laplata.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pyday-2022-laplata/2022-09-17-1001-87a91c.jpg" />
+
+[[file:img/pyday-2022-laplata/2022-09-17-1001-87a91c.jpg][file:tmb/pyday-2022-laplata/2022-09-17-1001-87a91c.jpg]]
+
+** /PyDay en La Plata/
+
+No podíamos dejar de pasar la oportunidad de viajar a /La Plata/ y
+asistir al =PyDay= [fn:pydaylaplata] donde amigos daban charla y era la
+excusa para juntarse y compartir conocimiento y unas deliciosas
+medialunas!
+
+** Charlas
+
+/Luciano Rossi/ [fn:lukio] junto a /Gabriel Aguirre/ y /Christian
+Canaan/ dieron la charla /Automatizando tu sistema productivo con
+python/ con una implementación concreta sobre impresión de etiquetas
+para la industria.
+
+[[file:img/pyday-2022-laplata/2022-09-17-0958-ebe8b3.jpg][file:tmb/pyday-2022-laplata/2022-09-17-0958-ebe8b3.jpg]]
+
+[[file:img/pyday-2022-laplata/2022-09-17-1029-d4dc55.jpg][file:tmb/pyday-2022-laplata/2022-09-17-1029-d4dc55.jpg]]
+
+Hubo varias charlas, me resultó muy interesante /Python en la Industria
+del Petróleo YPF/ por /Esteban Alejo Domene/ [fn:conicet], mas allá de
+contar soluciones a problemas cotidiamos, el detalle del /Análisis
+Cuantitativo Automatizado de rocas/ fue excelente.
+
+[[file:img/pyday-2022-laplata/2022-09-17-1102-da52a8.jpg][file:tmb/pyday-2022-laplata/2022-09-17-1102-da52a8.jpg]]
+
+/Facundo Batista/ [fn:facubatista] mostró varias comparativas para
+acelerar el /Procesamiento Paralelo de Vectores/.
+
+El picante lo puso /José Masson/ [fn:josemasson] con /Python para
+desarrolladores PHP/, donde comentó los pros y contras de cada lenguaje
+y cómo fue pasar de uno a otro.
+
+[[file:img/pyday-2022-laplata/2022-09-17-1001-9f9f30.jpg][file:tmb/pyday-2022-laplata/2022-09-17-1001-9f9f30.jpg]]
+
+[[file:img/pyday-2022-laplata/2022-09-17-1546-361c36.jpg][file:tmb/pyday-2022-laplata/2022-09-17-1546-361c36.jpg]]
+
+Yo aproveché las Charlas Relámpago e improvisé una charla sobre cómo en
+=gcoop= [fn:gcoop] automatizamos la conexión a una /VPN/ utilizando
+/Splinter/ [fn:splinter] y /Selenium/ [fn:selenium].
+
+** Eventos Relacionados
+
+- [[file:2022-05-28-pytari-en-pyday-santafe.org][Pytari en PyDay Santa Fe]]
+- [[file:2022-03-28-pycamp-2022-en-baradero.org][PyCamp 2022 en Baradero]]
+
+[fn:lukio]         https://github.com/lukio
+[fn:conicet]       https://ri.conicet.gov.ar/author/42551
+[fn:facubatista]   https://blog.taniquetil.com.ar/
+[fn:josemasson]    https://github.com/abuelodelanada
+[fn:pydaylaplata]  https://eventos.python.org.ar/events/pyday-laplata-2022/
+[fn:splinter]      https://splinter.readthedocs.io/en/latest/index.html
+[fn:selenium]      https://selenium-python.readthedocs.io/
