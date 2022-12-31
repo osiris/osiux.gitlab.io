@@ -77,3 +77,7 @@ personajes que seguro los encontrás todos los años en la =eko=
 [fn:cec]       https://www.cecbuenosaires.com.ar/
 [fn:konex]     https://www.cckonex.org/
 [fn:sasoconf]  https://sasoconf.ar/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/ca4e8420c3744efbe34cd57c37320b9829f064f6][=2022-12-31 17:27=]] agregrar ekoparty 2022
