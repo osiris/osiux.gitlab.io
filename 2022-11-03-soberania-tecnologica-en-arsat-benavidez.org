@@ -1,0 +1,61 @@
+#+TITLE:       Soberanía Tecnológica en ARSAT Benavídez
+#+DESCRIPTION: Visita a las instalaciones de ARSAT Benavídez
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    tag
+#+DATE:        2022-12-31 17:46
+#+HTML_HEAD:   <meta property="og:title" content="Soberanía Tecnológica en ARSAT Benavídez" />
+#+HTML_HEAD:   <meta property="og:description" content="Visita a las instalaciones de ARSAT Benavídez" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-12-31" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-11-03-soberania-tecnologica-en-arsat-benavidez.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/arsat-2022-benavidez/2022-11-03-1744-00976d.jpg" />
+
+[[file:img/arsat-2022-benavidez/2022-11-03-1744-00976d.jpg][file:tmb/arsat-2022-benavidez/2022-11-03-1744-00976d.jpg]]
+
+Si bien conozco algunos /Data Centers/ por dentro, nada mejor que una
+visita guiada por los responsables para conocer en detalle las
+operaciones y esta vez junto a =FACTTIC= [fn:facttic] /Federación
+Argentina de Cooperativas de Trabajo Tecnología Innovación y
+Conocimiento/ tuvimos la oportunidad de conocer las instalaciones de
+=ARSAT= [fn:arsat]
+
+Realmente impresionante, pudimos ver la sala de operaciones de la
+=REFEFO= [fn:arsat-refefo] que es la /Red Federal de Fibra Óptica/, de
+la =TDA= [fn:arsat-tda] /Televisión Digital Abierta/, la estación
+terrestre de nuestros satélites [fn:arsat-sat] geoestacionarios
+=ARSAT-1= y =ARSAT-2= y finalmente el =DC= [fn:arsat-cnd] /Centro
+Nacional de Datos/.
+
+Nos contaron todos los desafíos que tienen a diario para mantener
+operativa toda la infraestructura, y pudimos ver la contingencia
+disponible para sortear cualquier inconveniente.
+
+Un orgullo contar con tremenda empresa de telecomunicaciones del Estado
+Argentino, =ARSAT es Soberanía Tecnológica <3= [fn:soberaniatec]
+
+[[file:img/arsat-2022-benavidez/2022-11-03-1509-275ca4.jpg][file:tmb/arsat-2022-benavidez/2022-11-03-1509-275ca4.jpg]]
+
+[[file:img/arsat-2022-benavidez/2022-11-03-1510-9eacc6.jpg][file:tmb/arsat-2022-benavidez/2022-11-03-1510-9eacc6.jpg]]
+
+[[file:img/arsat-2022-benavidez/2022-11-03-1540-f60f7f.jpg][file:tmb/arsat-2022-benavidez/2022-11-03-1540-f60f7f.jpg]]
+
+[[file:img/arsat-2022-benavidez/2022-11-03-1558-a9b44c.jpg][file:tmb/arsat-2022-benavidez/2022-11-03-1558-a9b44c.jpg]]
+
+[[file:img/arsat-2022-benavidez/2022-11-03-1722-262859.jpg][file:tmb/arsat-2022-benavidez/2022-11-03-1722-262859.jpg]]
+
+[[file:img/arsat-2022-benavidez/2022-11-03-1724-572972.jpg][file:tmb/arsat-2022-benavidez/2022-11-03-1724-572972.jpg]]
+
+[fn:facttic]       https://facttic.org.ar/
+[fn:arsat]         https://www.arsat.com.ar/
+[fn:arsat-refefo]  https://www.arsat.com.ar/red-federal-de-fibra-optica/
+[fn:arsat-tda]     https://www.arsat.com.ar/television-digital-abierta/
+[fn:arsat-cnd]     https://www.arsat.com.ar/centro-nacional-de-datos/
+[fn:arsat-sat]     https://www.arsat.com.ar/satelital/
+[fn:soberaniatec]  https://es.wikipedia.org/wiki/Soberanía_tecnológica
