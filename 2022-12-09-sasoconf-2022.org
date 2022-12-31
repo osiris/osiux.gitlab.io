@@ -81,3 +81,7 @@ fecha mas templada! =:P=
 [fn:ekoparty]     https://ekoparty.org/
 [fn:lockpicking]  https://en.wikipedia.org/wiki/Lock_picking
 [fn:curuzu]       https://es.wikipedia.org/wiki/Curuzú_Cuatiá
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/75a54220549f412d6ad0a582eb77f683348840d6][=2022-12-31 19:50=]] agregar SASOConf 2022
