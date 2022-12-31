@@ -1,0 +1,79 @@
+#+TITLE:       ekoparty 2022
+#+DESCRIPTION: ekoparty security conference 2022 edition
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2022-11-04 23:00
+#+HTML_HEAD:   <meta property="og:title" content="ekoparty 2022" />
+#+HTML_HEAD:   <meta property="og:description" content="ekoparty security conference 2022 edition" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-11-04" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-11-04-ekoparty-2022.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/ekoparty-2022/2022-11-04-0933-dbc099.jpg" />
+
+[[file:img/ekoparty-2022/2022-11-04-0933-dbc099.jpg][file:tmb/ekoparty-2022/2022-11-04-0933-dbc099.jpg]]
+
+** volvió la =eko=
+
+Como varios eventos, post-pandemia volvimos a la presencialidad y la
+=ekoparty= [fn:ekoparty] para festejar la vuelta, por primera vez la
+entrada a la conferencia fue gratuita! Además en lugar del clásico
+/Konex/ [fn:konex], este año el lugar fue el =CEC= [fn:cec] /Centro
+Convenciones de la Ciudad de Buenos Aires/.
+
+[[file:img/ekoparty-2022/2022-11-02-1041-44224a.jpg][file:tmb/ekoparty-2022/2022-11-02-1041-44224a.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-02-1041-6c1bae.jpg][file:tmb/ekoparty-2022/2022-11-02-1041-6c1bae.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-02-1206-27e795.jpg][file:tmb/ekoparty-2022/2022-11-02-1206-27e795.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-02-1457-36c81b.jpg][file:tmb/ekoparty-2022/2022-11-02-1457-36c81b.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-04-0951-7f204c.jpg][file:tmb/ekoparty-2022/2022-11-04-0951-7f204c.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-04-1236-38cb66.jpg][file:tmb/ekoparty-2022/2022-11-04-1236-38cb66.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-04-1429-787942.jpg][file:tmb/ekoparty-2022/2022-11-04-1429-787942.jpg]]
+
+** =SASOConf=
+
+Este año en lugar de ver charlas, estuve todo el tiempo en el Stand de
+la =SASOConf= [fn:sasoconf], promocionando el evento.
+
+[[file:img/ekoparty-2022/2022-11-02-1007-ec00ab.jpg][file:tmb/ekoparty-2022/2022-11-02-1007-ec00ab.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-02-1025-4a62cb.jpg][file:tmb/ekoparty-2022/2022-11-02-1025-4a62cb.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-04-0946-5c3d5e.jpg][file:tmb/ekoparty-2022/2022-11-04-0946-5c3d5e.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-04-1817-4636bd.jpg][file:tmb/ekoparty-2022/2022-11-04-1817-4636bd.jpg]]
+
+** After
+
+Como siempre, luego de una jornada intensa de charlas y desafíos al
+finalizar el evento, nos juntamos /los sospechosos de siempre/ a
+/compartir unas espumosas/ para hablar del sentido de la vida, el
+universo y todo lo demás...
+
+[[file:img/ekoparty-2022/2022-11-04-1917-739805.jpg][file:tmb/ekoparty-2022/2022-11-04-1917-739805.jpg]]
+
+Sin dudas, lo mejor de la =eko= siempre ha sido reencontrarse con esos
+personajes que seguro los encontrás todos los años en la =eko=
+
+[[file:img/ekoparty-2022/2022-11-02-2052-2cdf8c.jpg][file:tmb/ekoparty-2022/2022-11-02-2052-2cdf8c.jpg]]
+
+[[file:img/ekoparty-2022/2022-11-02-1653-f43bac.jpg][file:tmb/ekoparty-2022/2022-11-02-1653-f43bac.jpg]]
+
+** Eventos relacionados
+
+- [[file:sasoconf-2022.org][SASOConf 2022]]
+
+[fn:ekoparty]  https://ekoparty.org/
+[fn:cec]       https://www.cecbuenosaires.com.ar/
+[fn:konex]     https://www.cckonex.org/
+[fn:sasoconf]  https://sasoconf.ar/
