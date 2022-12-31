@@ -1,0 +1,120 @@
+#+TITLE:       Pytari en PyDay Santa Fe
+#+DESCRIPTION: Demostración del juego SalvandoLaCena en una Pytari en PyDay Santa Fe
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2022-05-28 23:18
+#+HTML_HEAD:   <meta property="og:title" content="Pytari en PyDay Santa Fe" />
+#+HTML_HEAD:   <meta property="og:description" content="Demostración del juego SalvandoLaCena en una Pytari en PyDay Santa Fe" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2022-05-28" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-05-28-pytari-en-pyday-santafe.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pyday-2022-santafe/2022-05-28-1433-e8b3c9.jpg" />
+
+[[file:img/pyday-2022-santafe/2022-05-28-1433-e8b3c9.jpg][file:tmb/pyday-2022-santafe/2022-05-28-1433-e8b3c9.jpg]]
+
+** Post PyCamp Baradero
+
+El equipo de desarrollo del juego =SalvandoLaCena= [fn:salvandolacena],
+/post/ =PyCampBaradero= [fn:pycamp2022], se quedó /re-manija/ y se ocupo
+de mejorar el juego y el hardware!
+
+** Tenes un /Arcade/ o tenes una /Pytari/?
+
+/HugoRuscitti/ [fn:hugoruscitti] quería mejorar la experiencia y armó un
+/arcade/ a medida de una pantalla que ya tenía y un /joystick/ que
+compró, y con paciencia logró encastrar todas las partes, para luego
+pintarlo y dejarlo listo para jugar!
+
+Típica costumbre de (re)nombrar cosas, rápidamente surgió la idea de
+llamar de alguna manera mas personalizada al /arcade/ y /Ska/ [fn:ska]
+sugirió ="pytari"= y gustó mucho. 
+
+Y como alguien se tenía que ocupar de llevar la /Pytari/ al evento, me
+compré la tarea como excusa autoforzada de viajar junto con /Leo/, no
+sin antes darle un toque extra, pensando en los logos de /Python/ y
+/Atari/, se me ocurrió fusionarlos y así salieron /stickers/ para la
+/Pytari/ y para repartir entre quienes asistieron al /PyDay/.
+
+[[file:img/pyday-2022-santafe/2022-05-27-1411-efe6ff.jpg][file:tmb/pyday-2022-santafe/2022-05-27-1955-e1df40.jpg]]
+
+** Doble control
+
+/Ska/ industrializo la /PoC/ en una bonita caja negra, que dentro
+contiene la /PCB/ con el instrumento de control. Básicamente
+/SalvandoLaCena/ tiene la característica de permitir jugar de a dos,
+alguien pone a prueba su destreza con el /joystick/ y alguien
+dificulta/facilita el juego controlando la línea de tiempo, haciendo el
+juego mas lento o rápido, avanzado y retrocediendo en el tiempo.
+
+** PyDay SantaFe
+
+Al final, en el auto solo fuimos 3, Leo (mi primer /fork/), la /Pytari/
+y yo =:P=
+
+[[file:img/pyday-2022-santafe/2022-05-28-0751-87e8ea.jpg][file:tmb/pyday-2022-santafe/2022-05-28-0751-87e8ea.jpg]]
+
+El viaje fue largo, aprendí que efectivamente /Rosario/ siempre estuvo
+cerca, al menos mucho mas cerca de /CABA/ que /SantaFe/ =XD=
+
+Salimos mas tarde de lo planeado y llegamos justo al mediodía así que
+nos perdimos las primeras charlas aunque llegamos justo para el Arroz
+con Pollo al Disco =:P=
+
+[[file:img/pyday-2022-santafe/2022-05-28-1338-227aee.jpg][file:tmb/pyday-2022-santafe/2022-05-28-1338-227aee.jpg]]
+
+La Universidad era muy cómoda y a pesar del cielo gris el evento estuvo
+genial!
+
+[[file:img/pyday-2022-santafe/2022-05-28-1637-b9540e.jpg][file:tmb/pyday-2022-santafe/2022-05-28-1637-b9540e.jpg]]
+
+** Sobredosis de /Stickers/ y Remeras
+
+Ademas de los clásicos /stickers/ oficiales del evento y de /PyAr/,
+/Marian/ se convirtió en una /Dealer/ de preciados /stickers/ importados
+con una calidad y diversidad que fue difícil contenerse y apropiarse
+de pocos =;)=
+
+[[file:img/pyday-2022-santafe/2022-05-28-1439-4113f0.jpg][file:tmb/pyday-2022-santafe/2022-05-28-1439-4113f0.jpg]]
+
+/PyAr/ [fn:pyar] decidió regalar remeras de la PyConAr 2021 y si bien
+eran muchísimas no quedó ni una!
+
+La presentación de /SalvandoLaCena/ estuvo genial porque se pudo contar
+todo el desarrollo del proyecto, cómo surgió la idea y la invitación a
+participar de eventos como el /PyCamp/ donde se pueden realizar juegos
+en muy pocos días y con la participación de muchas personas.
+
+[[file:img/pyday-2022-santafe/2022-05-28-1616-64195e.jpg][file:tmb/pyday-2022-santafe/2022-05-28-1616-64195e.jpg]]
+
+[[file:img/pyday-2022-santafe/2022-05-28-1618-f476ee.jpg][file:tmb/pyday-2022-santafe/2022-05-28-1618-f476ee.jpg]]
+
+Post evento, tuvimos la oportunidad de recorrer la ciudad y disfrutar de
+la noche, con música y algunos tragos.
+
+[[file:img/pyday-2022-santafe/2022-05-28-1842-f0981b.jpg][file:tmb/pyday-2022-santafe/2022-05-28-1842-f0981b.jpg]]
+
+[[file:img/pyday-2022-santafe/2022-05-28-2114-fa6f47.jpg][file:tmb/pyday-2022-santafe/2022-05-28-2114-fa6f47.jpg]]
+
+** Bonus Extra
+
+No podía dejar pasar la oportunidad de tener por unos días extra la
+/Pytari/ (pre y post evento), así que ademas de disfrutar de
+/SalvandoLaCena/, disfrutamos de /Bubble Bobble/ [fn:bubblebobble] con
+mis /forks/ en casa y en /gcoop/ [fn:gcoop] también como pausa y recreo
+laboral.
+
+[[file:img/pyday-2022-santafe/2022-06-03-1744-9e4c86.jpg][file:tmb/pyday-2022-santafe/2022-06-03-1744-9e4c86.jpg]]
+
+[fn:salvandolacena]  https://github.com/PyAr/SalvandoLaCena
+[fn:pycamp2022]      https://wiki.python.org.ar/PyCamp/2022/
+[fn:hugoruscitti]    https://www.examplelab.com.ar/
+[fn:ska]             https://github.com/skalanux
+[fn:gcoop]           https://www.gcoop.coop/
+[fn:pyar]            https://www.python.org.ar/
+[fn:bubblebobble]    https://es.wikipedia.org/wiki/Bubble_Bobble
