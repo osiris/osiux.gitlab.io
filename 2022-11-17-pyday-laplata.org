@@ -71,3 +71,7 @@ Yo aproveché las Charlas Relámpago e improvisé una charla sobre cómo en
 [fn:pydaylaplata]  https://eventos.python.org.ar/events/pyday-laplata-2022/
 [fn:splinter]      https://splinter.readthedocs.io/en/latest/index.html
 [fn:selenium]      https://selenium-python.readthedocs.io/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/cdf319120d126ad7f7d75d7daf46b385bdfed4c7][=2022-12-31 18:41=]] agregar PyDay La Plata 2022
