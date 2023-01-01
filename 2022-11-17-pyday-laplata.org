@@ -69,6 +69,7 @@ Yo aproveché las Charlas Relámpago e improvisé una charla sobre cómo en
 [fn:facubatista]   https://blog.taniquetil.com.ar/
 [fn:josemasson]    https://github.com/abuelodelanada
 [fn:pydaylaplata]  https://eventos.python.org.ar/events/pyday-laplata-2022/
+[fn:gcoop]         https://www.gcoop.coop/
 [fn:splinter]      https://splinter.readthedocs.io/en/latest/index.html
 [fn:selenium]      https://selenium-python.readthedocs.io/
 
