@@ -8,7 +8,7 @@
 #+KEYWORDS:    sasoconf, saso, evento, software, software libre, redes libres, seguridad, seguridad informática, curuzú, curuzú cuatiá, corrientes
 #+DATE:        2022-12-08 03:41
 
-[[file:img/sasoconf-2022/2022-12-10-23_48_52_KANT0088.jpg][file:img/sasoconf-2022/2022-12-10-23_48_52_KANT0088.jpg]]
+[[file:img/sasoconf-2022/2022-12-10-23_48_52_KANT0088.jpg][file:tmb/sasoconf-2022/2022-12-10-23_48_52_KANT0088.jpg]]
 
 ** /SASOConf Reloaded/
 
