@@ -82,6 +82,8 @@ fecha mas templada! =:P=
 [fn:lockpicking]  https://en.wikipedia.org/wiki/Lock_picking
 [fn:curuzu]       https://es.wikipedia.org/wiki/Curuzú_Cuatiá
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/723926fda3b67c6af53fc444b7f9911194e44606][=2023-01-01 16:13=]] corregir preview de imágenes en SASOConf 2022
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/75a54220549f412d6ad0a582eb77f683348840d6][=2022-12-31 19:50=]] agregar SASOConf 2022
