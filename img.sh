@@ -20,7 +20,7 @@ HEADER='img-header.org'
 
 get_title()
 {
-   grep "\+TITLE: " "$FILE" | head -1 | cut -d: -f2- | sed 's/^ \+//g'
+   grep -E "\+TITLE: " "$FILE" | head -1 | cut -d: -f2- | sed 's/^ \+//g'
 }
 
 TMP="$(mktemp)"
