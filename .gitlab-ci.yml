@@ -1,7 +1,7 @@
 image: iquiw/alpine-emacs
 
 before_script:
-  - apk update && apk add bash gawk
+  - apk update && apk add bash gawk imagemagick
   - awk --version
   - emacs --version
 
@@ -11,6 +11,8 @@ pages:
   - cat blog.sh  | /bin/bash
   - cat stats-posts.sh | /bin/bash > stats-posts.org
   - cat years.sh       | /bin/bash > years.org
+  - cat tmb.sh         | /bin/bash 
+  - cat icn.sh         | /bin/bash 
   - cat img.sh         | /bin/bash > img.org
   - test -e "$HOME/.org-timestamps/site-static.cache" && rm -fv "$HOME/.org-timestamps/site-static.cache"
   - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
