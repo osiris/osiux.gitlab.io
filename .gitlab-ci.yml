@@ -15,6 +15,7 @@ pages:
   - cat icn.sh         | /bin/bash 
   - cat img.sh         | /bin/bash > img.org
   - test -e "$HOME/.org-timestamps/site-static.cache" && rm -fv "$HOME/.org-timestamps/site-static.cache"
+  - make links
   - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
   - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
   - cat sitemap.sh | /bin/bash
