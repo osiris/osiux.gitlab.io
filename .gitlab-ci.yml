@@ -1,7 +1,7 @@
 image: iquiw/alpine-emacs
 
 before_script:
-  - apk update && apk add bash gawk imagemagick
+  - apk update && apk add bash gawk imagemagick curl
   - awk --version
   - emacs --version
 
