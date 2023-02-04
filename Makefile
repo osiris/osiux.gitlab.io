@@ -32,7 +32,9 @@ image:
 	./img.sh > img.org
 
 links:
+	ls -lht links.org
 	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(LNK_ORG))" = 200 ]] && curl $(LNK_ORG) > links.org
+	ls -lht links.org
 
 gemini:
 	for i in *.org;do org2gmi "$$i";done
