@@ -1,3 +1,8 @@
+SHELL:=/bin/bash
+
+LNK_URL   ?= https://osiux.gitlab.io/osiux-links
+LNK_ORG   ?= $(LNK_URL)/links.org
+
 all: years stats_posts stats_since_until blog image index htaccess publish
 
 years:
@@ -25,6 +30,9 @@ image:
 	./tmb.sh
 	./icn.sh
 	./img.sh > img.org
+
+links:
+	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(LNK_ORG))" = 200 ]] && curl $(LNK_ORG) > links.org
 
 gemini:
 	for i in *.org;do org2gmi "$$i";done
