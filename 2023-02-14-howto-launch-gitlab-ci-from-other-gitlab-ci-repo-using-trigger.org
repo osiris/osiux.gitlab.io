@@ -124,3 +124,7 @@ el teléfono espía y despreocuparme de la publicación automatizada!
 [fn:links2org]           https://gitlab.com/osiux/links-bash-utils/-/raw/master/links2org
 [fn:osiux-links]         https://gitlab.com/osiux/osiux-links.git
 [fn:links-makefile]      https://gitlab.com/osiux/osiux-links/-/blob/develop/Makefile
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/95bf2c903e5d778799811ddf6e5a12c277f03678][=2023-02-14 20:45=]] agregar /howto launch gitlab ci from other gitlab ci repo using trigger/
