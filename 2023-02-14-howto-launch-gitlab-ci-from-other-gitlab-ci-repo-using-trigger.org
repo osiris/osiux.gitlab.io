@@ -1,0 +1,126 @@
+#+TITLE:       howto launch gitlab ci from other gitlab ci repo using trigger
+#+DESCRIPTION: Cómo iniciar GitLab CI desde otro repositorio de GitLab CI usando trigger para la automatización de la generación de un blog
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    gitlab, git, trigger, ci, gitlab-ci, automation, devops
+#+DATE:        2023-02-14 20:07
+#+HTML_HEAD:   <meta property="og:title" content="howto launch gitlab ci from other gitlab ci repo using trigger" />
+#+HTML_HEAD:   <meta property="og:description" content="Cómo iniciar GitLab CI desde otro repositorio de GitLab CI usando trigger para la automatización de la generación de un blog" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-02-14" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-02-14-howto-launch-gitlab-ci-from-other-gitlab-ci-repo-using-trigger.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/2023-02-06-osiux-links-trigger-osiux-blog.png" />
+
+[[file:img/2023-02-06-osiux-links-trigger-osiux-blog.png][file:tmb/2023-02-06-osiux-links-trigger-osiux-blog.png]]
+
+Hace tiempo que decidí compartir mis /links/ [fn:bookmarks-vs-links]
+/favoritos/ y para esto la secuencia era la siguiente:
+
+En el teléfono espía:
+
+1. Registrar y categorizar /link/ en =simpletask= [fn:simpletask]
+2. Realizar un /commit/ y ejecutar =git push= luego de varios /links/
+
+En la /notebook/:
+
+3. Obtener los últimos cambios del /repo/ =links= [fn:osiux-links]
+4. Realizar un /merge/ si había cambios locales
+5. Realizar un /commit/ y ejecutar =git push= con =links.txt= actualizado
+6. Ejecutar =links2org= para obtener =links.org= actualizado
+7. Revisar =links.org= y hacer /commit/ en el /repo/ =blog= [fn:osiux-blog]
+8. Enviar cambios del /repo/ =blog= a /GitLab/
+9. Verificar que la /CI/ publique el sitio en https://osiux.gitlab.io/
+10. Verificar que https://osiux.com/ obtenga los cambios de /GitLab/
+
+Y esta secuencia tenía varios inconvenientes:
+
+- depender de la /notebook/ para publicar
+- realizar /commits/ en 2 /repos/ diferentes (=links= y =blog=)
+- circuito de pasos manuales con muchos tiempos muertos
+- muy baja frecuencia de publicación
+
+** /automate all the things/
+
+Luego de pensar un poco, cómo podía simplificar la operatoria y al mismo
+tiempo automatizar el circuito, logré resolverlo eficientemente de la
+siguiente manera:
+
+En el teléfono espía:
+
+1. Registrar y categorizar /link/ en =simpletask=
+2. Realizar un /commit/ y ejecutar =git push= luego de varios /links/
+
+En la notebook:
+
+0. No tengo que hacer nada de nada!
+
+En GitLab:
+
+3. Se obtienen los últimos cambios y se dispara la /CI/
+4. Verificar que la /CI/ publique el sitio en https://osiux.gitlab.io/osiux-links/
+5. Verificar que https//osiux.com/ obtenga los cambios de /GitLab/
+
+El cambio es enorme! Ahora puedo publicar directamente desde el teléfono
+espía, basta con ejecutar =git push= y /GitLab/ hace su magia! =:)=
+
+Y luego de varias pruebas, ya no son necesarias las vericaciones, en
+general siempre funciona como se espera!
+
+** dónde esta la magia?
+
+La magia esta en =.gitlab-ci.yml= del /repo/ =osiux-links=, este repo
+además de almacenar el listado de /links/ en el archivo =links.txt=,
+contiene un =Makefile= [fn:links-makefile] con reglas que permiten
+instalar todas las depdencias necesarias para procesar =links.txt= y
+convertirlo a =links.org= para luego generar =links.html=
+
+El contenido de =.gitlab-ci.yml= es el siguiente:
+
+#+BEGIN_SRC yaml :exports code
+image: iquiw/alpine-emacs
+
+before_script:
+  - apk update && apk add bash gawk moreutils make curl
+  - awk --version
+  - emacs --version
+
+pages:
+  script:
+  - make requirements
+  - make links
+  - make org2html
+  - make public2tgz
+  artifacts:
+    paths:
+    - public
+  only:
+  - develop
+
+update_blog:
+  trigger:
+    project: osiux/osiux.gitlab.io
+    branch: master
+#+END_SRC
+
+Ahora el archivo =links.org= se genera dinámicamente en /GitLab/, ya lo
+eliminé del /repo/ =blog= y puedo actualizar y compartir /links/ desde
+el teléfono espía y despreocuparme de la publicación automatizada!
+
+** Te sugiero leer
+
+- [[file:2022-07-20-lists.sh-es-para-amantes-de-las-listas.org][=lists.sh= es para amantes de las listas]]
+- [[file:2021-03-16-todo-txt-es-una-lista-de-tareas.org][=todo.txt= es una lista de tareas]]
+- [[file:2021-01-29-bookmarks-vs-links.org][bookmarks vs links.txt]]
+
+[fn:bookmarks-vs-links]  [[file:2021-01-29-bookmarks-vs-links.org]]
+[fn:simpletask]          https://github.com/mpcjanssen/simpletask-android
+[fn:osiux-blog]          https://gitlab.com/osiux/osiux.gitlab.io.git
+[fn:links2org]           https://gitlab.com/osiux/links-bash-utils/-/raw/master/links2org
+[fn:osiux-links]         https://gitlab.com/osiux/osiux-links.git
+[fn:links-makefile]      https://gitlab.com/osiux/osiux-links/-/blob/develop/Makefile
