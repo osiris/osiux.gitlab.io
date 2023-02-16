@@ -173,6 +173,8 @@ Y para asegurarme que todo se ejecute solito y solo uso /crontab/ =:)=
 [fn:gemini]           gemini://gmi.osiux.com=
 [fn:leet]             https://en.wikipedia.org/wiki/Leet
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5a50fa13e7bb99411251cc48b57745b0b147d482][=2023-02-16 12:46=]] actualizar imágenes de /enviar notificaciones automáticas usando =ntfy.sh=/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/b6c878f33d0b5e0a123a3dad91e08d8082cab4a3][=2023-02-15 22:57=]] agregar /enviar notificaciones automáticas usando =ntfy.sh=/
