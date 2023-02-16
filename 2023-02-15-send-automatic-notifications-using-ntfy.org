@@ -15,9 +15,9 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-02-15-send-automatic-notifications-using-ntfy.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/ntfy-all.png" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/ntfy/ntfy-all.png" />
 
-[[file:/img/ntfy-all.png][file:/tmb/ntfy-all.png]]
+[[file:img/ntfy/ntfy-all.png][file:tmb/ntfy-all.png]]
 
 ** =raspberrypi=
 
@@ -134,7 +134,7 @@ tfy-msg.sh test
 Notifica la /IP/ pública, sólo si esta cambió desde la última vez que se
 ejecutó =ntfy-ipinfo=, la misma la obtiene desde =ipinfo.io= [fn:ipinfo]
 
-[[file:/img/ntfy-ipinfo.png][file:/tmb/ntfy-ipinfo.png]]
+[[file:img/ntfy/ntfy-ipinfo.png][file:tmb/ntfy-ipinfo.png]]
 
 *** =ntfy-mountpoint.sh=
 
@@ -142,13 +142,13 @@ Notifica si cambia el estado de un punto de montaje, es decir, por
 ejemplo, mi disco externo no esta montado en =/mnt/usb= avisa y ni bien
 se monte este disco al cambiar el estado también notificará.
 
-[[file:/img/ntfy-mountpoint.png][file:/tmb/ntfy-mountpoint.png]]
+[[file:img/ntfy/ntfy-mountpoint.png][file:tmb/ntfy-mountpoint.png]]
 
 *** =ntfy-uptime.sh=
 
 Notifica la salida de =uptime= si se produce un reinicio.
 
-[[file:/img/ntfy-uptime.png][file:/tmb/ntfy-uptime.png]]
+[[file:img/ntfy/ntfy-uptime.png][file:tmb/ntfy-uptime.png]]
 
 ** =crontab=
 
