@@ -1,0 +1,174 @@
+#+TITLE:       enviar notificaciones automáticas usando =ntfy.sh=
+#+DESCRIPTION: Cómo enviar notificaciones automáticas a su teléfono espía usando =curl= y recibirlas al instante
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    tag
+#+DATE:        2023-02-15 22:56
+#+HTML_HEAD:   <meta property="og:title" content="enviar notificaciones automáticas usando =ntfy.sh=" />
+#+HTML_HEAD:   <meta property="og:description" content="Cómo enviar notificaciones automáticas a su teléfono espía usando =curl= y recibirlas al instante" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-01-01" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-02-15-send-automatic-notifications-using-ntfy.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/ntfy-all.png" />
+
+[[file:/img/ntfy-all.png][file:/tmb/ntfy-all.png]]
+
+** =raspberrypi=
+
+Tengo una =raspberrypi= [fn:raspberrypi] que uso para hostear una
+versión en =gemini= de mi /blog/ en =gemini://gmi.osiux.com= [fn:gemini]
+y también la utilizo para realizar /backups/.
+
+El problema es que a veces, se corta la luz y como el /disco externo
+esta cifrado/ [fn:ansible-luks], debo acceder remotamente e ingresar la
+/passphrase/ para montarlo nuevamente, pero para realizar esto, antes
+necesito 2 cosas:
+
+1. Enterarme inmediatamente
+2. Saber la nueva /IP/ pública
+
+Para resolver estos 2 problemas, estoy usando =ntfy.sh= [fn:ntfy.sh], un
+servicio de notificaciones basado en /HTTP/ =pub-sub= [fn:pub-sub].
+
+** =ntfy.sh=
+
+=ntfy.sh= es muy simple de usar, basta con realizar un /request/ usando
+=curl= especificando un mensaje y un tópico, por ejemplo =b4kup= y es
+posible consultar las novedades accediendo a =ntfy.sh/b4kup= sin
+necesidad de autenticarse, es decir que el tópico elegido es público si
+utilizamos el servicio de =ntfy.sh= aunque podemos tener nuestra propia
+instancia /Self Hosted/ [fn:ntfy-selfhosted]
+
+** enviar notificación
+
+Es lo mas simple, solo hay que definir el tópico y se puede usar =curl=
+de la siguiente manera:
+
+#+BEGIN_SRC sh :session :results none :exports code
+curl -d Backup ntfy.sh/b4ckup
+#+END_SRC
+
+Y obtendremos un /JSON/ con el /id/ y un /timestamp/
+
+#+BEGIN_SRC json :results none :exports code
+{
+  "id": "DPqB7xNFT0jj",
+  "time": 1672629273,
+  "event": "message",
+  "topic": "b4ckup",
+  "message": "Backup"
+}
+#+END_SRC
+
+Es posible indicar un /título/ (=Title=), definir la /prioridad/
+(=Priority=) y especificar una o mas /etiquetas/ (=Tags=), además de
+obviamente lo importante, el mensaje:
+
+#+BEGIN_SRC sh :session :results none :exports code
+
+curl                       \
+  -H "Title: Backup"       \
+  -H "Priority: urgent"    \
+  -H "Tags: backup"        \
+  -d "FAILED"              \
+  https://ntfy.sh/b4ckup
+
+#+END_SRC
+
+También es posible usar el /CLI/ [fn:ntfy-cli], pero no es
+imprescindible para el envío y eso es lo que mas me interesó de esta
+herramienta porque =curl= esta disponible en todo tipo de dispositivos!
+
+#+BEGIN_SRC sh :session :results none :exports code
+
+ntfy pub b4ckup test
+
+#+END_SRC
+
+** recibir notificaciones
+
+Para recibir notificaciones se puede usar el /CLI/ y recibirlas al vuelo
+
+#+BEGIN_SRC sh :session :results none :exports code
+
+ntfy subscribe b4ckup
+
+#+END_SRC
+
+O usar el servicio y suscribirse a varios tópicos definiendo la
+configuración en el archivo =/etc/ntfy/client.yml=
+
+Para el teléfono espía, lo mejor es utilizar la /app/ =ntfy= de
+=f-droid= [fn:ntfy-apk] ya que podremos suscribirnos a varios tópicos y
+recibirlas al instante, pudiendo definir ajustes diferentes para cada
+suscripción como el mínimo de prioridad a mostrar, cuánto tiempo
+mantener las notificaciones, etc.
+
+** =ntfy-bash-utils=
+
+Como siempre, cada vez que encuentro una herramienta, decido armar mis
+/scripts/ de utilidades en /BASH/ y publicarlos, en este caso en el
+/repo/ =ntfy-bash-utils= [fn:ntfy-bash-utils]
+
+*** =ntfy-msg.sh=
+
+Permite enviar una notificación, usando por defecto como título el
+/FQDN/ del equipo y como tópico lo mismo pero seudo /leet/ [fn:leet],
+por ejemplo =server.example.com= se transformará en =53rv3r3x4mp13c0m=
+
+Se pueden redefinir las variables por defecto usando las variables de
+entorno =PRIORITY=, =TAGS=, =TITLE= y =TOPIC=.
+
+#+BEGIN_SRC sh :session :results none :exports code
+tfy-msg.sh test
+#+END_SRC
+
+*** =ntfy-ipinfo.sh=
+
+Notifica la /IP/ pública, sólo si esta cambió desde la última vez que se
+ejecutó =ntfy-ipinfo=, la misma la obtiene desde =ipinfo.io= [fn:ipinfo]
+
+[[file:/img/ntfy-ipinfo.png][file:/tmb/ntfy-ipinfo.png]]
+
+*** =ntfy-mountpoint.sh=
+
+Notifica si cambia el estado de un punto de montaje, es decir, por
+ejemplo, mi disco externo no esta montado en =/mnt/usb= avisa y ni bien
+se monte este disco al cambiar el estado también notificará.
+
+[[file:/img/ntfy-mountpoint.png][file:/tmb/ntfy-mountpoint.png]]
+
+*** =ntfy-uptime.sh=
+
+Notifica la salida de =uptime= si se produce un reinicio.
+
+[[file:/img/ntfy-uptime.png][file:/tmb/ntfy-uptime.png]]
+
+** =crontab=
+
+Y para asegurarme que todo se ejecute solito y solo uso /crontab/ =:)=
+
+#+BEGIN_SRC crontab :results none :exports code
+*/10 * * * * /root/bin/ntfy-ipinfo.sh >/dev/null
+*/5  * * * * MOUNTPOINT=/mnt/barracuda /root/bin/ntfy-mountpoint.sh >/dev/null
+@reboot sleep 30 && /root/bin/ntfy-uptime.sh >/dev/null
+
+#+END_SRC
+
+[fn:raspberrypi]      https://www.raspberrypi.com/
+[fn:ansible-luks]     [[file:2021-01-25-ansible-luks-format-external-usb-disk.org]]
+[fn:ntfy.sh]          https://ntfy.sh/
+[fn:ntfy-apk]         https://f-droid.org/en/packages/io.heckel.ntfy/
+[fn:pub-sub]          https://en.wikipedia.org/wiki/Publish-subscribe_pattern
+[fn:ntfy-bash-utils]  https://gitlab.com/osiux/ntfy-bash-utils.git
+[fn:ntfy-selfhosted]  https://docs.ntfy.sh/install/
+[fn:ntfy-cli]         https://docs.ntfy.sh/subscribe/cli/#install-configure
+[fn:ipinfo]           https://ipinfo.io
+[fn:gemini]           gemini://gmi.osiux.com=
+[fn:leet]             https://en.wikipedia.org/wiki/Leet
