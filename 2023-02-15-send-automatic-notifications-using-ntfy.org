@@ -172,3 +172,7 @@ Y para asegurarme que todo se ejecute solito y solo uso /crontab/ =:)=
 [fn:ipinfo]           https://ipinfo.io
 [fn:gemini]           gemini://gmi.osiux.com=
 [fn:leet]             https://en.wikipedia.org/wiki/Leet
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/b6c878f33d0b5e0a123a3dad91e08d8082cab4a3][=2023-02-15 22:57=]] agregar /enviar notificaciones automáticas usando =ntfy.sh=/
