@@ -125,3 +125,7 @@ en una libreta y jugar con él mientras disfruto de un café desconectado.
 [fn:cal-bash-utils]  https://gitlab.com/osiux/cal-bash-utils
 [fn:libnotify]       https://github.com/GNOME/libnotify
 [fn:ntfy.sh]         https://ntfy.sh/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/395406fc641b9f16bd28829d3cf8d62c536a3e84][=2023-02-17 00:08=]] agregar /Calendario de Terminal versus Calendario en Papel/
