@@ -126,6 +126,8 @@ en una libreta y jugar con él mientras disfruto de un café desconectado.
 [fn:libnotify]       https://github.com/GNOME/libnotify
 [fn:ntfy]            https://ntfy.sh/
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/93069ad5d6bb7b2ff5a1f8554ae4d92d989a81cb][=2023-02-17 01:48=]] corregir footnote a ntfy en /Calendario de Terminal versus Calendario en Papel/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/395406fc641b9f16bd28829d3cf8d62c536a3e84][=2023-02-17 00:08=]] agregar /Calendario de Terminal versus Calendario en Papel/
