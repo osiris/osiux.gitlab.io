@@ -1,0 +1,127 @@
+#+TITLE:       Calendario de Terminal versus Calendario en Papel
+#+DESCRIPTION: Cómo mantener sincronizado el calendario en Papel con el calendario en la terminal de GNU/Linux
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    terminal, command line, console, calendar, cal2ascii, cal2pdf
+#+DATE:        2023-02-16 23:06
+#+HTML_HEAD:   <meta property="og:title" content="Calendario de Terminal versus Calendario en Papel" />
+#+HTML_HEAD:   <meta property="og:description" content="Cómo mantener sincronizado el calendario en Papel con el calendario en la terminal de GNU/Linux" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-02-16" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-02-16-terminal-calendar-versus-paper-calendar.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/cal2ascii-vs-cal2pdf.png" />
+
+[[file:img/cal2ascii-vs-cal2pdf.png][file:tmb/cal2ascii-vs-cal2pdf.png]]
+
+Históricamente, preferí el calendario en papel, no necesita batería, es
+fácil de re-escribir, tachar, subrayar, colorear y por sobre todo me
+resulta muy cómodo visualizar el mes completo con las fechas
+importantes para no olvidar nada (o casi nada).
+
+Al mismo tiempo amo la /consola/! /tty/, /línea de comandos/ y todo lo
+que se le parezca, es rápida para buscar y conectar la salida de un
+comando con la entrada de otro y producir lo que necesito rápidamente.
+
+** terminal vs papel
+
+El problema que encontré al registrar fechas en la compu, muy pocas
+aplicaciones permiten imprimir el calendario, están mas bien pensadas
+para simular digitalmente el calendario y mediante /CalDAV/ [fn:caldav]
+o algún otro medio poder consultar y editar desde varios dispositivos.
+
+** recordar el minimalismo
+
+En el comienzo, dí con =remind= [fn:remind], que es muy simple de usar,
+hice varios /scripts/ para interactuar con =org-mode= [fn:org-mode] y
+otras aplicaciones, incluso llegué a utilizar =wyrd= [fn:wyrd] como
+/frontend/, pero en algún momento encontré algunos límites.
+
+Luego probé =khal= [fn:khal] que, fue la mejor experiencia de
+interactuar con /CalDAV/ pero en algún momento por dependencias dejó de
+funcionar y preferí volver al minimalismo.
+
+Retomé el uso de =pcal= [fn:pcal] que es muy versátil para generar
+calendarios en formato /PDF/ y jugando un poco, re-descubrí su simpleza,
+basta con registrar los eventos en el archivo =~/.calendar= y en texto
+plano, fácil de leer, fácil de versionar con =git= y por sobre todo sin
+dependencias, basta con instalar el paquete =pcal=.
+
+** compartir es bueno
+
+Inicialmente generé el /script/ =cal2pdf= con las diferentes
+preferencias que me interesaban mantener siempre en la conversión a
+/PDF/ y luego fui creando =calday= para visualizar los eventos del día y
+=cal2ascii= para obtener una versión /ASCII/ en pantalla sin necesidad
+de imprimir el /PDF/.
+
+#+BEGIN_SRC sh :session :results none :exports code
+LANG=us COLS=72 MONTH=4 cal2ascii
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│                             April 2023                              │
+│                                                                     │
+├─────────┬─────────┬─────────┬─────────┬─────────┬─────────┬─────────┤
+│ Sunday  │ Monday  │ Tuesday │Wednesday│Thursday │ Friday  │Saturday │
+├─────────┴─────────┴─────────┴─────────┴─────────┴─────────┼─────────┤
+│                                                           │1        │
+│                                                           │         │
+│                                                           │         │
+├─────────┬─────────┬─────────┬─────────┬─────────┬─────────┼─────────┤
+│2        │3        │4        │5        │6        │7        │8        │
+│         │         │         │         │         │         │         │
+│         │         │         │         │         │         │         │
+├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
+│9        │10       │11       │12       │13       │14       │15       │
+│         │         │         │         │         │         │         │
+│         │         │         │         │         │         │         │
+├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
+│16       │17       │18       │19       │20       │21       │22       │
+│         │         │         │         │         │         │FLISoL   │
+│         │         │         │         │         │         │         │
+├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
+│23       │24       │25       │26       │27       │28       │29       │
+│         │         │         │         │         │         │         │
+│         │         │         │         │         │         │         │
+├─────────┼─────────┴─────────┴─────────┴─────────┴─────────┴─────────┤
+│30       │                                                           │
+│         │                                                           │
+│         │                                                           │
+└─────────┴───────────────────────────────────────────────────────────┘
+#+END_SRC
+
+Hoy comparto en el /repo/ =cal-bash-utils= [fn:cal-bash-utils] varias
+utilidades, entre ellas =cal2notify= que lee los eventos e interactúa
+con =libnotify= [fn:libnotify] para ver recordatorios en el /Desktop/ y
+también con =ntfy.sh= [fn:ntfy.sh] para obtenerlos en teléfono espía!
+
+** lo mejor de los 2 mundos!
+
+Efectivamente tener versionado el calendario entre varios dispositivos
+usando =git= es muy cómodo y para editar el archivo =~/.calendar= puedo
+utilizar mi editor favorito! =vim=, pero también cualquier otro, porque
+se trata de un archivo en texto plano, además puedo usar =grep= para
+filtrarlo rápidamente, luego obtener un =PDF= e imprimirlo para llevarlo
+en una libreta y jugar con él mientras disfruto de un café desconectado.
+
+** te puede interesar
+
+- [[file:todo-txt-rst+org-mode.org][TODO TXT | rst + org-mode]]
+- [[file:capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.org][Capturar ideas en papel: de moleskine, hispterpda, pocketmod y libreta artesanal]]
+- [[file:2023-02-15-send-automatic-notifications-using-ntfy.org][enviar notificaciones automáticas usando =ntfy.sh=]]
+- [[file:2011-05-23-pomodoro-notify-send-minutos-osd.org][Pomodoro notify-send y Minutos OSD]]
+
+[fn:caldav]          https://en.wikipedia.org/wiki/CalDAV
+[fn:remind]          https://dianne.skoll.ca/projects/remind/
+[fn:org-mode]        https://orgmode.org/
+[fn:wyrd]            https://gitlab.com/wyrd-calendar/wyrd
+[fn:khal]            https://github.com/pimutils/khal
+[fn:pcal]            https://pcal.sourceforge.net/
+[fn:cal-bash-utils]  https://gitlab.com/osiux/cal-bash-utils
+[fn:libnotify]       https://github.com/GNOME/libnotify
+[fn:ntfy.sh]         https://ntfy.sh/
