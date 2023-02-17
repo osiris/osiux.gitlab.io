@@ -98,7 +98,7 @@ LANG=us COLS=72 MONTH=4 cal2ascii
 Hoy comparto en el /repo/ =cal-bash-utils= [fn:cal-bash-utils] varias
 utilidades, entre ellas =cal2notify= que lee los eventos e interactúa
 con =libnotify= [fn:libnotify] para ver recordatorios en el /Desktop/ y
-también con =ntfy.sh= [fn:ntfy.sh] para obtenerlos en teléfono espía!
+también con =ntfy.sh= [fn:ntfy] para obtenerlos en teléfono espía!
 
 ** lo mejor de los 2 mundos!
 
@@ -124,7 +124,7 @@ en una libreta y jugar con él mientras disfruto de un café desconectado.
 [fn:pcal]            https://pcal.sourceforge.net/
 [fn:cal-bash-utils]  https://gitlab.com/osiux/cal-bash-utils
 [fn:libnotify]       https://github.com/GNOME/libnotify
-[fn:ntfy.sh]         https://ntfy.sh/
+[fn:ntfy]            https://ntfy.sh/
 
 ** ChangeLog
 
