@@ -10,10 +10,7 @@ all: years stats_posts stats_since_until blog image index htaccess publish
 
 requirements:
 	[[ -d ~/bin ]] || mkdir -p ~/bin
-	[[ -e $(ORG2MD)  ]] || curl $(OBU_URL)/org2md  > ~/bin/org2md
-	[[ -x $(ORG2MD)  ]] || chmod +x ~/bin/org2md
-	[[ -e $(ORG2GMI) ]] || curl $(OBU_URL)/org2gmi > ~/bin/org2gmi
-	[[ -x $(ORG2GMI) ]] || chmod +x ~/bin/org2gmi
+	for R in org2gmi org2md org-author org-date org-email org-title;do curl $(OBU_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
 
 years:
 	./years.sh > years.org
