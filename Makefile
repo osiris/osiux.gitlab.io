@@ -48,7 +48,7 @@ gemini:
 
 markdown:
 	export PATH="$$HOME/bin:$$PATH";for i in *.org;do org2md "$$i";done
-	mv *.org public
+	mv *.md  public
 
 prose:
 	for i in *.org;do org2prose.sh "$$i";done
