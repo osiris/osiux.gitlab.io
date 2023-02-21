@@ -2,7 +2,7 @@ SHELL:=/bin/bash
 
 LNK_URL   ?= https://osiux.gitlab.io/osiux-links
 LNK_ORG   ?= $(LNK_URL)/links.org
-OBU_URL   ?= https://gitlab.com/osiux/org-bash-utils/-/blob/develop
+OBU_URL   ?= https://gitlab.com/osiux/org-bash-utils/-/raw/develop
 ORG2MD    ?= $$(command -v org2md)
 ORG2GMI   ?= $$(command -v org2gmi)
 
