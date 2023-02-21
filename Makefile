@@ -47,6 +47,9 @@ links:
 gemini:
 	for i in *.org;do org2gmi "$$i";done
 
+markdown:
+	for i in *.org;do org2md "$$i";done
+
 prose:
 	for i in *.org;do org2prose.sh "$$i";done
 
