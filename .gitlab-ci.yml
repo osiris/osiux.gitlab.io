@@ -7,20 +7,16 @@ before_script:
 
 pages:
   script:
-  - cat index.sh | /bin/bash
-  - cat blog.sh  | /bin/bash
-  - cat stats-posts.sh | /bin/bash > stats-posts.org
-  - cat years.sh       | /bin/bash > years.org
-  - cat tmb.sh         | /bin/bash 
-  - cat icn.sh         | /bin/bash 
-  - cat img.sh         | /bin/bash > img.org
-  - test -e "$HOME/.org-timestamps/site-static.cache" && rm -fv "$HOME/.org-timestamps/site-static.cache"
+  - make index
+  - make blog
+  - make stats_posts
+  - make years
+  - make image
   - make links
-  - emacs --batch --eval "(progn (package-initialize) (package-refresh-contents) (package-install 'org))"
-  - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
-  - cat sitemap.sh | /bin/bash
-  - cat htaccess.sh | /bin/bash > public/.htaccess
-  - cd public && tar czf ../osiux.tar.gz . && mv ../osiux.tar.gz . && md5sum osiux.tar.gz | tee osiux.tar.gz.md5
+  - make publish
+  - make sitemap
+  - make htaccess
+  - make tar_gz
   artifacts:
     paths:
     - public
