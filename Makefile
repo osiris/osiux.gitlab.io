@@ -57,6 +57,9 @@ noprose:
 prose.sh: prose noprose
   scp *.md prose.sh:
 
+sitemap:
+	./sitemap.sh
+
 htaccess:
 	./htaccess.sh > .htaccess
 
