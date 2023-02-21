@@ -2,8 +2,18 @@ SHELL:=/bin/bash
 
 LNK_URL   ?= https://osiux.gitlab.io/osiux-links
 LNK_ORG   ?= $(LNK_URL)/links.org
+OBU_URL   ?= https://gitlab.com/osiux/org-bash-utils/-/blob/develop
+ORG2MD    ?= $$(command -v org2md)
+ORG2GMI   ?= $$(command -v org2gmi)
 
 all: years stats_posts stats_since_until blog image index htaccess publish
+
+requirements:
+	[[ -d ~/bin ]] || mkdir -p ~/bin
+	[[ -e $(ORG2MD)  ]] || curl $(OBU_URL)/org2md  > ~/bin/org2md
+	[[ -x $(ORG2MD)  ]] || chmod +x > ~/bin/org2md
+	[[ -e $(ORG2GMI) ]] || curl $(OBU_URL)/org2gmi > ~/bin/org2gmi
+	[[ -x $(ORG2GMI) ]] || chmod +x > ~/bin/org2gmi
 
 years:
 	./years.sh > years.org
