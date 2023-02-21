@@ -4,6 +4,7 @@ before_script:
   - awk --version
   - emacs --version
   - pandoc --version
+  - md2gemini --version
 
 pages:
   script:
