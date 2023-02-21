@@ -15,6 +15,7 @@ pages:
   - make image
   - make links
   - make markdown
+  - make gemini
   - make publish
   - make sitemap
   - make htaccess
