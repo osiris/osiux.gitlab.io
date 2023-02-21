@@ -61,7 +61,7 @@ sitemap:
 	./sitemap.sh
 
 htaccess:
-	./htaccess.sh > .htaccess
+	./htaccess.sh > public/.htaccess
 
 publish:
 	./publish.sh
