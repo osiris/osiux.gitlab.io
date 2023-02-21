@@ -43,7 +43,8 @@ links:
 	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(LNK_ORG))" = 200 ]] && curl $(LNK_ORG) > links.org
 
 gemini:
-	for i in *.org;do org2gmi "$$i";done
+	export PATH="$$HOME/bin:$$PATH";for i in *.org;do org2gmi "$$i";done
+	mv *.gmi public
 
 markdown:
 	export PATH="$$HOME/bin:$$PATH";for i in *.org;do org2md "$$i";done
