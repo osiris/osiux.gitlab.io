@@ -1,7 +1,6 @@
-image: iquiw/alpine-emacs
+image: os1ux/alpine-org2blog
 
 before_script:
-  - apk update && apk add bash gawk imagemagick curl make pandoc
   - awk --version
   - emacs --version
   - pandoc --version
