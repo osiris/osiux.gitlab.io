@@ -11,6 +11,7 @@ all: years stats_posts stats_since_until blog image index htaccess publish
 requirements:
 	[[ -d ~/bin ]] || mkdir -p ~/bin
 	for R in org2gmi org2md org-author org-date org-email org-title;do curl $(OBU_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
+	[[ -d public ]] || mkdir -p public
 
 years:
 	./years.sh > years.org
@@ -46,6 +47,7 @@ gemini:
 
 markdown:
 	export PATH="$$HOME/bin:$$PATH";for i in *.org;do org2md "$$i";done
+	mv *.org public
 
 prose:
 	for i in *.org;do org2prose.sh "$$i";done
