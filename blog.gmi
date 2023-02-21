@@ -1,8 +1,0 @@
-# ABSOLUTELLY NO WARRANTY blog
-
-* AUTHOR: Osiris Alejandro Gómez
-* EMAIL: osiux@osiux.com
-
-## `ARCHIVE`[1]
-
-=> archive.gmi 1: archive.gmi

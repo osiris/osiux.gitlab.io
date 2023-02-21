@@ -1,8 +1,0 @@
-# gcoop en Muchas Mentes, TenopolisTV
-
-* AUTHOR: Osiris Alejandro Gómez
-* EMAIL: osiux@osiux.com
-
-```{=html}
-<iframe width="560" height="315" src="http://www.youtube.com/embed/4ocyARDnoK0" frameborder="0" allowfullscreen></iframe>
-```
