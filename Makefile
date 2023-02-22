@@ -6,7 +6,7 @@ OBU_URL   ?= https://gitlab.com/osiux/org-bash-utils/-/raw/develop
 ORG2MD    ?= $$(command -v org2md)
 ORG2GMI   ?= $$(command -v org2gmi)
 
-all: years stats_posts stats_since_until blog image index htaccess publish
+all: requirements index blog stats_posts stats_since_until years image links markdown gemini publish sitemap htaccess tar_gz
 
 requirements:
 	[[ -d ~/bin ]] || mkdir -p ~/bin
