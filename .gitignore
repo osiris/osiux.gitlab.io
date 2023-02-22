@@ -3,7 +3,9 @@
 2???.org
 bak
 *.bak
+*.gmi
 *.html
+*.md
 index.org
 public
 sitemap.xml.gz
