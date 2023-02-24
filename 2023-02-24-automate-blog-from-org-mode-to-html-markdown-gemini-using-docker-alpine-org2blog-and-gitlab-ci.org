@@ -1,0 +1,166 @@
+#+TITLE:       Automate conversion of blog from /org-mode/ to /Html/, /Markdown/ and /Gemini/ using /Docker image/ =alpine-org2blog= and /GitLab CI/
+#+DESCRIPTION: Automatizar la conversión de un blog en org-mode a los formatos Html, Markdown y Gemini usando la imagen docker alpine-org2blog y GitLab CI
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    howto, automate, blog, org-mode, html, markdown, gemini, docker, alpine, gitlab, ci, pandoc, org2md, org2gmi, org2html, org2blog, md2gemini
+#+DATE:        2023-02-24 09:42
+#+HTML_HEAD:   <meta property="og:title" content="Automate conversion of blog in /org-mode/ to /Html/, /Markdown/ and /Gemini/ using /Docker image/ =alpine-org2blog= and /GitLab CI/" />
+#+HTML_HEAD:   <meta property="og:description" content="Automatizar la conversión de un blog en org-mode a los formatos Html, Markdown y Gemini usando la imagen docker alpine-org2blog y GitLab CI" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-02-24" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/automate-blog-org-mode-html-markdown-gemini-docker-alpine-org2blog-gitlab-ci.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/os1ux-alpine-org2blog.png" />
+
+[[file:img/os1ux-alpine-org2blog.png][file:tmb/os1ux-alpine-org2blog.png]]
+
+** deuda técnica
+
+Hace unos días automaticé la generación de =links.org= utilizando un
+repositorio por separado e interconectando la /CI/ (/Integración
+Continua/) del /repo/ =osiux-links= [fn:osiux-links] con el /repo/
+=osiux.gitlab.io= [fn:osiux-blog] y de esta manera el =links.txt= se
+convierte a los formatos =.org= y =.html=
+
+Tenía pendiente convertir =links.txt= a /Gemini/ [fn:gemini] y
+/Markdown/ [fn:markdown] para =gmi.osiux.com= [fn:osiux-gemini] y para
+=osiux.lists.sh= [fn:osiux-lists].
+
+Si bien partiendo desde =org-mode= [fn:org-mode] ya tenía /scripts/ que
+generaban los diferentes formatos para cada versión del /blog/, no
+estaba del todo automatizado el proceso de conversión y dependía de
+varios pasos manuales y era una deuda técnica resolverlo.
+
+** a refactorizar...
+
+Inicialmente comencé /"refactorizando" / el =Makefile= y el
+=.gitlab-ci.yml= para contar con mayor claridad y simplificar la
+generación de todo el /blog/, eliminando todo archivo versionado que
+ahora es generado de manera dinámica y corrigiendo varias utilidades del
+/repo/ =org-bash-utils= [fn:org-bash-utils].
+
+** la imagen esta desactualizada!
+
+Ni bien pude avanzar, el obstáculo con el que me topé, fue en la imagen
+=alpine-emacs= [fn:alpine-emacs] de =docker= [fn:docker] que estaba
+usando, no lograba instalar =pandoc= [fn:pandoc], que es vital para la
+conversión a /Markdown/ y a /Gemini/.
+
+Luego de probar varias alternativas fallidas de instalación manual, vi
+que esta imagen partía de =alpine v3.14= y el paquete de =pandoc= estaba
+disponible en =alpine v3.17=.
+
+** =alpine-org2blog=
+
+Entonces lo mas simple sería construir mi propia imagen /docker/
+=alpine-org2blog= [fn:alpine-org2blog] agregando los paquetes faltantes.
+
+La verdad, es que al final sacando cuentas, tardé menos en crear mi
+propio =Dockerfile= [fn:org2blog-Dockerfile], generar y publicar la
+nueva imagen que intentando instalar =pandoc= en la imagen anterior,
+y fueron pasos muy simples:
+
+#+BEGIN_EXAMPLE
+# docker build -t alpine-org2blog .
+
+[+] Building 23.5s (11/11) FINISHED
+ => [internal] load build definition from Dockerfile
+ => => transferring dockerfile: 337B
+ => [internal] load .dockerignore
+ => => transferring context: 2B
+ => [internal] load metadata for docker.io/library/alpine:3.17
+ => [auth] library/alpine:pull token for registry-1.docker.io
+ => CACHED [1/5] FROM docker.io/library/alpine:3.17@sha256:69665d02cb32192e52e07644d76bc6f25abeb5410edc1c7a81a10ba3f0efb90a
+ => [internal] load build context
+ => => transferring context: 62B
+ => [2/5] RUN apk update && apk add ca-certificates emacs bash gawk imagemagick curl make pandoc py3-pip && pip3 install md2gemini
+ => [3/5] WORKDIR /root
+ => [4/5] COPY init.el /root/.emacs.d/
+ => [5/5] COPY entrypoint.sh /
+ => exporting to image
+ => => exporting layers
+ => => writing image sha256:4e1af5c51323658be3210377b10fc470cdaaefa5b2af2371eeb651c1b633d549
+ => => naming to docker.io/library/alpine-org2blog
+
+# docker image tag alpine-org2blog os1ux/alpine-org2blog:latest
+
+# docker image push os1ux/alpine-org2blog:latest
+The push refers to repository [docker.io/os1ux/alpine-org2blog]
+bb529fc1eb88: Layer already exists
+e51f39d1beac: Pushed
+5f70bf18a086: Layer already exists
+0ae7bccd25cc: Pushed
+7cd52847ad77: Layer already exists
+latest: digest: sha256:748b6c86f01b01d42fb5156154400b62efd706f4063e4d6179ec0546ff6ff843 size: 1361
+
+#+END_EXAMPLE
+
+** =deploy-tgz2dir=
+
+Ahora que /Gitlab CI/ [fn:osiux-pipelines] se ocupa de generar mi /blog/
+en todos los formatos necesarios, cada vez que hay un cambio, solo
+necesitaba actualizar el /deploy/ en cada /host/ y para esto creé el
+/script/ =deploy-tgz2dir= que se ocupa de descargar el /blog/ comprimido
+en =.tar.gz= solo si es diferente del descargado la última vez
+comparando el =md5= y registrando lo realizado en el /log/
+=deploy-tgz2dir.log= cada vez que el /crontab/ se ocupa de ejecutarlo:
+
+#+BEGIN_EXAMPLE
+
+# cat deploy-tgz2dir.log
+
+2023-02-22 16:00:01 blasberry.osiux.com file=osiux.tar.gz size=372 remote=51499fe8a65b5956794b5bb32462949f local=31415926535897932384626433832795 deploy=1 seconds=137
+2023-02-22 16:10:02 blasberry.osiux.com file=osiux.tar.gz size=372 remote=51499fe8a65b5956794b5bb32462949f local=51499fe8a65b5956794b5bb32462949f deploy=0 seconds=17
+2023-02-22 16:20:01 blasberry.osiux.com file=osiux.tar.gz size=372 remote=51499fe8a65b5956794b5bb32462949f local=51499fe8a65b5956794b5bb32462949f deploy=0 seconds=5
+
+#+END_EXAMPLE
+
+** /automate all the things/
+
+Ahora puedo publicar directamente desde el teléfono espía, basta con
+ejecutar =git push= y /GitLab/ hace su magia! Y cada sitio se actualiza
+en el formato que le corresponde! =:)=
+
+El resumen de /scripts/ usados para cada formato es el siguiente:
+
+| /file/       | /format/   | /script/                                                                            | /requirements/        |
+|--------------+------------+-------------------------------------------------------------------------------------+-----------------------|
+| =links.org=  | /Org-mode/ | [[https://gitlab.com/osiux/links-bash-utils/-/blob/develop/links2org][=links2org=]] | =curl=, =url2title=   |
+| =*.html=     | /HTML/     | [[https://gitlab.com/osiux/osiux.gitlab.io/-/blob/master/publish.sh][=publish.sh]]  | =emacs=               |
+| =*.md=       | /Markdown/ | [[https://gitlab.com/osiux/org-bash-utils/-/raw/develop/org2md][=org2md=]]          | =pandoc=              |
+| =*.gmi=      | /Gemini/   | [[https://gitlab.com/osiux/org-bash-utils/-/raw/develop/org2gmi][=org2gmi]]         | =pandoc=, =md2gemini= |
+
+** próximos pasos
+
+Si bien, el circuito esta automatizado, hay algunas tareas a realizar:
+
+- [ ] mejorar la conversión a /Markdown/ y /Gemini/
+- [ ] automatizar el /deploy/ de todos los /mirrors/
+
+** Te recomiendo leer
+
+- [[file:2023-02-14-howto-launch-gitlab-ci-from-other-gitlab-ci-repo-using-trigger.org][howto launch gitlab ci from other gitlab ci repo using trigger]]
+- [[file:2022-07-20-lists.sh-es-para-amantes-de-las-listas.org][=lists.sh= es para amantes de las listas]]
+- [[file:2021-04-28-gemini-es-para-amantes-del-texto-plano.org][=gemini://= es para amantes del texto plano]]
+- [[file:2021-03-16-todo-txt-es-una-lista-de-tareas.org][=todo.txt= es una lista de tareas]]
+- [[file:2021-01-29-bookmarks-vs-links.org][bookmarks vs links.txt]]
+
+[fn:alpine-emacs]         https://github.com/iquiw/docker-alpine-emacs
+[fn:alpine-org2blog]      https://gitlab.com/osiux/docker-alpine-org2blog.git
+[fn:osiux-gemini]         gemini://gmi.osiux.com
+[fn:osiux-links]          https://gitlab.com/osiux/osiux-links
+[fn:osiux-blog]           https://gitlab.com/osiux/osiux.gitlab.io
+[fn:osiux-lists]          https://osiux.lists.sh/
+[fn:markdown]             https://en.wikipedia.org/wiki/Markdown
+[fn:org-bash-utils]       https://gitlab.com/osiux/org-bash-utils.git
+[fn:org-mode]             https://orgmode.org/
+[fn:pandoc]               https://pandoc.org/
+[fn:gemini]               https://gemini.circumlunar.space/
+[fn:docker]               https://www.docker.com/
+[fn:org2blog-Dockerfile]  https://gitlab.com/osiux/docker-alpine-org2blog/-/raw/develop/Dockerfile
+[fn:osiux-pipelines]      https://gitlab.com/osiux/osiux.gitlab.io/-/pipelines
