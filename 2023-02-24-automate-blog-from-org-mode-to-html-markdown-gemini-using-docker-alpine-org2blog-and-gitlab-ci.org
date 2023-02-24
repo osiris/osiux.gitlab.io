@@ -164,3 +164,7 @@ Si bien, el circuito esta automatizado, hay algunas tareas a realizar:
 [fn:docker]               https://www.docker.com/
 [fn:org2blog-Dockerfile]  https://gitlab.com/osiux/docker-alpine-org2blog/-/raw/develop/Dockerfile
 [fn:osiux-pipelines]      https://gitlab.com/osiux/osiux.gitlab.io/-/pipelines
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/ca4ce9e199e5f5e58707786cf0f4b44628d6d3bc][=2023-02-24 09:24=]] agregar Automate conversion of blog from /org-mode/ to /Html/, /Markdown/ and /Gemini/ using /Docker image/ =alpine-org2blog= and /GitLab CI/
