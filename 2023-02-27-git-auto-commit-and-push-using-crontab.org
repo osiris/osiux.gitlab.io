@@ -76,3 +76,7 @@ otro /repo/ público. Por ahora solo con =git.sh= =XD=
 [fn:orgmode-doc-norang]  http://doc.norang.ca/org-mode.html#GitSync
 [fn:org-mode]            https://orgmode.org/
 [fn:bin-bash-utils]      https://gitlab.com/osiux/bin-bash-utils/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/66a94803d0dd84a2fb89919059834af5d57fd43f][=2023-02-27 20:56=]] agregar /git auto commit and push using crontab/
