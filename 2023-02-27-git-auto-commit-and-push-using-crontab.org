@@ -1,0 +1,78 @@
+#+TITLE:       git auto commit and push using crontab.org
+#+DESCRIPTION: Cómo auto versionar archivos en un directorio usando git, bash y crontab
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    tag
+#+DATE:        2023-02-27 19:48
+#+HTML_HEAD:   <meta property="og:title" content="git auto commit and push using crontab.org" />
+#+HTML_HEAD:   <meta property="og:description" content="Cómo auto versionar archivos en un directorio usando git, bash y crontab" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-02-27" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-02-27-git-auto-commit-and-push-using-crontab.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/git-auto-commit-and-push-using-crontab.png" />
+
+[[file:img/git-auto-commit-and-push-using-crontab.png][file:tmb/git-auto-commit-and-push-using-crontab.png]]
+
+** =git.sh=
+
+Desde 2011 que tengo mis /bash scripts/ genéricos versionados en un
+/repo/ =git= privado en el directorio =~/bin= y cada tanto algunos de
+ellos maduran lo suficiente y pasan a formar parte de algún nuevo /repo/
+público en /Codeberg/ [fn:osiux-codeberg], /GitLab/ [fn:osiux-gitlab] o
+/GitHub/ [fn:osiux-github].
+
+Pero mientras estos /scripts/ están en =~/bin= me despreocupo de
+realizar /commits/, es decir se autoversionan usando el /crontab/ y un
+/script/ llamado =git.sh= [fn:osiux-autocommit].
+
+Gracias al /plugin/ =vim-gutter= [fn:vim-gutter] puedo diferenciar
+rápidamente que líneas cambié hace 5 minutos, lo cual ayuda bastante
+cuando estoy refactorizando algo sobre la marcha.
+
+** =crontab=
+
+Aadapto =git.sh= a las necesidades puntuales de
+cada /repo/ y =crontab= se ocupa de ejecutar =git.sh= cada /5 minutos/ y
+listo! si sucede algo con mi /notebook/, a lo sumo perdí /5 minutos/ y
+mantengo un historial versionado de todos los archivos imporantes, entre
+ellos estan /logs/, /configs/, /passwords/, /journal/, /calendar/ y por
+supuesto mis preciados /scripts/ =:)=
+
+#+BEGIN_SRC crontab :results none :exports code
+
+*/5 * * * * $HOME/log/git.sh
+*/5 * * * * $HOME/bin/git.sh
+*/5 * * * * $HOME/config/git.sh
+*/5 * * * * $HOME/.password-store/git.sh
+*/5 * * * * $HOME/.jrnl/git.sh
+*/5 * * * * $HOME/git/osiux/wip/git.sh
+*/5 * * * * $HOME/env/cal/git.sh
+
+#+END_SRC
+
+** =bin-bash-utils=
+
+Si no recuerdo mal, la idea de autoversionar la obtuve del excelente y
+recomendado =Organize Your Life In Plain Text!= [fn:orgmode-doc-norang]
+cuando usaba a diario =org-mode= [fn:org-mode].
+
+Viendo que pasaron /12 años/ desde que comencé a versionar =~/bin=,
+aprovecho hoy para iniciar la versión pública de =~/bin= en el /repo/
+=bin-bash-utils= [fn:bin-bash-utils] con esos /scripts/ genéricos que
+todavían no tuvieron suerte para que los publique agrupados en algún
+otro /repo/ público. Por ahora solo con =git.sh= =XD=
+
+[fn:osiux-codeberg]      https://codeberg.org/osiux/
+[fn:osiux-gitlab]        https://gitlab.com/osiux/
+[fn:osiux-github]        https://github.com/osiris/
+[fn:osiux-autocommit]    https://gitlab.com/osiux/bin-bash-utils/-/blob/master/git.sh
+[fn:vim-gutter]          https://github.com/airblade/vim-gitgutter
+[fn:orgmode-doc-norang]  http://doc.norang.ca/org-mode.html#GitSync
+[fn:org-mode]            https://orgmode.org/
+[fn:bin-bash-utils]      https://gitlab.com/osiux/bin-bash-utils/
