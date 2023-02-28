@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    tag
+#+KEYWORDS:    git, auto, commit, bash, crontab, push
 #+DATE:        2023-02-27 19:48
 #+HTML_HEAD:   <meta property="og:title" content="git auto commit and push using crontab.org" />
 #+HTML_HEAD:   <meta property="og:description" content="Cómo auto versionar archivos en un directorio usando git, bash y crontab" />
