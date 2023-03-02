@@ -13,7 +13,7 @@ all: requirements index blog stats_posts stats_since_until years image links mar
 requirements:
 	[[ -d ~/bin ]] || mkdir -p ~/bin
 	for R in barra org2gmi org2md org-author org-date org-email org-title;do curl $(OBU_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
-	for R in git-streak;do curl $(GIT_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
+	for R in git-streak git-remote-geturl;do curl $(GIT_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
 	for R in timesum;do curl $(JRN_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
 	[[ -d public ]] || mkdir -p public
 
