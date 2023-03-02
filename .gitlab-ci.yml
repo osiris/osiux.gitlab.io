@@ -12,6 +12,7 @@ pages:
   - make index
   - make blog
   - make stats_posts
+  - make stats_since_until
   - make years
   - make image
   - make links
