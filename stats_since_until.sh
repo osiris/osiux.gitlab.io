@@ -17,8 +17,9 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 DATES=$(cat << EOF
-#2021-01-25 2021-02-25
+2021-01-25 2021-02-25
 2021-03-01 2021-03-31
+2023-02-15 2023-03-15
 EOF
 )
 
