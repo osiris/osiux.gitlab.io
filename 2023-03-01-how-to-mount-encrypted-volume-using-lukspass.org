@@ -133,6 +133,8 @@ seguridad que ofrece =gnupg=.
 [fn:pass]        https://www.passwordstore.org/
 [fn:passphrase]  https://es.wikipedia.org/wiki/Frase_de_contraseña
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/56574a3733a765f3f28dba3c2d070b92e7ca5687][=2023-03-02 00:54=]] agregar imagen y tags opengraph de /How To mount encrypted volume using with lukspass/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bad55a9e3341dee7336c056c99407d003065d5fa][=2023-03-01 23:25=]] agregar /How To mount encrypted volume using with lukspass/
