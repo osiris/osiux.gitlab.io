@@ -3,6 +3,8 @@ SHELL:=/bin/bash
 LNK_URL   ?= https://osiux.gitlab.io/osiux-links
 LNK_ORG   ?= $(LNK_URL)/links.org
 OBU_URL   ?= https://gitlab.com/osiux/org-bash-utils/-/raw/develop
+GIT_URL   ?= https://gitlab.com/osiux/git-bash-utils/-/raw/develop
+JRN_URL   ?= https://gitlab.com/osiux/txt-bash-jrnl/-/raw/develop
 ORG2MD    ?= $$(command -v org2md)
 ORG2GMI   ?= $$(command -v org2gmi)
 
@@ -10,7 +12,9 @@ all: requirements index blog stats_posts stats_since_until years image links mar
 
 requirements:
 	[[ -d ~/bin ]] || mkdir -p ~/bin
-	for R in org2gmi org2md org-author org-date org-email org-title;do curl $(OBU_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
+	for R in barra org2gmi org2md org-author org-date org-email org-title;do curl $(OBU_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
+	for R in git-streak;do curl $(GIT_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
+	for R in timesum;do curl $(JRN_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
 	[[ -d public ]] || mkdir -p public
 
 years:
@@ -23,7 +27,7 @@ stats_posts:
 	./stats-posts.sh > stats-posts.org
 
 stats_since_until:
-	./stats_since_until.sh
+	export PATH="$$HOME/bin:$$PATH";./stats_since_until.sh
 
 stats_links:
 	grep -Eo '=[0-9]{4}-' links.org | sort | uniq -c
