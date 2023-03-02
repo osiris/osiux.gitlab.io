@@ -103,7 +103,7 @@ FIRST_URL="$(printf "[[%s/%s][=%s=]]" "$GIT_URL" "$FIRST_HASH" "$FIRST_HASH")"
 LAST_URL="$(printf  "[[%s/%s][=%s=]]" "$GIT_URL" "$LAST_HASH" "$LAST_HASH")"
 
 git diff --name-only "$FIRST_HASH..$LAST_HASH" > "$TMP1"
-grep -E '.*.org' "$TMP1" > "$TMP2"
+grep -E '\.org$' "$TMP1" > "$TMP2"
 #FIXME timesum by filename
 TOTAL_TIME="$(timesum "$(awk '{print $4}' "$TMP0")")"
 TOTAL_COMMITS="$(cat    "$TMP0" | wc -l)"
@@ -121,7 +121,7 @@ TABLE=$(cat << EOF
 EOF
 )
 #FIXME restrict git-streak between 2 dates
-STREAK="$(git-streak | sed 's/ $//g')"
+STREAK="$(ANSI=0 git-streak | sed 's/ $//g')"
 
 post_header "/posts/ $SINCE_ISO - $UNTIL_ISO"
 echo
