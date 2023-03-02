@@ -123,3 +123,7 @@ seguridad que ofrece =gnupg=.
 [fn:gnupg]       https://es.wikipedia.org/wiki/GNU_Privacy_Guard
 [fn:pass]        https://www.passwordstore.org/
 [fn:passphrase]  https://es.wikipedia.org/wiki/Frase_de_contraseña
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bad55a9e3341dee7336c056c99407d003065d5fa][=2023-03-01 23:25=]] agregar /How To mount encrypted volume using with lukspass/
