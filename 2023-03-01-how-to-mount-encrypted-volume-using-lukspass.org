@@ -1,0 +1,125 @@
+#+TITLE:       How To mount encrypted volume using with lukspass
+#+DESCRIPTION: Cómo montar un volumen cifrado usando dm-crypt, LUKS y password-store con lukspass
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    lukspass, dm-crypt, cryptsetup, luks, pass, password, password-store, passphrase, mount, encrypted, disk
+#+DATE:        2023-02-28 22:52
+
+[[file:img/how-to-mount-encrypted-volume-using-lukspass.png][file:tmb/how-to-mount-encrypted-volume-using-lukspass.png]]
+
+** tanto para recordar y tanto para perder!
+
+Supongamos que tengo un volumen cifrado con /LUKS/ y lo quiero montar,
+pero /no recuerdo su identificador unívoco/, por ej:
+
+=nvme-SAMSUNG_MZVLB512HBJQ-000L7_S4ENNF0N742476-part3=
+
+y además /no recuerdo su passphrase/, por ej:
+
+=p1KZFi5dGqyEBp2Uhyflzz6CvhiVLYkP5umw42htHe7piR1KVf0U2rMGTwCkZ3m8XDGrcE9qBi6XzTdYbXM922LynwlJj9KJ9UFCjZYLMAYVKp5NQhvlPdHVdJydelQm=
+
+/estaría en graves problemas!/
+**no tendría acceso a mis preciados datos!**
+
+** =pass= para no olvidar
+
+=pass= es un /script/ que integra =gnupg= [fn:gnupg] con =git= y =tree=
+y se ocupa de facilitar la generación y el almacenado de secretos de
+todo tipo.
+
+Tengo un volumen con /Debian 10/, entonces en =pass= lo guardo como
+=debian10= que es un nombre corto y fácil de recordar, pero en lugar de
+guardarlo como un archivo, lo hago como un enlace simbólico al
+identificador unívoco del volumen, en este caso
+=nvme-SAMSUNG_MZVLB512HBJQ-000L7_S4ENNF0N742476-part3=, que es mas difícil de recordar.
+
+#+BEGIN_EXAMPLE
+
+# pass find debian10
+Search Terms: debian10
+└── luks
+    └── tequila
+        └── debian10 -> nvme-SAMSUNG_MZVLB512HBJQ-000L7_S4ENNF0N742476-part3
+
+# cd .password-store/luks/tequila/
+
+# ls -lah debian10*
+lrwxrwxrwx 1 root root 56 ago 25  2021 debian10.gpg -> nvme-SAMSUNG_MZVLB512HBJQ-000L7_S4ENNF0N742476-part3.gpg
+
+#+END_EXAMPLE
+
+** la magia esta en =lukspass=
+
+Hace un par de años que uso =pass= [fn:pass] y hoy publiqué el /script/
+=lukspass= [fn:lukspass] que vengo usando hace tiempo y esta en
+condiciones de liberar hace rato!
+
+=lukspass= no hace otra cosa que buscar un nombre, en este caso
+=debian10=, obtener el identificador unívoco del volumen, obtener la
+/passphrase/ [fn:passphrase], descifrar el volumen usando =cryptsetup
+luksOpen= y montar el volumen (por defecto en =/mnt=), en este caso en
+=/mnt/debian10=.
+
+Son 2 pasos, indicar el nombre del volumen y tipear la /passphrase/ de
+la /GPG/:
+
+#+BEGIN_EXAMPLE
+
+# lukspass debian10
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ Introduzca frase contraseña para desbloquear la clave secreta OpenPGP:  │
+│ "Osiris Alejandro Gomez <root@osiux.com>"                               │
+│ clave de 8192-bit RSA, ID FAFAFA23CAFEACDC,                             │
+│ creada el 2020-01-01 (ID de clave primaria CDCAEFAC32AFAFAF).           │
+│                                                                         │
+│                                                                         │
+│ Frase contraseña errónea (intento 2 de 3)                               │
+│                                                                         │
+│ Frase contraseña: ***************************************************** │
+│                                                                         │
+│          <OK>                                          <Cancelar>       │
+└─────────────────────────────────────────────────────────────────────────┘
+
+lukspass name=debian10 gpg=/root/.password-store/luks/tequila/debian10.gpg device=nvme-SAMSUNG_MZVLB512HBJQ-000L7_S4ENNF0N742476-part3
+
+#+END_EXAMPLE
+
+Si quisiera verificar, puedo ejecutar =mount= y ver que esta realmente
+montado:
+
+#+BEGIN_EXAMPLE
+
+# mount | grep debian10
+/dev/mapper/debian10 on /mnt/debian10 type ext4 (rw,relatime)
+
+# df -h | grep debian10
+/dev/mapper/debian10           46G    11G   33G  26% /mnt/debian10
+
+#+END_EXAMPLE
+
+Una de las grandes ventajas es que me permite montar volumenes
+remotamente accediendo por =ssh= y estos volúmenes pueden ser de disctos
+externos por /USB/ u otro tipo de conexión.
+
+Por otro lado por tratarse de un repositorio =git=, queda versionado y
+puedo contar con esos secretos en varios =hosts= y siempre con la
+seguridad que ofrece =gnupg=.
+
+** te puede interesar
+
+- [[file:2023-02-15-send-automatic-notifications-using-ntfy.org][enviar notificaciones automáticas usando =ntfy.sh=]]
+- [[file:2021-08-16-install-debian-bullseye-on-thinkpad-t14-gen-1.org][/Install Debian Bullseye on ThinkPad T14 Gen 1/]]
+- [[file:2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.org][/no me acuerdo de nada... dejame en =pass=!/]]
+- [[file:2021-01-26-disaster-recovery-plan-osiux.org][DIsaster REcovery PLan OSiux]]
+- [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][ansible luks format external usb disk]]
+- [[file:2014-11-14-un-tupper-para-almacenar-backups.org][Un tupper para almacenar backups]]
+- [[file:howto-gpg-gnu-pgp.org][HowTo GnuPG ]]
+
+[fn:lukspass]    https://gitlab.com/osiux/pass-utils/-/blob/develop/lukspass
+[fn:gnupg]       https://es.wikipedia.org/wiki/GNU_Privacy_Guard
+[fn:pass]        https://www.passwordstore.org/
+[fn:passphrase]  https://es.wikipedia.org/wiki/Frase_de_contraseña
