@@ -9,10 +9,10 @@ before_script:
 pages:
   script:
   - make requirements
-  - make index
   - make blog
   - make stats_posts
   - make stats_since_until
+  - make index
   - make years
   - make image
   - make links
