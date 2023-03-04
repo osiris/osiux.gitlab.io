@@ -26,5 +26,5 @@ EOF
 echo "$DATES" | grep -v '\#' | while read -r SINCE UNTIL
 do
   ORG="$SINCE-$UNTIL-posts.org"
-  ./stats-posts-since-until.sh "$SINCE" "$UNTIL" > "$ORG"
+  ./stats-posts-since-until.sh "$SINCE" "$UNTIL" > "$ORG" && echo "$ORG"
 done

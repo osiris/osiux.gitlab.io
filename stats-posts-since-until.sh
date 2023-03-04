@@ -151,6 +151,7 @@ end
 title2 "Detalle de /posts/ nuevos, modificados y autogenerados"
 sort -r "$TMP2" | while read -r FILE
 do
+  [[ -e "$FILE" ]] || continue
   NAME="$(basename "$FILE" .org)"
   TITLE="$(get_title "$FILE")"
   [[ -z "$TITLE" ]] && TITLE="$NAME"
