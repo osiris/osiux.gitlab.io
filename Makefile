@@ -1,14 +1,16 @@
 SHELL:=/bin/bash
 
 LNK_URL   ?= https://osiux.gitlab.io/osiux-links
+DOT_URL   ?= https://osiux.gitlab.io/osiux-graphviz
 LNK_ORG   ?= $(LNK_URL)/links.org
+DOT_TGZ   ?= $(LNK_URL)/osiux-graphviz.tgz
 OBU_URL   ?= https://gitlab.com/osiux/org-bash-utils/-/raw/develop
 GIT_URL   ?= https://gitlab.com/osiux/git-bash-utils/-/raw/develop
 JRN_URL   ?= https://gitlab.com/osiux/txt-bash-jrnl/-/raw/develop
 ORG2MD    ?= $$(command -v org2md)
 ORG2GMI   ?= $$(command -v org2gmi)
 
-all: requirements index blog stats_posts stats_since_until years image links markdown gemini publish sitemap htaccess tar_gz
+all: requirements blog stats_posts stats_since_until index years links dot image markdown gemini publish sitemap htaccess tar_gz
 
 requirements:
 	[[ -d ~/bin ]] || mkdir -p ~/bin
@@ -45,6 +47,9 @@ image:
 
 links:
 	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(LNK_ORG))" = 200 ]] && curl $(LNK_ORG) > links.org
+
+dot:
+	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(DOT_TGZ))" = 200 ]] && curl $(DOT_TGZ) > $(DOT_TGZ) && tar xvf $(DOT_TGZ) && rm -f $(DOT_TGZ)
 
 gemini:
 	export PATH="$$HOME/bin:$$PATH";for i in *.org;do org2gmi "$$i";done
