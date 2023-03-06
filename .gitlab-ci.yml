@@ -14,8 +14,9 @@ pages:
   - make stats_since_until
   - make index
   - make years
-  - make image
   - make links
+  - make dot
+  - make image
   - make markdown
   - make gemini
   - make publish
