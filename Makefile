@@ -3,7 +3,7 @@ SHELL:=/bin/bash
 LNK_URL   ?= https://osiux.gitlab.io/osiux-links
 DOT_URL   ?= https://osiux.gitlab.io/osiux-graphviz
 LNK_ORG   ?= $(LNK_URL)/links.org
-DOT_TGZ   ?= $(LNK_URL)/osiux-graphviz.tgz
+DOT_TGZ   ?= osiux-graphviz.tar.gz
 OBU_URL   ?= https://gitlab.com/osiux/org-bash-utils/-/raw/develop
 GIT_URL   ?= https://gitlab.com/osiux/git-bash-utils/-/raw/develop
 JRN_URL   ?= https://gitlab.com/osiux/txt-bash-jrnl/-/raw/develop
@@ -49,7 +49,7 @@ links:
 	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(LNK_ORG))" = 200 ]] && curl $(LNK_ORG) > links.org
 
 dot:
-	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(DOT_TGZ))" = 200 ]] && curl $(DOT_TGZ) > osiux-graphviz.tar.gz && tar xvf osiux-graphviz.tar.gz && rm -f osiux-graphviz.tar.gz
+	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(DOT_URL)/$(DOT_TGZ))" = 200 ]] && curl $(DOT_URL)/$(DOT_TGZ) > $(DOT_TGZ) && tar xvf $(DOT_TGZ) && rm -f $(DOT_TGZ)
 
 gemini:
 	export PATH="$$HOME/bin:$$PATH";for i in *.org;do org2gmi "$$i";done
