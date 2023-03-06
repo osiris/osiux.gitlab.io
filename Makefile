@@ -49,7 +49,7 @@ links:
 	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(LNK_ORG))" = 200 ]] && curl $(LNK_ORG) > links.org
 
 dot:
-	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(DOT_TGZ))" = 200 ]] && curl $(DOT_TGZ) > $(DOT_TGZ) && tar xvf $(DOT_TGZ) && rm -f $(DOT_TGZ)
+	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(DOT_TGZ))" = 200 ]] && curl $(DOT_TGZ) > osiux-graphviz.tar.gz && tar xvf osiux-graphviz.tar.gz && rm -f osiux-graphviz.tar.gz
 
 gemini:
 	export PATH="$$HOME/bin:$$PATH";for i in *.org;do org2gmi "$$i";done
