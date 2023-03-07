@@ -21,10 +21,11 @@
 
 ** las páginas quieren ser repos!
 
-Hace poco automaticé la generación de la sección /links/ de mi /blog/
-creando un nuevo repositorio =osiux-links= [fn:osiux-links], de manera
-similar ahora la sección /dot/ de mi /blog/ se genera a partir del
-repositorio =osiux-graphviz= [fn:osiux-graphviz]
+Hace poco automaticé la generación de la sección
+[[file:links.org][/links/]] de mi /blog/ [fn:osiux-blog] creando un
+nuevo repositorio =osiux-links= [fn:osiux-links], de manera similar
+ahora la sección [[file:dot.org][/dot/]] de mi /blog/ se genera a partir
+del repositorio =osiux-graphviz= [fn:osiux-graphviz]
 
 Si bien puede parecer un exceso, crear un repositorio solo por una
 página, este método ofrece grandes ventajas, principalmente, tener la
@@ -82,6 +83,7 @@ De ahora en mas, solo basta agregar el =.dot= y todo sale sobre ruedas!
 - [[file:2021-01-29-bookmarks-vs-links.org][bookmarks vs links.txt]]
 - [[file:2019-04-21-gitlab-ci-org-mode-publish.org][gitlab-ci org-mode publish]]
 
+[fn:osiux-blog]          https://osiux.com/
 [fn:osiux-links]         https://gitlab.com/osiux/osiux-links.git
 [fn:osiux-graphviz]      https://gitlab.com/osiux/osiux-graphviz.git
 
