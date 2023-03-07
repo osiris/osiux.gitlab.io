@@ -1,0 +1,86 @@
+#+TITLE:       How To automate GraphViz generate image from dot file using alpine-org2blog
+#+DESCRIPTION: Automate conversion of blog page from /DOT/ to /PNG/ using /Docker image/ =alpine-org2blog= and /GitLab CI/
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    dot, neato, twopi, circo, graphviz, alpine, org, org-mode, html, png, gitlab, ci, docker, blog
+#+DATE:        2023-03-06 21:37
+#+HTML_HEAD:   <meta property="og:title" content="How To automate GraphViz generate image from dot file" />
+#+HTML_HEAD:   <meta property="og:description" content="Automate conversion of blog page from /DOT/ to /PNG/ using /Docker image/ =alpine-org2blog= and /GitLab CI/" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-03-06-osiux-graphivz.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/alpine-org2blog-graphviz.png" />
+
+[[file:img/alpine-org2blog-graphviz.png][file:tmb/alpine-org2blog-graphviz.png]]
+
+** las páginas quieren ser repos!
+
+Hace poco automaticé la generación de la sección /links/ de mi /blog/
+creando un nuevo repositorio =osiux-links= [fn:osiux-links], de manera
+similar ahora la sección /dot/ de mi /blog/ se genera a partir del
+repositorio =osiux-graphviz= [fn:osiux-graphviz]
+
+Si bien puede parecer un exceso, crear un repositorio solo por una
+página, este método ofrece grandes ventajas, principalmente, tener la
+posibilidad de actualizar una sección independientemente de todo el
+sitio, versionar otros tipos de archivos, darles otra vista y encadenar
+las diferentes CIs (/Continuous Integration/) aporta valor.
+
+** /static/ vs /dynamic/
+
+Antes una imagen generada a partor de un archivo =.dot= en el /blog/
+solo existía en forma de =.png= y además era completamente estática, es
+decir dependendía de un /commit/ individual en el /repo/ =blog= para ser
+actualizada.
+
+Ahora a partir de archivos =.dot=, se generan de manera dinámica las
+imágenes en formato =.png= en el /repo/ =osiux-graphviz= y mediante
+las definiciones del archivo =.gitlab-ci.yml=, éstas imágenes se
+actualizan en el /repo/ =blog=, permitiendo además genenar una galería
+de imágenes /GraphViz/ en el archivo =dot.org= de manera automatizada!
+
+** =alpine-org2blog=
+
+Tuve que actualizar la imagen =alpine-org2blog=, agregando los paquetes
+=graphviz= y =ttf-inconsolata= a fin de realizar correctamente la
+generación de las imágenes.
+
+** consolidar para comparar
+
+Hace años que tengo archivos =.dot= dispersos en diferentes proyectos,
+algunos inclusino ni siquiera estan versionados y sobreviven gracias los
+/backups/ y siempre que voy a realizar un nuevo /grafo/, termino
+perdiendo tiempo buscando algún ejemplo anterior para tomarlo de
+referencia.
+
+Consolidando los diferentes /grafos/ terminados en un único /repo/ puedo
+garantizar que los tengo todos versionados y juntos para realizar
+comparaciones, copiar atributos y/o estilos y por sobre todo usarlos
+como fuente de inspiración para nuevas ideas de representación.
+
+** a /commitear/!
+
+De momento agregué pocos ejemplos, solo para probar que el circuito de
+generación automatizada funciona, y la buena noticia es que la Galería
+no solo se convierte a =.org= y de ahí a =.html=, como bonus extra, se
+genera en formato =.md= y =.gmi= en los diferentes /mirrors/ del /Blog/.
+
+De ahora en mas, solo basta agregar el =.dot= y todo sale sobre ruedas!
+
+** te sugiero leer
+
+- [[file:2023-02-24-automate-blog-from-org-mode-to-html-markdown-gemini-using-docker-alpine-org2blog-and-gitlab-ci.org][Automate conversion of blog from /org-mode/ to /Html/, /Markdown/ and /Gemini/ using /Docker image/ =alpine-org2blog= and /GitLab CI/]]
+- [[file:2023-02-14-howto-launch-gitlab-ci-from-other-gitlab-ci-repo-using-trigger.org][howto launch gitlab ci from other gitlab ci repo using trigger]]
+- [[file:2022-10-25-how-to-make-a-timeline-with-graphviz-using-timeline2dot.org][Cómo hacer una línea de tiempo con GraphViz]]
+- [[file:2022-10-21-use-graphviz-for-slides.org][Usar Graphviz para generar Slides]]
+- [[file:2021-01-29-bookmarks-vs-links.org][bookmarks vs links.txt]]
+- [[file:2019-04-21-gitlab-ci-org-mode-publish.org][gitlab-ci org-mode publish]]
+
+[fn:osiux-links]         https://gitlab.com/osiux/osiux-links.git
+[fn:osiux-graphviz]      https://gitlab.com/osiux/osiux-graphviz.git
