@@ -87,6 +87,8 @@ De ahora en mas, solo basta agregar el =.dot= y todo sale sobre ruedas!
 [fn:osiux-links]         https://gitlab.com/osiux/osiux-links.git
 [fn:osiux-graphviz]      https://gitlab.com/osiux/osiux-graphviz.git
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f526ec41526f193b52cf2ee3a15d4aa02a8cafc7][=2023-03-06 22:28=]] agregar links y footnote en /How To automate GraphViz generate image from dot file using alpine-org2blog/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2d2a0bf6aa1bbd132f29f2bca3449d97f6784f3d][=2023-03-06 21:44=]] agregar /How To automate GraphViz generate image from dot file using alpine-org2blog/
