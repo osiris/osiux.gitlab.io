@@ -108,3 +108,7 @@ versionados!
 [fn:git-bash-utils]     https://gitlab.com/osiux/git-bash-utils/
 [fn:ansible-tools]      https://gitlab.com/osiux/ansible_tools/
 [fn:gitlab-bash-utils]  https://gitlab.com/osiux/gitlab-bash-utils/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/499f7363d2a4f94e457ef89975de33b2a4fcf018][=2023-03-07 23:39=]] agregar /find value in all git tags using =git-find-value=/
