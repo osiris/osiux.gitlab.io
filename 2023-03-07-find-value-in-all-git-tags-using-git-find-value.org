@@ -1,0 +1,110 @@
+#+TITLE:       find value in all git tags using =git-find-value=
+#+DESCRIPTION: find value in all git tags and show value in each tag using git-find-value
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    git, tag, find, value, tags, git-find-value
+#+DATE:        2023-03-07 23:50
+#+HTML_HEAD:   <meta property="og:title" content="find value in all git tags using =git-find-value=" />
+#+HTML_HEAD:   <meta property="og:description" content="find value in all git tags and show value in each tag using git-find-value" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/find-value-in-all-git-tags-using-git-find-value.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/git-find-value-fist-git-version.png" />
+
+[[file:img/git-find-value-fist-git-version.png][file:tmb/git-find-value-fist-git-version.png]]
+
+** /deploy fallido/
+
+Hoy falló un /deploy/, de esos que hay que hacer por las noches y que
+obvio, al fallar hay que ver de corregirlo o deshacer todo aunque en
+este caso no basta con presionar =CTRL-Z=, es un poquito más complejo!
+
+** /te juro que es la primera vez que me pasa/
+
+Cuando miro los /logs/ buscando el error, detecto algo que nunca antes
+sucedió en las pruebas de este /release/, rarísimo, al investigar un
+poco más doy con el error, por algún motivo el /job_template/ de _AWX_
+clonó la versión =v0.4.0= de un /repo/ en lugar de la =0.7.2= /WTF!/
+
+** /no sos vos, soy yo/
+
+Yo recordaba que la variable global para el entorno productivo estaba
+definida como =master= y /NO/ podía fallar, debía clonar la última
+versión estable, pero realizando un =diff= veo que la variable
+=freeipa_sssd_tools_git_version= no estaba definida en /PRD/ y sin
+embargo si estaba globalmente con el valor =v0.4.0=
+
+Pero si la última vez, /deployamos/ =master= (en ese momento =v0.6.1=),
+entonces qué sucedió?
+
+** =git-find-value= al rescate!
+
+Recordé que hace un tiempo hice el /script/ =git-find-value= que permite
+buscar un valor en un archivo de un /repo/ =git= y mostrar qué valor
+tenía en cada =tag=, en este caso fue claro, no hubo duda alguna,
+globalmente en el inventario nunca estuvo definido como =master= =:(=
+
+#+BEGIN_EXAMPLE
+
+# git-find-value freeipa_sssd_tools_git_version group_vars/all.yml
+
+v0.7.1 freeipa_sssd_tools_git_version: v0.3.0
+v0.7.2 freeipa_sssd_tools_git_version: v0.3.0
+v0.7.3 freeipa_sssd_tools_git_version: v0.3.0
+v0.7.4 freeipa_sssd_tools_git_version: v0.4.0
+v0.7.5 freeipa_sssd_tools_git_version: v0.4.0
+v0.7.6 freeipa_sssd_tools_git_version: v0.4.0
+v0.7.7 freeipa_sssd_tools_git_version: v0.4.0
+
+#+END_EXAMPLE
+
+Y en /PRD/ si estuvo como =master=, pero en los /tags/ =v0.7.6= y
+=v0.7.7=, y justamente hoy estaba estrenando /tag/ =v0.7.8=
+
+#+BEGIN_EXAMPLE
+
+# git-find-value freeipa_sssd_tools_git_version group_vars/prd.yml
+
+v0.7.6 freeipa_sssd_tools_git_version: master
+v0.7.7 freeipa_sssd_tools_git_version: master
+
+#+END_EXAMPLE
+
+Un simple =git diff= entre 2 /tags/ y pude ver dónde perdí algunas
+variables, las pasé por alto, porque el enfoque estaba en otro cambio
+más trascendental.
+
+** /Utilidades siempre a mano/
+
+Gracias a comandos como =git-find-value= [fn:git-find-value] puedo
+rápidamente resolver conflictos sin perder tiempo en la web, buscando
+como resolver algo puntual que es poco frecuente y que seguro olvidaré
+rápidamente, éste y otros /scripts/ de =git= están disponibles en
+=git-bash-utils= [fn:git-bash-utils]
+
+** /Deploy ExitOSi/
+
+Para resolver éste error y otros menores, tuve que generar varios
+/releases/ de varios /repos/ y esto lo pude resolver rápidamente gracias
+a otros /scripts/ de =Ansible Tools= [fn:ansible-tools] y =GitLab Bash
+Utils= [fn:gitlab-bash-utils] para obtener finalmente un /deploy/ como
+estaba planeado, sin errores y garantizando que todos los cambios estén
+versionados!
+
+** /Posts relacionados.../
+
+- [[file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
+- [[file:2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.org][Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools]]
+- [[file:2022-08-21-howto-use-gitlab-from-command-line.org][cómo usar /GitLab/ desde la línea de comandos]]
+- [[file:2021-02-05-ansible-awx-tools.org][Ansible/AWX tools]]
+
+[fn:git-find-value]     https://gitlab.com/osiux/git-bash-utils/-/raw/develop/git-find-value
+[fn:git-bash-utils]     https://gitlab.com/osiux/git-bash-utils/
+[fn:ansible-tools]      https://gitlab.com/osiux/ansible_tools/
+[fn:gitlab-bash-utils]  https://gitlab.com/osiux/gitlab-bash-utils/
