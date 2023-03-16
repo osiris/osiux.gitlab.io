@@ -145,6 +145,8 @@ mas de una protección y reducir el tráfico de red innecesario!
 [fn:Pi-hole]       https://pi-hole.net/
 [fn:OpenWRT]       https://openwrt.org/
 
+
 ** ChangeLog
 
-  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/45386e5f5ce19cb51e7fadb828ce1d0a1ebdd2ff][=2023-03-15 23:10=]] agregar /How to block bad sites using low tech/
+  - [[stout:bare/blog/-/commit/5bb3d1014e327ccfd4f5ffa50574029e16f75355][=2023-03-16 19:38=]] corregir título y tags OpenGraph en /How to block bad sites using low tech/
+  - [[stout:bare/blog/-/commit/45386e5f5ce19cb51e7fadb828ce1d0a1ebdd2ff][=2023-03-15 23:10=]] agregar /How to block bad sites using low tech/
