@@ -26,8 +26,8 @@ UNTIL_ISO="$(date '+%F' -d now)"
 
 SINCE_DATE="$(LC_ALL=en_US.UTF-8 date '+%b %d %Y' -d "$SINCE_ISO")"
 UNTIL_DATE="$(LC_ALL=en_US.UTF-8 date '+%b %d %Y' -d "$UNTIL_ISO")"
-SINCE="${SINCE_DATE^}"
-UNTIL="${UNTIL_DATE^}"
+SINCE="00:00 ${SINCE_DATE^}"
+UNTIL="23:59 ${UNTIL_DATE^}"
 
 function git_get_duration ()
 {
