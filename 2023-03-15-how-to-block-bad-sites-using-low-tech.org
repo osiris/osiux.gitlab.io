@@ -1,4 +1,4 @@
-#+TITLE:       How to blocks bad sites using low tech
+#+TITLE:       How to block bad sites using low tech
 #+DESCRIPTION: Cómo bloquear sitios malos modificando el archivo =/etc/hosts=
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
@@ -7,10 +7,10 @@
 #+INCLUDE:     header.org
 #+KEYWORDS:    dns, adware, fakenews, gambling, malware, porn, social, StevenBlack, block
 #+DATE:        2023-03-15 23:00
-#+HTML_HEAD:   <meta property="og:title" content="How it blocks bad sites with low tech" />
+#+HTML_HEAD:   <meta property="og:title" content="How to block bad sites with low tech" />
 #+HTML_HEAD:   <meta property="og:description" content="Cómo bloquear sitios malos modificando el archivo =/etc/hosts=" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
-#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-03-15 23:00" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/howto-block-bad-sites-with-low-tech.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />

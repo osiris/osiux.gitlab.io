@@ -57,6 +57,8 @@ function get_posts()
 TMP="$(mktemp)"
 echo "$DATES" | grep -v '\#' > "$TMP"
 
+echo "$NOW"date +'%F +%T'
+
 while read -r SINCE UNTIL
 do
 
