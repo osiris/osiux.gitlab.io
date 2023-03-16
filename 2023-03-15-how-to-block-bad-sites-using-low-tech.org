@@ -144,3 +144,7 @@ mas de una protección y reducir el tráfico de red innecesario!
 [fn:StevenBlack]   https://github.com/StevenBlack/hosts
 [fn:Pi-hole]       https://pi-hole.net/
 [fn:OpenWRT]       https://openwrt.org/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/45386e5f5ce19cb51e7fadb828ce1d0a1ebdd2ff][=2023-03-15 23:10=]] agregar /How to block bad sites using low tech/
