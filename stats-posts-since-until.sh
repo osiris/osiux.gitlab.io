@@ -77,7 +77,7 @@ EOF
 
 }
 
-git log --since "$SINCE" --until "$UNTIL"  \
+git log --after "$SINCE" --before "$UNTIL" \
   --date=iso --pretty --format='%h %ad %s' \
   --no-merges                              \
   | sed 's/-0300 //g'                      \
