@@ -42,11 +42,15 @@
    también en formato =.gmi= (/cápsula gemini/) y se exporta
    dinámicamente a formato =.html=
 
-   - [[gemini://gmi.osiux.com/][Version =.gmi=]]
-   - [[https://osiux.gitlab.io/][Version =.html=]]
-   - [[https://osiux.prose.sh/][Mirror en =prose.sh=]]
-   - [[https://gitlab.com/osiux/osiux.gitlab.io][Source en =gitlab=]]
-   - [[https://github.com/osiris/osiux.gitlab.io][Source en =github=]]
+   | /name/            | /url/                                                             |
+   |-------------------|-------------------------------------------------------------------|
+   | mirror gemini     | gemini://gmi.osiux.com/                                           |
+   | mirror gitlab     | https://osiux.gitlab.io/                                          |
+   | mirror selfhosted | https://osiux.com.ar/                                             |
+   | mirror prose.sh   | https://osiux.prose.sh/                                           |
+   | source gitlab     | https://gitlab.com/osiux/osiux.gitlab.io/                         |
+   | source github     | https://github.com/osiris/osiux.gitlab.io/                        |
+   | source codeberg   | https://codeberg.org/OSiUX/osiux.gitlab.io/                       |
 
 ** =gpg=
 
