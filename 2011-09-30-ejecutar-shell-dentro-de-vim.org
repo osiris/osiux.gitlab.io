@@ -1,4 +1,5 @@
 #+TITLE:       Ejecutar un Shell dentro de Vim
+#+DESCRIPTION: Ejecutar comandos dentro de una ventana de Vim utilizando el plugin ConqueTerm
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
