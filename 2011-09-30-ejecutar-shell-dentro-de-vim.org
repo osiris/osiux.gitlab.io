@@ -4,52 +4,64 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Vim, Shell, Bash, ConqueTerm, Terminal
 #+DATE:        2011-09-30 22:19
 #+HTML_HEAD:   <meta property="og:title" content="Ejecutar un Shell dentro de Vim" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
-#+HTML_HEAD:   <meta property="og:article:published_time" content="2011-09-30" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2011-09-30-ejecutar-shell-dentro-de-vim.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/execute-bash-inside-vim-using-conqueterm.png" />
 
+[[file:img/execute-bash-inside-vim-using-conqueterm.png][file:tmb/execute-bash-inside-vim-using-conqueterm.png]]
 
-Ayer alguien preguntó en la [[http://gcoop.coop][coop]] cómo ejecutar un
-shell como una ventana más de Vim, tras una rápida búsqueda por la web
-encontramos un excelente plugin llamado
-[[http://conque.googlecode.com][ConqueTerm]], muy fácil de instalar:
+Ayer alguien preguntó en =gcoop= [fn:gcoop] cómo ejecutar un /shell/
+como una ventana más de =vim=, tras una rápida búsqueda por la /web/
+encontramos un excelente /plugin/ llamado =ConqueTerm= [fn:ConqueTerm]
+muy fácil de instalar:
 
 #+BEGIN_SRC sh :results none :exports code
-    cd ~/.vim
-    wget https://conque.googlecode.com/files/conque_2.3.vmb
-    vim conque_2.3.vmb
-    :so %
-    :q
+
+cd ~/.vim
+wget -O conque_2.3.vmb https://www.vim.org/scripts/download_script.php?src_id=16279
+vim conque_2.3.vmb
+:so %
+:q
+
 #+END_SRC
 
 Para abrir una ventana con una terminal basta con ejecutar:
 
 #+BEGIN_EXAMPLE
-    :ConqueTermSplit bash
+
+:ConqueTermSplit bash
+
 #+END_EXAMPLE
 
 También se puede invocar a otras aplicaciones:
 
 #+BEGIN_EXAMPLE
-    :ConqueTermSplit top
+
+:ConqueTermSplit top
+
 #+END_EXAMPLE
 
 Terminé agregando un alias a mi =.vimrc=:
 
 #+BEGIN_EXAMPLE
-    nmap ,c :ConqueTermSplit bash<CR>
+
+nmap ,c :ConqueTermSplit bash<CR>
+
 #+END_EXAMPLE
 
-De esta manera cada vez que necesito usar =bash= y no quiero salir de Vim,
-basta con pulsar =,c=. En breve publico todos mis archivos de configuración.
-:-)
+De esta manera cada vez que necesito usar =bash= y no quiero salir de
+=vim=, basta con pulsar =,c=. En breve publico todos mis archivos de
+configuración. =:-)=
 
-
+[fn:gcoop]       https://www.gcoop.coop/
+[fn:ConqueTerm]  https://www.vim.org/scripts/script.php?script_id=2771
 
 ** ChangeLog
 
