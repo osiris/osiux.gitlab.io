@@ -67,8 +67,10 @@ configuración. =:-)=
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/fbed31f65edc3ffc5c02fbb6ce372632895f8f6b][=2023-04-02 11:37=]] actualizar tags OpenGraph en /Ejecutar un Shell dentro de Vim/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/8125dbbb7385b719686bcc4d579f4aef3f7efc93][=2023-04-02 11:12=]] agregar DESCRIPTION en /Ejecutar un Shell dentro de Vim/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e1308c3031346fd085af1ca82d05128b081540d9][=2023-04-02 09:57=]] agregar tags e imagen y actualizar links en /Ejecutar shell dentro de =vim=/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
