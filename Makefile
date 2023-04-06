@@ -12,6 +12,10 @@ ORG2GMI   ?= $$(command -v org2gmi)
 
 all: requirements blog stats_posts stats_since_until index years links dot image markdown gemini publish sitemap htaccess tar_gz
 
+clean:
+	git clean -fx
+	git checkout -f
+
 requirements:
 	[[ -d ~/bin ]] || mkdir -p ~/bin
 	for R in barra org2gmi org2md org-author org-date org-email org-title;do curl $(OBU_URL)/$$R > ~/bin/$$R && chmod +x ~/bin/$$R;done
