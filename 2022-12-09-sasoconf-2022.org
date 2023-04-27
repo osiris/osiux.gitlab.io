@@ -1,12 +1,21 @@
 #+TITLE:       SASOConf 2022
-#+DESCRIPTION: Resumen de la 4ta edición del evento de Software Libre, Redes y Seguridad Informática en Curuzú Cuatiá, Corrientes.
+#+DESCRIPTION: Resumen de la 4ta edición de SASOConf 2022, evento de Software Libre, Redes y Seguridad Informática en Curuzú Cuatiá, Corrientes.
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    sasoconf, saso, evento, software, software libre, redes libres, seguridad, seguridad informática, curuzú, curuzú cuatiá, corrientes
+#+KEYWORDS:    Evento, SASOConf, Corrientes, CuruzúCuatiá, RedesLibres, Security, SeguridadInformática, SoftwareLibre, Wardriving, Ekoparty, LockPicking, OSINT, Security
 #+DATE:        2022-12-08 03:41
+#+HTML_HEAD:   <meta property="og:title" content="SASOConf 2022" />
+#+HTML_HEAD:   <meta property="og:description" content="Resumen de la 4ta edición de SASOConf 2022, evento de Software Libre, Redes y Seguridad Informática en Curuzú Cuatiá, Corrientes." />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/./2022-12-09-sasoconf-2022.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/sasoconf-2022/2022-12-10-23_48_52_KANT0088.jpg" />
 
 [[file:img/sasoconf-2022/2022-12-10-23_48_52_KANT0088.jpg][file:tmb/sasoconf-2022/2022-12-10-23_48_52_KANT0088.jpg]]
 
@@ -36,6 +45,8 @@ organización antes, durante y después.
 El nivel técnico de las charlas se supera en cada edición, manteniendo
 al mismo tiempo charlas introductorias y de divulgación.
 
+[[file:img/sasoconf-2022/2022-12-09-10_03_40_KANT0029.jpg][file:tmb/sasoconf-2022/2022-12-09-10_03_40_KANT0029.jpg]]
+
 *** Día 1
 
 Arrancamos con las clásicas presentaciones institucionales,
@@ -43,6 +54,8 @@ reconocimiento municipal y provincial.
 
 Esta vez nos tocó compartir el partido /Argentina vs Países Bajos/ y el
 sufrimiento de los penales nos hizo olvidar el calor reinante. =XD=
+
+[[file:img/sasoconf-2022/2022-12-09-1455-1d39d6.jpg][file:tmb/sasoconf-2022/2022-12-09-1455-1d39d6.jpg]]
 
 Por la fresca noche, la cena para competir las experiencias del día y
 obviamente unas espumosas cervezas para relajar. =:)=
@@ -52,8 +65,14 @@ obviamente unas espumosas cervezas para relajar. =:)=
 Otro día de charlas presenciales y remotas en dos auditorios, paseo por
 los stands y cierre con banda en vivo.
 
+[[file:img/sasoconf-2022/2022-12-09-sasoconf-ekoparty-lockpicking.jpg][file:tmb/sasoconf-2022/2022-12-09-sasoconf-ekoparty-lockpicking.jpg]]
+
+[[file:img/sasoconf-2022/2022-12-10-wardriving-wifite-pineapple-wigle.jpg][file:tmb/sasoconf-2022/2022-12-10-wardriving-wifite-pineapple-wigle.jpg]]
+
 Por la noche disfrutar de un asado para mas de 40 personas, con música y
 algo de baile!
+
+[[file:img/sasoconf-2022/2022-12-10-20_20_04_KANT0064.jpg][file:tmb/sasoconf-2022/2022-12-10-20_20_04_KANT0064.jpg]]
 
 ** /Gracias Rodo!/
 
@@ -83,7 +102,9 @@ fecha mas templada! =:P=
 [fn:curuzu]       https://es.wikipedia.org/wiki/Curuzú_Cuatiá
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/07d24e3a9b96d513253a1c8743ed8b1cff319602][=2023-04-26 23:04=]] agregar imágenes, keywords, description y opengraph a SASOConf 2022
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/723926fda3b67c6af53fc444b7f9911194e44606][=2023-01-01 16:13=]] corregir preview de imágenes en SASOConf 2022
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/75a54220549f412d6ad0a582eb77f683348840d6][=2022-12-31 19:50=]] agregar SASOConf 2022
