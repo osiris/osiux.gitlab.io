@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    gitlab, git, trigger, ci, gitlab-ci, automation, devops
+#+KEYWORDS:    Git, Automation, CI, DevOps, Git, GitLab, GitlabCI, Trigger
 #+DATE:        2023-02-14 20:07
 #+HTML_HEAD:   <meta property="og:title" content="howto launch gitlab ci from other gitlab ci repo using trigger" />
 #+HTML_HEAD:   <meta property="og:description" content="Cómo iniciar GitLab CI desde otro repositorio de GitLab CI usando trigger para la automatización de la generación de un blog" />

@@ -1,9 +1,11 @@
 #+TITLE:       prose.sh a blog platform for hackers
+#+DESCRIPTION: prose.sh es una plataforma de blog pensada para hackers, es minimalista y esta basada en SSH y Markdown
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Markdown, Hackers, SSH
 #+DATE:        2022-07-17 20:01
 #+HTML_HEAD:   <meta property="og:title" content="prose.sh a blog platform for hackers" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -13,6 +15,7 @@
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 
+[[file:img/osiux-prose-sh-blog-ssh-markdown.png][file:tmb/osiux-prose-sh-blog-ssh-markdown.png]]
 
 ** /HackerNews/
 

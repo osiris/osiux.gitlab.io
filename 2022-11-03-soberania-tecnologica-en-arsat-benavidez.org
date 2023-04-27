@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    tag
+#+KEYWORDS:    SysAdmin, ARSAT, Benavídez, FACTTIC, REFEFO, SoberaníaTecnológica, TDA, DataCenter
 #+DATE:        2022-12-31 17:46
 #+HTML_HEAD:   <meta property="og:title" content="Soberanía Tecnológica en ARSAT Benavídez" />
 #+HTML_HEAD:   <meta property="og:description" content="Visita a las instalaciones de ARSAT Benavídez" />

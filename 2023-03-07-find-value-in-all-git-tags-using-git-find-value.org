@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    git, tag, find, value, tags, git-find-value
+#+KEYWORDS:    Git, Find, Tags
 #+DATE:        2023-03-07 23:50
 #+HTML_HEAD:   <meta property="og:title" content="find value in all git tags using =git-find-value=" />
 #+HTML_HEAD:   <meta property="og:description" content="find value in all git tags and show value in each tag using git-find-value" />

@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    howto, write, git, commit, messages, vim
+#+KEYWORDS:    Git, Commit, HowTo, Vim
 #+DATE:        2022-11-21 23:15
 #+HTML_HEAD:   <meta property="og:title" content="cómo escribir rápidamente mensajes de commit de git usando vim" />
 #+HTML_HEAD:   <meta property="og:description" content="Acelerar la escritura de mensajes de commit de git desde vim automatizando el template mediante git-commit-message definiendo prefijo en el subject y agregando el tiempo consumido calculando la diferencia de tiempo entre commits o desde del último journal" />

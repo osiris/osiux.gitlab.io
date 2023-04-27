@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    dot, neato, twopi, circo, graphviz, alpine, org, org-mode, html, png, gitlab, ci, docker, blog
+#+KEYWORDS:    GraphViz, Alpine, Blog, Ci, Circo, Docker, Gitlab, Html, Neato, Orgmode, Png, Twopi, Dot
 #+DATE:        2023-03-06 21:37
 #+HTML_HEAD:   <meta property="og:title" content="How To automate GraphViz generate image from dot file" />
 #+HTML_HEAD:   <meta property="og:description" content="Automate conversion of blog page from /DOT/ to /PNG/ using /Docker image/ =alpine-org2blog= and /GitLab CI/" />

@@ -1,9 +1,11 @@
 #+TITLE:       historial infinito en =bash=
+#+DESCRIPTION: Cómo configurar Bash para tener un historial infinito usando formato fecha y hora
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Bash, bashrc, config, history, prompt, crontab, tty
 #+DATE:        2021-03-17 22:48
 #+HTML_HEAD:   <meta property="og:title" content="historial infinito en =bash=" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -13,7 +15,7 @@
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 
-
+[[file:img/historial-infinito-en-bash.png][file:tmb/historial-infinito-en-bash.png]]
 
 ** historial numérico
 

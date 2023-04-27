@@ -1,9 +1,11 @@
 #+TITLE:       Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools
+#+DESCRIPTION: Versionar los recursos de AWX en un repositorio git para automatizar la implementación de AWX con GitLab CI/CD y Ansible Tools
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Ansible, AWX, git, GitLab, CI, CD, DevOps, AnsibleTools
 #+DATE:        2022-10-08 20:17
 #+HTML_HEAD:   <meta property="og:title" content="Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />

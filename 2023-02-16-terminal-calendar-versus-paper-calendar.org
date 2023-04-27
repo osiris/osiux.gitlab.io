@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    terminal, command line, console, calendar, cal2ascii, cal2pdf
+#+KEYWORDS:    Bash, cal2ascii, cal2pdf, calendar, commandline, console, terminal
 #+DATE:        2023-02-16 23:06
 #+HTML_HEAD:   <meta property="og:title" content="Calendario de Terminal versus Calendario en Papel" />
 #+HTML_HEAD:   <meta property="og:description" content="Cómo mantener sincronizado el calendario en Papel con el calendario en la terminal de GNU/Linux" />

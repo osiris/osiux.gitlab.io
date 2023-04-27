@@ -1,9 +1,11 @@
 #+TITLE:       Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/
+#+DESCRIPTION: Automatizar la configuración de la BIOS de una HP ProDesk 400 G5 usando Ansible y HP Linux Tools para deshabilitar ASPM (Active State Power Management)
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Ansible, BIOS, Config, HP, Automation, ASPM, UEFI, RTL8111
 #+DATE:        2021-12-30 09:55
 #+HTML_HEAD:   <meta property="og:title" content="Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -13,6 +15,7 @@
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 
+[[file:img/ansible-hp-linux-tools.png][file:tmb/ansible-hp-linux-tools.png]]
 
 ** el famoso que raro...
 

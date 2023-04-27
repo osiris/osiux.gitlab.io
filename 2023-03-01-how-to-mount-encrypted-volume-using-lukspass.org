@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    lukspass, dm-crypt, cryptsetup, luks, pass, password, password-store, passphrase, mount, encrypted, disk
+#+KEYWORDS:    SysAdmin, Cryptsetup, Disk, DmCrypt, Encrypted, Luks, Mount, Pass, Passphrase, Password, PasswordStore
 #+DATE:        2023-02-28 22:52
 #+HTML_HEAD:   <meta property="og:title" content="How To mount encrypted volume using with lukspass" />
 #+HTML_HEAD:   <meta property="og:description" content="Cómo montar un volumen cifrado usando dm-crypt, LUKS y password-store con lukspass" />

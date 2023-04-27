@@ -1,9 +1,11 @@
 #+TITLE:       alinear textos en columnas
+#+DESCRIPTION: align2col es un script que permite alinear textos en columnas
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Bash, TextoPlano, tty, terminal, consola, align2col, awk, vim
 #+DATE:        2021-04-05 23:11
 #+HTML_HEAD:   <meta property="og:title" content="alinear textos en columnas" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -13,7 +15,7 @@
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 
-
+[[file:img/align2col.png][file:tmb/align2col.png]]
 
 ** tengo mis /TOCs/
 

@@ -1,9 +1,11 @@
-#+TITLE:       OSiUX =graphviz=
+#+TITLE:       OSiUX GraphViz
+#+DESCRIPTION: Galería de imágenes generadas usando Graphviz con link al código de cada una
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    GraphViz, dot, neato, twopi, fdp, circo, diagrams, grafo
 #+DATE:        {{{modification-time(%Y-%m-%d %H:%M)}}}
 #+HTML_HEAD:   <meta property="og:title" content="OSiUX =graphviz=" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -13,27 +15,57 @@
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 
-
-
 ** graficando grafos
 
-A =graphviz= [fn:graphviz] lo descubrí en el 2007 y se volvió
+A =GraphViz= [fn:graphviz] lo descubrí en el 2007 y se volvió
 indispensable, me la paso generando archivos =.dot=
 
 El lenguaje =dot= es muy, pero muy simple, hay varios motores =dot=,
 =neato=, =twopi=, =fdp= y =circo= que permiten generar grafos muy
-diferentes, algunos ejemplos básicos encontralos en
-/=visualizando grafos usando graphviz=/ [fn:grafos]
+diferentes
+
+** algunos /posts/ relacionados
+
+   - [[https://osiux.com/2022-10-25-how-to-make-a-timeline-with-graphviz-using-timeline2dot.html][Cómo hacer una línea de tiempo con GraphViz]]
+   - [[https://osiux.com/2022-10-21-use-graphviz-for-slides.html][Usar Graphviz para generar Slides]]
+   - [[https://osiux.com/2021-03-04-diagrama-de-secuencia-trafico-de-red.html][Diagrama de secuencia de Tráfico de Red]]
+   - [[https://osiux.com/2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.html][Diagramas de Topología de Red =csv2nwdiag=]]
+   - [[https://osiux.com/visualizando-grafos-graphviz.org][Visualizando grafos mediante =graphviz=]]
+   - [[https://osiux.com/imagenes-magicas-imagemagick.org][Imágenes Mágicas usando =imagemagick=]]
+   - [[https://osiux.com/graficar-desde-consola.org][Graficar desde consola]]
 
 ** galería de archivos =.dot=
 
-... continuará ...
+A continuación se muestran algunos grafos que realicé con /GraphViz/:
 
-** te puede gustar...
+[fn:graphviz]         https://graphviz.org/
 
-   - [[file:imagenes-magicas-imagemagick.org][Imágenes Mágicas usando =imagemagick=]]
-   - [[file:visualizando-grafos-graphviz.org][Visualizando grafos mediante =graphviz=]]
-   - [[file:graficar-desde-consola.org][Graficar desde consola]]
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/imapfilter-imap-offlineimap-maildir-mutt-smtp.dot][IMAPFilter OfflineIMAP Maildir Mutt SMTP]]
 
-[fn:graphviz]  https://graphviz.org/
-[fn:grafos]    https://osiux.com/visualizando-grafos-graphviz.html
+
+   [[file:img/imapfilter-imap-offlineimap-maildir-mutt-smtp.png][file:tmb/imapfilter-imap-offlineimap-maildir-mutt-smtp.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/disk-lvm-raid.dot][LVM RAID Disk]]
+
+
+   [[file:img/disk-lvm-raid.png][file:tmb/disk-lvm-raid.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/anrtec.dot][ANRTEC]]
+
+
+   [[file:img/anrtec.png][file:tmb/anrtec.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/alpine-org2blog.dot][Docker image alpine-org2blog and GitLab CI]]
+
+
+   [[file:img/alpine-org2blog.png][file:tmb/alpine-org2blog.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/alpine-org2blog-graphviz.dot][Docker image alpine-org2blog with graphviz and GitLab CI]]
+
+
+   [[file:img/alpine-org2blog-graphviz.png][file:tmb/alpine-org2blog-graphviz.png]]
+

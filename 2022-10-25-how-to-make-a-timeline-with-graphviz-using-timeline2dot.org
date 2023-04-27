@@ -1,10 +1,11 @@
 #+TITLE:       Cómo hacer una línea de tiempo con GraphViz
+#+DESCRIPTION: Generar una línea de tiempo animada usando GraphViz, en base a tags de un repositorio git
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    graphviz, timeline, git, git-tag-timeline, animation, timeline2dot
+#+KEYWORDS:    GraphViz, Animation, Git, timeline2dot, Timeline
 #+DATE:        2022-10-25 21:43
 #+HTML_HEAD:   <meta property="og:title" content="Cómo hacer una línea de tiempo con GraphViz" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />

@@ -5,6 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Ansible, AWX, ActiveDirectory, Automation, Debian, Deploy, DevOps, FreeIPA, GNU, GitLab, IaC, Linux, Proxmox, Ubuntu, migrate, nerdearla, talks
 #+DATE:        2022-10-20 16:45
 #+HTML_HEAD:   <meta property="og:title" content="Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX" />
 #+HTML_HEAD:   <meta property="og:description" content="Transcripción de la charla "Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX" en Nerdearla 2022" />

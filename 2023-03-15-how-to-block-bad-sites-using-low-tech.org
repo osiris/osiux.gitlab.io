@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    dns, adware, fakenews, gambling, malware, porn, social, StevenBlack, block
+#+KEYWORDS:    SysAdmin, Adware, Block, DNS, Fakenews, Gambling, Malware, Porn, Social, StevenBlack
 #+DATE:        2023-03-15 23:00
 #+HTML_HEAD:   <meta property="og:title" content="How to block bad sites with low tech" />
 #+HTML_HEAD:   <meta property="og:description" content="Cómo bloquear sitios malos modificando el archivo =/etc/hosts=" />

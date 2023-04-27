@@ -1,9 +1,11 @@
 #+TITLE:       conectar la wifi desde la consola
+#+DESCRIPTION: Cómo conectarse a una red WiFi usando wpa_passphrase, wpa_supplicant y dhclient
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    SysAdmin, WiFi, WPA, dhclient, terminal, console, tty, CommandLine
 #+DATE:        2021-03-23 23:06
 #+HTML_HEAD:   <meta property="og:title" content="conectar la wifi desde la consola" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -13,7 +15,7 @@
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 
-
+[[file:img/wpa-passphrase-wpa-supplicant.png][file:tmb/wpa-passphrase-wpa-supplicant.png]]
 
 ** =wicd-curses=
 

@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    tag
+#+KEYWORDS:    Automation, Bash, Curl, Notify
 #+DATE:        2023-02-15 22:56
 #+HTML_HEAD:   <meta property="og:title" content="enviar notificaciones automáticas usando =ntfy.sh=" />
 #+HTML_HEAD:   <meta property="og:description" content="Cómo enviar notificaciones automáticas a su teléfono espía usando =curl= y recibirlas al instante" />

@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    howto, automate, blog, org-mode, html, markdown, gemini, docker, alpine, gitlab, ci, pandoc, org2md, org2gmi, org2html, org2blog, md2gemini
+#+KEYWORDS:    Git, Alpine, Automate, Blog, CI, Docker, Gemini, GitLab, Html, HowTo, Markdown, md2gemini, org2blog, org2gmi, org2html, org2md, orgmode, pandoc
 #+DATE:        2023-02-24 09:42
 #+HTML_HEAD:   <meta property="og:title" content="Automate conversion of blog in /org-mode/ to /Html/, /Markdown/ and /Gemini/ using /Docker image/ =alpine-org2blog= and /GitLab CI/" />
 #+HTML_HEAD:   <meta property="og:description" content="Automatizar la conversión de un blog en org-mode a los formatos Html, Markdown y Gemini usando la imagen docker alpine-org2blog y GitLab CI" />

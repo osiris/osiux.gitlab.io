@@ -6,6 +6,7 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+DATE:        2022-03-28 23:00
+#+KEYWORDS:    Evento, Python, PyCamp, Baradero
 #+HTML_HEAD:   <meta property="og:title" content="PyCamp 2022 en Baradero" />
 #+HTML_HEAD:   <meta property="og:description" content="Experiencias vividas en PyCamp 2022 en Baradero" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />

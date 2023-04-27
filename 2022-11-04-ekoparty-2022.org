@@ -5,6 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Evento, Security, Ekoparty, Conference, Hacking
 #+DATE:        2022-11-04 23:00
 #+HTML_HEAD:   <meta property="og:title" content="ekoparty 2022" />
 #+HTML_HEAD:   <meta property="og:description" content="ekoparty security conference 2022 edition" />

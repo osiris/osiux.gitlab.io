@@ -1,9 +1,11 @@
 #+TITLE:       =lists.sh= es para amantes de las listas
+#+DESCRIPTION: lists.sh es un MicroBlog para listas en texto plano
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, lists, txt, TextoPlano, minimimalist
 #+DATE:        2022-07-20 23:47
 #+HTML_HEAD:   <meta property="og:title" content="=lists.sh= es para amantes de las listas" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -13,6 +15,7 @@
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 
+[[file:img/osiux-links-sh.png][file:tmb/osiux-links-sh.png]]
 
 ** Hackers Minimalistas
 

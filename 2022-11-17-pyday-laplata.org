@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    tag
+#+KEYWORDS:    Evento, Charlas, LaPlata, PyAr, PyDay, Python, UTN
 #+DATE:        2022-09-17 23:00
 #+HTML_HEAD:   <meta property="og:title" content="PyDay La Plata 2022" />
 #+HTML_HEAD:   <meta property="og:description" content="Evento Python Argentina en UTN La Plata" />
