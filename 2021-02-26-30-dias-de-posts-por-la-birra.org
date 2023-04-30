@@ -1,13 +1,16 @@
 #+TITLE:       🍺🍺🍺 30 días de /posts/ por la birra!
+#+DESCRIPTION: Resumen desafío "30 días de posts por la birra", para probar que podés escribir regularmente antes de pensar en la herramienta de blog
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+DATE:        {{{modification-time(%Y-%m-%d %H:%M)}}}
+#+KEYWORDS:    Blog, Post, Desafío, Wordpress, OrgMode, StaticGenerator, Markdown
+#+DATE:        2021-02-26 09:51
 #+HTML_HEAD:   <meta property="og:title" content="🍺🍺🍺 30 días de /posts/ por la birra!" />
+#+HTML_HEAD:   <meta property="og:description" content="Resumen desafío "30 días de posts por la birra", para probar que podés escribir regularmente antes de pensar en la herramienta de blog" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
-#+HTML_HEAD:   <meta property="og:article:published_time" content="2021-02-26" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021-02-26-30-dias-de-posts-por-la-birra.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
