@@ -289,8 +289,10 @@ y son =30 días de posts por la picada=.
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a3e7488ba01576bc40c78ec2fccdfd56a7a6fa8b][=2023-04-30 09:10=]] Agregar DESCRIPTION, KEYWORDS y actualizar OpenGraph en 🍺🍺🍺 30 días de /posts/ por la birra!
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2067337568415129e0a9b42264b1dfb3af25c015][=2021-02-27 20:33=]] agregar detalles cronológicos, explicación de estadísticas y conclusión
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a93639ebe0fb33aeed1b04a22900dd3923b6f791][=2021-02-27 10:12=]] actualizar 30 días de /posts/ por la birra
