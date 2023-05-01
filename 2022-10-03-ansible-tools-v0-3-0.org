@@ -18,7 +18,7 @@
 #+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/2022-10-03-ansible-tools-v0-3-0.jpg" />
 
 
-[[file:img/2022-10-03-ansible-tools-v0-3-0.jpg][file:tmb/ansible-tools-v0-3-0.jpg]]
+[[file:img/ansible-tools-v0-3-0.jpg][file:tmb/ansible-tools-v0-3-0.jpg]]
 
 ** /aniversario!/ 🎂
 
