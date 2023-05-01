@@ -117,8 +117,10 @@ nuevas versiones de /AWX/ y nuevas integraciones.
 [fn:shellcheck]     https://github.com/koalaman/shellcheck
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c1a7c3d529698012384fea745062583f091e8cc9][=2023-05-01 11:27=]] corregir imagen en /Ansible Tools/ =v0.3.0=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1665cc99b96cd2e916e82b0885039e88fdb89990][=2023-05-01 10:28=]] agregar DESCRIPTION, KEYWORDS y actualizar OpenGraph en Ansible Tools v0.3.0
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/50a0b75a7527b4d24098c9a43ae26ababe95aae5][=2022-10-03 19:24=]] agregar /Ansible Tools/ =v0.3.0=
