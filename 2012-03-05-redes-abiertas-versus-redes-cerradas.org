@@ -77,8 +77,10 @@ lo hiciste!/
 [fn:BAL]       https://web.archive.org/web/20131004183342/http://wiki.buenosaireslibre.org/
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/cee938d5995fe8345d7b8c02ccf502823c7a0cd4][=2023-05-03 23:15=]] corregir links ChangeLog en 2012-03-05-redes-abiertas-versus-redes-cerradas.org
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f16b7ae2cc1335c30dbe45a135a660f2d72ad9ef][=2023-04-29 15:12=]] agregar DESCRIPTION, KEYWORDS, actualizar opengraph, corregir links y formato
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
