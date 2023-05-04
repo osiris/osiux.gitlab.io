@@ -1,0 +1,97 @@
+#+TITLE:       PyCamp 2023 en la República de Corrientes
+#+DESCRIPTION: Experiencias vividas en PyCamp 2023 en la República de Corrientes
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Evento, Python, Pyar, PyCamp, Corrientes, Campamento, Programación
+#+DATE:        2023-03-27 19:08
+#+HTML_HEAD:   <meta property="og:title" content="PyCamp 2023 en la República de Corrientes" />
+#+HTML_HEAD:   <meta property="og:description" content="Experiencias vividas en PyCamp 2023 en la República de Corrientes" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-03-23-pycamp-2023-en-corrientes.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pycamp-2023-corrientes/pycamp2023-corrientes-grupal.jpg" />
+
+[[file:img/pycamp-2023-corrientes/pycamp2023-corrientes-grupal.jpg][file:tmb/pycamp-2023-corrientes/pycamp2023-corrientes-grupal.jpg]]
+
+Este año desde el /Jueves/ 23 al /Domingo/ 26 de /Marzo/ el /PyCamp/ se
+realizaba en la /"República de Corrientes"/, asi que tuve que asitir!
+Junto a /Herzet/,  /Charie/, /Maxi/ y /Jose/ emprendimos el
+viaje desde la /Ciudad Autónoma de Buenos Aires/, paramos a dormir unas
+horas en /Curuzú Cuatiá/ y continuamos viaje hasta llegar a
+/Riachuelos/, más precisamente a /"Las Ilusiones Cué"/ donde nos
+encontramos con entusiastas de /Python/.
+
+** /"Las Ilusiones Cué"/
+
+El lugar estuvo genial, contaba con un parque con muchos lugares para
+disfrutar y juntarse, lo mejor es contar con una pileta teniendo en
+cuenta los casi 40 grados de temperatura ambiente!
+
+** Infraestructura
+
+Luego de la ronda de presentación, me ocupé de gestionar un poco la
+Infraestructura, es decir /redistribuir equitativamente el angosto de
+banda/, este año hubo poca señal de /4G/, asi que para mitigar
+levantamos una /cache/ de =pip=, un /registry/ de =docker=, un =squid=
+para todos los sitios en general y de yapa /cache/ de paquetes =apt=
+para distros basadas en =Debian= y =Ubuntu=.
+
+** /Non-Stop-Programming/
+
+Las habitaciones contaban con aire acondicionado así que parte del
+evento tuvo sus merecidos descansos con aire frío, pero mas allá del
+calor reinante, tanto el comedor como el salón de juegos nunca
+estuvieron vacíos, se trabajó en varios proyectos e incluso ante el
+comienzo de una tormenta ni siquiera el corte de luz de una fase
+ahuyentó a las manos del teclado, a oscuras con algo de batería mientras
+se realizaba la contingencia de conectividad, no hubo interrupción
+alguna, eso demuestra que había muchas ganas de programar!
+
+** Nerdeando!
+
+Como es habitual, hubo espadas medievales, diferentes tipos de cubos
+mágicos, los mejores juegos de mesa para el disfrute colectivo, algo de
+"escabio" para quienes deambularon por las noches y muchas ganas de
+compartir conocimiento, risas y disfrute.
+
+No faltó el partido de Argentina, la birra y las papas fritas, algunes
+dándose con tolueno hasta el cansancio, y otres saltando en
+el /Pump It Up/, mientras se intercambiaban /stickers/ e ideas locas
+sobre cómo mejorar un proyecto.
+
+El /dojo/ estuvo desafiante, otra vez, muchas personas diferentes
+intentado resolver un problema concreto y el eterno dilema de la
+comunicación entre pares /versus/ la resolución técnica.
+
+Nos hicimos tiempo para compartir configuraciones, herramientas y
+diferentes personalizaciones y metodologías que ayudan a trabajar mejor.
+
+** Cierre de Actividades!
+
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://youtu.be/oX46gGFMQ_Q" title="Cierre de Actividades PyCamp 2023 Corrientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
+
+La noche final, se presentaron los diferentes proyectos, se comentó los
+pormenores de cada uno, un /deleite/ de diferentes soluciones resueltas
+(o casi) en muy poco tiempo a problemas planteados en forma de juegos,
+bots, UIs, TUIs, AMBs, empaquetadores e interacción con diferentes
+dispositivos.
+
+Hubo encuesta y para quienes se quedaron unas horas más el disfrute de
+la playa.
+
+Sin duda alguna, poder codear, tirarse a la pile, disfrutar de
+excelentes desayunos, almuerzos, meriendas y cenas para continuar
+codeando en ese proyecto o idea loca sin interrupciones fue una gran
+satisfacción.
+
+Una vez más, haber participado del /PyCamp/ alimenta mis ganas de seguir
+participando y alentando a que mas personas conozcan y disfruten de un
+evento inigualable como es el /PyCamp/, nos vemos en el próximo!
