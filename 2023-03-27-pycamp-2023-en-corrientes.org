@@ -21,19 +21,26 @@
 
 Este año desde el /Jueves/ 23 al /Domingo/ 26 de /Marzo/ el /PyCamp/ se
 realizaba en la /"República de Corrientes"/, asi que tuve que asitir!
-Junto a /Herzet/,  /Charie/, /Maxi/ y /Jose/ emprendimos el
+Junto a /Herzet/, /Charlie/, /Maxi/ y /Jose/ de /Cambá/ emprendimos el
 viaje desde la /Ciudad Autónoma de Buenos Aires/, paramos a dormir unas
 horas en /Curuzú Cuatiá/ y continuamos viaje hasta llegar a
 /Riachuelos/, más precisamente a /"Las Ilusiones Cué"/ donde nos
-encontramos con entusiastas de /Python/.
+encontramos con entusiastas de /Python/ e integrantes de las
+cooperativas /Código Libre/ y /Devecoop/ todas asociadas a /FACTTIC/.
+
+[[file:img/pycamp-2023-corrientes/pycamp2023-corrientes-facttic-camba-codigo-libre-devecoop-gcoop.jpg][file:tmb/pycamp-2023-corrientes/pycamp2023-corrientes-facttic-camba-codigo-libre-devecoop-gcoop.jpg]]
 
 ** /"Las Ilusiones Cué"/
+
+[[file:img/pycamp-2023-corrientes/pycamp2023-corrientes-las-ilusiones-cue.jpg][file:tmb/pycamp-2023-corrientes/pycamp2023-corrientes-las-ilusiones-cue.jpg]]
 
 El lugar estuvo genial, contaba con un parque con muchos lugares para
 disfrutar y juntarse, lo mejor es contar con una pileta teniendo en
 cuenta los casi 40 grados de temperatura ambiente!
 
 ** Infraestructura
+
+[[file:img/pycamp-2023-corrientes/pycamp2023-bullet-aps-poe-thinkcentre-pytari.jpg][file:tmb/pycamp-2023-corrientes/pycamp2023-bullet-aps-poe-thinkcentre-pytari.jpg]]
 
 Luego de la ronda de presentación, me ocupé de gestionar un poco la
 Infraestructura, es decir /redistribuir equitativamente el angosto de
@@ -44,6 +51,8 @@ para distros basadas en =Debian= y =Ubuntu=.
 
 ** /Non-Stop-Programming/
 
+[[file:img/pycamp-2023-corrientes/pycamp2023-stickers-notebooks.jpg][file:tmb/pycamp-2023-corrientes/pycamp2023-stickers-notebooks.jpg]]
+
 Las habitaciones contaban con aire acondicionado así que parte del
 evento tuvo sus merecidos descansos con aire frío, pero mas allá del
 calor reinante, tanto el comedor como el salón de juegos nunca
@@ -53,7 +62,11 @@ ahuyentó a las manos del teclado, a oscuras con algo de batería mientras
 se realizaba la contingencia de conectividad, no hubo interrupción
 alguna, eso demuestra que había muchas ganas de programar!
 
+[[file:img/pycamp-2023-corrientes/pycamp2023-corrientes-non-stop-programming.jpg][file:tmb/pycamp-2023-corrientes/pycamp2023-corrientes-non-stop-programming.jpg]]
+
 ** Nerdeando!
+
+[[file:img/pycamp-2023-corrientes/pycamp2023-corrientes-mate-birra-pump-it-up-juegos-espadas.jpg][file:tmb/pycamp-2023-corrientes/pycamp2023-corrientes-mate-birra-pump-it-up-juegos-espadas.jpg]]
 
 Como es habitual, hubo espadas medievales, diferentes tipos de cubos
 mágicos, los mejores juegos de mesa para el disfrute colectivo, algo de
@@ -81,8 +94,8 @@ diferentes personalizaciones y metodologías que ayudan a trabajar mejor.
 La noche final, se presentaron los diferentes proyectos, se comentó los
 pormenores de cada uno, un /deleite/ de diferentes soluciones resueltas
 (o casi) en muy poco tiempo a problemas planteados en forma de juegos,
-bots, UIs, TUIs, AMBs, empaquetadores e interacción con diferentes
-dispositivos.
+/bots/, /UIs/, /TUIs/, /AMBs/, empaquetadores e interacción con
+diferentes dispositivos y como era de esperarse hubo un rico Asado!
 
 Hubo encuesta y para quienes se quedaron unas horas más el disfrute de
 la playa.
