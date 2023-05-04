@@ -109,6 +109,8 @@ Una vez más, haber participado del /PyCamp/ alimenta mis ganas de seguir
 participando y alentando a que mas personas conozcan y disfruten de un
 evento inigualable como es el /PyCamp/, nos vemos en el próximo!
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/b5b7a480b00a286e7657200c2c8f8c601225164e][=2023-05-03 23:15=]] agregar imágenes a /PyCamp 2023 en la República de Corrientes/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/cba28838356ad8c89a9b73de58a8b7890b347596][=2023-05-03 22:06=]] agregar /PyCamp 2023 en la República de Corrientes/
