@@ -1,4 +1,5 @@
 #+TITLE:       Usar Graphviz para generar Slides
+#+DESCRIPTION: Usar Graphviz para generar Slides para presentaciones estáticas y animadas
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
