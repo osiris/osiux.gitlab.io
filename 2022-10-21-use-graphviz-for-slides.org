@@ -213,7 +213,9 @@ un /script/ /Python/ que toma la imagen =.png= y la divide en partes.
 [fn:fgnuldzi]       http://filiales-gnu-linux.g.coop.ar/prd.html
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5dcc858ab3ec850740e5c2e046e51991b8783b6e][=2023-05-05 13:47=]] agregar DESCRIPTION y KEYWORDS en /Usar GraphViz para generar slides
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/67553bbb8d2ab8bf4f26f654e8a1cb1567cf2c74][=2022-10-26 17:35=]] agregar =Usar Graphviz para generar Slides=
