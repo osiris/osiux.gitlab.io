@@ -4,6 +4,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    GraphViz, dot, dot2png, dot2mp4, dzi, OpenSeaDragon, Slides, grafo, diagramas, timeline
 #+DATE:        2022-10-21 11:32
 #+HTML_HEAD:   <meta property="og:title" content="Usar Graphviz para generar Slides" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
