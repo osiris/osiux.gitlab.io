@@ -1,18 +1,21 @@
 #+TITLE:       AWX Ansible =tower_cli.exceptions.TowerCLIError: failed to parse some of the extra variables=
+#+DESCRIPTION: Cómo corregir error "tower_cli.exceptions.TowerCLIError: failed to parse some of the extra variables"
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Ansible, AWX, AnsibleTower, cli, error, config, cfg, automation, DevOps
 #+DATE:        2019-04-10 17:46
 #+HTML_HEAD:   <meta property="og:title" content="AWX Ansible =tower_cli.exceptions.TowerCLIError: failed to parse some of the extra variables=" />
+#+HTML_HEAD:   <meta property="og:description" content="Cómo corregir error "tower_cli.exceptions.TowerCLIError: failed to parse some of the extra variables"" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
-#+HTML_HEAD:   <meta property="og:article:published_time" content="2019-04-10" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
-#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2019-04-10-awx-ansible-tower-cli-failed-to-parse-some-of-the-extra-variables.html" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/./2019-04-10-awx-ansible-tower-cli-failed-to-parse-some-of-the-extra-variables.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/awx-ansible-tower-cli-failed-to-parse-some-of-the-extra-variables.png" />
 
 Estoy ejecutando un /playbook/ de /Ansible/ [fn:ansible] que utiliza
 =tower-cli= [fn:awx-cli] para interactuar con un servidor *AWX* [fn:awx]
