@@ -1,13 +1,16 @@
 #+TITLE:       pomodoro notify-send
+#+DESCRIPTION: Utilizar notify-send para las alertas de la Técnica Pomodoro
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Bash, alertas, notify, pomodoro
 #+DATE:        2011-02-03 22:19
 #+HTML_HEAD:   <meta property="og:title" content="pomodoro notify-send" />
+#+HTML_HEAD:   <meta property="og:description" content="Utilizar notify-send para las alertas de la Técnica Pomodoro" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
-#+HTML_HEAD:   <meta property="og:article:published_time" content="2011-02-03" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/pomodoro-notify-send.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
@@ -15,71 +18,71 @@
 #+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/pomodoro/pomodoro-notify-send-6.png" />
 
 
-Hace tiempo vengo utilizando a diario la técnica pomodoro [fn:pomodoro] que me
-ayuda a focalizarme en lo que tengo que hacer y no distraerme o procastinar
-[fn:procastinar].
+Hace tiempo vengo utilizando a diario la técnica pomodoro [fn:pomodoro]
+que me ayuda a focalizarme en lo que tengo que hacer y no distraerme o
+procastinar [fn:procastinar].
 
 En la búsqueda por una pequeña aplicación que sirva como alarma y cuenta
-regresiva del tiempo terminé realizando unos scripts bash que me resultaron más
-cómodos  de usar. Al principio realicé un script usando OSD, llamado minutos
-[fn:minutos] el cual es extremadamente simple.  Luego lo mejoré usando
-=notify-send=, incluyendo una imagen de un pomodoro (tomate).
+regresiva del tiempo terminé realizando unos scripts bash que me
+resultaron más cómodos de usar. Al principio realicé un script usando
+/OSD/, llamado minutos [fn:minutos] el cual es extremadamente simple.
+Luego lo mejoré usando =notify-send=, incluyendo una imagen de un
+pomodoro (tomate).
 
 [[file:img/pomodoro/pomodoro-notify-send-6.png]]
 
-El script está dividido en dos, para hacerlo más cómodo de ejecutar, el primero
-se llama =pomodoro= y se puede invocar desde la interfase gráfica, el mismo
-ejecuta el el script =pomodoro-notify= estableciendo el proceso en background
-(segundo plano) y cada 1 minuto muestra una alerta del tiempo restante y en un
-par de segundos se desvanece, luego cuando restan los últimos 5 minutos las
-alertas se vuelven críticas y no desaparecen a menos que uno las cierre
-manualmente, asi podés apurarte en los últimos minutos a terminar lo que estas
-haciendo.
+El script está dividido en dos, para hacerlo más cómodo de ejecutar, el
+primero se llama =pomodoro= y se puede invocar desde la interfase
+gráfica, el mismo ejecuta el el script =pomodoro-notify= estableciendo
+el proceso en /background/ (segundo plano) y cada 1 minuto muestra una
+alerta del tiempo restante y en un par de segundos se desvanece, luego
+cuando restan los últimos 5 minutos las alertas se vuelven críticas y no
+desaparecen a menos que uno las cierre manualmente, asi podés apurarte
+en los últimos minutos a terminar lo que estas haciendo.
 
 [[file:img/pomodoro/pomodoro-notify-send-5.png]]
 
 =pomodoro=
 
 #+BEGIN_SRC sh :results none :exports code
-    #!/bin/bash 
+  #!/bin/bash 
 
-    exec ~/bin/pomo-notify 25 &
+  exec ~/bin/pomo-notify 25 &
 #+END_SRC
 
 =pomodoro-notify=
 
 #+BEGIN_SRC sh :results none :exports code
-    #!/bin/bash
+  #!/bin/bash
 
-    MM=25
+  MM=25
 
-    if [ ! -z "$1" ]
-    then
-        MM=$1
-    fi
+  if [ ! -z "$1" ]
+  then
+      MM=$1
+  fi
 
-    IMG=~/img/pomodoro/1.png
+  IMG=~/img/pomodoro/1.png
 
-    for i in $(seq $MM -1 0)
-    do
-        if [ $i -eq 0 ]
-        then
-          notify-send -u critical -i $IMG "Listo!"
-          exit
-        fi
+  for i in $(seq $MM -1 0)
+  do
+      if [ $i -eq 0 ]
+      then
+        notify-send -u critical -i $IMG "Listo!"
+        exit
+      fi
 
-        if [ $i -le 5 ]
-        then
-          notify-send -u critical -i $IMG "Faltan $i:00 minutos!"
-        else
-          notify-send -i $IMG "Faltan $i:00 minutos"
-        fi
+      if [ $i -le 5 ]
+      then
+        notify-send -u critical -i $IMG "Faltan $i:00 minutos!"
+      else
+        notify-send -i $IMG "Faltan $i:00 minutos"
+      fi
 
-        sleep 60
+      sleep 60
   done
 #+END_SRC
 
-[fn:pomodoro] http://osiux.com/la-tecnica-pomodoro.txt
-[fn:procastinar] http://osiux.com/procastinacion.txt
-[fn:minutos] http://osiux.com/pomodoro-minutos-osd.txt
-
+[fn:pomodoro]     https://osiux.com/la-tecnica-pomodoro.html
+[fn:procastinar]  https://es.wikipedia.org/wiki/Procrastinación
+[fn:minutos]      https://osiux.com/pomodoro-minutos-osd.html
