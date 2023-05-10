@@ -108,8 +108,10 @@ De momento comparto los /slides/ de la charla...
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0b0e42a44625ce9932e7dee0e1e446080c5fde9b][=2023-05-10 20:03=]] agregar DESCRIPTION, KEYWORDS, actualizar OpenGraph y agregar relacionados en =Filiales GNU/Linux= FLISoL CABA 2022
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/11eb4c4b2a1ab5236a3e62d9dc643398cd2cc601][=2022-04-27 01:49=]] corregir /preview/ de imágenes en =Filiales GNU/Linux= en /FLISoL CABA/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/db96a61541dc8bc584b0d8c5aec792e9a0eeb55e][=2022-04-27 01:36=]] corregir /footnotes/ para evitar que no se rompa el /HTML/ en =Filiales GNU/Linux= en /FLISoL CABA/
