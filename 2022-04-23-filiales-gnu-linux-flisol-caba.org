@@ -1,11 +1,14 @@
-#+TITLE:       =Filiales GNU/Linux= FLISoL CABA
+#+TITLE:       =Filiales GNU/Linux= FLISoL CABA 2022
+#+DESCRIPTION: Charla Filiales GNU/Linux en FLISoL CABA 2022
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Evento, Ansible, AWX, CABA, Debian, DevOps, Flisol, GNU, IaC, Linux, Proxmox, SoftwareLibre, Ubuntu, UTN
 #+DATE:        2022-04-26 23:28
-#+HTML_HEAD:   <meta property="og:title" content="=Filiales GNU/Linux= FLISoL CABA" />
+#+HTML_HEAD:   <meta property="og:title" content="=Filiales GNU/Linux= FLISoL CABA 2022" />
+#+HTML_HEAD:   <meta property="og:description" content="Charla Filiales GNU/Linux en FLISoL CABA 2022" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2022-04-26" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
@@ -77,6 +80,13 @@ De momento comparto los /slides/ de la charla...
 [[https://eventol.flisol.org.ar/media/talks/ansible-awx-bccl_KBu4UfA.pdf][file:tmb/2022-04-23-flisol-caba-filiales-gnu-linux-slides.jpg]]
 
 ...y prometo =MAS DATOS= ...
+
+** Seguramente te interesará leer
+
+- [[file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
+- [[file:2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.org][Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools]]
+- [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
+- [[file:2021-12-30-automated-bios-configuration-using-ansible-and-hp-linux-tools.org][Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/]]
 
 [fn:flisol]               https://flisol.info/
 [fn:blender]              https://www.blender.org
