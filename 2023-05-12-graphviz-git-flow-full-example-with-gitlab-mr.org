@@ -87,3 +87,7 @@ El flujo de desarrollo es idéntico tanto para =feature=, =release= y
 [fn:gitlab-ee]          https://docs.gitlab.com/omnibus/installation/
 [fn:dot-git-flow-full]  https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/git-flow-full.dot
 [fn:osiux-graphviz]     https://gitlab.com/osiux/osiux-graphviz/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7b750e2424e400fd1a78e5a5e95095ba39d8fa87][=2023-05-12 10:40=]] agregar /Graficar ejemplo completo de integrar GitFlow y GitLab MRs/
