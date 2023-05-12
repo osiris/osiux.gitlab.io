@@ -1,0 +1,89 @@
+#+TITLE:       Graficar ejemplo completo de integrar GitFlow y GitLab MRs
+#+DESCRIPTION: Ejemplo completo de integrar GitFlow con branchs develop, master, support 0.1x, support 0.2.x y 4 tags incluyendo GitLab Pipeline Status, Ready y Approve MR para branchs feature, hotfix y release
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    GraphViz, Branchs, CI, Develop, DevOps, Git, GitFlow, GitLab, MR, Pipeline, Tags
+#+DATE:        2023-05-12 09:30
+#+HTML_HEAD:   <meta property="og:title" content="Graficar ejemplo completo de integrar GitFlow y GitLab MRs" />
+#+HTML_HEAD:   <meta property="og:description" content="Ejemplo completo de integrar GitFlow con branchs develop, master, support 0.1x, support 0.2.x y 4 tags incluyendo GitLab Pipeline Status, Ready y Approve MR para branchs feature, hotfix y release" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-05-12" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-05-12-graphviz-git-flow-full-example-with-gitlab-mr.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/git-flow-full.png" />
+
+#+ATTR_HTML: :title Git Flow Full Example with branch develop, master, support 0.1x, support 0.2.x and four tags include GitLab Pipeline Status, Ready and Approve MR for branchs feature, hotfix and release
+[[file:img/git-flow-full.png][file:tmb/git-flow-full.png]]
+
+Hace 10 años que uso =git flow= [fn:git-flow] en =gcoop= [fn:gcoop] y
+hace 2 años que en un proyecto grande lo usamos conjuntamente con el
+circuito de =MRs= [fn:gitlab-mr] de =GitLab= [fn:gitlab-ee] para
+clarificar un poco todo el proceso decidí utilizar =GraphViz=
+
+En el diagrama de ejemplo se plantean 2 /features/ (=foo= y =bar=), cada
+uno es para un /release/ en particular (=v0.1.0= y =v0.2.0=) y posterior
+a cada /release/ se generan 2 /hotfix/ (=v0.1.1= y =v0.2.2=).
+
+El =código del grafo= [fn:dot-git-flow-full] esta disponible en el
+/repo/ =osiux-graphviz= [fn:osiux-graphviz]
+
+El flujo de desarrollo es idéntico tanto para =feature=, =release= y
+=hotfix=, es decir, todos los /branchs/ requieren los siguientes pasos:
+
+1. Crear /branch/ e inmediatamente, crear /MR/ en /Draft/
+2. Desarrollar /feature/, /release/ y/o /hotfix/
+3. Verificar /Pipeline Success/ de /GitLab/ (caso contrario volver a 2)
+4. Si el desarrollo esta listo, marcar /Ready/
+5. Revisar /MR/ y Aprobar solo si hay /PS/ (caso contrario volver a 2)
+6. Si se completaron todos los pasos anteriores, realizar /merge/
+
+| /type/            | /tag/branch/                           | /Create MR/ | /PS/     | /Ready/     | /Review MR/ | /Approve/   | /Merge/     |
+|-------------------+----------------------------------------+-------------+----------+-------------+-------------+-------------+-------------|
+| /Tag Releases/    | =v0.1.0, v0.2.0, v0.1.1, v0.2.2=       | /N/A/       | /GitLab/ | /N/A/       | /N/A/       | /N/A/       | /N/A/       |
+| /Stable Releases/ | =master, support/0.1.x, support/0.2.x= | /N/A/       | /GitLab/ | /N/A/       | /N/A/       | /N/A/       | /N/A/       |
+| /Release Branchs/ | =release/0.1.0, release/0.2.0=         | /Developer/ | /GitLab/ | /Developer/ | /Mantainer/ | /Mantainer/ | /Mantainer/ |
+| /Hotfix Branchs/  | =hotfix/0.1.1, hotfix/0.2.2=           | /Developer/ | /GitLab/ | /Developer/ | /Mantainer/ | /Mantainer/ | /Mantainer/ |
+| /Feature Branchs/ | =feature/foo, feature/bar=             | /Developer/ | /GitLab/ | /Developer/ | /Mantainer/ | /Mantainer/ | /Mantainer/ |
+
+** /feature/, /release/ y /tag/
+
+- [ ] crear /issue/ en =project#123=
+- [ ] crear /branch/ =feature/foo= saliendo de =develop= en el /repo/ que corresponda
+- [ ] crear /MR/ =Draf: Resolve feature/foo "Issue Tittle"= con =Closes project#123=
+- [ ] /branch/ =feature/foo= debe tener /MR/ con /PS/
+- [ ] crear documentación en /wiki/ =foo/foo_bar_vM.N.P=
+- [ ] /branch/ =release/M.N.P= debe tener /PS/
+- [ ] /tag/ =vM.N.P=
+
+** /hotfix/
+
+- [ ] crear /branch/ =support/M.N.x= saliedo de /tag/ =vM.M.x=
+- [ ] crear /branch/ =hotfix/foobar= saliendo de =support/M.N.x=
+- [ ] /branch/ =hotfix/foobar= debe tener /MR/ con /PS/
+
+** Referencias
+
+| item    | descripción         |
+|---------+---------------------|
+| /MR/    | /Merge Request/     |
+| /PS/    | /Pipeline Success/  |
+| =M.N.P= | =MAJOR.MINOR.PATCH= |
+
+** Tal vez te interese leer
+
+- [[file:2023-02-24-automate-blog-from-org-mode-to-html-markdown-gemini-using-docker-alpine-org2blog-and-gitlab-ci.org][Automate conversion of blog from /org-mode/ to /Html/, /Markdown/ and /Gemini/ using /Docker image/ =alpine-org2blog= and /GitLab CI/]]
+- [[file:2023-02-14-howto-launch-gitlab-ci-from-other-gitlab-ci-repo-using-trigger.org][howto launch gitlab ci from other gitlab ci repo using trigger]]
+- [[file:2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.org][Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools]]
+- [[file:2022-08-21-howto-use-gitlab-from-command-line.org][cómo usar /GitLab/ desde la línea de comandos]]
+
+[fn:git-flow]           https://nvie.com/posts/a-successful-git-branching-model/
+[fn:gcoop]              https://www.gcoop.coop/
+[fn:gitlab-mr]          https://docs.gitlab.com/ee/user/project/merge_requests/
+[fn:gitlab-ee]          https://docs.gitlab.com/omnibus/installation/
+[fn:dot-git-flow-full]  https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/git-flow-full.dot
+[fn:osiux-graphviz]     https://gitlab.com/osiux/osiux-graphviz/
