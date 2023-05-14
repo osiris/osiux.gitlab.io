@@ -1,9 +1,11 @@
 #+TITLE:       Awesome es Increíble
 #+AUTHOR:      Osiris Alejandro Gómez
+#+DESCRIPTION: Configuración de Awesome Window Manager
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, AwesomeVM, Config, Debian, Desktop
 #+DATE:        2011-06-05 11:17
 #+HTML_HEAD:   <meta property="og:title" content="Awesome es Increíble" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -18,26 +20,27 @@
 ** La búsqueda del entorno ideal
 
 Aunque confieso que en algún momento *Compiz* [fn:compiz] me cautivó, en
-general siempre desistí de la idea de usar todo un entorno enorme y pesado
-como *Gnome* [fn:gnome] y *KDE* [fn:kde], son muy buenos y fáciles de usar,
-tienen muy bien resuelta la integración pero persolamente prefiero gastar
-recursos de CPU en lo importante, digamos procesar un video, una consulta
-complicada a un motor de base de datos, un juego en 3d, etc. Aclaro que soy
-muy amigo del teclado y reniego del mouse salvo para aplicaciones que
-verdaderamente lo requieran como CAD y Diseño, aunque para esos casos también
-tengo siempre una mano en el teclado.
+general siempre desistí de la idea de usar todo un entorno enorme y
+pesado como *Gnome* [fn:gnome] y *KDE* [fn:kde], son muy buenos y
+fáciles de usar, tienen muy bien resuelta la integración pero
+personalmente prefiero gastar recursos de /CPU/ en lo importante,
+digamos procesar un video, una consulta complicada a un motor de base de
+datos, un juego en 3d, etc. Aclaro que soy muy amigo del teclado y
+reniego del /mouse/ salvo para aplicaciones que verdaderamente lo
+requieran como /CAD/ y Diseño, aunque para esos casos también tengo
+siempre una mano en el teclado.
 
-En fin, durante mucho tiempo usé *fluxbox* [fn:fluxbox] y llegué a tunearlo
-bastante, se puede ver un artículo que escribí al respecto:
+En fin, durante mucho tiempo usé *fluxbox* [fn:fluxbox] y llegué a
+tunearlo bastante, se puede ver un artículo que escribí al respecto:
 
 #+ATTR_HTML: :title fluxbox gtk2 root-tail gkrellm
 [[file:fluxbox-gtk2-root-tail-gkrellm.org][file:tmb/osiux-fluxbox-screenshot-640x480-01.png]]
 
-Pero luego me di cuenta que pasaba mucho tiempo jugando con la ubicación de
-las ventanas, así que emprendí la búsqueda de una alternativa tan liviana y
-minimalista como lo era fluxbox, así llegué a *awesome* [fn:awesome] que
-significa *increíble*, se pronuncia *osom* o algo así, yo prefiero decirle
-*aguesome*.
+Pero luego me di cuenta que pasaba mucho tiempo jugando con la ubicación
+de las ventanas, así que emprendí la búsqueda de una alternativa tan
+liviana y minimalista como lo era fluxbox, así llegué a *awesome*
+[fn:awesome] que significa *increíble*, se pronuncia *osom* o algo así,
+yo prefiero decirle *aguesome*.
 
 Existen otros similares a Awesome que también probé:
 
@@ -46,33 +49,33 @@ Existen otros similares a Awesome que también probé:
 
 ** Lo más compacto posible
 
-Una de las mejores ventajas de este tipo de manejadores de ventanas es que al
-eliminar los bordes de ventanas y barra de menú se maximina el espacio para
-las aplicaciones y se visualiza lo importante, que es el contenido de la
-aplicación, ya sean los datos en sí como también la interfase, también ayuda
-achicar el tamaño de la fuente. Sumado a esto luego en la mayoría de las
-aplicaciones existe la posibilidad de ocultar barras de herramientas o al
-menos sólo mostrar iconos pequeños o sólo texto y de esta manera aumentar aún
-más el espacio de trabajo.
+Una de las mejores ventajas de este tipo de manejadores de ventanas es
+que al eliminar los bordes de ventanas y barra de menú se maximina el
+espacio para las aplicaciones y se visualiza lo importante, que es el
+contenido de la aplicación, ya sean los datos en sí como también la
+interfase, también ayuda achicar el tamaño de la fuente. Sumado a esto
+luego en la mayoría de las aplicaciones existe la posibilidad de ocultar
+barras de herramientas o al menos sólo mostrar iconos pequeños o sólo
+texto y de esta manera aumentar aún más el espacio de trabajo.
 
 ** El teclado es más rápido
 
-El primero contacto puede parecer complicado, especialmente si no se aprenden
-algunas teclas básicas, la clave está en leer el manual =man awesome= ahí se
-listan las principales operaciones a realizar. Si bien se puede usar el mouse
-para la mayoría de las tareas, existen combinaciones de teclas que aceleran
-muchísimo moverse de un escritorio a otro como también cambiar la ubicación de
-las ventanas.
+El primero contacto puede parecer complicado, especialmente si no se
+aprenden algunas teclas básicas, la clave está en leer el manual =man
+awesome= ahí se listan las principales operaciones a realizar. Si bien
+se puede usar el mouse para la mayoría de las tareas, existen
+combinaciones de teclas que aceleran muchísimo moverse de un escritorio
+a otro como también cambiar la ubicación de las ventanas.
 
-Si nos aprendemos las teclas principales de una aplicación ya no es necesario
-mostrar los iconos de esas acciones, ahorrando así espacio para ver sólo el
-trabajo que estamos realizando. Realmente cuando uno se acostumbra a usar
-teclas rápidas, sucede que *necesito hacer algo* y *este algo sucede casi
-mágicamente* por que *mis manos están entrenadas a realizar este algo*
-mediante la combinación de un par de teclas que las presiono casi sin
-pensarlas, de hecho cuando alguien me pregunta *cómo hiciste eso?*, me cuesta
-unos segundos responder y describir la secuencia que tal vez sea algo como
-=Ctrl + Shift + e=.
+Si nos aprendemos las teclas principales de una aplicación ya no es
+necesario mostrar los iconos de esas acciones, ahorrando así espacio
+para ver sólo el trabajo que estamos realizando. Realmente cuando uno se
+acostumbra a usar teclas rápidas, sucede que *necesito hacer algo* y
+*este algo sucede casi mágicamente* por que *mis manos están entrenadas
+a realizar este algo* mediante la combinación de un par de teclas que
+las presiono casi sin pensarlas, de hecho cuando alguien me pregunta
+*cómo hiciste eso?*, me cuesta unos segundos responder y describir la
+secuencia que tal vez sea algo como =Ctrl + Shift + e=.
 
 Las teclas más importantes son:
 
@@ -89,31 +92,32 @@ Las teclas más importantes son:
 
 ** Ventanas en Mosaico
 
-La gran ventaja de este manejador de ventanas reside en que al abrir una nueva
-aplicación ésta adopta el máximo tamaño disponible y al abrir otra aplicación,
-las ventanas se acomodan dividiendo la pantalla tantas veces como ventanas
-abiertas estén visibles. Esto ahorra muchísimo tiempo en el que habitualmente
-uno tendría que resolver manualmente acomodando cada ventana para que no tape
-otra aplicación. Si se necesita cambiar la disposición de las ventanas abiertas
-basta con presionar una combinación de teclas y todo el esquema cambia de
-horizontal a vertical por ejemplo.
+La gran ventaja de este manejador de ventanas reside en que al abrir una
+nueva aplicación ésta adopta el máximo tamaño disponible y al abrir otra
+aplicación, las ventanas se acomodan dividiendo la pantalla tantas veces
+como ventanas abiertas estén visibles. Esto ahorra muchísimo tiempo en
+el que habitualmente uno tendría que resolver manualmente acomodando
+cada ventana para que no tape otra aplicación. Si se necesita cambiar la
+disposición de las ventanas abiertas basta con presionar una combinación
+de teclas y todo el esquema cambia de horizontal a vertical por ejemplo.
 
 #+ATTR_HTML: :title awesome mosaico
 [[file:img/awesome/awesome-mosaico.png][file:tmb/awesome/awesome-mosaico.png]]
 
 ** Ventanas Flotantes
 
-Es posible también tener ventanas flotantes, muy útiles en algunas contadas
-ocasiones pero en mi caso la mayoría del tiempo prefiero tener una sóla ventana
-máximizada, esto se debe en parte a que descubrí que muchas veces uno abre una
-ventana en una porción de la pantalla suponiendo que se va a quedar trabajando
-unos pocos minutos y finalmente puede estar horas utilizando solo el 20% de la
-superficie de la pantalla, lo cual desgasta la vista y desaprovecha el tamaño
-del monitor sin importar cuál sea. El otro motivo de tener una sóla ventana
-maximizada es que permite tener en foco qué se está haciendo, es decir una
-única tarea importante, el resto estará en segundo plano pudiendo estar
-minimizada o mucho mejor aún en otro escritorio y alternar fácilmente entre
-varios escritorios.
+Es posible también tener ventanas flotantes, muy útiles en algunas
+contadas ocasiones pero en mi caso la mayoría del tiempo prefiero tener
+una sóla ventana máximizada, esto se debe en parte a que descubrí que
+muchas veces uno abre una ventana en una porción de la pantalla
+suponiendo que se va a quedar trabajando unos pocos minutos y finalmente
+puede estar horas utilizando solo el 20% de la superficie de la
+pantalla, lo cual desgasta la vista y desaprovecha el tamaño del monitor
+sin importar cuál sea. El otro motivo de tener una sóla ventana
+maximizada es que permite tener en foco qué se está haciendo, es decir
+una única tarea importante, el resto estará en segundo plano pudiendo
+estar minimizada o mucho mejor aún en otro escritorio y alternar
+fácilmente entre varios escritorios.
 
 #+ATTR_HTML: :title awesome flotante
 [[file:img/awesome/awesome-flotante.png][file:tmb/awesome/awesome-flotante.png]]
@@ -140,41 +144,44 @@ siguiente:
 #+ATTR_HTML: :title awesome desktops
 [[file:img/awesome/awesome-2400x1800.png][file:tmb/awesome/awesome-800x600.png]]
 
-Esta distribución logra aprovechar el 100% de la resolución de pantalla para
-cada aplicación, lo cual tiene muchas ventajas, una de ellas es que puedo
-agrandar y reducir el tamaño de la tipografía en cada caso según lo necesite y
-al no ver otra cosa, salvo lo que estoy trabajando evito distracciones. En los
-monitores wide-screen la división vertical logra 2 ventanas de aspecto casi
-cuadrado, como si tuvieras dos monitores en uno, es altamente productivo,
-tengan en cuenta que el texto encolumnado se lee mejor que una cadena muy
-larga.
+Esta distribución logra aprovechar el 100% de la resolución de pantalla
+para cada aplicación, lo cual tiene muchas ventajas, una de ellas es que
+puedo agrandar y reducir el tamaño de la tipografía en cada caso según
+lo necesite y al no ver otra cosa, salvo lo que estoy trabajando evito
+distracciones. En los monitores /wide-screen/ la división vertical logra
+2 ventanas de aspecto casi cuadrado, como si tuvieras dos monitores en
+uno, es altamente productivo, tengan en cuenta que el texto encolumnado
+se lee mejor que una cadena muy larga.
 
 #+ATTR_HTML: :title awesome vertical
 [[file:img/awesome/awesome-vertical_800x450.png][file:tmb/awesome/awesome-vertical_800x450.png]]
 
 ** Una terminal de terminales
 
-A excepción del navegador =firefox=, el visor de PDF =zathura/evince= y
-algún que otro programa gráfico como =inkscape= y =gimp= el resto de las
-aplicaciones que utilizo a diario son todas aplicaciones que corren dentro de
-una terminal, con interfases de *sólo texto*, desde el editor de texto =vim=,
-la agenda =emacs org-mode=, el reproductor de música =mocp=, el cliente de
-correo =mutt= y el cliente de mensajería instantánea y chat IRC =finch=.
+A excepción del navegador =firefox=, el visor de /PDF/ =zathura/evince=
+y algún que otro programa gráfico como =inkscape= y =gimp= el resto de
+las aplicaciones que utilizo a diario son todas aplicaciones que corren
+dentro de una terminal, con interfases de *sólo texto*, desde el editor
+de texto =vim=, la agenda =emacs org-mode=, el reproductor de música
+=mocp=, el cliente de correo =mutt= y el cliente de mensajería
+instantánea y /chat/ /IRC/ =finch=.
 
 Claramente es una decisión muy personal, me siento muy cómodo viendo
-exclusivamente los datos y sólo los datos que necesito ver, nada más y nada
-menos, es decir que no hay animaciones ni bordes de ventanas en 3d, ni siquiera
-iconos para las tareas más comunes. En su lugar utilizo muchas combinaciones de
-teclas, tengo suerte, poseo buena memoria (al menos por ahora) y por las dudas
-tengo siempre a mano, digamos en la pared por ejemplo, tarjetas de referencia
-con las combinaciones de teclas más usadas.
+exclusivamente los datos y sólo los datos que necesito ver, nada más y
+nada menos, es decir que no hay animaciones ni bordes de ventanas en 3d,
+ni siquiera iconos para las tareas más comunes. En su lugar utilizo
+muchas combinaciones de teclas, tengo suerte, poseo buena memoria (al
+menos por ahora) y por las dudas tengo siempre a mano, digamos en la
+pared por ejemplo, tarjetas de referencia con las combinaciones de
+teclas más usadas.
 
-Entonces para todo esto necesito una buena terminal o emulador de terminal para
-ser más preciso, luego de mucho buscar di con *terminator*, que es
-simplemente genial, en principio puedo usarlo como una simple terminal o con un
-par de teclas dividirlo en varias partes (de la misma manera que awesome) e
-inclusive subdividir casi hasta el infinito con la posibilidad de agrupar estas
-subterminales y comandarlas a todas desde una sola!
+Entonces para todo esto necesito una buena terminal o emulador de
+terminal para ser más preciso, luego de mucho buscar di con
+=terminator=, que es simplemente genial, en principio puedo usarlo como
+una simple terminal o con un par de teclas dividirlo en varias partes
+(de la misma manera que =awesome=) e inclusive subdividir casi hasta el
+infinito con la posibilidad de agrupar estas subterminales y comandarlas
+a todas desde una sola!
 
 #+ATTR_HTML: :title awesome terminator
 [[file:img/awesome/awesome-terminator.png][file:tmb/awesome/awesome-terminator.png]]
@@ -193,8 +200,9 @@ Hay que aprenderse unas teclas básicas:
 |------------------------------------+--------------------------|
 | =Ctrl + Tab=                       | Intercambia de terminal. |
 
-Lo interesante es que no conflictuan las combinaciones de teclas de división de
-ventanas de otras aplicaciones como screen, vim, emacs, etc.
+Lo interesante es que no conflictúan las combinaciones de teclas de
+división de ventanas de otras aplicaciones como =screen=, =vim=,
+=emacs=, etc.
 
 | Tecla          | Aplicación |
 |----------------+------------|
@@ -213,23 +221,25 @@ ventanas de otras aplicaciones como screen, vim, emacs, etc.
 
 ** Ejecutar Aplicaciones
 
-Existen básicamente dos maneras, la primera es configurar un menú desde el
-cual se puede hacer click en el nombre de la aplicación y ésta es ejecutada.
-La segunda manera es invocar la secuencia de teclas =Modkey + r=, como
-consecuencia se visualiza la palabra *Run:* en la barra principal de *Awesome*
-y se puede tipear casi cualquier cosa, es como si estuvieramos dentro de una
-terminal, mantien historial, autocompleta comandos y nombres de archivos, es
-sin duda la más usada porque se puede prescindir del mouse, está siempre
-disponible y no sólo no ocupa mucho espacio, además no interfiere con el resto
-de las aplicaciones que tengamos abiertas. Aclaro que si te equivocás con
-suerte no pasa nada, es decir no muestra mensajes de error y con mala suerte
-se queda medio colgado por unos segundos.
+Existen básicamente dos maneras, la primera es configurar un menú desde
+el cual se puede hacer /click/ en el nombre de la aplicación y ésta es
+ejecutada.  La segunda manera es invocar la secuencia de teclas =Modkey
++ r=, como consecuencia se visualiza la palabra *Run:* en la barra
+principal de =Awesome= y se puede tipear casi cualquier cosa, es como si
+estuviéramos dentro de una terminal, mantiene historial, autocompleta
+comandos y nombres de archivos, es sin duda la más usada porque se puede
+prescindir del /mouse/, está siempre disponible y no sólo no ocupa mucho
+espacio, además no interfiere con el resto de las aplicaciones que
+tengamos abiertas. Aclaro que si te equivocás con suerte no pasa nada,
+es decir no muestra mensajes de error y con mala suerte se queda medio
+colgado por unos segundos.
 
 ** Configuración del =rc.lua=
 
-El comportamiente y aspecto de *Awesome* puede ser modificado editando el
-archivo =rc.lua=, el mismo debe estar en =~/.config/awesome/rc.lua= y se
-puede obtener una copia del archivo que está en =/etc/xdg/awesome/rc.lua=.
+El comportamiento y aspecto de =Awesome= puede ser modificado editando
+el archivo =rc.lua=, el mismo debe estar en =~/.config/awesome/rc.lua= y
+se puede obtener una copia del archivo que está en
+=/etc/xdg/awesome/rc.lua=.
 
 #+BEGIN_EXAMPLE
   -- beautiful.init("/usr/share/awesome/themes/default/theme.lua")
