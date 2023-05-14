@@ -314,8 +314,12 @@ se puede obtener una copia del archivo que está en
 [fn:fluxbox] http://es.wikipedia.org/wiki/Fluxbox
 [fn:awesome] http://es.wikipedia.org/wiki/Awesome
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/65536769f39e2d3ef08ad37e9a71c717561adfa4][=2023-05-14 09:54=]] cambiar imagen de OpenGraph en /Awesome es Increíble/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1a08fae53de0684538dc065e16726767fe7dca89][=2023-05-14 08:12=]] agregar DESCRIPTION, KEYWORDS y corregir sintaxis en /Awesome es Increíble/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b][=2019-04-18 00:01=]] Corregir identación header #+INCLUDE:
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/d786b1d07ab48fbf066a455e47dbe6f506736b90][=2015-07-18 14:47=]] @ 00:25 hs - This document was successfully checked as XHTML 1.0 Strict!
