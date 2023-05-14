@@ -14,7 +14,7 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/awesome-es-increible.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/awesome/awesome-mosaico.png" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/awesome/awesome-flotante.png" />
 
 
 ** La búsqueda del entorno ideal
