@@ -156,6 +156,8 @@ próximo /Domingo/.
 [fn:osiux-blog]             https://gitlab.com/osiux/osiux.gitlab.io/
 [fn:mastodon-bash-utils]    https://gitlab.com/osiux/mastodon-bash-utils/
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/983c54f1862f2095f6953572733c198cc5af1fc9][=2023-05-16 19:19=]] agregar imagen y tags OpenGraph a /publicar cada post de blog como status de mastodon usando =mastodon-bash-utils=/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/21d086fe86f970ed81b77ba00791f944ccae3aa6][=2023-05-16 19:31=]] agregar /publicar cada post de blog como status de mastodon usando =mastodon-bash-utils=/
