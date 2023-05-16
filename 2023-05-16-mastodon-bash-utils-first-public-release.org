@@ -157,7 +157,9 @@ próximo /Domingo/.
 [fn:mastodon-bash-utils]    https://gitlab.com/osiux/mastodon-bash-utils/
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5eff6c558b6d882c094da5370b7f32d17ad1a25e][=2023-05-16 19:51=]] actualizar TITLE, DESCRIPTION y tags OpenGraph en /publicar cada post de blog como status de mastodon usando =mastodon-bash-utils=/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/983c54f1862f2095f6953572733c198cc5af1fc9][=2023-05-16 19:19=]] agregar imagen y tags OpenGraph a /publicar cada post de blog como status de mastodon usando =mastodon-bash-utils=/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/21d086fe86f970ed81b77ba00791f944ccae3aa6][=2023-05-16 19:31=]] agregar /publicar cada post de blog como status de mastodon usando =mastodon-bash-utils=/
