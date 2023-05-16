@@ -7,6 +7,17 @@
 #+INCLUDE:     header.org
 #+KEYWORDS:    Bash, Blog, blog2mastodon, curl, jq, JSON, Mastodon, mastodon-bash-utils, org2mastodon, OrgMode, Post, Status, Toot
 #+DATE:        2023-04-30 08:22
+#+HTML_HEAD:   <meta property="og:title" content="publicar cada post de blog como status de mastodon" />
+#+HTML_HEAD:   <meta property="og:description" content="automatizar la publicación de status de mastodon a partir de un blog en org-mode" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-04-30" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-05-16-mastodon-bash-utils-first-public-release.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/blog2mastodon.png" />
+
+[[file:img/blog2mastodon.png][file:tmb/blog2mastodon.png]]
 
 ** Hola /Mastodon/ Chau /Pleroma/
 
