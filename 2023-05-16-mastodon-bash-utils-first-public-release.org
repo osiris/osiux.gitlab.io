@@ -1,0 +1,146 @@
+#+TITLE:       publicar cada post de blog como status de mastodon
+#+DESCRIPTION: automatizar la publicación de status de mastodon a partir de un blog en org-mode
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Bash, Blog, blog2mastodon, curl, jq, JSON, Mastodon, mastodon-bash-utils, org2mastodon, OrgMode, Post, Status, Toot
+#+DATE:        2023-04-30 08:22
+
+** Hola /Mastodon/ Chau /Pleroma/
+
+Por un par de meses tuve la cuenta del =pleroma= [fn:pleroma] de
+=cyberdelia= [fn:cyberdelia] pero esta instancia murió sin /backup/,
+aunque en mi caso no había publicado mucho que digamos...
+
+Tenía pendiente participar del =Fediverso= [fn:fediverso] en modo
+escritura y decidí retomar esta vez mediante las instancia =rebel.ar=
+[fn:rebel.ar] de =Mastodon= [fn:mastodon]
+
+Esta vez, si bien no tenía muy claro que iba a escribir, quería hacerlo
+mediante la /API/ de /Mastodon/, asi de esta manera, si se muere esta
+instancia y no logro exportar los datos antes, contaría un /backup/
+local de todo lo que publicaría, y podría republicar nuevamnete en el
+mismo orden en otra instancia e incluso tal vez hasta podría repetir la
+misma publicación en mas de una instancia.
+
+** Hola /Mastodon API/
+
+Resultó muy simple interactuar con la /Mastodon API/ [fn:mastodon-api] y
+como era de esperarse lo hice usando =curl=, =jq= y =BASH=, inicialmente
+hice pruebas en modo privado hasta que salía algo presentable.
+
+Básicamente, publicar un =toot= o =status= es pasar el contenido del
+estado en la variable =STATUS=, el idioma =STATUS_LANG=, la visiblidad
+(/public, unlisted, private, direct/), y los /IDs/ de la media que
+querés adjuntar (imágenes, videos, etc).
+
+#+BEGIN_SRC sh :session :results none :exports code
+
+curl -s -X POST "$URL_API"          \
+  -H "Accept: application/json"     \
+  -H "Authorization: Bearer $TOKEN" \
+  -F "status=$STATUS"               \
+  -F "language=$STATUS_LANG"        \
+  -F "visibility=$VISIBILITY"       \
+  -F "media_ids[]=$MEDIA_ID"        > "$JSON"
+
+#+END_SRC
+
+El resultado es un =json= con toda la metadata, con /links/ directos a
+cada /tag/, a las imágenes y mucha información relacionada.
+
+** =org2mastodon=
+
+Ahora que ya tengo un =mastodon-statuses-new= [fn:mastodon-statuses-new]
+debía pensar qué iba a publicar y como no soy muy amante del
+/micro-blogging/ simplemente porque /no tengo capacidad para resumir/,
+pensé que tal vez sería una buena idea publicar cada /post/ de mi /blog/
+en forma de /status/ de /Mastodon/.
+
+Entonces surgió =org2mastodon= [fn:org2mastodon] que recibe un archivo
+=.org=, extrae del /header/ los /tags/ =TITLE, DESCRIPTION, KEYWORDS,
+LANGUAGE= y obtiene la imagen definida en los /tags/ de =OpenGraph=
+[fn:opengraph] o la primer imagen que este en el archivo en ausencia de
+/OpenGraph/ y se ocupa de publicar un nuevo /status/ de /Mastodon/.
+
+Ya estaba muy cerca de salir a publicar a lo pavote, pero surgieron 2
+problemas a resolver:
+
+1. no todos los /posts/ tenían todos los /tags/ necesarios ni imágenes
+2. cuándo publicar? en que orden? cómo evitar duplicar /posts/?
+
+** =blog2mastodon=
+
+La solución vino de la mano de =blog2mastodon= [fn:blog2mastodon] que
+revisa mi /blog/ y compara posts publicados en /Mastodon/ con los
+pendientes de publicación, para sistematizar de alguna manera, se me
+ocurrió asignar un /Tag/ a cada día de la semana y de esta manera
+saldría un posible cronograma de publicación, en base al primer /Tag/
+definido en =KEYWORDS= de cada archivo a publicar y es el siguiente:
+
+| weekday  | 1       | 2       | 3         | 4        | 5        | 6        | 7      |
+|----------+---------+---------+-----------+----------+----------+----------+--------|
+| weekname | Monday  | Tuesday | Wednesday | Thursday | Friday   | Saturday | Sunday |
+| tag      | Ansible | Bash    | Evento    | Git      | GraphViz | SysAdmin | Blog   |
+
+Ahora =blog2mastodon= se ejecuta mediante el =cron= buscando y validando
+archivos =.org= para convertirlos a /Mastodon/ y publicarlos
+automáticamente sin mi intervención.
+
+Obviamente esto falló varias veces y al principio lo ejecutaba
+manualmente o a una hora definida en el =cron= para monitorear
+comportamiento, pero luego de unos días, comenzó a funcionar solito y
+solo.
+
+** =blog2mastodon-alert=
+
+=blog2mastodon-alert= [fn:blog2mastodon-alert] se ocupa de avisarme si
+hay algo publicable, luego de publicarlo enviándome el la /URL/ y lo más
+importante, altertándome si no hay nada para publicar con diferentes
+niveles de criticidad, entonces en el mejor de los casos solo basta que
+me ocupe de completar DESCRIPTION, KEYWORDS y verificar si cuenta con
+una imagen un /post/, realizar el /commit/ en el /repo/ de mi /blog/
+[fn:osiux-blog] y en algún momente el /crontab/ se ocupará de publicar
+por mi en /Mastodon/.
+
+Un ejemplo del /log/ que generar =blog2mastodon-alert=:
+
+#+BEGIN_EXAMPLE
+⌂ NTFY_SEND=0 blog2mastodon-alert
+No hay cambios locales para guardar
+Tu rama está actualizada con 'origin/master'.
+warning: redirigiendo a https://gitlab.com/osiux/osiux.gitlab.io.git/
+Ya está actualizado.
+2023-05-02 09:59:39 blog2mastodon-alert date=2023-05-02 weekday=2 weekname=Tuesday date_published_total=1 tag_total=5 tag_published=5 tag_unpublished=0 priority=Low tag=Bash next=null
+2023-05-02 09:59:39 blog2mastodon-alert date=2023-05-03 weekday=3 weekname=Wednesday date_published_total=0 tag_total=4 tag_published=4 tag_unpublished=0 priority=Urgent tag=Evento next=null
+2023-05-02 09:59:39 blog2mastodon-alert date=2023-05-04 weekday=4 weekname=Thursday date_published_total=0 tag_total=6 tag_published=4 tag_unpublished=2 priority=Low tag=Git next=2023-02-27-git-auto-commit-and-push-using-crontab.org
+2023-05-02 09:59:39 blog2mastodon-alert date=2023-05-05 weekday=5 weekname=Friday date_published_total=0 tag_total=3 tag_published=3 tag_unpublished=0 priority=Urgent tag=GraphViz next=null
+2023-05-02 09:59:39 blog2mastodon-alert date=2023-05-06 weekday=6 weekname=Saturday date_published_total=0 tag_total=5 tag_published=5 tag_unpublished=0 priority=Urgent tag=SysAdmin next=null
+2023-05-02 09:59:39 blog2mastodon-alert date=2023-05-07 weekday=7 weekname=Sunday date_published_total=0 tag_total=3 tag_published=3 tag_unpublished=0 priority=Urgent tag=Blog next=null
+2023-05-02 09:59:39 blog2mastodon-alert date=2023-05-08 weekday=1 weekname=Monday date_published_total=0 tag_total=5 tag_published=5 tag_unpublished=0 priority=Urgent tag=Ansible next=null
+2023-05-02 09:59:39 blog2mastodon-alert date=2023-05-09 weekday=2 weekname=Tuesday date_published_total=0 tag_total=5 tag_published=5 tag_unpublished=0 priority=Urgent tag=Bash next=null
+2023-05-02 09:59:39 blog2mastodon-alert weekday=0 total=36 published=34 unpublished=2 priority=Low tag=all next=null
+#+END_EXAMPLE
+
+** /first public release/
+
+Luego de semanas de usar =mastodon-bash-utils= [fn:mastodon-bash-utils]
+en modo /developer/ aprovecho a generar el primer /release/ público! y
+seguramente estaré compartiendo una /review/ mas detallada de cómo fue
+realizar 1 mes entero de /posts/, según el cronograma debería ser el
+próximo /Domingo/.
+
+[fn:pleroma]                https://pleroma.social/
+[fn:cyberdelia]             https://cyberdelia.com.ar/
+[fn:fediverso]              https://fediverse.info/
+[fn:mastodon]               https://joinmastodon.org/
+[fn:mastodon-api]           https://docs.joinmastodon.org/api/
+[fn:mastodon-statuses-new]  https://gitlab.com/osiux/mastodon-bash-utils/-/raw/develop/mastodon-statuses-new
+[fn:org2mastodon]           https://gitlab.com/osiux/mastodon-bash-utils/-/raw/develop/org2mastodon
+[fn:blog2mastodon]          https://gitlab.com/osiux/mastodon-bash-utils/-/raw/develop/blog2mastodon
+[fn:blog2mastodon-alert]    https://gitlab.com/osiux/mastodon-bash-utils/-/raw/develop/blog2mastodon-alert
+[fn:opengraph]              https://ogp.me/
+[fn:osiux-blog]             https://gitlab.com/osiux/osiux.gitlab.io/
+[fn:mastodon-bash-utils]    https://gitlab.com/osiux/mastodon-bash-utils/
