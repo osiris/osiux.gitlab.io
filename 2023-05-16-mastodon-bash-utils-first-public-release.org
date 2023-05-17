@@ -26,13 +26,13 @@ Por un par de meses tuve la cuenta del =pleroma= [fn:pleroma] de
 aunque en mi caso no había publicado mucho que digamos...
 
 Tenía pendiente participar del =Fediverso= [fn:fediverso] en modo
-escritura y decidí retomar esta vez mediante las instancia =rebel.ar=
+escritura y decidí retomar esta vez mediante la instancia =rebel.ar=
 [fn:rebel.ar] de =Mastodon= [fn:mastodon]
 
 Esta vez, si bien no tenía muy claro que iba a escribir, quería hacerlo
-mediante la /API/ de /Mastodon/, asi de esta manera, si se muere esta
+mediante la /API/ de /Mastodon/, así de esta manera, si se muere esta
 instancia y no logro exportar los datos antes, contaría un /backup/
-local de todo lo que publicaría, y podría republicar nuevamnete en el
+local de todo lo que publicaría, y podría republicar nuevamente en el
 mismo orden en otra instancia e incluso tal vez hasta podría repetir la
 misma publicación en mas de una instancia.
 
@@ -43,7 +43,7 @@ como era de esperarse lo hice usando =curl=, =jq= y =BASH=, inicialmente
 hice pruebas en modo privado hasta que salía algo presentable.
 
 Básicamente, publicar un =toot= o =status= es pasar el contenido del
-estado en la variable =STATUS=, el idioma =STATUS_LANG=, la visiblidad
+estado en la variable =STATUS=, el idioma =STATUS_LANG=, la visibilidad
 (/public, unlisted, private, direct/), y los /IDs/ de la media que
 querés adjuntar (imágenes, videos, etc).
 
@@ -72,15 +72,15 @@ en forma de /status/ de /Mastodon/.
 
 Entonces surgió =org2mastodon= [fn:org2mastodon] que recibe un archivo
 =.org=, extrae del /header/ los /tags/ =TITLE, DESCRIPTION, KEYWORDS,
-LANGUAGE= y obtiene la imagen definida en los /tags/ de =OpenGraph=
-[fn:opengraph] o la primer imagen que este en el archivo en ausencia de
-/OpenGraph/ y se ocupa de publicar un nuevo /status/ de /Mastodon/.
+LANGUAGE= y obtiene la primer imagen que este en el archivo o la imagen
+definida en los /tags/ de =OpenGraph= [fn:opengraph] y se ocupa de
+publicar un nuevo /status/ de /Mastodon/.
 
 Ya estaba muy cerca de salir a publicar a lo pavote, pero surgieron 2
 problemas a resolver:
 
-1. no todos los /posts/ tenían todos los /tags/ necesarios ni imágenes
-2. cuándo publicar? en que orden? cómo evitar duplicar /posts/?
+1. No todos los /posts/ tenían todos los /tags/ necesarios ni imágenes
+2. Cuándo publicar? En que orden? Cómo evitar duplicar /posts/?
 
 ** =blog2mastodon=
 
@@ -109,14 +109,14 @@ solo.
 
 =blog2mastodon-alert= [fn:blog2mastodon-alert] se ocupa de avisarme si
 hay algo publicable, luego de publicarlo enviándome el la /URL/ y lo más
-importante, altertándome si no hay nada para publicar con diferentes
-niveles de criticidad, entonces en el mejor de los casos solo basta que
-me ocupe de completar DESCRIPTION, KEYWORDS y verificar si cuenta con
-una imagen un /post/, realizar el /commit/ en el /repo/ de mi /blog/
-[fn:osiux-blog] y en algún momente el /crontab/ se ocupará de publicar
-por mi en /Mastodon/.
+importante, alertándome mediante =ntfy.sh= [fn:ntfy.sh] si no hay nada
+para publicar con diferentes niveles de criticidad, entonces en el mejor
+de los casos solo basta que me ocupe de completar DESCRIPTION, KEYWORDS
+y verificar si cuenta con una imagen un /post/, realizar el /commit/ en
+el /repo/ de mi /blog/ [fn:osiux-blog] y en algún momente el /crontab/
+se ocupará de publicar por mi en /Mastodon/.
 
-Un ejemplo del /log/ que generar =blog2mastodon-alert=:
+Un ejemplo del /log/ que genera =blog2mastodon-alert=:
 
 #+BEGIN_EXAMPLE
 ⌂ NTFY_SEND=0 blog2mastodon-alert
@@ -152,6 +152,7 @@ próximo /Domingo/.
 [fn:org2mastodon]           https://gitlab.com/osiux/mastodon-bash-utils/-/raw/develop/org2mastodon
 [fn:blog2mastodon]          https://gitlab.com/osiux/mastodon-bash-utils/-/raw/develop/blog2mastodon
 [fn:blog2mastodon-alert]    https://gitlab.com/osiux/mastodon-bash-utils/-/raw/develop/blog2mastodon-alert
+[fn:ntfy.sh]                https://ntfy.sh/
 [fn:opengraph]              https://ogp.me/
 [fn:osiux-blog]             https://gitlab.com/osiux/osiux.gitlab.io/
 [fn:mastodon-bash-utils]    https://gitlab.com/osiux/mastodon-bash-utils/
