@@ -79,6 +79,8 @@ contribuir con la comunidad de /Ansible/.
 [fn:nerdearla]           https://nerdear.la/
 [fn:filiales-gnu-linux]  file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/9e86d01c640c4093efe90a3e795c27e1e1535fce][=2023-05-17 10:09=]] reemplazar iframe por video controls para Ansible Tools Demo en Ansible Buenos Aires Meetup MAR/2023
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2d4eb6cbefa9e7db9ad10753f431d858ee75ab02][=2023-05-17 10:09=]] agregar /Ansible Buenos Aires Meetup MAR/2023/
