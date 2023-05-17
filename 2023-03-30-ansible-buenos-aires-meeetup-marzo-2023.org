@@ -44,7 +44,10 @@ unas herramientas que complementan y ayudan a diario el desarrollo de
 proyectos basados en /Ansible/ y /AWX/.
 
 #+BEGIN_EXPORT html
-<iframe width="720" height="406" src="http://filiales-gnu-linux.g.coop.ar/ansible-tools-demo.mp4" title="Demo Ansible Tools Ansible Buenos Aires Meetup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video id="video" controls width="720" height="406" autoplay loop background="#000000" preload>
+  <source src="http://filiales-gnu-linux.g.coop.ar/ansible-tools-demo.mp4" type="video/mp4">
+  <a href="http://filiales-gnu-linux.g.coop.ar/ansible-tools-demo.mp4" title="Demo Ansible Tools Ansible Buenos Aires Meetup">Download Ansible Tools Demo</a>
+</video>
 #+END_EXPORT
 
 ** Filiales GNU/Linux
