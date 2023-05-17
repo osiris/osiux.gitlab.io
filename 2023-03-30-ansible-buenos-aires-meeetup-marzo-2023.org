@@ -1,0 +1,77 @@
+#+TITLE:       Ansible Buenos Aires Meetup MAR/2023
+#+DESCRIPTION: Resumen del evento Ansible Buenos Aires Meetup realizado en RedHat Argentina en Marzo 2023
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Evento, 2023, Ansible, AWX, BA, BuenosAires, Community, DevOps, Meetup, RedHat, Tools
+#+DATE:        2023-03-30 23:59
+#+HTML_HEAD:   <meta property="og:title" content="Ansible Buenos Aires Meetup MAR/2023" />
+#+HTML_HEAD:   <meta property="og:description" content="Resumen del evento Ansible Buenos Aires Meetup realizado en RedHat Argentina en Marzo 2023" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-03-30" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-03-30-ansible-buenos-aires-meeetup-marzo-2023.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/2023-03-30-ansible-ba-meetup-community.jpg" />
+
+[[file:img/2023-03-30-ansible-ba-meetup-community.jpg][file:tmb/2023-03-30-ansible-ba-meetup-community.jpg]]
+
+Post pandemia, volvieron los eventos presenciales! y se retomó el
+=Ansible Buenos Aires Meetup= [fn:ansible-ba-meetup], como la última
+vez, se realizó nuevamente en las oficinas de =RedHat= [fn:redhat],
+gracias a la invitación de /Leonardo Gallego/, pude compartir 2 charlas
+rápidas.
+
+[[file:img/2023-03-30-ansible-ba-meetup-osiux-leo.jpg][file:tmb/2023-03-30-ansible-ba-meetup-osiux-leo.jpg]]
+
+La apertura estuvo a cargo de /Pablo Mildenberger/ y luego hubo una
+charla de /Leonardo Gallego/ sobre /Ansible y la Comunidad/, es decir,
+cómo participar, colaborar y contribuir con /Ansible/.
+
+[[file:img/2023-03-30-ansible-ba-meetup-pablo-leo.jpg][file:tmb/2023-03-30-ansible-ba-meetup-pablo-leo.jpg]]
+
+El evento contó con la participación de mas de 50 personas, las cuales
+disfrutamos de unas ricas pizzas y cervezas a la par de las novedades
+del uso de =Ansible Automation Platform= [fn:ansible-aap]
+
+** Ansible Tools
+
+Mi 1er charla rápida fue sobre las =Ansible Tools= [fn:ansible-tools],
+unas herramientas que complementan y ayudan a diario el desarrollo de
+proyectos basados en /Ansible/ y /AWX/.
+
+#+BEGIN_EXPORT html
+<iframe width="720" height="406" src="http://filiales-gnu-linux.g.coop.ar/ansible-tools-demo.mp4" title="Demo Ansible Tools Ansible Buenos Aires Meetup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
+
+** Filiales GNU/Linux
+
+Mi 2da charla rápida fue un resumen de =/"Cómo migrar 6300 equipos a
+GNU/Linux usando Ansible y AWX"/= [fn:filiales-gnu-linux], la cual
+originalmente fue dada en =Nerdearla= [fn:nerdearla], pero esta vez
+haciendo foco en /Ansible/ y /AWX/.
+
+[[file:img/2023-03-30-ansible-ba-meetup-filiales-gnu-linux.jpg][file:tmb/2023-03-30-ansible-ba-meetup-filiales-gnu-linux.jpg]]
+
+Si bien el evento no fue muy extenso, para una /meetup/ estuvo
+excelente, pudimos compartir conocimiento y experiencias, nos quedamos
+en modo /networking/ y sin dudas nos volveremos a encontrar para
+contribuir con la comunidad de /Ansible/.
+
+** Tal vez te interese leer
+
+- [[file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
+- [[file:2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.org][Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools]]
+- [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
+- [[file:2021-12-30-automated-bios-configuration-using-ansible-and-hp-linux-tools.org][Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/]]
+- [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][ansible luks format external usb disk]]
+
+[fn:ansible-ba-meetup]   https://www.meetup.com/es/Ansible-Buenos-Aires/
+[fn:redhat]              https://www.redhat.com/es
+[fn:ansible-aap]         https://www.ansible.com/products/automation-platform
+[fn:ansible-tools]       https://gitlab.com/osiux/ansible_tools/
+[fn:nerdearla]           https://nerdear.la/
+[fn:filiales-gnu-linux]  file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org
