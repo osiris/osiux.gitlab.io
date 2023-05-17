@@ -35,7 +35,7 @@
 
 (defvar site-attachments
   (regexp-opt '("jpg" "jpeg" "gif" "png" "mp4" "svg" "md" "gmi"
-                "ico" "cur" "css" "js" "woff" "html" "pdf"))
+                "ico" "cur" "css" "js" "woff" "html" "pdf" "mp4"))
   "File types that are published as static files.")
 
 (setq org-html-use-infojs nil)
