@@ -43,10 +43,11 @@ Mi 1er charla rápida fue sobre las =Ansible Tools= [fn:ansible-tools],
 unas herramientas que complementan y ayudan a diario el desarrollo de
 proyectos basados en /Ansible/ y /AWX/.
 
+Comparto un video de la /demo/ [fn:ansible-tools-demo].
+
 #+BEGIN_EXPORT html
 <video id="video" controls width="720" height="406" autoplay loop background="#000000" preload>
-  <source src="http://filiales-gnu-linux.g.coop.ar/ansible-tools-demo.mp4" type="video/mp4">
-  <a href="http://filiales-gnu-linux.g.coop.ar/ansible-tools-demo.mp4" title="Demo Ansible Tools Ansible Buenos Aires Meetup">Download Ansible Tools Demo</a>
+  <source src="videos/ansible-tools-demo.mp4" type="video/mp4">
 </video>
 #+END_EXPORT
 
@@ -76,6 +77,7 @@ contribuir con la comunidad de /Ansible/.
 [fn:redhat]              https://www.redhat.com/es
 [fn:ansible-aap]         https://www.ansible.com/products/automation-platform
 [fn:ansible-tools]       https://gitlab.com/osiux/ansible_tools/
+[fn:ansible-tools-demo]  http://filiales-gnu-linux.g.coop.ar/ansible-tools-demo.mp4
 [fn:nerdearla]           https://nerdear.la/
 [fn:filiales-gnu-linux]  file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org
 
