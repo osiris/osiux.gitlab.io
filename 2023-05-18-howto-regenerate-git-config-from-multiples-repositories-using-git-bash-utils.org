@@ -250,6 +250,8 @@ Ya está actualizado.
 [fn:gitlab-ee]       https://docs.gitlab.com/omnibus/installation/
 [fn:git-bash-utils]  https://gitlab.com/osiux/git-bash-utils/
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/06e364a32509a738182d7639c0f960e1732a5559][=2023-05-18 12:22=]] corregir formato ejemplo git-repos-sync en /Regenerar el archivo de configuración =.git/config= de un repositorio git/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f0db61e302d70123e148abbb1ce263cff13b5074][=2023-05-18 09:38=]] agregar /Regenerar el archivo de configuración =.git/config= de un repositorio git/
