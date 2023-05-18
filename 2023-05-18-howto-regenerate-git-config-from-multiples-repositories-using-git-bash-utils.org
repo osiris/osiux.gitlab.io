@@ -245,8 +245,6 @@ Ya está actualizado.
 - [[file:2021-02-05-git-repos2org.org][generar sección =git= mediante =git-repos2org=]]
 - [[file:2015-01-14-sincronizar-repositorios-git-repos.org][Sincronizar Repositorios git con git-repos]]
 
-#+END_EXAMPLE
-
 [fn:gitlab-ee]       https://docs.gitlab.com/omnibus/installation/
 [fn:git-bash-utils]  https://gitlab.com/osiux/git-bash-utils/
 
