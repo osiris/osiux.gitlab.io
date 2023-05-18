@@ -6,7 +6,7 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+KEYWORDS:    Git, BASH, Branchs, Config, GitBashUtils, GitConfig, GitLab, HowTo, Repository, SCM
-#+DATE:        2023-05-18 09:47
+#+DATE:        2023-05-18 09:37
 #+HTML_HEAD:   <meta property="og:title" content="Regenerar el archivo de configuración =.git/config= de un repositorio git" />
 #+HTML_HEAD:   <meta property="og:description" content="Cómo regenerar .git/config de 200 repositorios usando git-bash-utils" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -247,3 +247,7 @@ Ya está actualizado.
 
 [fn:gitlab-ee]       https://docs.gitlab.com/omnibus/installation/
 [fn:git-bash-utils]  https://gitlab.com/osiux/git-bash-utils/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f0db61e302d70123e148abbb1ce263cff13b5074][=2023-05-18 09:38=]] agregar /Regenerar el archivo de configuración =.git/config= de un repositorio git/
