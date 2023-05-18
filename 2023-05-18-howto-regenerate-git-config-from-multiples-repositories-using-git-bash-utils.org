@@ -1,0 +1,249 @@
+#+TITLE:       Regenerar el archivo de configuración =.git/config= de un repositorio git
+#+DESCRIPTION: Cómo regenerar .git/config de 200 repositorios usando git-bash-utils
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Git, BASH, Branchs, Config, GitBashUtils, GitConfig, GitLab, HowTo, Repository, SCM
+#+DATE:        2023-05-18 09:47
+#+HTML_HEAD:   <meta property="og:title" content="Regenerar el archivo de configuración =.git/config= de un repositorio git" />
+#+HTML_HEAD:   <meta property="og:description" content="Cómo regenerar .git/config de 200 repositorios usando git-bash-utils" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-05-18" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/git-repos-config.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/git-bash-utils/git-bash-utils-git-repos-config-git-repos-sync.png" />
+
+[[file:img/git-bash-utils/git-bash-utils-git-repos-config-git-repos-sync.png][file:tmb/git-bash-utils/git-bash-utils-git-repos-config-git-repos-sync.png]]
+
+** ouch!
+
+Estas trabajando en una migración de mas de 200 repositorios =git= y en
+las pruebas de clonar los 200 /repos/, y agregar la nueva /URL/ de la
+nueva instancia de =GitLab= [fn:gitlab-ee] por error gracias a un bonito
+/oneliner/ de =bash= terminás eliminando los =.git/config= de todos los
+/repos/! =:(=
+
+** regenerar =.git-config=
+
+Una posible solución sería volver a clonar los 200 /repos/, pero en
+busca de una alternativa, decidí regenerar los 200 archivos de
+configuración de cada /repo/ para volver al estado previo usando =bash=!
+=:)=
+
+** un /repo/ a la vez
+
+Para comenzar, hay algunas preferencias básicas que debe tener un
+=.git/config=:
+
+#+BEGIN_EXAMPLE
+
+[core]
+	bare = 0
+	filemode = true
+	logallrefupdates = 0
+	repositoryformatversion = 0
+
+#+END_EXAMPLE
+
+Y luego es necesario agregar el /remote/ =origin= con la /URL/ al
+/repo/, por ejemplo:
+
+#+BEGIN_EXAMPLE
+
+[remote "origin"]
+  url = https://gitlab.com/osiux/git-bash-utils
+	fetch = +refs/heads/*:refs/remotes/origin/*
+
+#+END_EXAMPLE
+
+Entonces, realizar esto manualmente sería muy tedioso, por ello escribí
+el /script/ =git-config-set= que se ocupa de la recrear configuración
+básica y establecer la /URL/ del /remote/ =origin=.
+
+** todos los repos todos!
+
+Y para no tener que realizar esta operación de a un repositorio
+manualmente, escribí =git-repos-config= que lee el listado de los 200
+/repos/ desde el archivo =.git-repos= y se ocupa de regenerar todos los
+archivos de configuración de manera automatizada.
+
+** sincronizar /branches/
+
+Dependiendo del /repo/ es necesario especificar la configuración de cada
+/branch/, por ejemplo:
+
+#+BEGIN_EXAMPLE
+
+[branch "master"]
+	remote = origin
+	rebase = true
+	merge = refs/heads/master
+[branch "develop"]
+	remote = origin
+	rebase = true
+	merge = refs/heads/develop
+[gitflow "branch.release/0.1.0"]
+	base = develop
+[branch "release/0.1.0"]
+	remote = origin
+	rebase = true
+	merge = refs/heads/release/0.1.0
+
+#+END_EXAMPLE
+
+Para esto, es necesario obtener todos los /branchs/ remotos, crear las
+copias locales y sincronizarlos, para esto a nivel /repo/ lo resolví con
+=git-branch-sync= y para realizarlo en todos los repositorios de manera
+automatizada generé el /script/ =git-repos-sync=
+
+** =git-bash-utils=
+
+Todos los /scripts/ utilizados están disponibles en el /repo/
+=git-bash-utils= [fn:git-bash-utils]
+
+** =git-repos-config=
+
+Copio ejemplo de configuración de 39 /repos/ para que no sea tan
+extenso:
+
+#+BEGIN_EXAMPLE
+
+GIT_HOST=git.g.coop.ar GIT_PROTO=https GIT_GROUP=osiux git-repos-config
+
+GENERATE .git/config IN /home/osiris/git/osiux/ansible_role_apt_pin
+GENERATE .git/config IN /home/osiris/git/osiux/ansible_role_freeipa_sssd_tools
+GENERATE .git/config IN /home/osiris/git/osiux/ansible_role_hp_linux_tools
+GENERATE .git/config IN /home/osiris/git/osiux/ansible_role_tower_cli
+GENERATE .git/config IN /home/osiris/git/osiux/ansible_tools
+GENERATE .git/config IN /home/osiris/git/osiux/aps2dot
+GENERATE .git/config IN /home/osiris/git/osiux/charlas
+GENERATE .git/config IN /home/osiris/git/osiux/direplos
+GENERATE .git/config IN /home/osiris/git/osiux/freeipa-sssd-tools
+GENERATE .git/config IN /home/osiris/git/osiux/frontweb
+GENERATE .git/config IN /home/osiris/git/osiux/gilabash
+GENERATE .git/config IN /home/osiris/git/osiux/git-bash-utils
+GENERATE .git/config IN /home/osiris/git/osiux/gitlab
+GENERATE .git/config IN /home/osiris/git/osiux/gitlab-bash-utils
+GENERATE .git/config IN /home/osiris/git/osiux/hacktoon-floss-vinyl
+GENERATE .git/config IN /home/osiris/git/osiux/libretA7
+GENERATE .git/config IN /home/osiris/git/osiux/links-bash-utils
+GENERATE .git/config IN /home/osiris/git/osiux/log-bash-utils
+GENERATE .git/config IN /home/osiris/git/osiux/mails2dot
+GENERATE .git/config IN /home/osiris/git/osiux/media-bash-utils
+GENERATE .git/config IN /home/osiris/git/osiux/minimal-bash-prompt
+GENERATE .git/config IN /home/osiris/git/osiux/multiboot
+GENERATE .git/config IN /home/osiris/git/osiux/multi-ssh-config
+GENERATE .git/config IN /home/osiris/git/osiux/openscad-reprap
+GENERATE .git/config IN /home/osiris/git/osiux/org-bash-utils
+GENERATE .git/config IN /home/osiris/git/osiux/org-mode-doc-es
+GENERATE .git/config IN /home/osiris/git/osiux/osiux.com
+GENERATE .git/config IN /home/osiris/git/osiux/osiux.gitlab.io
+GENERATE .git/config IN /home/osiris/git/osiux/pass-utils
+GENERATE .git/config IN /home/osiris/git/osiux/pcap2dot
+GENERATE .git/config IN /home/osiris/git/osiux/pcap2uml
+GENERATE .git/config IN /home/osiris/git/osiux/plan-b
+GENERATE .git/config IN /home/osiris/git/osiux/redmine-bash-utils
+GENERATE .git/config IN /home/osiris/git/osiux/sugar-graphviz
+GENERATE .git/config IN /home/osiris/git/osiux/test
+GENERATE .git/config IN /home/osiris/git/osiux/timeline2dot
+GENERATE .git/config IN /home/osiris/git/osiux/traducciones
+GENERATE .git/config IN /home/osiris/git/osiux/txt-bash-jrnl
+GENERATE .git/config IN /home/osiris/git/osiux/unavi
+
+#+END_EXAMPLE
+
+** =git-repos-sync=
+
+Copio ejemplo de sincronizar todos los /branchs/ de 2 /repos/
+diferentes:
+
+#+BEGIN_EXAMPLE
+
+git-repos-sync
+
+SYNCHRONIZE ALL BRANCHS IN /home/osiris/git/osiux/ansible_role_apt_pin
+Cambiado a rama 'develop'
+Tu rama está actualizada con 'origin/develop'.
+rama 'develop' configurada para rastrear 'origin/develop' por rebase.
+Ya está actualizado.
+Cambiado a rama 'master'
+Tu rama está actualizada con 'origin/master'.
+rama 'master' configurada para rastrear 'origin/master' por rebase.
+Ya está actualizado.
+SYNCHRONIZE ALL BRANCHS IN /home/osiris/git/osiux/ansible_role_freeipa_sssd_tools
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+Desempaquetando objetos: 100% (4/4), 528 bytes | 66.00 KiB/s, listo.
+Desde gitlab.com:osiux/ansible_role_freeipa_sssd_tools
+   cfd3fcd..5c9a7e9  feature/ipa-sss-log-day -> origin/feature/ipa-sss-log-day
+Cambiado a rama 'develop'
+Tu rama está actualizada con 'origin/develop'.
+rama 'develop' configurada para rastrear 'origin/develop' por rebase.
+Ya está actualizado.
+Cambiado a rama 'feature/cron-syn-to-html'
+Tu rama está actualizada con 'origin/feature/cron-syn-to-html'.
+rama 'feature/cron-syn-to-html' configurada para rastrear 'origin/feature/cron-syn-to-html' por rebase.
+Ya está actualizado.
+Cambiado a rama 'feature/ipa-api-syn'
+Tu rama está actualizada con 'origin/feature/ipa-api-syn'.
+rama 'feature/ipa-api-syn' configurada para rastrear 'origin/feature/ipa-api-syn' por rebase.
+Ya está actualizado.
+Cambiado a rama 'feature/ipa-sss-log-day'
+Tu rama está detrás de 'origin/feature/ipa-sss-log-day' por 1 commit, y puede ser avanzada rápido.
+  (usa "git pull" para actualizar tu rama local)
+rama 'feature/ipa-sss-log-day' configurada para rastrear 'origin/feature/ipa-sss-log-day' por rebase.
+Actualizando cfd3fcd..5c9a7e9
+Fast-forward
+ tests/cron.yml | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+ create mode 100644 tests/cron.yml
+Cambiado a rama 'feature/ipa-sssd-tools-backup'
+Tu rama está actualizada con 'origin/feature/ipa-sssd-tools-backup'.
+rama 'feature/ipa-sssd-tools-backup' configurada para rastrear 'origin/feature/ipa-sssd-tools-backup' por rebase.
+Ya está actualizado.
+Cambiado a rama 'feature/persistent-ramdisk'
+Tu rama está actualizada con 'origin/feature/persistent-ramdisk'.
+rama 'feature/persistent-ramdisk' configurada para rastrear 'origin/feature/persistent-ramdisk' por rebase.
+Ya está actualizado.
+Cambiado a rama 'feature/ramdisk-fstab-sssd-db'
+Tu rama está actualizada con 'origin/feature/ramdisk-fstab-sssd-db'.
+rama 'feature/ramdisk-fstab-sssd-db' configurada para rastrear 'origin/feature/ramdisk-fstab-sssd-db' por rebase.
+Ya está actualizado.
+Cambiado a rama 'feature/yum-http-proxy'
+Tu rama está actualizada con 'origin/feature/yum-http-proxy'.
+rama 'feature/yum-http-proxy' configurada para rastrear 'origin/feature/yum-http-proxy' por rebase.
+Ya está actualizado.
+Cambiado a rama 'hotfix/switch-mirrorlist2baseurl'
+Tu rama está actualizada con 'origin/hotfix/switch-mirrorlist2baseurl'.
+rama 'hotfix/switch-mirrorlist2baseurl' configurada para rastrear 'origin/hotfix/switch-mirrorlist2baseurl' por rebase.
+Ya está actualizado.
+Cambiado a rama 'master'
+Tu rama está actualizada con 'origin/master'.
+rama 'master' configurada para rastrear 'origin/master' por rebase.
+Ya está actualizado.
+Cambiado a rama 'release/0.1.0'
+Tu rama está actualizada con 'origin/release/0.1.0'.
+rama 'release/0.1.0' configurada para rastrear 'origin/release/0.1.0' por rebase.
+Ya está actualizado.
+Cambiado a rama 'release/0.5.0'
+Tu rama está actualizada con 'origin/release/0.5.0'.
+rama 'release/0.5.0' configurada para rastrear 'origin/release/0.5.0' por rebase.
+Ya está actualizado.
+...
+
+** Tal vez te interese leer
+
+- [[file:2022-11-22-howto-configure-personal-access-tokens-to-git-repositories-using-https.org][Cómo configurar tokens de acceso personal a los repositorios de Git usando HTTPS]]
+- [[file:2021-02-05-git-repos2org.org][generar sección =git= mediante =git-repos2org=]]
+- [[file:2015-01-14-sincronizar-repositorios-git-repos.org][Sincronizar Repositorios git con git-repos]]
+
+#+END_EXAMPLE
+
+[fn:gitlab-ee]       https://docs.gitlab.com/omnibus/installation/
+[fn:git-bash-utils]  https://gitlab.com/osiux/git-bash-utils/
