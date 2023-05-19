@@ -1,10 +1,11 @@
 #+TITLE:       Visualizando Grafos usando Graphviz
-#+DESCRIPTION: generación automática de grafos directamente desde una consola
+#+DESCRIPTION: generación automática de grafos directamente desde una consola usando GrahpViz
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    GraphViz, circo, Diagrama, dot, fdp, Grafo, neato, Terminal, twopi
 #+DATE:        2014-03-14 08:41
 #+HTML_HEAD:   <meta property="og:title" content="Visualizando Grafos usando Graphviz" />
 #+HTML_HEAD:   <meta property="og:description" content="generación automática de grafos directamente desde una consola" />
@@ -68,7 +69,7 @@
       }
     #+END_SRC
 
-    #+ATTR_HTML: :width 429 :height 251 :title gráficos direccionales
+    #+ATTR_HTML: :width 640 :height 412 :title GraphViz ejemplo usando dot
     [[file:img/graphviz-dot.png]]
 
 *** =neato= Gráficos no-direccionales
@@ -86,7 +87,7 @@
       }
     #+END_SRC
 
-    #+ATTR_HTML: :width 482 :height 308 :title gráficos no direccionales
+    #+ATTR_HTML: :width 640 :height 443 :title GraphViz ejemplo usando neato
     [[file:img/graphviz-neato.png]]
 
 *** =twopi= Gráficos radiales
@@ -104,7 +105,7 @@
       }
     #+END_SRC
 
-    #+ATTR_HTML: :width 419 :height 423 :title gráficos radiales
+    #+ATTR_HTML: :width 640 :height 646 :title GraphViz ejemplo usando twopi
     [[file:img/graphviz-twopi.png]]
 
 *** =fdp= Gráficos no-direccionales
@@ -122,8 +123,26 @@
       }
     #+END_SRC
 
-    #+ATTR_HTML: :width 429 :height 251 :title gráficos no direccionales
+    #+ATTR_HTML: :width 640 :height 438 :title GraphViz ejemplo usando fdp
     [[file:img/graphviz-fdp.png]]
+
+*** =sfdp= Gráficos no-direccionales
+
+    #+BEGIN_SRC dot :exports code
+      graph sfdp
+      {
+        nodo1 -- nodo2;
+        nodo2 -- nodo3;
+        nodo2 -- nodo4;
+        nodo1 -- nodo5;
+        nodo5 -- nodo6;
+        nodo5 -- nodo7;
+        nodo1 -- nodo8;
+      }
+    #+END_SRC
+
+    #+ATTR_HTML: :width 640 :height 396 :title GraphViz ejemplo usando sdfp
+    [[file:img/graphviz-sfdp.png]]
 
 *** =circo= Gráficos circulares
 
@@ -140,5 +159,13 @@
       }
     #+END_SRC
 
-    #+ATTR_HTML: :width 858 :height 778 :title gráficos circulares
+    #+ATTR_HTML: :width 640 :height 600 :title GraphViz ejemplo usnado circo
     [[file:img/graphviz-circo.png]]
+
+** Te recomiendo leer
+
+- [[file:dot.org][OSiUX GraphViz]]
+- [[file:2023-05-12-graphviz-git-flow-full-example-with-gitlab-mr.org][Graficar ejemplo completo de integrar GitFlow y GitLab MRs]]
+- [[file:2023-03-06-how-to-automate-graphviz-generate-image-from-dot-file-using-alpine-org2blog.org][How To automate GraphViz generate image from dot file using alpine-org2blog]]
+- [[file:2022-10-25-how-to-make-a-timeline-with-graphviz-using-timeline2dot.org][Cómo hacer una línea de tiempo con GraphViz]]
+- [[file:2022-10-21-use-graphviz-for-slides.org][Usar Graphviz para generar Slides]]
