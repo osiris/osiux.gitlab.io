@@ -195,3 +195,12 @@
    una sola y eligiendo la opción *retransmitir a todas* podemos
    tipear una sola vez y que ese comando vaya a todas las terminales
    conectadas! :-D
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4e88e440a5fac7b1852d3aab42a7070e657aa556][=2023-05-20 11:43=]] agregar DESCRIPTION, KEYWORDS, OpenGraph e imagen en SSH para gobernar el mundo!
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b][=2019-04-18 00:01=]] Corregir identación header #+INCLUDE:
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bbc3bbc728f2a3eeb4fe2e0a012ee5d8d613e3ef][=2015-07-03 04:31=]] @ 00:05 hs - elimino #+OPTIONS: de todos los archivos excepto header.org
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/74165280ffad770d1f8b8acbfa7f22b95459b52a][=2014-04-22 11:35=]] @ 00:34 hs - Agrego timestamp:nil
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5ad3755a3df07cdfbdc75d56cae06db2fee4b5f2][=2013-04-24 08:04=]] @ 01:50 hs - migro a org 8.0
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/652199f438b8e3b7f52720e2dc19208c9bcd7651][=2012-12-15 22:31=]] @ 04:00 hs - convert old blog in rST to org
