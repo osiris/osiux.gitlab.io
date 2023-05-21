@@ -124,3 +124,7 @@ animación para convertir en video! Comparto un =gif=
 [fn:ansible-tools]  https://gitlab.com/osiux/ansible_tools/
 [fn:hertzet]        https://github.com/hertzet
 [fn:blender]        https://www.blender.org/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/deff9a796987fad3fc5c9fb77d324243936724f9][=2023-05-21 16:28=]] agregar Dibujar logo /Ansible Tools/ en /3D/ usando /OpenSCAD/ y /Blender/
