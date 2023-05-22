@@ -82,3 +82,7 @@ Este /script/ junto a muchas otras utilidades es parte del repositorio
 [fn:awx-json-bump-version]  https://gitlab.com/osiux/ansible_tools/-/raw/develop/awx-json-bump-version
 [fn:ansible]                https://www.ansible.com/
 [fn:ansible-tools]          https://gitlab.com/osiux/ansible_tools/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/b8802d92afeafed6c11732be31061a4e69e4d955][=2023-05-22 20:12=]] agregar =awx-json-bump-version=
