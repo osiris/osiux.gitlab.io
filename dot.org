@@ -118,3 +118,10 @@ A continuación se muestran algunos grafos que realicé con /GraphViz/:
 
    [[file:img/alpine-org2blog-graphviz.png][file:tmb/alpine-org2blog-graphviz.png]]
 
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a54eaa70e255017a155b488f18d33d6b6be5bb5b][=2023-05-21 22:47=]] agregar tag en Dibujar logo /Ansible Tools/ en /3D/ usando /OpenSCAD/ y /Blender/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/b935168430c088a1ac16fb34d930c97f30d75bc5][=2023-04-27 00:44=]] agregar imagen, DESCRIPTION, KEYWORDS y opengraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/048decdcbec9157164e53bfaeef67395c0f9b1ab][=2021-02-24 01:20=]] blog refactor
