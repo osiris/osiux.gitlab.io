@@ -17,7 +17,7 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 find img -type f           \
-  | grep -E '\.(png|jpg)$' \
+  | grep -E '\.(png|gif|jpg)$' \
   | cut -d/ -f2-           \
   | while read -r IMG
 do

@@ -14,6 +14,7 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/dot.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/anrtec.png" />
 
 ** graficando grafos
 
@@ -46,10 +47,58 @@ A continuación se muestran algunos grafos que realicé con /GraphViz/:
    [[file:img/imapfilter-imap-offlineimap-maildir-mutt-smtp.png][file:tmb/imapfilter-imap-offlineimap-maildir-mutt-smtp.png]]
 
 
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/graphviz-twopi.dot][GraphViz twopi example]]
+
+
+   [[file:img/graphviz-twopi.png][file:tmb/graphviz-twopi.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/graphviz-sfdp.dot][GraphViz sfdp example]]
+
+
+   [[file:img/graphviz-sfdp.png][file:tmb/graphviz-sfdp.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/graphviz-neato.dot][GraphViz neato example]]
+
+
+   [[file:img/graphviz-neato.png][file:tmb/graphviz-neato.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/graphviz-fdp.dot][GraphViz fdp example]]
+
+
+   [[file:img/graphviz-fdp.png][file:tmb/graphviz-fdp.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/graphviz-dot.dot][GraphViz dot example]]
+
+
+   [[file:img/graphviz-dot.png][file:tmb/graphviz-dot.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/graphviz-circo.dot][GraphViz circo example]]
+
+
+   [[file:img/graphviz-circo.png][file:tmb/graphviz-circo.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/git-flow-full.dot][Git Flow Full Example with branch develop, master, support 0.1x, support 0.2.x and four tags include GitLab Pipeline Status, Ready and Approve MR for branchs feature, hotfix and release]]
+
+
+   [[file:img/git-flow-full.png][file:tmb/git-flow-full.png]]
+
+
 ** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/disk-lvm-raid.dot][LVM RAID Disk]]
 
 
    [[file:img/disk-lvm-raid.png][file:tmb/disk-lvm-raid.png]]
+
+
+** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/blog2mastodon.dot][convert post of org-mode blog to mastodon status using mastodon-bash-utils]]
+
+
+   [[file:img/blog2mastodon.png][file:tmb/blog2mastodon.png]]
 
 
 ** [[https://gitlab.com/osiux/osiux-graphviz/-/raw/develop/dot/anrtec.dot][ANRTEC]]

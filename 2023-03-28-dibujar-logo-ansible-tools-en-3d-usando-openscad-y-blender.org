@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    Ansible, 3D, AnsibleTools, Blender, Design, OpenSCAD, Tutorial
+#+KEYWORDS:    Blog, Ansible, 3D, AnsibleTools, Blender, Design, OpenSCAD, Tutorial
 #+DATE:        2023-03-28 09:57
 #+HTML_HEAD:   <meta property="og:title" content="Dibujar logo /Ansible Tools/ en /3D/ usando /OpenSCAD/ y /Blender/" />
 #+HTML_HEAD:   <meta property="og:description" content="Tutorial cómo dibujar el logo de Ansible Tools en 3D" />
