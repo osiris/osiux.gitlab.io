@@ -61,3 +61,7 @@ están disponibles en el /repo/ =bin-bash-utils= [fn:bin-bash-utils].
 [fn:regex]           https://regexr.com/
 [fn:vim]             https://www.vim.org/
 [fn:bin-bash-utils]  https://gitlab.com/osiux/bin-bash-utils/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/626361e3a3eaa82302b9c9b3fe290f32b20a7e10][=2023-05-23 23:06=]] agregar =lines2regex= vs =regex2-check=
