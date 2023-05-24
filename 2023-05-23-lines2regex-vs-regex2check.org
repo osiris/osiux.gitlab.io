@@ -17,7 +17,11 @@
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 #+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/lines2regex-vs-regex2check.png" />
 
-[[file:videos/lines2regex-vs-regex2check.mp4][file:videos/lines2regex-vs-regex2check.mp4]]
+#+BEGIN_EXPORT html
+<video id="video" controls width="720" height="406" autoplay loop background="#000000" preload>
+  <source src="videos/lines2regex-vs-regex2check.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
 
 ** =lines2regex=
 
