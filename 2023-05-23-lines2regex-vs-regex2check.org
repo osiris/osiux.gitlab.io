@@ -1,0 +1,63 @@
+#+TITLE:       =lines2regex= vs =regex2-check=
+#+DESCRIPTION: Convertir líneas en una Regex vs convertir una Regex en checkbox list
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Bash, Checkbox, Regex, Regexp, Terminal, Tools, Utils, Vim
+#+DATE:        2023-05-23 22:45
+#+HTML_HEAD:   <meta property="og:title" content="=lines2regex= vs =regex2-check=" />
+#+HTML_HEAD:   <meta property="og:description" content="Convertir líneas en una Regex vs convertir una Regex en checkbox list" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-05-23" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-05-23-lines2regex-vs-regex2check.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/lines2regex-vs-regex2check.png" />
+
+[[file:videos/lines2regex-vs-regex2check.mp4][file:videos/lines2regex-vs-regex2check.mp4]]
+
+** =lines2regex=
+
+A diario, suelo necesitar crear una =regex= [fn:regex] (/expresión
+regular/) a partir de una lista de elementos, por lo general que obtengo
+de procesar un archivo y filtrar algunas líneas, y para simplificar
+estar operatoria escribí el /script/ =lines2regex= que me devuelve una
+/regex/ =(a|b|c|d|e)= a partir de las siguientes líneas:
+
+#+BEGIN_EXAMPLE
+
+a
+b
+c
+d
+e
+
+#+END_EXAMPLE
+
+** =regex2check=
+
+De manera similar, cuando necesito convertir una /regex/ a una lista de
+/checkbox/ utilizo el /script/ =regex2check=:
+
+#+BEGIN_EXAMPLE
+
+- [X] a
+- [X] b
+- [X] c
+- [X] d
+- [X] e
+
+#+END_EXAMPLE
+
+** =vim= ready!
+
+Ambos /scripts/ soportan ser usados desde =vim= [fn:vim] seleccionando
+las líneas directamente del texto tipeado y devolviendo el resultado y
+están disponibles en el /repo/ =bin-bash-utils= [fn:bin-bash-utils].
+
+[fn:regex]           https://regexr.com/
+[fn:vim]             https://www.vim.org/
+[fn:bin-bash-utils]  https://gitlab.com/osiux/bin-bash-utils/
