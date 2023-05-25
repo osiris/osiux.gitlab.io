@@ -5,6 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Evento, Arcade, Community, PyAr, PyDay, Pytari, Python, SantaFe
 #+DATE:        2022-05-28 23:18
 #+HTML_HEAD:   <meta property="og:title" content="Pytari en PyDay Santa Fe" />
 #+HTML_HEAD:   <meta property="og:description" content="Demostración del juego SalvandoLaCena en una Pytari en PyDay Santa Fe" />
