@@ -1,0 +1,106 @@
+#+TITLE:       =git-tag-changelog=
+#+DESCRIPTION: Generar CHANGELOG.md basado en la diferencia de tags de Git
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Git, ChangeLog, Commits, Common, Conventional, Markdown, SCM, SemVer, Tags
+#+DATE:        2023-05-25 19:45
+#+HTML_HEAD:   <meta property="og:title" content="=git-tag-changelog=" />
+#+HTML_HEAD:   <meta property="og:description" content="Generar CHANGELOG.md basado en la diferencia de tags de Git" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-05-25" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-05-25-git-tag-changelog.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/git-bash-utils/git-tag-changelog.png" />
+
+[[file:img/git-bash-utils/git-tag-changelog.png][file:tmb/git-bash-utils/git-tag-changelog.png]]
+
+** llamame estructurado!
+
+Hace tiempo que escribo los mensajes de /commit/ de =git= [fn:git] de
+manera estructurada, aunque en algo se parece, no es exactamente
+=ConventionalCommits= [fn:conventional-commits], básicamnete agrego un
+prefijo al mensaje, en ocasiones es =filename:= y otras veces
+=directory/filename:=, dependiendo de la estructura del repositorio.
+
+#+BEGIN_EXAMPLE
+
+dce8a19 2023-05-25 19:55 osiris	 git-tag-changelog: remove last line if it's an empty line
+2085608 2023-05-23 17:32 osiris	 git-src-common: add reminder DON'T OVERWRITE GIT VARIABLES LIKE GIT_DIR
+9c063b9 2023-05-23 17:07 osiris	 git-repos-config: export GIT_REPO with relative directories of project to git-config-set
+2b921b9 2023-05-23 17:06 osiris	 git-repos-config: exclude commented lines from .git-repos
+43ca562 2023-05-23 17:04 osiris	 git-config-set: use GIT_REPO as repository PATH
+5b2d005 2023-05-17 09:48 osiris	 bump-version: reset PATCH when increment MAJOR
+67b39ab 2023-05-12 11:07 osiris	 git-clean-all: add script for delete untracked and ignored files and directories
+9225c58 2023-05-09 18:15 osiris	 git-repos: allow push --all and push --all --tags in git and https protocol
+527d674 2023-05-09 18:11 osiris	 git-repos-sync: synchronize all branchs from remote using .git-repos
+8c1e2e9 2023-05-09 18:08 osiris	 git-repos-config: generate basic .git/config usign .git-repos
+
+#+END_EXAMPLE
+
+** =git-commit-message=
+
+Gracias a este formato, se simplifica bastante la lectura y búsqueda de
+/commits/, además con la manía de realizar /commits atómicos/ (un cambio
+a la vez y/o un archivo a la vez) muchas veces utilizo de base el
+/subject/ previo al usar =git-commit-message= [fn:git-commit-message].
+
+** =git-tag-changelog=
+
+El /bonus/ extra es que a partir de esta simple estructura, se facilita
+enormemente el generar un =CHANGELOG= [fn:keep-a-changelog] de manera
+automatizada, gracias a =git-tag-changelog= [fn:git-tag-changelog]
+
+Si bien existe =Common Changelog= [fn:common-changelog], la salida que
+logré generar es bastante clara para la lectura, obviamente depende
+mucho de los mensajes de /commit/, para obtener un mejor resultado,
+copio parte del /ChangeLog/ de =git-bash-utils= [fn:git-bash-utils], el
+cual se puede ver completo desde el /repo/ [fn:changelog-example].
+
+#+BEGIN_EXAMPLE
+
+# [_GIT-BASH-UTILS CHANGELOG_](https://gitlab.com/osiux/git-bash-utils)
+
+ - this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html)
+
+## [`Unreleased - 2023-05-25`](https://gitlab.com/osiux/git-bash-utils/-/compare/v0.1.0...develop)
+
+### `bump-version`
+
+- reset PATCH when increment MAJOR
+- add bump-version to get the next PATCH, MINOR, or MAJOR version
+
+### `git-alias`
+
+- add alias gxp, gxi and gxj to get the next PATCH, MINOR, or MAJOR version based on last tag
+- remove functions that are commands and update aliases
+
+### `git-clean-all`
+
+- add script for delete untracked and ignored files and directories
+
+### `git-commit-message`
+
+- remove prefix from subject when file is empty
+
+#+END_EXAMPLE
+
+** Tal vez te interese leer...
+
+- [[file:2022-11-21-howto-quickly-write-git-commit-messages-using-vim.org][cómo escribir rápidamente mensajes de commit de git usando vim]]
+- [[file:2021-03-18-git-commit-timesum.org][git commit timesum]]
+- [[file:2021-02-03-git-post-commit-changelog.org][git =post-commit= /ChangeLog/]]
+- [[file:2021-02-01-git-log-org-changelog.org][generar /ChangeLog/ en =org-mode= usando =git log=]]
+
+[fn:git]                   https://git-scm.com/
+[fn:conventional-commits]  https://www.conventionalcommits.org/en/v1.0.0/
+[fn:git-commit-message]    https://gitlab.com/osiux/git-bash-utils/-/blob/develop/git-commit-message
+[fn:keep-a-changelog]      https://keepachangelog.com/en/1.1.0/
+[fn:common-changelog]      https://common-changelog.org/
+[fn:git-tag-changelog]     https://gitlab.com/osiux/git-bash-utils/-/blob/develop/git-tag-changelog
+[fn:git-bash-utils]        https://gitlab.com/osiux/git-bash-utils/
+[fn:changelog-example]     https://gitlab.com/osiux/git-bash-utils/-/blob/develop/CHANGELOG.md
