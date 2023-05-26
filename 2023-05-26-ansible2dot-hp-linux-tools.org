@@ -71,3 +71,7 @@ repositorio de las =Ansible Tools= [fn:ansible_tools].
 [fn:ansible2dot]    https://gitlab.com/osiux/ansible_tools/-/raw/develop/ansible2dot
 [fn:ansible_hplt]   https://gitlab.com/gcoop-libre/ansible_role_hp_linux_tools
 [fn:ansible_tools]  https://gitlab.com/osiux/ansible_tools/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5777c9122bcd6872d1ad851d529dc22e399572d2][=2023-05-26 18:00=]] agregar =ansible2dot= /HP Linux Tools/
