@@ -104,3 +104,7 @@ cual se puede ver completo desde el /repo/ [fn:changelog-example].
 [fn:git-tag-changelog]     https://gitlab.com/osiux/git-bash-utils/-/blob/develop/git-tag-changelog
 [fn:git-bash-utils]        https://gitlab.com/osiux/git-bash-utils/
 [fn:changelog-example]     https://gitlab.com/osiux/git-bash-utils/-/blob/develop/CHANGELOG.md
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4111e44079133f6a4aac06fc574c9d6839ffe95f][=2023-05-25 21:34=]] agregar =git-tag-changelog=
