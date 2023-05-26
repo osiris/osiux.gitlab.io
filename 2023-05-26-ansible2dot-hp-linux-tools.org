@@ -1,0 +1,73 @@
+#+TITLE:       =ansible2dot= /HP Linux Tools/
+#+DESCRIPTION: Generar diagrama de tareas de Ansible Role HP Linux Tools usando ansible2dot
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    GraphViz, Ansible, ansible2dot, AnsibleRole, Design, Diagrama, dot, GNULinux, Grafo, HP, Playbook, Tools
+#+DATE:        2023-05-26 17:53
+#+HTML_HEAD:   <meta property="og:title" content="=ansible2dot= /HP Linux Tools/" />
+#+HTML_HEAD:   <meta property="og:description" content="Generar diagrama de tareas de Ansible Role HP Linux Tools usando ansible2dot" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-05-26" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-05-26-ansible2dot-hp-linux-tools.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/ansible_role_hp_linux_tools.png" />
+
+** /GraphViz/ la primer opción
+
+Hace años que juego con =GraphViz= [fn:graphviz], resulta muy simple y
+poderoso poder automatizar la generación de gráficos grandes a partir de
+un archivo de texto plano escrito en lenguaje =dot= [fn:dot]
+
+** /Ansible vs Big Project/
+
+Al trabajar con varios /playbooks/ y /roles/ de =Ansible= [fn:ansible]
+es fácil perderse un poco en proyectos grandes, hoy estoy trabajando con
+200 repositorios =git= [fn:git] de un mismo proyecto, y para clarificar
+la dependencia entre /playbooks/ y /roles/ un gráfico ayuda mucho!
+
+** =ansible2dot=
+
+Hoy me ocupé de liberar =ansible2dot= [fn:ansible2dot], un /script/ que
+partiendo de un archivo con el listado de repositorios a graficar, se
+ocupa de entender la estructura del mismo, ya sea un /playbook/ o un
+/rol/ de /Ansible/ y escribe un archivo =.dot= con un diagrama de la
+relación entre /Roles -> Playbooks -> Tareas/.
+
+** =ansible_role_hp_linux_tools=
+
+Comparto un ejemplo de un rol que permite obtener, compilar, configurar
+e instalar /HP Linux Tools/ [fn:ansible_hplt] para la automatización de
+la configuración de /BIOS/ en los equipos /ProDesk/
+
+[[file:img/ansible_role_hp_linux_tools.png][file:tmb/ansible_role_hp_linux_tools.png]]
+
+** /WiP/
+
+En futuras versiones, iré mejorando el código para que en gráficos muy
+grandes, sea un poco mas legible la salida, corregir la alineación de
+nodos, refinar la combinación de colores utilizados y generalizar el
+/script/ para que sea más adaptable.
+
+Desde ahora =ansible2dot= esta disponible, para su descarga en el
+repositorio de las =Ansible Tools= [fn:ansible_tools].
+
+** Tal vez te interese leer...
+
+- [[file:2023-03-06-how-to-automate-graphviz-generate-image-from-dot-file-using-alpine-org2blog.org][How To automate GraphViz generate image from dot file using alpine-org2blog]]
+- [[file:2022-10-25-how-to-make-a-timeline-with-graphviz-using-timeline2dot.org][Cómo hacer una línea de tiempo con GraphViz]]
+- [[file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
+- [[file:2021-12-30-automated-bios-configuration-using-ansible-and-hp-linux-tools.org][Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/]]
+- [[file:2021-09-27-hp-prodesk-400-g5-desktop-mini-bios-disable-aspm-from-linux-command-line.org][Deshabilitar /ASPM/ en /BIOS/ /ProDesk 400 G5 Desktop Mini/ desde /GNU/Linux/ utilizando =hp-repsetup=]]
+
+[fn:graphviz]       https://graphviz.org/
+[fn:dot]            https://www.graphviz.org/doc/info/lang.html
+[fn:ansible]        https://www.ansible.com/
+[fn:git]            https://git-scm.com/
+[fn:ansible2dot]    https://gitlab.com/osiux/ansible_tools/-/raw/develop/ansible2dot
+[fn:ansible_hplt]   https://gitlab.com/gcoop-libre/ansible_role_hp_linux_tools
+[fn:ansible_tools]  https://gitlab.com/osiux/ansible_tools/
