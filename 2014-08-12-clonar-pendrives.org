@@ -1,11 +1,14 @@
 #+TITLE:       Clonar 24 pendrives al mismo tiempo
+#+DESCRIPTION: Clonar 24 pendrives al mismo tiempo utilizando 24 routerts TP-Link MR3020
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    SysAdmin, Clonar, MR3020, OpenWrt, ParallelSSH, Pendrive, SSH, TPLink, USB, WiFi
 #+DATE:        2014-08-12 18:33
 #+HTML_HEAD:   <meta property="og:title" content="Clonar 24 pendrives al mismo tiempo" />
+#+HTML_HEAD:   <meta property="og:description" content="Clonar 24 pendrives al mismo tiempo utilizando 24 routerts TP-Link MR3020" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2014-08-12" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
@@ -20,34 +23,34 @@
 
 Luego de reemplazar el /firmware/ original de /TPLink/ por
 /OpenWRT/ [fn:openwrt] a 24 Routers MR-3020 [fn:mr3020] para el
-proyecto *Letras Viajeras* [fn:lviajeras], necesitabamos clonar 24
-pendrives con exactamente lo mismo y no queríamos hacerlo de a uno.
+proyecto *Letras Viajeras* [fn:lviajeras], necesitábamos clonar 24
+/pendrives/ con exactamente lo mismo y no queríamos hacerlo de a uno.
 
-** Cómo clonar un pendrive a muchos pendrives
+** Cómo clonar un /pendrive/ a muchos /pendrives/
 
    Buscando un poco por la web, encontramos varias opciones, entre ellas:
 
-   1. iniciar una máquina con /CloneZilla/ [fn:clonezilla] que tiene
+   1. Iniciar una máquina con /CloneZilla/ [fn:clonezilla] que tiene
       una utilidad para clonar /USB/.
-   2. usar =dd= y =tee= con varios /pendrives/ conectados a la misma
+   2. Usar =dd= y =tee= con varios /pendrives/ conectados a la misma
       máquina.
-   3. usar =dd=, =tee= y =netcat= con varios /pendrives/ en varias
+   3. Usar =dd=, =tee= y =netcat= con varios /pendrives/ en varias
       máquinas.
-   4. crear un =.torrent= con el contenido, y descargar el /torrent/
+   4. Crear un =.torrent= con el contenido, y descargar el /torrent/
       directamente en cada /pendrive/ conectado a un /router/.
-   5. que cada router descargue el contenido directamente en el /USB/
+   5. Que cada /router/ descargue el contenido directamente en el /USB/
       usando =wget= y =tar= desde un =parallel-ssh= [fn:pssh]
 
-*** 1. CloneZilla
+*** 1. /CloneZilla/
 
-    No lo probamos porque no queríamos reiniciar :-P
+    No lo probamos porque no queríamos reiniciar =:-P=
 
 *** 2. =dd= + =tee=
 
-    Un hack [fn:ddtee] de la vieja escuela, haciendo uso de =dd= y
+    Un /hack/ [fn:ddtee] de la vieja escuela, haciendo uso de =dd= y
     =tee= se puede de una manera muy simple clonar en varios
     dispositivos al mismo tiempo, la desventaja es que por lo general
-    los distintos puertos USB comparten el mismo BUS y por ello puede
+    los distintos puertos /USB/ comparten el mismo BUS y por ello puede
     ser más lento copiar más de 1 a la vez, pero bueno, sirve para un
     proceso desatendido.
 
@@ -57,12 +60,12 @@ pendrives con exactamente lo mismo y no queríamos hacerlo de a uno.
        ls / | pv | tee >(dd of=a) >(dd of=b) | (dd of=c)
     #+END_EXAMPLE
 
-    - =ls /= listamos el contenido de la raiz
+		- =ls /= listamos el contenido de la raíz
 
     - =| pv= agregamos un /pipe view/ para tener un indicador de
       progreso
 
-    - =| tee= esto nos permite redireccionar a la salida estandar y al
+    - =| tee= esto nos permite redireccionar a la salida estándar y al
       mismo tiempo enviar la salida a un archivo.
 
     - =>(dd of=a)= enviamos la salida al archivo =a=
@@ -105,7 +108,7 @@ pendrives con exactamente lo mismo y no queríamos hacerlo de a uno.
       0f422c457d50131124ba323a23f76f7e  c
     #+END_EXAMPLE
 
-    Luego generamos un pendrive con el contenido a copiar, en nuestro
+    Luego generamos un /pendrive/ con el contenido a copiar, en nuestro
     caso, el mismo ocupa solo 1.4G de los 7.4 disponibles:
 
     #+BEGIN_EXAMPLE
@@ -124,8 +127,8 @@ pendrives con exactamente lo mismo y no queríamos hacerlo de a uno.
       B=$(fdisk -l /dev/sdc | grep sdc | head -1 | awk '{print $5}')
     #+END_EXAMPLE
 
-    Entonces leemos el contenido del pendrive y creamos una imagen en
-    disco, desde la cual copiaremos el resto de los pendrives.
+    Entonces leemos el contenido del /pendrive/ y creamos una imagen en
+    disco, desde la cual copiaremos el resto de los /pendrives/.
 
     #+BEGIN_EXAMPLE
       dd if=/dev/sdc bs=1M | pv -s $B | dd of=pendrive.raw
@@ -149,8 +152,8 @@ pendrives con exactamente lo mismo y no queríamos hacerlo de a uno.
       time dd if=pendrive.raw | tee >(dd of=/dev/sdc) | (dd of=/dev/sdd)
     #+END_EXAMPLE
 
-    El resultado, no fue favorable en termimos de tiempos, 38 minutos
-    para clonar 2 pendrives! Esto varía de máquina en máquina, es
+    El resultado, no fue favorable en términos de tiempos, 38 minutos
+    para clonar 2 /pendrives/! Esto varía de máquina en máquina, es
     cuestión de probar con diferentes puertos y usando un /hub USB/
     (algo que no hicimos).
 
@@ -175,7 +178,7 @@ pendrives con exactamente lo mismo y no queríamos hacerlo de a uno.
 *** 3. =dd= + =tee= + =netcat=
 
     Esta opción sonaba muy interesante, porque podíamos usar varias
-    máquinas y podríamos clonar todos los pendrives al mismo tiempo,
+    máquinas y podríamos clonar todos los /pendrives/ al mismo tiempo,
     pero al ser en cascada, en cada /host/ había que especificar la
     /IP/ del siguiente y eso involucraba realizar un paso manual en
     cada compu.
@@ -183,44 +186,44 @@ pendrives con exactamente lo mismo y no queríamos hacerlo de a uno.
     La ventaja de este método es que se reduce el cuello de botella de
     utilizar un mismo /BUS/ /USB/.
 
-*** 4. crear un =.torrent= y distribuirlo
+*** 4. Crear un =.torrent= y distribuirlo
 
-    Esto motivó realmente conectar todos los pendrives al mismo
+    Esto motivó realmente conectar todos los /pendrives/ al mismo
     tiempo, y ahí el surgieron 2 temas, el primero la alimentación de
     energía, intentamos comprar zapatillas (adaptador de múltiples
-    tomacorrientes), pero los transformadores del MR3020 tienen una
+    tomacorrientes), pero los transformadores del /MR3020/ tienen una
     disposición que impiden enchufar un toma al lado de otro, por
     tener las patas en sentido horizontal. En una zapatilla de 8
     tomas, sólo entraban 4, y en otra de 5 sólo se aprovechaban 2
     tomas, ya que el cable /USB/ también molestaba.
     
-    Optamos por conectar el resto de los routers a 1 /hub USB/ de 10
-    puertos y otros a varias notebooks, todos conectados a la /LAN/,
+    Optamos por conectar el resto de los /routers/ a 1 /hub USB/ de 10
+    puertos y otros a varias /notebooks/, todos conectados a la /LAN/,
     adicionando 2 /switchs/ de 8 puertos cada uno.
 
     Ahora bien, como el contenido podría sufrir varias modificaciones,
     habría que regenerar un =.torrent= por cada cambio, y además
     instalar un cliente como =rtorrent= pero decidimos, no tocar la
-    imagen de /OpenWRT/ ya que el MR3020 tiene poco espacio.
+    imagen de /OpenWRT/ ya que el /MR3020/ tiene poco espacio.
 
-    Asi que queda pendiente realizar esta prueba, seguramente la
+    Así que queda pendiente realizar esta prueba, seguramente la
     ventaja estaría en que cada /router/ podría leer los datos de
     otros /routers/ al mismo tiempo por compartir el mismo /torrent/.
 
 *** 5. =wget= + =tar= + =parallel-ssh=
 
     Aprovechando que =wget= y =tar= vienen en /OpenWRT/, realizamos un
-    /script/ para que realize el /deploy/ en cada /router/. Para esto
+    /script/ para que realice el /deploy/ en cada /router/. Para esto
     utilizamos /parallel-ssh/ que facilita enormemente la
     administración de todos los /routers/ al mismo tiempo, incluso
     permite aplicar cambios parciales, detectando los /routers/ que
     fallan ya sea por estar desconectados o con algún error en
-    particular (algunos no levantaban el pendrive correctamente).
+    particular (algunos no levantaban el /pendrive/ correctamente).
 
     Lo primero es crear un archivo con el listado de /hostnames/, en
     este caso ya nos habíamos asegurado de que cada /router/ tenga un
     /hostname/ distinto basado en su /macaddress/ mediante un
-    script [fn:autoconfig]. Capturamos los /hostnames/ desde el
+    /script/ [fn:autoconfig]. Capturamos los /hostnames/ desde el
     servidor /DHCP/ a un archivo =~/.ssh/letras=:
 
     #+BEGIN_EXAMPLE
@@ -264,7 +267,7 @@ pendrives con exactamente lo mismo y no queríamos hacerlo de a uno.
     archivo =deploy.sh= y luego se ejecuta, este /script/ luego se
     encarga de hacer unas mínimas comprobaciones necesarias, como
     verificar que esté correctamente montando en modo escritura el
-    pendrive, descargar el =.tar.gz=, verificar el /MD5/ de los
+    /pendrive/, descargar el =.tar.gz=, verificar el /MD5/ de los
     archivos testigo, capturar algunos errores y en caso de estar
     corriendo =wget= o =tar=, no ejecutarse nuevamente.
 
@@ -276,7 +279,7 @@ pendrives con exactamente lo mismo y no queríamos hacerlo de a uno.
 
     Y si monitoreamos el tráfico de red, podemos apreciar que todos
     los /routers/ descargan al mismo tiempo el contenido a copiar en
-    cada pendrive, cada conexión descarga entre =6Mb= y =13Mb=, es un
+    cada /pendrive/, cada conexión descarga entre =6Mb= y =13Mb=, es un
     cuello de botella el ancho de banda, pero por muy poco tiempo y
     teniendo una /LAN/ de =1Gbit= no debería haber problemas:
 
