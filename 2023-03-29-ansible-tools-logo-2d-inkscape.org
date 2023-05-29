@@ -1,0 +1,107 @@
+#+TITLE:       Ansible Tools Logo 2D Inkscape
+#+DESCRIPTION: Dibujar en Inkscape el logo Ansible Tools 2D para generar Slides y Remera
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Inkscape, 2D, Design, Ansible, AnsibleTools
+#+DATE:        2023-05-21 16:39
+#+HTML_HEAD:   <meta property="og:title" content="Ansible Tools Logo 2D Inkscape" />
+#+HTML_HEAD:   <meta property="og:description" content="Dibujar en Inkscape el logo Ansible Tools 2D para generar Slides y Remera" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-05-21" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-03-29-ansible-tools-logo-2d-inkscape.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/ansible-tools/ansible-tools-logo-2d-inkscape.png" />
+
+[[file:img/ansible-tools/ansible-tools-logo-2d-inkscape.png][file:tmb/ansible-tools/ansible-tools-logo-2d-inkscape.png]]
+
+** /2D/ es mas simple que /3D/
+
+Inicialmente intenté con /GraphViz/ y se complicó, luego tuve éxito
+parcial con =OpenSCAD= [fn:openscad] y mientras /Hertzet/ [fn:hertzet]
+se ocupaba de la versión /3D/ de =Ansible Tools= [fn:ansible-tools] en
+=Blender= [fn:blender], se me ocurrió dibujar todo desde cero en
+=Inkscape= [fn:inkscape], porque en /2D/ sería mucho mas simple.
+
+** en /Inkscape/ todo es mas fácil!
+
+Efectivamente fue muy simple, aunque debo aclarar que trabajé varios
+años en una gráfica y si bien no usaba /Inkscape/, algo de experiencia
+de trabajar con vectores tenía, un poco oxidado, pero en fin, el diseño
+es una tarea divertida y más en este caso que la figura era muy
+geométrica.
+
+** módulo repetible
+
+De manera similar al comienzo de /OpenSCAD/, inicié dibujando el modulo
+que se repite, con círculos y un par de rectángulos, en minutos ya los
+había combinado y fusionado en un solo objeto, ahora solo faltaba
+duplicar y rotar.
+
+** duplicar y rotar
+
+En /Inkscape/, no sería muy preciso definir el origen de rotación, pero
+valiéndome de la grilla y con la ayuda de las líneas guías es muy simple
+usar otro círculo como centro de rotación, agrupando a este con el
+modulo, duplicando y rotando, para luego des-agrupar, combinar y
+fusionar todas las repeticiones en un solo objeto.
+
+Agregar los círculos concéntricos no costó nada e importar el /SVG/
+oficial de /Ansible/ [fn:ansible-logo], con la /"A"/ dio gran
+satisfacción.
+
+** salen /Slides/!
+
+Para aprovechar que tenía el isotipo terminado, decidí usarlo
+principalmente para generar los /slides/ de la charla /Ansible Tools/ en
+el =Ansible BA Meetup Marzo 2023= [fn:ansible-ba-meetup-2023-03] y
+terminé armando un fondo azul con una cuadrícula a inspirándome en las
+viejas copias de planos también conocidas como /"BluePrint"/
+
+[[file:img/ansible-tools/ansible-tools-ansible-ba-meetup-marzo-2023.png][file:tmb/ansible-tools/ansible-tools-ansible-ba-meetup-marzo-2023.png]]
+
+** Secuencia paso a paso!
+
+Así que me puse medio /"manija"/ y terminé armando una secuencia del
+paso a paso en /2D/ de cómo dibujar el isotipo de /Ansible Tools/ como
+portada inicial de los futuros /slides/, los cuales terminaron siendo un
+video a usando =imagemagick= [fn:imagemagick].
+
+#+BEGIN_EXPORT html
+<video id="video" controls width="720" height="406" autoplay loop background="#000000" preload>
+  <source src="videos/ansible-tools-logo-2d-inkscape.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+** Bonus Extra = Remera!
+
+Al ser vectorial el isotipo de /Ansible Tools/ es muy fácil hacer una
+remera, solo basta exportarlo a /PDF/ y en una gráfica lo /plotean/ en
+vinilo estampable en cuestión de minutos! y de esta manera pude estrenar
+mi remera de /Ansible Tools/ en el /Ansible BA Meetup/ junto a /Leonardo
+Gallego/ quien me invitó a contar la experiencia de =gcoop= [fn:gcoop]
+en el /meetup/.
+
+[[file:img/2023-03-30-ansible-ba-meetup-osiux-leo.jpg][file:tmb/2023-03-30-ansible-ba-meetup-osiux-leo.jpg]]
+
+** Tal vez te interese leer...
+
+- [[file:2023-03-30-ansible-buenos-aires-meeetup-marzo-2023.org][Ansible Buenos Aires Meetup MAR/2023]]
+- [[file:2023-03-28-dibujar-logo-ansible-tools-en-3d-usando-openscad-y-blender.org][Dibujar logo /Ansible Tools/ en /3D/ usando /OpenSCAD/ y /Blender/]]
+- [[file:2022-10-21-use-graphviz-for-slides.org][Usar Graphviz para generar Slides]]
+- [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
+- [[file:imagenes-magicas-imagemagick.org][imágenes mágicas | imagemagick]]
+
+[fn:ansible-logo]               https://www.ansible.com/logos
+[fn:ansible-tools]              https://gitlab.com/osiux/ansible-tools/
+[fn:hertzet]                    https://github.com/hertzet
+[fn:gcoop]                      https://www.gcoop.coop/
+[fn:blender]                    https://www.blender.org
+[fn:openscad]                   https://openscad.org/
+[fn:inkscape]                   https://inkscape.org/
+[fn:imagemagick]                https://imagemagick.org/
+[fn:ansible-ba-meetup-2023-03]  file:2023-03-30-ansible-buenos-aires-meeetup-marzo-2023.org
