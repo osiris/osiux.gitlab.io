@@ -105,3 +105,7 @@ en el /meetup/.
 [fn:inkscape]                   https://inkscape.org/
 [fn:imagemagick]                https://imagemagick.org/
 [fn:ansible-ba-meetup-2023-03]  file:2023-03-30-ansible-buenos-aires-meeetup-marzo-2023.org
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/de0aa6411135d203da8c26e51bb16fe765dd942a][=2023-05-28 22:05=]] agregrar /Ansible Tools Logo 2D Inkscape/
