@@ -10,7 +10,7 @@ JRN_URL   ?= https://gitlab.com/osiux/txt-bash-jrnl/-/raw/develop
 ORG2MD    ?= $$(command -v org2md)
 ORG2GMI   ?= $$(command -v org2gmi)
 
-all: requirements blog stats_posts stats_since_until index years links dot image markdown gemini publish sitemap htaccess tar_gz
+all: requirements blog stats_posts stats_since_until index years links dot image ansible markdown gemini publish sitemap htaccess tar_gz
 
 clean:
 	git clean -fx
@@ -54,6 +54,9 @@ links:
 
 dot:
 	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(DOT_URL)/$(DOT_TGZ))" = 200 ]] && curl $(DOT_URL)/$(DOT_TGZ) > $(DOT_TGZ) && tar xvf $(DOT_TGZ) && rm -f $(DOT_TGZ)
+
+ansible:
+	./tag2org.sh ansible > ansible.org
 
 gemini:
 	export PATH="$$HOME/bin:$$PATH";for i in *.org;do org2gmi "$$i";done
