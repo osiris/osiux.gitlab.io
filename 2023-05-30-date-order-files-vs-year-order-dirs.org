@@ -149,3 +149,7 @@ Los /scripts/ estan en el /repo/ =bin-bash-utils= [fn:bin-bash-utils].
 [fn:bin-bash-utils]    https://gitlab.com/osiux/bin-bash-utils.git
 [fn:date-order-files]  https://gitlab.com/osiux/bin-bash-utils/-/raw/develop/date-order-files
 [fn:year-order-dirs]   https://gitlab.com/osiux/bin-bash-utils/-/raw/develop/year-order-dirs
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/496098dc9b2838096770d4072629e97f7c22839e][=2023-05-30 23:33=]] agregar =date-order-files= vs =year-order-dirs=
