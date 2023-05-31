@@ -1,0 +1,146 @@
+#+TITLE:       Ansible Automates Buenos Aires 2023
+#+DESCRIPTION: Resumen del evento Ansible Automates Buenos Aires 2023
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Evento, Ansible, Automates, BuenosAires, Automatización, DevOps, RedHat, Intel
+#+DATE:        2023-04-27 15:44
+#+HTML_HEAD:   <meta property="og:title" content="Ansible Automates Buenos Aires 2023" />
+#+HTML_HEAD:   <meta property="og:description" content="Resumen del evento Ansible Automates Buenos Aires 2023" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-04-27" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-04-27-ansible-automates-buenos-aires-2023.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/ansible-automates-2023/2023-04-27-ansible-automates-2023-auditorio.jpg" />
+
+#+ATTR_HTML: :title Auditorio del evento Ansible Automates 2023 Buenos Aires con 3 pantalles con logo Ansible y siluetas de asistentes
+[[file:img/ansible-automates-2023/2023-04-27-ansible-automates-2023-auditorio.jpg][file:tmb/ansible-automates-2023/2023-04-27-ansible-automates-2023-auditorio.jpg]]
+
+** /Ansible + Intel/
+
+El Jueves 27/ABR, se realizó el evento =Ansible Automates Buenos Aires
+2023=, organizado por =RedHat= [fn:redhat] e =Intel= [fn:intel], pude
+asistir y encontrarme con =SysAdmins= y entusiastas de =Ansible=.
+
+Luego de un rico desayuno continental, comenzaron las charlas, en un
+auditorio repleto con grandes pantallas, se dieron a conocer varias
+presentaciones y algunos /spoilers/ (=Wisdom= [fn:ansible-wisdom]) de
+futuros anuncios del /AnsibleFest/ [fn:ansible-fest].
+
+#+ATTR_HTML: :title Javier Yamamoto y Roberto Calva García exponiendo la charla Automatización de la Operación de TI de forma eficiente con AAP en Ansible Automates 2023 Buenos Aires
+[[file:img/ansible-automates-2023/2023-04-27-ansible-automates-2023-jyamamoto-rcgarcia.jpg][file:tmb/ansible-automates-2023/2023-04-27-ansible-automates-2023-jyamamoto-rcgarcia.jpg]]
+
+#+ATTR_HTML: :title Leonardo Gallego exponiendo la charla Enterprise automation powered by the community en Ansible Automates 2023 Buenos Aires
+[[file:img/ansible-automates-2023/2023-04-27-ansible-automates-2023-lgallego.jpg][file:tmb/ansible-automates-2023/2023-04-27-ansible-automates-2023-lgallego.jpg]]
+
+** Punteo de Frases
+
+Se mostraron varios casos de éxito y /tracks/ variados, de los cuales
+rescato algunas frases:
+
+#+BEGIN_QUOTE
+La tarea manual se va a realizar de maneras diferentes y la automatizada
+siempre va a ser predecible.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Incrementar velocidad y eficiencia!
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Procesos Complejos No Documentados!
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Automatizar, es conocer el detalle Procesos Complejos No Documentados.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Al cambiar la persona, puede cambiar el método y éste puede no estar
+alineado con la organización y con alta rotación de personal, nos quita
+tiempo vs inteligencia aplicada en la automatización.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Perder el hilo de lo que estabas haciendo manualmente por una
+interrupción o reunión genera inconsistencia vs proceso de desarrollo
+auditado y verificable usando una única herramienta y un lenguaje común.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Seguridad inherente al implementar y operar nuevos servidores y
+servicios.
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Pasamos de 30 issues de monitoreo manual de logs a 300 issues usando EDA
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Trazabilidad = qué, quién y cuando se ejecutó
+#+END_QUOTE
+
+#+BEGIN_QUOTE
+Automatizar no es saber de Python o Ansible, es conocer todos los
+procesos y tareas.
+#+END_QUOTE
+
+** /Networking/
+
+Obviamente, hubo /coffee-break/ y un delicioso almuerzo acompañando el
+/networking/ de expositores y colegas con quienes pudimos compartir
+conocimiento y un grato momento, mas allá de los tecnicismos.
+
+#+ATTR_HTML: :title Networking SysAdmins Coffee Break Ansible Automates 2023 Buenos Aires
+[[file:img/ansible-automates-2023/2023-04-27-ansible-automates-2023-sysadmins.jpg][file:tmb/ansible-automates-2023/2023-04-27-ansible-automates-2023-sysadmins.jpg]]
+
+** /Mesh/ vs /EDA/
+
+/Ansible/ es una herramienta que abarca un extenso y amplio rango de
+diversas posibilidades y por este motivo, siempre hay algo nuevo por
+descubrir y aprender!
+
+Me llamaron la atención 2 novedades (al menos para mí):
+
+=Mesh= [fn:ansible-mesh] =Ansible Automation Platform= [fn:ansible-aap]
+para contar con redundancia de conectividad y lograr un /deploy/ exitoso
+aunque algunos enlaces se caigan.
+
+#+ATTR_HTML: :title Escenario de falla de conectividad entre Mendoza y Bahía Blanca usando Mesh de AAP en Ansible Automates 2023 Buenos Aires
+[[file:img/ansible-automates-2023/2023-04-27-ansible-automates-2023-aap-mesh.jpg][file:tmb/ansible-automates-2023/2023-04-27-ansible-automates-2023-aap-mesh.jpg]]
+
+=EDA (Event-Driven Ansible)= [fn:ansible-eda] que permite automatizar la
+ejecución de /Job Templates/ basados en eventos mediante la observación
+del entorno, si un servicio esta caído, éste se levanta sin intervención
+manual.
+
+#+ATTR_HTML: :title Demostración de EDA asegurando que nginx levante una imagen ASCII-Art de Lio Messi en Ansible Automates 2023 Buenos Aires
+[[file:img/ansible-automates-2023/2023-04-27-ansible-automates-2023-eda-messi.jpg][file:tmb/ansible-automates-2023/2023-04-27-ansible-automates-2023-eda-messi.jpg]]
+
+** Me quedo corto!
+
+Fue una demostración/capacitación tras otra de manera intensiva, hay
+mucho que no llegué a registrar, hay mucho más por aprender y disfrutar
+de /Ansible/, hasta el próximo evento de mi lado intentaré testear
+alguna de las novedades.
+
+** Otros /posts/ para leer...
+
+- [[file:2023-05-26-ansible2dot-hp-linux-tools.org][=ansible2dot= /HP Linux Tools/]]
+- [[file:2023-03-30-ansible-buenos-aires-meeetup-marzo-2023.org][Ansible Buenos Aires Meetup MAR/2023]]
+- [[file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
+- [[file:2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.org][Automatizar la implementación de los recursos de AWX con GitLab CI/CD y Ansible Tools]]
+- [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
+- [[file:2021-12-30-automated-bios-configuration-using-ansible-and-hp-linux-tools.org][Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/]]
+
+[fn:redhat]          https://www.redhat.com/es
+[fn:intel]           https://www.intel.la/
+[fn:ansible-wisdom]  https://www.ansible.com/blog/ansible-wisdom-and-chatgpt-putting-it-to-the-test
+[fn:ansible-fest]    https://www.redhat.com/en/summit/ansiblefest
+[fn:ansible-mesh]    https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2.1-automation-mesh
+[fn:ansible-aap]     https://www.ansible.com/products/automation-platform
+[fn:ansible-eda]     https://www.ansible.com/blog/getting-started-with-event-driven-ansible
