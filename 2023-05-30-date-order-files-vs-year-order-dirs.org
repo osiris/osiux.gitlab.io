@@ -1,0 +1,151 @@
+#+TITLE:       =date-order-files= vs =year-order-dirs=
+#+DESCRIPTION: Ordenar archivos y directorios por fecha usando year-order-dirs y date-order-files
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Bash, ByDate, Chronological, Consola, Date, Dirs, Files, GNULinux, Order, Shell, Sort, Terminal, tty
+#+DATE:        2023-05-30 20:04
+#+HTML_HEAD:   <meta property="og:title" content="=date-order-files= vs =year-order-dirs=" />
+#+HTML_HEAD:   <meta property="og:description" content="ordenar archivos y directorios por fecha usando date-order-files y year-order-dirs" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-05-30" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/date-order-files-vs-year-order-dirs.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/ranger-date-order-files-vs-year-order-dirs.png" />
+
+[[file:img/ranger-date-order-files-vs-year-order-dirs.png][file:tmb/ranger-date-order-files-vs-year-order-dirs.png]]
+
+** /amo el orden pero soy un caos!/
+
+Trabajo en una /terminal/, /tty/, /consola/ o como prefieras nombrar al
+/shell/, en mi caso uso =BASH= y cuando estoy en entorno =X= uso
+=awesome= [fn:awesome] asi que no cuento con un escritorio con íconos a
+organizar, pero en la oscuridad de la terminal puede que los archivos
+estén un tanto desordenados!
+
+** =YYYY-MM-DD=
+
+Gracias al formato /ISO 8601/ [fn:iso8601], por lo general la mayoría de
+los archivos los guardo en con prefijo =YYYY-MM-DD= entonces, con solo
+listarlos ya estaría ordenados! y sería muy fácil filtrar usando =grep=,
+por ejemplo, para ver los archivos de hoy se podría ejecutar:
+
+#+BEGIN_EXAMPLE
+
+ls | grep $(date +%F)
+
+#+END_EXAMPLE
+
+...y si quisieramos los archivos de ayer?:
+
+#+BEGIN_EXAMPLE
+
+ls | grep $(date +%F -d yesterday)
+
+#+END_EXAMPLE
+
+** /too many files.../
+
+Pero si hay cientos o miles de archivos en un directorio, termina
+resultando un poco molesto de todas maneras, por ejemplo en el
+directorio donde guardo los /screenshots/ un posible estado sería el
+siguiente:
+
+#+BEGIN_EXAMPLE
+
+# ls
+
+2023-05-10-103126.png
+2023-05-10-103557.png
+2023-05-10-104023.png
+2023-05-10-104027.png
+2023-05-10-111012.png
+2023-05-10-112947.png
+2023-05-10-113858.png
+2023-05-10-113934.png
+2023-05-10-115924.png
+2023-05-10-120143.png
+2023-05-10-120537.png
+2023-05-17-175542.png
+2023-05-17-180737.png
+2023-05-18-115418.png
+2023-05-18-115840.png
+2023-05-18-131556.png
+2023-05-20-104557.png
+2023-05-23-234549.png
+2023-05-24-144143.png
+2023-05-25-001043.png
+
+#+END_EXAMPLE
+
+** =date-order-files=
+
+Basta ejecutar =date-order-files= [fn:date-order-files] para que se
+creen directorios con formato =YYYY-MM-DD= y todos los archivos
+coincidentes se auto-ordenen:
+
+#+BEGIN_EXAMPLE
+
+# date-order-files
+
+# ls -1
+
+2021/
+2022/
+2023/
+2023-04-30/
+2023-05-03/
+2023-05-04/
+2023-05-05/
+2023-05-08/
+2023-05-09/
+2023-05-10/
+2023-05-11/
+2023-05-12/
+2023-05-15/
+2023-05-16/
+2023-05-17/
+2023-05-18/
+2023-05-19/
+2023-05-20/
+2023-05-22/
+2023-05-23/
+2023-05-24/
+2023-05-25/
+2023-05-29/
+
+#+END_EXAMPLE
+
+** =year-order-dirs=
+
+Y si queremos ordenar directorios por año, basta ejecutar
+=year-order-dirs= [fn:year-order-dirs] y listo, se auto-ordenan los
+directorios:
+
+#+BEGIN_EXAMPLE
+
+# year-order-dirs
+
+# ls
+
+2021/
+2022/
+2023/
+2023-05-30-195020.png
+
+#+END_EXAMPLE
+
+Ambos comandos por defecto excluyen los archivos del día, para tener lo
+último en la raíz del directorio de trabajo siempre a mano.
+
+Los /scripts/ estan en el /repo/ =bin-bash-utils= [fn:bin-bash-utils].
+
+[fn:awesome]           [[file:awesome-es-increible.org]]
+[fn:iso8601]           https://en.wikipedia.org/wiki/ISO_8601
+[fn:bin-bash-utils]    https://gitlab.com/osiux/bin-bash-utils.git
+[fn:date-order-files]  https://gitlab.com/osiux/bin-bash-utils/-/raw/develop/date-order-files
+[fn:year-order-dirs]   https://gitlab.com/osiux/bin-bash-utils/-/raw/develop/year-order-dirs
