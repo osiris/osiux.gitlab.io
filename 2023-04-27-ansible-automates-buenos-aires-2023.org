@@ -144,3 +144,7 @@ alguna de las novedades.
 [fn:ansible-mesh]    https://www.ansible.com/blog/whats-new-in-ansible-automation-platform-2.1-automation-mesh
 [fn:ansible-aap]     https://www.ansible.com/products/automation-platform
 [fn:ansible-eda]     https://www.ansible.com/blog/getting-started-with-event-driven-ansible
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/461fbf0f2249bf7cc26639455e0195754799fad8][=2023-05-31 10:22=]] agregar /Ansible Automates Buenos Aires 2023/
