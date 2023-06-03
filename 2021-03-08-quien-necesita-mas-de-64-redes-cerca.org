@@ -6,6 +6,7 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+DATE:        2021-03-09 23:36
+#+KEYWORDS:    SysAdmin, WiFi, Wireless, Bug, Kernel, Networks, wicd, iwlist, iw
 #+HTML_HEAD:   <meta property="og:title" content="quién necesita mas de 64 redes WiFi cerca? " />
 #+HTML_HEAD:   <meta property="og:description" content="iwlist Failed to read scan data : Argument list too long" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
