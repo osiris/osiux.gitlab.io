@@ -6,7 +6,7 @@
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
 #+DATE:        2021-03-09 23:36
-#+KEYWORDS:    SysAdmin, WiFi, Wireless, Bug, Kernel, Networks, wicd, iwlist, iw
+#+KEYWORDS:    SysAdmin, AccesPoint, Bug, iw, iwlist, Kernel, Networks, wicd, WiFi, Wireless
 #+HTML_HEAD:   <meta property="og:title" content="quién necesita mas de 64 redes WiFi cerca? " />
 #+HTML_HEAD:   <meta property="og:description" content="iwlist Failed to read scan data : Argument list too long" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -15,7 +15,7 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021-03-08-quien-necesita-mas-de-64-redes-cerca.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/too-many-wifi-networks.png" />
 
 ** a veces la /WiFi/ no me anda
 
