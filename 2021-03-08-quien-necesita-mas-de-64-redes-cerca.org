@@ -136,8 +136,10 @@ hacer algun análisis a futuro.
 
 
 
+
 ** ChangeLog
 
-  - [[https://https///osiux/glpat-NRjwb_MGSaszaZptNkEY@gitlab.com/osiux/osiux.gitlab.io/-/commit/8cc2d9180ec92cca7c3e94c9e59bb9ab605cef60][=2023-06-03 18:35=]] agregar KEYWORDS en /quien necesita mas de 64 redes cerca/
-  - [[https://https///osiux/glpat-NRjwb_MGSaszaZptNkEY@gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
-  - [[https://https///osiux/glpat-NRjwb_MGSaszaZptNkEY@gitlab.com/osiux/osiux.gitlab.io/-/commit/201bc4b14d140fbcbf4a171442ff4aebad5e9d46][=2021-03-08 23:56=]] agregar /quién necesita mas de 64 redes WiFi cerca?/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/8cfffd7365d740e2396cd9acd37bc04caeec1a38][=2023-06-03 22:38=]] agregar imagen OpenGraph y actualizar KEYWORDS en /quien necesita mas de 64 redes cerca/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/8cc2d9180ec92cca7c3e94c9e59bb9ab605cef60][=2023-06-03 18:35=]] agregar KEYWORDS en /quien necesita mas de 64 redes cerca/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/201bc4b14d140fbcbf4a171442ff4aebad5e9d46][=2021-03-08 23:56=]] agregar /quién necesita mas de 64 redes WiFi cerca?/
