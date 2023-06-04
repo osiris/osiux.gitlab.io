@@ -1,9 +1,11 @@
 #+TITLE:       GTD - Gething This Done - Cómo hacer las cosas
+#+DESCRIPTION: Resumen metodología GTD Gething This Done
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Books, GTD, Libros, Metodología, Org, Workflow
 #+DATE:        2014-02-10 11:56
 #+HTML_HEAD:   <meta property="og:title" content="GTD - Gething This Done - Cómo hacer las cosas" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -16,16 +18,16 @@
 
 
 Es un método de gestión de las actividades y el título de un libro
-de David Allen [fn:allen], libro que en español se ha editado con
-el título *Organízate con eficacia* [fn:librogtd].
+de /David Allen/ [fn:allen], libro que en español se ha editado con
+el título =Organízate con eficacia= [fn:librogtd].
 
-*GTD* se basa en el principio de que una persona necesita borrar de
+=GTD= se basa en el principio de que una persona necesita borrar de
 su mente todas las tareas que tiene pendientes guardándolas en un
 lugar específico. De este modo, se libera a la mente del trabajo de
 recordar todo lo que hay que hacer, y se puede concentrar en la
 efectiva realización de aquellas tareas.
 
-A diferencia de otros expertos en gestión del tiempo, *Allen* no se
+A diferencia de otros expertos en gestión del tiempo, /Allen/ no se
 centra en el establecimiento de prioridades. En su lugar, él insta a
 la creación de listas de tareas específicas para cada contexto, por
 ejemplo, una lista de llamadas telefónicas pendientes o recados que
@@ -33,25 +35,25 @@ hacer en la ciudad. También sugiere que cualquier nueva tarea que
 pueda ser completada en menos de dos minutos debería ser hecha
 inmediatamente.
    
-** Workflow
+** /Workflow/
 
    #+ATTR_HTML: :width 640 :height 480 :title GTD Workflow
    [[file:img/gtd-workflow.png]]
 
 ** Recopilar
 
-   - Capturar todo en **INBOX** y seguir trabajando
+   - Capturar todo en =INBOX= y seguir trabajando
      - Ideas
      - Tareas
      - Recordatorios
      - Cosas por hacer en general
    - Utilizar una herramienta de captura ágil
    - Capturar... y olvidarse de momento
-   - Aplicar *regla de los 2 minutos*
+   - Aplicar **regla de los 2 minutos**
 
 ** Procesar
 
-   - Procesar por completo el *INBOX*
+   - Procesar por completo el =INBOX=
      - Si requiere actuar
      - Delegar a alguien
        - Asignar a carpeta (sólo si depende de mi)
@@ -60,15 +62,15 @@ inmediatamente.
        - Archivar
    - Procesar de manera ágil, tomar decisiones rápidas
    - Aislarse de las distracciones
-   - Aplicar *regla de los 2 minutos*
+   - Aplicar **regla de los 2 minutos**
 
 ** Organizar
 
    - Asignar acciones a una carpeta
-     - *PRÓXIMO*, a realizar en un lapso de tiempo corto
-     - *PROYECTO*, cosas a realizar dentro de un proyecto
-     - *EN ESPERA*, depende de otra persona
-     - *ALGÚN DÍA*, no tiene prioridad temporal
+     - =PRÓXIMO=, a realizar en un lapso de tiempo corto
+     - =PROYECTO=, cosas a realizar dentro de un proyecto
+     - =EN ESPERA=, depende de otra persona
+     - =ALGÚN DÍA=, no tiene prioridad temporal
 
 ** Revisar
 
@@ -77,5 +79,5 @@ inmediatamente.
    - Localizar y cuidar las tareas clave
    - Las acciones cambian de carpeta
 
-[fn:librogtd] http://www.cuspide.com/isbn/849662708X
-[fn:allen] http://davidco.com
+[fn:librogtd]  http://www.cuspide.com/isbn/849662708X
+[fn:allen]     http://davidco.com
