@@ -88,3 +88,7 @@ de cualquier red conocida! =;-)=
 [fn:pass]        https://www.passwordstore.org/
 [fn:gpg]         https://es.wikipedia.org/wiki/GNU_Privacy_Guard
 [fn:passphrase]  https://en.wikipedia.org/wiki/Passphrase
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/78a764f89c3ace6a6f7625eeaf3ee1d6c71bb19c][=2023-06-06 15:29=]] agregar wifi2qr
