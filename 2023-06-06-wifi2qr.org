@@ -1,0 +1,90 @@
+#+TITLE:       =wifi2qr=
+#+DESCRIPTION: Generar código QR en UTF8 para conectar a una red WiFi usando la consola
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Bash, consola, pass, passphrase, password, PasswordStore, QR, qrencode, terminal, tty, txt, UTF8, WiFi, wifi2qr
+#+DATE:        2023-06-06 14:05
+#+HTML_HEAD:   <meta property="og:title" content="=wifi2qr=" />
+#+HTML_HEAD:   <meta property="og:description" content="Generar código QR en modo texto para conectar a una red WiFi usando la consola" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-06-06" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-06-06-wifi2qr.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/wifi2qr-NoTeCreasTanImportante.png" />
+
+** /CompartirEsBueno/
+
+Muchas veces, es necesario compartir la constraseña de la red /WiFi/
+actual y como suele ser difícil deletrear e indicar mayúsculas,
+minúsculas, espacios, símbolos o en el caso de tratarse de una
+/password/ muy larga conviene utilizar un código =QR= [fn:qr] y para
+simplificar la operatoria, cuento con el comando =wifi2qr=.
+
+#+BEGIN_EXAMPLE
+
+# wifi2qr
+
+█████████████████████████████████████████
+█████████████████████████████████████████
+████ ▄▄▄▄▄ █▀ ██▄▀▄▄ ▀▀▄ █▀ ▄█ ▄▄▄▄▄ ████
+████ █   █ █▄ █▀ ▄▄▀ █▄▀▀ ▄█ █ █   █ ████
+████ █▄▄▄█ █ ▀█   ▀ ████   ▄ █ █▄▄▄█ ████
+████▄▄▄▄▄▄▄█ ▀ ▀▄▀▄█▄█▄▀ █▄█ █▄▄▄▄▄▄▄████
+████▄ █ ██▄▄▀█▄██▄▀██▀▄█▄▄▄▄█▀   █ ▄▀████
+████▄▀▄▄▀▄▄▀█▄▄▀ ▀ ▄ ▀ █ ▀█▄▄ █ ▀█▀ ▄████
+████▀▄▄  █▄▄▄█▀██▄ █▀   ██▄██▀  █    ████
+█████▄  █ ▄  █▀▀▄▄   ▄▄ ▄▀▀▄▄▀█▀▄ █▄ ████
+████▄▄█▀▀ ▄▀█  ▀█▄▄█▄▄ ▄  █ █▄█  ██ █████
+██████▄▄  ▄▀ ████▀▀▀ ▀▀ ▀█ ▀█  ▀▀▀▀ ▄████
+█████ █ ██▄▀█▀▄▄█▄█▄▄▀ █▄▄▄██▀▀ ███ ▀████
+████▄ █▄▀ ▄▀ █▄▄▀▀  █ ▄ ▀ █ ▀▀  ▀▄▀▄▄████
+████▄██▄▄▄▄▄ ▄▀ █▀ █▀▄  █▄ █ ▄▄▄ ▀▀▀█████
+████ ▄▄▄▄▄ █▄█▀▀▄▀ █ ▀▄▀▄▀ ▀ █▄█  █ █████
+████ █   █ █▀ ▄▀██▄█▄▄ █▀▄▀█▄ ▄▄ ▄█▀ ████
+████ █▄▄▄█ █▀▀ ▀▄    ▄▄ ▄▀ █▀ ██▀▀▀█ ████
+████▄▄▄▄▄▄▄█▄█▄██▄████▄█▄▄▄▄██▄█▄▄███████
+█████████████████████████████████████████
+█████████████████████████████████████████
+
+#+END_EXAMPLE
+
+** =qrencode=
+
+=wifi2qr= no hace más que generar un /string/ con los datos necesarios
+para que luego =qrencode= [fn:qrencode] se ocupe de generar el /QR/
+usando /UTF8/.
+
+Si miramos el código fuente de =wifi2qr= [fn:wifi2qr], basta
+especificar, el /SSID (Service Set Identifier)/ [fn:ssid], la
+/password/, el tipo de cifrado (por ej. /wpa/) y finalmente si la red
+esta oculta (/hidden/).
+
+** =pass=
+
+Gracias al comando =pass= [fn:pass] (/Password Store/), tengo todas las
+contraseñas de redes /WiFi/ habituales almacenadas de manera cifrada
+usando =GPG= [fn:gpg] (/GNU Privacy Guard/) y solo debo recordar una
+/passphrase/ [fn:passphrase] y por ello también puedo compartir un /QR/
+de cualquier red conocida! =;-)=
+
+** tal vez te interese leer otros /posts/ relacionados
+
+- [[file:2021-03-08-quien-necesita-mas-de-64-redes-cerca.org][quién necesita mas de 64 redes WiFi cerca? ]]
+- [[file:2021-03-04-diagrama-de-secuencia-trafico-de-red.org][Diagrama de secuencia de Tráfico de Red]]
+- [[file:2021-03-03-diagramas-de-topologia-de-red-csv2nwdiag.org][Diagramas de Topología de Red =csv2nwdiag=]]
+- [[file:2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.org][/no me acuerdo de nada... dejame en =pass=!/]]
+- [[file:2012-03-05-redes-abiertas-versus-redes-cerradas.org][redes abiertas versus redes cerradas]]
+- [[file:howto-gpg-gnu-pgp.org][HowTo GnuPG]]
+
+[fn:qr]          https://en.wikipedia.org/wiki/QR_code
+[fn:ssid]        https://en.wikipedia.org/wiki/Service_set_(802.11_network)
+[fn:wifi2qr]     https://gitlab.com/osiux/pass-utils/-/raw/master/wifi2qr
+[fn:qrencode]    https://github.com/fukuchi/libqrencode
+[fn:pass]        https://www.passwordstore.org/
+[fn:gpg]         https://es.wikipedia.org/wiki/GNU_Privacy_Guard
+[fn:passphrase]  https://en.wikipedia.org/wiki/Passphrase
