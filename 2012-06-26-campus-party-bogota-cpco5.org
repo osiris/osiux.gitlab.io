@@ -1,9 +1,11 @@
 #+TITLE:       CampusParty Bogotá CPCO5
+#+DESCRIPTION: Resumen CampusParty Bogotá CPCO5
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Evento, 2012, Bogotá, BuenosAiresLibre, CampusParty, Colombia, FreeNetworks, OpenWRT, RedesLibres, Talks, WiFi
 #+DATE:        2012-06-26 22:19
 #+HTML_HEAD:   <meta property="og:title" content="CampusParty Bogotá CPCO5" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
@@ -12,21 +14,18 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2012-06-26-campus-party-bogota-cpco5.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/cpco5/cpco5-1920-01.jpg" />
-
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/cpco5/cpco5-redlibre.png" />
 
 ** la previa
 
-El viaje comenzó bien, logré capturar el booteo
-del sistema de entretenimiento del avión, el
-cual usa Linux. Al llegar a Corferias, había una
-cola enorme intentando registrarse y no quedaban
+El viaje comenzó bien, logré capturar el booteo del sistema de
+entretenimiento del avión, el cual usa /GNU/Linux/. Al llegar a
+/Corferias/, había una cola enorme intentando registrarse y no quedaban
 dudas de que el evento era muy grande!
 
 [[file:img/cpco5/cpco5-1920-01.jpg][file:img/cpco5/cpco5-600-01.jpg]]
 
-El datacenter llamado *cerebro* estaba en medio
-de la *arena*.
+El datacenter llamado *cerebro* estaba en medio de la *arena*.
 
 [[file:img/cpco5/cpco5-1920-02.jpg][file:img/cpco5/cpco5-600-02.jpg]]
 
@@ -34,28 +33,25 @@ Hice el reconocimiento del lugar.
 
 [[file:img/cpco5/cpco5-1920-03.jpg][file:img/cpco5/cpco5-600-03.jpg]]
 
-Encontré un canal de televisión que transmite
-desde el evento y unos auditorios abiertos muy
-cómodos.
+Encontré un canal de televisión que transmite desde el evento y unos
+auditorios abiertos muy cómodos.
 
 [[file:img/cpco5/cpco5-1920-04.jpg][file:img/cpco5/cpco5-600-04.jpg]]
 
-Ni bien ubiqué un lugar para conectarme y dar
-aviso que de estaba todo bien, recorrí el
-camping y pude ver que el tráfico de red
-comenzaba a aumentar y esto era la previa.
+Ni bien ubiqué un lugar para conectarme y dar aviso que de estaba todo
+bien, recorrí el camping y pude ver que el tráfico de red comenzaba a
+aumentar y esto era la previa.
 
 [[file:img/cpco5/cpco5-1920-05.jpg][file:img/cpco5/cpco5-600-05.jpg]]
 
 ** el primer día de charlas
 
-El público aumentó considerablemente y había un
-clima de juegos.
+El público aumentó considerablemente y había un clima de juegos.
 
 [[file:img/cpco5/cpco5-1920-06.jpg][file:img/cpco5/cpco5-600-06.jpg]]
 
-Aparecieron las clásicas promotoras y los
-stands dentro y fuera de la *arena*.
+Aparecieron las clásicas promotoras y los stands dentro y fuera de la
+*arena*.
 
 [[file:img/cpco5/cpco5-1920-07.jpg][file:img/cpco5/cpco5-600-07.jpg]]
 
@@ -65,16 +61,17 @@ Encontré robots y amigos.
 
 ** no seas un terminal de internet, creá una red libre
 
-A las 16hs di una conferencia donde comenté las
-ventajas de las redes libres y la interconexión
-con internet ante un público que se animó a
+A las 16hs di una conferencia donde comenté las ventajas de las redes
+libres y la interconexión con internet ante un público que se animó a
 preguntar bastante!
 
 [[file:img/cpco5/cpco5-1920-09.jpg][file:img/cpco5/cpco5-600-09.jpg]]
 
 *** video
 
-[[http://youtu.be/IKO17A5Imbc][file:img/cpco5/cpco5-redlibre.jpg]]
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IKO17A5Imbc" title="No seas un terminal de internet, creá una red libre!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+#+END_EXPORT
 
 *** slides
 
@@ -82,8 +79,8 @@ preguntar bastante!
 
 ** continuará...
 
-Mañana sigue la movida e intentaré descubir la
-noche del CampusParty ya que es un evento 24hs
+Mañana sigue la movida e intentaré descubir la noche del /CampusParty/
+ya que es un evento 24hs
 
 
 ** ChangeLog
