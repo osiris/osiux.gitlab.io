@@ -1,0 +1,152 @@
+#+TITLE:       =git-tag-summary= vs =git-tag-readme=
+#+DESCRIPTION: Generar resumen de tags y README en Markdown de un repo git
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Git, Automation, GitUtils, Markdown, README, Summary, Tags
+#+DATE:        2023-06-08 19:42
+#+HTML_HEAD:   <meta property="og:title" content="=git-tag-summary= vs =git-tag-readme=" />
+#+HTML_HEAD:   <meta property="og:description" content="Generar resumen de tags y README en Markdown de un repo git" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-06-08" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-06-08-git-tag-summary-vs-git-tag-readme.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/git-tag-summary-vs-git-tag-readme.png" />
+
+[[file:img/git-tag-summary-vs-git-tag-readme.png][file:tmb/git-tag-summary-vs-git-tag-readme.png]]
+
+** aprovechar los /tags/ de /git/
+
+Varios de mis repositorios =Git= [fn:git] no tenían mucha documentación
+y por ello para contar con algo, que por un lado sea útil y que no me
+lleve mucho tiempo generar, se me ocurrió crear un /script/ para
+automatizar la tarea de contar con un resumen de todos los /tags/.
+
+Teniendo la disciplina de escribir un resumen del /tag/ al momento de
+generarlo, basta con ejecutar =git tag -n= para contar con la data útil:
+
+#+BEGIN_EXAMPLE
+
+# git tag -n
+
+v0.1.0          first public version
+v0.2.0          fix dont ignore title and description in mr new
+v0.3.0          add shellcheck in gitlab-ci using koalaman/shellcheck-alpine image
+v0.4.0          set reviewer with default reviewer or assignee when default is empty in gl-mr-new
+
+#+END_EXAMPLE
+
+** =git-tag-summary=
+
+Para ponerle un poco de onda, =git-tag-summary= [fn:git-tag-summary] se
+ocupa de agregar la fecha del /tag/ y por defecto arma un /link/ del
+/tag/ a un documento con formato =nombre-repo-tag.md= y todo en forma de
+tabla =Markdown= [fn:markdown]
+
+#+BEGIN_EXAMPLE
+
+# git-tag-summary
+
+| _date_     | _tag_                                       | _description_                                                                     |
+|------------|---------------------------------------------|-----------------------------------------------------------------------------------|
+| 2022-08-20 | [`  v0.4.0`](gitlab-bash-utils-v0.4.0.md)   | set reviewer with default reviewer or assignee when default is empty in gl-mr-new |
+| 2022-08-20 | [`  v0.3.0`](gitlab-bash-utils-v0.3.0.md)   | add shellcheck in gitlab-ci using koalaman/shellcheck-alpine image                |
+| 2022-08-04 | [`  v0.2.0`](gitlab-bash-utils-v0.2.0.md)   | fix dont ignore title and description in mr new                                   |
+| 2022-08-04 | [`  v0.1.0`](gitlab-bash-utils-v0.1.0.md)   | first public version                                                              |
+
+#+END_EXAMPLE
+
+Si no necesitamos un /link/ basta con definir la variable de entorno
+=NO_TAG_LINK=1= y el resultado se simplifica:
+
+#+BEGIN_EXAMPLE
+
+# NO_TAG_LINK=1 git-tag-summary
+
+| _date_     | _tag_      | _description_                                                                     |
+|------------|------------|-----------------------------------------------------------------------------------|
+| 2022-08-20 | `  v0.4.0` | set reviewer with default reviewer or assignee when default is empty in gl-mr-new |
+| 2022-08-20 | `  v0.3.0` | add shellcheck in gitlab-ci using koalaman/shellcheck-alpine image                |
+| 2022-08-04 | `  v0.2.0` | fix dont ignore title and description in mr new                                   |
+| 2022-08-04 | `  v0.1.0` | first public version                                                              |
+
+#+END_EXAMPLE
+
+La salida /renderizada/ es la siguiente:
+
+| /date/     | /tag/    | /description/                                                                     |
+|------------+----------+-----------------------------------------------------------------------------------|
+| 2022-08-20 | =v0.4.0= | set reviewer with default reviewer or assignee when default is empty in gl-mr-new |
+| 2022-08-20 | =v0.3.0= | add shellcheck in gitlab-ci using koalaman/shellcheck-alpine image                |
+| 2022-08-04 | =v0.2.0= | fix dont ignore title and description in mr new                                   |
+| 2022-08-04 | =v0.1.0= | first public version                                                              |
+
+** =git-tag-readme=
+
+Aprovechando la salida de =git-tag-summary=, fui por más y generé el
+/script/ =git-tag-readme= [fn:git-tag-readme] que en un /repo/ vacío se
+ocupa de auto-genera un =README.md= básico, con la descripción del
+proyecto (en base al archivo =.description=), el resumen de los /tags/,
+agregando la información del autor y la licencia desde variables (por
+defecto =OSiUX= y =GPLv3= [fn:gpl]) y en caso de existir
+=.readme-header= y/o =.readme-footer= los incluye y descarta info
+auto-generada.
+
+El resultado para el /repo/ =gitlab-bash-utils= [fn:gitlab-bash-utils]
+es el siguiente:
+
+#+BEGIN_EXAMPLE
+
+# `gitlab-bash-utils`
+
+Useful bash scripts for various gitlab utils.
+
+## _Tags Summary_
+
+| _date_     | _tag_      | _description_                                                                     |
+|------------|------------|-----------------------------------------------------------------------------------|
+| 2022-08-20 | `  v0.4.0` | set reviewer with default reviewer or assignee when default is empty in gl-mr-new |
+| 2022-08-20 | `  v0.3.0` | add shellcheck in gitlab-ci using koalaman/shellcheck-alpine image                |
+| 2022-08-04 | `  v0.2.0` | fix dont ignore title and description in mr new                                   |
+| 2022-08-04 | `  v0.1.0` | first public version                                                              |
+
+## License
+
+GNU General Public License, GPLv3.
+
+## Author Information
+
+This repo was created in 2022 by
+[Osiris Alejandro Gómez](https://osiux.com/), worker cooperative of
+[gcoop Cooperativa de Software Libre](https://www.gcoop.coop/).
+
+#+END_EXAMPLE
+
+De esta manera, ahora puedo contar un =README.md= en cada uno de mis
+/repos/ sin mucho esfuerzo y con la posibilidad de actualizarlos
+fácilmente cada vez que genero un nuevo /tag/ =:)=
+
+Seguramente, en el futuro agregaré funcionalidades extra!
+
+** Tal vez te interese leer
+
+- [[file:2023-05-25-git-tag-changelog.org][=git-tag-changelog=]]
+- [[file:2023-05-18-howto-regenerate-git-config-from-multiples-repositories-using-git-bash-utils.org][Regenerar el archivo de configuración =.git/config= de un repositorio git]]
+- [[file:2023-03-07-find-value-in-all-git-tags-using-git-find-value.org][find value in all git tags using =git-find-value=]]
+- [[file:2023-02-27-git-auto-commit-and-push-using-crontab.org][git auto commit and push using crontab.org]]
+- [[file:2022-11-22-howto-configure-personal-access-tokens-to-git-repositories-using-https.org][Cómo configurar tokens de acceso personal a los repositorios de Git usando HTTPS]]
+- [[file:2022-11-21-howto-quickly-write-git-commit-messages-using-vim.org][cómo escribir rápidamente mensajes de commit de git usando vim]]
+- [[file:2022-08-21-howto-use-gitlab-from-command-line.org][cómo usar /GitLab/ desde la línea de comandos]]
+- [[file:2021-03-18-git-commit-timesum.org][git commit timesum]]
+- [[file:2021-03-09-git-commiter-date.org][cambiar la fecha de un /commit/ usando =GIT_COMMITER_DATE=]]
+
+[fn:git]                https://git-scm.com/
+[fn:git-tag-summary]    https://gitlab.com/osiux/git-bash-utils/-/raw/develop/git-tag-summary
+[fn:markdown]           https://en.wikipedia.org/wiki/Markdown
+[fn:git-tag-readme]     https://gitlab.com/osiux/git-bash-utils/-/raw/develop/git-tag-readme
+[fn:gpl]                https://en.wikipedia.org/wiki/GNU_General_Public_License
+[fn:gitlab-bash-utils]  https://gitlab.com/osiux/gitlab-bash-utils/
