@@ -150,3 +150,7 @@ Seguramente, en el futuro agregaré funcionalidades extra!
 [fn:git-tag-readme]     https://gitlab.com/osiux/git-bash-utils/-/raw/develop/git-tag-readme
 [fn:gpl]                https://en.wikipedia.org/wiki/GNU_General_Public_License
 [fn:gitlab-bash-utils]  https://gitlab.com/osiux/gitlab-bash-utils/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f6a648e1cbd778ade1c21f5bdb676b3b7f0b1c2a][=2023-06-08 20:13=]] agregar =git-tag-summary= vs =git-tag-readme=
