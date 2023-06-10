@@ -127,3 +127,7 @@ Bookworm/ en una /ThinkPad T14 Gen 1/.
 
 [fn:debian12]  https://www.debian.org/releases/bookworm/
 [fn:direplos]  https://gitlab.com/osiux/direplos
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4247fa7d8638c913c072c295ab3ceb76f4b1ceaa][=2023-06-10 18:10=]] agregar /Install Debian Bookworm on ThinkPad T14 Gen 1/
