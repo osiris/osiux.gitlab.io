@@ -1,0 +1,129 @@
+#+TITLE:       Install Debian Bookworm on ThinkPad T14 Gen 1
+#+DESCRIPTION: Instalar Debian Bookworm en ThinkPad T14 Gen 1
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    SysAdmin, Bookworm, Debian, Debian12, GNULinux, Install, Lenovo, ThinkPad
+#+DATE:        2023-06-10 16:00
+#+HTML_HEAD:   <meta property="og:title" content="Install Debian Bookworm on ThinkPad T14 Gen 1" />
+#+HTML_HEAD:   <meta property="og:description" content="Instalar Debian Bookworm en ThinkPad T14 Gen 1" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-06-10" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-06-10-install-debian-bookworm-on-thinkpad-t14-gen-1.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/debian-12-install-debian-bookworm-thinkpad-t14-gen-1.png" />
+
+[[file:img/debian-12-install-debian-bookworm-thinkpad-t14-gen-1.png][file:tmb/debian-12-install-debian-bookworm-thinkpad-t14-gen-1.png]]
+
+** Hola =Bookworm=, chau =Bullseye=
+
+Desde que tengo a =tequila=, que es una /ThinkPad T14 Gen 1/ fui pasando
+por /Debian Buster/ y luego /Debian Bullseye/ para ahora disfrutar de
+=Debian Bookworm= [fn:debian12].
+
+#+BEGIN_EXAMPLE
+
+       _,met$$$$$gg.          osiris@tequila
+    ,g$$$$$$$$$$$$$$$P.       --------------
+  ,g$$P"        """Y$$.".     OS: Debian GNU/Linux 12 (bookworm) x86_64
+ ,$$P'              `$$$.     Kernel: 6.1.0-9-amd64
+',$$P       ,ggs.     `$$b:   Uptime: 2 days, 7 hours, 53 mins
+`d$$'     ,$P"'   .    $$$    Shell: bash 5.2.15
+ $$P      d$'     ,    $$P    WM: awesome
+ $$:      $$.   -    ,d$$'    Terminal: terminator
+ $$;      Y$b._   _,d$P'      CPU: Intel i7-10510U (8) @ 4.900GHz
+ Y$$.    `.`"Y$$$$P"'         GPU: Intel CometLake-U GT2 [UHD Graphics]
+ `$$b      "-.__              GPU: NVIDIA GeForce MX330
+  `Y$$                        Memory: 5433MiB / 15651MiB
+   `Y$$.
+     `$$b.
+       `Y$$b.
+          `"Y$b._
+              `"""
+
+#+END_EXAMPLE
+
+** particionando el /NVME/
+
+Como siempre el esquema es 1 partición =/boot=, 2 particiones idénticas
+para /Sistema Operativo/, una para la =/= de ahora y una disponibles
+para cuando falle, el resto de la unidad para datos, pero como estamos
+en un sistema *moderno* además es necesaria 1 partición para /EFI/, en
+fin, quedó asi:
+
+#+BEGIN_EXAMPLE
+
+Model: SAMSUNG MZVLB512HBJQ-000L7 (nvme)
+Disk /dev/nvme0n1: 512GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags:
+
+Number  Start   End     Size    File system  Name          Flags
+ 1      1049kB  1000MB  999MB   fat32        EFI           boot, esp
+ 2      1000MB  2001MB  1000MB  ext4         BOOT
+ 3      2001MB  52,0GB  50,0GB               LUKSDEBIAN12
+ 4      52,0GB  102GB   50,0GB               LUKSDEBIAN11
+ 5      102GB   512GB   410GB                LUKSDATA
+
+#+END_EXAMPLE
+
+** instalando paquetes
+
+Esta tarea esta super des-atendida gracias a /DiRePlOs/ [fn:direplos],
+aunque aproveché a hacer algunas correcciones, que ya publicaré.
+
+Basta ejecutar:
+
+#+BEGIN_EXAMPLE
+
+./deb.sh -utx
+
+#+END_EXAMPLE
+
+** maldito firmware-nonfree
+
+A diferencia de /Debian Bullseye/ que necesité un /kernel/ de /Debian
+Backports/, esta vez no tuve inconvenientes para que funcione /Xorg/ con
+la placa /Intel/ pero esta pendiente hacer funcionar la /NVIDIA/.
+
+De la misma manera, no necesité extras para usar /WiFi/, también intel
+=iwlwifi=
+
+#+BEGIN_EXAMPLE
+
+dpkg -l | grep iwlwifi
+
+  ii  firmware-iwlwifi  20230210-5          all  Binary firmware for Intel Wireless cards
+
+#+END_EXAMPLE
+
+El sonido, también salió andando de una, usando =firmware-sof-signed=:
+
+#+BEGIN_EXAMPLE
+
+dpkg -l | grep sof-signed
+
+  ii  firmware-sof-signed  2.2.4-1  all  Intel SOF firmware - signed
+
+#+END_EXAMPLE
+
+** Continuará...
+
+Tengo mucho por documentar sobre la instalación y configuración, la idea
+es ahorrarle un poco de tiempo a quienes quieran instalar /Debian
+Bookworm/ en una /ThinkPad T14 Gen 1/.
+
+** Tal vez te interese leer...
+
+- [[file:2022-04-22-thinkpad-hacktoon-floss-vinyl.org][Thinkpad HackToon FLOSS Vinyl by OSiUX]]
+- [[file:2021-08-16-install-debian-bullseye-on-thinkpad-t14-gen-1.org][/Install Debian Bullseye on ThinkPad T14 Gen 1/]]
+- [[file:2021-02-09-install-debian-buster-on-thinkpad-t14-gen-1.org][Install Debian Buster on ThinkPad T14 Gen 1]]
+- [[file:2021-01-26-disaster-recovery-plan-osiux.org][DIsaster REcovery PLan OSiux]]
+
+[fn:debian12]  https://www.debian.org/releases/bookworm/
+[fn:direplos]  https://gitlab.com/osiux/direplos
