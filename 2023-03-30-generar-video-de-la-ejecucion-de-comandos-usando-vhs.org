@@ -128,12 +128,13 @@ realizar todo tipo de modificaciones, para finalmente generar el video
 que tenés en mente, e inclusive utilizar este código como base para
 adaptarlo y generar otro video en el futuro.
 
-[fn:vhs]                https://github.com/charmbracelet/vhs
-[fn:scifi-terminals]    https://github.com/ldodds/scifi-terminals
-[fn:ansible-ba-meetup]  https://www.meetup.com/ansible-buenos-aires/
-[fn:ansible-tools]      https://gitlab.com/osiux/ansible_tools/
-[fn:inkscape]           https://inkscape.org/
-[fn:todotxt-cli]        https://github.com/todotxt/todo.txt-cli
+** Video de la demo Ansible Tools
+
+#+BEGIN_EXPORT html
+<video id="video" controls width="720" height="406" autoplay loop background="#000000" preload>
+  <source src="videos/ansible-tools-demo.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
 
 ** Tal vez te interese leer
 
@@ -142,6 +143,12 @@ adaptarlo y generar otro video en el futuro.
 - [[file:2023-03-28-dibujar-logo-ansible-tools-en-3d-usando-openscad-y-blender.org][Dibujar logo /Ansible Tools/ en /3D/ usando /OpenSCAD/ y /Blender/]]
 - [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
 
+[fn:vhs]                https://github.com/charmbracelet/vhs
+[fn:scifi-terminals]    https://github.com/ldodds/scifi-terminals
+[fn:ansible-ba-meetup]  https://www.meetup.com/ansible-buenos-aires/
+[fn:ansible-tools]      https://gitlab.com/osiux/ansible_tools/
+[fn:inkscape]           https://inkscape.org/
+[fn:todotxt-cli]        https://github.com/todotxt/todo.txt-cli
 
 ** ChangeLog
 
