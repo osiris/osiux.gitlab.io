@@ -135,6 +135,12 @@ adaptarlo y generar otro video en el futuro.
 [fn:inkscape]           https://inkscape.org/
 [fn:todotxt-cli]        https://github.com/todotxt/todo.txt-cli
 
+** Tal vez te interese leer
+
+- [[file:2023-03-30-ansible-buenos-aires-meeetup-marzo-2023.org][Ansible Buenos Aires Meetup MAR/2023]]
+- [[file:2023-03-29-ansible-tools-logo-2d-inkscape.org][Ansible Tools Logo 2D Inkscape]]
+- [[file:2023-03-28-dibujar-logo-ansible-tools-en-3d-usando-openscad-y-blender.org][Dibujar logo /Ansible Tools/ en /3D/ usando /OpenSCAD/ y /Blender/]]
+- [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
 
 ** ChangeLog
 
