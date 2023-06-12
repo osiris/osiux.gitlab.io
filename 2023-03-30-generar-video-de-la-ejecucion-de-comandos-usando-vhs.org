@@ -150,8 +150,10 @@ adaptarlo y generar otro video en el futuro.
 [fn:inkscape]           https://inkscape.org/
 [fn:todotxt-cli]        https://github.com/todotxt/todo.txt-cli
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/14baa4c22d052ecce4badf39ff3e4deb56d4b7c5][=2023-06-12 00:09=]] agregar video de la demo Ansible Tools
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a727cd7d8402575bb9a4de2876a9f24ebf300507][=2023-06-12 00:45=]] agegar posts relacionados a /Ansible Tools Demo VHS/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/51bd89602c7cda62fa58e5f19854e3544de17453][=2023-06-12 00:01=]] agregar tags OpenGraph e imagen a /ansible tools demo vhs/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/d5ed807ff0fcc1426b515d49e5d024b14566c41e][=2023-06-11 23:14=]] agregar ansible tools demo vhs
