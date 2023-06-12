@@ -1,0 +1,125 @@
+#+TITLE:       Ansible Tools VHS Ansible BA Meetup
+#+DESCRIPTION: Generar un video de la salida de comandos de terminal usando VHS para la charla Ansible Tools en Ansible BA Meetup
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Design, Ansible, AnsibleTools, VHS, Video, Terminal
+#+DATE:        2023-05-28 11:55
+
+** Ansible Tools Video
+
+A partir de un diseño /2D/ en /Inkscape/ [fn:inkscape], se me ocurrió
+realizar los /slides/ de la charla =Ansible Tools= [fn:ansible-tools]
+para la =Ansible BA Meetup= [fn:ansible-ba-meetup] en modo video, porque
+tenía poco tiempo y el video (una vez generado) no produce errores o al
+menos no agrega nuevos errores en el momento de la presentación.
+
+** VHS
+
+Hace tiempo que había descubierto =VHS= [fn:vhs] que es una utilidad
+para generar un video /MP4/ o un /GIF/ animado de la salida de los
+comandos de una terminal.
+
+Llegué a /VHS/ gracias al /repo/ =SCIFI Terminals= [fn:scifi-terminals]
+que tenía reproducciones casi exactas de escenas de /Hacking/ de
+películas de /Hackers/ y/o para ñoñes! :P
+
+En su momento probé para jugar y se veía fácil armar algo, quedó en el
+=TODO.txt= [fn:todotxt-cli] y justo para esta ocasión recordé que podía
+usar /VHS/!
+
+Lo primero es definir un /Theme/, me base en uno cualquiera y cambié
+algunos colores para estar a tono con los colores de /Ansible/.
+
+#+BEGIN_EXAMPLE
+
+Set Theme 
+{
+  "name": "OSiUX",
+  "black": "#535178",
+  "red": "#cd0000",
+  "green": "#00cd00",
+  "yellow": "#cdcd00",
+  "blue": "#0000ee",
+  "purple": "#cd00cd",
+  "cyan": "#00cdcd",
+  "white": "#ffffff",
+  "brightBlack": "#535178",
+  "brightRed": "#ff0000",
+  "brightGreen": "#00ff00",
+  "brightYellow": "#ffff00",
+  "brightBlue": "#5c5cff",
+  "brightPurple": "#ff00ff",
+  "brightCyan": "#00ffff",
+  "brightWhite": "#ffffff",
+  "background": "#306f98",
+  "foreground": "#ffffff",
+  "selectionBackground": "#3d3c58",
+  "cursorAccent": "#00ffff",
+  "cursor": "#00ffff"
+}
+
+#+END_EXAMPLE
+
+Luego hay que definir el archivo y formato de salida
+
+#+BEGIN_EXAMPLE
+
+Output ansible-tools.mp4
+
+#+END_EXAMPLE
+
+Se define el tamaño de fuente, ancho y alto de la captura
+
+#+BEGIN_EXAMPLE
+
+Require echo
+
+Set FontSize 28
+Set Width 1920
+Set Height 960
+
+#+END_EXAMPLE
+
+Luego se usa el comando =Type= para definir qué querés que /VHS/ tipee
+por vos! y obviamente en que momento presionar =Enter= o cuando realizar
+una espera =Sleep 10s= para que se pueda apreciar el comando ejecutado.
+
+#+BEGIN_EXAMPLE
+
+Type " export PS1='\n#';alias cat='bat --style=plain,changes'"
+Enter
+Type " clear"                                                 
+Enter
+Show
+
+Sleep 10s
+Type "# get Ansible Tools"
+Sleep 5s
+Enter
+Type " git clone https://gitlab.com/gcoop-libre/ansible_tools"
+Sleep 5s 
+Enter
+Sleep 10s
+Type " cd ansible_tools"
+Sleep 5s
+Enter
+Sleep 10s
+
+#+END_EXAMPLE
+
+Lo interesante es que ejecuta el comando y captura su salida, si bien
+puede resultar en un bonito video lleno de errores, lo genial es que al
+estar en modo texto, es versionable, ocupa muy poco lugar y permite
+realizar todo tipo de modificaciones, para finalmente generar el video
+que tenés en mente, e inclusive utilizar este código como base para
+adaptarlo y generar otro video en el futuro.
+
+[fn:vhs]                https://github.com/charmbracelet/vhs
+[fn:scifi-terminals]    https://github.com/ldodds/scifi-terminals
+[fn:ansible-ba-meetup]  https://www.meetup.com/ansible-buenos-aires/
+[fn:ansible-tools]      https://gitlab.com/osiux/ansible_tools/
+[fn:inkscape]           https://inkscape.org/
+[fn:todotxt-cli]        https://github.com/todotxt/todo.txt-cli
