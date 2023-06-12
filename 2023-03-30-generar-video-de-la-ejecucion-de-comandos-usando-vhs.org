@@ -123,3 +123,7 @@ adaptarlo y generar otro video en el futuro.
 [fn:ansible-tools]      https://gitlab.com/osiux/ansible_tools/
 [fn:inkscape]           https://inkscape.org/
 [fn:todotxt-cli]        https://github.com/todotxt/todo.txt-cli
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/d5ed807ff0fcc1426b515d49e5d024b14566c41e][=2023-06-11 23:14=]] agregar ansible tools demo vhs
