@@ -1,0 +1,114 @@
+#+TITLE:       vim autosave backup
+#+DESCRIPTION: Configurar Vim para que guarde a medida que vas tipeando
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Vim, autosave, Backup, Config, Terminal, tty, vimrc
+#+DATE:        2023-03-31 11:10
+#+HTML_HEAD:   <meta property="og:title" content="vim autosave backup" />
+#+HTML_HEAD:   <meta property="og:description" content="Configurar Vim para que guarde a medida que vas tipeando" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-03-31" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-03-31-vim-autosave-backup.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/vim-autosave-backup.png" />
+
+[[file:img/vim-autosave-backup.png][file:tmb/vim-autosave-backup.png]]
+
+** amo el orden pero soy un caos!
+
+Si bien tengo la autodisciplina de realizar /commits/ atómicos de cada
+cambio que realizo en un proyecto, en algunos momentos puedo pasar horas
+sin realizar ni un solo /commit/, con el riesgo de sobreescribir y/o
+perder algo importante.
+
+** =autosave= al rescate
+
+Se puede configurar el autoguardado de cualquier archivo que edites con
+=vim= manteniendo una copia con un /timestamp/ y de esta manera
+conservar varias versiones del mismo archivo cada vez que sufrió un
+cambio. Para esto basta definir las siguientes opciones en =~/.vimrc=
+
+#+BEGIN_EXAMPLE
+
+set backupdir=~/tmp,/tmp
+set directory=~/tmp,/tmp
+set backup
+set writebackup
+set backupcopy=yes
+au BufWritePre * let &bex = '@' . strftime("%F.%H:%M")
+autocmd TextChanged,TextChangedI <buffer> silent write
+
+#+END_EXAMPLE
+
+De esta manera ahora cada vez que modifique =archivo.md=, =vim= se
+ocupará de generar una copia en =~/tmp= agregando fecha, hora y minuto
+dejando la copia en =~/tmp/archivo.md@2023-03-31.11:20=
+
+** recuperando cambios perdidos
+
+Ayer estuve generando la charla =ansible-tools.tape= y en ningún momento
+versioné, y hoy al corregirla, perdí algunas líneas sin querer
+queriendo, no hay problema, obtengo un listado de las últimas
+modificaciones usando:
+
+#+BEGIN_EXAMPLE
+
+ls -lht ~/tmp/ansible-tools.tape* | head -3
+
+	.rw-rw-r-- osiris osiris 3.0 KB Fri Mar 31 10:23:43 2023 /home/osiris/tmp/ansible-tools.tape@2023-03-31.10:20
+	.rw-rw-r-- osiris osiris 3.7 KB Fri Mar 31 10:20:24 2023 /home/osiris/tmp/ansible-tools.tape~
+	.rw-rw-r-- osiris osiris 6.6 KB Thu Mar 30 14:59:29 2023 /home/osiris/tmp/ansible-tools.tape@2023-03-30.14:59
+
+#+END_EXAMPLE
+
+Haciendo un =diff= rápidamente veo qué perdi
+
+#+BEGIN_EXAMPLE
+
+delta ~/tmp/ansible-tools.tape@2023-03-31.10:20 ansible-tools.tape
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+home/osiris/tmp/ansible-tools.tape@2023-03-31.10:20 ⟶   ansible-tools.tape
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+───────────────────────────────────────────────────────────────────────────┐
+ansible-tools.tape:155: Type " grep -E '(name|version):' requirements.yml" │
+───────────────────────────────────────────────────────────────────────────┘
+│ 155│Sleep 5s                                                                  │ 155│Sleep 5s
+│ 156│Enter                                                                     │ 156│Enter
+│ 157│Sleep 8s                                                                  │ 157│Sleep 8s
+│ 158│                                                                          │    │
+│ 159│Type "# Working with AWX via JSONs"                                       │    │
+│ 160│Sleep 5s                                                                  │    │
+│ 161│Enter                                                                     │    │
+│ 162│Type " cd ~/awx"                                                          │    │
+│ 163│Sleep 5s                                                                  │    │
+│ 164│Enter                                                                     │    │
+│ 165│                                                                          │    │
+│ 166│Hide                                                                      │    │
+│ 167│Type " rm -f project/ansible_generic_v0.1.1.json"                         │    │
+│ 168│Enter                                                                     │    │
+│ 169│Show                                                                      │    │
+
+
+#+END_EXAMPLE
+
+Basta copiar el último /backup/ y asi restaurar el archivo que estaba
+escribiendo para recuperar y no perder nada:
+
+#+BEGIN_EXAMPLE
+
+cp ~/tmp/ansible-tools.tape@2023-03-31.10:20 ansible-tools.tape
+
+#+END_EXAMPLE
+
+** Tal vez te interese leer
+
+- [[file:2022-11-21-howto-quickly-write-git-commit-messages-using-vim.org][cómo escribir rápidamente mensajes de commit de git usando vim]]
+- [[file:2018-08-15-realizar-un-profile-en-vim-y-deshabilitar-foldexpr-markdown.org][Realizar un /profile/ en =vim= y deshabilitar =Foldexpr_markdown=]]
+- [[file:2011-09-30-ejecutar-shell-dentro-de-vim.org][Ejecutar un Shell dentro de Vim]]
