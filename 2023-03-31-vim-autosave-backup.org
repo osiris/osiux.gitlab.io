@@ -112,3 +112,7 @@ cp ~/tmp/ansible-tools.tape@2023-03-31.10:20 ansible-tools.tape
 - [[file:2022-11-21-howto-quickly-write-git-commit-messages-using-vim.org][cómo escribir rápidamente mensajes de commit de git usando vim]]
 - [[file:2018-08-15-realizar-un-profile-en-vim-y-deshabilitar-foldexpr-markdown.org][Realizar un /profile/ en =vim= y deshabilitar =Foldexpr_markdown=]]
 - [[file:2011-09-30-ejecutar-shell-dentro-de-vim.org][Ejecutar un Shell dentro de Vim]]
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/74caed617403b09545eabfef8b9a11d38dccdace][=2023-06-12 22:45=]] agregar /vim autosave backup/
