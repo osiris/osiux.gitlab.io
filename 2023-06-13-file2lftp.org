@@ -1,0 +1,169 @@
+#+TITLE:       =file2lftp=
+#+DESCRIPTION: Publicar un archivo por FTP rápidamente usando file2lftp
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Bash, automate, blog, ftp, hosting, lftp, PasswordStore, sync, SysAdmin, web
+#+DATE:        2023-06-13 18:18
+#+HTML_HEAD:   <meta property="og:title" content="=file2lftp=" />
+#+HTML_HEAD:   <meta property="og:description" content="Publicar un archivo por FTP rápidamente usando file2lftp" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-06-13" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-06-13-file2lftp.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/file2lftp.gif" />
+
+[[file:img/file2lftp.gif][file:tmb/file2lftp.gif]]
+
+** Publicar rápido!
+
+Hace un par de días, la /CI/ [fn:gitlab-ci] de /GitLab/ [fn:gitlab-ee]
+se rompió mal y por ello mi /blog/ [fn:osiux-blog] dejó de
+auto-regenerarse automáticamente luego de un =git push=.
+
+Entonces ahora tengo 2 opciones, o me pongo a ver porqué se rompió la
+/CI/ (parece ser que superé el límite de espacio en disco) o mitigo de
+alguna forma rápida sin mucho esfuerzo?
+
+** =lftp= es la posta!
+
+Recordé que hace un par de años había escrito un /script/ para realizar
+/mirrors/ de sitios /webs/ usando =lftp= [fn:lftp], que es un cliente
+/FTP/ pensado para usar desde /scripts/.
+
+Me tomó un par de minutos adaptarlo y funciona muy rápido!
+
+La idea es simple, estando en un directorio, quiero enviar un archivo a
+un sitio y no quiero tipear mucho mas que el comando y el nombre del
+archivo a enviar, simplemente tipear:
+
+#+BEGIN_EXAMPLE
+
+# file2lftp index.html
+
+index.html => osiux.com:web/index.html
+.
+.
+.
+.
+.
+
+9154 bytes transferred
+
+#+END_EXAMPLE
+
+Listo! ya está donde debe, sin definir el /server/, ni el /user/ ni la
+/pass/ de conexión!
+
+** Dónde esta la magia?
+
+Resulta que uso =pass= [fn:pass] /(Password Store)/ y las credenciales
+ya las tenía definidas de ante-mano, es decir que en la ruta
+=ftp/osiux.com/osirisosiux= esta almacenada la contraseña de manera
+cifrada usando /GPG/.
+
+Ahora bien, cómo sabe =file2lftp= [fn:file2lftp] dónde buscar la
+contraseña?
+
+Fácil, al iniciar el /script/ obtiene el /hostname/ del servidor remoto
+usando el /hostname/ del equipo donde estoy, todos mis equipos son parte
+del dominio =osiux.com= sin importar en qué lugar físico estén situados,
+entonces solo hay que buscar algún directorio que se llame =osiux.com=
+dentro de =~/.password-store= y eso hace el /script/.
+
+Al encontrar el directorio, busca el primer archivo =.gpg= y se queda
+con el nombre del archivo sin la extension, en este caso =osirisosiux=
+
+Luego verifica que el archivo especificado exista y genera la línea de
+comandos a ejecutar.
+
+Obviamente se puede especificar mediante variables otra opciones:
+
+| /variable/ | /default/                 | /example/     |
+|------------+---------------------------+---------------|
+| =FTP_HOST= | =hostname -d=             | =osiux.com=   |
+| =FTP_USER= | =find -file -iname *.gpg= | =osirisosiux= |
+| =FTP_RDIR= | =web=                     | =web=         |
+| =FTP_LDIR= | =$PWD=                    | =~/blog/=     |
+
+** un alias para todo!
+
+Aprovechando el uso de =alias= definí 4 nuevos comandos para agilizar la
+tareas y contar con casos específicos para otros directorios y/o sitios:
+
+#+BEGIN_SRC sh :session :results none :exports code
+
+alias file2blg='FTP_HOST=osiux.com     FTP_USER=osirisosiux file2lftp'
+alias file2img='FTP_HOST=osiux.com     FTP_USER=osirisosiux FTP_RDIR=web/img file2lftp'
+alias file2tmb='FTP_HOST=osiux.com     FTP_USER=osirisosiux FTP_RDIR=web/tmb file2lftp'
+alias file2pub='FTP_HOST=pub.osiux.com FTP_USER=osirispub   file2lftp'
+
+#+END_SRC
+
+*** =file2img= publicar en =osiux.com/img=
+
+#+BEGIN_EXAMPLE
+
+# file2img img/vim-autosave-backup.png
+img/vim-autosave-backup.png => osiux.com:web/img/img/vim-autosave-backup.png
+.
+.
+.
+.
+.
+
+1792644 bytes transferidos en 6 segundos. (278.4 KiB/s)                                
+
+#+END_EXAMPLE
+
+*** =file2tmb= publicar en =osiux.com/tmb/=
+
+#+BEGIN_EXAMPLE
+
+# file2tmb tmb/vim-autosave-backup.png
+tmb/vim-autosave-backup.png => osiux.com:web/tmb/tmb/vim-autosave-backup.png
+.
+.
+.
+.
+.
+
+306573 bytes transferidos en 1 segundo. (226.6 KiB/s)  
+
+#+END_EXAMPLE
+
+*** =file2pub= publicar en =pub.osiux.com=
+
+#+BEGIN_EXAMPLE
+
+# file2pub index.html 
+index.html => pub.osiux.com:web/index.html
+.
+.
+.
+.
+.
+
+376 bytes transferred 
+
+#+END_EXAMPLE
+
+** Tal vez te interese leer
+
+- [[file:2023-06-06-wifi2qr.org][=wifi2qr=]]
+- [[file:2023-02-27-git-auto-commit-and-push-using-crontab.org][git auto commit and push using crontab.org]]
+- [[file:2023-02-15-send-automatic-notifications-using-ntfy.org][enviar notificaciones automáticas usando =ntfy.sh=]]
+- [[file:2021-04-05-align2col.org][alinear textos en columnas]]
+- [[file:2021-03-17-historial-infinito-en-bash.org][historial infinito en =bash=]]
+- [[file:2014-04-28-semana-negra.org][Semana Negra - Sobrevivir en la shell]]
+
+[fn:gitlab-ci]   https://docs.gitlab.com/ee/ci/
+[fn:gitlab-ee]   https://docs.gitlab.com/omnibus/installation/
+[fn:osiux-blog]  https://osiux.com/
+[fn:lftp]        https://github.com/lavv17/lftp
+[fn:file2lftp]   https://gitlab.com/osiux/bin-bash-utils/-/raw/develop/file2lftp
+[fn:pass]        https://www.passwordstore.org/
