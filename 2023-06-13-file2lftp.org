@@ -168,6 +168,8 @@ index.html => pub.osiux.com:web/index.html
 [fn:file2lftp]   https://gitlab.com/osiux/bin-bash-utils/-/raw/develop/file2lftp
 [fn:pass]        https://www.passwordstore.org/
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/51ec4fdfe7a5721756593c322cfb6d3380e14251][=2023-06-14 00:26=]] agregar video file2lftp-640x360 en file2lftp
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/757be0ca947351bff7dce144d3f94530df74ccac][=2023-06-13 23:55=]] agregar file2lftp
