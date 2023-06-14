@@ -17,7 +17,11 @@
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 #+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/file2lftp-640x360.mp4" />
 
-[[file:img/file2lftp.gif][file:tmb/file2lftp.gif]]
+#+BEGIN_EXPORT html
+<video id="video" controls width="720" height="406" autoplay loop background="#000000" preload>
+  <source src="videos/file2lftp-1920x1080.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
 
 ** Publicar rápido!
 
