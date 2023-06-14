@@ -15,7 +15,7 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-06-13-file2lftp.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/file2lftp.gif" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/file2lftp-640x360.mp4" />
 
 [[file:img/file2lftp.gif][file:tmb/file2lftp.gif]]
 
