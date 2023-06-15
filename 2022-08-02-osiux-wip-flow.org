@@ -1,18 +1,23 @@
 #+TITLE:       OSiUX Work In Progress Flow
+#+DESCRIPTION: Acciones a realizar en el desarrollo de un proyecto de Software Libre
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Developer, Flow, GNULinux, Organize, ProjectManagement, SoftwareLibre, WiP
 #+DATE:        2022-08-02 01:10
 #+HTML_HEAD:   <meta property="og:title" content="OSiUX Work In Progress Flow" />
+#+HTML_HEAD:   <meta property="og:description" content="Acciones a realizar en el desarrollo de un proyecto de Software Libre" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2022-08-02" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-08-02-osiux-wip-flow.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/osiux-wip-flow.png" />
 
+[[file:img/osiux-wip-flow.png][file:tmb/osiux-wip-flow.png]]
 
 ** /promesa de fin de año/
 
