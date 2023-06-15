@@ -179,8 +179,10 @@ no deja de ser un =Work in Progress=, aunque incompleto me completa =<3=
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7971db335b63f09eafd9d51ffe635cab1a47cd9c][=2023-06-14 22:32=]] agregar DESCRIPTION, KEYWORDS, imagen y actualizar OpenGraph en /OSiUX WiP Flow/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4aa5043ada468cb91f7756f6dda85c4fd4139223][=2022-08-02 09:52=]] reemplazar links internos por externos en referencias de =OSiUX WiP Flow=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/198eeb2f93e0b5edea11e6f78f1bdefa20dbc9d0][=2022-08-02 09:40=]] agregar referencias en =OSiUX WiP Flow=
