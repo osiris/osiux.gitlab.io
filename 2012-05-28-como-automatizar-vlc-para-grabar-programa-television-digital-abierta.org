@@ -1,11 +1,14 @@
 #+TITLE:       Cómo automatizar VLC para grabar un programa de televisión digital abierta
+#+DESCRIPTION: Cómo automatizar VLC para grabar un programa de Televisión Digital Abierta
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Automate, geniatech, TDA, TV, VLC, xautomation, xte
 #+DATE:        2012-05-28 22:19
 #+HTML_HEAD:   <meta property="og:title" content="Cómo automatizar VLC para grabar un programa de televisión digital abierta" />
+#+HTML_HEAD:   <meta property="og:description" content="Cómo automatizar VLC para grabar un programa de Televisión Digital Abierta" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2012-05-28" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
