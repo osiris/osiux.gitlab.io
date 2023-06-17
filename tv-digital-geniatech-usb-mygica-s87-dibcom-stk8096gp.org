@@ -1,10 +1,21 @@
 #+TITLE:       TV Digital Geniatech USB MyGica S87 dibcom STK8096GP Debian Sidux
-#+DESCRIPTION: Instalar y configurar adaptador usb TDA
+#+DESCRIPTION: Instalar y configurar adaptador usb TDA Geniatech USB en Debian
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Debian, Geniatech, MyGica, TDA, TV, USB
+#+DATE:        2010-06-10
+#+HTML_HEAD:   <meta property="og:title" content="TV Digital Geniatech USB MyGica S87 dibcom STK8096GP Debian Sidux" />
+#+HTML_HEAD:   <meta property="og:description" content="Instalar y configurar adaptador usb TDA Geniatech USB en Debian" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2010-06-10" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/tv-digital-geniatech-usb-mygica-s87-dibcom-stk8096gp.png" />
 
 Gracias al post de *lukio* [fn:lukio] basado en el blog de *ubuntu
 peronista* [fn:ubuntuperonista] pude hacer funcionar el sintonizador
@@ -125,6 +136,6 @@ Si queremos visualizar los canales tenemos el programa VLC:
 Ahora ya somos felices, tenemos tele en la computadora y con *High
 Definition*.
 
-[fn:lukio] http://blog.luchorossi.com.ar/2010/06/10/tv-publica-nacional-y-popular-ole-ole/
-[fn:ubuntuperonista] http://ubuntuperonista.blogspot.com
-[fn:sidux] http://sidux.com/
+[fn:lukio]            https://web.archive.org/web/20110831142750/http://blog.luchorossi.com.ar/2010/06/10/tv-publica-nacional-y-popular-ole-ole/
+[fn:ubuntuperonista]  https://ubuntuperonista.blogspot.com/2010/06/como-configuro-el-sintonizador-de.html
+[fn:sidux]            http://www.aptosid.com/
