@@ -15,7 +15,7 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2013-04-06-huayra-grub-rescue-error-unknown-filesystem.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/tmb/1eslmc/2013-04-06-18-15-d81f34-super-grub2-disk.jpg" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/1eslmc/2013-04-06-18-15-d81f34-super-grub2-disk.jpg" />
 
 ** mmmm que rarooo...
 
@@ -27,7 +27,7 @@
    mensaje de error =grub rescue> error unknown filesystem=
 
    #+ATTR_HTML: :width "640" :height "480" :title huayra grub rescue error unknown filesystem
-   [[file:tmb/1eslmc/2013-04-06-17-45-a4bdc1-grub-rescue-error-unknown-filesystem.jpg]]
+   [[file:img/1eslmc/2013-04-06-17-45-a4bdc1-grub-rescue-error-unknown-filesystem.jpg][file:tmb/1eslmc/2013-04-06-17-45-a4bdc1-grub-rescue-error-unknown-filesystem.jpg]]
 
 ** linux.mod
 
@@ -42,7 +42,7 @@
    ignoramos por ahora.
 
    #+ATTR_HTML: :width "640" :height "480" :title huayra grub error file not found
-   [[file:tmb/1eslmc/2013-04-06-17-55-926d69-grub-error-file-not-found.jpg]]
+   [[file:img/1eslmc/2013-04-06-17-55-926d69-grub-error-file-not-found.jpg][file:tmb/1eslmc/2013-04-06-17-55-926d69-grub-error-file-not-found.jpg]]
 
 ** super grub2 disk al rescate de grub
 
@@ -85,12 +85,12 @@
    encontró nada de nada:
 
    #+ATTR_HTML: :width "640" :height "480" :title huayra not found any grub2 installation
-   [[file:tmb/1eslmc/2013-04-06-18-15-caef04-not-found-any-grub2-installation.jpg]]
+   [[file:img/1eslmc/2013-04-06-18-15-caef04-not-found-any-grub2-installation.jpg][file:tmb/1eslmc/2013-04-06-18-15-caef04-not-found-any-grub2-installation.jpg]]
 
    En el segundo intento tuvimos éxito!:
 
    #+ATTR_HTML: :width "640" :height "480" :title huayra super grub2 disk
-   [[file:tmb/1eslmc/2013-04-06-18-15-d81f34-super-grub2-disk.jpg]]
+   [[file:img/1eslmc/2013-04-06-18-15-d81f34-super-grub2-disk.jpg][file:tmb/1eslmc/2013-04-06-18-15-d81f34-super-grub2-disk.jpg]]
 
 ** instalando grub
 
@@ -102,14 +102,14 @@
    #+END_EXAMPLE
 
    #+ATTR_HTML: :width "640" :height "480" :title huayra grub install
-   [[file:tmb/1eslmc/2013-04-06-18-18-f4b7dd-grub-install.jpg]]
+   [[file:img/1eslmc/2013-04-06-18-18-f4b7dd-grub-install.jpg][file:tmb/1eslmc/2013-04-06-18-18-f4b7dd-grub-install.jpg]]
 
 ** booteando Huayra
 
    A festejar /Huayra/ salió andando de una, "la dire" contenta:
 
    #+ATTR_HTML: :width "640" :height "480" :title huayra
-   [[file:tmb/1eslmc/2013-04-06-18-19-9d2385-huayra.jpg]]
+   [[file:img/1eslmc/2013-04-06-18-19-9d2385-huayra.jpg][file:tmb/1eslmc/2013-04-06-18-19-9d2385-huayra.jpg]]
 
 ** compartir es bueno
 
@@ -125,7 +125,7 @@
    saben como solucionarlo en pocos pasos.
 
    #+ATTR_HTML: :width "640" :height "480" :title huayra compartir es bueno
-   [[file:tmb/1eslmc/2013-04-06-18-41-662982-compartir.jpg]]
+   [[file:img/1eslmc/2013-04-06-18-41-662982-compartir.jpg][file:tmb/1eslmc/2013-04-06-18-41-662982-compartir.jpg]]
 
 [fn:huayra]               https://huayra.educar.gob.ar/
 [fn:1eslmc]               [[file:2013-04-06-primer-encuentro-software-libre-monte-caseros.org]]
