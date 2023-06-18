@@ -1,18 +1,21 @@
 #+TITLE:       huayra grub rescue error unknown filesystem
+#+DESCRIPTION: Reparar Grub con error unknown filesystem usando SuperGrub2Disk
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Boot, FileSystem, GNULinux, Grub, Huayra, SuperGrub2Disk
 #+DATE:        2013-04-06 09:59
 #+HTML_HEAD:   <meta property="og:title" content="huayra grub rescue error unknown filesystem" />
+#+HTML_HEAD:   <meta property="og:description" content="Reparar Grub con error unknown filesystem usando SuperGrub2Disk" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2013-04-06" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2013-04-06-huayra-grub-rescue-error-unknown-filesystem.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/tmb/1eslmc/2013-04-06-18-15-d81f34-super-grub2-disk.jpg" />
 
 ** mmmm que rarooo...
 
@@ -24,7 +27,7 @@
    mensaje de error =grub rescue> error unknown filesystem=
 
    #+ATTR_HTML: :width "640" :height "480" :title huayra grub rescue error unknown filesystem
-   file:tmb/1eslmc/2013-04-06-17-45-a4bdc1-grub-rescue-error-unknown-filesystem.jpg
+   [[file:tmb/1eslmc/2013-04-06-17-45-a4bdc1-grub-rescue-error-unknown-filesystem.jpg]]
 
 ** linux.mod
 
@@ -124,16 +127,16 @@
    #+ATTR_HTML: :width "640" :height "480" :title huayra compartir es bueno
    [[file:tmb/1eslmc/2013-04-06-18-41-662982-compartir.jpg]]
 
-[fn:huayra] http://huayra.conectarigualdad.gob.ar/
-[fn:1eslmc] [[file:2013-04-06-primer-encuentro-software-libre-monte-caseros.org]]
-[fn:rescatux] http://www.supergrubdisk.org/rescatux/
-[fn:sg2disk] http://www.supergrubdisk.org/super-grub2-disk/
-[fn:unetbootin] http://unetbootin.sourceforge.net/
-[fn:wndw] http://wndw.net
-[fn:redeslibres] http://wiki.redeslibres.org
-[fn:huayra10] http://huayra.educ.gob.ar/huayra-VR-1.0.iso
-[fn:huayra10live] http://huayra.educ.gob.ar/huayra-live-mate-1.0.iso
-[fn:codigoscooperativos] http://www.gcoop.coop/codigos-cooperativos
+[fn:huayra]               https://huayra.educar.gob.ar/
+[fn:1eslmc]               [[file:2013-04-06-primer-encuentro-software-libre-monte-caseros.org]]
+[fn:rescatux]             https://www.supergrubdisk.org/rescatux/
+[fn:sg2disk]              https://www.supergrubdisk.org/super-grub2-disk/
+[fn:unetbootin]           http://unetbootin.github.io/
+[fn:wndw]                 https://wndw.net/
+[fn:redeslibres]          https://web.archive.org/web/20111222054945/http://www.redeslibres.org:80/
+[fn:huayra10]             https://huayra.educar.gob.ar/descargas/
+[fn:huayra10live]         https://archive.org/download/huayra-live-mate-1.0-comunidad/huayra-live-mate-1.0-comunidad.iso
+[fn:codigoscooperativos]  https://www.youtube.com/watch?v=sMI1HA9mOmc
 
 ** ChangeLog
 
