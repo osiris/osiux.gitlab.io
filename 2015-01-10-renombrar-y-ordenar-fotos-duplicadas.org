@@ -1,11 +1,14 @@
 #+TITLE:       Renombrar y Ordenar Fotos Duplicadas
+#+DESCRIPTION: Renombrar y Ordenar Fotos Duplicadas usando media-bash-utils
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Bash, Consola, Duplicate, Fotos, JPEG, Order, Sort, Terminal, tty
 #+DATE:        2015-01-10 12:28
 #+HTML_HEAD:   <meta property="og:title" content="Renombrar y Ordenar Fotos Duplicadas" />
+#+HTML_HEAD:   <meta property="og:description" content="Renombrar y Ordenar Fotos Duplicadas usando media-bash-utils" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2015-01-10" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
