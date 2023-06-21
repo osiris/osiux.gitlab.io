@@ -1,19 +1,23 @@
 #+TITLE:       bookmarks vs links.txt
+#+DESCRIPTION: Registrar bookmarks en texto plano links.txt
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, bookmarks, Favoritos, links, SimpleTask, TextoPlano, TODO, txt
 #+DATE:        2021-01-29 20:10
 #+HTML_HEAD:   <meta property="og:title" content="bookmarks vs links.txt" />
+#+HTML_HEAD:   <meta property="og:description" content="Registrar bookmarks en texto plano links.txt" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2021-01-29" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021-01-29-bookmarks-vs-links.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/links-txt.jpg" />
 
-
+[[file:img/links-txt.jpg][file:tmb/links-txt.jpg]]
 
 ** los /bookmarks/ no son mis favoritos
 
@@ -26,18 +30,16 @@ inconstancia.
 
 ** donde guardar mis /URLs/ favoritas?
 
-Fiel al principio /KISS/ 
-([[https://es.m.wikipedia.org/wiki/Principio_KISS][Keep It Simple Stupid!]])
-, hace un par de años comencé a almacenar las /URLs/ en un simple
-archivo de texto plano llamado =links.txt=, inicialmente era eso, una
-lista de /links/ sin orden alguno, fáciles de encontrar con la gran
-ventaja de poder utilizar =grep= y /expresiones regulares/ para
-realizar búsquedas, luego lo convertí en =links.org= intentando
-mantener un orden por categorías, lo cual me fue muy difícil de
-Mantener porque soy malísimo categorizando (bah, no tolero mas de una
-categoría, como las pelis de /netflix/, cómo pueden ser al mismo tiempo
-"suspenso insostenible" y "dramático", perdón, me fui de tema, pero a
-alguien se lo tenia que decir).
+Fiel al principio /KISS/ [fn:kiss] /Keep It Simple Stupid!/, hace un
+par de años comencé a almacenar las /URLs/ en un simple archivo de texto
+plano llamado =links.txt=, inicialmente era eso, una lista de /links/
+sin orden alguno, fáciles de encontrar con la gran ventaja de poder
+utilizar =grep= y /expresiones regulares/ para realizar búsquedas, luego
+lo convertí en =links.org= intentando mantener un orden por categorías,
+lo cual me fue muy difícil de Mantener porque soy malísimo categorizando
+(bah, no tolero mas de una categoría, como las pelis de /netflix/, cómo
+pueden ser al mismo tiempo "suspenso insostenible" y "dramático",
+perdón, me fui de tema, pero a alguien se lo tenia que decir).
 
 ** /links/ en movimiento...
 
@@ -51,22 +53,20 @@ sincronizarlas con el listado de la compu...
 
 ** =todo.txt= vs =links.txt=
 
-Como resultado de leer el libro 
-[[file:gtd-gething-this-done.org][/Getting This Done/]] 
-(gracias a [[https://examplelab.com.ar][Hugo Ruscitti]])
-termine implementando un montón de utilidades para básicamente
-organizarme mediante listas de tareas y lo mas simple desde una consola
-es utilizar [[http://todotxt.org/][=todo.txt=]], un simple archivo de
-texto plano con una línea por tarea, que puede opcionalmente tener una
-fecha y uno o mas /tags/.
+Como resultado de leer el libro /Getting This Done/ [fn:GTD] (gracias a
+/Hugo Ruscitti/ [fn:hugoruscitti]) termine implementando un montón de
+utilidades para básicamente organizarme mediante listas de tareas y lo
+mas simple desde una consola es utilizar =todo.txt= [fn:todo-txt], un
+simple archivo de texto plano con una línea por tarea, que puede
+opcionalmente tener una fecha y uno o mas /tags/.
 
-Y que tienen que ver las tareas con las /URLs/? Simple, hay una
-excelente aplicación para editar =todo.txt= en 
-[[https://f-droid.org/en/packages/nl.mpcjanssen.simpletask/][/f-droid/]] y es
-[[https://github.com/mpcjanssen/simpletask-android][simpletask]]
+Y que tienen que ver las tareas con las /URLs/?
+
+Simple, hay una excelente aplicación para editar archivos =todo.txt= en
+/f-droid/ [fn:simpletask-fdroid] y es =simpletask= [fn:simpletask]
 
 Ya la estaba utilizando y su formato contaba con todo lo que necesitaba,
-asi que convertí =links.org= a =links.txt= en 3 simples columnas
+así que convertí =links.org= a =links.txt= en 3 simples columnas
 =YYYY-MM-DD URL +tag= y resulto muy versátil, porque /simpletask/
 simplifica la elección de /tags/ existentes, crear nuevos y  permite
 buscar y filtrar con extrema facilidad.
@@ -75,9 +75,8 @@ buscar y filtrar con extrema facilidad.
 
 Había varias maneras de hacerlo y adivinen que? Opté por utilizar un
 repositorio /git/ para almacenar =links.txt= y mantenerlo sincronizado
-con la compu, y esto fue muy simple utilizando
-[[https://github.com/termux/termux-app][=termux=]] 
-(también disponible en [[https://f-droid.org/en/packages/com.termux/][/f-droid/]])
+con la /compu/, y esto fue muy simple utilizando =termux= [fn:termux]
+(también disponible en /f-droid/ [fn:termux-fdroid])
 , porque no solo me permite utilizando comandos =git=, es una terminal
 completa y podes hacer lo que necesites, en este momento estoy editando
 este articulo desde =vim=, dentro de un =tmux= en un servidor remoto,
@@ -89,29 +88,38 @@ Cada tanto tengo ganas de compartir algún link y me pareció lo mas
 sensato directamente compartir mi =links.txt= con el mundo! Solo
 necesitaba convertirlos a /HTML/ asi que escribí otro /script bash/ para
 pasarlo a [[file:links.org][=links.org=]], en formato =org-mode= y asi
-=emacs= mediante
-[[file:2019-04-21-gitlab-ci-org-mode-publish.org][se ocupa de exportarlo]]
+=emacs= mediante /se ocupa de exportarlo/ [fn:gitlab-ci-blog]
 correctamente, solo que las /URLs/ no siempre son muy bonitas e
 interesantes y terminé obteniendo el titulo de cada /link/ (lo cual no
 es tan simple) mejorando la presentación, ordenando las categorías,
-eliminando duplicados, lidiando con /UTF-8/, emojis, etc
+eliminando duplicados, lidiando con /UTF-8/, /emojis/, etc
 
-Todo esto esta disponible y libre! en el repositorio
-[[https://gitlab.com/osiux/links-bash-utils][links-bash-utils]]
-por si a alguien le interesa utilizar
-[[https://gitlab.com/osiux/links-bash-utils/-/raw/master/url2title][=url2title=]] o 
-[[https://gitlab.com/osiux/links-bash-utils/-/raw/master/links2org][=links2org=]].
+Todo esto esta disponible y libre! En el repositorio =links-bash-utils=
+[fn:links-bash-utils] por si a alguien le interesa descargar y utilizar
+=url2title= [fn:url2title] o =links2org= [fn:links2org].
 
 ** y que pasa cuando los /links/ den =404= ?
 
 Esto es todo un tema y hace mucho me tomaba el trabajo de convertir a
 =.txt= cada post que me parecía interesante para no perderlo, pero esa
-solución no escala porque registro muchos links, asi que ya estoy
+solución no escala porque registro muchos /links/, así que ya estoy
 probando diferentes herramientas para generar mi propio /archive/ y
 mantener un /mirror/ de cada /link/, y "en breve" voy a escribir al
 respecto.
 
 
+[fn:kiss]               https://es.m.wikipedia.org/wiki/Principio_KISS
+[fn:GTD]                file:gtd-gething-this-done.org
+[fn:hugoruscitti]       https://examplelab.com.ar
+[fn:todo-txt]           http://todotxt.org/
+[fn:simpletask-fdroid]  https://f-droid.org/en/packages/nl.mpcjanssen.simpletask/
+[fn:simpletask]         https://github.com/mpcjanssen/simpletask-android
+[fn:termux]             https://github.com/termux/termux-app
+[fn:termux-fdroid]      https://f-droid.org/en/packages/com.termux/
+[fn:gitlab-ci-blog]     file:2019-04-21-gitlab-ci-org-mode-publish.org
+[fn:links-bash-utils]   https://gitlab.com/osiux/links-bash-utils
+[fn:url2title]          https://gitlab.com/osiux/links-bash-utils/-/raw/master/url2title
+[fn:links2org]          https://gitlab.com/osiux/links-bash-utils/-/raw/master/links2org
 
 ** ChangeLog
 
