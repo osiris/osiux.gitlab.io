@@ -121,8 +121,10 @@ respecto.
 [fn:url2title]          https://gitlab.com/osiux/links-bash-utils/-/raw/master/url2title
 [fn:links2org]          https://gitlab.com/osiux/links-bash-utils/-/raw/master/links2org
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e08ca7f834c6c3083d37d27340071a9406233ba9][=2023-06-20 23:21=]] Agregar DESCRIPTION, KEYWORDS, actualizar OpenGraph y mover links a footnotes en /bookmarks vs links.txt/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/78b7254030feaa83b9279622914b2f708bfbd016][=2021-02-02 18:30=]] corrijo link roto a /gitlab-ci org-mode publish/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1b40b6045d031a7e1f19675f330db6b39f8ba4b4][=2021-02-02 18:07=]] agregar URLs de referencia a aplicaciones mencionadas
