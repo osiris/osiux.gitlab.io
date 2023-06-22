@@ -1,0 +1,189 @@
+#+TITLE:       bullet journal vim =cal-bash-utils=
+#+DESCRIPTION: Integrar Bullet Journal entre ViM y Calendar BASH Utils
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Vim, Bash, Bullet, Cal, Calendar, Journal, Utils
+#+DATE:        2023-06-21 17:15
+#+HTML_HEAD:   <meta property="og:title" content="bullet journal vim =cal-bash-utils=" />
+#+HTML_HEAD:   <meta property="og:description" content="Integrar Bullet Journal entre ViM y Calendar BASH Utils" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-06-21" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-06-21-bullet-journal-vim-cal-bash-utils.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/cal2jrnl/cal2jrnl-highlight.png" />
+
+** Yendo del texto plano al papel
+
+Hace años que pruebo diferentes metodologías para registrar tareas, si
+bien existen diferentes aplicaciones y probé varias, siempre me resultó
+más fácil recordarlas y tener una visión global al manejarlas en papel.
+
+Si bien durante varios años usé =org-mode= [fn:org-mode], hace tiempo
+que estoy registrando los eventos y tareas que tienen fecha en un
+archivo de texto plano =~/.calendar= [fn:calendar-vs-paper] y luego
+mediante algunos /scripts/ y el uso de =pcal= los puedo convertir a
+papel para usar en esos momentos /offline/ mientras disfruto de un café
+y despejo mi mente.
+
+** /Bullet Journal/
+
+Tuve varios intentos de implementar =Bullet Journal= [fn:bullet-journal]
+en papel, creo que se debe a que no tengo tanto tiempo libre para
+garabatear, un poco de inconstancia y que en parte me cuesta despegar
+del teclado.
+
+Hace unos días descubrí =Plain Text Journaling= [fn:plain-text-journal],
+una implementación en texto plano usando =vim= [fn:vim] y quedé
+maravillado.
+
+** /PoC/
+
+Mirando un poco el /post/ vi que podía aprovechar la estructura de
+directorio que ya uso en mi =jrnl= [fn:txt-bash-jrnl] /journal/
+
+#+BEGIN_EXAMPLE
+
+# tree -L 1 -d ~/.jrnl
+/home/osiris/.jrnl
+├── 2017
+├── 2018
+├── 2019
+├── 2020
+├── 2021
+├── 2022
+└── 2023
+
+8 directories
+
+#+END_EXAMPLE
+
+Para probar el concepto, abrí el archivo de este mes, =vi
+~/.jrnl/2023/06.jrnl= y e ingresé el calendario mediante el comando =r!
+cal=
+
+#+BEGIN_EXAMPLE
+
+     June 2023
+Su Mo Tu We Th Fr Sa
+             1  2  3
+ 4  5  6  7  8  9 10
+11 12 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28 29 30
+
+
+WEEK 1 ---------------
+
+× done test
+· todo test
+→ move test
+∘ event test
+‐ note test
+
+#+END_EXAMPLE
+
+*** /highlight syntax/
+
+El siguiente paso era contar con resaltado de sintaxis, definiendo en
+=~/.vimrc= la siguiente configuración:
+
+#+BEGIN_EXAMPLE
+augroup JournalSyntax
+  autocmd!
+  autocmd BufReadPost *.jrnl set filetype=journal
+  autocmd BufReadPost *.jrnl syntax match JournalAll /.*/
+  autocmd BufReadPost *.jrnl syntax match JournalDone /^× .*/
+  autocmd BufReadPost *.jrnl syntax match JournalTodo /^· .*/
+  autocmd BufReadPost *.jrnl syntax match JournalEvent /^∘ .*/
+  autocmd BufReadPost *.jrnl syntax match JournalNote /^‐ .*/
+  autocmd BufReadPost *.jrnl syntax match JournalMoved /^> .*/
+  autocmd BufReadPost *.jrnl syntax match JournalHeader /^\<\u\+\>.*/
+  autocmd BufReadPost *.jrnl highlight JournalAll    ctermfg=7
+  autocmd BufReadPost *.jrnl highlight JournalTodo   ctermfg=1
+  autocmd BufReadPost *.jrnl highlight JournalHeader ctermfg=2
+  autocmd BufReadPost *.jrnl highlight JournalDone   ctermfg=8
+  autocmd BufReadPost *.jrnl highlight JournalEvent  ctermfg=3
+  autocmd BufReadPost *.jrnl highlight JournalMoved  ctermfg=5
+  autocmd BufReadPost *.jrnl highlight JournalNote   ctermfg=5
+  autocmd BufReadPost *.jrnl highlight VertSplit     ctermfg=0 ctermbg=0
+augroup END
+#+END_EXAMPLE
+
+*** /snippet to bullets/
+
+Y para agilizar el ingreso de los diferentes /bullets/ adapté mis
+/snippets/ agregand a =~/.vim/snippets/_.snippets=
+
+#+BEGIN_EXAMPLE
+snippet todo
+	·
+snippet done
+	×
+snippet note
+	‐
+snippet event
+	∘
+snippet move
+	→
+#+END_EXAMPLE
+
+Entonces basta con tipear =done= y presionar =TAB= para obtener =×= =:)=
+Ahora al editar con =vim= un archivo =*.jrnl= tiene toda la onda!
+
+[[file:img/cal2jrnl/cal2jrnl-highlight.png][file:tmb/cal2jrnl/cal2jrnl-highlight.png]]
+
+** /automate bullet journal from calendar/
+
+Se me ocurrió aprovechar que ya tengo registradas las tareas y eventos
+en =~/.calendar=, solo debía agregar los /bullets/ y escribir algún
+/script/ que se ocupe de automatizar la escritura de cada mes en formato
+/Bullet Journal/ =;)=
+
+*** /month/
+
+El primer /script/ fue =caljmonth= que se ocupa de obtener las tareas y
+eventos del mes actual y también acepta el número de cualquier otro mes
+guardando un archivo =~/.jrnl/YYYY/MM.jrnl= y para visualizar y/o editar
+este archivo el comando es =calvmonth=.
+
+[[file:img/cal2jrnl/cal2jrnl-calvmonth.png][file:tmb/cal2jrnl/cal2jrnl-calvmonth.png]]
+
+*** /months/
+
+En muchas ocasiones conviene visualizar más de un mes, es decir el
+actual y algunos más y para esto esta el comando =calvmonths=.
+
+[[file:img/cal2jrnl/cal2jrnl-calvmonths.png][file:tmb/cal2jrnl/cal2jrnl-calvmonths.png]]
+
+*** /year/
+
+Finalmente si necesito visualizar el mes actual hasta que termine el
+año, el comando que se ocupa de generar los archivos es =caljyear= y
+para visualizar =calvyear=
+
+[[file:img/cal2jrnl/cal2jrnl-calvyear.png][file:tmb/cal2jrnl/cal2jrnl-calvyear.png]]
+
+** texto plano
+
+Una vez más, utilizar archivos de texto plano es una gran solución, ya
+que es fácil de integrar y convertir, rápido de adaptar a cualquier
+situación, me tomó menos de 1 día crear los /scripts/ y ya estoy
+disfrutando la solución y seguramente con el tiempo iré incorporando
+mejoras en =cal-bash-utils= [fn:cal-bash-utils]
+
+- [[file:2023-02-16-terminal-calendar-versus-paper-calendar.org][Calendario de Terminal versus Calendario en Papel]]
+- [[file:2018-01-01-reemplazando-orgmode-por-txt-bash-jrnl.org][Reemplazando *Org-mode* por =txt-bash-jrnl=]]
+- [[file:capturar-ideas-en-papel-de-moleskine-hispterpda-pocketmod-y-libreta-artesanal.org][Capturar ideas en papel: de moleskine, hispterpda, pocketmod y libreta artesanal]]
+
+[fn:org-mode]            https://orgmode.org/
+[fn:calendar-vs-paper]   file:2023-02-16-terminal-calendar-versus-paper-calendar.org
+[fn:bullet-journal]      https://bulletjournal.com/
+[fn:plain-text-journal]  https://peppe.rs/posts/plain_text_journaling/
+[fn:vim]                 https://www.vim.org/
+[fn:txt-bash-jrnl]       https://gitlab.com/osiux/txt-bash-jrnl/
+[fn:cal-bash-utils]      https://gitlab.com/osiux/cal-bash-utils/
