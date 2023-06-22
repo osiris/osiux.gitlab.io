@@ -187,3 +187,7 @@ mejoras en =cal-bash-utils= [fn:cal-bash-utils]
 [fn:vim]                 https://www.vim.org/
 [fn:txt-bash-jrnl]       https://gitlab.com/osiux/txt-bash-jrnl/
 [fn:cal-bash-utils]      https://gitlab.com/osiux/cal-bash-utils/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/6e127b03c988bf86062ab77e41899bd9d7dcee03][=2023-06-22 00:58=]] agregar bullet journal vim =cal-bash-utils=
