@@ -53,8 +53,10 @@ necesario utilizar el comando =certutil= [fn:certutil]
 [fn:nss-db]   https://wiki.mozilla.org/NSS_Shared_DB
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/b09a008d8ab9552b6ab0bc6ee7c1aa725cd56c15][=2023-06-22 22:07=]] agregar DESCRIPTION, KEYWORDS y actualizar OpenGraph en /Instalar una CA en un perfil de Firefox desde la consola/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/d646ac171a7de5eaffc102b57d5203246ab48409][=2019-06-11 10:22=]] Corregir instalar CA en Firefox
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a84901241c410989200a824c61bd8eb9260c1623][=2019-04-22 22:46=]] Agregar Instalar CA en Firefox desde la terminal en texto-plano!
