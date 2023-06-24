@@ -192,6 +192,8 @@ mejoras en =cal-bash-utils= [fn:cal-bash-utils]
 [fn:caljyear]            https://gitlab.com/osiux/cal-bash-utils/-/raw/develop/caljyear
 [fn:calvyear]            https://gitlab.com/osiux/cal-bash-utils/-/raw/develop/calvyear
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1a587e60462eaecdc5efb0405b944235e93fd208][=2023-06-24 20:00=]] agregar footnotes a caljmonth, calvmonth, caljyear y calvyear en /bullet journal vim =cal-bash-utils=/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/6e127b03c988bf86062ab77e41899bd9d7dcee03][=2023-06-22 00:58=]] agregar bullet journal vim =cal-bash-utils=
