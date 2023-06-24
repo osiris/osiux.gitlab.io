@@ -146,10 +146,10 @@ en =~/.calendar=, solo debía agregar los /bullets/ y escribir algún
 
 *** /month/
 
-El primer /script/ fue =caljmonth= que se ocupa de obtener las tareas y
-eventos del mes actual y también acepta el número de cualquier otro mes
-guardando un archivo =~/.jrnl/YYYY/MM.jrnl= y para visualizar y/o editar
-este archivo el comando es =calvmonth=.
+El primer /script/ fue =caljmonth= [fn:caljmonth] que se ocupa de
+obtener las tareas y eventos del mes actual y también acepta el número
+de cualquier otro mes guardando un archivo =~/.jrnl/YYYY/MM.jrnl= y para
+visualizar este archivo el comando es =calvmonth= [fn:calvmonth].
 
 [[file:img/cal2jrnl/cal2jrnl-calvmonth.png][file:tmb/cal2jrnl/cal2jrnl-calvmonth.png]]
 
@@ -163,8 +163,8 @@ actual y algunos más y para esto esta el comando =calvmonths=.
 *** /year/
 
 Finalmente si necesito visualizar el mes actual hasta que termine el
-año, el comando que se ocupa de generar los archivos es =caljyear= y
-para visualizar =calvyear=
+año, el comando que se ocupa de generar los archivos de cada mes es
+=caljyear= [fn:caljyear] y para visualizar usar =calvyear= [fn:calvyear]
 
 [[file:img/cal2jrnl/cal2jrnl-calvyear.png][file:tmb/cal2jrnl/cal2jrnl-calvyear.png]]
 
@@ -187,6 +187,10 @@ mejoras en =cal-bash-utils= [fn:cal-bash-utils]
 [fn:vim]                 https://www.vim.org/
 [fn:txt-bash-jrnl]       https://gitlab.com/osiux/txt-bash-jrnl/
 [fn:cal-bash-utils]      https://gitlab.com/osiux/cal-bash-utils/
+[fn:caljmonth]           https://gitlab.com/osiux/cal-bash-utils/-/raw/develop/caljmonth
+[fn:calvmonth]           https://gitlab.com/osiux/cal-bash-utils/-/raw/develop/calvmonth
+[fn:caljyear]            https://gitlab.com/osiux/cal-bash-utils/-/raw/develop/caljyear
+[fn:calvyear]            https://gitlab.com/osiux/cal-bash-utils/-/raw/develop/calvyear
 
 ** ChangeLog
 
