@@ -1,18 +1,21 @@
 #+TITLE:       /reStructuredText/ texto re-estrucuturado
+#+DESCRIPTION: reStructuredText texto re-estrucuturado
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, plaintext, reStructuredText, rst, TextoPlano
 #+DATE:        2021-02-06 20:02
 #+HTML_HEAD:   <meta property="og:title" content="/reStructuredText/ texto re-estrucuturado" />
+#+HTML_HEAD:   <meta property="og:description" content="reStructuredText texto re-estrucuturado" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2021-02-06" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/restructuredtext-texto-re-estructurado.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/reStructuredText.png" />
 
 ** reST
 
@@ -26,7 +29,7 @@ base de wordpress son idénticos, y teniendo los archivos se puede
 realizar una búsqueda de posts usando grep y otros comando básicos de
 consola, también se puede dejar público el archivo /reST/ por web por
 las dudas estará siempre disponible en
-http://pub.osiux.com/restructuredtext/reStructuredText.txt
+http://pub.osiux.com/reStructuredText.txt
 
 ** Qué es reStructuredText
 
