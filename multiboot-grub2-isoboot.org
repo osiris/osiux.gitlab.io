@@ -1,14 +1,17 @@
 #+TITLE:       Muchas Distros en un pendrive = Multiboot Grub2 ISOBoot
+#+DESCRIPTION: Generar un pendrive con varias distros GNU/Linux
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    SysAdmin, Boot, Distro, GNULinux, Grub, ISO, Pendrive
 #+DATE:        2014-04-23 00:22
-#+HTML_HEAD:   <meta property="og:title" content="Muchas Distros en un pendrive = Multiboot Grub2 ISOBoot" />
+#+HTML_HEAD:   <meta property="og:title" content="" />
+#+HTML_HEAD:   <meta property="og:description" content="Generar un pendrive con varias distros GNU/Linux" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
-#+HTML_HEAD:   <meta property="og:article:published_time" content="2014-04-23" />
-#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
+#+HTML_HEAD:   <meta property="og:article:author" content="" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/multiboot-grub2-isoboot.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
@@ -147,9 +150,9 @@
    #+ATTR_HTML: :width 640 :height 360 :title Multiboot Grub2 ISOBoot
    file:img/multiboot-grub2-isoboot.png
 
-[fn:huayra] http://huayra.conectarigualdad.gob.ar
-[fn:luks] http://code.google.com/p/cryptsetup
-[fn:tails] https://tails.boum.org
-[fn:gnulinux] http://getgnulinux.org
-[fn:multiboot] http://www.pendrivelinux.com/boot-multiple-iso-from-usb-via-grub2-using-linux/
-[fn:isoboot] https://help.ubuntu.com/community/Grub2/ISOBoot/Examples
+[fn:huayra]     https://huayra.educar.gob.ar/
+[fn:luks]       https://gitlab.com/cryptsetup/cryptsetup
+[fn:tails]      https://tails.boum.org/
+[fn:gnulinux]   https://getgnulinux.org/
+[fn:multiboot]  https://www.pendrivelinux.com/boot-multiple-iso-from-usb-via-grub2-using-linux/
+[fn:isoboot]    https://help.ubuntu.com/community/Grub2/ISOBoot/Examples
