@@ -245,7 +245,9 @@ que las voy necesitando.
 [fn:gl-issues]           https://gitlab.com/gcoop-libre/gitlab-bash-utils/-/issues
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/83c539767da572a2f62c2a127b8b8a0f05f7a5e4][=2023-06-26 22:03=]] agregar DESCRIPTION, KEYWORDS y actualizar OpenGraph en /Cómo usar GitLab desde la línea de comandos/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0b200766813009e7d95a63f31e8e48930d7baae4][=2022-10-11 10:05=]] agregar cómo usar /GitLab/ desde la línea de comandos
