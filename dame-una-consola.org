@@ -1,18 +1,21 @@
 #+TITLE:       dame una consola
+#+DESCRIPTION: Charla Dame una Consola, introducción a la consola, shell, terminal, emulador de terminal en GNU/Linux
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Bash, Consola, GNULinux, shell, terminal, tty, Talks
 #+DATE:        2010-11-26 02:32
-#+HTML_HEAD:   <meta property="og:title" content="dame una consola" />
+#+HTML_HEAD:   <meta property="og:title" content="" />
+#+HTML_HEAD:   <meta property="og:description" content="Introducción a la consola, shell, terminal, emulador de terminal en GNU/Linux" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
-#+HTML_HEAD:   <meta property="og:article:published_time" content="2010-11-26" />
-#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
+#+HTML_HEAD:   <meta property="og:article:author" content="" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/dame-una-consola.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/terminal.png" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/2010-11-26-SysAdmin-OSiUX-Experts-dame-una-consola.png" />
 
 
 [[file:img/terminal.png]]
@@ -413,9 +416,9 @@
      prometo responder lo antes posible.
    - http://pub.osiux.com/charlas Pueden descargar ésta y otras
      charlas, incluído el código fuente CC-BY-SA.
-   - http://pub.osiux.com/charlas/dame-una-consola-slides.pdf
-   - http://osiux.com Mucha data útil (muy poco de mi autoría),
-     archivos =TXT= en formato =re-StructuredText=.
+   - https://pub.osiux.com/charlas/dame-una-consola-slides.pdf
+   - https://osiux.com/ mucha data útil generada desde archivos de texto
+     plano en formato =org-mode=.
 
    [[file:img/gcoop.png]]
 
