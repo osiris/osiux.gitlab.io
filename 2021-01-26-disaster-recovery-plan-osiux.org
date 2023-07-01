@@ -183,8 +183,10 @@ horas.
 [fn:pass]                 https://www.passwordstore.org/
 [fn:direplos]             https://gitlab.com/osiux/direplos
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1d83b4c68cef0bbb6780267a20caf6cc03664a1b][=2023-07-01 01:37=]] agregar DESCRIPTION, KEYWORDS, actualizar OpenGraph y footnotes en /DIsaster REcovery PLan OSiux/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/219b9627815113f004c200c1554b70318998e9e7][=2021-01-31 04:18=]] corrijo link y elimino changelog manual
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0310b27516cc6f8280a1d561f3f6969f13aaad5c][=2021-01-31 04:49=]] corrección ortográfica y de sintaxis
