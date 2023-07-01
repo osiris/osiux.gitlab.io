@@ -1,27 +1,33 @@
 #+TITLE:       DIsaster REcovery PLan OSiux
+#+DESCRIPTION: Plan de recuperación de desastres usando DiRePlOs (Disaster Recovery Plan Osiux)
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    SysAdmin, Backup, Debian, Disaster, DRP, Plan, Recovery
 #+DATE:        2021-01-26 20:10
-#+HTML_HEAD:   <meta property="og:title" content="DIsaster REcovery PLan OSiux" />
+#+HTML_HEAD:   <meta property="og:title" content="" />
+#+HTML_HEAD:   <meta property="og:description" content="Plan de recuperación de desastres usando DiRePlOs (Disaster Recovery Plan Osiux)" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
-#+HTML_HEAD:   <meta property="og:article:published_time" content="2021-01-26" />
-#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="" />
+#+HTML_HEAD:   <meta property="og:article:author" content="" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021-01-26-disaster-recovery-plan-osiux.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/direplos-deb-tty.png" />
+#+HTML_HEAD:   <meta property="og:video" content="https://osiux.com/DIsaster" />
 
-
+[[file:img/direplos-deb-tty.png][file:tmb/direplos-deb-tty.png]]
 
 ** Si algo malo puede pasar, pasará!
 
-Ayer fue mi primer día de laburo del 2021 y arranqué mal, o mejor
-dicho *cachaza* arrancó mal, en realidad, arrancar, arrancaba, solo
-que se apagaba todo el tiempo, incluso escribí [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][mi primer post del año]]
-al respecto comentando como rápidamente utilizando un rol de /ansible/
-pude cifrar el nuevo disco externo para hacer /backup/.
+Ayer fue mi primer día de laburo del 2021 y arranqué mal, o mejor dicho
+*cachaza* arrancó mal, en realidad, arrancar, arrancaba, solo que se
+apagaba todo el tiempo, incluso escribí /mi primer post del año/ sobre
+=ansible luks format= [fn:ansible-luks-format] al respecto comentando
+como rápidamente utilizando un rol de =ansible= pude cifrar el nuevo
+disco externo para hacer /backup/.
 
 ** Noche de apagones
 
@@ -42,7 +48,7 @@ años de polvo, pensando que iba a ayudar, al menos el /cooler/ y las
 ventilaciones quedaron en mejores condiciones.
 
 Arrancó bien, configuré =cpu gobernor= en =powersave= y maté todos los
-procesos que podrían consumir mucha CPU y me puse a trabajar.
+procesos que podrían consumir mucha /CPU/ y me puse a trabajar.
 
 ** Mediodía partido al medio
 
@@ -65,13 +71,13 @@ Luego de un minuto de silencio y reflexión, definí los pasos a seguir:
 
 ** Hay /Backup/?
 
-Bueno, disco externo nuevo de 4TB ya tenía disponible, solo faltaba
+Bueno, disco externo nuevo de /4TB/ ya tenía disponible, solo faltaba
 remover el /M2/, ponerlo en un adaptador /USB/, conectarlo a otro equipo
 y ponerse a copiar.
 
-Gracias nuevamente a compañerxs de [[https://www.gcoop.coop/][gcoop]],
-en un par de horas ya contaba con el adaptador M2 y pude verificar que
-al menos las particiones se listaban correctamente.
+Gracias nuevamente a compañerxs de =gcoop= [fn:gcoop] en un par de horas
+ya contaba con el adaptador /M2/ y pude verificar que al menos las
+particiones se listaban correctamente.
 
 ** (des)cifrado recursivo
 
@@ -81,11 +87,11 @@ fácil si nunca cifrás las particiones :P
 
 Resulta que el nuevo disco externo, lo cifré el día anterior usando
 /luks/, pero no tenía la menor idea de la /passphrase/, por suerte el
-=cron= que se ocupa de sincronizar mis repositorios importares cada 5min
-logró funcionar y bastaba instalar =pass= en /caipiroska/ para
-recuperarla, pero para montar la partición de /root/ además necesitaba
-la /gpg/ y el /password-store/ de /root/ que estaban dentro del disco
-externo, que estaba cifrado! XD
+=cron= que se ocupa de sincronizar mis repositorios importares cada
+/5min/ logró funcionar y bastaba instalar =pass= [fn:pass] en
+/caipiroska/ para recuperarla, pero para montar la partición de /root/
+además necesitaba la /gpg/ y el /password-store/ de /root/ que estaban
+dentro del disco externo, que estaba cifrado! XD
 
 ** [[https://gitlab.com/osiux/direplos][DIREPLOS]]
 
@@ -98,12 +104,12 @@ básico es contar con las herramientas (sistema operativo, aplicaciones y
 utilitarios), la configuración especifica y lo irreemplazable, los
 datos.
 
-Hace años, de alguna manera automaticé rústicamente todos los paquetes
-que considero vitales para mi entorno en el repositorio
-[[https://gitlab.com/osiux/direplos][direplos]], si bien quedó
-desactualizado el /script/ =deb.sh= y a medio "refactorizar" y sin
-publicar la versión /ansible/, pero con mínimos cambios pude ejecutar la
-instalación con el comando:
+Hace años, de alguna manera automaticé rústicamente la instalación de
+todos los paquetes que considero vitales para mi entorno en el
+repositorio =direplos= [fn:direplos], si bien quedó desactualizado el
+/script/ =deb.sh= y a medio "refactorizar" y sin publicar la versión
+/ansible/, pero con mínimos cambios pude ejecutar la instalación con el
+comando:
 
 #+BEGIN_SRC src :exports code
 
@@ -112,7 +118,7 @@ deb.sh -ut
 #+END_SRC
 
 De esta manera, pude contar con todos los comandos necesarios para
-trabajar, o casi :P
+trabajar, o casi =:P=
 
 Algo no resuelto del todo es que, además de diferentes programas y
 utilitarios, necesito muchos archivos de configuración, gran parte de
@@ -122,7 +128,7 @@ cuestión pasa por encontrar la secuencia correcta de /deploy/.
 ** =git-repos= al rescate!
 
 Por ser previsor, gran parte de lo que necesito, esta (o debería estar)
-en un repositorio /git/, ahora bien, como buen ñoño, tengo muchos
+en un repositorio =git=, ahora bien, como buen /ñoño/, tengo muchos
 repositorios propios y uso a diario muchos otros, de proyectos en los
 que trabajo o trabajé en algún momento, como así también todo lo que me
 resulta interesante de la comunidad del software libre y con el paso del
@@ -168,10 +174,14 @@ horas.
 
 ** Tal vez te interese...
 
+   - [[file:2021-02-19-no-me-acuerdo-de-nada-dejame-en-pass.org][/no me acuerdo de nada... dejame en =pass=!/]]
    - [[file:2021-01-25-ansible-luks-format-external-usb-disk.org][ansible luks format external usb disk]]
    - [[file:2015-01-14-sincronizar-repositorios-git-repos.org][sincronizar repositorios git]]
 
-
+[fn:ansible-luks-format]  [[file:2021-01-25-ansible-luks-format-external-usb-disk.org]
+[fn:gcoop]                https://www.gcoop.coop/
+[fn:pass]                 https://www.passwordstore.org/
+[fn:direplos]             https://gitlab.com/osiux/direplos
 
 ** ChangeLog
 
