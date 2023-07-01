@@ -53,8 +53,10 @@ materiales) pueda ser realizado por cualquier persona o institución.
 [fn:github]    https://github.com/gcoop-libre/letras_viajeras
 [fn:tutorial]  https://github.com/gcoop-libre/letras_viajeras/blob/master/GUIA_INSTALACION.md
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/016205bd39be77bd8a40aa30c441492edb21b774][=2023-07-01 00:55=]] agregar DESCRIPTION, KEYWORDS, actualizar OpenGraph y footnotes
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e46ec52748a7ecc60f09c3b95e363e92eaa0bebc][=2019-04-18 00:21=]] Agregar hora en header date
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5c8643b83930c6269569c76602608bd33f93008b][=2019-04-18 00:01=]] Corregir identación header #+INCLUDE:
