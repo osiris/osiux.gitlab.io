@@ -1,11 +1,13 @@
 #+TITLE:       generar /ChangeLog/ en =org-mode= usando =git log=
+#+DESCRIPTION: Generar ChangeLog en org-mode usando git log
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, ChangeLog, Git, Log, Org, OrgMode
 #+DATE:        2021-02-01 18:36
-#+HTML_HEAD:   <meta property="og:title" content="generar /ChangeLog/ en =org-mode= usando =git log=" />
+#+HTML_HEAD:   <meta property="og:title" content="generar ChangeLog en org-mode usando git log" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2021-02-01" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
@@ -19,16 +21,16 @@
 
 Estoy en otro intento por darle algo de continuidad a mi desantentido
 /blog/ y para cambiar un poco la estrategia, ahora estoy comenzando a
-escribir los /posts/ y publicarlos asi como estén, llenos de errores e
+escribir los /posts/ y publicarlos así como estén, llenos de errores e
 inconclusos, la idea es ir mejorándolos poco a poco, y por esto es una
 buena práctica ir registrando los cambios en un /ChangeLog/ para ver el
 progreso, cómo mejoró y se fue corrigiendo.
 
 ** registrar los cambios manualmente es tedioso!
 
-Algunos pocos posts, tenían un /ChangeLog/ manual y la verdad es que es
-una tarea tediosa y propensa a errores, pero se puede automatizar, ahora
-bien lo que más me interesaba era que cada entrada del /ChangeLog/
+Algunos pocos /posts/, tenían un /ChangeLog/ manual y la verdad es que
+es una tarea tediosa y propensa a errores, pero se puede automatizar,
+ahora bien lo que más me interesaba era que cada entrada del /ChangeLog/
 apunte al /commit/ del cambio a los efectos de visualizar fácilmente el
 =diff=, pero esto conlleva un problema, el /hash/ del /commit/ del
 cambio debe estar dentro del cambio y no es posible, a menos que en el
@@ -53,18 +55,18 @@ genera el historial de cambios y lo concatena, obviamente en caso de no
 existir, simplemente lo añade.
 
 Para evitar incluir cambios recursivamente innecesarios, los /commits/
-específicos de /ChangeLog/ iran con el /subject/ =ChangeLog:
+específicos de /ChangeLog/ irán con el /subject/ =ChangeLog:
 filename.org=
 
 ** automatizando el /ChangeLog/
 
-De momento el script
-[[https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-org-changelog][=git-log-org-changelog=]]
-esta a prueba, viendo que casos de usos se presentan para mejoararlo,
-pero muy posiblemente lo voy a invocar desde del /hook/ =post-commit=
-para automatizar por completo su generación totalmente desatendida.
+De momento =git-log-org-changelog= [fn:git-log-org-changelog] esta a
+prueba, viendo que casos de usos se presentan para mejorarlo, pero muy
+posiblemente lo voy a invocar desde del /hook/ =post-commit= para
+automatizar por completo su generación totalmente desatendida.
 
 
+[fn:git-log-org-changelog] https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-org-changelog
 
 ** ChangeLog
 
