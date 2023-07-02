@@ -77,8 +77,10 @@ automatizar por completo su generación totalmente desatendida.
 [fn:git-log-org-changelog] https://gitlab.com/osiux/git-bash-utils/-/raw/master/git-log-org-changelog
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/abb8f8cb6f7236f197d3ba30fea5236435793fd6][=2023-07-02 20:50=]] agregar imagen y links relacionados y actualizar OpenGraph en generar /ChangeLog/ en =org-mode= usando =git log=
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/4eed7b07cf0c7491780da7dc9c2402b0281dae3f][=2023-07-02 19:28=]] agregar DESCRIPTION, KEYWORDS, corregir sintaxis, agregar footnotes
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/1a143d693a8007793e04914f4e61a7abd3a7e083][=2021-02-04 19:50=]] corrijo link a script =git-log-org-changelog=
