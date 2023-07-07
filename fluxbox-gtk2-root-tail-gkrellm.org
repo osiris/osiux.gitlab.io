@@ -1,11 +1,14 @@
 #+TITLE:       fluxbox + gtk2 + root-tail + gkrellm
+#+DESCRIPTION: Configurar root-tail y gkrellm en Fluxbox
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    blog, fluxbox, gkrellm
 #+DATE:        2009-01-16 13:08
 #+HTML_HEAD:   <meta property="og:title" content="fluxbox + gtk2 + root-tail + gkrellm" />
+#+HTML_HEAD:   <meta property="og:description" content="Configurar root-tail y gkrellm en Fluxbox" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2009-01-16" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
