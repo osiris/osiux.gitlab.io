@@ -1,18 +1,21 @@
 #+TITLE:       entendiendo la red
+#+DESCRIPTION: Entendiendo la red: topologías, protocolos y comandos de ejemplo para diagnosticar problemas básicos
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, ARP, Consola, DHCP, DNS, dsniff, ICMP, IP, namp, Network, ssh, SysAdmin, TCP, tcpdump, Terminal, traceroute, tshark, tty, UDP
 #+DATE:        2013-04-04 03:09
 #+HTML_HEAD:   <meta property="og:title" content="entendiendo la red" />
+#+HTML_HEAD:   <meta property="og:description" content="Entendiendo la red: topologías, protocolos y comandos de ejemplo para diagnosticar problemas básicos" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2013-04-04" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/entendiendo-la-red.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/redes-centralizadas.png" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/og/entendiendo-la-red.png" />
 
 
 ** Topología, redes y Subredes
@@ -75,7 +78,7 @@
 
    - DHCP server
    - DHCP client
-     
+
 *** Red de 4 equipos
 
     #+BEGIN_SRC ditaa :file img/redes-lan.png :cmdline -E :exports results
@@ -246,8 +249,8 @@
 
 *** capturar consultas al dns
 
-    #+BEGIN_EXAMPLE    
-      ssh root@linksys '/usr/sbin/tcpdump -i br0 -s 0 -w - dst port 53' >linksys.pcap 
+    #+BEGIN_EXAMPLE
+      ssh root@linksys '/usr/sbin/tcpdump -i br0 -s 0 -w - dst port 53' >linksys.pcap
     #+END_EXAMPLE
 
 *** ranking de dns
@@ -271,7 +274,7 @@
     | 18 | kiwwwi.com.ar            |
 
     #+BEGIN_SRC gnuplot :var data=ranking-dns :file img/ranking-dns.png :exports none
-      reset 
+      reset
 
       set xdata time
       set timefmt "%Y-%m-%d"
@@ -290,7 +293,7 @@
     [[file:img/ranking-dns.png]]
 
 ** Redes Wireless                                                  :noexport:
-    
+
    - Emulan a las redes cableadeas
    - infraestructura
    - ad-hoc
@@ -329,19 +332,19 @@
 *** Redireccionar puertos con =ssh=
 
     #+BEGIN_EXAMPLE
-      ssh -L 2525:localhost:25 osiux.com    
+      ssh -L 2525:localhost:25 osiux.com
     #+END_EXAMPLE
 
 *** Proxy Socks mediante ssh
 
     #+BEGIN_EXAMPLE
-      ssh -D 9090 osiux.com    
+      ssh -D 9090 osiux.com
     #+END_EXAMPLE
 
 *** Tunel reverso con ssh
 
     #+BEGIN_EXAMPLE
-      ssh -R 12345:localhost:22 osiux.com    
+      ssh -R 12345:localhost:22 osiux.com
     #+END_EXAMPLE
 
 *** Redireccionar puertos con =socat=                              :noexport:
@@ -412,7 +415,7 @@
 *** capturando pings
 
     #+BEGIN_EXAMPLE
-      sudo tcpdump -i lo -nnnt -c 5 icmp    
+      sudo tcpdump -i lo -nnnt -c 5 icmp
     #+END_EXAMPLE
 
 *** viendo un =ping=
@@ -429,7 +432,7 @@
         0x0020:  022f 0d00 0809 0a0b 0c0d 0e0f 1011 1213  ./..............
         0x0030:  1415 1617 1819 1a1b 1c1d 1e1f 2021 2223  .............!"#
         0x0040:  2425 2627 2829 2a2b 2c2d 2e2f 3031 3233  $%&'()*+,-./0123
-        0x0050:  3435 3637                                4567     
+        0x0050:  3435 3637                                4567
     #+END_EXAMPLE
 
 ** traceroute
@@ -687,4 +690,4 @@
    - [2013-04-04 jue] primer borrador general
 
 [fn:arp] http://www.networksorcery.com/enp/protocol/arp.htm
-   
+
