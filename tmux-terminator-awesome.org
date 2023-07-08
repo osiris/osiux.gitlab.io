@@ -1,11 +1,14 @@
 #+TITLE:       tmux + terminator + awesome
+#+DESCRIPTION: Entorno de trabajo ágil usando tmux, terminator y awesome
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, AwesomeWM, screen, terminator, tmux, workspace
 #+DATE:        2015-01-22 05:08
 #+HTML_HEAD:   <meta property="og:title" content="tmux + terminator + awesome" />
+#+HTML_HEAD:   <meta property="og:description" content="tmux + terminator + awesome" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2015-01-22" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
@@ -77,21 +80,21 @@
    Entonces tengo asociada cada sesion de =tmux= a un *workspace* de
    =awesome= con el siguiente esquema:
 
-   | ws | alias  | comando    | 
-   |----+--------+------------|
-   | 1  | tmo    | tmuxosiris |
-   | 2  | tgca   | tmuxgca    |
-   | 3  | tmx    | tmuxosiux  |
-   | 7  | temacs | tmuxemacs  |
-   | 8  | tmoc   | tmuxmoc    |
-   | 9  | tchat  | tmuxchat   |
+   | /ws/ | /alias/  | /comando/    |
+   |------+----------+--------------|
+   |  =1= | =tmo=    | =tmuxosiris= |
+   |  =2= | =tgca=   | =tmuxgca=    |
+   |  =3= | =tmx=    | =tmuxosiux=  |
+   |  =7= | =temacs= | =tmuxemacs=  |
+   |  =8= | =tmoc=   | =tmuxmoc=    |
+   |  =9= | =tchat=  | =tmuxchat=   |
 
-   Otros alias que uso bastante son:
+   Otros /alias/ que uso bastante son:
 
    #+BEGIN_SRC bash :session :results code :export code
      alias tas='tmux a -s '
-     alias tls='tmux ls'   
-     alias tma='tmux a'    
+     alias tls='tmux ls'
+     alias tma='tmux a'
      alias tns='tmux new-session -d -s '
    #+END_SRC
 
@@ -121,16 +124,16 @@
    #+BEGIN_EXAMPLE
     tmux list-windows -a
 
-    chat:2: finch* (1 panes) [140x47] 
-    emacs:2: emacs!* (1 panes) [140x47] 
-    gca:2: vim* (1 panes) [140x47] 
-    gca:3: socks# (1 panes) [140x47] 
-    gca:4: ssh#- (1 panes) [140x47] 
-    gcoop:1: mg!* (1 panes) [140x47] 
-    gcoop:3: mo#!- (1 panes) [140x47] 
-    moc:2: mocp* (1 panes) [140x47] 
-    osiux:1: mm!* (1 panes) [140x47] 
-    osiux:2: mx#!- (1 panes) [140x47] 
+    chat:2: finch* (1 panes) [140x47]
+    emacs:2: emacs!* (1 panes) [140x47]
+    gca:2: vim* (1 panes) [140x47]
+    gca:3: socks# (1 panes) [140x47]
+    gca:4: ssh#- (1 panes) [140x47]
+    gcoop:1: mg!* (1 panes) [140x47]
+    gcoop:3: mo#!- (1 panes) [140x47]
+    moc:2: mocp* (1 panes) [140x47]
+    osiux:1: mm!* (1 panes) [140x47]
+    osiux:2: mx#!- (1 panes) [140x47]
   #+END_EXAMPLE
 
    Dado que la única aplicación que uso que no vive dentro de una
@@ -149,18 +152,18 @@
 
    [[file:img/tmux-juice-ssh-android.png][file:tmb/tmux-juice-ssh-android.png]]
 
-** tmux es un excelente monitor
+** =tmux= es un excelente monitor
 
    También resulta muy útil utilizar =tmux= como herramienta de
    monitoreo, por ejemplo en /malbec/ a veces es necesario monitorear
    las conexiones de red y como hay varias placas de red, mediante un
-   script tmux es muy simple ver que esta sucediendo en cada interfaz de
-   red al mismo tiempo:
+   /script/ =tmux= es muy simple ver que esta sucediendo en cada
+   interfaz de red al mismo tiempo:
 
    #+BEGIN_SRC sh :session :results none :exports code
      #!/bin/bash
      cd /
-     tmux ls | grep gorra >/dev/null 2>/dev/null 
+     tmux ls | grep gorra >/dev/null 2>/dev/null
      OK=$(echo $?)
      if [ $OK -eq 0 ]
      then
@@ -188,9 +191,10 @@
 
    [[file:img/tmux-malbec-gorra.png][file:tmb/tmux-malbec-gorra.png]]
 
-   Para visualizar varios archivos de logs al mismo tiempo:
+   Para visualizar varios archivos de /logs/ al mismo tiempo:
 
    [[file:img/tmux-tail-logs.png][file:tmb/tmux-tail-logs.png]]
+
 [fn:awesome] [[file:awesome-es-increible.org]]
 
 ** ChangeLog
