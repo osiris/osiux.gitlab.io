@@ -5,6 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    SysAdmin, Network, privacy, tcpdump, wireshark
 #+DATE:        2012-15-12 22:19
 #+HTML_HEAD:   <meta property="og:title" content="Que no se entere nadie!" />
 #+HTML_HEAD:   <meta property="og:description" content="Análisis de tráfico de red mediante tcpdump" />
@@ -14,7 +15,9 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/que-no-se-entere-nadie.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/que-no-se-entere-nadie.png" />
 
+[[file:img/que-no-se-entere-nadie.png][file:tmb/que-no-se-entere-nadie.png]]
 
 ** la era de la inocencia
 
