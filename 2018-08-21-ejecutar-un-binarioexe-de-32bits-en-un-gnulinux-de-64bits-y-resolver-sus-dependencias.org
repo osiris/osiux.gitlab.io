@@ -69,7 +69,9 @@ wine Binario.exe
 [fn:wine]       https://www.winehq.org/
 [fn:winetricks] https://wiki.winehq.org/Winetricks
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/44967bde948a9dd63aa43346cb307a6e266f033e][=2023-07-11 21:11=]] agregar DESCRIPTION, KEYWORDS y actualizar OpenGraph en /Ejecutar binario 32 bits en GNU Linux 64 bits/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/882b1cda084f7c18362c8414a78dd65c7b968a3f][=2019-04-09 03:01=]] Recuperar archivos en .md y convertirlos a .org
