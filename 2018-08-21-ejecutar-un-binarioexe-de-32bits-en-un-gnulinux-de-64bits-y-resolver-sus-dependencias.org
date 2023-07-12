@@ -1,18 +1,23 @@
 #+TITLE:       Ejecutar un =Binario.exe= de 32bits en un /GNU/Linux/ de 64bits y resolver sus dependencias
+#+DESCRIPTION: Ejecutar un Binario.exe de 32bits en un GNU/Linux de 64bits y resolver sus dependencias
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    SysAdmin, amd64, DLL, GNULinux, i386, Wine, winehq, winetricks
 #+DATE:        2018-08-21 16:07
 #+HTML_HEAD:   <meta property="og:title" content="Ejecutar un =Binario.exe= de 32bits en un /GNU/Linux/ de 64bits y resolver sus dependencias" />
+#+HTML_HEAD:   <meta property="og:description" content="Ejecutar un Binario.exe de 32bits en un GNU/Linux de 64bits y resolver sus dependencias" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2018-08-21" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2018-08-21-ejecutar-un-binarioexe-de-32bits-en-un-gnulinux-de-64bits-y-resolver-sus-dependencias.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/binarioexe-32bits-gnulinux-64bits.png" />
 
+[[file:img/binarioexe-32bits-gnulinux-64bits.png][file:tmb/binarioexe-32bits-gnulinux-64bits.png]]
 
 ** Instalar Wine 32 bits en Debian/Ubuntu 64bits
 
@@ -21,33 +26,45 @@ Tengo que probar si un dispositivo (que no posee driver para
 /GNU/Linux/ es 64bits pero el binario a ejecutar es de 32bits, asi que
 hay que forzar la arquitectura 32bits y luego instalar *Wine*
 
-: # dpkg --add-architecture i386
-:
-: # apt update
-:
-: # apt install wine32
+#+BEGIN_SRC sh :session :results none :exports code
+
+dpkg --add-architecture i386
+
+apt update
+
+apt install wine32
+
+#+END_SRC
 
 ## Dependencias fallidas de un =.exe=
 
 Luego de instalar *Wine* al ejecutar el binario obtengo el error:
 
-: # wine Binario.exe
-:
-: 0009:err:module:import_dll Library MSVBVM60.DLL (which is needed by L"Z:\\home\\test\\Binario.exe") not found
-: 0009:err:module:attach_dlls Importing dlls for L"Z:\\home\\test\\Binario.exe" failed, status c0000135
+#+BEGIN_EXAMPLE
+
+wine Binario.exe
+
+0009:err:module:import_dll Library MSVBVM60.DLL (which is needed by L"Z:\\home\\test\\Binario.exe") not found
+0009:err:module:attach_dlls Importing dlls for L"Z:\\home\\test\\Binario.exe" failed, status c0000135
+
+#+END_EXAMPLE
 
 Buscando un poco cómo instalar la *DLL* faltante, la cual es parte del
 *VisualBasic 6 Runtime*, encuentro =winetricks= [fn:winetricks] que
 permite simplificar la instalación de *fonts*, *DLLs* y gran parte de
 las aplicaciones mas utilizadas en *wine*:
 
-: # wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-:
-: # chmod +x winetricks
-:
-: # ./winetricks corefonts vb6run
-:
-: # wine Binario.exe
+#+BEGIN_SRC sh :session :results none :exports code
+
+wget https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+
+chmod +x winetricks
+
+./winetricks corefonts vb6run
+
+wine Binario.exe
+
+#+END_SRC
 
 [fn:wine]       https://www.winehq.org/
 [fn:winetricks] https://wiki.winehq.org/Winetricks
