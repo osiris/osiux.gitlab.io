@@ -124,7 +124,9 @@ rol...
 [fn:tmux]       https://osiux.com/tmux-terminator-awesome.html
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/dce8a1b754ee86eb0c15b3319684463db71a5a3c][=2023-07-13 22:58=]] agregar DESCRIPTION, KEYWORDS y actualizar OpenGraph en /Music On Console/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/f2bf6f7c39e77cff5c3dc0029a07abd457eee7be][=2021-02-14 12:05=]] agregar =tty= /Music On Console/
