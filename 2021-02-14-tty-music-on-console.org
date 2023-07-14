@@ -1,11 +1,14 @@
 #+TITLE:       =tty= /Music On Console/
+#+DESCRIPTION: Music On Console o cómo configurar tmux, mocp, pulsemixer y cava
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, cava, consola, mocp, music, PulseAudio, pulsemixer, terminal, tmux, tty
 #+DATE:        2021-02-14 11:27
 #+HTML_HEAD:   <meta property="og:title" content="=tty= /Music On Console/" />
+#+HTML_HEAD:   <meta property="og:description" content="Music On Console o cómo configurar tmux, mocp, pulsemixer y cava" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2021-02-14" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
@@ -13,7 +16,6 @@
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
 #+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/tty-music-on-console.png" />
-
 
 
 #+ATTR_HTML: :width 640 :height 360 :title tty music on console screenshot
