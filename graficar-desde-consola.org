@@ -1,40 +1,42 @@
 #+TITLE:       Graficar desde consola
+#+DESCRIPTION: Graficar desde consola en ASCII/UTF8 Art y usando ditaa, gnuplot, graphviz, nwdiag y plantuml
 #+AUTHOR:      Osiris Alejandro Gómez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, ASCIIArt, Consola, Desing, ditaa, gnuplot, Graph, graphviz, Networks, nwdiag, plantuml, Terminal, UML, UTF8Art, Viz
 #+DATE:        2014-03-11 10:35
 #+HTML_HEAD:   <meta property="og:title" content="Graficar desde consola" />
+#+HTML_HEAD:   <meta property="og:description" content="Graficar desde consola en ASCII/UTF8 Art y usando ditaa, gnuplot, graphviz, nwdiag y plantuml" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2014-03-11" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/graficar-desde-consola.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/ditaa-der.png" />
-
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/BuenosAiresLibre-CompartirEsBueno-LibreVPN-LibreNet6.png" />
 
 ** barra
 
     Páginas más solicitadas
 
     #+BEGIN_SRC sh :session :results output :exports both
-      ssh osiux 'cat osiux.com-access.log | egrep -o "GET /.*HTTP" | sed s/HTTP//g | cut -c 5- | egrep -v "(img|tmb|css|robots|ico)" | sort | uniq -c | sort -nr | head' | barra
+      ssh osiux 'cat osiux.com-access.log | grep -Eo "GET /.*HTTP" | sed s/HTTP//g | cut -c 5- | egrep -v "(img|tmb|css|robots|ico)" | sort | uniq -c | sort -nr | head' | barra
     #+END_SRC
 
     #+RESULTS:
     #+begin_example
-     60.18 %  60.18 %       461 ██████████████████████████████ / 
-     75.98 %  15.80 %       121 ████████ /feed 
-     79.77 %   3.79 %        29 ██ /2014-03-14-saso-conf-curuzu-cuatia.html 
-     83.03 %   3.26 %        25 █ /index.html 
-     86.16 %   3.13 %        24 █ /painless-backups-using-rdiff-backup 
-     89.16 %   3.00 %        23 █ /visualizando-org-mode-con-gnuplot.html 
-     92.04 %   2.87 %        22 █ /docs.html 
-     94.78 %   2.74 %        21 █ /que-no-se-entere-nadie.html 
-     97.39 %   2.61 %        20 █ /todo-txt-rst+org-mode.html 
-    100.00 %   2.61 %        20 █ /blog.html 
+     60.18 %  60.18 %       461 ██████████████████████████████ /
+     75.98 %  15.80 %       121 ████████ /feed
+     79.77 %   3.79 %        29 ██ /2014-03-14-saso-conf-curuzu-cuatia.html
+     83.03 %   3.26 %        25 █ /index.html
+     86.16 %   3.13 %        24 █ /painless-backups-using-rdiff-backup
+     89.16 %   3.00 %        23 █ /visualizando-org-mode-con-gnuplot.html
+     92.04 %   2.87 %        22 █ /docs.html
+     94.78 %   2.74 %        21 █ /que-no-se-entere-nadie.html
+     97.39 %   2.61 %        20 █ /todo-txt-rst+org-mode.html
+    100.00 %   2.61 %        20 █ /blog.html
                             766
     #+end_example
 
@@ -45,11 +47,11 @@
     #+END_SRC
 
     #+RESULTS:
-    :  66.78 %  66.78 %      3225 █████████████████████████████████ 200 
-    :  86.75 %  19.96 %       964 ██████████ 404 
-    :  99.34 %  12.59 %       608 ██████ 304 
-    :  99.98 %   0.64 %        31 ▌ 206 
-    : 100.00 %   0.02 %         1 ▌ 400 
+    :  66.78 %  66.78 %      3225 █████████████████████████████████ 200
+    :  86.75 %  19.96 %       964 ██████████ 404
+    :  99.34 %  12.59 %       608 ██████ 304
+    :  99.98 %   0.64 %        31 ▌ 206
+    : 100.00 %   0.02 %         1 ▌ 400
     :                        4829
 
     Análisis de =user-agent=
@@ -60,26 +62,26 @@
 
     #+RESULTS:
     #+begin_example
-     86.82 %  86.82 %      4188 ███████████████████████████████████████████ Mozilla/5.0 
-     90.84 %   4.02 %       194 ██ Mozilla/4.0 
-     93.06 %   2.22 %       107 █ msnbot-media/1.1 
-     95.02 %   1.97 %        95 █ Googlebot-Image/1.0 
-     96.64 %   1.62 %        78 █ Opera/9.80 
-     97.53 %   0.89 %        43 ▌ Claws 
-     97.97 %   0.44 %        21 ▌ SAMSUNG-SGH-E250/1.0 
-     98.38 %   0.41 %        20 ▌ DoCoMo/2.0 
-     98.63 %   0.25 %        12 ▌ Sogou 
-     98.86 %   0.23 %        11 ▌ www.adressendeutschland.de 
-     99.07 %   0.21 %        10 ▌ Feedly/1.0 
-     99.25 %   0.19 %         9 ▌ - 
-     99.42 %   0.17 %         8 ▌ Python-urllib/2.6 
-     99.59 %   0.17 %         8 ▌ Googlebot/2.1 
-     99.67 %   0.08 %         4 ▌ WebIndex 
-     99.75 %   0.08 %         4 ▌ Google-HTTP-Java-Client/1.17.0-rc 
-     99.83 %   0.08 %         4 ▌ facebookexternalhit/1.0 
-     99.90 %   0.06 %         3 ▌ facebookexternalhit/1.1 
-     99.96 %   0.06 %         3 ▌ curl/7.21.0 
-    100.00 %   0.04 %         2 ▌ W3C_Validator/1.3 
+     86.82 %  86.82 %      4188 ███████████████████████████████████████████ Mozilla/5.0
+     90.84 %   4.02 %       194 ██ Mozilla/4.0
+     93.06 %   2.22 %       107 █ msnbot-media/1.1
+     95.02 %   1.97 %        95 █ Googlebot-Image/1.0
+     96.64 %   1.62 %        78 █ Opera/9.80
+     97.53 %   0.89 %        43 ▌ Claws
+     97.97 %   0.44 %        21 ▌ SAMSUNG-SGH-E250/1.0
+     98.38 %   0.41 %        20 ▌ DoCoMo/2.0
+     98.63 %   0.25 %        12 ▌ Sogou
+     98.86 %   0.23 %        11 ▌ www.adressendeutschland.de
+     99.07 %   0.21 %        10 ▌ Feedly/1.0
+     99.25 %   0.19 %         9 ▌ -
+     99.42 %   0.17 %         8 ▌ Python-urllib/2.6
+     99.59 %   0.17 %         8 ▌ Googlebot/2.1
+     99.67 %   0.08 %         4 ▌ WebIndex
+     99.75 %   0.08 %         4 ▌ Google-HTTP-Java-Client/1.17.0-rc
+     99.83 %   0.08 %         4 ▌ facebookexternalhit/1.0
+     99.90 %   0.06 %         3 ▌ facebookexternalhit/1.1
+     99.96 %   0.06 %         3 ▌ curl/7.21.0
+    100.00 %   0.04 %         2 ▌ W3C_Validator/1.3
                            4824
     #+end_example
 
@@ -87,9 +89,9 @@
 
    #+BEGIN_EXAMPLE
    diagram {
-    #default_node_color = black;
-    #default_linecolor = #cfff00;
-    #default_textcolor = #cfff00;
+    default_node_color = 'black';
+    default_linecolor = '#cfff00';
+    default_textcolor = '#cfff00';
     default_fontsize = 14;
     span_width = 100;
     span_height = 60;
@@ -153,29 +155,31 @@
    }
    #+END_EXAMPLE
 
+   [[file:img/BuenosAiresLibre-CompartirEsBueno-LibreVPN-LibreNet6.png][file:tmb/BuenosAiresLibre-CompartirEsBueno-LibreVPN-LibreNet6.png]]
+
 ** ditaa
 
    #+BEGIN_SRC ditaa :file img/ditaa-der.png :cmdline -E :exports both
-     +------------------------+   +------------+                             
-     | gcoop_salesopportunity |   | campaigns  |                             
-     +------------------------+   +------------+                             
-     | campaign_id            |-->| id         |--+                          
-     | id                     |   +------------+  |                          
-     +------------------------+                   |                          
-                                                  |                          
-                +------------------------+        |                          
-                | securitygroups_records |        |                          
-                +------------------------+        |                          
-                | record_id              |<-------+                          
-            +-->| securitygroup_id       |                                   
-            |   +------------------------+                                   
-            |                                                                
-            |   +----------------+                                           
-            |   | securitygroups |                                           
-            |   +----------------+                                           
-            |   | name           |                                           
-            +---| id             |                                           
-                +----------------+   
+     +------------------------+   +------------+
+     | gcoop_salesopportunity |   | campaigns  |
+     +------------------------+   +------------+
+     | campaign_id            |-->| id         |--+
+     | id                     |   +------------+  |
+     +------------------------+                   |
+                                                  |
+                +------------------------+        |
+                | securitygroups_records |        |
+                +------------------------+        |
+                | record_id              |<-------+
+            +-->| securitygroup_id       |
+            |   +------------------------+
+            |
+            |   +----------------+
+            |   | securitygroups |
+            |   +----------------+
+            |   | name           |
+            +---| id             |
+                +----------------+
    #+END_SRC
 
    #+RESULTS:
@@ -314,33 +318,32 @@
         10	1.280650138855	2.1734149456024
     #+end_example
 
-    #+BEGIN_SRC gnuplot :var data='~/data/bcc/gca/asterisk/asterisk1-bean-query-20.dat' :file img/asterisk1-bean-query-20.png :exports both
-      reset
-      set term png size 800,600
-      set title "sqlsoap_server bean vs query"
-      set xlabel "requests" font "Inconsolata,10"
-      set ylabel "tiempo en segundos" font "Inconsolata,10"
+    #+BEGIN_SRC gnuplot :var data='~/data/bcc/gca/asterisk/asterisk1-bean-query-20.dat' :file img/asterisk1-bean-query-20.png :exports code
+      load '~/bin/osiux.plt'
+      set lmargin 10
+      set rmargin 10
+      set bmargin 10
+      set title "sqlsoap server bean vs query" font "Inconsolata,28" tc lt 5
+      set xlabel "requests" font "Inconsolata,14"
+      set ylabel "tiempo en segundos" font "Inconsolata,14"
       set tics out nomirror
       set grid ytics
-      set xtics font "Inconsolata,8" nomirror rotate by right at 0.5,0
+      set xtics font "Inconsolata,10" nomirror
       set ytics nomirror
-      set tics font "Inconsolata,8" nomirror
+      set tics font "Inconsolata,10" nomirror
       set mytics
-      set grid lc rgb "#d5e0c9"
 
-      plot data using 1:2 with lines lw 1 lt 3 title 'bean', \
-           data using 1:3 with lines lw 1 lt 4 title 'query'
-
+      plot data using 1:2 with lines lw 3 lt 3 title 'bean', \
+           data using 1:3 with lines lw 3 lt 4 title 'query'
     #+END_SRC
 
-    #+RESULTS:
-    [[file:img/asterisk1-bean-query-20.png]]
+    [[file:img/asterisk1-bean-query-20.png][file:tmb/asterisk1-bean-query-20.png]]
 
 *** procesar un log, generar el archivo y graficar
 
     #+BEGIN_SRC sh :session :results file :exports both
-      cd ~/data/bcc/gca/cct-2797
-      egrep "0895.*Query Execution Time:[0-9\.]+" sugarcct6.log | awk '{print $4"\t"$9}' | sed s/"Time:"//g | awk '{if ($2>h[$1]) h[$1]=$2} END {for (hh in h) print hh,h[hh]}' | sort  | tee 0895-query-execution-time.dat
+      cd ~/blog
+      grep "0895.*Query Execution Time:[0-9\.]+" sugarcct6.log | awk '{print $4"\t"$9}' | sed s/"Time:"//g | awk '{if ($2>h[$1]) h[$1]=$2} END {for (hh in h) print hh,h[hh]}' | sort  | tee 0895-query-execution-time.dat
     #+END_SRC
 
     #+RESULTS:
@@ -356,27 +359,25 @@
     | 12:17:50 | 0.00913214683533 |
     | 12:17:51 |  0.0108060836792 |
 
-    #+BEGIN_SRC gnuplot :var data='~/data/bcc/gca/cct-2797/0895-query-execution-time.dat' :file img/0895-query-execution-time.png :exports both
-      reset
-      set terminal png size 800,600
+    #+BEGIN_SRC gnuplot :var data='~/blog/0895-query-execution-time.dat' :file img/0895-query-execution-time.png :exports code
+      load '~/bin/osiux.plt'
       set lmargin 10
-      set bmargin 5
-      set rmargin 5
-      set title "Máximo Tiempo de ejecución Queries usuario 0895\nsugarcct6.log" font "Inconsolata,10"
+      set bmargin 10
+      set rmargin 10
+      set title "Máximo Tiempo de ejecución Queries usuario 0895\nsugarcct6.log" font "Inconsolata,18" tc lt 5
       set xdata time
-      set timefmt x '%H:%M:%S'
-      set format x '%H:%M:%S'
-      set xtics font 'Inconsolata,8' rotate
+      set timefmt "%H:%M:%S"
+      set format x "%H:%M:%S"
+      set xtics font "Inconsolata,12" rotate
       set mxtics
       set key off
-      set tics font "Inconsolata,8" nomirror
+      set tics font "Inconsolata,12" nomirror
       set mytics
       set grid ytics
-      set xlabel "horario" font "Inconsolata,9"
-      set ylabel "tiempo en segundos" font "Inconsolata,9"
+      set xlabel "horario" font "Inconsolata,14"
+      set ylabel "tiempo en segundos" font "Inconsolata,14"
 
-      plot data u 1:2 lw 5 w i
+      plot data u 1:2 lw 8 w i
     #+END_SRC
 
-    #+RESULTS:
-    [[file:img/0895-query-execution-time.png]]
+    [[file:img/0895-query-execution-time.png][file:tmb/0895-query-execution-time.png]]
