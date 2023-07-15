@@ -2,7 +2,9 @@ SHELL:=/bin/bash
 
 LNK_URL   ?= https://osiux.gitlab.io/osiux-links
 DOT_URL   ?= https://osiux.gitlab.io/osiux-graphviz
+DOT_TMO   ?= 5
 LNK_ORG   ?= $(LNK_URL)/links.org
+LNK_TMO   ?= 5
 DOT_TGZ   ?= osiux-graphviz.tar.gz
 OBU_URL   ?= https://gitlab.com/osiux/org-bash-utils/-/raw/develop
 GIT_URL   ?= https://gitlab.com/osiux/git-bash-utils/-/raw/develop
@@ -50,10 +52,10 @@ image:
 	./img.sh > img.org
 
 links:
-	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(LNK_ORG))" = 200 ]] && curl $(LNK_ORG) > links.org
+	[[ "$$(curl --connect-timeout $(LNK_TMO) -s -o /dev/null -w '%{http_code}' $(LNK_ORG))" = 200 ]] && curl $(LNK_ORG) > links.org
 
 dot:
-	[[ "$$(curl -s -o /dev/null -w '%{http_code}' $(DOT_URL)/$(DOT_TGZ))" = 200 ]] && curl $(DOT_URL)/$(DOT_TGZ) > $(DOT_TGZ) && tar xvf $(DOT_TGZ) && rm -f $(DOT_TGZ)
+	[[ "$$(curl --connect-timeout $(DOT_TMO) -s -o /dev/null -w '%{http_code}' $(DOT_URL)/$(DOT_TGZ))" = 200 ]] && curl $(DOT_URL)/$(DOT_TGZ) > $(DOT_TGZ) && tar xvf $(DOT_TGZ) && rm -f $(DOT_TGZ)
 
 ansible:
 	./tag2org.sh ansible > ansible.org
