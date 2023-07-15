@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    Blog, ASCIIArt, Consola, Desing, ditaa, gnuplot, Graph, graphviz, Networks, nwdiag, plantuml, Terminal, UML, UTF8Art, Viz
+#+KEYWORDS:    Blog, ASCIIArt, Consola, Design, ditaa, gnuplot, Graph, graphviz, Networks, nwdiag, plantuml, Terminal, UML, UTF8Art, Viz
 #+DATE:        2014-03-11 10:35
 #+HTML_HEAD:   <meta property="og:title" content="Graficar desde consola" />
 #+HTML_HEAD:   <meta property="og:description" content="Graficar desde consola en ASCII/UTF8 Art y usando ditaa, gnuplot, graphviz, nwdiag y plantuml" />
