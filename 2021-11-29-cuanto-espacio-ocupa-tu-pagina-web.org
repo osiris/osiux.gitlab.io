@@ -1,18 +1,23 @@
 #+TITLE:       Cuánto espacio ocupa tu página web?
+#+DESCRIPTION: Cuánto espacio ocupa tu página web? Sumate al club 512KB
 #+AUTHOR:      Osiris Alejandro Gomez
 #+EMAIL:       osiux@osiux.com
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Club512KB, minimalism, static, web
 #+DATE:        2021-11-29 11:54
 #+HTML_HEAD:   <meta property="og:title" content="Cuánto espacio ocupa tu página web?" />
+#+HTML_HEAD:   <meta property="og:description" content="Cuánto espacio ocupa tu página web? Sumate al club 512KB" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2021-11-29" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2021-11-29-cuanto-espacio-ocupa-tu-pagina-web.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/osiux-com-the512kb-club-the-green-team.png" />
 
+[[file:img/osiux-com-the512kb-club-the-green-team.png][file:tmb/osiux-com-the512kb-club-the-green-team.png]]
 
 ** purista del minimalismo
 
