@@ -17,9 +17,10 @@
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
 DATES=$(cat << EOF
-2021-01-25 2021-02-25
-2021-03-01 2021-03-31
-2023-02-15 2023-03-15
+2021-01-25 2021-02-25 2021-02-26-30-dias-de-posts-por-la-birra.org
+2021-03-01 2021-03-31 2021-03-31-30-dias-de-posts-por-la-picada.org
+2023-02-15 2023-03-15 2023-03-16-30-dias-de-posts-por-el-asado.org
+2023-04-01 2023-07-31 2023-07-31-100-dias-de-posts-de-mastoton.org
 EOF
 )
 
@@ -59,7 +60,7 @@ echo "$DATES" | grep -v '\#' > "$TMP"
 
 echo "$NOW"date +'%F +%T'
 
-while read -r SINCE UNTIL
+while read -r SINCE UNTIL REVIEW
 do
 
   ORG="$SINCE-$UNTIL-posts.org"
@@ -72,6 +73,7 @@ do
   printf "time=%s "    "$(get_time "$ORG")"
   printf "commits=%s " "$(get_commits "$ORG")"
   printf "posts=%s "   "$(get_posts "$ORG")"
+  [[ -e "$REVIEW" ]] && printf "review=%s " "$REVIEW"
   printf "\\n"
 
 done < "$TMP"
