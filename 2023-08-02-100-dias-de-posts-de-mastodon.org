@@ -1,0 +1,240 @@
+#+TITLE:       100 días de posts de mastodon
+#+DESCRIPTION: Revisión de 100 días consecutivos de publicar posts de Mastodon
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Blog, Challenge, Mastodon, Posts, Review
+#+DATE:        2023-08-02 23:00
+#+HTML_HEAD:   <meta property="og:title" content="100 días de posts de mastodon" />
+#+HTML_HEAD:   <meta property="og:description" content="Revisión de 100 días consecutivos de publicar posts de Mastodon" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-08-02" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-08-02-100-dias-de-posts-de-mastodon.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/100-dias-de-posts-de-mastodon.png" />
+
+[[file:img/100-dias-de-posts-de-mastodon.png][file:tmb/100-dias-de-posts-de-mastodon.png]]
+
+** desafíos previos
+
+Con anterioridad junto a /HugoRuscitti/ [fn:hugoruscitti] realizamos un
+par de desafíos, intentar escribir todos los días durante un mes y luego
+realizar una revisión de lo sucedido.
+
+Hace poco, en el último desafío incorporamos a Nacho y si bien
+inicialmente comenzamos a /postear/ seguido, los 3 terminamos colgando
+los guantes y tenemos pendiente la revisión...
+
+A mi parecer la clave del éxito es contar con alguien que todos los días
+te recuerde que hay que escribir y la motivación en parte ha sido ver
+que el otro publicaba antes que vos y/o daba su visto bueno con tus
+publicaciones, pero como somos personas con poca disciplina (aunque lo
+intentemos) terminábamos flaqueando.
+
+** y si automatizamos?
+
+Intentado automatizar los recordatorios diarios y al mismo tiempo medir
+de alguna manera si hay un /feedback/ sobre lo publicado se me ocurrió
+empezar a /postear/ 1 vez por día en /Mastodon/ cada uno de mis /posts/
+de mi /blog/ [fn:osiux-blog], de esta manera tendría un par de meses de
+/posteos/ garantizados porque contaba con mas de 150 /posts/.
+
+Sobre esta idea de reutilizar /posts/ previos, se me ocurrió organizar
+los /posts/ en categorías y que cada día de la semana sea sobre algún
+tema en particular, así podría automatizar la publicación sobre /posts/
+previos, pensar sobré que tema escribir un Miércoles y adelantar
+/posts/, porque se publicarían sin mi intervención.
+
+** =mastodon-bash-utils= [fn:mastodon-bash-utils]
+
+Estas ideas se convirtieron en diferentes /scripts/ que interactúan con
+la /API/ de /Mastodon/, pero antes de publicar, una tarea del =cron= se
+ocupa de revisar si hay un /post/ en condiciones, notificar su ausencia
+o su publicación y por supuesto rechaza /posts/ que no están en
+condiciones.
+
+Qué /headers/ de =org-mode= en un /post/ del /blog/ es necesario para
+publicar en /Mastodon/?
+
+- [X] =#+TITLE:=
+- [ ] =#+DESCRIPTION:=
+- [ ] =#+KEYWORDS:=
+- [X] =#+LANGUAGE:=
+- [ ] =og:image=
+
+Todos mis /posts/ contaban con los /headers/ básicos, así que en
+principio solo tenía que editar cada /post/, agregar una descripción,
+definir =KEYWORDS= que se convertirían en /tags/ y lo mas importante
+agregar una imagen que ilustre el /post/.
+
+Para aprovechar los /posts/ que ya contaban con una imagen, generé el
+/script/ =org-image= que se ocupa de devolver la primer imagen que
+encuentra en el /post/ o si existe en los /tags/ de /OpenGraph/.
+
+** mas allá de las estadísticas
+
+Antes de analizar los /logs/ de =apache= y de hacer consultas a
+/Mastodon/ sobre cada /post/ en principio obtuve algunos aprendizajes:
+
+- Fue muy bueno tener que re-leer cada /post/, además de corregir
+  errores de ortografía y/o sintaxis, hubo cierta nostalgia o
+  reivindicación sobre cosas que escribí hace muchos años
+
+- Fue necesario corregir prácticamente todos los /links/ de las
+  /footnotes/, desde cambiar =http= por =https= hasta encontrar la nueva
+  /url/ y en algunos casos recurrir a =web.archive.org=
+
+- Tardé muchísimo generando una imagen para los /posts/ que carecían de
+  imágenes y en el apuro y la falta de inspiración recurrí en muchos
+  casos a realizar un /screenshot/ del propio /post/ o parte de él de
+  una manera vistosa, usando =CRT= [fn:cool-retro-term] /Cool Retro
+  Terminal/ o =terminator= [fn:terminator].
+
+- La mayoría fue solo agregar unos pocos /tags/, así que con algo ya
+  armado, publicar fue cuestión de 5 a 10 minutos por día.
+
+- La incoherencia entre los /posts/ que tienen fecha en el /filename/ y
+  los que no la tienen, complica un poco todo, debería optar por
+  normalizarlos, si bien la fecha simplifica el orden y la generación es
+  posible modificar los /scripts/ para que tomen la fecha del /header/ y
+  la gran ventaja sería relativamente mucho más fácil tipear una /URL/
+  por su nombre bonito sin tener que recordar en qué fecha lo escribí.
+
+- La /CI/ de /GitLab/ se rompió, al parecer excedí el tamaño de los
+  /assets/ y tuve que cambiar el método de /deploy/, inicialmente creé
+  un /script/ =file2lftp= [fn:file2lftp] para publicar manualmente
+  archivos individuales y luego terminé generando el =.tar.gz= de todo
+  el /blog/ localmente y lo comencé a publicar en https://pub.osiux.com/
+
+- Gracias a que /GitLab CI/ se rompió pude idear un nuevo método de
+  /deploy/ solo con las diferencias del /blog/ en lugar de todo el
+  /blog/ completo, tengo un borrador y en algún momento le dedicaré
+  tiempo a desarrollar la solución.
+
+- Sin dudas escribir por las mañanas es la mejor opción, permite
+  arrancar el día liberando ideas con la certeza de que en algún momento
+  del día =blog2mastodon= se ocupará de publicar y en última instancia
+  =blog2mastodon-alert= notificará si al /post/ le faltó algo porque
+  estaba muy dormido por la mañana =:P=
+
+- Organizarme para escribir por las mañanas no siempre fue posible, y si
+  no arranco temprano, las urgencias diarias ganan en prioridad, por
+  este motivo terminé mayormente escribiendo y/o editando /posts/ por
+  la noche y si bien varias veces intenté hacerlo antes de las 23:59hs,
+  no siempre lo conseguí y ahí se desvirtuó el publicar 1 post por
+  día, para subsanar la demora, terminé publicando 2 veces por día
+  para que exista 1 /post/ por día aunque fuera con diferencia de
+  horas.
+
+- Estar varios días escribiendo un /post/ en modo borrador con la
+  tranquilidad de que algo será publicado automáticamente quita presión
+  sobre el apuro de terminar ese /post/ que todavía no esta listo o que
+  no tuviste tiempo para terminar de redactar.
+
+- Los /posts/ de /Mastodon/ se guardan en /GMT 0/, entonces si publico a
+  las =22:24= (/GMT -3/) se guarda =01:24= del día siguiente y esto
+  desvirtúa un poco las estadísticas si no es tenido en cuenta.
+
+- Contar con una reacción inmediata de cada /posts/ es muy gratificante
+  y al mismo tiempo cuando no hay reacción alguna puede dar un poco de
+  ansiedad, por algo no usaba plataformas de /Redes Sociales/ =XD=
+
+- El publicar 1 vez por día, sin preocuparse mucho por las reacciones de
+  cada /post/ es vital, porque si el /post/ de ayer no tuvo éxito, tal
+  vez el de hoy si lo tenga, aunque luego las estadísticas a largo plazo
+  podrían evidenciar que en algún momento del futuro todos los /posts/
+  serán leídos.
+
+- Sin dudas utilizar /Mastodon/ para promocionar los /posts/ de mi
+  /blog/ fue una buena idea, al menos las visitas al /blog/ se
+  incrementaron radicalmente, porque si bien la mayoría de los /posts/
+  estuvieron siempre disponibles en =osiux.com=, mi /blog/ no es mas que
+  otro /blog/ entre millones de /blogs/.
+
+- No deja de sorprenderme que la mayoría de los viejos /posts/ tuvieron
+  muy buena repercusión, evidentemente el público se renueva y
+  claramente alguien que visitó mi /blog/ por 1 /post/ en particular,
+  no necesariamente miró otros /posts/ o volvió a visitar el /blog/
+
+- Optar por publicar cada /post/ con el siguiente formato:
+
+  #+BEGIN_EXAMPLE
+
+  Descripción del post
+
+  #tag1 #tag2 #tag3
+
+  https://osiux.com/link-al-post.html
+
+  IMAGEN
+
+  #+END_EXAMPLE
+
+  Fue una gran decisión, sobre todo que el /post/ tenga una imagen, lo
+  destaca y para quien lo visualiza contribuye a decidir si vale la
+  penar visitar el /blog/ con el /post/ completo o seguir de largo.
+
+- Una conteo rápido evidencia que solo escribí 15 nuevos /posts/ de los
+  100 /posts/ publicados y aunque tuve que editar 75 viejos /posts/ sin
+  dudas estos 100 días consecutivos fueron la mayor actividad en los 12
+  años del /blog/
+
+- Contar con alertas diarias recordando que tengo pendiente una
+  publicación o que ya fue publicado el /post/ de manera desatendida fue
+  una gran ayuda y en parte reemplazó a /HugoRuscitti/ =XP=
+
+- Contar con reacciones de cada /post/, en especial cuando hubo alguna
+  pregunta también reemplazó a /HugoRuscitti/ =XP= y contribuyó a seguir
+  publicando a diario.
+
+- Si bien /HugoRuscitti/ es irreemplazable y obviamente se ocupó de leer
+  cada nuevo /post/ del /blog/, abrir el juego públicamente a quienes
+  quieran colaborar fue una gran satisfacción, porque el espíritu de
+  cada /post/ no es mas que compartir alguna experiencia y/o
+  conocimiento del mundo del /Software Libre/ y contribuir de alguna
+  manera con el resto de las comunidades.
+
+- Lograr el objetivo de escribir y publicar 100 días consecutivos fue un
+  gran logro y motiva a nuevos desafíos sabiendo que puedo cumplirlos
+  y aprender mucho en el medio y compartir lo aprendido liberando
+  utilidades.
+
+** y las estadísticas?
+
+Tengo pendiente terminar un /script/ que realice las estadísticas de
+/Mastodon/ comparando los /logs/ de /Apache/ pero de momento cuento con
+un resumen de los /posts/ analizando el repo =git= [fn:osiux-blog-git]
+del /blog/.
+
+| /start date/ | /end date/ | /first commit/ | /last commit/ | /spend time/ | /total commits/ | /total posts/ |
+|--------------+------------+----------------+---------------+--------------+-----------------+---------------|
+|   2023-04-01 | 2023-04-30 | e1308c3        | a3e7488       | 04:16 hs     |               9 |            33 |
+|   2023-05-01 | 2023-05-31 | 1665cc9        | 461fbf0       | 20:13 hs     |              51 |            29 |
+|   2023-06-01 | 2023-06-30 | 556cc16        | a29e50b       | 10:59 hs     |              43 |            27 |
+|   2023-07-01 | 2023-07-31 | 016205b        | 9826a01       | 05:54 hs     |              22 |            15 |
+|--------------+------------+----------------+---------------+--------------+-----------------+---------------|
+|              |            |                |               | 41:22 hs     |             125 |           102 |
+
+- [[file:2023-04-01-2023-07-31-posts.org][ABSOLUTELLY NO WARRANTY /posts/ 2023-04-01 - 2023-07-31]]
+- [[file:2023-04-01-2023-04-30-posts.org][ABSOLUTELLY NO WARRANTY /posts/ 2023-04-01 - 2023-04-30]]
+- [[file:2023-05-01-2023-05-31-posts.org][ABSOLUTELLY NO WARRANTY /posts/ 2023-05-01 - 2023-05-31]]
+- [[file:2023-06-01-2023-06-30-posts.org][ABSOLUTELLY NO WARRANTY /posts/ 2023-06-01 - 2023-06-30]]
+- [[file:2023-07-01-2023-07-31-posts.org][ABSOLUTELLY NO WARRANTY /posts/ 2023-07-01 - 2023-07-31]]
+
+** te recomiendo leer
+
+- [[file:2023-05-16-mastodon-bash-utils-first-public-release.org][publicar cada post de blog como status de mastodon usando =mastodon-bash-utils=]]
+- [[file:2023-02-24-automate-blog-from-org-mode-to-html-markdown-gemini-using-docker-alpine-org2blog-and-gitlab-ci.org][Automate conversion of blog from /org-mode/ to /Html/, /Markdown/ and /Gemini/ using /Docker image/ =alpine-org2blog= and /GitLab CI/]]
+- [[file:2021-02-26-30-dias-de-posts-por-la-birra.org][🍺🍺🍺 30 días de /posts/ por la birra!]]
+
+[fn:hugoruscitti]         https://examplelab.com.ar/
+[fn:osiux-blog]           https://osiux.com/
+[fn:cool-retro-term]      https://github.com/Swordfish90/cool-retro-term
+[fn:terminator]           file:tmux-terminator-awesome.org
+[fn:file2lftp]            file:2023-06-13-file2lftp.org
+[fn:mastodon-bash-utils]  https://gitlab.com/osiux/mastodon-bash-utils
+[fn:osiux-blog-git]       https://gitlab.com/osiux/osiux.gitlab.io
