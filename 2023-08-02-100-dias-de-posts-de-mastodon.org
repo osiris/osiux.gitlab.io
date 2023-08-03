@@ -238,3 +238,7 @@ del /blog/.
 [fn:file2lftp]            file:2023-06-13-file2lftp.org
 [fn:mastodon-bash-utils]  https://gitlab.com/osiux/mastodon-bash-utils
 [fn:osiux-blog-git]       https://gitlab.com/osiux/osiux.gitlab.io
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/b5733afe98a84d922ee0126bb187f3ae43251596][=2023-08-02 23:06=]] agregar /100 días de posts de mastodon/
