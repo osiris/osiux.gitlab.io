@@ -106,3 +106,7 @@ merienda en /Terrambú/.
 [fn:JRSL12Roboticlaje]              https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/441/
 [fn:JRSL12SoftwareTrabajoDerechos]  https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/464/
 [fn:anisacate]                      https://es.wikipedia.org/wiki/Anisacate
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/3bdfbf1154b2b8942381708e0b5c9e5fcf706707][=2023-09-17 20:08=]] agregar /12º Jornadas Regionales de Software Libre en Córdoba/
