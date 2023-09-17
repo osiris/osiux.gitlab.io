@@ -1,0 +1,108 @@
+#+TITLE:       12º Jornadas Regionales de Software Libre en Córdoba
+#+DESCRIPTION: Resumen de actividades en las Jornadas Regionales de Software en Córdoba, Linux Kernel Workshop y paseo por Anisacate
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Evento, Anisacate, Ansible, Charlas, Community, Córdoba, GNU, JRSL, Kernel, Linux
+#+DATE:        2023-09-17 19:16
+
+** Volvimos!
+
+Luego de muchos años de no saber mucho sobre las /Jornadas Regionales de
+Software Libre/, me enteré que se estaban organizando la décimo segunda
+edición y la última de la que participé fueron las octavas asa que tenía
+que participar, esta edición se realizaba en /Córdoba/ y contaba con la
+participación especial de =Christoph Hellwig= (/Linux Kernel
+Developer/).
+
+** Linux Kernel Workshop
+
+El evento se realizó en la =Universidad Nacional de Córdoba= [fn:UNC] y
+los primeros 3 días se realizó un taller de programación del kernel
+Linux Si bien no pude participar del taller, esta disponible el hilo de
+mails del taller [fn:JRSL12LKW] y tal vez pueda servir de ayuda inicial
+para quien quiera interiorizarse.
+
+** Charlas!
+
+Lamentablemente asistí únicamente el Sábado 16/SEP y en un sólo día
+había 20 charlas! (intenté asistir a tantas como pude) y además,
+compartí el caso de éxito de la
+=migración de 6300 equipos GNU/Linux usando Ansible y AWX= [fn:filiales]
+en mi charla =Automatizar para Innovar=.
+
+- /Automatizar para Innovar, migración a linux masiva/ [fn:JRSL12Automatizar]
+- /cocotb tutorial, framework para bancos de prueba/ [fn:JRSL12Cocotb]
+- /Códigos abiertos para gobiernos abiertos/ [fn:JRSL12EstadoAbierto]
+- /Control de hardware mediante "Linux Embebido" y "Kernel Modules", en el contexto Satelital./ [fn:JRSL12LinuxEmbebido]
+- /Cooperativas de tecnología, una forma de trabajo justa y federal./ (Facttic) [fn:JRSL12FACTTIC]
+- /Estructuras de datos extrañas/ [fn:JRSL12EstructuraDeDatos]
+- /Experiencia exitosa de migración a software libre de una Pyme industrial/ [fn:JRSL12MigraPyme]
+- /Fábrica de Inventos con Arduino/ [fn:JRSL12InventosArduino]
+- /FOSS for FPGA development/ [fn:JRSL12FOSSFPGA]
+- /Hardware de especificaciones libres como herramientas educativas/ [fn:JRSL12HerramientasEducativas]
+- /Mesa debate sobre desarrollo de tecnología de apropiación comunitaria/ [fn:JRSL12MesaDebate]
+- /Overview of the Linux Block layer (Keynote – Cristoph Hellwig)/ [fn:JRSL12LinuxBlockLayer]
+- /Roboticlaje: robótica educativa desde la basura/ [fn:JRSL12Roboticlaje]
+- /Sistema de gestión y administración para sindicatos y organizaciones sociales/ [fn:JRSL12GestionSindicatos]
+- /Situación del software libre, historia y nuevos desafíos (KeyNote)/ [fn:JRSL12Desafios]
+- /Software libre en el Estado Santafesino. La colaboración como base de autonomía y soberanía/ [fn:JRSL12SLSantaFe]
+- /Software, Trabajo, Derechos./ [fn:JRSL12SoftwareTrabajoDerechos]
+- /The Wrecking Ball: Demoliendo Ias, Seguridad/ [fn:JRSL12WreckingBall]
+- /Un podcast sobre la soberanía tecnológica desde los barrios populares/ [fn:JRSL12PodcastSoberania]
+- /VERNE.DRONES.HIPHOP [Arte y Cultura Libre desde una trinchera marxista]/ [fn:JRSL12VerneDronesHipHop]
+
+** Reencuentro
+
+Fue muy gratificante reencontrarse con históricos militantes del
+movimiento del Software Libre local, regional e internacional y además
+conocer a la nueva generación de activistas que además de compartir
+conocimiento técnico y experiencias cooperativas, colectivas y
+comunitarias, hubo interesantes debates sobre el estado actual y el
+futuro de la comunidad.
+
+Enterarse de primera mano de innovadores proyectos de Software Libre
+involucrando comunidades, cooperativas, redes libres y hardware libre,
+conociendo detalles del diseño, desarrollo e implementación de los
+mismos fue muy motivador para seguir participando del movimiento.
+
+** After JRSL
+
+Como es habitual, post evento, hay un momento para seguir debatiendo y
+compartiendo ideas con unas espumosas birras en un bar, esta vez además
+de degustar deliciosas pizzas, lomitos extra-large y un par de mojitos,
+jugamos un rato al jenga!
+
+** Anisacate!
+
+Gracias a la enorme hospitalidad de /Javier Jorge/ y su familia, junto a
+/Cristoph Hellwig/, pasamos la noche en =Anisacate= [fn:anisacate] y el
+domingo salimos de caminata por el río y también disfrutar una rica
+merienda en /Terrambú/.
+
+[fn:filiales]                       file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org
+[fn:JRSL12LKW]                      https://jrsl.org/pipermail/lkw_jrsl.org/2023-September/
+[fn:UNC]                            https://www.unc.edu.ar/
+[fn:JRSL12LinuxEmbebido]            https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/452/
+[fn:JRSL12EstadoAbierto]            https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/443/
+[fn:JRSL12FACTTIC]                  https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/459/
+[fn:JRSL12LinuxBlockLayer]          https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/454/
+[fn:JRSL12Automatizar]              https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/442/
+[fn:JRSL12SLSantaFe]                https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/453/
+[fn:JRSL12WreckingBall]             https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/457/
+[fn:JRSL12Desafios]                 https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/458/
+[fn:JRSL12MigraPyme]                https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/449/
+[fn:JRSL12Cocotb]                   https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/434/
+[fn:JRSL12EstructuraDeDatos]        https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/440/
+[fn:JRSL12MesaDebate]               https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/438/
+[fn:JRSL12HerramientasEducativas]   https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/450/
+[fn:JRSL12GestionSindicatos]        https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/446/
+[fn:JRSL12InventosArduino]          https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/439/
+[fn:JRSL12FOSSFPGA]                 https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/433/
+[fn:JRSL12VerneDronesHipHop]        https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/456/
+[fn:JRSL12PodcastSoberania]         https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/447/
+[fn:JRSL12Roboticlaje]              https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/441/
+[fn:JRSL12SoftwareTrabajoDerechos]  https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/464/
+[fn:anisacate]                      https://es.wikipedia.org/wiki/Anisacate
