@@ -106,6 +106,16 @@ Gracias a la enorme hospitalidad de /Javier Jorge/ y su familia, junto a
 domingo salimos de caminata por el río y también disfrutar una rica
 merienda en /Terrambú/.
 
+** Otros eventos relacionados
+
+- [[file:2023-03-30-ansible-buenos-aires-meeetup-marzo-2023.org][Ansible Buenos Aires Meetup MAR/2023]]
+- [[file:2023-03-27-pycamp-2023-en-corrientes.org][PyCamp 2023 en la República de Corrientes]]
+- [[file:2022-12-09-sasoconf-2022.org][SASOConf 2022]]
+- [[file:2022-11-17-pyday-laplata.org][PyDay La Plata 2022]]
+- [[file:2022-05-28-pytari-en-pyday-santafe.org][Pytari en PyDay Santa Fe]]
+- [[file:2022-04-23-filiales-gnu-linux-flisol-caba.org][=Filiales GNU/Linux= FLISoL CABA 2022]]
+- [[file:2022-03-28-pycamp-2022-en-baradero.org][PyCamp 2022 en Baradero]]
+
 [fn:filiales]                       file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org
 [fn:JRSL12LKW]                      https://jrsl.org/pipermail/lkw_jrsl.org/2023-September/
 [fn:LinuxDD3]                       https://lwn.net/Kernel/LDD3/
@@ -136,7 +146,6 @@ merienda en /Terrambú/.
 [fn:JRSL12Roboticlaje]              https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/441/
 [fn:JRSL12SoftwareTrabajoDerechos]  https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/464/
 [fn:anisacate]                      https://es.wikipedia.org/wiki/Anisacate
-
 
 ** ChangeLog
 
