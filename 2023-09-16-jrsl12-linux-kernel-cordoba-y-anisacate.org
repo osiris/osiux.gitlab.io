@@ -5,8 +5,10 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    Evento, Anisacate, Ansible, Charlas, Community, Córdoba, GNU, JRSL, Kernel, Linux
+#+KEYWORDS:    Evento, Anisacate, Ansible, Charlas, Community, Cooperativas, Córdoba, FPGA, GNU, JRSL, Kernel, LibreRouter, Linux, Migración, SoftwareLibre
 #+DATE:        2023-09-17 19:16
+
+[[file:img/jrsl12/2023-09-16-jrsl12-cordoba.jpg][file:tmb/jrsl12/2023-09-16-jrsl12-cordoba.jpg]]
 
 ** Volvimos!
 
@@ -25,13 +27,20 @@ Linux Si bien no pude participar del taller, esta disponible el hilo de
 mails del taller [fn:JRSL12LKW] y tal vez pueda servir de ayuda inicial
 para quien quiera interiorizarse.
 
-** Charlas!
+Es necesario leer =Linux Device Drivers, Third Edition= [fn:LinuxDD3]
+
+Los capítulos mas interesantes son:
+
+- /Chapter 2: Building and Running Modules/ [fn:LinuxDD3ch02]
+- /Chapter 9: Communicating with Hardware/ [fn:LinuxDD3ch09]
+- /Chapter 10: Interrupt Handling Chapter/ [fn:LinuxDD3ch10]
+- /Chapter 12: PCI Drivers/ [fn:LinuxDD3ch12]
+- /Chapter 15: Memory Mapping and DMA/ [fn:LinuxDD3ch15]
+
+** Muchas Charlas!
 
 Lamentablemente asistí únicamente el Sábado 16/SEP y en un sólo día
-había 20 charlas! (intenté asistir a tantas como pude) y además,
-compartí el caso de éxito de la
-=migración de 6300 equipos GNU/Linux usando Ansible y AWX= [fn:filiales]
-en mi charla =Automatizar para Innovar=.
+había 20 charlas! (intenté asistir a tantas como pude).
 
 - /Automatizar para Innovar, migración a linux masiva/ [fn:JRSL12Automatizar]
 - /cocotb tutorial, framework para bancos de prueba/ [fn:JRSL12Cocotb]
@@ -54,7 +63,16 @@ en mi charla =Automatizar para Innovar=.
 - /Un podcast sobre la soberanía tecnológica desde los barrios populares/ [fn:JRSL12PodcastSoberania]
 - /VERNE.DRONES.HIPHOP [Arte y Cultura Libre desde una trinchera marxista]/ [fn:JRSL12VerneDronesHipHop]
 
+** Mi Charla vs el Proyector!
+
+El proyector se negó a funcionar en 1920x1080 y terminé en 800x660 asi
+que estuvo un tanto accidentada, por eso comparto una charla previa muy
+similar, sobre el caso de éxito de la
+=migración de 6300 equipos GNU/Linux usando Ansible y AWX= [fn:filiales]
+
 ** Reencuentro
+
+[[file:img/jrsl12/2023-09-16-jrsl12-reencuentro.jpg][file:tmb/jrsl12/2023-09-16-jrsl12-reencuentro.jpg]]
 
 Fue muy gratificante reencontrarse con históricos militantes del
 movimiento del Software Libre local, regional e internacional y además
@@ -63,12 +81,16 @@ conocimiento técnico y experiencias cooperativas, colectivas y
 comunitarias, hubo interesantes debates sobre el estado actual y el
 futuro de la comunidad.
 
+[[file:img/jrsl12/2023-09-16-jrsl16-librerouter.jpg][file:tmb/jrsl12/2023-09-16-jrsl16-librerouter.jpg]]
+
 Enterarse de primera mano de innovadores proyectos de Software Libre
 involucrando comunidades, cooperativas, redes libres y hardware libre,
 conociendo detalles del diseño, desarrollo e implementación de los
 mismos fue muy motivador para seguir participando del movimiento.
 
 ** After JRSL
+
+[[file:img/jrsl12/2023-09-16-jrsl12-brobar.jpg][file:tmb/jrsl12/2023-09-16-jrsl12-brobar.jpg]]
 
 Como es habitual, post evento, hay un momento para seguir debatiendo y
 compartiendo ideas con unas espumosas birras en un bar, esta vez además
@@ -77,6 +99,8 @@ jugamos un rato al jenga!
 
 ** Anisacate!
 
+[[file:img/jrsl12/2023-09-17-jrsl12-anisacate-rio.jpg][file:tmb/jrsl12/2023-09-17-jrsl12-anisacate-rio.jpg]]
+
 Gracias a la enorme hospitalidad de /Javier Jorge/ y su familia, junto a
 /Cristoph Hellwig/, pasamos la noche en =Anisacate= [fn:anisacate] y el
 domingo salimos de caminata por el río y también disfrutar una rica
@@ -84,6 +108,12 @@ merienda en /Terrambú/.
 
 [fn:filiales]                       file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org
 [fn:JRSL12LKW]                      https://jrsl.org/pipermail/lkw_jrsl.org/2023-September/
+[fn:LinuxDD3]                       https://lwn.net/Kernel/LDD3/
+[fn:LinuxDD3ch02]                   https://lwn.net/images/pdf/LDD3/ch02.pdf
+[fn:LinuxDD3ch09]                   https://lwn.net/images/pdf/LDD3/ch09.pdf
+[fn:LinuxDD3ch10]                   https://lwn.net/images/pdf/LDD3/ch10.pdf
+[fn:LinuxDD3ch12]                   https://lwn.net/images/pdf/LDD3/ch12.pdf
+[fn:LinuxDD3ch15]                   https://lwn.net/images/pdf/LDD3/ch15.pdf
 [fn:UNC]                            https://www.unc.edu.ar/
 [fn:JRSL12LinuxEmbebido]            https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/452/
 [fn:JRSL12EstadoAbierto]            https://eventol.flisol.org.ar/events/jrsl-cordoba-2023/activity/443/
