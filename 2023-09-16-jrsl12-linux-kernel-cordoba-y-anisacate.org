@@ -7,6 +7,15 @@
 #+INCLUDE:     header.org
 #+KEYWORDS:    Evento, Anisacate, Ansible, Charlas, Community, Cooperativas, Córdoba, FPGA, GNU, JRSL, Kernel, LibreRouter, Linux, Migración, SoftwareLibre
 #+DATE:        2023-09-17 19:16
+#+HTML_HEAD:   <meta property="og:title" content="12º Jornadas Regionales de Software Libre en Córdoba" />
+#+HTML_HEAD:   <meta property="og:description" content="Resumen de actividades en las Jornadas Regionales de Software en Córdoba, Linux Kernel Workshop y paseo por Anisacate" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2023-09-17" />
+#+HTML_HEAD:   <meta property="og:article:author" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2023-09-16-jrsl12-linux-kernel-cordoba-y-anisacate.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/jrsl12/2023-09-16-jrsl12-cordoba.jpg" />
 
 [[file:img/jrsl12/2023-09-16-jrsl12-cordoba.jpg][file:tmb/jrsl12/2023-09-16-jrsl12-cordoba.jpg]]
 
