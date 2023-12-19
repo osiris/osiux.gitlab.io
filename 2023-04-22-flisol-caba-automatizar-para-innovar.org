@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    tag
+#+KEYWORDS:    Ansible, ActiveDirectory, Automation, AWX, CABA, Debian, Deploy, DevOps, FLISoL, FreeIPA, GitLab, GNU, IaC, Linux, migrate, nerdearla, Proxmox, talks, Ubuntu
 #+DATE:        2023-04-22
 #+HTML_HEAD:   <meta property="og:title" content="Charla Automatizar para Innovar en FLISoL CABA 2023" />
 #+HTML_HEAD:   <meta property="og:description" content="Transcripción de la Charla Automatizar para Innovar realizada en el FLISoL CABA el 22 de Abril de 2023" />
@@ -20,10 +20,12 @@
 
 
 #+BEGIN_EXPORT html
-<video id="video" controls width="720" height="406" autoplay loop background="#000000" preload>
-  <source src="videos/flisol-2023-caba-osiux-automatizar-para-innovar.mp4 type="video/mp4">
+<video id="video" controls width="720" height="406" autoplay loop background="#000000" preload poster="https://osiux.com/img/flisol-2023-caba/2023-04-22-flisol-2023-caba-osiux-automatizar-para-innovar.png">
+  <source src="videos/flisol-2023-caba-osiux-automatizar-para-innovar.mp4" type="video/mp4">
 </video>
 #+END_EXPORT
+
+- [[file:videos/flisol-2023-caba-osiux-automatizar-para-innovar.mp4][Descargar =flisol-2023-caba-osiux-automatizar-para-innovar.mp4= 320MB]]
 
 ** Presentación
 
@@ -1070,6 +1072,7 @@ Alguien tiene otra pregunta?
 
 ** Seguro te interesará leer...
 
+- [[file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
 - [[file:2021-12-30-automated-bios-configuration-using-ansible-and-hp-linux-tools.org][Automatizar la configuración de la /BIOS/ usando =ansible= y /HP Linux Tools/]]
 - [[file:2022-04-23-filiales-gnu-linux-flisol-caba.org][=Filiales GNU/Linux= FLISoL CABA]]
 - [[file:2022-10-03-ansible-tools-v0-3-0.org][/Ansible Tools/ =v0.3.0=]]
@@ -1100,3 +1103,7 @@ Alguien tiene otra pregunta?
 [fn:freeipa]             https://www.freeipa.org/
 [fn:active-directory]    https://en.wikipedia.org/wiki/Active_Directory
 [fn:gitlab2awx]          file:2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.org
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0ddece1d0403fc37c58863046739c5f68fff643b][=2023-12-19 14:05=]] agregar /Charla "Automatizar para Innovar" en FLISoL CABA 2023/
