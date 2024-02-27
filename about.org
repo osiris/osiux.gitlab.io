@@ -1,0 +1,78 @@
+#+TITLE:       About OSiUX
+#+AUTHOR:      Osiris Alejandro Gómez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+DATE:        2006-11-06
+#+HTML_HEAD:   <meta property="og:title" content="About OSiUX" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2006-11-06" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gómez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/osiux.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/no-soy-un-pirata-compartir-es-bueno.jpg" />
+
+#+OPTIONS:   broken-links:mark
+
+** =whoami=
+
+   /Osiris Alejandro Gómez (a.k.a. OSiUX)/
+
+   - Socio de [[https://www.gcoop.coop/][gcoop Cooperativa de Software Libre]]
+   - Programador y [[file:linux-sysadmin.org][Administrador =GNU/Linux=]]
+   - Autodidacta y fanático de [[file:dame-una-consola.org][automatizar todo desde una =tty=]]
+   - Interesado en divulgar el uso del [[file:introduccion-al-software-libre.org][/Software Libre/]]
+   - Promover la creación de nuevas [[https://altermundi.net/documentacion/redes-libres-comunitarias-y-descentralizadas/][Redes Libres, abiertas y comunitarias]]
+
+   En el pasado participó y/o colaboró de:
+
+   - [[https://altermundi.net/][Altermundi]]
+   - [[https://web.archive.org/web/20131106063201/http://wiki.buenosaireslibre.org/NodoOSiUX][BuenosAiresLibre]]
+   - [[https://cafelug.org.ar/][CaFeLUG]] /Grupo de Usuarios GNU/Linux de la Capital Federal/
+   - [[https://web.archive.org/web/20120129064707/http://drupal.usla.org.ar/][USLA]] /Usuarios de Software Libre de Argentina/
+
+** =.git=
+
+   Este /blog/ esta desarrollado en formato =.org= (=org-mode=) y al
+   mismo tiempo cuenta con versiones en formato =.md= (=Markdown=) y
+   también en formato =.gmi= (/cápsula gemini/) y se exporta
+   dinámicamente a formato =.html=
+
+   | /name/            | /url/                                       |
+   |-------------------|---------------------------------------------|
+   | mirror gemini     | gemini://gmi.osiux.com/                     |
+   | mirror gitlab     | https://osiux.gitlab.io/                    |
+   | mirror selfhosted | https://osiux.com.ar/                       |
+   | mirror prose.sh   | https://osiux.prose.sh/                     |
+   | source gitlab     | https://gitlab.com/osiux/osiux.gitlab.io/   |
+   | source github     | https://github.com/osiris/osiux.gitlab.io/  |
+   | source codeberg   | https://codeberg.org/OSiUX/osiux.gitlab.io/ |
+
+** =gpg=
+
+   Mantener las conversaciones confidenciales hoy día es una tarea
+   importante ante tanto registro de los medios de comunicación
+   digitales.
+
+   Si no sabés qué es =gpg=, lee el siguiente tutorial:
+
+   - [[file:howto-gpg-gnu-pgp.org][HowTo GNU GPG PGP]]
+
+*** =signature=
+
+    #+BEGIN_EXAMPLE
+
+			Osiris Alejandro Gomez (OSiUX) osiux@osiux.com
+			https://osiux.com/ GPG KEY B308 A671 9237 D36C
+
+			Osiris Alejandro Gomez (OSiRiS) osiris@gcoop.coop
+			DC44 95D2 0D5D D544 FC1A F00F B308 A671 9237 D36C
+			https://gcoop.coop/ Cooperativa de Software Libre
+
+    #+END_EXAMPLE
+
+*** =public key=
+
+    - [[https://pub.osiux.com/gpg/9237D36C.asc][=9237D36C=]]
