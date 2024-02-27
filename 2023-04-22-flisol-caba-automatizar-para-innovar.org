@@ -1105,7 +1105,9 @@ Alguien tiene otra pregunta?
 [fn:gitlab2awx]          file:2022-10-08-automate-deployment-of-AWX-resources-with-GitLab-CI-CD-and-ansible-tools.org
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/b77747960db686ec8661bbcee3a0071cd28ce638][=2024-02-27 09:02=]] corregir tamaño video /Charla "Automatizar para Innovar" en FLISoL CABA 2023/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/eeeede85b963505b4f2ba6be7f31f886b744ac7e][=2023-12-19 15:45=]] actualizar KEYWORDS, agregar poster link de descarga de video y agregar link a charla nerdearla en /Charla "Automatizar para Innovar" en FLISoL CABA 2023/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0ddece1d0403fc37c58863046739c5f68fff643b][=2023-12-19 14:05=]] agregar /Charla "Automatizar para Innovar" en FLISoL CABA 2023/
