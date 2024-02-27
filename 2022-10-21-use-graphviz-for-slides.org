@@ -152,7 +152,7 @@ awx-bccl.png PNG 11016x11183 11016x11183+0+0 8-bit sRGB 82.4656MiB 0.000u 0:00.0
 Un excelente visor es =geeqie= [fn:geeqie], permite hacer /zoom/ y
 soporta imágenes grandes sin colgarse.
 
-** /deep zoom/
+** /deep zoom/ [fn:dzi]
 
 En la búsqueda por no perder calidad y poder navegar el grafo de
 =Filiales GNU/Linux= [fn:fgnuldzi] me topé con algo genial, se llama
@@ -216,8 +216,10 @@ un /script/ /Python/ que toma la imagen =.png= y la divide en partes.
 
 
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/141f3eae3b054d18275f28d379215630333546d0][=2024-02-27 09:00=]] cambiar imagen OpenGraph en /Usar Graphviz para generar Slides/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/7b75f0a4ed2ec7548a280eb6aa90229ad3d06fe0][=2023-05-05 15:33=]] corregir DESCRIPTION en /Usar Graphviz para generar Slides/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/5dcc858ab3ec850740e5c2e046e51991b8783b6e][=2023-05-05 13:47=]] agregar DESCRIPTION y KEYWORDS en /Usar GraphViz para generar slides
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
