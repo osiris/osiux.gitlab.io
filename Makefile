@@ -57,6 +57,9 @@ links:
 dot:
 	[[ "$$(curl --connect-timeout $(DOT_TMO) -s -o /dev/null -w '%{http_code}' $(DOT_URL)/$(DOT_TGZ))" = 200 ]] && curl $(DOT_URL)/$(DOT_TGZ) > $(DOT_TGZ) && tar xvf $(DOT_TGZ) && rm -f $(DOT_TGZ)
 
+tags:
+	@grep KEYWORDS: *.org | cut -d: -f3 | cut -d, -f1 | tr -d ' ' | grep -E '[A-Za-z]+' | sort | uniq -c | sort -nr
+
 ansible:
 	./tag2org.sh ansible > ansible.org
 
