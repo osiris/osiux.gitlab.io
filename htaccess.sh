@@ -27,6 +27,7 @@ AddDefaultCharset utf-8
     RewriteRule feed index.xml
     RewriteRule robots.html robots.txt
     RewriteRule ^2013-09-30-hacks-hackers-buenos-aires-2013.html$ /2013-08-30-hacks-hackers-buenos-aires-2013.html [R=301,NC]
+    RewriteRule ^about$ /about.html
 EOF
 )
 
