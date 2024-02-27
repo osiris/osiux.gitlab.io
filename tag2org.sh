@@ -66,7 +66,7 @@ do
 
 done < "$FILTER"
 
-printf "\\n** %s\\n\\n" "Videos"
+[[ -s "$VIDEOS" ]] && printf "\\n** %s\\n\\n" "Videos"
 
 while read -r FILE VIDEO
 do
