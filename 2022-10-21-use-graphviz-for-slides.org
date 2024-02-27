@@ -14,7 +14,7 @@
 #+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2022-10-21-use-graphviz-for-slides.html" />
 #+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
 #+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
-#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/filiales-gnu-linux/lab-00.png" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/filiales-gnu-linux/lab-01.png" />
 
 
 Hace años que utilizo /Graphviz/ [fn:graphviz] cada vez que puedo y ayer
