@@ -6,6 +6,7 @@
 *.gmi
 *.html
 *.md
+*.tmp
 .htaccess
 bak
 blog.org
