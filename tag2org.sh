@@ -49,7 +49,7 @@ do
 
   ORG_LANG="$(get_lang "$FILE")"
   [[ "$ORG_LANG" != 'es' ]] && continue
-  grep -lE "^\#\+KEYWORDS:.*$TAG" "$FILE"
+  grep -liE "^\#\+KEYWORDS:.*$TAG" "$FILE"
 
 done < "$FILES" | sort -nr > "$FILTER"
 
