@@ -1,5 +1,5 @@
 [[file:index.org][index]] |
-[[file:osiux.org][OSiUX]] |
+[[file:about.org][about]] |
 [[file:archive.org][archive]] |
 [[file:charlas.org][charlas]] |
 [[file:docs.org][docs]] |
