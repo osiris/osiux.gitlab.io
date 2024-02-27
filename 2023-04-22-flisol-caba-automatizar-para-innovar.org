@@ -25,7 +25,7 @@
 </video>
 #+END_EXPORT
 
-- [[file:videos/flisol-2023-caba-osiux-automatizar-para-innovar.mp4][Descargar =flisol-2023-caba-osiux-automatizar-para-innovar.mp4= 320MB]]
+- [[file:videos/flisol-2023-caba-osiux-automatizar-para-innovar.mp4][Descargar =flisol-2023-caba-osiux-automatizar-para-innovar.mp4= 94MB]]
 
 ** Presentación
 
