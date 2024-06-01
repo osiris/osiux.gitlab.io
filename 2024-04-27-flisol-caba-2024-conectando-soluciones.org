@@ -1243,3 +1243,7 @@ También agregué al video la licencia /Creative Commons/ =BY-SA= porque
 [fn:eventol]             https://github.com/EventoL/EventoL
 [fn:pycamp]              https://wiki.python.org.ar/pycamp/
 [fn:debian]              https://www.debian.org/
+
+** ChangeLog
+
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a2a203b9fa54b66687c2f11ab1ec7575787416d6][=2024-05-31 22:16=]] agregar /Conectando Soluciones en FLISoL CABA 2024/
