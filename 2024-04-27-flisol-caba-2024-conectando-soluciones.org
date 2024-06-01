@@ -1,0 +1,1245 @@
+#+TITLE:       Conectando Soluciones en FLISoL CABA 2024
+#+DESCRIPTION: Transcripción de la charla "Conectando Soluciones" de OSiUX en FLISoL CABA 2024
+#+AUTHOR:      Osiris Alejandro Gomez
+#+EMAIL:       osiux@osiux.com
+#+LANGUAGE:    es
+#+LINK_HOME:   index.html
+#+INCLUDE:     header.org
+#+KEYWORDS:    Bash, Boxart, Charla, Consola, Debian, Eventol, FLISoL, Git, GraphViz, grep, ImageMagick, Journal, jq, jrnl, JSON, Linux, Markdown, RegEx, shellrun, Shellrun, Talk, Terminal, TTY, txt2md, Vim, yq
+#+DATE:        2024-04-27 16:00
+#+HTML_HEAD:   <meta property="og:title" content="Conectando Soluciones en FLISoL CABA 2024" />
+#+HTML_HEAD:   <meta property="og:description" content="Transcripción de la charla "Conectando Soluciones" de OSiUX en FLISoL CABA 2024" />
+#+HTML_HEAD:   <meta property="og:type" content="article" />
+#+HTML_HEAD:   <meta property="og:article:published_time" content="2024-04-27" />
+#+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
+#+HTML_HEAD:   <meta property="og:url" content="https://osiux.com/2024-04-27-flisol-caba-2024-conectando-soluciones.html" />
+#+HTML_HEAD:   <meta property="og:site_name" content="OSiUX" />
+#+HTML_HEAD:   <meta property="og:locale" content="es_AR" />
+#+HTML_HEAD:   <meta property="og:image" content="https://osiux.com/img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-flisol.png" />
+#+HTML_HEAD:   <meta property="og:video" content="https://osiux.com/videos/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones.mp4" />
+
+#+BEGIN_EXPORT html
+<video id="video" controls width="720" height="406" autoplay loop background="#000000" preload poster="https://osiux.com/img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones.png">
+  <source src="videos/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones.mp4" type="video/mp4">
+</video>
+#+END_EXPORT
+
+Esta es una transcripción de la charla /"Conectando Soluciones"/ de
+/OSiUX/ en /FLISoL CABA 2024/
+
+- [[file:videos/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones.mp4][Descargar =2024-04-27-flisol-2024-caba-osiux-conectando-soluciones.mp4= 114MB]]
+- [[file:videos/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones.srt][Descargar =2024-04-27-flisol-2024-caba-osiux-conectando-soluciones.srt=  83KB]]
+
+** FLISoL
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-flisol.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-flisol.png]]
+
+Bueno, la charlita es /Conectando Soluciones/, le puse de nombre.
+Estamos en el =FLISoL 2024= [fn:flisol-2024]. Y bueno, la idea es
+mostrar un poco el uso de la consola, pero más allá de lo que es solo
+texto. Digamos, ¿no?
+
+Como en general, justamente lo que comentaban en la charla anterior era
+como hay miedo a la consola, sí, es como hay gente ñoña, que usa fondo
+negro, letras verdes, pero bueno, se pueden hacer cosas interesantes en
+la consola.
+
+** OSiUX
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-osiux.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-osiux.png]]
+
+¿Quién soy? Soy /OSiUX/ en la comunidad, /OSiRiS/ es mi nombre. Ese es
+mi sitio web, =OSiUX.com= [fn:osiux-blog].
+
+Trato cada vez que puedo de compartir conocimiento siempre de
+tecnologías Libres, ahí disponible.
+
+No está muy actualizado, pero bueno, lo intento. Este año todavía no
+escribí nada, pero bueno, hay todo lo del año pasado y años anteriores.
+
+** gcoop
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-gcoop.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-gcoop.png]]
+
+Trabajo en =gcoop= [fn:gcoop].
+/gcoop/ es una /Cooperativa de Software Libre/. Quiere decir que es un
+lugar donde no tenemos ni jefes ni empleados. Somos todos pares, una
+estructura horizontal.
+
+Es un lío porque es un grupo de personas que tienen que ponerse de
+acuerdo y trabajamos exclusivamente con =Software Libre= [fn:rms-sl]
+
+Eso es lo que me motivó a mí a participar.
+
+Hoy somos unas 20 personas ahí y de hecho esta semana estamos en una
+búsqueda de /Backend PHP Senior/, si hay alguien interesado entre en la
+página.
+
+** tty
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-tty.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-tty.png]]
+
+=tty=, consola, terminal, o el nombre que quieran usar.
+
+¿Por qué la uso?
+
+Bueno, porque está siempre disponible en cualquier servidor, en
+cualquier dispositivo hay una consola.
+
+Es =UNIX Way= [fn:unixway], /UNIX Way/ quiere decir que se va a conectar
+con todo y hace una sola cosa y muy bien, cada comando que existe en la
+terminal.
+
+Trabaja con muy pocos recursos. Sigue el principio =KISS= [fn:KISS]. Es
+decir, mantenelo simple, estúpido. Estúpido es la persona. No se sientan
+mal, no es la máquina.
+
+Y puede estar local o remota con o sin =X=.
+
+Yo en este momento estoy en un entorno gráfico, aunque no parezca, se
+llama =awesome= [fn:awesome]. Hoy hablaron de =i3= [fn:i3], a mí me
+gusta más /Awesome/, pero son muy parecidos.
+
+** =bash=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-bash.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-bash.png]]
+
+Y en una terminal que uso, uso =bash= [fn:bash].
+¿Por qué? Porque está siempre.
+
+Hay otras bonitas con más colorcitos, pero esta está siempre, no hay que
+instalarla. Ya viene, están todos los servidores del mundo.
+
+Y básicamente lo que me importa de /Bash/ es que es el pegamento que une
+un montón de otras cosas.
+
+Yo uno comandos, que unos están hechos en /Python/, otros en /Java/,
+otros no sé, no me interesa. Yo hice un comando que los interconecto y
+logro solucionar mi problema puntual con soluciones pequeñas de otros
+problemas que lo hizo otra persona.
+
+** =vim=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-vim.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-vim.png]]
+
+Como editor de texto uso =vim= [fn:vim], no uso /IDE/ para programar.
+/Vim/ tiene todo lo necesario cuando lo instalas. Casi que no necesitas
+confirmar nada. Si querés, hay /plugin/ para todo y tengo un /Language/
+/Server/ /Processing/ [fn:vim-coc], no sé qué cosa, ahora que corre y
+hace cosas de colores. No hace falta más.
+
+¿Por qué lo uso yo? Porque, por esto, porque está muy pegado a la
+consola.
+
+Entonces puedo meter cosas en /Vim/, sacar cosas de /Vim/, interaccionar
+con el resto del sistema y casi de manera transparente.
+
+Entonces no... ¿Podrían hacerlo con otro sistema? Sí, pero capaz que no
+tienen la cantidad de plugins necesaria.
+
+Acá cuando algo /Vim/ no tiene y yo hago un /script/ y ese /script/
+habla con /Vim/ y hago un /script/ en /Bash/, re pavote, o sea como... Y
+me soluciona mi problema rápido.
+
+** =git=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-git.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-git.png]]
+
+=git= [fn:git] es una herramienta indispensable y lo que hay que pensar
+que /Git/ permite versionar código inicialmente, pero en realidad está
+versionando archivos. Y en realidad podés versionar cualquier cosa, no
+solamente código.
+
+Entonces yo tengo versionado todo lo que se le ocurra que sea un archivo
+y todo lo que puedo lo hago en un archivo de texto plano.
+
+Es súperrápido, pequeño, entonces como cada cinco minutos mi compu está
+mandando cosas a un /repo/ /Git/ en otro lado por si me la chorean o por
+si me mando un dedazo yo.
+
+** =sed=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-sed.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-sed.png]]
+
+Y si vamos a las herramientas simples de consola, una muy común y es que
+súper poderosa yo debo saber un =5%= de esta que se llama =sed= [fn:sed]
+y básicamente lo que permite es buscar cosas y reemplazarlas por otra.
+
+Entonces si yo tengo escrito, ahí =gitlab= y lo quiero con guiones bajos
+para que después en =markdown= [fn:markdown] eso se convierta en una
+/itálica/ y se vea más bonito.
+
+Bueno, la estructura es esa. Hago una pausa ahí. Esto es lo importante
+digamos. Esa estructura de... Vamos a buscar acá. Básicamente lo escribo
+en otro lado.
+
+=s= barra =a= barra =b= barra =g=
+
+O sea, =a= es el texto a buscar. Como que puede ser, en este caso yo el
+ejemplo estoy dando gitlab. Y se puede transformar en cualquier otra
+cosa.
+
+Estoy buscando el texto específico ahora de esa palabra. ¿Podría ser más
+complejo? Ahí está.
+
+Y lo mismo si yo acá más abajo quiero decir Bueno, quiero que ese texto,
+por ejemplo, =txt= se transforme en un =.txt= con barritas para que
+después se vea como un formato de código.
+
+Bueno, también estoy buscando lo mismo. Como busco un patrón y lo
+reemplazo por otro. De hecho, bueno, esto no es un patrón, eso es un
+cacho texto a texto. Si yo quise ir a patrones, tengo que ir a /RegEx/.
+
+** /RegEx/
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-regex.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-regex.png]]
+
+Hay quienes dicen que...
+
+"Si tenés 1 problema y lo intentas resolver con =RegEx= [fn:regex],
+tenés 2 problemas"
+
+Es medio un poco así, pero superdivertido. ¡Estás tres horas hasta que
+logras que algo te ande y cuando le pegas, sos Gardel!
+
+Bueno, si yo quisiera buscar dentro de un texto, dentro de un /log/, una
+/IP/, ¿Cómo lo defino? Como hay muchísimas /IPs/, son una secuencia de
+números de uno a tres números que además van de =0= a =255=. No puede
+ser cualquier número. Un punto, otro octeto de número, un punto, otro,
+un punto y otro.
+
+Bueno, con /RegEx/ yo puedo definir esto. Puedo decir entre =0= y =9=
+con el =+= digo uno a muchos. No sé cuánto, pero por más de uno. Después
+viene un punto y pongo una barra ahí. ¿Por qué? Porque si pongo puntos
+solo en /RegEx/, quiere decir cualquier carácter. Entonces, para que sea
+punto y no cualquier carácter, barra, punto.
+
+Barrapunto era un lindo sitio que no existe más.
+
+Y lo mismo lo hago cuatro veces. Entonces, esto va a machar con un
+número, punto, un número, punto, un número, punto, número.
+
+Los tres primeros podrían ser el número de la versión de un programa. No
+es exactamente una /IP/, pero se aproxima.
+
+Y la definición que tengo, digamos, hay un poco más, pero me cayó el
+touch. Pero básicamente con este esquema que tengo ahí es como digo,
+bueno, tengo una secuencia de números, una secuencia de letras
+minúsculas, secuencia de letras mayúsculas opcionales y las puedo ir
+concatenando y voy a ir construyendo patrones más complejos.
+
+Bueno, esto se me fue más rápido de lo que yo quería, pero bueno.
+
+** =jq=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jq.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jq.png]]
+
+Otro comando que después lo voy a estar relacionado, porque las /RegEx/
+las uso en todos lados, es =jq= [fn:jq].
+
+=jq= es un comando que interpreta al vuelo expresiones de que hay un
+/JSON/.
+
+Entonces te permite operar un archivo /JSON/ escribiéndole un /Query/ y
+él te devuelve el resultado.
+
+Esto lo acabo de descargar hace un ratito. =325= personas se registraron
+al /FLISoL/ de este año. Me bajé el /JSON/ de la página.
+
+Primero le digo, che, contame cuántos hay. Y después acá le voy a decir,
+che, bueno, tráeme todos los registros que encuentre. De todos esos
+registros tráeme el nombre y el apellido.
+
+Este es el archivo de donde estoy bajando. Y después acá le tiré un
+comando que le digo, de todo ese registro hace un orden random,
+cualquiera, desordenarlo, y tráeme un registro.
+
+Y de ese resultado, un comandito que hice, le dice =future=, que es la
+tipografía para que se ve así.
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-future.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-future.png]]
+
+Entonces, en este momento acabo de hacer un sorteo de tres personas.
+¿Alguien se ve ahí? ¿Alguien es /Flix/? ¿/Braian/? ¿/Manuel/? ¿No está?
+¿No hay nadie? ¡No salió! Suele pasar en la demo. Y no, pero tenés que
+mostrar el /DNI/ que sos /Braian/.
+
+¿Eh? Espera, espera. Espera, espera. A ver, vamos a aprovechar. Vamos,
+vamos, vamos a ver que sale. =eventol2shuf= [fn:eventol2shuf], creo que
+le puse.
+
+/Lucas/, ¿no? Que grite, rápido! ¿/Matías/? ¿Acá? Muy bien, /Matías/. No
+te va a servir a vos el regalo, perdóname. No es mala onda, ¿eh? Es una
+remera /gcoop/, podés regalarla es talle /S/, por eso te digo. No me
+entra ni a mí.
+
+Bueno, /Martín/ ..., no sé qué es. /Nereo/. /Antu/. /Priscilla/. Ah,
+/Priscilla/.  Talle /S/. ¿Dónde está? No, esta es mía. Esta es para vos.
+Ahí está, perfecto.
+
+Bueno, entonces, esto que es una pavada, digamos, podemos mirar. El
+/script/ se llama =eventol2shuf= /Eh Livre!/ Ahí está la licencia, es
+/GPL/ [fn:gpl], blablabla.
+
+Bueno, y básicamente lo que hice es... Vamos a poner la pantalla más
+grande para que se vea.
+
+El /script/, todo lo que está delante es para hacerlo más bonito.
+Básicamente es eso, es como comando =jq=, un /Query/ que lo puse en una
+variable para poder cambiarlo, el archivo, ordená y dame un resultado, y
+una herramienta que se llama =toilet= [fn:toilet] y le pasás la
+tipografía =future=, la que me gusta a mí.
+
+Eso es todo. Ahora, ese /JSON/ es un archivo en mi máquina, y como...
+¿con qué está conectado? ¿con nada? Bueno, yo podría hacer algo que esté
+descargando constantemente del sitio de =eventol= [fn:eventol] donde se
+registraron, y bueno, ya está interconectado, y a mí no me importa con
+qué lo hicieron Eventol. Entiendo que está hecho en /Python/ y /Django/,
+pero es como...  Ese sitio me da un /JSON/.
+
+Listo, yo hago un comando que lee ese /JSON/, lo concatena con
+herramientas. O sea, yo no sé en qué esta hecho =toilet=. No me
+interesa. Entonces, lo importante, cuando uno está en la consola, lo
+importante es esto, el /pipe/.
+
+El =pipe= [fn:pipe] es lo que nos permite interconectar la salida de un
+comando con la entrada de otro. Y entonces, esos dos comandos, no
+importa en qué lenguaje estén construidos, lo que necesitan hacer es
+entender texto plano. Leen texto, escupen texto. Nada más. No entienden
+mucho más.
+
+La inteligencia que se le pone al procesar ese texto está dentro de cada
+programa. Uno tiene que estar sabiendo. Entonces, bueno, como este
+programa espera que la primera columna sea tal cosa, la segunda tal
+otra, bueno, hay que elaborarlo un poquito a veces.
+
+Pero vos podés concatenar tantos comandos como quisieras. Y ahí está, me
+parece, la magia de la consola. Esperen que me fui a... la... La
+estratosfera acá.
+
+Vamos a acelerar un poquito esto. ¿Perdón, voy muy rápido? Me pueden
+pegar un hondazo. Cualquier pregunta es válida en este momento.
+
+¿Estábamos en =sed=? No. ¿Pasaste /RegEx/? Pasé /RegEx/. Bueno. Piqui,
+piqui, piqui. Acá.
+
+¿Estábamos en /RegEx/? Acá creo que no se llegó a ver. No sé si llegan a
+ver todos. Después yo lo publico esto.
+
+Pero bueno, hay una mejor manera de escribir la expresión regular para
+detectar una /IP/ que es más precisa que en lugar de decirle más de uno,
+le decís entre uno y tres valores. Bueno, ya es una mejora, digamos.
+
+Bueno, estábamos en =jq= y el sorteo. Y bueno, yo, por ejemplo, uso
+estas herramientas para construir otras. Entonces, primero usé =jq= y
+después me topé que necesitaba hacer medio algo parecido con /YAML/. Y
+alguien hizo =yq= [fn:yq], que es igual pero para /YAMLs/ Que en
+realidad lo que hace es masajear los datos y se los escupe a =jq=. No
+laburo mucho. O sea, como aprovechó lo que ya estaba.
+
+Y ese es un poco el espíritu de trabajar en la consola de /Software/
+/Libre/. Aprovechar lo que ya alguien hizo.
+
+Bueno, /Thalía/, te perdiste una remera. ¿/Juan/ también? /Alberto/
+también. Tengo stickers. Me quedé escuchando. ¿Vos sos /Juan/? Stickers
+tengo. Yo puedo dar stickers. Una plancha de stickers. La pasan por ahí.
+Si alguno agarra por el camino, no pasa nada. Bueno.
+
+** =txt2md=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-txt2md.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-txt2md.png]]
+
+Sobre esta construcción de herramientas pequeñas e ir combinándolas,
+llegué a =txt2md= [fn:txt2md], que es convertir texto plano en
+/Markdown/. Lo que me sucede más o menos seguido es que como escribo
+solo texto plano porque ocupa muy poco, porque lo puedo versionar con
+/Git/, es muy rápido escribirlo en /Vim/. Y después se puede transformar
+/HTML/, /Markdown/, cualquier cosa más linda y bonita que se vea.
+
+Bueno, entonces me pasa que yo tipeo. Y tipeo así, texto plano, todo
+minúscula. Como debe ser, hasta 72 caracteres de ancho. Nada más. Pero
+eso lo quiero convertir que se vea un poco más bonito. Y ahí ya tengo
+que laburar. No hay una inteligencia artificial o algo que diga,
+entienda lo que estoy tipeando. Va a entender algunas cosas, pero hay
+cosas que son muy puntuales del proyecto en el que estoy trabajando o
+cosas mías y que yo los quiero diferenciar, lo quiero resaltar de alguna
+otra manera.
+
+Ay, ya la perdí. Espere que me cayó la demo. Vamos a abrir. Esto era
+txt. A ver si ando solo. Ahí.
+
+Entonces yo en /Vim/ configure para que si tengo un texto y presiono la
+tecla =F5=, agarre ese texto, se lo pasa a un /script/ que hice yo, y
+ese /script/ haga cosas. Básicamente hace =sed=, =grep=, más que nada,
+mayormente =sed=. Busca texto, reemplaza texto. No tiene más
+inteligencia. Después, bueno, como lo formatea un poquito y qué sé yo.
+No sé si está tardando mucho o no está haciendo nada. Ahí está.
+
+Bueno, entonces, es el mismo texto de arriba que el de abajo, pero la
+diferencia está en que, bueno, empezó a buscar patrones y buscaba esto.
+Che, cuando encuentres punto algo, punto tres letras, es una extensión
+de archivo. Entonces, convertirlo a monoespaciado. Bueno, en este caso
+es de dos. Después, cuando encuentres algo que uso a diario, que es
+/AWX/, che, ponerlo en mayúsculas y en itálica, porque se ve más bonito.
+
+Cuando estoy hablando de que estoy diciendo que hice algo con un /Job/
+template, lo mismo, ponerlo en itálica, pero ponelo en minúsculas.
+
+Cuando encuentres algo que se parezca a una /IP/, dale formato, porque
+cuando la persona que va a leer un /PDF/, que estoy haciendo un reporte
+de algo, va a entender más fácil cuando las cosas están como ahí
+identificadas, ¿no? Distintas.
+
+Y más después, como este spanglish de que, bueno, que estoy haciendo
+algo en castellano y todo el tiempo estoy mencionando palabras en
+inglés, entonces, el hecho de resaltar las mayúsculas, minúsculas,
+permiten distinguirse. Estoy hablando de una cosa, de un objeto, de algo
+puntual.
+
+Y lo más importante para mí es que cuando escribo, por ejemplo, =job=
+=123= se interpreta ese texto y lo convierte a una /URL/ en formato de
+/Markdown/ y le agrega lo que hace falta, digamos, la /URL/ completa.
+Entonces, tengo para /Job/ y va esa /URL/. Si escribo otra palabra, me
+cambia la /URL/. Y ya no tengo que tipear tanto. Entonces, esto es cada
+vez como más rápido y /Custom/, digamos. Si...
+
+Y si quisiéramos ver un poquito de esto, esto está acá, ahí. Vamos a ver
+un poco el código. Esto es parte del código. Así, agrando un poquito.
+Ah, no. Vamos a cambiar la pantalla. Bueno, ahí está. Bueno, básicamente
+es un /script/ bastante de cabeza.
+
+Los caracteres tienen que llegar hasta 72 de ancho.
+Lo dice un /RFC/ [fn:rfc822] de la /Internet/ en el año '70.
+Yo lo respeto. Es por si en algún momento alguno de mis correos llegara
+a pasar por un servidor muy, muy viejo, no lo va a truncar. Nada más que
+por eso, de molesto.
+
+En realidad código vertical es mejor que código horizontal. Entonces, si
+te está yendo muy, muy extenso para la derecha, volvé negro a la
+izquierda que va a estar mejor. Más conciso, más claro.
+
+Acá, por ejemplo, tenemos la función que hace los /links/. Lo que hace
+es, bueno, recorre todas las líneas que está encontrando y bueno, la
+línea empieza con una almohadilla.
+
+Es un comentario, ignórala. No sé, esta es mi lógica. Si encuentra un
+prefijo que dice NO_PREFIJO hace una cosa y si no hace otra y después si
+se encuentra sufijo que dice NO_SUFIJO lo mismo, una cosa u otra.
+
+Básicamente lo que termina haciendo es uuia..., Escape, 1, 2 y aquí,
+aquí, ahí. El mismo ej. un poco más complejo por ahí.
+
+Pero básicamente es "s" barra lo que busco barra lo que está del otro
+lado que es lo que va a reemplazar. Entonces, busca una /RegEx/ que
+viene de otro lado la /RegEx/ bien, busca una /RegEx/ y cuando la
+encuentres, lo que encuentres que es lo que está dentro del \1 lo que
+encuentres, ponelo como resultado ahí porque no sé lo que es como es una
+/RegEx/, como va a encontrar varias cosas distintas.
+
+Ponelo ahí y ahí me construye, con la /URL/ me construye la /URL/
+propiamente dicha en /Markdown/. Y eso lo manda a un archivo temporal y
+después lo procesa línea por línea hasta que logra el resultado.
+
+Si quisiera ver cómo construyo estas reglas acá tengo las algunas
+expresiones regulares que utiliza, que estoy buscando este patrón y
+entonces si encontrás un porcentaje, un número, un tipo de versión de
+programa, horas, fechas, teclas de función como cosas específicas, como
+nombres de equipos, nombres de servicio a medida que voy tipeando y
+encuentro algo que le falta agrego la /RegEx/ lo mismo para la itálica
+yo no quiero poner itálica a todas las palabras si no algunas puntuales
+y tengo todos esos casos no más que en un archivo de texto plano, lo
+mismo palabras que me equivoco y nunca le pongo acento entonces listo,
+ya están en un listado las palabras que me equivoco siempre presiono
+=F5= y le va a poner acento y no tengo que correr el corrector de
+ortográfico y también algo que uso bastante en eso son la posibilidad de
+=snippets= [fn:vim-snipmate] entonces si yo quiero escribir una función,
+escribo =fdie= /ENTER/ y ya sale completa y pido gran parte del código o
+por ahí tengo un /Query/ y entonces ya está yo escribo como muy poquito
+y me sale entero, esa es la manera de ir acelerando todo el proceso y no
+es más que una construcción de sumatoria de comandos simples
+concatenados uno detrás de otro, no es más que eso volvamos a donde
+estábamos acá perdí creo que es ¡pi, pi, pi!
+
+** =grep=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-grep.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-grep.png]]
+
+¿Dónde está? ¡Ah! me perdí... Bueno... Estamos en /RegEx/... Bueno...
+Hicimos sorteo... Al =grep= [fn:grep] me lo comí porque dice... unclude,
+¿no?  Include... A ver...
+
+Vamos a ver un poquito de =grep=... =grep= utilizan también expresiones
+regulares, básicamente es para buscar. Acá tengo un ejemplo de... Yo
+tengo un /script/ que todo el tiempo está escaneando las /WiFi/ que
+están cerca. Y las guarda un archivo. Y eso me deja la señal, el =SSID=,
+si está protegida o no, el canal. Y la /MAC/ /Address/, digamos, de la
+red.
+
+Entonces, yo para conectarme a la red con esta compu, no uso nada. Que
+venga, hice un =script= [fn:iwpass] que se conecte, de molesto. Y en
+realidad no es de molesto, sino que una vez me pasó que el programa que
+yo usaba se topó con que en el lugar donde yo vivo, hay más de 300 APs.
+
+Entonces era muy difícil y se rompía. Entonces de esta manera, yo lo que
+hice es digo, bueno, no debe ser tan difícil. Hay un comando que busca y
+lista las redes. Las guardo en un archivo procesado, ordenado. Y después
+con una expresión regular. Que me gustan tanto. Le digo ahí con esto...
+Busca algo que sea =-= un número que empiece con =6= o con =7=. Que va a
+ser la mejor señal posible. Y que sea preferentemente =5.8=. Por la
+frecuencia. Si no encuentra eso, bueno, tengo el /fallback/ para que
+busque una =2.4=
+
+Pero entonces ya el /script/ tomó una decisión. Bueno, ya tomé la
+decisión y la puse en un /script/ que es cuando yo me quiero conectar a
+una red que tiene que tener este nivel de señal, que tiene que tener
+esta frecuencia.
+
+Inclusive puede tener algún nombre en particular. De hecho, como,
+prefiere mis redes. Hay un listado y dice, bueno, si está conectado
+desde el Celu. O agárrala el Celu. Agarra redes conocidas y no
+desconocidas.
+
+Bueno. Perdón. Y esto no es de saber. Si no, es de interés, de
+curiosidad. Che, ¿cómo podría ser esto? Busco. ¿Cómo hacer tal cosa?
+Copiar, pegar, pruebo. No me anda. Tres horas después. Busco otra vez.
+No es más que prueba y error. No es magia.
+
+Bueno. Vamos a hacer así. Hacemos un poco más rápido esto.
+
+** =jrnl=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl.png]]
+
+En esta búsqueda permanente de la mejora continua, llegué a hacer un
+/script/ que se llama =jrnl= [fn:txt-bash-jrnl] (/Journal/) que está
+inspirado en otro /script/ [fn:jrnl] que está hecho en /Python/. El mío
+está hecho en /Bash/. Con amor. Y puro /Bash/.
+
+Y básicamente lo que permite este /script/ es que yo escribo =j= o =jn=
+o =jn= algo. O =jrnl= (/Journal/) más completo. Y ya me crea en una
+estructura de directorios un archivo de texto y me abre /Vim/.
+
+Para que yo tipee cosas ahí. No es más que eso esencialmente. A medida
+que fue pasando el tiempo lo fui interconectando a otras cosas. Pero
+básicamente lo que hace es esto que vemos acá.
+
+En una estructura de directorio que es año, año-mes, año-mes-día y
+finalmente el nombre del archivo con hora, minuto y segundo, genera un
+archivo plano. Y lo que le va a hacer a ese archivo plano es solo
+ponerle este encabezado. La fecha, la hora y el minuto. Simplemente eso.
+
+¿Por qué? Porque me va a permitir que tomar notas de lo que estoy
+trabajando, lo que estoy haciendo para después poder tomarme un vino
+tranquilo y al otro día continuar con lo que estaba haciendo ayer. Y de
+una manera ordenada. Entonces yo no me tengo a preocupar de guardar
+donde está el archivo o sea configurar el /Vim/ para que se guarde solo.
+El nombre de archivo se genera solo. Y después lo que va adentro es lo
+que ustedes quieran.
+
+Yo finalmente lo llevé para el lado de /Markdown/ porque el mundo va
+para ese lado hoy. Yo antes de esto usaba =Org-mode= [fn:org-mode], que
+es algo que funciona dentro de =Emacs= [fn:emacs]. Es como un universo
+completo.
+
+Pero lo que sucedió que eso funcionaba muy bien cuando yo era
+/developer/.  Y estuve como 7 o 8 años con Org-mode. Y era fantástico.
+Pero yo de golpe pasé a ser /SysAdmin/ a tiempo completo. Y no podés
+estar todo el tiempo en una sola ventana cargando cosas.
+
+En el proyecto de /Desarrollo/ estamos hablando de cosas de meses, de
+días, semanas. Siempre /SysAdmin/ son 5 minutos y ya está todo mal.
+Entonces vos tenés que abrir =800= ventanas y no te da tiempo, para
+estar... Y además tenés agilidad algo rápido.
+
+Entonces creé esta herramienta que en principio lo único que hacía es
+abrirme un editor de texto. Yo copiaba y pegaba la salida de lo que
+había tipeado en un servidor y me olvidaba y me iba. Después al otro día
+podía buscar con =grep=, con =sed=, reemplazando cosas y siendo
+/Markdown/
+
+De hecho configuré que las terminales en mi compu se cierran
+automáticamente a los =60s=. Si yo no tipeo suficientemente rápido se
+cierra, directamente. Y eso me obliga a que, a no tipear /OneLiners/,
+sino que a esos /OneLiners/ se convierten en /scripts/ rápidamente.
+Porque si no, como se pierden.
+
+Entonces, si yo voy a crear un /journal/, bueno, puedo hacer =jrnl new=
+y un texto. Listo. Y me devuelve la ruta de donde se creó el archivo.
+Nada más. Quedé en la consola y quedo eso ahí como una marca de tiempo
+si quiere.
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl-ls.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl-ls.png]]
+
+Si listo, el journal, lo que hace es, bueno, lo va a listar de una
+manera. Primero inventé un /hash/ similar a /Git/, que básicamente ese
+/hash/ está basado en la hora y la fecha. Entonces no va a cambiar. Hay
+solo uno por minuto. No debería tener más de un /journal/ por minuto.
+
+Y esto me permite después buscarlo rápido, copiarlo, hacer operaciones
+con ese /journal/. Después tengo una barrita que va a indicar el tiempo,
+en qué momento de la hora en que está ese journal, cuánto consumí. Es
+decir, el /journal/ tiene una hora de inicio.
+
+Y va a tener un... No va a tener una hora de fin, sino que va a tener un
+tiempo que tardé en hacerlo. Y ese tiempo lo puedo poner a mano o hice
+un /script/ que dice, che si hace un rato hiciste una cosa y ahora estás
+haciendo otra, quiere decir que lo anterior lo terminaste. Y entonces le
+calcula el tiempo. O calcula el tiempo entre los dos últimos /commits/ o
+cualquier otra cosa que tenga por ahí corriendo y ya me lo pone.
+
+Después yo lo puedo cambiar es un texto, nada más. Pero ya me facilita.
+Entonces acá estoy viendo... uhia... acá estoy viendo cuánto tiempo
+tiene este journal, a qué hora empezó y a qué hora terminó.
+
+Esto acaba de suceder =16:40= no pasó nada todavía y no está corriendo
+ningún reloj. Para mí eso es lo más importante. No hay algo corriendo.
+Porque todas las aplicaciones que te llevan a que esté corriendo reloj,
+como que te obligan a estar... O sea, sos un ajedrecista, como que estás
+parando el reloj la cada rato. No puedo. Yo cambio de contexto
+rápidamente. Me olvido de lo que estoy haciendo. Yo saco el diferencial
+entre cosas que estoy haciendo y eso después me calcula la hora. Después
+si quisiera la puedo dibujar. Está buenísimo.
+
+Y si quiero ver el journal solo me muestra el texto que tiene. A ver si
+acá no... creo que no tengo nada. Ahora vamos a ver.
+
+Bueno, sobre este mismo journal, que es un montón de archivos de texto
+de mi computadora de distintas cosas, obviamente mayormente relacionadas
+con el trabajo resulta que cuando estoy trabajando en un /issue/ de algo
+que hay que solucionar un /Desarrollo/ o algo que corregir el mundo no
+usa journal, usa /GitLab/.
+
+Entonces yo lo que voy a hacer es tener que mandar esta información que
+tengo en mi blog de notas archivos =.txt=, que yo lo llamo journal y
+mandarlo a... En lugar de verlo, seleccionarlo, copiarlo, ir al /GitLab/
+pegarlo, editar, no sé, como hacer un montón de pasos que para mí ya en
+una vida de clics y tiempo, lo que hago es ejecutar pequeños comandos
+que hacen todo eso por mí.
+
+Y yo ya no tengo que pensar y lo mejor es no tener que salir de la
+consola. Entonces si yo quiero ver el último journal, hago =jrnl view=,
+o en realidad yo uso un /alias/ que es =jv=. Listo. Más rápido.
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl-view.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl-view.png]]
+
+Y de nuevo lo que hacía antes, lo interesante, la magia está en el
+/pipe/.
+
+Yo hago un /pipe/, o sea yo podría hacer =jrnl view=, mandarlo a un
+archivo agarrar ese archivo, abrirlo, copiarlo, no, como /pipe/. Eso me
+interconecta a lo que venga del otro lado.
+
+** =j2glin=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-j2glin.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-j2glin.png]]
+
+Y hice un /script/ que se llama =gl-issue-note= [fn:gl-issue-note] y
+entonces va ese =gl-issue-note=, lee un texto, interpreta que ese texto
+viene de =jrnl= y va a buscar el número de /issue/, va a verificar con
+el directorio donde estoy parado, si es el directorio del /repo/, si
+tiene una /URL/ válida, tomar el /Token/, conectarse contra /GitLab/,
+mandarle la nota, y si ese =jrnl=, que es un texto, de vuelta, tiene
+abajo sobre el final una arroba y un formato tiempo, va a decir, ah,
+este es el tiempo que tardó en hacer este /issue/.
+
+Entonces, se lo va a mandar, lo va a transformar y lo va a enviar como
+un /time/, un /"spend time"/ en /GitLab/. Entonces va a decir, yo este
+/issue/ tardé tanto tiempo en hacerlo. Y eso es de cada tarea que voy
+haciendo, se va haciendo un reporte de horas de trabajo.
+
+Y esto lo puedo simplificar, como decía, tengo como un texto largo, lo
+puedo hacer con /alias/ más cortos, yo directamente tengo un /alias/ que
+hace todo esto.=j2glin= (/Journal To GitLab Issue Note/) Pueden ponerle
+zaraza, como es su consola, pueden hacer lo que quieran.
+
+¿Y cómo se ve en el GitLab?, el =jrnl= que acabo de hacer, en el
+/GitLab/, se ve así. Está el texto que decíamos hoy antes del tema de
+las /IP/, de nombre de /host/, el nombre de una aplicación, en otro
+formato.
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl2gitlab.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl2gitlab.png]]
+
+Esto ayuda a comprender que el resto del mundo cuando lea algo se
+entienda bien, incluso yo mismo que siento que es lo que dice acá.
+
+Y además esto, dentro del =jrnl= yo escribí =atusu 261= y generó la
+/URL/ en /Markdown/ y acá se ve bonita y fue cuando lo navegas hace clic
+y te lleva a eso.
+
+Entonces, toda esta inteligencia digamos entre comillas, no fue más que
+concatenar de nuevo un /script/ tras otro de cosas que intento resolver
+en el día a día y que me llevan tiempo.
+
+** /BoxArt/
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-boxart.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-boxart.png]]
+
+Sobre esta línea de seguir trabajando sobre texto, por ejemplo, para
+documentar, una manera de documentar es escribir, hacer un bonito
+/ASCII/ /Art/. Hay una herramienta que se llama /Boxart/ [fn:boxart] y
+que te permite definir que lo que pongas entre dos corchetes se
+transforma en una cajita de texto y que si lo relacionas con otra cajita
+entienda esa relación y te vaya construyendo ese gráfico.
+
+En principio es bastante simple pero, por ejemplo, poner de esa forma es
+texto =UTF-8= dentro de un código, podés ver un diagrama, una secuencia
+simple entre dos aplicaciones, ayuda mucho a cuando estás desarrollando
+pero también podés convertirlo en un formato =dot= [fn:dot]. Un formato
+/dot/ es una herramienta que se llama /GraphViz/ que te permite hacer
+grafos muy complejos y ponerle más colorcitos y otros atributos que lo
+hace más interesante.
+
+** =graphviz=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz.png]]
+
+Pero =GraphViz= [fn:graphviz] no hace más que es un lenguaje que tiene
+dos elementos que es el nodo y el edge y puedes generar todo tipo de
+gráfico.
+
+¿Qué tipo de gráfico, por ejemplo?
+
+¡Ah! ¡Me falló! Suele pasar. No sé por qué. A ver acá.
+
+** =sugar-graphviz= [fn:sugar-graphviz]
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-sugar-graphviz.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-sugar-graphviz.png]]
+
+Hace =17= años empecé a trabajar con =SugarCRM= [fn:sugarcrm], una
+aplicación en /PHP/ y quería entender la estructura de tablas que tenía.
+Tenía un montón de tablas, yo no entendía nada. Y lo que necesitaba era
+un diagrama Entidad-Relación. Y empecé a buscar y no había nada. Había
+un montón de herramientas que te permiten dibujar un diagrama, pero a
+mano. Con clics, tipo diseño gráfico. Y yo dije, esto se puede
+solucionar de otra manera.
+
+Entonces me puse a investigar y esta aplicación en una tabla tiene la
+descripción de las relaciones porque obviamente tiene que entender cómo
+funciona a sí mismo y cómo se relaciona una cosa con otra. Y entonces
+básicamente es una tabla que tiene =8= columnas y que dice, esto se
+relaciona con esto u otro. Campo, tabla, campo, tabla.
+
+Entonces yo hice un /script/ que hace un /Query/ a la /DB/ de /MySQL/. O
+sea, es texto que busca datos y genera un texto en formato texto que
+/GraphViz/ me permitió convertirlo en este /PNG/. Y lo grafica
+/GraphViz/. Yo no hice ninguna línea de esto. Yo hice texto. De hecho es
+un /Bash/ /script/.
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz-crm.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz-crm.png]]
+
+Lo interesante de este gráfico es que yo dejé este proyecto y ahora =17=
+años después volví a un proyecto que ya no es /Sugar/,
+es =Suite= [fn:suitecrm]. Es un /Fork/ de esta aplicación. Pasaron más
+de =10= años de la última vez que lo vi. Y dije, ¿cómo habrá cambiado
+esto? Y además esto se está utilizando para un proyecto en particular
+que no era igual al otro, pero era parecido.
+
+Entonces dije, bueno, agarro ese /script/ que hice hace =17= años y se
+lo tiro a la /DB/ actual y vemos que sale. Bueno, no anduvo. Lo tuve que
+corregir. Muy poquito. Pero lo corregí y salió. Entonces ya tuve un
+=DER= [fn:der]. (/Diagrama Entidad Relación/)
+
+No solo de una tabla, sino que le puedo preguntar de cualquier tabla y
+me lo da completo de toda la aplicación.
+
+Entonces quiere decir que esto de hacer /scripts/ simples, yo uso
+/Bash/, pero puede ser /Python/, puede ser cualquier otro lenguaje de
+/script/ y mantenerlo versionado en repositorio de manera pública,
+porque esto yo lo hice público, lo liberé en su momento a toda la
+comunidad de /Suite/.
+
+Toqué muy poco, lo mejoré y lo publiqué [fn:community-suite] en el nuevo
+foro, como diciendo, mirá, hice esto si alguno le sirve. Bueno, me
+mostraron, mira, yo hice esta otra cosa que es más bonita, navegable.
+Está bien, es más completa. Pero eso me dio ideas para después mejorar
+esto. Ya lo voy a hacer.
+
+Pero una herramienta muy simple, pues no dependo de nada, porque lo que
+habían hecho es algo navegable que está ahí y está desactualizado. Esto
+está leyendo tu /DB/. Ya vos le tirás una con un usuario /password/ de
+una base de datos y te la grafica. Bueno, es una de las maneras.
+
+Y esto decía, podía salir de /BoxArt/ como simple =TXT= o un /GraphViz/,
+hacer algo más complejo.
+
+Ahí se cortó, no sé por qué. Pero vamos a buscar acá. Para que vean...
+Uh, no tengo internet. Qué mal. Se me cayó. No me anda nada. ¿Qué?
+/DNS/. Bueno, el /DNS/ está acá y puede estar apuntando a cualquier
+cosa. Vamos a confiar en CloudFare. Tampoco. Debo ser yo. Qué raro.
+¿localhost? Tampoco. Si no llego a =localhost=, está pasando algo raro.
+
+Bueno, ahora vamos a buscar el archivo. Y lo encuentro acá. Tiki Tiki.
+=IMG=. Ahí está. Web. Ahí levanto un /Python/ en el =8.8.8.8= Ahí está.
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz-filiales.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz-filiales.png]]
+
+Esto es un gráfico hecho con /GraphViz/.
+
+Esto es una representación de todas las computadoras que se administran
+en /Banco Credicoop/ [fn:bccl] Son =6300= /hosts/ [fn:bccl-graphviz] que
+los hicimos de manera automatizada con algo que se llama /AWX/, que es
+un nodito que está por acá, que es una /VM/ que controla todas las
+demás. O sea, lo que están viendo son distintas computadoras
+distribuidas por todo el país. Bueno, este gráfico no lo podría hacer a
+mano No sé. Con una herramienta por ahí, pero a mano uno por uno como
+sería muy difícil. Esto yo lo hice con /GraphViz/. Básicamente escribo
+texto, que después /GraphViz/ lo lee y lo interpreta. Después decido más
+o menos. No puedes elegir la posición, pero sí los colores y los
+atributos y más o menos como cierta relación de las distancia de los
+objetos.
+
+Y también puedes hacer otro tipo de gráficos, como este. Esto es un
+/deploy/ automatizado también con /AWX/ y /Ansible/. Este hecho entre
+varios equipos. Y también como el gráfico lo hizo /GraphViz/, solo que
+en lugar de un nodo redondo con texto, digo acá poneme un /PNG/
+transparente. Es más bonito.
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz-deploy.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz-deploy.png]]
+
+Inclusive lo que está ahí corriendo abajo, que es una línea de tiempo.
+Yo quería algo así y no encontré en ningún lado. Entonces la hice yo con
+/GraphViz/. Que es un =script= (=timeline2dot= [fn:timeline2dot]), que
+también está /Libre/. Y básicamente lo que está mostrando ahí los
+números de versión de cada /repo/ /Libre/ que fue necesario para hacer
+esta migración y durante el tiempo.
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz-timeline.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-graphviz-timeline.png]]
+
+También como hice un generador de líneas de tiempo solamente por este...
+Primero porque no soy tan bueno dibujando. Y segundo porque lo podía
+hacer con código. Eso me parece lo importante.
+
+** =jrnl ls=
+
+Volviendo acá al esquema. Algo que quería mostrar. Es... Si vemos... Acá
+no tengo ninguna /Journal list/ de hoy.
+
+Pero podemos ver los del mes. No. Tengo que estar en otro directorio.
+Acá.
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl-list.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl-list.png]]
+
+Esto es lo que voy haciendo durante el mes. Y tengo... Básicamente son
+archivos de texto que después se interpretan y se ven más bonitos.
+Bueno, si hay un /issue/ me lo colorea. Pero desde /Journal/...
+
+** =jrnl2all=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl2all.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-jrnl2all.png]]
+
+Ah, lo que me faltó acá. Ahora voy a ver. Eso es lo que me faltó. No sé
+por qué. Espera un momento. Esto está acá. Y no acá. Ahí.
+
+Desde =jrnl= lo que hice, bueno, primero era solo un comando que hablaba
+con otros comandos y procesaba texto, pero después a medida que fue
+escalando...
+
+A ver en qué. Ahí. Esto se resiste. Ahí.
+
+Lo primero que hice fue integrarlo...
+integrarlo con =Redmine= [fn:redmine-bash-utils]
+
+Entonces como /Journal/ habla con /Redmine/ por un /script/ y ese
+/script/ lo envía a /Redmine/. Entonces tengo un texto y listo. Se
+cierra un /issue/. Se actualiza el /issue/. Se envía el tiempo.
+
+Después cambié de proyecto y necesitaba usar /GitLab/. Y para llegar al
+/GitLab/ primero voy a un... Alguien hizo algo en /Python/ que se llama
+=glab= [fn:glab]. Que es que habla con /GitLab/. Y yo para usar ese hice
+un /wrapper/ que se llama =gl= [fn:gitlab-bash-utils] porque yo
+necesitaba llegar a un /GitLab/ que está detrás de una =VPN=, detrás de
+un /Proxy/ y =glab= no lo soportaba. Entonces hice un /script/, /Bash/.
+Lo que hace es exporta variables y modifica cosas en función de archivos
+dentro de cada proyecto y llega a /GitLab/ y le envía los datos. Todos
+los datos los envía desde el =jrnl=.
+
+Entonces yo del /Journal/ mando /Redmine/ mando /GitLab/.
+
+Ahora lo estoy integrando con =jk= que es un /script/ que hice yo que
+habla de nuevo con un /Python/ que se llama
+=jenkins-cli= [fn:jenkins-cli] para llegar a /Jenkins/ finalmente.
+
+Y también con /JIRA/ es más cabeza ahora solamente lo que hace es
+formatear texto. Se agarra el formato de /Markdown/, lo convierte en
+/JIRA/.
+
+Entonces yo escribo siempre en /Journal/ que es mi base de conocimiento
+y de ahí lo envío a cualquier otra plataforma.
+
+Entonces yo ahorro un montón de tiempo queda en un formato bonito que
+todo el mundo entiende y me permite /"tracear"/ el seguimiento porque a
+veces estoy haciendo cosas que son complejas y que están... o sea yo
+tengo acceso a muchos /GitLabs/ diferentes.
+
+Está el propio /gcoop/, de un cliente en particular el otro que está
+público o otro que está detrás de una =VPN= está, además, =gitlab.com= y
+todos tienen usuarios distintos, nombres distintos.
+
+Entonces bueno, de esta manera yo me abstraigo y puedo llevar adelante
+un proyecto en alguna parte dicen, bueno, pero acá creamos un /JIRA/,
+pero esto acá lo relacionamos a un /mail/ de una lista y acá esto en
+realidad está relacionado a un /Build/ de /Jenkins/.
+
+Pero después esto en nuestro /GitLab/ hicimos tal cosa.
+
+Llevar todo eso de manera ordenada es muy difícil. Hice esto para que lo
+simplifique.
+
+Y de hecho, bueno, los mails como se imaginarán, yo los uso con una
+herramienta de consola que se llama =mutt= [fn:mutt].
+
+Y entonces yo a veces escribo en =mutt= y hago que se convierta dentro
+de /Journal/ y viceversa para que sea más bonito y simple.
+
+Y lo mismo con el tema de tengo un /repo/ /Git/ vamos a verlo, el
+ejemplo va a ser más fácil.
+
+Yo acá tengo un =repo git= [fn:git-bash-utils] de esto, de utilidad de
+/GitLab/.
+
+Y resulta que, bueno, quiero no sé, quiero agarrar el último el último
+/commit/ y este /commit/, quiero mencionarlo es decir, che, en este
+/commit/ hice tal cosa de transmitirlo en un /issue/.
+
+Entonces creo que le puse =gcu= y eso lo que hace es lo convierte busca
+dentro del /repo/ que está la /URL/ y la construye para llevarte al
+/commit/ exacto y esto normalmente lo que termino haciendo es como a
+veces es como simplemente copiarlo al portapapeles y lo pego acá y
+debería debería salir andando.
+
+Le falta el formato. Ahí. Al final. Acá le mandé más más data por eso.
+Ahí le mandé texto de más.
+
+Si yo tengo /issues/ pasaría lo mismo por ejemplo estoy en un proyecto y
+digo, bueno, en este proyecto quiero saber la /URL/, tiré un comando ahí
+quiero ahora este, che dame la /URL/, no sé de un /issue/ hacémela como
+/link/, che, quiero trabajar en esta tarea bueno, entonces tengo que
+trabajar en una tarea que es la 260.
+
+Entonces escribo =jngi 260= (/jrnl new gitlab issue/) Y lo que se va a
+hacer es se va a construir un archivo de texto que cuando lo edito lo
+que hace es tener hora, fecha el contexto del proyecto con el que estoy,
+el número /issue/ y el subject del /issue/.
+
+Entonces eso me permite a mí rápidamente decir, bueno, estoy trabajando
+en esto está relacionado a tal cosa entonces puedo decir, bueno
+revisando el /Server/ =sarm2001lx= encontré tal cosa en =/etc/fstab=,
+presiono =F5= y se vuelve un poco más monono eso menos y esto es lo que
+decía decir y resulta que el =job 123= hago =F5= y se me debería
+construir ahí la /URL/ y ya está y eso como o el no sé /Jira/
+=SGTTEC-123= ponele magia ahí está y se creó solo.
+
+Entonces esto a mí me ayuda a trabajar más rápido y lo único que estoy
+haciendo es usando un editor de texto que digo que cuando presiona esta
+tecla ejecuta tal comando ahí yo le presioné =F4= y me devolvió un /PDF/
+de lo que estoy escribiendo que lo abre con otra aplicación es =mupdf= y
+entonces ven ahí que bueno se ve más bonito y además de verse más bonito
+que lo que era en mi consola si yo me paro sobre esto es un /link/
+entonces ahí está intentando ir, no va a llegar bueno tengo levantado la
+=VPN= pero llegó directo.
+
+Entonces como resumen de la charla es tienen que saco esto cuando se va
+a como no es difícil concatenar aplicaciones si todas parten de una
+consola, hay muchas aplicaciones gráficas que leen de consola en
+/GNU/Linux/ en general está separado lo que es la consola de lo que es
+la interfaz gráfica solo que hay que investigar un poquito a veces hay
+una /API/ para hablar a veces un /JSON/, a veces simplemente texto que
+sale de un lado lo lees, lo procesas y generas otra cosa.
+
+** =shellrun=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-shellrun.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-shellrun.png]]
+
+Y de hecho para esto que veíamos acá mis falsos /slides/ no son más que
+archivos de texto que yo hice un /script/ que los lee y los presenta
+porque buscaba una aplicación que haga /slides/ de consola y las que
+había no me gustaron ninguna, entonces hice una! Anda, tiene cosas que
+le fallan, pero bueno pero si básicamente la quisiéramos ver fíjense que
+mi /Slide/ es este como básicamente son dos columnas a la izquierda le
+digo un comando que puede ser un comando real de /GNU/Linux/ cualquier
+comando que se le ocurra que haya en su sistema o una función del
+/script/ que yo hice, se llama shellrun y después es texto y si quiero
+cosas locas por ejemplo esto que sale acá si lo vemos más en llano es
+como dice un comando que le decimos el título y hace eso y agarró el
+toilet que genera el =future= y le puse esas rayitas pero si además yo
+esto quiero que tenga la /URL/ =caba.flisol.org.ar= por ejemplo, listo,
+me lo puso eso ahí entonces de esa manera uno va construyendo con la
+consola lo que se te ocurra, es cuestión de hacer un comando y por
+ejemplo si yo quisiera tengo por ejemplo algo otra cosa corta este
+texto.
+
+Si uno tiene /TOCs/ yo hice un comandito Yo creo que me los alinea,
+porque son dos columnas.
+
+Pero bueno, hice un comandito que es para... para más columnas. Y
+después, cuando tenía todos cada uno de esos, que son para...
+
+Este le pifió porque es =UTF-8=, entonces no sabe el largo. Pero ya no
+es un problema mío, es un problema de las herramientas que todavía están
+luchando con =UTF-8=.
+
+Y además le puse dos... Eran tres columnas. Después le hice un comandito
+que averigua la cantidad de columnas. Y esto ya no tengo que pensar.
+
+Entonces, si esto que parece pavote, bueno, a veces ayuda para decir,
+bueno, quiero hacer en realidad una tabla... Y quiero que esto sea un
+título. Y entonces esto dice un comandito que me lo convierte y ahí me
+das el separador. Entonces esto, que es bastante rudimentario, después
+si...
+
+Empecé como texto plano, en realidad haría un /Markdown/.
+
+Si hago =F4= en un /PDF/, o sea, se debería ver un poco más bonito de
+ordenado. Ahí tiene más onda. Y esto, ¿para qué lo uso?
+
+Bueno, a veces yo necesito escribir un =SELECT id, name FROM ...= Un
+/Query/ justo. Y yo quiero que este esté de otra manera. Bueno, es un
+comando que me lo alinea para que sea más entendible.
+
+Y si esto yo lo mando a un comando que se llama =sql=, que hice yo,
+listo. Bueno, lo va a dar más formato de /Query/ y además lo va a mandar
+a la /DB/ y me va a devolver resultados.
+
+En este caso la /DB/ está caída, pero si no básicamente me va a devolver
+una tabla muy parecida al abajo, pero con los resultados de la /DB/.
+
+Entonces, si estoy haciendo un /Query/ de algo, no lo hago en el motor.
+Lo hago desde mi =jrnl=, porque me queda el registro de lo que hice, me
+autocompleta los campos y todo eso.
+
+Y después cuando tenga el valor voy a decir, ah, pero tenía este valor
+acá y después tengo este otro y lo voy relacionando.
+
+Pero no estoy haciendo más que interconectando aplicaciones existentes
+de la manera que a mí me resultó fácil y cómoda.
+
+Esto pueden hacerlo con otro lenguaje, con otras aplicaciones. Mi
+recomendación va a ser que usen alguna de consola, que por lo menos una
+parte por debajo hable de consola.
+
+Porque en el tiempo, digamos, hoy parece un esfuerzo muy grande hacer
+todo esto. Yo hace =24= años que uso /GNU/Linux/. Bueno, algunos
+/scripts/ que hice hace =24= años, bueno, hace =5= los pude mejorar
+porque aprendí un poco más. Pero eran medio cabeza y seguían funcionando
+estos últimos =20= años. Entonces, eso es lo que tiene.
+
+Como lo aprendes una vez y después no necesitas tanto tiempo en
+actualizarte. Para mejorar hay toda una vida, lo puedes hacer siempre.
+
+Y hoy en día cualquier cosa que hagas bueno, la podés buscar siempre en
+Internet una mejor manera de hacerlo simplificarlo. Lo interesante por
+ahí es simplemente si, bueno, empiezo a intentar resolver un problema de
+la manera que yo lo necesito ahora. Medio cabeza al principio, pero como
+así me gusta el resultado, listo.
+
+Uso esto a partir de ahora. Y después es hablar con el resto del mundo.
+Hoy por suerte la mayoría de las aplicaciones tienen una /API/, hablan
+=REST=, hablan /JSON/, alguna otra cosa. Entonces, simple enviarle
+datos, procesar esos datos y mantener tu esquema.
+
+Si no quieren hacer nada de todo esto por su cuenta, bueno, Org-mode en
+=Emacs= hace todo esto y muchas cosas más.
+
+Yo en este caso lo hice para /Vim/ porque me resultaba mucho más fácil y
+más rápido, sobre todo.
+
+Y no tenía que estar casado con una herramienta.
+
+Es decir, /Vim/ abre tan rápido que yo todo el tiempo estoy abriendo
+ventanas, ventanas, ventanas. Y trabajo y edito. Después se cierran
+solas. No es que estoy en un lugar con una cosa abierta en una ventana.
+Abro trabajo, resuelvo y me voy. Algo trabajo resuelvo y me voy.
+
+Puedo hacer la salida de un comando que se cree de un /Journal/, de un
+/Journal/ se genere otro.
+
+** =eventol2img=
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-eventol2img.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-eventol2img.png]]
+
+Puedo iterar sobre el resultado y de hecho, por ejemplo, para los
+grafiquitos que ven, que no serán muy bonitos, pero lo es. Los
+cronogramas de los horarios, los Flyers y todo lo que se hizo del
+/FLISoL/ lo hice yo con /scripts/ en /Bash/, que lo que hacen es van y
+buscan la información en Eventol, me devuelven texto por ejemplo, lo
+único que necesitas saber es el /ID/ de la charla.
+
+La mía es la =499=. Entonces listo, obtuve el título. Quiero saber en
+qué sala está. room. En la =1-0=.
+
+¿Quién es el autor? Bueno, y con eso puedo decir, che, bueno...
+básicamente en un archivito de texto ... básicamente lo que puse es el
+horario, la sala, un color, el /ID/, un tamaño para el texto y si el
+texto lo achica o lo agranda y de esa manera, este /script/ talks, lo
+que hace va a llamar =eventol2hs=, que lo que va a hacer es generar un
+gráfico con esa información, que va a traer el gráfico que puso el
+speaker en Eventol o la speaker y lo va a concatenar y lo va a formar
+dentro de una imagen para que se construya el flyer.
+
+Como entonces, lo que sucede es que tenemos una base de datos que es
+Eventol necesitamos hacer flyer por un lado, necesitamos hacer
+cronogramas de diferentes y en todos lados tiene que estar, coincidir
+esto, como pieza suelta quién da la charla, el título de la charla el
+horario, me faltó el piso no tenía esa información de qué piso estaba
+acá, la sala y mantener esa coherencia de información en todas las es
+muy difícil si no es un proceso automatizado, finalmente, este /script/
+lo que genera es en un directorio hs, cada piecita de imagen y después
+con otro /script/ lo que va a hacer es juntar todo eso en una gran
+imagen o varias por ejemplo, el momento que no hay charla pero en ese
+horario tiene que haber un blanco, está el blanco.
+
+Y ahí están como todos los pedacitos y por ahí en algún lado ahí ya
+agarró cada uno, los ordenó por horario entonces los concatena por un
+lado o por el otro y después te da el general. Y no es más que está
+haciendo la misma lógica como estoy leyendo una lista de un archivo,
+busco o reemplazo cosas, la concateno, bueno yo soy solo texto esto es
+lo que quiero gráfico, bueno, para generar gráfico a partir de texto uso
+=imagemagick= [fn:imagemagick], se llama, entonces si querés una imagen
+le decís =convert=, tamaño de imagen, color de fondo, listo, ya está
+querés texto, le decís texto, posición X e Y, tamaño de fuente,
+tipografía y la construye.
+
+Entonces de esta manera vos podés automatizar cosas más importantes,
+pero un ejemplo de para resolver algo simple, yo lo hice en /Bash/, se
+puede hacer en /Python/ /ImageMagick/, así que la idea de vuelta, es
+como volver al código, el código no tiene que ser muy complejo, tiene
+que ser simple, básicamente leo texto, lo proceso de alguna manera,
+itero, no hay vueltitas, programación más simple que existe, se puede
+hacer todo desde consola sin usar un mouse y tienen algo, obviamente si
+usan un mouse y saben de diseño van a hacer algo más bonito pero está
+armado el /script/ que de manera que si hay alguien que sabe diseñar me
+puede proveer de fondos más bonitos y listo, como yo lo pongo en
+transparente y va a quedar mejor, desde el año que viene va a salir
+mejor!
+
+La idea inclusive ahora en unos meses se viene el /PyCamp/ [fn:pycamp]
+que es un campamento de programación en /Python/, yo no se /Python/ pero
+me gusta el campamento, voy todas las veces que puedo, y bueno este año
+ya me comprometí que a Eventol le vamos a poner algo de esto y otras
+cosas y bueno, las tengo en /Bash/, vamos a ver si las portamos a
+/Python/ o qué, pero es como de vuelta, alguien hizo Eventol, yo hice un
+scriptcito que hace los flyers, bueno, unámoslo y que eso quede
+disponible, para que el año que viene si alguien quiere use esto ya sin
+hacerlo a mano, o si alguien quiere y puede, lo pueda mejorar y
+construye a partir de eso.
+
+Esa es la esencia del /Software/ /Libre/ en general, cada persona
+resuelve un problemita para su necesidad puntual, la publica, la libera,
+la deja disponible y el resto construimos a través de eso es
+conocimiento que se difunde y que va mejorando con el tiempo.
+
+Y yo los invito a que lo hagan por más que les parezca feo lo que estén
+haciendo, como háganlo publiquenlo, aunque sea en última instancia le va
+a servir para ustedes 10 años después que perdieron la computadora, no
+tienen ningún /Backup/ y por lo menos quedó el /repo/ público ahí,
+pueden retomar y construir a partir de eso.
+
+Y tampoco esperen que vuelva, porque nunca vuelve directamente, o sea,
+piensen ustedes cuantas cosas, cuantas herramientas, cuánto lenguaje,
+cuánto programa, cuántas veces ustedes le escribieron a la persona que
+hizo eso para decirle gracias, para reclamarle, para decirle por qué no
+anda, pocas veces, pero finalmente eso se va transformando como una
+pequeña bola de nieve que va creciendo y vuelve finalmente si vuelve a
+la comunidad a alguien que lo necesita.
+
+Para mí siempre hay que pensar de trabajar de manera indirecta, es decir
+como ustedes se van a ir de acá y mañana van a hablar con alguien y le
+van a decir, había un loco que me quemó la cabeza con unas cosas que no
+entendí nada, pero cuando les empiezan a contar, va a decir, ¡ah! qué
+interesante eso.
+
+¿Y dónde hay más información? ¿Dónde puedo ver eso? No sé, acá me dieron
+1 folleto, fíjate acá Bueno, a esa persona sí le va a interesar y le va
+a servir. A partir de eso, sirven este espacio de eventos para ir, uno
+se lleva algo, siempre aprende algo nuevo. No es que acá, creo que era
+/Juan/, no sé que me decía profe, pero yo no soy profe de nada.
+
+O sea, todo lo que sé de /GNU/Linux/ lo aprendí haciendo, aprendiendo,
+leyendo tutoriales, prueba y error. Después, obviamente, yendo a un
+montón de eventos como este, compartiendo lo que sé y aprendiendo un
+montón de las demás personas.
+
+Es un poco eso. No esperen la solución completa vayan por lo que le
+interese y los movilice y a partir de ahí construyan.
+
+Después, yo como la remera, uso =debian= [fn:debian], uso /Bash/, pero
+ustedes pueden usar lo que quieran. Gracias.
+
+** links
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-links.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-links.png]]
+
+Agregué al video el listado de links de las utilidades que se ven en los
+/slides/ para quien tenga ganas de jugar!
+
+** thanks!
+
+[[file:img/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-thanks.png][file:tmb/flisol-2024-caba/2024-04-27-flisol-2024-caba-osiux-conectando-soluciones-thanks.png]]
+
+También agregué al video la licencia /Creative Commons/ =BY-SA= porque
+/"Compartir Es Bueno"/ y de yapa incluí el link a la transcripción.
+
+** tal vez te interese leer
+
+- [[file:2023-05-12-graphviz-git-flow-full-example-with-gitlab-mr.org][Graficar ejemplo completo de integrar GitFlow y GitLab MRs]]
+- [[file:2023-04-22-flisol-caba-automatizar-para-innovar.org][Charla "Automatizar para Innovar" en FLISoL CABA 2023]]
+- [[file:2022-10-25-how-to-make-a-timeline-with-graphviz-using-timeline2dot.org][Cómo hacer una línea de tiempo con GraphViz]]
+- [[file:2022-10-20-como-migrar-6300-equipos-a-gnu-linux-usando-ansible-y-awx.org][Cómo migrar 6300 equipos a GNU/Linux usando Ansible y AWX]]
+- [[file:2022-08-21-howto-use-gitlab-from-command-line.org][cómo usar /GitLab/ desde la línea de comandos]]
+- [[file:2021-03-28-tarea-en-progreso.org][tarea en progreso]]
+- [[file:2021-03-08-quien-necesita-mas-de-64-redes-cerca.org][quién necesita mas de 64 redes WiFi cerca? ]]
+- [[file:2014-04-28-semana-negra.org][Semana Negra - Sobrevivir en la shell]]
+- [[file:imagenes-magicas-imagemagick.org][imágenes mágicas | imagemagick]]
+
+[fn:flisol-2024]         https://eventol.flisol.org.ar/events/flisol-caba-24/
+[fn:osiux-blog]          https://osiux.com/
+[fn:gcoop]               https://www.gcoop.coop/
+[fn:rms-sl]              https://endefensadelsl.org/que_es_el_software_libre.html
+[fn:unixway]             https://es.wikipedia.org/wiki/Filosofía_de_Unix
+[fn:KISS]                https://es.m.wikipedia.org/wiki/Principio_KISS
+[fn:awesome]             https://osiux.com/awesome-es-increible.html
+[fn:i3]                  https://i3wm.org/
+[fn:bash]                https://www.gnu.org/software/bash/
+[fn:vim]                 https://www.vim.org/
+[fn:vim-coc]             https://github.com/neoclide/coc.nvim
+[fn:git]                 https://git-scm.com/
+[fn:sed]                 https://sed.sourceforge.io/
+[fn:markdown]            https://www.markdownguide.org/
+[fn:regex]               https://regexlearn.com/
+[fn:jq]                  https://github.com/jqlang/jq
+[fn:eventol2shuf]        https://gitlab.com/osiux/eventol-tools
+[fn:gpl]                 https://en.wikipedia.org/wiki/GNU_General_Public_License
+[fn:toilet]              http://caca.zoy.org/wiki/toilet
+[fn:pipe]                https://en.wikipedia.org/wiki/Pipeline_(Unix)
+[fn:yq]                  https://github.com/mikefarah/yq
+[fn:txt2md]              https://gitlab.com/osiux/md-bash-utils
+[fn:rfc822]              https://datatracker.ietf.org/doc/html/rfc822
+[fn:vim-snipmate]        https://github.com/garbas/vim-snipmate
+[fn:grep]                https://www.gnu.org/software/grep/
+[fn:iwpass]              https://gitlab.com/osiux/pass-utils/-/raw/master/iwpass
+[fn:txt-bash-jrnl]       https://gitlab.com/osiux/txt-bash-jrnl/
+[fn:jrnl]                http://jrnl.sh/
+[fn:org-mode]            https://orgmode.org/
+[fn:emacs]               https://www.gnu.org/software/emacs/
+[fn:gl-issue-note]       https://gitlab.com/osiux/gitlab-bash-utils/-/raw/master/gl-mr-note
+[fn:boxart]              https://github.com/ironcamel/Graph-Easy
+[fn:graphviz]            https://graphviz.org/
+[fn:dot]                 https://graphviz.org/doc/info/lang.html
+[fn:sugar-graphviz]      https://gitlab.com/osiux/sugar-graphviz
+[fn:sugarcrm]            https://en.wikipedia.org/wiki/SugarCRM
+[fn:suitecrm]            https://suitecrm.com/
+[fn:der]                 https://es.wikipedia.org/wiki/Modelo_entidad-relación
+[fn:community-suite]     https://community.suitecrm.com/t/draw-entity-relationship-diagram-of-suitecrm-modules-including-custom-tables/92079
+[fn:bccl]                https://www.bancocredicoop.coop/
+[fn:bccl-graphviz]       http://filiales-gnu-linux.osiux.com/prd.html
+[fn:timeline2dot]        https://gitlab.com/osiux/timeline2dot.git
+[fn:redmine-bash-utils]  https://gitlab.com/osiux/redmine-bash-utils
+[fn:gitlab-bash-utils]   https://gitlab.com/osiux/gitlab-bash-utils
+[fn:glab]                https://github.com/profclems/glab
+[fn:jenkins-cli]         https://github.com/LD250/jenkins-cli-python
+[fn:mutt]                http://www.mutt.org/
+[fn:git-bash-utils]      https://gitlab.com/osiux/gitlab-bash-utils
+[fn:imagemagick]         https://imagemagick.org/
+[fn:eventol]             https://github.com/EventoL/EventoL
+[fn:pycamp]              https://wiki.python.org.ar/pycamp/
+[fn:debian]              https://www.debian.org/
