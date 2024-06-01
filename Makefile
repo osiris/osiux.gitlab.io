@@ -69,7 +69,12 @@ gemini:
 
 markdown:
 	export PATH="$$HOME/bin:$$PATH";for i in *.org;do org2md "$$i";done
+	gzip card.md
+	gzip qr.md
 	mv *.md  public
+	gunzip card.md
+	gunzip qr.md
+
 
 prose:
 	for i in *.org;do org2prose.sh "$$i";done
