@@ -106,7 +106,7 @@ publish:
 	./publish.sh
 
 tar_gz:
-	cd public && tar --exclude osiux.tar.gz --exclude '*~' -czf ../osiux.tar.gz . && mv ../osiux.tar.gz . && md5sum osiux.tar.gz | tee osiux.tar.gz.md5
+	cd public && tar --exclude osiux.tar.gz --exclude osiux.tar.gz.md5 --exclude '*~' -czf ../osiux.tar.gz . && mv ../osiux.tar.gz . && md5sum osiux.tar.gz | tee osiux.tar.gz.md5
 
 www:
 	./public2www.sh
