@@ -5,7 +5,7 @@
 #+LANGUAGE:    es
 #+LINK_HOME:   index.html
 #+INCLUDE:     header.org
-#+KEYWORDS:    Bash, Boxart, Charla, Consola, Debian, Eventol, FLISoL, Git, GraphViz, grep, ImageMagick, Journal, jq, jrnl, JSON, Linux, Markdown, RegEx, shellrun, Shellrun, Talk, Terminal, TTY, txt2md, Vim, yq
+#+KEYWORDS:    Bash, Boxart, Charla, Consola, Debian, Eventol, FLISoL, Git, GraphViz, grep, ImageMagick, Journal, jq, jrnl, JSON, Linux, Markdown, RegEx, Shellrun, Talk, Terminal, TTY, txt2md, Vim, yq
 #+DATE:        2024-04-27 16:00
 #+HTML_HEAD:   <meta property="og:title" content="Conectando Soluciones en FLISoL CABA 2024" />
 #+HTML_HEAD:   <meta property="og:description" content="Transcripción de la charla Conectando Soluciones de OSiUX en FLISoL CABA 2024" />
@@ -1246,7 +1246,9 @@ También agregué al video la licencia /Creative Commons/ =BY-SA= porque
 [fn:debian]              https://www.debian.org/
 
 
+
 ** ChangeLog
 
-  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/c2e66a4b86e91dee5767053adabbba4b72b1139a][=2024-06-01 15:31=]] agregar subtitulos en español a /Conectando Soluciones en FLISoL CABA 2024/
-  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/a2a203b9fa54b66687c2f11ab1ec7575787416d6][=2024-05-31 22:16=]] agregar /Conectando Soluciones en FLISoL CABA 2024/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/0cb6534383b946ec2b5cdca5f44bea53e2a93805][=2024-06-01 21:43=]] quitar comillas de la descripció de OpenGraph en /Conectando Soluciones en FLISoL CABA 2024/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/e6a29739d12a5c75e8ced00b3c0fc7811cd2a4e9][=2024-06-01 15:59=]] agregar subtitulos en español a /Conectando Soluciones en FLISoL CABA 2024/
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/ee5f838b45575a4a3845c71b483a7e06e95cfad0][=2024-06-01 15:59=]] agregar /Conectando Soluciones en FLISoL CABA 2024/
