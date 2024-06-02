@@ -72,8 +72,8 @@ markdown:
 	gzip card.md
 	gzip qr.md
 	mv *.md  public
-	gunzip card.md
-	gunzip qr.md
+	gunzip card.md.gz
+	gunzip qr.md.gz
 
 
 prose:
