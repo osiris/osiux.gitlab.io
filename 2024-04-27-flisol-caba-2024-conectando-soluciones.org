@@ -8,7 +8,7 @@
 #+KEYWORDS:    Bash, Boxart, Charla, Consola, Debian, Eventol, FLISoL, Git, GraphViz, grep, ImageMagick, Journal, jq, jrnl, JSON, Linux, Markdown, RegEx, shellrun, Shellrun, Talk, Terminal, TTY, txt2md, Vim, yq
 #+DATE:        2024-04-27 16:00
 #+HTML_HEAD:   <meta property="og:title" content="Conectando Soluciones en FLISoL CABA 2024" />
-#+HTML_HEAD:   <meta property="og:description" content="Transcripción de la charla "Conectando Soluciones" de OSiUX en FLISoL CABA 2024" />
+#+HTML_HEAD:   <meta property="og:description" content="Transcripción de la charla Conectando Soluciones de OSiUX en FLISoL CABA 2024" />
 #+HTML_HEAD:   <meta property="og:type" content="article" />
 #+HTML_HEAD:   <meta property="og:article:published_time" content="2024-04-27" />
 #+HTML_HEAD:   <meta property="og:article:author" content="Osiris Alejandro Gomez" />
