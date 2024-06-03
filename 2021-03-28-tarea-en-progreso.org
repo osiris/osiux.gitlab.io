@@ -62,7 +62,7 @@ problema con otro enfoque.
 
 ** la salida es colectiva
 
-De nada sirve iniciar la tarea y 2 o 3 días después comentar que no
+De nada sirve iniciar la tarea y 2 o 3 días después comentar que
 tuviste varios errores, te trabaste y no podiste resolverla o por el
 contraro que si la pudiste resolver y sin ningún comentario simplemente
 la cambiás a =Resuelta=, en ambos casos no estas permitiendo una
@@ -142,9 +142,8 @@ interactué con la /API/ de /Redmine/ sobre un issue en particular.
 [fn:redmine]             https://redmine.org/
 [fn:redmine-bash-utils]  https://gitlab.com/osiux/redmine-bash-utils
 [fn:txt-bash-jrnl]       https://gitlab.com/osiux/txt-bash-jrnl
-[fn:redmine-history]     https://gitlab.com/osiux/git-bash-utils/-/raw/master/redmine-history
-[fn:redmine-timediff]    https://gitlab.com/osiux/git-bash-utils/-/raw/master/redmine-timediff-last-comment
-
+[fn:redmine-history]     https://gitlab.com/osiux/redmine-bash-utils/-/raw/master/redmine-history
+[fn:redmine-timediff]    https://gitlab.com/osiux/redmine-bash-utils/-/raw/master/redmine-timediff-last-comment
 
 ** ChangeLog
 
