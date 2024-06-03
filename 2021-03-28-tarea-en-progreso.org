@@ -145,7 +145,9 @@ interactué con la /API/ de /Redmine/ sobre un issue en particular.
 [fn:redmine-history]     https://gitlab.com/osiux/redmine-bash-utils/-/raw/master/redmine-history
 [fn:redmine-timediff]    https://gitlab.com/osiux/redmine-bash-utils/-/raw/master/redmine-timediff-last-comment
 
+
 ** ChangeLog
 
+  - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/2c1ec5d92cc3e96a32406fd1d60b7f99fbbca9c0][=2024-06-03 20:10=]] quitar negación innecesaria y corregir links de redmine-history y redmine-timediff-last-comment en actualizar /tarea en progreso/
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/bf3a61526ad2a73cecb77a18995f1d63494e3664][=2022-11-13 20:39=]] agregar y actualizar tags OpenGraph
   - [[https://gitlab.com/osiux/osiux.gitlab.io/-/commit/6568082e45b5c05089ebb033efdd033ea5d0c7fa][=2021-03-31 14:58=]] agregar /tarea en progreso/
